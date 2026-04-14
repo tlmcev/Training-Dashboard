@@ -28,7 +28,7 @@ for a in raw_activities:
 
 # 3. Setup Gemini
 genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
-model = genai.GenerativeModel('gemini-1.5-flash') # Using 1.5 Flash is often more stable for free tier
+model = genai.GenerativeModel('gemini-1.5-flash-latest') # Using 1.5 Flash is often more stable for free tier
 
 # 4. The Coaching Prompt
 prompt = f"Analyze these 5 runs for a marathoner: {clean_data}. Give me a 3-sentence coaching tip."
