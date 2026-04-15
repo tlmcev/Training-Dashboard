@@ -2,19 +2,16 @@ import requests
 import os
 import json
 
-# Define variables
+# 1. Setup Variables
 miles = 12.5 
 api_key = os.getenv("GEMINI_API_KEY")
 
-# CHECKPOINT 1: API Key
 if not api_key:
-    print("ERROR: GEMINI_API_KEY is missing from the environment.")
+    print("ERROR: GEMINI_API_KEY is not set.")
     exit(1)
-# Add this temporary debug block to coach.py to see what you ARE allowed to use
-list_url = f"https://generativelanguage.googleapis.com/v1/models?key={api_key}"
-models = requests.get(list_url).json()
-print("MODELS ACCESSIBLE BY THIS KEY:")
-print(json.dumps(models, indent=2))
+
+# 2. Set the URL (Using the 2.5 Flash model found in your debug log)
+url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key={api_key}"
 
 headers = {'Content-Type': 'application/json'}
 data = {
@@ -23,26 +20,25 @@ data = {
     }]
 }
 
-# CHECKPOINT 2: API Request
-print("Sending request to Gemini...")
+# 3. Execute
+print("Sending request to Gemini 2.5 Flash...")
 response = requests.post(url, headers=headers, data=json.dumps(data))
 print(f"API Response Status: {response.status_code}")
 
-# CHECKPOINT 3: File Writing
 if response.status_code == 200:
     try:
         result = response.json()
+        # Extract the text from the response
         advice = result['candidates'][0]['content']['parts'][0]['text']
+        print(f"Advice generated: {advice[:50]}...")
         
-        # We use an absolute path to ensure it's in the root
-        file_path = os.path.join(os.getcwd(), "latest_advice.txt")
-        print(f"Attempting to write file to: {file_path}")
-        
-        with open(file_path, "w") as f:
+        # Write to the file for the Dashboard
+        with open("latest_advice.txt", "w") as f:
             f.write(advice)
-        print("SUCCESS: File 'latest_advice.txt' has been created.")
+        print("SUCCESS: latest_advice.txt created.")
         
     except Exception as e:
-        print(f"ERROR: Failed to process JSON or write file: {e}")
+        print(f"ERROR processing response: {e}")
 else:
-    print(f"ERROR: API returned {response.status_code}. Content: {response.text}")
+    print(f"API ERROR Content: {response.text}")
+    exit(1)
