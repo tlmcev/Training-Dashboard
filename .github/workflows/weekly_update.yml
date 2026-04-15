@@ -22,10 +22,3 @@ jobs:
           pip install requests google-generativeai
           python coach.py
           
-- name: Commit and push if changed
-      run: |
-        git config --global user.name 'GitHub Action'
-        git config --global user.email 'action@github.com'
-        git add latest_advice.txt
-        git commit -m "Update coaching advice" || exit 0
-        git push
