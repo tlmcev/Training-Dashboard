@@ -1,24 +1,40 @@
-name: Weekly Run Analysis
-on:
-  schedule:
-    - cron: '0 9 * * 1' # Runs at 9:00 AM every Monday
-  workflow_dispatch: # Allows you to run it manually for testing
+name: Training Dashboard Sync
 
+# 1. Triggers (When the script runs)
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 20 * * *' # Runs at 8:00 PM daily
+
+# 2. Permissions (Must be at the top level)
+permissions:
+  contents: write
+
+# 3. Jobs (The actual tasks)
 jobs:
-  analyze:
+  run-coach:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
+
       - name: Set up Python
-        uses: actions/setup-python@v6
-        with: {python-version: '3.11'}
-      - name: Run Coach
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Coach Script
         env:
-          STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
-          STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
-          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python coach.py
+
+      - name: Commit and Push Advice
         run: |
-          pip install requests google-generativeai
-          python coach.py
-          
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add latest_advice.txt
+          git commit -m "Update coaching advice" || echo "No changes to commit"
+          git push
