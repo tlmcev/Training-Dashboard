@@ -1,4 +1,4 @@
-name: Training Dashboard Sync
+name: Training Dashboard 
 
 # 1. Triggers (When the script runs)
 on:
