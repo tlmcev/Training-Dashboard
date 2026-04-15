@@ -1,3 +1,21 @@
+def get_strava_data():
+    auth_url = "https://www.strava.com/oauth/token"
+    data_url = f"https://www.strava.com/api/v3/athletes/{athlete_id}/stats" # You'll need your athlete ID
+    
+    # Get a fresh Access Token
+    res = requests.post(auth_url, data={
+        'client_id': os.environ['STRAVA_CLIENT_ID'],
+        'client_secret': os.environ['STRAVA_CLIENT_SECRET'],
+        'refresh_token': os.environ['STRAVA_REFRESH_TOKEN'],
+        'grant_type': 'refresh_token'
+    })
+    access_token = res.json()['access_token']
+    
+    # Get your stats
+    header = {'Authorization': f"Bearer {access_token}"}
+    stats = requests.get(data_url, headers=header).json()
+    return stats['recent_run_totals']['distance'] # Returns meters
+    
 import requests
 import os
 import json
@@ -14,7 +32,9 @@ headers = {
 
 data = {
     "contents": [{
-        "parts": [{"text": "Analyze my recent Strava data and give me 3 sentences of coaching advice."}]
+        "parts": [{
+            "text": f"I ran {miles} miles this week. Given I have a half marathon this Sunday, give me 3 sentences of specific coaching advice."
+        }]
     }]
 }
 
