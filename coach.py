@@ -10,8 +10,11 @@ api_key = os.getenv("GEMINI_API_KEY")
 if not api_key:
     print("ERROR: GEMINI_API_KEY is missing from the environment.")
     exit(1)
-# Using the specific version-pinned model name
-url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash-001:generateContent?key={api_key}"
+# Add this temporary debug block to coach.py to see what you ARE allowed to use
+list_url = f"https://generativelanguage.googleapis.com/v1/models?key={api_key}"
+models = requests.get(list_url).json()
+print("MODELS ACCESSIBLE BY THIS KEY:")
+print(json.dumps(models, indent=2))
 
 headers = {'Content-Type': 'application/json'}
 data = {
