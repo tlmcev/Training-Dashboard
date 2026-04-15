@@ -1,17 +1,17 @@
 import google.generativeai as genai
 import os
 
-# This is the secret sauce for Tier 1 users on the legacy library
-from google.generativeai.types import RequestOptions
-
+# Configure the library with your key
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
-model = genai.GenerativeModel('gemini-1.5-flash')
+# We specify the model. By using the 'models/' prefix, 
+# we help the library route the request correctly.
+model = genai.GenerativeModel('models/gemini-1.5-flash')
 
-# We explicitly tell it to use 'v1' to match your Tier 1 quota
+# We'll skip the RequestOptions entirely and let the 
+# Tier 1 key naturally hit the v1 production endpoint.
 response = model.generate_content(
-    "Analyze my Strava data and give me 3 sentences of coaching advice.",
-    request_options=RequestOptions(api_version='v1')
+    "Analyze my recent Strava data and give me 3 sentences of coaching advice."
 )
 
 print(response.text)
