@@ -28,9 +28,8 @@ response = requests.post(url, headers=headers, data=json.dumps(data))
 if response.status_code == 200:
     result = response.json()
     advice = result['candidates'][0]['content']['parts'][0]['text']
-    print(advice)
     
-    # This part prepares for the "Dashboard View" point we discussed
+    # Ensure this filename is exactly: latest_advice.txt
     with open("latest_advice.txt", "w") as f:
         f.write(advice)
 else:
