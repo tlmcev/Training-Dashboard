@@ -10,7 +10,8 @@ api_key = os.getenv("GEMINI_API_KEY")
 if not api_key:
     print("ERROR: GEMINI_API_KEY is missing from the environment.")
     exit(1)
-url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={api_key}"
+# Using the specific version-pinned model name
+url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash-001:generateContent?key={api_key}"
 
 headers = {'Content-Type': 'application/json'}
 data = {
