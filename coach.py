@@ -47,3 +47,6 @@ if response.status_code == 200:
 else:
     print(f"Error: {response.status_code}")
     print(response.text)
+    advice = result['candidates'][0]['content']['parts'][0]['text']
+with open("latest_advice.txt", "w") as f:
+    f.write(f"### 🏃‍♂️ Weekly Taper Advice\n\n{advice}")
