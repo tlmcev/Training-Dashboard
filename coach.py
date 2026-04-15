@@ -25,12 +25,18 @@ data = {
 # --- 3. THE EXECUTION ---
 response = requests.post(url, headers=headers, data=json.dumps(data))
 
+print(f"API Response Status: {response.status_code}")
+
 if response.status_code == 200:
     result = response.json()
-    advice = result['candidates'][0]['content']['parts'][0]['text']
-    
-    # Ensure this filename is exactly: latest_advice.txt
-    with open("latest_advice.txt", "w") as f:
-        f.write(advice)
+    # Safely extract advice
+    try:
+        advice = result['candidates'][0]['content']['parts'][0]['text']
+        print("Success! Writing to file...")
+        with open("latest_advice.txt", "w") as f:
+            f.write(advice)
+    except (KeyError, IndexError):
+        print("Error: The API response format was unexpected.")
+        print(json.dumps(result, indent=2))
 else:
-    print(f"Error: {response.status_code}")
+    print(f"API Error Content: {response.text}")
