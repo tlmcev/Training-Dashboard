@@ -28,7 +28,10 @@ jobs:
 
       - name: Run Coach Script
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+            GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+            STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
+            STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+            STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
         run: python coach.py
 
       - name: Commit and Push Advice
