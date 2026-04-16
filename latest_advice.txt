@@ -1,1 +1,41 @@
-Fantastic work covering 12.5 miles this week; to solidify this base, aim to maintain this volume for another week or gently increase by no more than 1-2 miles. To optimize your training, ensure at least one run is at a slow, conversational pace and consider adding a few short strides or tempo intervals to another. Crucially, prioritize active recovery like foam rolling or stretching, and listen closely to your body for any persistent aches to prevent potential injuries.
+Here's an analysis of your recent Strava activities and a recommended workout plan:
+
+### 1. Most Recent Activity Analysis
+
+Your most recent activity, **"Evening Shakeout" on 2026-04-13**, was a **Ride** lasting **15.33 minutes** with a reported distance of **0.0 km**.
+
+**Intensity and Stats:**
+Given the 0.0 km distance, this was likely an indoor stationary bike session or a very short, unrecorded outdoor spin. The name "Shakeout" strongly suggests a low-intensity, recovery-focused effort. This is a smart choice following your Cherry Blossom 10 Mile race the day before, designed to promote blood flow, loosen muscles, and aid recovery without adding further stress to your body. As there's no distance, no pace or speed can be calculated, confirming its likely non-performance-oriented nature.
+
+### 2. Volume and Effort Comparison: Past Week vs. Week Prior
+
+To provide a clear comparison, let's define the two weeks based on your activity dates:
+
+*   **Week 1 (Prior Week):** 2026-04-03 to 2026-04-06 (4 days of recorded activities)
+*   **Week 2 (Most Recent Week):** 2026-04-07 to 2026-04-13 (7 days of recorded activities)
+
+| Metric              | Week 1 (04/03 - 04/06)        | Week 2 (04/07 - 04/13)                 | Analysis                                                                                                                                                                                                                                      |
+| :------------------ | :---------------------------- | :------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Total Activities**| 2 (all Runs)                  | 5 (3 Runs, 1 Hike, 1 Ride)             | You significantly increased your activity frequency in Week 2, incorporating a hike and a recovery ride.                                                                                                                                        |
+| **Total Distance**  | 21.18 km (all Runs)           | 33.46 km (26.65 km Run, 6.81 km Hike) | There was a substantial increase in overall distance, particularly due to the 10-mile race and the hike in Week 2.                                                                                                                            |
+| **Total Moving Time**| 119.62 min (~2 hours)         | 266.76 min (~4 hours 27 min)           | Your total time spent active more than doubled in Week 2, indicating a significant increase in overall training volume.                                                                                                                      |
+| **Average Run Pace**| ~5:38 min/km                  | ~5:35 min/km (excluding race: ~5:54 min/km) | While the overall average run pace for Week 2 appears similar, this is heavily skewed by the **Cherry Blossom 10 Mile race** (16.4 km at 5:24 min/km), which was run at a significantly higher effort than your other runs. The other runs in Week 2 were slower and likely easier efforts (~5:54 min/km). |
+| **Effort Assessment**| Week 1 showed consistent, moderate-to-long runs. | Week 2 was significantly higher in effort due to the **Cherry Blossom 10 Mile race**, which was your fastest paced activity across both weeks. The inclusion of a long hike also added to the overall physical load. The week concluded with a much-needed recovery ride. |
+
+**Summary:** Week 2 represents a significant step up in both volume and intensity, largely driven by the 10-mile race. You transitioned from a consistent running schedule in Week 1 to a more varied and challenging week that included a high-effort race and cross-training.
+
+### 3. Recommended Workout Plan for the Upcoming Week
+
+Given the recent 10-mile race and the increased volume/effort in the last week, the upcoming week should prioritize recovery and a gradual return to training to prevent overtraining or injury. We'll focus on active recovery and easy efforts, with a slow build-up towards the end of the week.
+
+Here is a structured plan for the upcoming week (starting 2026-04-14):
+
+| Day         | Activity Type      | Description                                                                                                                                                                                                |
+| :---------- | :----------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Monday**  | **Rest**           | **Complete Rest:** Allow your body to fully recover after the race. Focus on hydration and good nutrition.                                                                                                 |
+| **Tuesday** | **Active Recovery**| **Easy Walk or Light Cycling (30-45 min):** Very low intensity, conversational pace. This helps promote blood flow without stressing your muscles or joints. Avoid anything strenuous.                         |
+| **Wednesday** | **Easy Run**       | **Easy Run (4-5 km):** Focus on a very comfortable, conversational pace. Listen to your body – if you're still feeling fatigued, keep it shorter or opt for another walk.                                |
+| **Thursday**| **Rest / Core**    | **Rest or Light Core/Stretching:** If you feel good, do 20-30 minutes of gentle core exercises and stretching to improve flexibility and stability. Otherwise, take another full rest day.                 |
+| **Friday**  | **Easy-Moderate Run**| **Progression Run (6-7 km):** Start at an easy pace and gradually pick it up to a moderate, but still comfortable, effort for the last 15-20 minutes. Finish with 4-6 x 30-second strides at a fast but controlled pace. |
+| **Saturday**| **Cross-Train / Walk**| **Hike or Bike (45-60 min):** Enjoy a longer, low-impact activity. This could be a leisurely hike, a steady bike ride, or even swimming. Keep it fun and low-pressure.                                  |
+| **Sunday**  | **Long Easy Run**  | **Long Easy Run (8-10 km):** Maintain a slow, steady, and conversational pace for the entire duration. This is about building aerobic endurance, not speed.                                              |
