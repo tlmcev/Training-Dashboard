@@ -69,12 +69,36 @@ data = {
 
 response = requests.post(gemini_url, json=data)
 
+# ... (rest of your script above remains the same) ...
+
 if response.status_code == 200:
-    result = response.json()
-    advice = result['candidates'][0]['content']['parts'][0]['text']
-    
-    with open("latest_advice.txt", "w") as f:
-        f.write(advice)
-    print("SUCCESS: Analysis generated from live Strava data.")
+    try:
+        result = response.json()
+        candidate = result['candidates'][0]
+        
+        # Check if the response was blocked by safety filters
+        if candidate.get('finishReason') == 'SAFETY':
+            print("ERROR: Response was blocked by safety filters.")
+            exit(1)
+
+        # Gemini 2.5 often includes 'parts'. Let's find the text part.
+        content_parts = candidate.get('content', {}).get('parts', [])
+        
+        # Look specifically for the 'text' key in any of the parts
+        advice = next((part['text'] for part in content_parts if 'text' in part), None)
+
+        if advice:
+            print(f"Advice generated: {advice[:50]}...")
+            with open("latest_advice.txt", "w") as f:
+                f.write(advice)
+            print("SUCCESS: latest_advice.txt created.")
+        else:
+            print("ERROR: No text found in the response parts.")
+            print(json.dumps(result, indent=2)) # Print the whole thing so we can see the structure
+            
+    except Exception as e:
+        print(f"ERROR processing response: {e}")
+        print("Full API Response for debugging:")
+        print(json.dumps(response.json(), indent=2))
 else:
-    print(f"API Error: {response.status_code} - {response.text}")
+    print(f"API ERROR: {response.status_code} - {response.text}")
