@@ -1,54 +1,44 @@
 Here's an analysis of your recent Strava activities and a recommended workout plan:
 
-### 1. Analysis of the Most Recent Activity
+### 1. Most Recent Activity Analysis
 
-Your most recent activity, **"Evening Shakeout"** on 2026-04-13 at 18:10:48Z, was a **Ride** with a duration of **15.33 minutes** and a distance of **0.0 km**.
+Your most recent activity, **"Evening Shakeout" on 2026-04-13**, was recorded as a Ride.
+*   **Stats:** 0.0 km distance, 15.33 minutes moving time.
+*   **Intensity:** Given the 0.0 km distance over 15 minutes, this activity was extremely low intensity. The name "Shakeout" strongly suggests it was a very light, recovery-focused session, likely on a stationary bike or a very gentle outdoor ride where distance wasn't recorded (perhaps due to GPS issues or a very short loop). This is an appropriate activity to aid recovery, especially following your Cherry Blossom 10 Mile race the day before.
 
-*   **Intensity & Stats:** Given the zero distance and the name "Shakeout," this activity was clearly intended as an **active recovery** session. It suggests a very low-intensity effort, likely on a stationary bike or a short, unrecorded spin, aimed at promoting blood flow and reducing muscle stiffness after your "Cherry Blossom 10 Mile" race earlier that day. No pace or speed can be calculated due to the lack of distance, but the context strongly indicates a recovery focus.
+### 2. Volume and Effort Comparison (Past Week vs. Week Prior)
 
-### 2. Comparison of Volume and Effort (Past Week vs. Week Prior)
+Let's break down your activities into two weeks, with the "Past Week" ending on April 13th and the "Week Prior" covering the preceding 7 days.
 
-Let's define the weeks:
-*   **Past Week (Week 2):** April 7th - April 13th, 2026
-*   **Week Prior (Week 1):** April 3rd - April 6th, 2026 (based on available data)
+**Week Prior (2026-04-03 to 2026-04-06):**
+*   **Running Volume:** 2 activities, totaling **21.18 km** and **119.62 minutes**.
+    *   Activities: A 6.68 km run (5:45 min/km pace) and a 14.5 km run (5:36 min/km pace).
+*   **Average Run Pace:** Approximately 5:39 min/km.
+*   **Overall Effort:** This week showed consistent running with a solid long run (14.5 km) and good average paces, indicating steady endurance work.
 
-**Week 1 (April 3rd - April 6th):**
-
-*   **Activities:** 2 Runs
-*   **Total Run Distance:** 21.18 km
-*   **Total Run Moving Time:** 119.62 min
-*   **Average Run Pace:** Approximately 5:39 min/km (5.65 min/km)
-*   **Longest Run:** 14.5 km in 81.2 min (approx. 5:36 min/km pace)
-
-**Week 2 (April 7th - April 13th):**
-
-*   **Activities:** 3 Runs, 1 Hike, 1 Ride (recovery)
-*   **Total Run Distance:** 26.65 km (including a 16.4 km race)
-*   **Total Run Moving Time:** 149.0 min
-*   **Average Run Pace:** Approximately 5:35 min/km (5.59 min/km)
-*   **Longest Run:** 16.4 km (Cherry Blossom 10 Mile) in 88.5 min (approx. 5:24 min/km pace)
-*   **Total Overall Distance (including hike):** 33.46 km
-*   **Total Overall Moving Time (including hike & recovery ride):** 266.76 min
+**Past Week (2026-04-07 to 2026-04-13):**
+*   **Running Volume:** 3 activities, totaling **26.65 km** and **149.0 minutes**.
+    *   Activities: A 4.95 km run (5:54 min/km), a 5.3 km run (5:54 min/km), and the **Cherry Blossom 10 Mile race (16.4 km at a strong 5:24 min/km pace)**.
+*   **Hiking Volume:** 1 activity, totaling **6.81 km** and **102.43 minutes**.
+*   **Riding Volume:** 1 activity, totaling **0.0 km** and **15.33 minutes** (shakeout ride).
+*   **Overall Running Effort:** This week was significantly more demanding for running due to the **Cherry Blossom 10 Mile race**. The race pace was your fastest recorded over the last two weeks, demonstrating a high-effort performance. The two shorter runs earlier in the week were at a slower, more conversational pace, suggesting they were easy/recovery runs leading up to the race.
+*   **Cross-training:** You incorporated a substantial hike (over 1.5 hours) and a very light recovery ride, showing good variation in activity types.
 
 **Comparison Summary:**
+The **past week saw a higher overall running volume** (26.65 km vs 21.18 km) and included a **high-intensity race effort**, making it the more challenging week in terms of exertion. The week prior was consistent with solid training runs. You effectively used slower, shorter runs as taper/recovery leading into the race and a shakeout ride for immediate post-race recovery.
 
-*   **Running Volume:** You significantly increased your running distance in Week 2 (26.65 km) compared to Week 1 (21.18 km), mainly due to the "Cherry Blossom 10 Mile" race.
-*   **Running Effort:** Your average running pace remained consistent, with Week 2 being slightly faster overall. The 10-mile race pace (5:24 min/km) was a strong effort, faster than your longest run in Week 1.
-*   **Overall Volume:** Week 2 showed a substantial increase in total activity. You almost doubled your total moving time (266.76 min vs. 119.62 min), largely attributed to the addition of a significant hike (6.81 km, 102.43 min) and the longer run/race.
-*   **Conclusion:** The past week was a high-volume and high-effort week, capped by a 10-mile race, indicating a good fitness level and a willingness to push.
+### 3. Workout Plan for the Upcoming Week
 
-### 3. Recommended Structured Workout Plan for the Upcoming Week
+Considering you just completed a 10-mile race, the upcoming week should prioritize recovery while gently reintroducing consistent training. The goal is to let your body recover, maintain fitness, and avoid overtraining.
 
-Given your recent 10-mile race and the increase in overall volume, the upcoming week should prioritize recovery and consolidation of fitness, while gently building back into a routine. This plan aims to avoid overtraining while maintaining your endurance base and introducing a bit of speed work.
+**Upcoming Week Plan (Starting April 14th):**
 
-**Upcoming Week Workout Plan (Starting April 14th, 2026):**
-
-| Day         | Type of Workout           | Distance (km) / Time (min) | Focus                                     | Notes                                                                                                                                                                                                                                                                                                                                    |
-| :---------- | :------------------------ | :------------------------- | :---------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Monday**  | **Active Recovery / Rest**| 20-30 min easy walk/stretch | Recovery, light blood flow                | Crucial after Sunday's 10-mile race. Focus on gentle movement and mobility. Listen to your body – full rest is also an option if you feel overly fatigued.                                                                                                                                                                              |
-| **Tuesday** | **Easy Run**              | 5-6 km / 30-35 min         | Aerobic base, gentle recovery             | Keep a conversational pace (you should be able to hold a full conversation). Focus on relaxed breathing and good form. This run helps flush out legs and build endurance without stress.                                                                                                                                               |
-| **Wednesday**| **Fartlek / Progression Run** | 7-8 km / 40-45 min         | Introduce speed, improve lactate threshold| **Warm-up:** 10-15 min easy run. **Workout:** 4-6 x (1 min fast, 2 min easy) or (2 min moderate, 2 min easy). **Cool-down:** 10-15 min easy run. "Fast" should be comfortably hard (7/10 effort), not an all-out sprint. This helps reintroduce faster running without overexertion. |
-| **Thursday**| **Cross-Train / Strength**| 45-60 min                  | Overall fitness, injury prevention        | Choose an activity like cycling (stationary or outdoor, aiming for ~15-20km), swimming, or a bodyweight strength routine (focus on core, glutes, and hamstrings). This builds fitness without impact on your running muscles.                                                                                                        |
-| **Friday**  | **Easy Run**              | 5-6 km / 30-35 min         | Active recovery, maintain aerobic base    | Another easy, conversational run. Focus on enjoying the movement and keeping a relaxed pace.                                                                                                                                                                                                                                             |
-| **Saturday**| **Long Run**              | 13-15 km / 75-90 min       | Endurance, mental fortitude               | This run should be at a comfortable, steady pace. Hydrate well before, during, and after. This helps build on your previous long runs and prepares you for future endurance challenges. This is slightly less than your 10-mile race but maintains your long run consistency.                                                              |
-| **Sunday**  | **Rest**                  | N/A                        | Full recovery                             | Allow your body to fully recover and adapt to the training load. This day is crucial for preventing burnout and promoting physical and mental freshness for the next week.                                                                                                                                                            |
+| Day       | Workout Type             | Distance/Duration                                   | Focus                                         |
+| :-------- | :----------------------- | :-------------------------------------------------- | :-------------------------------------------- |
+| **Monday**  | **Rest / Active Recovery** | 20-30 min easy walk, stretching, foam rolling       | Full recovery from race, light movement         |
+| **Tuesday** | **Easy Run**             | 4-5 km (25-30 min) at a very conversational pace  | Shake out legs, gentle blood flow               |
+| **Wednesday** | **Cross-Training**       | 45-60 min cycling (easy), swimming, or light hike | Low-impact cardio, active recovery              |
+| **Thursday**| **Progression Run**      | 6-7 km (40-45 min) - Start easy, finish moderate    | Reintroduce varied pace, build endurance        |
+| **Friday**  | **Rest / Core & Strength**| 20-30 min core exercises or light bodyweight strength | Recovery, build foundational strength         |
+| **Saturday**| **Tempo Run or Fartlek**| 5-6 km including 3-4 x 5 min at moderate effort with 2 min easy recovery | Reintroduce intensity, improve speed endurance |
+| **Sunday**  | **Long Easy Run**        | 10-12 km (60-75 min) at a comfortable, conversational pace | Rebuild endurance base, mental strength         |
