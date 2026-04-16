@@ -21,12 +21,18 @@ def get_strava_access_token():
     return response.json().get('access_token')
 
 def get_activities(access_token):
-    # Calculate timestamp for 14 days ago
     two_weeks_ago = int((datetime.now() - timedelta(days=14)).timestamp())
     url = f"https://www.strava.com/api/v3/athlete/activities?after={two_weeks_ago}"
     headers = {'Authorization': f"Bearer {access_token}"}
     response = requests.get(url, headers=headers)
-    return response.json()
+    
+    # DEBUG: See what Strava is actually saying
+    data = response.json()
+    if isinstance(data, dict) and 'errors' in data:
+        print(f"STRAVA API ERROR: {data}")
+        exit(1)
+        
+    return data
 
 # --- 2. DATA ACQUISITION ---
 access_token = get_strava_access_token()
