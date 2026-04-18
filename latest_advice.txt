@@ -1,58 +1,61 @@
-Hello! It's exciting that your Newport Half Marathon is tomorrow! Let's break down your recent activities and plan for the week ahead.
+Today is Saturday, April 18th, and it appears you've just completed the Newport Half Marathon! Congratulations on finishing your race.
 
-### 1. Analysis of Most Recent Activity
+Here's an analysis of your recent activities and a recovery plan for the upcoming week:
 
-Your most recent recorded activity is **"Evening Shakeout"** on April 13th.
-*   **Type:** Ride
-*   **Distance:** 0.0 km
-*   **Moving Time:** 15.33 minutes
+---
 
-**Intensity and Stats:** With a distance of 0.0 km over 15.33 minutes, this activity was likely a very low-intensity session, such as a stationary bike ride, foam rolling, stretching, or other form of active recovery/mobility work. The name "Shakeout" further supports this, indicating a gentle session aimed at loosening up or recovering without putting any significant stress on your system. This is a suitable activity for a taper week, focusing on recovery and maintaining some blood flow without adding fatigue.
+### 1. Most Recent Activity: Newport Half Marathon!
+
+*   **Date:** Saturday, April 18, 2026 (Today)
+*   **Distance:** 21.42 km (approximately 13.3 miles)
+*   **Moving Time:** 1 hour 54 minutes 16 seconds (114.27 minutes)
+*   **Pace:**
+    *   **Per Kilometer:** 5 minutes 20 seconds/km
+    *   **Per Mile:** Approximately 8 minutes 35 seconds/mile
+*   **Intensity:** This was a full race effort. Your pace indicates a strong performance, holding a consistent effort over the half marathon distance. Finishing a half marathon requires significant physical and mental exertion.
+
+---
 
 ### 2. Volume and Effort Comparison: Past Week vs. Week Prior
 
-Let's define the weeks relative to your race on Saturday, April 18th:
-*   **"Past Week" (Taper Week):** Friday, April 10th – Thursday, April 16th
-*   **"Week Prior":** Friday, April 3rd – Thursday, April 9th
+Let's look at your training in the two weeks leading up to today's Half Marathon.
 
-**"Week Prior" (April 3rd – April 9th):**
-*   **Activities:**
-    *   April 4th: Run (14.5km @ 5:36/km)
-    *   April 7th: Run (4.95km @ 5:54/km)
-*   **Total Run Distance:** 19.45 km
-*   **Total Active Time:** 110.4 minutes
+**Week Prior (April 4 - April 10):**
 
-**"Past Week" (April 10th – April 16th):**
-*   **Activities:**
-    *   April 10th: Run (5.3km @ 5:55/km)
-    *   April 11th: Hike (6.81km, 102.43min)
-    *   April 12th: Run (16.4km @ 5:24/km - Cherry Blossom 10 Mile)
-    *   April 13th: Ride (0.0km, 15.33min - Shakeout)
-*   **Total Run Distance:** 21.7 km
-*   **Total Active Time:** 237.56 minutes
+*   **Running Volume:** 10.25 km (two easy runs: 4.95 km on April 7, 5.3 km on April 10)
+*   **Average Running Pace:** Approximately 5:54 min/km
+*   **Effort:** Both runs were at an easy, conversational pace, suggesting a good base-building or maintenance phase before beginning a taper.
 
-**Comparison:**
-*   **Volume:** Your "Past Week" actually saw a slightly *higher* total running volume (21.7 km vs 19.45 km) and significantly *more* total active time (237.56 min vs 110.4 min) compared to the "Week Prior." This is primarily due to the inclusion of the "Cherry Blossom 10 Mile" race and a substantial "Lunch Hike."
-*   **Effort:** The "Cherry Blossom 10 Mile" on April 12th (6 days before your half marathon) was a considerable effort, run at a faster pace (~5:24/km) than most of your other training runs. The 102-minute hike on April 11th also adds significant time on your feet and potential fatigue.
+**Past Week (April 11 - April 17, leading up to the race):**
 
-**Overall Tapering:** While you incorporated a very light shakeout, your "taper week" appears to have been quite demanding with a 10-mile race just six days out from your target half marathon, along with a long hike. This approach is more aggressive than a traditional taper, which typically involves a significant reduction in both mileage and intensity to ensure you're fresh and rested for race day.
+*   **Running Volume:** 16.4 km (from the "Cherry Blossom 10 Mile" on April 12)
+*   **Other Activities:** 6.81 km hike (April 11), 0.0 km ride (April 13 - likely a very light shakeout or stationary bike)
+*   **Average Running Pace:** The "Cherry Blossom 10 Mile" was run at 5:24 min/km, which is a faster, race-effort pace.
+*   **Effort:** While the hike and shakeout ride were appropriate low-intensity activities for a taper week, running a 10-mile "race" at a challenging pace just six days before your target Half Marathon is quite significant. This might be considered a fairly aggressive "tune-up" run for a taper, potentially impacting peak freshness for the Newport Half. Ideally, the final week leading into a major race would involve shorter, much easier runs to allow for maximal recovery and energy storage.
 
-### 3. Structured Workout Plan for the Upcoming Week
+---
 
-Considering today is Friday, April 17th, and your Newport Half Marathon is tomorrow, April 18th, your plan will focus on pre-race rest and crucial post-race recovery.
+### 3. Structured Workout Plan for the Upcoming Week (Post-Half Marathon Recovery)
 
-**Important Note for Today (Friday, April 17th):** Based on the data, your last activity was on April 13th. Assuming you've been resting since then, today should be a **complete rest day**. Focus on hydration, nutrition, and getting mentally ready for tomorrow. A very light, short walk (10-15 minutes) is the absolute maximum if you feel you need to loosen up.
+Given you just completed a Half Marathon today, the primary focus for the upcoming week is **recovery**. It's crucial to allow your body to heal and adapt to the stress of the race. Listen to your body and adjust as needed.
 
-Here is a plan for the upcoming week:
+Here’s a recommended plan:
 
-| Day                      | Activity                                                                                                                                                                                                                                                         | Notes                                                                                                                                                                                                                                                                                                                                                                   |
-| :----------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Saturday, April 18th** | **Newport Half Marathon!**                                                                                                                                                                                                                                       | Focus on executing your race plan. Remember to hydrate well before, during, and after the race. Don't forget your warm-up and cool-down stretches.                                                                                                                                                                                                                       |
-| **Sunday, April 19th**   | **Complete Rest**                                                                                                                                                                                                                                                | No structured activity. Prioritize hydration, good nutrition, and sleep. Elevate your legs if they feel heavy. Gentle stretching is okay.                                                                                                                                                                                                                         |
-| **Monday, April 20th**   | **Very Light Active Recovery**                                                                                                                                                                                                                                   | **15-20 minutes** of very gentle walking, swimming, or cycling (low resistance). Keep it truly easy – no elevated heart rate.                                                                                                                                                                                                                              |
-| **Tuesday, April 21st**  | **Rest or Light Active Recovery**                                                                                                                                                                                                                                | Another rest day is fine, or repeat Monday's very light active recovery. Focus on listening to your body. Foam rolling can be beneficial.                                                                                                                                                                                                                 |
-| **Wednesday, April 22nd**| **Light Cross-Training (Low Impact)**                                                                                                                                                                                                                            | **20-30 minutes** of cycling (moderate resistance), swimming, or elliptical. Focus on controlled, fluid movements. Aim for a comfortable, conversational pace.                                                                                                                                                                                                     |
-| **Thursday, April 23rd** | **Short, Easy Run (Optional)**                                                                                                                                                                                                                                   | **20-25 minutes** of very slow, easy running if your legs feel good. This should feel effortless. If anything hurts, stop and switch to cross-training or rest.                                                                                                                                                                                                 |
-| **Friday, April 24th**   | **Rest or Strength/Mobility**                                                                                                                                                                                                                                    | Rest, or a session focused on core strength, hip mobility, and gentle stretching. Avoid heavy lifting or high-impact exercises.                                                                                                                                                                                                                            |
+| Day         | Activity                                       | Duration/Distance   | Focus                        | Notes                                                              |
+| :---------- | :--------------------------------------------- | :------------------ | :--------------------------- | :----------------------------------------------------------------- |
+| **Saturday**  | **Newport Half Marathon!**                     | 21.42 km            | **Race Day**                 | Focus on rehydration and nutrition.                                |
+| **Sunday**    | Complete Rest / Very Light Walking             | 15-30 min (walking) | Active Recovery / Rehydration | Gentle movement to promote blood flow. Avoid any strenuous activity. |
+| **Monday**    | Rest or Gentle Cross-Training                  | 30-45 min           | Active Recovery              | Low-impact: swimming, easy cycling, restorative yoga. No running.  |
+| **Tuesday**   | Rest or Gentle Cross-Training                  | 30-45 min           | Active Recovery              | Continue with low-impact options. Focus on gentle mobility.        |
+| **Wednesday** | **Very Short, Easy Run**                       | 2-3 km              | First Post-Race Run          | **Extremely slow pace!** Focus on how your body feels. Walk if needed. |
+| **Thursday**  | Rest or Gentle Cross-Training / Stretching     | 30-45 min           | Active Recovery / Flexibility | Allow muscles to continue recovery. Gentle stretching.             |
+| **Friday**    | **Short, Easy Run**                            | 3-4 km              | Easy Endurance               | Still a very comfortable, conversational pace.                       |
+| **Saturday**  | Rest or Light Cross-Training / Yoga            | 30-45 min           | Active Recovery              | Prepare for a gradual return to regular training the following week. |
 
-Good luck with your Newport Half Marathon tomorrow! Listen to your body during the race and especially during your recovery week.
+**Key Recovery Principles:**
+*   **Hydration & Nutrition:** Continue to replenish fluids and consume nutrient-dense foods to aid muscle repair.
+*   **Sleep:** Prioritize sleep to optimize your body's recovery processes.
+*   **Listen to Your Body:** If you feel any pain or excessive fatigue, take an extra rest day or opt for lighter activity. Pushing too hard too soon can lead to injury or burnout.
+*   **No Speed Work or Hills:** Avoid any high-intensity or high-impact training for at least 7-10 days post-race.
+
+Well done on your Half Marathon! Enjoy your well-deserved recovery.
