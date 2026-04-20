@@ -98,11 +98,14 @@ Live Strava Data (Last 14 Days): {json.dumps(formatted_activities)}
 Instructions for the AI Coach:
 MISSION:
 1. ANALYSIS: Compare my actual Strava mileage to the goal of "Base Building" (maintaining 12-20 miles/week).
-2. ADAPTATION: Look at my most recent Strava posts (maximum four per week). If I'm recovering (fewer posts per week), suggest lower intensity.
-3. THE TABLE: Output the full 18-week schedule. 
+2. ADAPTATION: Look at my most recent Strava posts (maximum four per week). If I'm recovering (fewer posts per week), suggest lower intensity. 
+    - Specifically comment on the intensity and stats of the most recent activity.
+    - Compare the volume and effort of the past week versus the week prior.
+3. RECOMMEND: recommend a structured workout plan for the upcoming week,keeping in mind my "Base Building" phase. 
+4. THE TABLE: Output the full 18-week schedule. 
    - CRITICAL: If my recent mileage is significantly lower than the Hal Higdon Novice 2 plan, adjust future mileage in table to avoid injury.
    - If I'm hitting my goals, keep the table as is.
-4. FORMAT: 3 sentences of coaching followed by the Markdown table.
+5. FORMAT: 3 sentences of coaching followed by the Markdown table.
 
 Ensure the table stays formatted in Markdown for the GitHub README.
 """
