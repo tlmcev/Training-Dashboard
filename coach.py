@@ -58,8 +58,11 @@ plan_start_date = marathon_date - timedelta(weeks=18) # June 29, 2026
 days_until_start = (plan_start_date - datetime.now()).days
 
 # Use an f-string to insert the date and your race context into the prompt
+run_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
 prompt = f"""
-Today is {current_time}. 
+Run Timestamp: {run_timestamp}
+Today is {current_time}.
 Target: NYC Marathon (Nov 1, 2026) using Hal Higdon Novice 2.
 Current Phase: Base Building (plan starts June 29).
 
