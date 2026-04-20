@@ -101,11 +101,11 @@ MISSION:
 2. ADAPTATION: Look at my most recent Strava posts (maximum four per week). If I'm recovering (fewer posts per week), suggest lower intensity. 
     - Specifically comment on the intensity and stats of the most recent activity.
     - Compare the volume and effort of the past week versus the week prior.
-3. RECOMMEND: recommend a structured workout plan for the upcoming week,keeping in mind my "Base Building" phase. 
+3. RECOMMEND: recommend a structured weeklong workout plan for the upcoming week, keeping in mind my "Base Building" phase. 
 4. THE TABLE: Output the full 18-week schedule. 
    - CRITICAL: If my recent mileage is significantly lower than the Hal Higdon Novice 2 plan, adjust future mileage in table to avoid injury.
    - If I'm hitting my goals, keep the table as is.
-5. FORMAT: 3 sentences of coaching followed by the Markdown table.
+5. FORMAT: 3-5 sentences of coaching followed by the week of training recommendations, finishing with the Markdown table.
 
 Ensure the table stays formatted in Markdown for the GitHub README.
 """
