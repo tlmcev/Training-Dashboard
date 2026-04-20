@@ -57,15 +57,14 @@ current_time = datetime.now().strftime("%A, %b %d")
 # Use an f-string to insert the date and your race context into the prompt
 prompt = f"""
 Today is {current_time}. 
-Note: I am running the Newport Half Marathon this Saturday, April 18th. 
+Note: I finished a 10 mile race and half marathon this month (April 2026) and will train for the New York Marathon this November. 
 
 Analyze these Strava activities from the last 2 weeks: {json.dumps(formatted_activities)}
 
 Your task:
 1. Specifically comment on the intensity and stats of the most recent activity.
 2. Compare the volume and effort of the past week versus the week prior.
-3. Based on this data, recommend a structured workout plan for the upcoming week, 
-   keeping in mind my race this Saturday.
+3. Based on this data, recommend a structured workout plan for the upcoming week.
 
 Format the output in Markdown. Use bolding and a table for the workout plan.
 """
