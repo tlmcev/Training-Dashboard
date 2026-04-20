@@ -43,30 +43,38 @@ activities = get_activities(access_token)
 formatted_activities = []
 for act in activities:
     formatted_activities.append({
-        "name": act['name'],
-        "date": act['start_date_local'],
-        "distance_km": round(act['distance'] / 1000, 2),
-        "moving_time_min": round(act['moving_time'] / 60, 2),
-        "type": act['type']
-    })
+    "name": act['name'],
+    "date": act['start_date_local'],
+    "distance_miles": round(act['distance'] / 1609.34, 2), # Updated conversion
+    "moving_time_min": round(act['moving_time'] / 60, 2),
+    "type": act['type']
+})
 
 # --- 3. THE INTELLIGENCE STEP (GEMINI) ---
 # Define the current date/time first
 current_time = datetime.now().strftime("%A, %b %d")
+marathon_date = datetime(2026, 11, 1)
+plan_start_date = marathon_date - timedelta(weeks=18) # June 29, 2026
+days_until_start = (plan_start_date - datetime.now()).days
 
 # Use an f-string to insert the date and your race context into the prompt
 prompt = f"""
 Today is {current_time}. 
-Note: I finished a 10 mile race and half marathon this month (April 2026) and will train for the New York Marathon this November. 
+Target: NYC Marathon (Nov 1, 2026) using Hal Higdon Novice 2.
+Current Phase: Base Building (plan starts June 29).
 
-Analyze these Strava activities from the last 2 weeks: {json.dumps(formatted_activities)}
+Live Strava Data (Last 14 Days): {json.dumps(formatted_activities)}
 
-Your task:
-1. Specifically comment on the intensity and stats of the most recent activity.
-2. Compare the volume and effort of the past week versus the week prior.
-3. Based on this data, recommend a structured workout plan for the upcoming week.
+Instructions for the AI Coach:
+1. DATA ANALYSIS: Review the actual miles run versus the Novice 2 expectations. 
+2. ADAPTATION: If the user is significantly over or under the prescribed mileage/intensity for the current week, adjust the 'Upcoming' weeks in the table to ensure a safe 10% volume increase rule.
+3. PERSONALIZED FEEDBACK: Provide 3 sentences on how the last 2 weeks of Strava data impact the marathon goal.
+4. DYNAMIC SCHEDULE TABLE: Output the 18-week Hal Higdon Novice 2 schedule.
+   - For weeks labeled '🏃 Current', adjust the daily mileage based on this week's actual performance.
+   - For '⏳ Upcoming' weeks, if the user had a setback, "smooth out" the mileage increase to prevent injury.
+   - Include columns: Week, Dates, Focus, and Status (✅ Done / 🏃 Current / ⏳ Upcoming).
 
-Format the output in Markdown. Use bolding and a table for the workout plan.
+Ensure the table stays formatted in Markdown for the GitHub README.
 """
 
 gemini_url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key={GEMINI_KEY}"
