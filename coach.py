@@ -103,7 +103,6 @@ MISSION:
    - Use the Reference Plan data.
    - Adjust the 'Upcoming' miles ONLY if my recent Strava data shows I am over-training (10% rule).
    - Mark status as ✅ Done, 🏃 Current, or ⏳ Upcoming.
-"""
 
 Ensure the table stays formatted in Markdown for the GitHub README.
 """
