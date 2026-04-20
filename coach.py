@@ -76,7 +76,6 @@ HAL_HIGDON_PLAN = {
     "Week 16": {"Mon": "Rest", "Tue": "5 mi run", "Wed": "4 mi run", "Thu": "5 mi run", "Fri": "Rest", "Sat": "12 mi run", "Sun": "Cross Train"},
     "Week 17": {"Mon": "Rest", "Tue": "4 mi run", "Wed": "3 mi run", "Thu": "4 mi run", "Fri": "Rest", "Sat": "8 mi run", "Sun": "Cross Train"},
     "Week 18": {"Mon": "Rest", "Tue": "3 mi run", "Wed": "2 mi run", "Thu": "Rest", "Fri": "Rest", "Sat": "2 mi run", "Sun": "Marathon"},
-    # ... add weeks 3-18 here
 }
 
 # Use an f-string to insert the date and your race context into the prompt
