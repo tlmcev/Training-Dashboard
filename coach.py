@@ -84,8 +84,8 @@ run_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 prompt = f"""
 Run Timestamp: {run_timestamp}
 Today is {current_time}.
-Target: NYC Marathon (Nov 1, 2026) using Hal Higdon Novice 2.
-Current Phase: Base Building (plan starts June 29).
+Phase: Base Building (Pre-Marathon Plan). 
+Official 18-week plan starts: June 29.
 
 USER DATA (Last 14 Days in Miles):
 {json.dumps(formatted_activities)}
@@ -97,12 +97,12 @@ Live Strava Data (Last 14 Days): {json.dumps(formatted_activities)}
 
 Instructions for the AI Coach:
 MISSION:
-1. Compare my Strava miles to the 'Reference Plan' for the current phase.
-2. Provide a 3-sentence summary of my progress.
-3. Output the FULL 18-week schedule in a Markdown table. 
-   - Use the Reference Plan data.
-   - Adjust the 'Upcoming' miles ONLY if my recent Strava data shows I am over-training (10% rule).
-   - Mark status as ✅ Done, 🏃 Current, or ⏳ Upcoming.
+1. ANALYSIS: Compare my actual Strava mileage to the goal of "Base Building" (maintaining 12-20 miles/week).
+2. ADAPTATION: Look at my most recent Strava posts (maximum four per week). If I'm recovering (fewer posts per week), suggest lower intensity.
+3. THE TABLE: Output the full 18-week schedule. 
+   - CRITICAL: If my recent mileage is significantly lower than the Hal Higdon Novice 2 plan, adjust future mileage in table to avoid injury.
+   - If I'm hitting my goals, keep the table as is.
+4. FORMAT: 3 sentences of coaching followed by the Markdown table.
 
 Ensure the table stays formatted in Markdown for the GitHub README.
 """
