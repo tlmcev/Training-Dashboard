@@ -57,6 +57,28 @@ marathon_date = datetime(2026, 11, 1)
 plan_start_date = marathon_date - timedelta(weeks=18) # June 29, 2026
 days_until_start = (plan_start_date - datetime.now()).days
 
+HAL_HIGDON_PLAN = {
+    "Week 1": {"Mon": "Rest", "Tue": "3 mi run", "Wed": "5 mi run", "Thu": "3 mi run", "Fri": "Rest", "Sat": "8 mi run", "Sun": "Cross Train"},
+    "Week 2": {"Mon": "Rest", "Tue": "3 mi run", "Wed": "5 mi run", "Thu": "3 mi run", "Fri": "Rest", "Sat": "9 mi run", "Sun": "Cross Train"},
+    "Week 3": {"Mon": "Rest", "Tue": "3 mi run", "Wed": "5 mi run", "Thu": "3 mi run", "Fri": "Rest", "Sat": "6 mi run", "Sun": "Cross Train"},
+    "Week 4": {"Mon": "Rest", "Tue": "3 mi run", "Wed": "6 mi run", "Thu": "3 mi run", "Fri": "Rest", "Sat": "11 mi run", "Sun": "Cross Train"},
+    "Week 5": {"Mon": "Rest", "Tue": "3 mi run", "Wed": "6 mi run", "Thu": "3 mi run", "Fri": "Rest", "Sat": "12 mi run", "Sun": "Cross Train"},
+    "Week 6": {"Mon": "Rest", "Tue": "3 mi run", "Wed": "6 mi run", "Thu": "3 mi run", "Fri": "Rest", "Sat": "9 mi run", "Sun": "Cross Train"},
+    "Week 7": {"Mon": "Rest", "Tue": "4 mi run", "Wed": "7 mi run", "Thu": "4 mi run", "Fri": "Rest", "Sat": "14 mi run", "Sun": "Cross Train"},
+    "Week 8": {"Mon": "Rest", "Tue": "4 mi run", "Wed": "7 mi run", "Thu": "4 mi run", "Fri": "Rest", "Sat": "15 mi run", "Sun": "Cross Train"},
+    "Week 9": {"Mon": "Rest", "Tue": "4 mi run", "Wed": "7 mi run", "Thu": "4 mi run", "Fri": "Rest", "Sat": "Rest, "Sun": "Half Marathon"},
+    "Week 10": {"Mon": "Rest", "Tue": "4 mi run", "Wed": "8 mi run", "Thu": "4 mi run", "Fri": "Rest", "Sat": "17 mi run", "Sun": "Cross Train"},
+    "Week 11": {"Mon": "Rest", "Tue": "5 mi run", "Wed": "8 mi run", "Thu": "5 mi run", "Fri": "Rest", "Sat": "18 mi run", "Sun": "Cross Train"},
+    "Week 12": {"Mon": "Rest", "Tue": "5 mi run", "Wed": "8 mi run", "Thu": "5 mi run", "Fri": "Rest", "Sat": "13 mi run", "Sun": "Cross Train"},
+    "Week 13": {"Mon": "Rest", "Tue": "5 mi run", "Wed": "5 mi run", "Thu": "5 mi run", "Fri": "Rest", "Sat": "19 mi run", "Sun": "Cross Train"},
+    "Week 14": {"Mon": "Rest", "Tue": "5 mi run", "Wed": "8 mi run", "Thu": "5 mi run", "Fri": "Rest", "Sat": "12 mi run", "Sun": "Cross Train"},
+    "Week 15": {"Mon": "Rest", "Tue": "5 mi run", "Wed": "5 mi run", "Thu": "5 mi run", "Fri": "Rest", "Sat": "20 mi run", "Sun": "Cross Train"},
+    "Week 16": {"Mon": "Rest", "Tue": "5 mi run", "Wed": "4 mi run", "Thu": "5 mi run", "Fri": "Rest", "Sat": "12 mi run", "Sun": "Cross Train"},
+    "Week 17": {"Mon": "Rest", "Tue": "4 mi run", "Wed": "3 mi run", "Thu": "4 mi run", "Fri": "Rest", "Sat": "8 mi run", "Sun": "Cross Train"},
+    "Week 18": {"Mon": "Rest", "Tue": "3 mi run", "Wed": "2 mi run", "Thu": "Rest", "Fri": "Rest", "Sat": "2 mi run", "Sun": "Marathon"},
+    # ... add weeks 3-18 here
+}
+
 # Use an f-string to insert the date and your race context into the prompt
 run_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
@@ -66,16 +88,23 @@ Today is {current_time}.
 Target: NYC Marathon (Nov 1, 2026) using Hal Higdon Novice 2.
 Current Phase: Base Building (plan starts June 29).
 
+USER DATA (Last 14 Days in Miles):
+{json.dumps(formatted_activities)}
+
+REFERENCE PLAN (Hal Higdon Novice 2):
+{json.dumps(HAL_HIGDON_PLAN)}
+
 Live Strava Data (Last 14 Days): {json.dumps(formatted_activities)}
 
 Instructions for the AI Coach:
-1. DATA ANALYSIS: Review the actual miles run versus the Novice 2 expectations. 
-2. ADAPTATION: If the user is significantly over or under the prescribed mileage/intensity for the current week, adjust the 'Upcoming' weeks in the table to ensure a safe 10% volume increase rule.
-3. PERSONALIZED FEEDBACK: Provide 3 sentences on how the last 2 weeks of Strava data impact the marathon goal.
-4. DYNAMIC SCHEDULE TABLE: Output the 18-week Hal Higdon Novice 2 schedule.
-   - For weeks labeled '🏃 Current', adjust the daily mileage based on this week's actual performance.
-   - For '⏳ Upcoming' weeks, if the user had a setback, "smooth out" the mileage increase to prevent injury.
-   - Include columns: Week, Dates, Focus, and Status (✅ Done / 🏃 Current / ⏳ Upcoming).
+MISSION:
+1. Compare my Strava miles to the 'Reference Plan' for the current phase.
+2. Provide a 3-sentence summary of my progress.
+3. Output the FULL 18-week schedule in a Markdown table. 
+   - Use the Reference Plan data.
+   - Adjust the 'Upcoming' miles ONLY if my recent Strava data shows I am over-training (10% rule).
+   - Mark status as ✅ Done, 🏃 Current, or ⏳ Upcoming.
+"""
 
 Ensure the table stays formatted in Markdown for the GitHub README.
 """
