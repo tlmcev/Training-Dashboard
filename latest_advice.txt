@@ -1,70 +1,59 @@
-It looks like you had a very eventful past two weeks, culminating in a strong performance at the Newport Half Marathon!
+Here's an analysis of your recent Strava activities and a recommended plan for the upcoming week, keeping in mind your recent races and your goal of the New York Marathon in November.
 
-**Regarding the Dates:** I'm operating on the assumption that while the activity dates are listed as 2026, the relative timing is correct: your Newport Half Marathon was yesterday, Saturday, April 18th, and today is Sunday, April 19th.
+---
 
-### 1. Most Recent Activity: Newport Half Marathon!
+### 1. Analysis of the Most Recent Activity
 
-Your most recent activity, the **Newport Half Marathon!** on Saturday, April 18th, shows a phenomenal effort:
+Your most recent activity was the **Newport Half Marathon!** on **Saturday, April 18th, 2026**.
 
-*   **Distance:** 21.42 km (just over the standard half marathon distance of 21.0975 km, indicating good course measurement or a little extra running!)
-*   **Moving Time:** 114.27 minutes (1 hour, 54 minutes, 16 seconds)
-*   **Pace:** Approximately **5:20 min/km (8:35 min/mile)**.
+*   **Distance:** 21.42 km (13.31 miles)
+*   **Moving Time:** 1 hour 54 minutes 16 seconds
+*   **Calculated Pace:** Approximately **5:20 min/km (8:35 min/mile)**
 
-This is an excellent pace for a half marathon, clearly indicating a race-level effort. Finishing a half marathon under 1 hour and 55 minutes is a significant achievement and a testament to your training. Given it's a race, the intensity was by definition maximum sustainable effort.
+**Intensity and Stats Comments:**
+This was a significant effort, a full half marathon race completed at a very respectable pace. Finishing a half marathon just six days after racing a 10-mile event (Cherry Blossom 10 Mile on April 12th) demonstrates excellent endurance and a high level of fitness. However, completing two races of this distance and intensity within such a short period puts considerable stress on your body. This effort would have been maximal to near-maximal, demanding a substantial recovery period.
 
-### 2. Volume and Effort: Past Week vs. Week Prior
+### 2. Comparison of Volume and Effort: Past Week vs. Week Prior
 
-Let's break down your activity across the last two weeks:
+To provide context, "Past Week" covers April 13th-19th, and "Week Prior" covers April 6th-12th.
 
-**Week Prior (Sunday, April 5th - Saturday, April 11th):**
+**Week Prior (April 6 - April 12):**
 
-*   **Runs:**
-    *   Apr 7: 4.95 km @ 5:54 min/km (moderate)
-    *   Apr 10: 5.30 km @ 5:55 min/km (moderate)
-    *   *Total Running Distance:* **10.25 km**
-    *   *Total Running Time:* **60.5 min**
-*   **Other Activities:**
-    *   Apr 11: 6.81 km Hike, 102.43 min (low intensity, long duration)
-*   **Overall:** This week looked like a good taper start, with two moderate runs and a longer, low-impact hike. The running volume was relatively low, and the intensity was controlled.
+*   **Running Volume:** 26.65 km (16.56 miles)
+    *   This included two shorter runs (4.95 km, 5.3 km) and the **Cherry Blossom 10 Mile race (16.4 km)**.
+*   **Total Moving Time (All Activities):** 251.43 minutes (4 hours 11 minutes)
+    *   This included the running time plus a 102-minute hike.
+*   **Effort:** High. The 10-mile race represents a significant race effort, likely pushing your limits. The other runs were moderate, and the hike was a good non-impact activity.
 
-**Past Week (Sunday, April 12th - Saturday, April 18th):**
+**Past Week (April 13 - April 19):**
 
-*   **Runs:**
-    *   Apr 12: Cherry Blossom 10 Mile (16.4 km) @ **5:24 min/km** (race effort)
-    *   Apr 18: Newport Half Marathon! (21.42 km) @ **5:20 min/km** (race effort)
-    *   *Total Running Distance:* **37.82 km**
-    *   *Total Running Time:* **202.77 min**
-*   **Other Activities:**
-    *   Apr 13: 0.0 km Ride, 15.33 min (likely an easy shakeout/cross-train)
-*   **Overall:** This week was remarkably high in both volume and intensity, primarily due to running a **10-mile race only six days before your half marathon**, followed by the half marathon itself. The pace for the 10-mile race was very close to your half marathon pace, indicating both were run at near maximal effort. This is an extremely aggressive approach to race week and would typically be considered a very challenging double-race schedule, not a standard taper.
+*   **Running Volume:** 21.42 km (13.31 miles)
+    *   This consisted almost entirely of the **Newport Half Marathon race (21.42 km)**.
+*   **Total Moving Time (All Activities):** 129.6 minutes (2 hours 9 minutes)
+    *   This included your half marathon time plus a short 15-minute "Evening Shakeout" ride.
+*   **Effort:** Extremely High. While the total running volume was slightly less than the week prior, the *intensity and sustained effort* of a half marathon just days after another race make this week exceptionally demanding. The body accumulates fatigue, and racing a half marathon so soon after a 10-mile race indicates a peak effort period.
 
-**Comparison:**
+**Comparison Summary:**
+The **past week** involved a higher *intensity* effort due to the half marathon, despite a slightly lower overall running volume. The **week prior** had a higher *volume* of running spread across multiple sessions, including a significant race. Combined, the last two weeks have been very challenging for your body, featuring two significant race efforts. This indicates that your primary focus for the immediate future should be on recovery.
 
-*   **Volume:** The past week's running volume (37.82 km) was almost **four times higher** than the week prior (10.25 km), directly contrasting with a typical tapering strategy.
-*   **Effort:** The past week featured *two* full race-effort events within 6 days, making it extraordinarily high intensity. The week prior was much lower intensity with moderate runs and a recreational hike.
+### 3. Structured Workout Plan for the Upcoming Week (April 20 - April 26)
 
-In summary, your past week was a significant challenge for your body, encompassing two high-effort races in quick succession. This means recovery will be even more critical in the upcoming week.
+Given you raced a half marathon just two days ago, and a 10-miler the week before, your body is in a critical recovery phase. The goal for this week is active recovery, gentle movement, and allowing your muscles, joints, and nervous system to repair and rebuild. Pushing too hard now could lead to injury or burnout. This is an important step towards a successful NYC Marathon build-up later this year.
 
-### 3. Workout Plan for the Upcoming Week (Apr 19 - Apr 25)
+| Day                | Activity                       | Duration / Notes                                                                                                                                                                                                                                                |
+| :----------------- | :----------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Monday, Apr 20** | **Complete Rest**              | Today is your half marathon + 2 days. Prioritize rest. Elevate your legs if possible, focus on hydration and good nutrition.                                                                                                                                   |
+| **Tuesday, Apr 21**| **Gentle Walk / Stretching**   | 20-30 minutes of very easy walking, focusing on light movement to promote blood flow. Follow with gentle dynamic and static stretching, especially for hamstrings, quads, and glutes. No pushing.                                                                   |
+| **Wednesday, Apr 22**| **Cross-Training (Low Impact)**| 30-45 minutes of low-impact cross-training. Examples: Swimming, Cycling (easy spin on a stationary bike or flat road), Elliptical. Keep the effort **very easy** – conversational pace, no heavy breathing. Focus on movement, not intensity.                            |
+| **Thursday, Apr 23**| **Very Easy Run (Optional)**   | If you feel *completely* recovered and have no aches or pains, try a **very short (20-25 min)**, **extremely slow** run. The pace should feel ridiculously easy, like you could talk effortlessly. If anything hurts, stop and switch to a walk or cross-train. |
+| **Friday, Apr 24** | **Cross-Training or Rest**     | Another session of low-impact cross-training (30-45 min, easy effort) or take another complete rest day if your legs still feel heavy from Thursday's run.                                                                                                            |
+| **Saturday, Apr 25**| **Gentle Walk / Stretching**   | 30-40 minutes of easy walking or gentle hiking. Focus on enjoying the movement without any pressure for pace or distance. Include thorough stretching afterward.                                                                                               |
+| **Sunday, Apr 26** | **Optional Light Run**         | If feeling good, a **slightly longer (30-40 min)**, **still very easy** run. Again, prioritize comfort and feeling over pace. If not ready, opt for a longer walk or easy cross-train.                                                                            |
 
-Given that you just completed a half marathon yesterday, and had another race just days before that, your body needs significant time to recover. The primary goal for this week is active recovery and preventing injury, not building fitness.
+**Key Considerations for the Week:**
 
-| Day           | Activity                                 | Duration/Distance   | Notes                                                                                                                                                                                                |
-| :------------ | :--------------------------------------- | :------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sunday**    | **Complete Rest** (Today)                | N/A                 | Focus on hydration, nutrition, and gentle stretching. Your body is doing a lot of repair work.                                                                                                        |
-| **Monday**    | **Complete Rest** or Gentle Walk         | 20-30 minutes       | If you feel the urge to move, a very easy, flat walk can aid blood flow. Absolutely no running.                                                                                                        |
-| **Tuesday**   | **Active Recovery (Cross-Train)**        | 30-45 minutes       | Low-impact activities like easy cycling (stationary bike or very flat route), swimming, or elliptical. Focus on light movement, not exertion.                                                        |
-| **Wednesday** | **Complete Rest** or Gentle Stretching   | N/A                 | Allow your muscles more time to repair. Prioritize sleep.                                                                                                                                            |
-| **Thursday**  | **Very Easy Run (Optional)**             | 2-3 km / 15-20 min  | If you feel absolutely no aches or pains, try a very short, super slow run. Focus on light footfalls. Stop immediately if anything hurts. Alternatively, continue with cross-training or rest. |
-| **Friday**    | **Complete Rest** or Gentle Walk         | 20-30 minutes       | Keep it light and easy. This allows your body to prepare for a slightly longer, easy run on Saturday if you're feeling up to it.                                                                    |
-| **Saturday**  | **Easy Run (Optional)**                  | 3-5 km / 25-35 min  | Similar to Thursday, but slightly longer if your body feels fully recovered. Keep the pace conversational and enjoyable. If not ready, opt for active recovery or rest.                           |
-
-**Important Considerations for the Week:**
-
-*   **Listen to Your Body:** This is the most crucial advice. If any activity causes pain or discomfort, stop immediately. Your recovery is unique to you.
-*   **Hydration and Nutrition:** Continue to focus on replenishing fluids and eating nutrient-dense foods to aid muscle repair and energy restoration.
-*   **Sleep:** Prioritize extra sleep to help your body heal.
-*   **No Speedwork or Hard Efforts:** Absolutely no tempo runs, intervals, or hill repeats this week.
-*   **Massage/Foam Rolling:** Gentle self-massage or foam rolling can help with muscle soreness, but avoid deep tissue work on very sore areas.
-
-Congratulations again on completing the Newport Half Marathon! Enjoy your well-deserved recovery.
+*   **Listen to Your Body:** This is paramount. If anything feels off, painful, or unusually tired, choose rest or a lighter activity.
+*   **Hydration and Nutrition:** Continue to focus on replenishing your body with plenty of fluids and nutrient-dense foods to aid recovery.
+*   **Sleep:** Prioritize extra sleep to give your body the best chance to repair.
+*   **No Speed Work or High Intensity:** Absolutely no hard efforts, intervals, or tempo runs this week.
+*   **Enjoy the Break:** You've earned this recovery! Use this week to relax and mentally prepare for the long marathon training journey ahead.
