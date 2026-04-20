@@ -66,7 +66,7 @@ HAL_HIGDON_PLAN = {
     "Week 6": {"Mon": "Rest", "Tue": "3 mi run", "Wed": "6 mi run", "Thu": "3 mi run", "Fri": "Rest", "Sat": "9 mi run", "Sun": "Cross Train"},
     "Week 7": {"Mon": "Rest", "Tue": "4 mi run", "Wed": "7 mi run", "Thu": "4 mi run", "Fri": "Rest", "Sat": "14 mi run", "Sun": "Cross Train"},
     "Week 8": {"Mon": "Rest", "Tue": "4 mi run", "Wed": "7 mi run", "Thu": "4 mi run", "Fri": "Rest", "Sat": "15 mi run", "Sun": "Cross Train"},
-    "Week 9": {"Mon": "Rest", "Tue": "4 mi run", "Wed": "7 mi run", "Thu": "4 mi run", "Fri": "Rest", "Sat": "Rest, "Sun": "Half Marathon"},
+    "Week 9": {"Mon": "Rest", "Tue": "4 mi run", "Wed": "7 mi run", "Thu": "4 mi run", "Fri": "Rest", "Sat": "Rest", "Sun": "Half Marathon"},
     "Week 10": {"Mon": "Rest", "Tue": "4 mi run", "Wed": "8 mi run", "Thu": "4 mi run", "Fri": "Rest", "Sat": "17 mi run", "Sun": "Cross Train"},
     "Week 11": {"Mon": "Rest", "Tue": "5 mi run", "Wed": "8 mi run", "Thu": "5 mi run", "Fri": "Rest", "Sat": "18 mi run", "Sun": "Cross Train"},
     "Week 12": {"Mon": "Rest", "Tue": "5 mi run", "Wed": "8 mi run", "Thu": "5 mi run", "Fri": "Rest", "Sat": "13 mi run", "Sun": "Cross Train"},
