@@ -28,11 +28,20 @@ jobs:
 
       - name: Run Coach Script
         env:
-            GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-            STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
-            STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
-            STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
-        run: python coach.py
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
+          STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+      # This tells GitHub to retry the step up to 3 times
+        run: |
+          n=0
+          until [ "$n" -ge 3 ]
+          do
+             python coach.py && break
+             n=$((n+1)) 
+             echo "API busy, retrying in 30 seconds... (Attempt $n)"
+             sleep 30
+          done
 
       - name: Commit and Push Advice
         run: |
