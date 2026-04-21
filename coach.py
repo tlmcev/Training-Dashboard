@@ -34,19 +34,25 @@ def get_activities(access_token):
 
 def generate_activity_table(activities_list):
     output_rows = [
-        "| Workout | Distance | Elev. Gain | Avg HR | Date |",
-        "| :--- | :--- | :--- | :--- | :--- |"
+        "| Workout | Distance | Date |",
+        "| :--- | :--- | :--- |"
     ]
-    for workout in activities_list[:5]:
-        name = workout.get('name', 'Unknown')
-        dist = round(workout.get('distance', 0) / 1609.34, 2)
-        elev = f"{workout.get('total_elevation_gain', 0)}m"
-        hr = f"{int(workout.get('average_heartrate', 0))} bpm" if workout.get('average_heartrate') else "--"
-        date = workout.get('start_date_local', '0000-00-00')[:10]
-        row = f"| {name} | {dist} mi | {elev} | {hr} | {date} |"
-        output_rows.append(row)
-    return "\n".join(output_rows)
+    
+    if not activities_list:
+        return "No recent runs found. Time to hit the road!"
 
+    for workout in activities_list[:5]:
+        # Using the keys you defined in Section 2's formatted_activities
+        name = workout.get('name', 'Unknown')
+        dist = f"{workout.get('distance_miles', 0)} mi"
+        # Extract just the YYYY-MM-DD from the date string
+        date = workout.get('date', '0000-00-00')[:10]
+        
+        row = f"| {name} | {dist} | {date} |"
+        output_rows.append(row)
+        
+    return "\n".join(output_rows)
+    
 # --- 2. DATA ACQUISITION ---
 access_token = get_strava_access_token()
 activities = get_activities(access_token)
