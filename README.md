@@ -1,4 +1,4 @@
-
+# Training Dashboard
 [Click here to view the latest coaching advice & full 18-week plan](./latest_advice.txt)
 
 ## Recent Runs
@@ -32,4 +32,4 @@
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 
-*Last updated: 2026-04-21 19:53:52 (UTC) | Run ID: 24743221815*
+*Last updated: 2026-04-21 20:01:34 (UTC) | Run ID: 24743567637*
