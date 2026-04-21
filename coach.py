@@ -113,7 +113,7 @@ if response.status_code == 200:
             my_workout_table = generate_activity_table(formatted_activities) 
 
             # 3. Create the timestamp
-            update_time = datetime.now().strftime("%Y-%m-%d %H:%M")
+            update_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S") # Added :%S
 
             # 4. OVERWRITE the README
             readme_template = f"""# Training Dashboard
