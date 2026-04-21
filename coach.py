@@ -138,3 +138,7 @@ if response.status_code == 200:
             
             print(f"DEBUG: File written to {readme_path}")
             print(f"DEBUG: Content Preview:\n{readme_template[:100]}...")
+    except Exception as e:
+        print(f"ERROR: {e}")
+else:
+    print(f"API Error: {response.status_code} - {response.text}")    
