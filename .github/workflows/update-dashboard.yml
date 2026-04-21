@@ -1,0 +1,45 @@
+name: Update Training Dashboard
+
+on:
+  schedule:
+    # Runs every morning at 7am ET (11:00 UTC)
+    - cron: '0 11 * * *'
+  workflow_dispatch:   # lets you trigger manually from GitHub Actions tab
+  push:
+    branches: [main]
+    paths:
+      - 'coach.py'    # also re-runs if you update the script
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to commit back to the repo
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run coach.py
+        env:
+          STRAVA_CLIENT_ID:     ${{ secrets.STRAVA_CLIENT_ID }}
+          STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+          GEMINI_API_KEY:       ${{ secrets.GEMINI_API_KEY }}
+        run: python coach.py
+
+      - name: Commit updated files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md latest_advice.txt coach_data.json
+          git diff --staged --quiet || git commit -m "🏃 Auto-update: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push
