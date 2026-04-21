@@ -61,9 +61,10 @@ def generate_activity_table(activities_list):
 access_token = get_strava_access_token()
 activities = get_activities(access_token)
 
-# Process and Filter: Only Runs, sorted by date, limit to 3
+# Process and Filter: Only Runs, sorted by date
 formatted_activities = []
 for act in activities:
+    # Strava sometimes uses 'type' and sometimes 'sport_type'
     if act.get('type') == 'Run' or act.get('sport_type') == 'Run':
         formatted_activities.append({
             "name": act.get('name'),
@@ -71,7 +72,7 @@ for act in activities:
             "distance_miles": round(act.get('distance', 0) / 1609.34, 2)
         })
 
-# Sort by date (newest first) and take the top 3
+# Sort by date (newest first) and take the top 3 for the dashboard
 formatted_activities.sort(key=lambda x: x['date'], reverse=True)
 recent_runs = formatted_activities[:3]
 
@@ -95,30 +96,35 @@ Mission:
 - Full Schedule: Provide the full 18-week Hal Higdon Novice 2 table for my reference.
 """
 
-gemini_url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_KEY}"
+# Using v1beta to ensure compatibility with the Flash model
+gemini_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_KEY}"
 payload = {"contents": [{"parts": [{"text": prompt}]}]}
 
-response = requests.post(gemini_url, json=payload)
-
-if response.status_code == 200:
-    try:
+# 1. ATTEMPT AI ADVICE
+try:
+    response = requests.post(gemini_url, json=payload)
+    if response.status_code == 200:
         result = response.json()
         advice = result.get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text')
-
         if advice:
-            # 1. Save advice text
             with open("latest_advice.txt", "w") as f:
                 f.write(advice)
+            print("SUCCESS: AI coaching advice updated.")
+    else:
+        print(f"AI Error {response.status_code}: {response.text}")
+except Exception as e:
+    print(f"AI Request Failed: {e}")
 
-        # 2. Build the table using the top 3 runs
-        my_workout_table = generate_activity_table(recent_runs) 
+# 2. ALWAYS UPDATE THE DASHBOARD (Independent of AI)
+try:
+    # Generate the table string
+    my_workout_table = generate_activity_table(recent_runs) 
 
-        # 3. Create the unique timestamp and Run ID
-        run_id = os.getenv("GITHUB_RUN_ID", "local")
-        update_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    # Unique identifiers to force Git to see a change
+    run_id = os.getenv("GITHUB_RUN_ID", "local")
+    update_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-        # 4. OVERWRITE the README
-        readme_template = f"""# Training Dashboard
+    readme_template = f"""# Training Dashboard
 [Click here to view the latest coaching advice & full 18-week plan](./latest_advice.txt)
 
 ## Recent Runs
@@ -126,17 +132,16 @@ if response.status_code == 200:
 
 *Last updated: {update_time} (UTC) | Run ID: {run_id}*
 """
-        # Define absolute path to ensure we hit the root README
-        base_path = os.path.dirname(os.path.abspath(__file__))
-        readme_path = os.path.join(base_path, "README.md")
 
-        with open(readme_path, "w") as f:
-            f.write(readme_template)
-            
-        print(f"SUCCESS: README updated with {len(recent_runs)} runs.")
-        print(f"DEBUG: Content Preview:\n{readme_template[:100]}...")
+    # Define absolute path for GitHub runner root
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    readme_path = os.path.join(base_path, "README.md")
 
-    except Exception as e:
-        print(f"ERROR during processing: {e}")
-else:
-    print(f"API Error: {response.status_code} - {response.text}")  
+    with open(readme_path, "w") as f:
+        f.write(readme_template)
+        
+    print(f"SUCCESS: Dashboard README updated with {len(recent_runs)} runs.")
+    print(f"DEBUG: Content Preview:\n{readme_template[:100]}...")
+
+except Exception as e:
+    print(f"CRITICAL ERROR updating README: {e}")
