@@ -134,29 +134,40 @@ if response.status_code == 200:
                 table += f"| {act['name']} | {round(act['distance'] / 1609.34, 2)} mi | {elev} | {hr} | {act['start_date_local'][:10]} |\n"
             return table
             
-        if advice:  # LEVEL 2
+        if advice:
             print(f"Advice generated: {advice[:50]}...")
             with open("latest_advice.txt", "w") as f:
                 f.write(advice)
 
-            strava_table = generate_activity_table(activities) 
+            # 1. Rename the variable to avoid shadowing the function name
+            my_workout_table = generate_activity_table(activities) 
 
-            try: # LEVEL 3
+            # 2. Safety Check: If it's still a function object, force a string conversion
+            if callable(my_workout_table):
+                my_workout_table = "Error: Data not formatted correctly."
+
+            try:
                 with open("README.md", "r") as f:
                     readme_content = f.read()
 
+                # 3. Explicit Pattern: ONLY replace what is between the tags
+                import re
+                pattern = r".*?"
+                
+                # We build the replacement string first
+                replacement_text = f"\n{my_workout_table}\n"
+                
                 if "" in readme_content:
-                    pattern = r".*?"
-                    replacement = f"\n{strava_table}\n"
-                    new_readme = re.sub(pattern, replacement, readme_content, flags=re.DOTALL)
+                    # Using count=1 prevents it from repeating the table multiple times
+                    new_readme = re.sub(pattern, replacement_text, readme_content, count=1, flags=re.DOTALL)
                     
                     with open("README.md", "w") as f:
                         f.write(new_readme)
                     print("SUCCESS: README.md updated.")
                 else:
-                    print("ERROR: Placeholder tags missing from README.md")
+                    print("ERROR: Tags and not found.")
 
-            except Exception as e: # LEVEL 3 MATCH
+            except Exception as e:
                 print(f"Error updating README file: {e}")
                 
         else: # LEVEL 2 MATCH
