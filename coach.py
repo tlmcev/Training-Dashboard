@@ -149,3 +149,35 @@ if response.status_code == 200:
         print(json.dumps(response.json(), indent=2))
 else:
     print(f"API ERROR: {response.status_code} - {response.text}")
+
+def generate_activity_table(activities):
+    table = "| Workout | Distance | Elev. Gain | Avg HR | Date |\n"
+    table += "| :--- | :--- | :--- | :--- | :--- |\n"
+    
+    for act in activities[:5]:  # Just show the last 5
+        # Note: Strava API names for these are 'total_elevation_gain' and 'average_heartrate'
+        elev = f"{act.get('total_elevation_gain', 0)}m"
+        hr = f"{int(act.get('average_heartrate', 0))} bpm" if act.get('average_heartrate') else "--"
+        
+        table += f"| {act['name']} | {act['distance_miles']} mi | {elev} | {hr} | {act['date'][:10]} |\n"
+    return table
+
+# --- AFTER you get the 'advice' from Gemini ---
+recent_activities_table = generate_activity_table(raw_activities_from_strava)
+
+# Read your current README
+with open("README.md", "r") as f:
+    readme_content = f.read()
+
+# Replace the text between the placeholders
+import re
+new_readme = re.sub(
+    r".*?",
+    f"\n{recent_activities_table}\n",
+    readme_content,
+    flags=re.DOTALL
+)
+
+# Save it back
+with open("README.md", "w") as f:
+    f.write(new_readme)
