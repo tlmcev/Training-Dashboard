@@ -189,7 +189,7 @@ with open("README.md", "r") as f:
 import re
 new_readme = re.sub(
     r".*?",
-    f"\n{recent_activities_table}\n",
+    f"\n{recent_activitiy_table}\n",
     readme_content,
     flags=re.DOTALL
 )
