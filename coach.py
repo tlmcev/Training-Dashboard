@@ -82,7 +82,6 @@ print(f"Successfully processed {len(recent_runs)} runs for the table.")
 current_time = datetime.now().strftime("%A, %b %d")
 marathon_date = "November 1, 2026"
 
-# 1. Stronger Prompt for meaningful AI coaching
 prompt = f"""
 Today is {current_time}. 
 Goal: NYC Marathon on {marathon_date}.
@@ -111,20 +110,15 @@ if response.status_code == 200:
             with open("latest_advice.txt", "w") as f:
                 f.write(advice)
 
-            # 2. Build the table
-            my_workout_table = generate_activity_table(recent_runs) 
+        # 2. Build the table using the top 3 runs
+        my_workout_table = generate_activity_table(recent_runs) 
 
-            # 3. Create the timestamp AND the unique Run ID
-            # This ensures GitHub sees a file change every single time
-            run_id = os.getenv("GITHUB_RUN_ID", "local") # <--- ADD THIS LINE
-            update_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        # 3. Create the unique timestamp and Run ID
+        run_id = os.getenv("GITHUB_RUN_ID", "local")
+        update_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-            # 4. OVERWRITE the README
-            # Use os.path.join to ensure we are hitting the root directory
-            base_path = os.path.dirname(os.path.abspath(__file__))
-            readme_path = os.path.join(base_path, "README.md")
-
-            readme_template = f"""# Training Dashboard
+        # 4. OVERWRITE the README
+        readme_template = f"""# Training Dashboard
 [Click here to view the latest coaching advice & full 18-week plan](./latest_advice.txt)
 
 ## Recent Runs
@@ -132,13 +126,17 @@ if response.status_code == 200:
 
 *Last updated: {update_time} (UTC) | Run ID: {run_id}*
 """
-            # Write and then immediately verify
-            with open(readme_path, "w") as f:
-                f.write(readme_template)
+        # Define absolute path to ensure we hit the root README
+        base_path = os.path.dirname(os.path.abspath(__file__))
+        readme_path = os.path.join(base_path, "README.md")
+
+        with open(readme_path, "w") as f:
+            f.write(readme_template)
             
-            print(f"DEBUG: File written to {readme_path}")
-            print(f"DEBUG: Content Preview:\n{readme_template[:100]}...")
+        print(f"SUCCESS: README updated with {len(recent_runs)} runs.")
+        print(f"DEBUG: Content Preview:\n{readme_template[:100]}...")
+
     except Exception as e:
-        print(f"ERROR: {e}")
+        print(f"ERROR during processing: {e}")
 else:
-    print(f"API Error: {response.status_code} - {response.text}")    
+    print(f"API Error: {response.status_code} - {response.text}")  
