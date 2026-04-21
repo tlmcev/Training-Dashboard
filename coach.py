@@ -116,24 +116,6 @@ data = {
 }
 
 response = requests.post(gemini_url, json=data)
-
-if response.status_code == 200:
-    # 1. Extract the AI advice
-    try:
-    result = response.json()
-    advice = result['candidates'][0]['content']['parts'][0]['text']
-
-    # --- [STAGE 3: LOCAL TABLE GENERATION] ---
-    # We define the function here...
-    def generate_activity_table(activities):
-        table = "### Recent Strava Activities\n"
-        table += "| Workout | Distance | Elev. Gain | Avg HR | Date |\n"
-        table += "| :--- | :--- | :--- | :--- | :--- |\n"
-        for act in activities[:5]:
-            elev = f"{act.get('total_elevation_gain', 0)}m"
-            hr = f"{int(act.get('average_heartrate', 0))} bpm" if act.get('average_heartrate') else "--"
-            table += f"| {act['name']} | {round(act['distance'] / 1609.34, 2)} mi | {elev} | {hr} | {act['start_date_local'][:10]} |\n"
-        return table
         
     # ...and then we actually RUN the logic OUTSIDE the function (flush with the 'def')
 if response.status_code == 200:
