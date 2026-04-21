@@ -51,20 +51,21 @@ def generate_activity_table(activities_list):
 access_token = get_strava_access_token()
 activities = get_activities(access_token)
 
-# IMPORTANT: Keep the original 'activities' for the Markdown table 
-# but create a lean 'formatted_activities' for the AI prompt
+# Process the data FIRST
 formatted_activities = []
 for act in activities:
-    formatted_activities.append({
-        "name": act.get('name'),
-        "date": act.get('start_date_local'),
-        "distance_mi": round(act.get('distance', 0) / 1609.34, 2),
-        "type": act.get('type'),
-        "avg_hr": act.get('average_heartrate')
-    })
+    # We only care about Runs for the marathon plan
+    if act['type'] == 'Run':
+        formatted_activities.append({
+            "name": act['name'],
+            "date": act['start_date_local'],
+            "distance_miles": round(act['distance'] / 1609.34, 2),
+            "moving_time_min": round(act['moving_time'] / 60, 2),
+            "type": act['type']
+        })
 
-# Double check the count in your terminal
-print(f"Loaded {len(activities)} activities from Strava.")
+# NOW print the count of the list we actually use
+print(f"Run n={len(formatted_activities)}") 
 print(f"STRAVA RESPONSE: {activities}")
 
 
