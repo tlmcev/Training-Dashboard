@@ -61,22 +61,21 @@ def generate_activity_table(activities_list):
 access_token = get_strava_access_token()
 activities = get_activities(access_token)
 
-# Process the data FIRST
+# Process and Filter: Only Runs, sorted by date, limit to 3
 formatted_activities = []
 for act in activities:
-    # We only care about Runs for the marathon plan
-    if act['type'] == 'Run':
+    if act.get('type') == 'Run' or act.get('sport_type') == 'Run':
         formatted_activities.append({
-            "name": act['name'],
-            "date": act['start_date_local'],
-            "distance_miles": round(act['distance'] / 1609.34, 2),
-            "moving_time_min": round(act['moving_time'] / 60, 2),
-            "type": act['type']
+            "name": act.get('name'),
+            "date": act.get('start_date_local'),
+            "distance_miles": round(act.get('distance', 0) / 1609.34, 2)
         })
 
-# NOW print the count of the list we actually use
-print(f"Run n={len(formatted_activities)}") 
-print(f"STRAVA RESPONSE: {activities}")
+# Sort by date (newest first) and take the top 3
+formatted_activities.sort(key=lambda x: x['date'], reverse=True)
+recent_runs = formatted_activities[:3]
+
+print(f"Successfully processed {len(recent_runs)} runs for the table.")
 
 
 # --- 3. THE INTELLIGENCE STEP ---
@@ -126,7 +125,7 @@ if response.status_code == 200:
 ## Recent Runs
 {my_workout_table}
 
-*Last updated: {update_time}*
+*Last updated: {update_time} (UTC)*
 """
             with open("README.md", "w") as f:
                 f.write(readme_template)
