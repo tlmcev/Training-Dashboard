@@ -1,52 +1,45 @@
-name: Training Dashboard 
+name: Update Training Dashboard
 
-# 1. Triggers (When the script runs)
 on:
-  push:
-    branches: [ main ]
   schedule:
-    - cron: '0 20 * * *' # Runs at 8:00 PM daily
+    # Runs every morning at 7am ET (11:00 UTC)
+    - cron: '0 11 * * *'
+  workflow_dispatch:   # lets you trigger manually from GitHub Actions tab
+  push:
+    branches: [main]
+    paths:
+      - 'coach.py'    # also re-runs if you update the script
 
-# 2. Permissions (Must be at the top level)
-permissions:
-  contents: write
-
-# 3. Jobs (The actual tasks)
 jobs:
-  run-coach:
+  update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to commit back to the repo
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run Coach Script
+      - name: Run coach.py
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
+          STRAVA_CLIENT_ID:     ${{ secrets.STRAVA_CLIENT_ID }}
           STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
           STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
-          GITHUB_RUN_ID: ${{ github.run_id }} # <--- ADD THIS LINE
+          GEMINI_API_KEY:       ${{ secrets.GEMINI_API_KEY }}
+        run: python coach.py
+
+      - name: Commit updated files
         run: |
-          python coach.py
-          
-      - name: Commit and Push Updates
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Add both files
-          git add latest_advice.txt README.md
-          
-          # Force a commit. The "|| exit 0" prevents the action from failing 
-          # if there truly is absolutely zero change.
-          git commit -m "Update training stats: $(date)" || exit 0
-          
-          # Push the changes
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md latest_advice.txt coach_data.json
+          git diff --staged --quiet || git commit -m "🏃 Auto-update: $(date -u '+%Y-%m-%d %H:%M') UTC"
           git push
