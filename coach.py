@@ -136,31 +136,26 @@ if response.status_code == 200:
             return table
             
         if advice:
-            print(f"Advice generated: {advice[:50]}...")
-            with open("latest_advice.txt", "w") as f:
-                f.write(advice)
-            
-            # Use the actual variable holding your Strava data here
+            # Generate the actual string
             strava_table = generate_activity_table(activities) 
 
             try:
                 with open("README.md", "r") as f:
                     readme_content = f.read()
 
-                import re
+                # CRITICAL: We search for the TAGS, not just ".*?"
+                # This ensures we only replace the middle part.
                 pattern = r".*?"
                 replacement = f"\n{strava_table}\n"
                 
-                new_readme = re.sub(pattern, replacement, readme_content, flags=re.DOTALL)
-                
-                with open("README.md", "w") as f:
-                    f.write(new_readme)
-                print("SUCCESS: README.md updated.")
-            except Exception as e:
-                print(f"ERROR updating README: {e}")
-                
-        else:
-            print("ERROR: No text found in response.")
+                # Check if tags exist first
+                if "" in readme_content:
+                    new_readme = re.sub(pattern, replacement, readme_content, flags=re.DOTALL)
+                    with open("README.md", "w") as f:
+                        f.write(new_readme)
+                    print("SUCCESS: README.md updated with Strava table.")
+                else:
+                    print("MANUAL ACTION REQUIRED: Add and to your README.md")
 
     except Exception as e:  # <--- THIS NOW MATCHES THE 'TRY' AT THE TOP
         print(f"ERROR processing response: {e}")
@@ -189,7 +184,7 @@ with open("README.md", "r") as f:
 import re
 new_readme = re.sub(
     r".*?",
-    f"\n{generate_activity_table(activities)}\n",
+    f"\n{generate_activity_table}\n",
     readme_content,
     flags=re.DOTALL
 )
