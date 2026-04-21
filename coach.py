@@ -118,27 +118,37 @@ data = {
 response = requests.post(gemini_url, json=data)
 
 
-if response.status_code == 200:
-    try:
-        result = response.json()
-        candidate = result['candidates'][0]
-        
-        # Check if the response was blocked by safety filters
-        if candidate.get('finishReason') == 'SAFETY':
-            print("ERROR: Response was blocked by safety filters.")
-            exit(1)
-
-        # Gemini 2.5 often includes 'parts'. Let's find the text part.
-        content_parts = candidate.get('content', {}).get('parts', [])
-        
-        # Look specifically for the 'text' key in any of the parts
-        advice = next((part['text'] for part in content_parts if 'text' in part), None)
-
-        if advice:
+if advice:
             print(f"Advice generated: {advice[:50]}...")
             with open("latest_advice.txt", "w") as f:
                 f.write(advice)
             print("SUCCESS: latest_advice.txt created.")
+
+            # --- INSERT TABLE LOGIC HERE ---
+            # 1. Generate the table string using your activities variable
+            # (Double check if your variable is called 'activities' or 'raw_activities')
+            strava_table = generate_activity_table(activities) 
+
+            # 2. Open and update the README
+            try:
+                with open("README.md", "r") as f:
+                    readme_content = f.read()
+
+                import re
+                new_readme = re.sub(
+                    r".*?",
+                    f"\n{strava_table}\n",
+                    readme_content,
+                    flags=re.DOTALL
+                )
+                
+                with open("README.md", "w") as f:
+                    f.write(new_readme)
+                print("SUCCESS: README.md updated with Strava table.")
+            except Exception as e:
+                print(f"ERROR updating README: {e}")
+            # --- END TABLE LOGIC ---
+
         else:
             print("ERROR: No text found in the response parts.")
             print(json.dumps(result, indent=2)) # Print the whole thing so we can see the structure
@@ -161,9 +171,6 @@ def generate_activity_table(activities):
         
         table += f"| {act['name']} | {act['distance_miles']} mi | {elev} | {hr} | {act['date'][:10]} |\n"
     return table
-
-# --- AFTER you get the 'advice' from Gemini ---
-recent_activities_table = generate_activity_table(raw_activities_from_strava)
 
 # Read your current README
 with open("README.md", "r") as f:
