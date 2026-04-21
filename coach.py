@@ -189,7 +189,7 @@ with open("README.md", "r") as f:
 import re
 new_readme = re.sub(
     r".*?",
-    f"\n{generate_activity_table}\n",
+    f"\n{generate_activity_table(activities)}\n",
     readme_content,
     flags=re.DOTALL
 )
