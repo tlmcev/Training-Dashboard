@@ -32,4 +32,4 @@
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 
-*Last updated: 2026-04-21 20:01:34 (UTC) | Run ID: 24743567637*
+*Last updated: 2026-04-21 22:25:34 (UTC) | Run ID: 24749601647*
