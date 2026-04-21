@@ -135,9 +135,30 @@ if response.status_code == 200:
             return table
             
         if advice:
-            print(f"Advice generated: {advice[:50]}...")
+            print("Generating dashboard...")
+            
+            # 1. Create the table string
+            # Make sure 'activities' is the variable holding your Strava data!
+            my_workout_table = generate_activity_table(activities) 
+
+            # 2. Save the advice file
             with open("latest_advice.txt", "w") as f:
                 f.write(advice)
+
+            # 3. REBUILD the README from scratch (No more RegEx!)
+            readme_template = f"""# Training Dashboard
+[Click here to view the latest coaching advice](./latest_advice.txt)
+
+## Recent Workouts
+{my_workout_table}
+
+*Last updated: {activities[0]['start_date_local'][:10] if activities else 'N/A'}*
+"""
+            
+            with open("README.md", "w") as f:
+                f.write(readme_template)
+                
+            print("SUCCESS: Dashboard rebuilt from scratch.")
 
             # 1. Rename the variable to avoid shadowing the function name
             my_workout_table = generate_activity_table(activities) 
