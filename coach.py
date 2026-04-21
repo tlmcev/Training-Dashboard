@@ -33,22 +33,26 @@ def get_activities(access_token):
     return data
 
 def generate_activity_table(activities_list):
+    # These are the headers for the Markdown table
     output_rows = [
         "| Workout | Distance | Date |",
         "| :--- | :--- | :--- |"
     ]
     
+    # If the list is empty, we show a message instead of a blank table
     if not activities_list:
         return "No recent runs found. Time to hit the road!"
 
     for workout in activities_list[:5]:
-        # Using the keys you defined in Section 2's formatted_activities
+        # IMPORTANT: These keys MUST match your Section 2 dictionary
         name = workout.get('name', 'Unknown')
         dist = f"{workout.get('distance_miles', 0)} mi"
-        # Extract just the YYYY-MM-DD from the date string
-        date = workout.get('date', '0000-00-00')[:10]
         
-        row = f"| {name} | {dist} | {date} |"
+        # We take the first 10 characters (YYYY-MM-DD)
+        raw_date = workout.get('date', '0000-00-00')
+        formatted_date = raw_date[:10]
+        
+        row = f"| {name} | {dist} | {formatted_date} |"
         output_rows.append(row)
         
     return "\n".join(output_rows)
