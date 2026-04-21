@@ -119,12 +119,11 @@ response = requests.post(gemini_url, json=data)
         
     # ...and then we actually RUN the logic OUTSIDE the function (flush with the 'def')
 if response.status_code == 200:
-    try:  # <--- THIS IS THE "TRY" YOU WERE MISSING
-        # 1. Extract the AI advice
+    try:  # LEVEL 1
         result = response.json()
-        advice = result['candidates'][0]['content']['parts'][0]['text']
+        # Adjusted parsing to be safer
+        advice = result.get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text')
 
-        # --- [STAGE 3: LOCAL TABLE GENERATION] ---
         def generate_activity_table(activities):
             table = "### Recent Strava Activities\n"
             table += "| Workout | Distance | Elev. Gain | Avg HR | Date |\n"
@@ -135,34 +134,36 @@ if response.status_code == 200:
                 table += f"| {act['name']} | {round(act['distance'] / 1609.34, 2)} mi | {elev} | {hr} | {act['start_date_local'][:10]} |\n"
             return table
             
-        if advice:
-            # Generate the actual string
+        if advice:  # LEVEL 2
+            print(f"Advice generated: {advice[:50]}...")
+            with open("latest_advice.txt", "w") as f:
+                f.write(advice)
+
             strava_table = generate_activity_table(activities) 
 
-            try:
+            try: # LEVEL 3
                 with open("README.md", "r") as f:
                     readme_content = f.read()
 
-                # CRITICAL: We search for the TAGS, not just ".*?"
-                # This ensures we only replace the middle part.
-                pattern = r".*?"
-                replacement = f"\n{strava_table}\n"
-                
-                # Check if tags exist first
                 if "" in readme_content:
+                    pattern = r".*?"
+                    replacement = f"\n{strava_table}\n"
                     new_readme = re.sub(pattern, replacement, readme_content, flags=re.DOTALL)
+                    
                     with open("README.md", "w") as f:
                         f.write(new_readme)
-                    print("SUCCESS: README.md updated with Strava table.")
+                    print("SUCCESS: README.md updated.")
                 else:
-                    print("MANUAL ACTION REQUIRED: Add and to your README.md")
+                    print("ERROR: Placeholder tags missing from README.md")
 
-    except Exception as e:  # <--- THIS NOW MATCHES THE 'TRY' AT THE TOP
-        print(f"ERROR processing response: {e}")
-        try:
-            print(json.dumps(response.json(), indent=2))
-        except:
-            print("Could not parse response as JSON.")
+            except Exception as e: # LEVEL 3 MATCH
+                print(f"Error updating README file: {e}")
+                
+        else: # LEVEL 2 MATCH
+            print("ERROR: No advice text found in response.")
+
+    except Exception as e: # LEVEL 1 MATCH
+        print(f"ERROR processing API response: {e}")
 
 def generate_activity_table(activities):
     table = "| Workout | Distance | Elev. Gain | Avg HR | Date |\n"
