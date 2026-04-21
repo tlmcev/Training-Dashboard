@@ -84,26 +84,29 @@ if response.status_code == 200:
         advice = result.get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text')
 
         if advice:
-            # 1. Save advice
+            # 1. Save the coaching advice
             with open("latest_advice.txt", "w") as f:
                 f.write(advice)
 
-            # 2. Build the Strava table
+            # 2. Build the Strava table using the 'activities' variable we already have
             my_workout_table = generate_activity_table(activities)
 
-            # 3. Rebuild README from scratch (safest way!)
+            # 3. Create a clean date for the 'Last Updated' footer
+            # We use the most recent activity date if it exists
+            last_run_date = activities[0]['start_date_local'][:10] if activities else "No recent data"
+
+            # 4. Rebuild the README from scratch
             readme_template = f"""# Training Dashboard
 [Click here to view the latest coaching advice](./latest_advice.txt)
 
 ## Recent Workouts
 {my_workout_table}
 
-*Last updated: {run_timestamp}*
+*Last updated: {last_run_date} (Central Park & Beyond)*
 """
             with open("README.md", "w") as f:
                 f.write(readme_template)
-            print("SUCCESS: Dashboard updated.")
-        else:
-            print("ERROR: No advice generated.")
+            
+            print(f"SUCCESS: Dashboard updated with {len(activities)} activities.")
     except Exception as e:
         print(f"ERROR: {e}")
