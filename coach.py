@@ -120,19 +120,21 @@ if response.status_code == 200:
             update_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
             # 4. OVERWRITE the README
+            # Use os.path.join to ensure we are hitting the root directory
+            base_path = os.path.dirname(os.path.abspath(__file__))
+            readme_path = os.path.join(base_path, "README.md")
+
             readme_template = f"""# Training Dashboard
 [Click here to view the latest coaching advice & full 18-week plan](./latest_advice.txt)
 
 ## Recent Runs
 {my_workout_table}
 
-*Last updated: {update_time} (UTC) | Run ID: {run_id}* """
-            
-            with open("README.md", "w") as f:
+*Last updated: {update_time} (UTC) | Run ID: {run_id}*
+"""
+            # Write and then immediately verify
+            with open(readme_path, "w") as f:
                 f.write(readme_template)
             
-            print(f"SUCCESS: README updated with {len(formatted_activities)} runs.")
-        else:
-            print("ERROR: Gemini response was empty.")
-    except Exception as e:
-        print(f"ERROR updating README: {e}")
+            print(f"DEBUG: File written to {readme_path}")
+            print(f"DEBUG: Content Preview:\n{readme_template[:100]}...")
