@@ -51,6 +51,8 @@ def generate_activity_table(activities_list):
 access_token = get_strava_access_token()
 activities = get_activities(access_token)
 
+print(f"STRAVA RESPONSE: {activities}")
+
 formatted_activities = []
 for act in activities:
     formatted_activities.append({
