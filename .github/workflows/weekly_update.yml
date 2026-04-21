@@ -47,11 +47,13 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # Add BOTH files here
+          
+          # Add both files
           git add latest_advice.txt README.md
-          if ! git diff --cached --quiet; then
-            git commit -m "Update coaching advice and workout table"
-            git push
-          else
-            echo "No changes detected. Skipping push."
-          fi
+          
+          # Force a commit. The "|| exit 0" prevents the action from failing 
+          # if there truly is absolutely zero change.
+          git commit -m "Update training stats: $(date)" || exit 0
+          
+          # Push the changes
+          git push
