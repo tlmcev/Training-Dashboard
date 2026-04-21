@@ -73,7 +73,7 @@ HAL_HIGDON_PLAN = { "Week 1": {"Mon": "Rest", "Tue": "3 mi run", "Wed": "5 mi ru
 
 prompt = f"Today is {current_time}. Strava Data: {json.dumps(formatted_activities)}. Mission: Compare mileage to Base Building goals and output full 18-week Hal Higdon table."
 
-gemini_url = f"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key={GEMINI_KEY}"
+gemini_url = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={GEMINI_KEY}"
 payload = {"contents": [{"parts": [{"text": prompt}]}]}
 
 response = requests.post(gemini_url, json=payload)
