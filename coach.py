@@ -197,17 +197,26 @@ if response.status_code == 200:
     except Exception as e: # LEVEL 1 MATCH
         print(f"ERROR processing API response: {e}")
 
-def generate_activity_table(activities):
-    table = "| Workout | Distance | Elev. Gain | Avg HR | Date |\n"
-    table += "| :--- | :--- | :--- | :--- | :--- |\n"
+def generate_activity_table(activities_list):
+    # Start with a clean string
+    output_rows = [
+        "| Workout | Distance | Elev. Gain | Avg HR | Date |",
+        "| :--- | :--- | :--- | :--- | :--- |"
+    ]
     
-    for act in activities[:5]:  # Just show the last 5
-        # Note: Strava API names for these are 'total_elevation_gain' and 'average_heartrate'
-        elev = f"{act.get('total_elevation_gain', 0)}m"
-        hr = f"{int(act.get('average_heartrate', 0))} bpm" if act.get('average_heartrate') else "--"
+    # Only take the 5 most recent
+    for workout in activities_list[:5]:
+        name = workout.get('name', 'Unknown')
+        # Convert meters to miles
+        dist = round(workout.get('distance', 0) / 1609.34, 2)
+        elev = f"{workout.get('total_elevation_gain', 0)}m"
+        hr = f"{int(workout.get('average_heartrate', 0))} bpm" if workout.get('average_heartrate') else "--"
+        date = workout.get('start_date_local', '0000-00-00')[:10]
         
-        table += f"| {act['name']} | {act['distance_miles']} mi | {elev} | {hr} | {act['date'][:10]} |\n"
-    return table
+        row = f"| {name} | {dist} mi | {elev} | {hr} | {date} |"
+        output_rows.append(row)
+    
+    return "\n".join(output_rows)
 
 # Read your current README
 with open("README.md", "r") as f:
