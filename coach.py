@@ -149,16 +149,13 @@ if advice:
                 print(f"ERROR updating README: {e}")
             # --- END TABLE LOGIC ---
 
-        else:
-            print("ERROR: No text found in the response parts.")
-            print(json.dumps(result, indent=2)) # Print the whole thing so we can see the structure
+else:
+    print("ERROR: No text found in the response parts.")
             
     except Exception as e:
         print(f"ERROR processing response: {e}")
         print("Full API Response for debugging:")
         print(json.dumps(response.json(), indent=2))
-else:
-    print(f"API ERROR: {response.status_code} - {response.text}")
 
 def generate_activity_table(activities):
     table = "| Workout | Distance | Elev. Gain | Avg HR | Date |\n"
