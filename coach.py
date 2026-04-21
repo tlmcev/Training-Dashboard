@@ -120,15 +120,43 @@ try:
     # Generate the table string
     my_workout_table = generate_activity_table(recent_runs) 
 
+    # --- ADD THE SCHEDULE HERE ---
+    novice_2_plan = """
+| Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | Rest | 3m run | 3m run | 3m run | Rest | 4m run | Cross |
+| 2 | Rest | 3m run | 3m run | 3m run | Rest | 5m run | Cross |
+| 3 | Rest | 3m run | 3m run | 3m run | Rest | 6m run | Cross |
+| 4 | Rest | 3m run | 4m run | 3m run | Rest | 7m run | Cross |
+| 5 | Rest | 3m run | 4m run | 3m run | Rest | 8m run | Cross |
+| 6 | Rest | 3m run | 4m run | 3m run | Rest | 9m run | Cross |
+| 7 | Rest | 3m run | 5m run | 3m run | Rest | 10m run | Cross |
+| 8 | Rest | 3m run | 5m run | 3m run | Rest | 11m run | Cross |
+| 9 | Rest | 3m run | 5m run | 3m run | Rest | 12m run | Cross |
+| 10 | Rest | 3m run | 5m run | 3m run | Rest | 13m run | Cross |
+| 11 | Rest | 3m run | 6m run | 3m run | Rest | 14m run | Cross |
+| 12 | Rest | 3m run | 6m run | 3m run | Rest | 15m run | Cross |
+| 13 | Rest | 3m run | 6m run | 3m run | Rest | 16m run | Cross |
+| 14 | Rest | 3m run | 7m run | 3m run | Rest | 17m run | Cross |
+| 15 | Rest | 3m run | 7m run | 3m run | Rest | 18m run | Cross |
+| 16 | Rest | 3m run | 8m run | 3m run | Rest | 19m run | Cross |
+| 17 | Rest | 3m run | 4m run | 2m run | Rest | 8m run | Cross |
+| 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
+"""
+
     # Unique identifiers to force Git to see a change
     run_id = os.getenv("GITHUB_RUN_ID", "local")
     update_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
+    # Inject the table AND the schedule into the template
     readme_template = f"""# Training Dashboard
 [Click here to view the latest coaching advice & full 18-week plan](./latest_advice.txt)
 
 ## Recent Runs
 {my_workout_table}
+
+## Hal Higdon Novice 2 Schedule
+{novice_2_plan}
 
 *Last updated: {update_time} (UTC) | Run ID: {run_id}*
 """
@@ -140,8 +168,7 @@ try:
     with open(readme_path, "w") as f:
         f.write(readme_template)
         
-    print(f"SUCCESS: Dashboard README updated with {len(recent_runs)} runs.")
-    print(f"DEBUG: Content Preview:\n{readme_template[:100]}...")
+    print(f"SUCCESS: Dashboard README updated with {len(recent_runs)} runs and schedule.")
 
 except Exception as e:
     print(f"CRITICAL ERROR updating README: {e}")
