@@ -113,7 +113,7 @@ if response.status_code == 200:
 
             # 2. Build the table using ONLY the filtered runs
             # We pass 'formatted_activities' here so the README is clean
-            my_workout_table = generate_activity_table(formatted_activities) 
+            my_workout_table = generate_activity_table(recent_runs)
 
             # 3. Create the timestamp
             update_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S") # Added :%S
