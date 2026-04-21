@@ -1,4 +1,4 @@
-# Training Dashboard
+
 [Click here to view the latest coaching advice & full 18-week plan](./latest_advice.txt)
 
 ## Recent Runs
