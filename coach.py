@@ -111,12 +111,13 @@ if response.status_code == 200:
             with open("latest_advice.txt", "w") as f:
                 f.write(advice)
 
-            # 2. Build the table using ONLY the filtered runs
-            # We pass 'formatted_activities' here so the README is clean
-            my_workout_table = generate_activity_table(recent_runs)
+            # 2. Build the table
+            my_workout_table = generate_activity_table(recent_runs) 
 
-            # 3. Create the timestamp
-            update_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S") # Added :%S
+            # 3. Create the timestamp AND the unique Run ID
+            # This ensures GitHub sees a file change every single time
+            run_id = os.getenv("GITHUB_RUN_ID", "local") # <--- ADD THIS LINE
+            update_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
             # 4. OVERWRITE the README
             readme_template = f"""# Training Dashboard
@@ -125,8 +126,8 @@ if response.status_code == 200:
 ## Recent Runs
 {my_workout_table}
 
-*Last updated: {update_time} (UTC)*
-"""
+*Last updated: {update_time} (UTC) | Run ID: {run_id}* """
+            
             with open("README.md", "w") as f:
                 f.write(readme_template)
             
