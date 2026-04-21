@@ -119,6 +119,7 @@ response = requests.post(gemini_url, json=data)
 
 if response.status_code == 200:
     # 1. Extract the AI advice
+    try:
     result = response.json()
     advice = result['candidates'][0]['content']['parts'][0]['text']
 
@@ -135,43 +136,56 @@ if response.status_code == 200:
         return table
         
     # ...and then we actually RUN the logic OUTSIDE the function (flush with the 'def')
-    if advice:
-        print(f"Advice generated: {advice[:50]}...")
-        with open("latest_advice.txt", "w") as f:
-            f.write(advice)
-        print("SUCCESS: latest_advice.txt created.")
+if response.status_code == 200:
+    try:  # <--- THIS IS THE "TRY" YOU WERE MISSING
+        # 1. Extract the AI advice
+        result = response.json()
+        advice = result['candidates'][0]['content']['parts'][0]['text']
 
-        # --- TABLE LOGIC ---
-        # Ensure 'activities' matches your variable name from the Strava API call
-        strava_table = generate_activity_table(activities) 
+        # --- [STAGE 3: LOCAL TABLE GENERATION] ---
+        def generate_activity_table(activities):
+            table = "### Recent Strava Activities\n"
+            table += "| Workout | Distance | Elev. Gain | Avg HR | Date |\n"
+            table += "| :--- | :--- | :--- | :--- | :--- |\n"
+            for act in activities[:5]:
+                elev = f"{act.get('total_elevation_gain', 0)}m"
+                hr = f"{int(act.get('average_heartrate', 0))} bpm" if act.get('average_heartrate') else "--"
+                table += f"| {act['name']} | {round(act['distance'] / 1609.34, 2)} mi | {elev} | {hr} | {act['start_date_local'][:10]} |\n"
+            return table
+            
+        if advice:
+            print(f"Advice generated: {advice[:50]}...")
+            with open("latest_advice.txt", "w") as f:
+                f.write(advice)
+            
+            # Use the actual variable holding your Strava data here
+            strava_table = generate_activity_table(activities) 
 
+            try:
+                with open("README.md", "r") as f:
+                    readme_content = f.read()
+
+                import re
+                pattern = r".*?"
+                replacement = f"\n{strava_table}\n"
+                
+                new_readme = re.sub(pattern, replacement, readme_content, flags=re.DOTALL)
+                
+                with open("README.md", "w") as f:
+                    f.write(new_readme)
+                print("SUCCESS: README.md updated.")
+            except Exception as e:
+                print(f"ERROR updating README: {e}")
+                
+        else:
+            print("ERROR: No text found in response.")
+
+    except Exception as e:  # <--- THIS NOW MATCHES THE 'TRY' AT THE TOP
+        print(f"ERROR processing response: {e}")
         try:
-            with open("README.md", "r") as f:
-                readme_content = f.read()
-
-            import re
-            # IMPORTANT: Use these specific tags in your README.md
-            pattern = r".*?"
-            replacement = f"\n{strava_table}\n"
-            
-            new_readme = re.sub(pattern, replacement, readme_content, flags=re.DOTALL)
-            
-            with open("README.md", "w") as f:
-                f.write(new_readme)
-            print("SUCCESS: README.md updated with Strava table.")
-        except Exception as e:
-            print(f"ERROR updating README: {e}")
-            
-    else:
-        print("ERROR: No text found in the response parts.")
-
-# This 'except' lines up with the 'try' that handles the JSON parsing
-except Exception as e:
-    print(f"ERROR processing response: {e}")
-    try:
-        print(json.dumps(response.json(), indent=2))
-    except:
-        print("Could not parse response as JSON for debugging.")
+            print(json.dumps(response.json(), indent=2))
+        except:
+            print("Could not parse response as JSON.")
 
 def generate_activity_table(activities):
     table = "| Workout | Distance | Elev. Gain | Avg HR | Date |\n"
