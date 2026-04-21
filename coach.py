@@ -2,173 +2,347 @@ import requests
 import os
 import json
 from datetime import datetime, timedelta
-import re  # Moved to top for cleanliness
 
-# --- 1. SETUP & SECRETS ---
-CLIENT_ID = os.getenv("STRAVA_CLIENT_ID")
+# ── 1. SETUP & SECRETS ────────────────────────────────────────────────────────
+CLIENT_ID     = os.getenv("STRAVA_CLIENT_ID")
 CLIENT_SECRET = os.getenv("STRAVA_CLIENT_SECRET")
 REFRESH_TOKEN = os.getenv("STRAVA_REFRESH_TOKEN")
-GEMINI_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_KEY    = os.getenv("GEMINI_API_KEY")
 
+MARATHON_DATE = "November 1, 2026"
+PLAN_START    = "June 28, 2026"        # 18 weeks out from Nov 1
+
+# ── 2. STRAVA ─────────────────────────────────────────────────────────────────
 def get_strava_access_token():
-    url = "https://www.strava.com/oauth/token"
-    payload = {
-        'client_id': CLIENT_ID,
-        'client_secret': CLIENT_SECRET,
-        'refresh_token': REFRESH_TOKEN,
-        'grant_type': 'refresh_token'
-    }
-    response = requests.post(url, data=payload)
-    return response.json().get('access_token')
+    resp = requests.post("https://www.strava.com/oauth/token", data={
+        "client_id": CLIENT_ID,
+        "client_secret": CLIENT_SECRET,
+        "refresh_token": REFRESH_TOKEN,
+        "grant_type": "refresh_token",
+    })
+    resp.raise_for_status()
+    return resp.json()["access_token"]
 
-def get_activities(access_token):
-    two_weeks_ago = int((datetime.now() - timedelta(days=14)).timestamp())
-    url = f"https://www.strava.com/api/v3/athlete/activities?after={two_weeks_ago}"
-    headers = {'Authorization': f"Bearer {access_token}"}
-    response = requests.get(url, headers=headers)
-    data = response.json()
-    if isinstance(data, dict) and 'errors' in data:
-        print(f"STRAVA API ERROR: {data}")
-        exit(1)
+
+def get_activities(access_token, days=14):
+    since = int((datetime.now() - timedelta(days=days)).timestamp())
+    resp = requests.get(
+        f"https://www.strava.com/api/v3/athlete/activities?after={since}&per_page=30",
+        headers={"Authorization": f"Bearer {access_token}"},
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    if isinstance(data, dict) and "errors" in data:
+        raise RuntimeError(f"Strava error: {data}")
     return data
 
-def generate_activity_table(activities_list):
-    # These are the headers for the Markdown table
-    output_rows = [
-        "| Workout | Distance | Date |",
-        "| :--- | :--- | :--- |"
-    ]
-    
-    # If the list is empty, we show a message instead of a blank table
-    if not activities_list:
-        return "No recent runs found. Time to hit the road!"
 
-    for workout in activities_list[:5]:
-        # IMPORTANT: These keys MUST match your Section 2 dictionary
-        name = workout.get('name', 'Unknown')
-        dist = f"{workout.get('distance_miles', 0)} mi"
-        
-        # We take the first 10 characters (YYYY-MM-DD)
-        raw_date = workout.get('date', '0000-00-00')
-        formatted_date = raw_date[:10]
-        
-        row = f"| {name} | {dist} | {formatted_date} |"
-        output_rows.append(row)
-        
-    return "\n".join(output_rows)
-    
-# --- 2. DATA ACQUISITION ---
-access_token = get_strava_access_token()
-activities = get_activities(access_token)
+def format_activity(act):
+    """Return a cleaned dict for one Strava activity."""
+    dist_m   = act.get("distance", 0)
+    dist_mi  = round(dist_m / 1609.34, 2)
+    move_sec = act.get("moving_time", 0)
 
-# Process and Filter: Only Runs, sorted by date
-formatted_activities = []
-for act in activities:
-    # Strava sometimes uses 'type' and sometimes 'sport_type'
-    if act.get('type') == 'Run' or act.get('sport_type') == 'Run':
-        formatted_activities.append({
-            "name": act.get('name'),
-            "date": act.get('start_date_local'),
-            "distance_miles": round(act.get('distance', 0) / 1609.34, 2)
-        })
+    pace_sec = (move_sec / 60) / dist_mi * 60 if dist_mi > 0 else 0  # seconds per mile
+    pace_min = int(pace_sec // 60)
+    pace_s   = int(pace_sec % 60)
+    pace_str = f"{pace_min}:{str(pace_s).zfill(2)}" if dist_mi > 0 else "—"
 
-# Sort by date (newest first) and take the top 3 for the dashboard
-formatted_activities.sort(key=lambda x: x['date'], reverse=True)
-recent_runs = formatted_activities[:3]
+    elev_ft  = round(act.get("total_elevation_gain", 0) * 3.28084, 0)
+    hr       = act.get("average_heartrate")
 
-print(f"Successfully processed {len(recent_runs)} runs for the table.")
+    return {
+        "id":             act.get("id"),
+        "name":           act.get("name", "Run"),
+        "date":           act.get("start_date_local", "")[:10],
+        "distance_miles": dist_mi,
+        "moving_time_sec": move_sec,
+        "pace_per_mile":  pace_str,
+        "pace_seconds":   round(pace_sec, 1),
+        "elevation_ft":   elev_ft,
+        "avg_hr":         round(hr) if hr else None,
+        "suffer_score":   act.get("suffer_score"),
+    }
 
 
-# --- 3. THE INTELLIGENCE STEP ---
-current_time = datetime.now().strftime("%A, %b %d")
-marathon_date = "November 1, 2026"
+# ── 3. RACE PREDICTOR (Riegel formula) ────────────────────────────────────────
+def riegel_predict(hm_pace_sec, distance_miles):
+    """Predict finish time in seconds for a given distance using half marathon pace."""
+    hm_time_sec = hm_pace_sec * 13.1
+    pred_sec    = hm_time_sec * (distance_miles / 13.1) ** 1.06
+    return round(pred_sec)
 
-prompt = f"""
-Today is {current_time}. 
-Goal: NYC Marathon on {marathon_date}.
-Plan: Hal Higdon Novice 2.
 
-Strava Data (Last 14 Days of Runs): {json.dumps(formatted_activities)}
+def sec_to_time(s):
+    h = s // 3600
+    m = (s % 3600) // 60
+    sec = s % 60
+    if h:
+        return f"{h}:{str(m).zfill(2)}:{str(sec).zfill(2)}"
+    return f"{m}:{str(sec).zfill(2)}"
 
-Mission:
-- Analysis: Look at my recent runs. How is my pace and consistency?
-- Next Week: Based on today's date, what are my specific mileage goals for the next 7 days?
-- Full Schedule: Provide the full 18-week Hal Higdon Novice 2 table for my reference.
+
+def pace_zones(avg_pace_sec):
+    """Return training pace zones based on average race pace."""
+    return {
+        "easy":      f"{sec_to_time(int(avg_pace_sec * 1.20))}/mi  (conversational)",
+        "long_run":  f"{sec_to_time(int(avg_pace_sec * 1.15))}/mi  (comfortable)",
+        "marathon":  f"{sec_to_time(int(avg_pace_sec * 1.05))}/mi  (goal marathon pace)",
+        "threshold": f"{sec_to_time(int(avg_pace_sec * 0.95))}/mi  (comfortably hard)",
+        "tempo":     f"{sec_to_time(int(avg_pace_sec * 0.90))}/mi  (10K effort)",
+    }
+
+
+# ── 4. CURRENT TRAINING WEEK ──────────────────────────────────────────────────
+def get_current_week():
+    plan_start = datetime(2026, 6, 28)
+    delta = datetime.now() - plan_start
+    week  = max(1, min(18, int(delta.days / 7) + 1))
+    return week
+
+
+# ── 5. GEMINI COACHING ────────────────────────────────────────────────────────
+HAL_HIGDON_N2 = """
+Week 1:  Mon Rest | Tue 3mi | Wed 3mi | Thu 3mi | Fri Rest | Sat 4mi | Sun Cross
+Week 2:  Mon Rest | Tue 3mi | Wed 3mi | Thu 3mi | Fri Rest | Sat 5mi | Sun Cross
+Week 3:  Mon Rest | Tue 3mi | Wed 3mi | Thu 3mi | Fri Rest | Sat 6mi | Sun Cross
+Week 4:  Mon Rest | Tue 3mi | Wed 4mi | Thu 3mi | Fri Rest | Sat 7mi | Sun Cross
+Week 5:  Mon Rest | Tue 3mi | Wed 4mi | Thu 3mi | Fri Rest | Sat 8mi | Sun Cross
+Week 6:  Mon Rest | Tue 3mi | Wed 4mi | Thu 3mi | Fri Rest | Sat 9mi | Sun Cross
+Week 7:  Mon Rest | Tue 3mi | Wed 5mi | Thu 3mi | Fri Rest | Sat 10mi | Sun Cross
+Week 8:  Mon Rest | Tue 3mi | Wed 5mi | Thu 3mi | Fri Rest | Sat 11mi | Sun Cross
+Week 9:  Mon Rest | Tue 3mi | Wed 5mi | Thu 3mi | Fri Rest | Sat 12mi | Sun Cross
+Week 10: Mon Rest | Tue 3mi | Wed 5mi | Thu 3mi | Fri Rest | Sat 13mi | Sun Cross
+Week 11: Mon Rest | Tue 3mi | Wed 6mi | Thu 3mi | Fri Rest | Sat 14mi | Sun Cross
+Week 12: Mon Rest | Tue 3mi | Wed 6mi | Thu 3mi | Fri Rest | Sat 15mi | Sun Cross
+Week 13: Mon Rest | Tue 3mi | Wed 6mi | Thu 3mi | Fri Rest | Sat 16mi | Sun Cross
+Week 14: Mon Rest | Tue 3mi | Wed 7mi | Thu 3mi | Fri Rest | Sat 17mi | Sun Cross
+Week 15: Mon Rest | Tue 3mi | Wed 7mi | Thu 3mi | Fri Rest | Sat 18mi | Sun Cross
+Week 16: Mon Rest | Tue 3mi | Wed 8mi | Thu 3mi | Fri Rest | Sat 19mi | Sun Cross
+Week 17: Mon Rest | Tue 3mi | Wed 4mi | Thu 2mi | Fri Rest | Sat 8mi  | Sun Cross
+Week 18: Mon Rest | Tue 3mi | Wed 2mi | Thu Rest | Fri Rest | Sat 2mi | Sun NYC MARATHON
 """
 
-# Using v1beta to ensure compatibility with the Flash model
-gemini_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_KEY}"
-payload = {"contents": [{"parts": [{"text": prompt}]}]}
 
-# 1. ATTEMPT AI ADVICE
-try:
-    response = requests.post(gemini_url, json=payload)
-    if response.status_code == 200:
-        result = response.json()
-        advice = result.get('candidates', [{}])[0].get('content', {}).get('parts', [{}])[0].get('text')
-        if advice:
-            with open("latest_advice.txt", "w") as f:
-                f.write(advice)
-            print("SUCCESS: AI coaching advice updated.")
+def get_gemini_advice(activities, current_week, avg_pace_sec):
+    today = datetime.now().strftime("%A, %B %d, %Y")
+
+    # Build rich run summary
+    run_lines = []
+    for r in activities[:10]:
+        hr_str = f" | HR {r['avg_hr']}bpm" if r['avg_hr'] else ""
+        elev   = f" | +{r['elevation_ft']}ft" if r['elevation_ft'] else ""
+        run_lines.append(
+            f"  • {r['date']} — {r['name']}: {r['distance_miles']}mi @ {r['pace_per_mile']}/mi{hr_str}{elev}"
+        )
+    runs_block = "\n".join(run_lines) if run_lines else "  (No runs in the last 14 days)"
+
+    # Predicted race times
+    if avg_pace_sec and avg_pace_sec > 0:
+        pred_5k   = sec_to_time(riegel_predict(avg_pace_sec, 3.1))
+        pred_half = sec_to_time(riegel_predict(avg_pace_sec, 13.1))
+        pred_full = sec_to_time(riegel_predict(avg_pace_sec, 26.2))
+        zones     = pace_zones(avg_pace_sec)
+        predictor_block = f"""
+  Predicted Finish Times (Riegel formula from avg pace {sec_to_time(int(avg_pace_sec))}/mi):
+    5K:     {pred_5k}
+    Half:   {pred_half}
+    Full:   {pred_full}
+
+  Training Pace Zones:
+    Easy/Long Run:  {zones['easy']}
+    Marathon Pace:  {zones['marathon']}
+    Threshold:      {zones['threshold']}
+    Tempo:          {zones['tempo']}
+"""
     else:
-        print(f"AI Error {response.status_code}: {response.text}")
-except Exception as e:
-    print(f"AI Request Failed: {e}")
+        predictor_block = "  (Insufficient pace data for predictions)"
 
-# 2. ALWAYS UPDATE THE DASHBOARD (Independent of AI)
-try:
-    # Generate the table string
-    my_workout_table = generate_activity_table(recent_runs) 
+    prompt = f"""You are an elite marathon coach specializing in Hal Higdon's Novice 2 program.
+Today is {today}. The athlete is targeting the NYC Marathon on {MARATHON_DATE}.
 
-    # --- ADD THE SCHEDULE HERE ---
-    novice_2_plan = """
-| Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
+═══ ATHLETE'S RECENT STRAVA DATA (Last 14 Days) ═══
+{runs_block}
+
+═══ PERFORMANCE METRICS ═══
+{predictor_block}
+
+═══ TRAINING CONTEXT ═══
+  Current Week: {current_week} of 18 (official plan starts {PLAN_START})
+  Plan: Hal Higdon Novice 2
+  Days until NYC Marathon: {(datetime(2026,11,1) - datetime.now()).days}
+
+═══ HAL HIGDON NOVICE 2 SCHEDULE ═══
+{HAL_HIGDON_N2}
+
+═══ YOUR COACHING RESPONSE ═══
+Write a focused, data-driven coaching brief with these sections:
+
+**Fitness Assessment**
+Analyze pacing trends, consistency, volume, and any heart rate data. Be specific — reference actual numbers from their Strava data.
+
+**This Week's Focus (Week {current_week})**
+Exact paces for each run type this week. What should easy runs feel like? How should they approach Saturday's long run? Any drills or cross-training suggestions?
+
+**Key Priorities**
+2–3 actionable bullet points for this week based on where they are in the plan.
+
+**Watch Out For**
+Any red flags in the data — overtraining, pacing too fast, too little recovery, etc.
+
+**Upcoming Milestones**
+What to look forward to or prepare for in the next 2–3 weeks of training.
+
+Keep it under 450 words. Be direct, specific, and encouraging. Reference their actual run data by name or date where relevant."""
+
+    url     = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_KEY}"
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"temperature": 0.65, "maxOutputTokens": 700},
+    }
+    resp = requests.post(url, json=payload)
+    resp.raise_for_status()
+    result = resp.json()
+    return result["candidates"][0]["content"]["parts"][0]["text"]
+
+
+# ── 6. README UPDATER ─────────────────────────────────────────────────────────
+def generate_activity_table(activities):
+    rows = ["| Workout | Distance | Pace | Date |", "| :--- | :--- | :--- | :--- |"]
+    if not activities:
+        return "No recent runs found. Time to hit the road!"
+    for r in activities[:5]:
+        rows.append(f"| {r['name']} | {r['distance_miles']} mi | {r['pace_per_mile']}/mi | {r['date']} |")
+    return "\n".join(rows)
+
+
+def update_readme(activities, current_week, advice, run_id, updated_at):
+    table = generate_activity_table(activities)
+    base  = os.path.dirname(os.path.abspath(__file__))
+
+    novice_2_plan = """| Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | Rest | 3m run | 3m run | 3m run | Rest | 4m run | Cross |
-| 2 | Rest | 3m run | 3m run | 3m run | Rest | 5m run | Cross |
-| 3 | Rest | 3m run | 3m run | 3m run | Rest | 6m run | Cross |
-| 4 | Rest | 3m run | 4m run | 3m run | Rest | 7m run | Cross |
-| 5 | Rest | 3m run | 4m run | 3m run | Rest | 8m run | Cross |
-| 6 | Rest | 3m run | 4m run | 3m run | Rest | 9m run | Cross |
-| 7 | Rest | 3m run | 5m run | 3m run | Rest | 10m run | Cross |
-| 8 | Rest | 3m run | 5m run | 3m run | Rest | 11m run | Cross |
-| 9 | Rest | 3m run | 5m run | 3m run | Rest | 12m run | Cross |
-| 10 | Rest | 3m run | 5m run | 3m run | Rest | 13m run | Cross |
-| 11 | Rest | 3m run | 6m run | 3m run | Rest | 14m run | Cross |
-| 12 | Rest | 3m run | 6m run | 3m run | Rest | 15m run | Cross |
-| 13 | Rest | 3m run | 6m run | 3m run | Rest | 16m run | Cross |
-| 14 | Rest | 3m run | 7m run | 3m run | Rest | 17m run | Cross |
-| 15 | Rest | 3m run | 7m run | 3m run | Rest | 18m run | Cross |
-| 16 | Rest | 3m run | 8m run | 3m run | Rest | 19m run | Cross |
-| 17 | Rest | 3m run | 4m run | 2m run | Rest | 8m run | Cross |
-| 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
-"""
+| 1 | Rest | 3m | 3m | 3m | Rest | 4m | Cross |
+| 2 | Rest | 3m | 3m | 3m | Rest | 5m | Cross |
+| 3 | Rest | 3m | 3m | 3m | Rest | 6m | Cross |
+| 4 | Rest | 3m | 4m | 3m | Rest | 7m | Cross |
+| 5 | Rest | 3m | 4m | 3m | Rest | 8m | Cross |
+| 6 | Rest | 3m | 4m | 3m | Rest | 9m | Cross |
+| 7 | Rest | 3m | 5m | 3m | Rest | 10m | Cross |
+| 8 | Rest | 3m | 5m | 3m | Rest | 11m | Cross |
+| 9 | Rest | 3m | 5m | 3m | Rest | 12m | Cross |
+| 10 | Rest | 3m | 5m | 3m | Rest | 13m | Cross |
+| 11 | Rest | 3m | 6m | 3m | Rest | 14m | Cross |
+| 12 | Rest | 3m | 6m | 3m | Rest | 15m | Cross |
+| 13 | Rest | 3m | 6m | 3m | Rest | 16m | Cross |
+| 14 | Rest | 3m | 7m | 3m | Rest | 17m | Cross |
+| 15 | Rest | 3m | 7m | 3m | Rest | 18m | Cross |
+| 16 | Rest | 3m | 8m | 3m | Rest | 19m | Cross |
+| 17 | Rest | 3m | 4m | 2m | Rest | 8m | Cross |
+| 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |"""
 
-    # Unique identifiers to force Git to see a change
-    run_id = os.getenv("GITHUB_RUN_ID", "local")
-    update_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    # Short advice excerpt for README (first 3 lines)
+    advice_excerpt = "\n".join(advice.split("\n")[:6]) if advice else "No advice yet."
 
-    # Inject the table AND the schedule into the template
-    readme_template = f"""# Training Dashboard
-[Click here to view the latest coaching advice & full 18-week plan](./latest_advice.txt)
+    readme = f"""# 🏃 NYC Marathon Training Dashboard
+
+> **[→ View the live visual dashboard](https://tlmcev.github.io/Training-Dashboard/)** ← New!
+
+[Full AI coaching advice](./latest_advice.txt)
 
 ## Recent Runs
-{my_workout_table}
+
+{table}
+
+## AI Coach Snapshot
+
+{advice_excerpt}
+
+*[Read full coaching advice →](./latest_advice.txt)*
 
 ## Hal Higdon Novice 2 Schedule
+
+**Current week: {current_week} of 18**
+
 {novice_2_plan}
 
-*Last updated: {update_time} (UTC) | Run ID: {run_id}*
+---
+*Last updated: {updated_at} UTC | Run ID: {run_id}*
 """
 
-    # Define absolute path for GitHub runner root
-    base_path = os.path.dirname(os.path.abspath(__file__))
-    readme_path = os.path.join(base_path, "README.md")
+    with open(os.path.join(base, "README.md"), "w") as f:
+        f.write(readme)
+    print("✓ README.md updated")
 
-    with open(readme_path, "w") as f:
-        f.write(readme_template)
-        
-    print(f"SUCCESS: Dashboard README updated with {len(recent_runs)} runs and schedule.")
 
-except Exception as e:
-    print(f"CRITICAL ERROR updating README: {e}")
+# ── 7. MAIN ───────────────────────────────────────────────────────────────────
+def main():
+    run_id     = os.getenv("GITHUB_RUN_ID", "local")
+    updated_at = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+
+    print("→ Fetching Strava token…")
+    token      = get_strava_access_token()
+
+    print("→ Fetching activities…")
+    raw        = get_activities(token, days=14)
+    activities = [
+        format_activity(a)
+        for a in raw
+        if a.get("type") == "Run" or a.get("sport_type") == "Run"
+    ]
+    activities.sort(key=lambda x: x["date"], reverse=True)
+    print(f"  {len(activities)} runs found")
+
+    current_week = get_current_week()
+    print(f"  Training week: {current_week}/18")
+
+    # Average pace from recent runs (exclude 0-pace entries)
+    paces = [a["pace_seconds"] for a in activities if a["pace_seconds"] > 0]
+    avg_pace_sec = sum(paces) / len(paces) if paces else 0
+
+    # Race predictions
+    predictions = {}
+    if avg_pace_sec:
+        predictions = {
+            "5k":       sec_to_time(riegel_predict(avg_pace_sec, 3.1)),
+            "10k":      sec_to_time(riegel_predict(avg_pace_sec, 6.2)),
+            "half":     sec_to_time(riegel_predict(avg_pace_sec, 13.1)),
+            "marathon": sec_to_time(riegel_predict(avg_pace_sec, 26.2)),
+        }
+        print(f"  Predicted marathon: {predictions['marathon']}")
+
+    # Pace zones
+    zones = pace_zones(avg_pace_sec) if avg_pace_sec else {}
+
+    # Gemini advice
+    advice = ""
+    print("→ Calling Gemini…")
+    try:
+        advice = get_gemini_advice(activities, current_week, avg_pace_sec)
+        print("✓ Gemini advice received")
+        with open("latest_advice.txt", "w") as f:
+            f.write(advice)
+    except Exception as e:
+        print(f"✗ Gemini error: {e}")
+
+    # Write coach_data.json (consumed by index.html dashboard)
+    coach_data = {
+        "updated_at":    updated_at,
+        "current_week":  current_week,
+        "activities":    activities,
+        "avg_pace_sec":  round(avg_pace_sec, 1),
+        "predictions":   predictions,
+        "pace_zones":    zones,
+        "advice":        advice,
+    }
+    base = os.path.dirname(os.path.abspath(__file__))
+    with open(os.path.join(base, "coach_data.json"), "w") as f:
+        json.dump(coach_data, f, indent=2)
+    print("✓ coach_data.json written")
+
+    # Update README
+    update_readme(activities, current_week, advice, run_id, updated_at)
+
+
+if __name__ == "__main__":
+    main()
