@@ -117,45 +117,42 @@ data = {
 
 response = requests.post(gemini_url, json=data)
 
-
 if advice:
             print(f"Advice generated: {advice[:50]}...")
             with open("latest_advice.txt", "w") as f:
                 f.write(advice)
             print("SUCCESS: latest_advice.txt created.")
 
-            # --- INSERT TABLE LOGIC HERE ---
-            # 1. Generate the table string using your activities variable
-            # (Double check if your variable is called 'activities' or 'raw_activities')
+            # --- TABLE LOGIC ---
             strava_table = generate_activity_table(activities) 
 
-            # 2. Open and update the README
             try:
                 with open("README.md", "r") as f:
                     readme_content = f.read()
 
+                # This looks specifically for your placeholder tags
                 import re
-                new_readme = re.sub(
-                    r".*?",
-                    f"\n{strava_table}\n",
-                    readme_content,
-                    flags=re.DOTALL
-                )
+                pattern = r".*?"
+                replacement = f"\n{strava_table}\n"
+                
+                new_readme = re.sub(pattern, replacement, readme_content, flags=re.DOTALL)
                 
                 with open("README.md", "w") as f:
                     f.write(new_readme)
                 print("SUCCESS: README.md updated with Strava table.")
             except Exception as e:
                 print(f"ERROR updating README: {e}")
-            # --- END TABLE LOGIC ---
-
-else:
-    print("ERROR: No text found in the response parts.")
+        
+        else:
+            print("ERROR: No text found in the response parts.")
             
     except Exception as e:
         print(f"ERROR processing response: {e}")
-        print("Full API Response for debugging:")
-        print(json.dumps(response.json(), indent=2))
+        # Use response.json() only if the response was actually JSON
+        try:
+            print(json.dumps(response.json(), indent=2))
+        except:
+            print("Could not parse response as JSON for debugging.")
 
 def generate_activity_table(activities):
     table = "| Workout | Distance | Elev. Gain | Avg HR | Date |\n"
