@@ -2,19 +2,14 @@ name: Update Training Dashboard
 
 on:
   schedule:
-    # Runs every morning at 7am ET (11:00 UTC)
     - cron: '0 11 * * *'
-  workflow_dispatch:   # lets you trigger manually from GitHub Actions tab
-  push:
-    branches: [main]
-    paths:
-      - 'coach.py'    # also re-runs if you update the script
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # needed to commit back to the repo
+      contents: write
 
     steps:
       - name: Checkout repo
@@ -41,7 +36,8 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main
-          git add README.md latest_advice.txt coach_data.json
+          git add README.md latest_advice.txt
+          git add coach_data.json 2>/dev/null || true
           git diff --staged --quiet && echo "Nothing to commit" && exit 0
           git commit -m "🏃 Auto-update: $(date -u '+%Y-%m-%d %H:%M') UTC"
           git push
