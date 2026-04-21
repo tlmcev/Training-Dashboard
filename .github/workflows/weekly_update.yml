@@ -42,16 +42,16 @@ jobs:
              echo "API busy, retrying in 30 seconds... (Attempt $n)"
              sleep 30
           done
-
-      - name: Commit and Push Advice
+          
+      - name: Commit and Push Updates
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add latest_advice.txt
-          # 'git diff --quiet' checks if there are actual changes
+          # Add BOTH files here
+          git add latest_advice.txt README.md
           if ! git diff --cached --quiet; then
-            git commit -m "Update coaching advice"
+            git commit -m "Update coaching advice and workout table"
             git push
           else
-            echo "No changes to the coaching advice. Skipping push."
+            echo "No changes detected. Skipping push."
           fi
