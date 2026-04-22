@@ -812,7 +812,30 @@ function renderCountdown() {
 }
 
 // ── This Week schedule ────────────────────────────────────────────────────────
-function renderWeek(weekNum, data) {
+function renderWeek(weekNum, phase) {
+  if (phase === 'base_building') {
+    document.getElementById('bigWeekNum').textContent = '';
+    const checklist = [
+      { icon: '🏃', label: 'Easy runs', detail: '3–5x this week, conversational pace' },
+      { icon: '⚡', label: 'Strides', detail: '2x this week, tacked onto easy runs' },
+      { icon: '🚴', label: 'Cross training', detail: '1x this week, 30–45 min' },
+      { icon: '🧘', label: 'Rest days', detail: 'At least 2x this week' },
+      { icon: '🛣️', label: 'Long easy run', detail: '1x this week, keep it relaxed' },
+    ];
+    const html = checklist.map(item => `
+      <div class="week-row" style="gap:14px; align-items:flex-start; opacity:1;">
+        <span style="font-size:20px; flex-shrink:0;">${item.icon}</span>
+        <div style="flex:1;">
+          <div style="font-family:'Barlow Semi Condensed',sans-serif; font-weight:500; font-size:14px;">${item.label}</div>
+          <div style="font-size:12px; color:var(--muted); margin-top:2px;">${item.detail}</div>
+        </div>
+      </div>
+    `).join('');
+    document.getElementById('weekDays').innerHTML = html;
+    return;
+  }
+
+  // Normal training week display
   document.getElementById('bigWeekNum').textContent = weekNum;
   const todayIdx = getTodayDayIndex();
   const maxMiles = Math.max(...HH[weekNum-1].map(mileToNum), 1);
@@ -1045,7 +1068,7 @@ async function loadData() {
   const weekNum = getCurrentWeek();
 
   renderCountdown();
-  renderWeek(weekNum);
+  renderWeek(weekNum, 'base_building');
   renderScheduleTable(weekNum);
   renderPredictor(null);
   renderZones(null);
@@ -1056,6 +1079,7 @@ async function loadData() {
     const data = await res.json();
 
     renderProgress(weekNum, data.phase);
+    renderWeek(weekNum, data.phase);
 
     const activities = data.activities || [];
     renderRuns(activities);
@@ -1080,6 +1104,7 @@ async function loadData() {
 
   } catch (e) {
     renderProgress(weekNum, 'base_building');
+    renderWeek(weekNum, 'base_building');
 
     const placeholder = [
       { name: 'Newport Half Marathon!', date: '2026-04-18', distance_miles: '13.31', pace_per_mile: '8:35', pace_seconds: 515 },
