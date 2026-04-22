@@ -14,7 +14,10 @@
 
 ## AI Coach Snapshot
 
-Alright, let's get you dialed in for the NYC Marathon! Today is Wednesday, April 22, 2026
+Alright, coach! Let's get you dialed in for the NYC Marathon. You've had a strong start to the spring racing season, and we'll leverage that fitness wisely as we prepare for the Hal Higdon Novice 2 plan.
+
+### **Fitness Assessment**
+You're coming off a strong racing block, evidenced by your Newport Half Marathon at 8:35/
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -44,4 +47,4 @@ Alright, let's get you dialed in for the NYC Marathon! Today is Wednesday, April
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-22 00:48:44 UTC | Run ID: 24754223050*
+*Last updated: 2026-04-22 00:54:04 UTC | Run ID: 24754373337*
