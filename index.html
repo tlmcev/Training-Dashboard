@@ -870,7 +870,7 @@ function renderRuns(activities) {
 }
 
 // ── Stats ────────────────────────────────────────────────────────────────────
-function renderStats(activities, weekNum) {
+function renderStats(activities, weekNum, data) {
   if (data && data.phase === 'base_building') {
     document.getElementById('statWeek').textContent = 'BASE';
     document.getElementById('statWeekLabel').textContent = 'Building Phase';
@@ -999,7 +999,7 @@ async function loadData() {
 
     const activities = data.activities || [];
     renderRuns(activities);
-    renderStats(activities, weekNum);
+    renderStats(activities, weekNum, data);
     renderCoach(data.advice || '');
 
     // Compute avg pace from activities
@@ -1025,7 +1025,7 @@ async function loadData() {
       { name: '"Cough Syrup" - Young The Giant', date: '2026-04-10', distance_miles: '3.29', pace_per_mile: '—', pace_seconds: 0 },
     ];
     renderRuns(placeholder);
-    renderStats(placeholder, weekNum);
+    renderStats(placeholder, weekNum, null);
     renderCoach('Coaching advice will appear here once coach.py runs and generates coach_data.json.\n\nGreat work on the Newport Half Marathon — 13.31 miles at ~8:35/mi is a strong fitness indicator heading into your NYC Marathon build!');
     document.getElementById('footerUpdated').textContent = 'Awaiting first data refresh';
   }
