@@ -316,6 +316,7 @@ def main():
                 print("  All 3 attempts failed. Advice left empty.")
 
     # Write coach_data.json (consumed by index.html dashboard)
+    weekly_mileage = aggregate_weekly_mileage(activities)
     coach_data = {
         "updated_at":       updated_at,
         "current_week":     current_week,
