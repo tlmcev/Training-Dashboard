@@ -14,7 +14,12 @@
 
 ## AI Coach Snapshot
 
-No advice yet.
+Here's your coaching brief, Tom:
+
+**Fitness Assessment**
+Tom, your recent race performances are outstanding! Your Newport Half Marathon at 8:35/mi was significantly faster than your predicted Half Marathon pace of 8:55/mi and even quicker than your calculated Threshold pace of 8:28/mi. The Cherry Blossom 10 Mile at 8:41/mi further confirms this strong fitness. This indicates your current aerobic capacity is excellent and you're ahead of the curve. Your "Cough Syrup" run at 9:30/mi with a low HR of 136bpm suggests your natural easy pace is quicker than the theoretical 10:42/mi, but we need to ensure true easy efforts stay within the aerobic zone.
+
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -44,4 +49,4 @@ No advice yet.
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-22 18:03:52 UTC | Run ID: 24794376326*
+*Last updated: 2026-04-22 19:47:28 UTC | Run ID: 24799140356*
