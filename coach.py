@@ -158,47 +158,44 @@ def get_gemini_advice(activities, current_week, avg_pace_sec):
     else:
         predictor_block = "  (Insufficient pace data for predictions)"
 
-    prompt = f"""You are an elite marathon coach specializing in Hal Higdon's Novice 2 program.
-Today is {today}. The athlete is targeting the NYC Marathon on {MARATHON_DATE}.
+    prompt = f"""You are an expert marathon coach specializing in Hal Higdon Novice 2.
+Today is {today}. Goal: NYC Marathon on {MARATHON_DATE}.
 
-═══ ATHLETE'S RECENT STRAVA DATA (Last 14 Days) ═══
+RECENT STRAVA RUNS (last 14 days):
 {runs_block}
 
-═══ PERFORMANCE METRICS ═══
+PERFORMANCE METRICS:
 {predictor_block}
 
-═══ TRAINING CONTEXT ═══
-  Current Week: {current_week} of 18 (official plan starts {PLAN_START})
-  Plan: Hal Higdon Novice 2
-  Days until NYC Marathon: {(datetime(2026,11,1) - datetime.now()).days}
+TRAINING CONTEXT:
+- Current Week: {current_week} of 18 (plan starts {PLAN_START})
+- Days until NYC Marathon: {(datetime(2026,11,1) - datetime.now()).days}
 
-═══ HAL HIGDON NOVICE 2 SCHEDULE ═══
+HAL HIGDON NOVICE 2 SCHEDULE:
 {HAL_HIGDON_N2}
 
-═══ YOUR COACHING RESPONSE ═══
-Write a focused, data-driven coaching brief with these sections:
+Write a coaching brief with these 5 sections. Each section must be at least 2-3 sentences.
 
 **Fitness Assessment**
-Analyze pacing trends, consistency, volume, and any heart rate data. Be specific — reference actual numbers from their Strava data.
+Analyze pacing trends and consistency from the Strava data above. Reference specific runs and numbers.
 
 **This Week's Focus (Week {current_week})**
-Exact paces for each run type this week. What should easy runs feel like? How should they approach Saturday's long run? Any drills or cross-training suggestions?
+Give exact target paces for easy runs and the long run this week.
 
 **Key Priorities**
-2–3 actionable bullet points for this week based on where they are in the plan.
+List 2-3 specific actionable goals for this week.
 
 **Watch Out For**
-Any red flags in the data — overtraining, pacing too fast, too little recovery, etc.
+Identify any red flags or risks based on the data.
 
 **Upcoming Milestones**
-What to look forward to or prepare for in the next 2–3 weeks of training.
-
-Keep it under 450 words. Be direct, specific, and encouraging. Reference their actual run data by name or date where relevant."""
+Preview what's coming in the next 2-3 weeks.
+"""
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_KEY}"
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.65, "maxOutputTokens": 700},
+        "generationConfig": {"temperature": 0.65, "maxOutputTokens": 2048},
     }
     resp = requests.post(url, json=payload)
     resp.raise_for_status()
