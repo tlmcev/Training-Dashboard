@@ -14,12 +14,12 @@
 
 ## AI Coach Snapshot
 
-Hey Tom,
+**Coaching Brief for Tom**
 
-Great to connect with you as you gear up for the NYC Marathon! It's an exciting journey ahead, and we're starting at a fantastic point with some solid fitness under your belt.
+**Fitness Assessment**
+Tom, your recent race performances demonstrate excellent fitness and a strong competitive drive. Your Newport Half Marathon (13.31mi @ 8:35/mi, HR 151bpm) and Cherry Blossom 10 Mile (10.19mi @ 8:41/mi, HR 156bpm) were both run at significant efforts, close to your predicted Threshold pace (8:28/mi). You've successfully covered substantial distances at a strong clip, confirming your predicted Half Marathon time of 1:56:57. However, these were hard efforts, as indicated by your heart rates. While your 3.29mi run at 9:30/mi with HR 136bpm is a step in the right direction, it's still notably faster than your prescribed Easy/Long Run pace of 10:42/mi. You've built a robust racing foundation, but now it's time to strategically shift focus for base building.
 
-### **Fitness Assessment**
-Tom, looking at your recent Strava data, you've shown some impressive race performances! The Newport Half Marathon at 8:35/mi and the Cherry Blossom 10 Mile at 8:41/mi are strong efforts, indicating a good level of fitness and competitive drive. However, these paces are significantly faster than your calculated Marathon Pace of 9:22/mi and well into your Threshold zone (8:28/mi), which suggests you were pushing hard rather than running at an easy, conversational effort. Your 3.29mi run at 9:30/mi is closer to your Marathon Pace, but still a bit quicker than your ideal easy pace for building aerobic endurance.
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -49,4 +49,4 @@ Tom, looking at your recent Strava data, you've shown some impressive race perfo
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-22 17:46:57 UTC | Run ID: 24793588436*
+*Last updated: 2026-04-22 17:52:45 UTC | Run ID: 24793860426*
