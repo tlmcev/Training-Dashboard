@@ -159,6 +159,7 @@ def get_gemini_advice(activities, current_week, avg_pace_sec):
         predictor_block = "  (Insufficient pace data for predictions)"
 
     prompt = f"""You are an expert marathon coach specializing in Hal Higdon Novice 2.
+You are coaching an athlete named Tom. Address him as Tom, never as "coach".
 Today is {today}. Goal: NYC Marathon on {MARATHON_DATE}.
 
 RECENT STRAVA RUNS (last 14 days):
@@ -195,7 +196,7 @@ Preview what's coming in the next 2-3 weeks.
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_KEY}"
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.65, "maxOutputTokens": 2048},
+        "generationConfig": {"temperature": 0.65, "maxOutputTokens": 4096},
     }
     resp = requests.post(url, json=payload)
     resp.raise_for_status()
