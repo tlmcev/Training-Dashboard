@@ -14,7 +14,7 @@
 
 ## AI Coach Snapshot
 
-No advice yet.
+Alright, let's get you dialed in for the NYC Marathon! Today is Wednesday, April 22, 2026
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -44,4 +44,4 @@ No advice yet.
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-22 00:45:00 UTC | Run ID: 24754114832*
+*Last updated: 2026-04-22 00:48:44 UTC | Run ID: 24754223050*
