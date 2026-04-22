@@ -14,10 +14,12 @@
 
 ## AI Coach Snapshot
 
-Alright, coach! Let's get you dialed in for the NYC Marathon. You've had a strong start to the spring racing season, and we'll leverage that fitness wisely as we prepare for the Hal Higdon Novice 2 plan.
+Alright, Tom, let's get you ready for the NYC Marathon! It's great to see you're already hitting the ground running, even before the official plan start.
 
-### **Fitness Assessment**
-You're coming off a strong racing block, evidenced by your Newport Half Marathon at 8:35/
+### Fitness Assessment
+Tom, your recent race performances have been remarkably strong, particularly the Newport Half Marathon at 8:35/mi and the Cherry Blossom 10 Mile at 8:41/mi. These paces are significantly faster than your predicted Half Marathon time of 1:56:57 (approximately 8:55/mi), which tells us you have a very solid fitness base. However, it's worth noting that these race efforts are quite close to your calculated Threshold pace (8:28/mi), indicating you pushed hard, and even your 3.29-mile run at 9:30/mi is faster than your prescribed easy pace.
+
+### This Week's Focus (Week 1)
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -47,4 +49,4 @@ You're coming off a strong racing block, evidenced by your Newport Half Marathon
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-22 00:54:04 UTC | Run ID: 24754373337*
+*Last updated: 2026-04-22 00:59:39 UTC | Run ID: 24754540854*
