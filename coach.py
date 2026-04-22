@@ -195,7 +195,7 @@ What to look forward to or prepare for in the next 2–3 weeks of training.
 
 Keep it under 450 words. Be direct, specific, and encouraging. Reference their actual run data by name or date where relevant."""
 
-    url     = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key={GEMINI_KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-04-17:generateContent?key={GEMINI_KEY}"
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.65, "maxOutputTokens": 700},
