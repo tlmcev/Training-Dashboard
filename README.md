@@ -14,7 +14,12 @@
 
 ## AI Coach Snapshot
 
-No advice yet.
+Hey Tom,
+
+Great to connect with you as you gear up for the NYC Marathon! It's an exciting journey ahead, and we're starting at a fantastic point with some solid fitness under your belt.
+
+### **Fitness Assessment**
+Tom, looking at your recent Strava data, you've shown some impressive race performances! The Newport Half Marathon at 8:35/mi and the Cherry Blossom 10 Mile at 8:41/mi are strong efforts, indicating a good level of fitness and competitive drive. However, these paces are significantly faster than your calculated Marathon Pace of 9:22/mi and well into your Threshold zone (8:28/mi), which suggests you were pushing hard rather than running at an easy, conversational effort. Your 3.29mi run at 9:30/mi is closer to your Marathon Pace, but still a bit quicker than your ideal easy pace for building aerobic endurance.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -44,4 +49,4 @@ No advice yet.
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-22 17:43:41 UTC | Run ID: 24793440835*
+*Last updated: 2026-04-22 17:46:57 UTC | Run ID: 24793588436*
