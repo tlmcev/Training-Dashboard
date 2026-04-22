@@ -199,7 +199,7 @@ Identify any red flags or risks based on the data.
 Preview what's coming in the next 2-3 weeks.
 """
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-001:generateContent?key={GEMINI_KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_KEY}"
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.65, "maxOutputTokens": 4096},
@@ -332,9 +332,9 @@ def main():
         except Exception as e:
             print(f"✗ Gemini attempt {attempt}/3 failed: {e}")
             if attempt < 3:
-                print(f"  Retrying in 10 seconds…")
+                print(f"  Retrying in 30 seconds…")
                 import time
-                time.sleep(10)
+                time.sleep(30)
             else:
                 print("  All 3 attempts failed. Advice left empty.")
 
