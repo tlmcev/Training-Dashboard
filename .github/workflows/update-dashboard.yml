@@ -35,11 +35,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md latest_advice.txt
-          git add coach_data.json 2>/dev/null || true
-          git stash
-          git pull --rebase origin main
-          git stash pop
+          git add README.md latest_advice.txt coach_data.json
           git diff --staged --quiet && echo "Nothing to commit" && exit 0
           git commit -m "🏃 Auto-update: $(date -u '+%Y-%m-%d %H:%M') UTC"
-          git push
+          git push --force-with-lease
