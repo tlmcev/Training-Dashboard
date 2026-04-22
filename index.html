@@ -636,7 +636,7 @@
     </div>
     <div class="stat-cell">
       <div class="stat-val" id="statRuns">—</div>
-      <div class="stat-lbl">Runs This Period</div>
+      <div class="stat-lbl">Runs Last 14 Days</div>
     </div>
   </div>
 
@@ -899,15 +899,21 @@ function renderStats(activities, weekNum, data) {
 
   if (!activities || !activities.length) return;
 
-  const totalMiles = activities.reduce((s, a) => s + parseFloat(a.distance_miles || 0), 0);
-  document.getElementById('statMiles').textContent = totalMiles.toFixed(1);
-  document.getElementById('statRuns').textContent = activities.length;
+  // Filter to last 14 days only for stats
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - 14);
+  const recent = activities.filter(a => new Date(a.date) >= cutoff);
 
-  // Avg pace from runs with pace data
-  const paces = activities.filter(a => a.pace_seconds).map(a => a.pace_seconds);
+  const totalMiles = recent.reduce((s, a) => s + parseFloat(a.distance_miles || 0), 0);
+  document.getElementById('statMiles').textContent = totalMiles.toFixed(1);
+  document.getElementById('statRuns').textContent = recent.length;
+
+  const paces = recent.filter(a => a.pace_seconds > 0).map(a => a.pace_seconds);
   if (paces.length) {
     const avgPace = paces.reduce((s, p) => s + p, 0) / paces.length;
     document.getElementById('statPace').textContent = secToPace(avgPace);
+  } else {
+    document.getElementById('statPace').textContent = '—';
   }
 }
 
