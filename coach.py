@@ -105,27 +105,6 @@ def get_current_week():
 
 
 # ── 5. GEMINI COACHING ────────────────────────────────────────────────────────
-HAL_HIGDON_N2 = """
-Week 1:  Mon Rest | Tue 3mi | Wed 3mi | Thu 3mi | Fri Rest | Sat 4mi | Sun Cross
-Week 2:  Mon Rest | Tue 3mi | Wed 3mi | Thu 3mi | Fri Rest | Sat 5mi | Sun Cross
-Week 3:  Mon Rest | Tue 3mi | Wed 3mi | Thu 3mi | Fri Rest | Sat 6mi | Sun Cross
-Week 4:  Mon Rest | Tue 3mi | Wed 4mi | Thu 3mi | Fri Rest | Sat 7mi | Sun Cross
-Week 5:  Mon Rest | Tue 3mi | Wed 4mi | Thu 3mi | Fri Rest | Sat 8mi | Sun Cross
-Week 6:  Mon Rest | Tue 3mi | Wed 4mi | Thu 3mi | Fri Rest | Sat 9mi | Sun Cross
-Week 7:  Mon Rest | Tue 3mi | Wed 5mi | Thu 3mi | Fri Rest | Sat 10mi | Sun Cross
-Week 8:  Mon Rest | Tue 3mi | Wed 5mi | Thu 3mi | Fri Rest | Sat 11mi | Sun Cross
-Week 9:  Mon Rest | Tue 3mi | Wed 5mi | Thu 3mi | Fri Rest | Sat 12mi | Sun Cross
-Week 10: Mon Rest | Tue 3mi | Wed 5mi | Thu 3mi | Fri Rest | Sat 13mi | Sun Cross
-Week 11: Mon Rest | Tue 3mi | Wed 6mi | Thu 3mi | Fri Rest | Sat 14mi | Sun Cross
-Week 12: Mon Rest | Tue 3mi | Wed 6mi | Thu 3mi | Fri Rest | Sat 15mi | Sun Cross
-Week 13: Mon Rest | Tue 3mi | Wed 6mi | Thu 3mi | Fri Rest | Sat 16mi | Sun Cross
-Week 14: Mon Rest | Tue 3mi | Wed 7mi | Thu 3mi | Fri Rest | Sat 17mi | Sun Cross
-Week 15: Mon Rest | Tue 3mi | Wed 7mi | Thu 3mi | Fri Rest | Sat 18mi | Sun Cross
-Week 16: Mon Rest | Tue 3mi | Wed 8mi | Thu 3mi | Fri Rest | Sat 19mi | Sun Cross
-Week 17: Mon Rest | Tue 3mi | Wed 4mi | Thu 2mi | Fri Rest | Sat 8mi  | Sun Cross
-Week 18: Mon Rest | Tue 3mi | Wed 2mi | Thu Rest | Fri Rest | Sat 2mi | Sun NYC MARATHON
-"""
-
 
 def get_gemini_advice(activities, current_week, avg_pace_sec):
     today = datetime.now().strftime("%A, %B %d, %Y")
@@ -161,42 +140,24 @@ def get_gemini_advice(activities, current_week, avg_pace_sec):
     else:
         predictor_block = "  (Insufficient pace data for predictions)"
 
-    prompt = f"""You are an expert marathon coach specializing in Hal Higdon Novice 2.
-You are coaching an athlete named Tom. Address him as Tom, never as "coach".
+    prompt = f"""You are an expert marathon coach for an athlete named Tom.
 Today is {today}. Goal: NYC Marathon on {MARATHON_DATE}.
+Phase: {"BASE BUILDING — official Hal Higdon Novice 2 plan starts June 29, 2026" if current_week == 0 else f"Week {current_week} of 18, Hal Higdon Novice 2"}
+Days to plan start: {max(0, (datetime(2026,6,29) - datetime.now()).days)}
+Days to marathon: {(datetime(2026,11,1) - datetime.now()).days}
 
-RECENT STRAVA RUNS (last 14 days):
+Tom's recent runs:
 {runs_block}
 
-PERFORMANCE METRICS:
+Performance:
 {predictor_block}
 
-TRAINING CONTEXT:
-- Phase: {"BASE BUILDING (pre-plan)" if current_week == 0 else f"Week {current_week} of 18 — Hal Higdon Novice 2"}
-- Official plan starts: {PLAN_START} (June 29, 2026)
-- Days until training plan begins: {max(0, (datetime(2026,6,29) - datetime.now()).days)}
-- Days until NYC Marathon: {(datetime(2026,11,1) - datetime.now()).days}
-- Coaching note: {"Tom is currently in the BASE BUILDING phase. Do NOT reference Week 1 of the plan. Focus on aerobic base, easy mileage, recovery from the Newport Half Marathon, and general fitness maintenance until the plan starts June 29." if current_week == 0 else "Tom is actively following the Hal Higdon Novice 2 plan."}
-
-HAL HIGDON NOVICE 2 SCHEDULE:
-{HAL_HIGDON_N2}
-
-Write a coaching brief with these 5 sections. Each section must be at least 2-3 sentences.
-
-**Fitness Assessment**
-Analyze pacing trends and consistency from the Strava data above. Reference specific runs and numbers.
-
-**This Week's Focus (Week {current_week})**
-Give exact target paces for easy runs and the long run this week.
-
-**Key Priorities**
-List 2-3 specific actionable goals for this week.
-
-**Watch Out For**
-Identify any red flags or risks based on the data.
-
-**Upcoming Milestones**
-Preview what's coming in the next 2-3 weeks.
+Write a concise coaching brief for Tom with these sections:
+**Fitness Assessment** — analyze his recent runs with specific numbers.
+**This Week's Focus** — exact target paces, what to prioritize.
+**Key Priorities** — 2-3 bullet points.
+**Watch Out For** — any red flags.
+**Upcoming Milestones** — next 2-3 weeks preview.
 """
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_KEY}"
