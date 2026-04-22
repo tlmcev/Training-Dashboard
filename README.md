@@ -14,12 +14,7 @@
 
 ## AI Coach Snapshot
 
-**Coaching Brief for Tom**
-
-**Fitness Assessment**
-Tom, your recent race performances demonstrate excellent fitness and a strong competitive drive. Your Newport Half Marathon (13.31mi @ 8:35/mi, HR 151bpm) and Cherry Blossom 10 Mile (10.19mi @ 8:41/mi, HR 156bpm) were both run at significant efforts, close to your predicted Threshold pace (8:28/mi). You've successfully covered substantial distances at a strong clip, confirming your predicted Half Marathon time of 1:56:57. However, these were hard efforts, as indicated by your heart rates. While your 3.29mi run at 9:30/mi with HR 136bpm is a step in the right direction, it's still notably faster than your prescribed Easy/Long Run pace of 10:42/mi. You've built a robust racing foundation, but now it's time to strategically shift focus for base building.
-
-**This Week's Focus**
+No advice yet.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -49,4 +44,4 @@ Tom, your recent race performances demonstrate excellent fitness and a strong co
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-22 17:52:45 UTC | Run ID: 24793860426*
+*Last updated: 2026-04-22 18:03:52 UTC | Run ID: 24794376326*
