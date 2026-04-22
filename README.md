@@ -11,15 +11,17 @@
 | Newport Half Marathon! | 13.31 mi | 8:35/mi | 2026-04-18 |
 | Cherry Blossom 10 Mile | 10.19 mi | 8:41/mi | 2026-04-12 |
 | “Cough Syrup” - Young The Giant | 3.29 mi | 9:30/mi | 2026-04-10 |
+| “California”- Phantom Planet | 3.08 mi | 9:28/mi | 2026-04-07 |
+| “(Your Love Keeps Lifting Me) Higher and Higher”- Jackie Wilson | 9.01 mi | 9:00/mi | 2026-04-04 |
 
 ## AI Coach Snapshot
 
 Here is your coaching brief, Tom:
 
 **Fitness Assessment**
-Tom, your recent race performances are outstanding and indicate a higher level of fitness than initially predicted!
+Tom, you're in strong shape! Your recent Newport Half Marathon (13.31mi @ 8:35/mi, HR 151bpm) and Cherry Blossom 10 Mile (10.19mi @ 8:41/mi, HR 156bpm) demonstrate excellent fitness. These performances are significantly faster than your Riegel-predicted Half Marathon pace (9:11/mi or 2:00:24), suggesting your current fitness is *underestimated* by calculations based on your average training pace.
 
-*   **Newport Half Marathon (13.31mi @ 8:35/mi):** This is a very strong effort! Your actual finish time of approximately 1:53:50 is significantly faster than your Riegel-predicted Half Marathon time of 1:56:57. This pace is right at the edge of your Threshold zone (8:28/mi), showing excellent race-day execution.
+However, a key observation is that many of your "easy" runs (e.g., 9:30/mi, 9:28/mi) are being run at or faster than your *goal marathon pace* (9:39/mi) with relatively low heart rates (136-137bpm). While this indicates good aerobic capacity, it also means you're likely not running *truly easy* on your recovery days. Your training heart rates are generally moderate, suggesting a tendency to run most runs at a similar, comfortably hard effort. The higher HR on the slower 10-mile race compared to the faster half marathon could be a subtle sign of accumulating fatigue.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -49,4 +51,4 @@ Tom, your recent race performances are outstanding and indicate a higher level o
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-22 20:25:30 UTC | Run ID: 24800842488*
+*Last updated: 2026-04-22 20:33:55 UTC | Run ID: 24801219275*
