@@ -24,7 +24,7 @@ def get_strava_access_token():
     return resp.json()["access_token"]
 
 
-def get_activities(access_token, days=14):
+def get_activities(access_token, days=120):
     since = int((datetime.now() - timedelta(days=days)).timestamp())
     resp = requests.get(
         f"https://www.strava.com/api/v3/athlete/activities?after={since}&per_page=30",
@@ -241,6 +241,22 @@ def update_readme(activities, current_week, advice, run_id, updated_at):
 
 
 # ── 7. MAIN ───────────────────────────────────────────────────────────────────
+def aggregate_weekly_mileage(activities):
+    """Group activities into Mon–Sun weeks, return list of {week_start, miles}."""
+    from collections import defaultdict
+    weeks = defaultdict(float)
+    for a in activities:
+        date = datetime.strptime(a['date'], '%Y-%m-%d')
+        # Find the Monday of this week
+        monday = date - timedelta(days=date.weekday())
+        week_key = monday.strftime('%Y-%m-%d')
+        weeks[week_key] += a['distance_miles']
+    # Sort by date and round
+    return [
+        {'week_start': k, 'miles': round(v, 1)}
+        for k, v in sorted(weeks.items())
+    ]
+
 def main():
     run_id     = os.getenv("GITHUB_RUN_ID", "local")
     updated_at = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
@@ -301,15 +317,16 @@ def main():
 
     # Write coach_data.json (consumed by index.html dashboard)
     coach_data = {
-        "updated_at":    updated_at,
-        "current_week":  current_week,
-        "phase": "base_building" if current_week == 0 else "training",
+        "updated_at":       updated_at,
+        "current_week":     current_week,
+        "phase":            "base_building" if current_week == 0 else "training",
         "days_to_plan_start": max(0, (datetime(2026, 6, 29) - datetime.now()).days),
-        "activities":    activities,
-        "avg_pace_sec":  round(avg_pace_sec, 1),
-        "predictions":   predictions,
-        "pace_zones":    zones,
-        "advice":        advice,
+        "activities":       activities,
+        "weekly_mileage":   weekly_mileage,
+        "avg_pace_sec":     round(avg_pace_sec, 1),
+        "predictions":      predictions,
+        "pace_zones":       zones,
+        "advice":           advice,
     }
     base = os.path.dirname(os.path.abspath(__file__))
     with open(os.path.join(base, "coach_data.json"), "w") as f:

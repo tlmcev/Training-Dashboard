@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>  
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -639,20 +640,14 @@
     </div>
   </div>
 
-  <!-- Progress -->
+  <!-- Weekly Mileage Chart -->
   <div class="card progress-card" style="margin-bottom: 32px;">
     <div class="section-head">
-      <div class="section-title">Plan Progress</div>
+      <div class="section-title">Weekly Mileage</div>
       <div class="section-line"></div>
+      <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);" id="chartPhaseLabel"></span>
     </div>
-    <div class="progress-track">
-      <div class="progress-fill" id="progressFill" style="width:0%"></div>
-    </div>
-    <div class="progress-labels">
-      <span>Week 1</span>
-      <span id="progressLabel">—</span>
-      <span>Race Day</span>
-    </div>
+    <canvas id="mileageChart" height="80"></canvas>
   </div>
 
   <!-- This Week + Recent Runs -->
@@ -895,14 +890,74 @@ function renderStats(activities, weekNum, data) {
 
 // ── Progress bar ─────────────────────────────────────────────────────────────
 function renderProgress(weekNum, phase) {
-  if (phase === 'base_building') {
-    document.getElementById('progressFill').style.width = '0%';
-    document.getElementById('progressLabel').textContent = 'Base Building';
-  } else {
-    const pct = ((weekNum - 1) / 17) * 100;
-    document.getElementById('progressFill').style.width = pct + '%';
-    document.getElementById('progressLabel').textContent = `Week ${weekNum} of 18`;
-  }
+  // Phase label
+  document.getElementById('chartPhaseLabel').textContent =
+    phase === 'base_building' ? 'Base Building' : `Week ${weekNum} of 18`;
+}
+
+function renderMileageChart(weeklyMileage) {
+  if (!weeklyMileage || !weeklyMileage.length) return;
+
+  const planStart = new Date('2026-06-29');
+  const labels = weeklyMileage.map(w => {
+    const d = new Date(w.week_start);
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  });
+  const miles = weeklyMileage.map(w => w.miles);
+  const colors = weeklyMileage.map(w =>
+    new Date(w.week_start) < planStart ? '#8a8880' : '#e85d04'
+  );
+
+  const ctx = document.getElementById('mileageChart').getContext('2d');
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [{
+        label: 'Miles',
+        data: miles,
+        borderColor: '#e85d04',
+        backgroundColor: 'rgba(232,93,4,0.08)',
+        pointBackgroundColor: colors,
+        pointBorderColor: colors,
+        pointRadius: 4,
+        pointHoverRadius: 6,
+        borderWidth: 2,
+        fill: true,
+        tension: 0.3,
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: ctx => `${ctx.parsed.y} miles`
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { color: '#e8e4de' },
+          ticks: {
+            font: { family: 'Barlow Condensed', size: 11 },
+            color: '#8a8880',
+            maxRotation: 45,
+          }
+        },
+        y: {
+          beginAtZero: true,
+          grid: { color: '#e8e4de' },
+          ticks: {
+            font: { family: 'Barlow Condensed', size: 11 },
+            color: '#8a8880',
+            callback: val => val + ' mi'
+          }
+        }
+      }
+    }
+  });
 }
 
 // ── Race predictor ───────────────────────────────────────────────────────────
@@ -1016,6 +1071,8 @@ async function loadData() {
       renderZones(avg);
     }
 
+    renderMileageChart(data.weekly_mileage || []);
+    
     if (data.updated_at) {
       document.getElementById('footerUpdated').textContent =
         'Last updated: ' + new Date(data.updated_at).toLocaleString();
