@@ -20,7 +20,7 @@ No advice yet.
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 1 of 18**
+**Current week: 0 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -44,4 +44,4 @@ No advice yet.
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-22 15:51:41 UTC | Run ID: 24788249131*
+*Last updated: 2026-04-22 17:28:17 UTC | Run ID: 24792749075*
