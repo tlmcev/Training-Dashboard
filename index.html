@@ -872,10 +872,10 @@ function renderRuns(activities) {
 // ── Stats ────────────────────────────────────────────────────────────────────
 function renderStats(activities, weekNum, data) {
   if (data && data.phase === 'base_building') {
-    document.getElementById('statWeek').textContent = 'BASE';
-    document.getElementById('statWeekLabel').textContent = 'Building Phase';
+    document.getElementById('statWeek').textContent = 'Base Building';
+    document.getElementById('statWeekLabel').textContent = 'Pre-Plan Phase';
   } else {
-    document.getElementById('statWeek').textContent = 'Wk ' + weekNum;
+    document.getElementById('statWeek').textContent = 'Week ' + weekNum + ' of 18';
     document.getElementById('statWeekLabel').textContent = 'Training Week';
   }
 
