@@ -1,0 +1,57 @@
+{
+  "updated_at": "2026-04-22 00:06:27",
+  "current_week": 1,
+  "activities": [
+    {
+      "id": 18159409941,
+      "name": "Newport Half Marathon!",
+      "date": "2026-04-18",
+      "distance_miles": 13.31,
+      "moving_time_sec": 6856,
+      "pace_per_mile": "8:35",
+      "pace_seconds": 515.1,
+      "elevation_ft": 465.0,
+      "avg_hr": 151,
+      "suffer_score": 167.0
+    },
+    {
+      "id": 18080317369,
+      "name": "Cherry Blossom 10 Mile",
+      "date": "2026-04-12",
+      "distance_miles": 10.19,
+      "moving_time_sec": 5310,
+      "pace_per_mile": "8:41",
+      "pace_seconds": 521.1,
+      "elevation_ft": 110.0,
+      "avg_hr": 156,
+      "suffer_score": 158.0
+    },
+    {
+      "id": 18052536320,
+      "name": "\u201cCough Syrup\u201d - Young The Giant",
+      "date": "2026-04-10",
+      "distance_miles": 3.29,
+      "moving_time_sec": 1878,
+      "pace_per_mile": "9:30",
+      "pace_seconds": 570.8,
+      "elevation_ft": 131.0,
+      "avg_hr": 136,
+      "suffer_score": 16.0
+    }
+  ],
+  "avg_pace_sec": 535.7,
+  "predictions": {
+    "5k": "25:23",
+    "10k": "52:55",
+    "half": "1:56:57",
+    "marathon": "4:03:50"
+  },
+  "pace_zones": {
+    "easy": "10:42/mi  (conversational)",
+    "long_run": "10:16/mi  (comfortable)",
+    "marathon": "9:22/mi  (goal marathon pace)",
+    "threshold": "8:28/mi  (comfortably hard)",
+    "tempo": "8:02/mi  (10K effort)"
+  },
+  "advice": ""
+}
