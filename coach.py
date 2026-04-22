@@ -319,16 +319,24 @@ def main():
     # Pace zones
     zones = pace_zones(avg_pace_sec) if avg_pace_sec else {}
 
-    # Gemini advice
+    # Gemini advice (with retry)
     advice = ""
     print("→ Calling Gemini…")
-    try:
-        advice = get_gemini_advice(activities, current_week, avg_pace_sec)
-        print("✓ Gemini advice received")
-        with open("latest_advice.txt", "w") as f:
-            f.write(advice)
-    except Exception as e:
-        print(f"✗ Gemini error: {e}")
+    for attempt in range(1, 4):
+        try:
+            advice = get_gemini_advice(activities, current_week, avg_pace_sec)
+            print(f"✓ Gemini advice received (attempt {attempt})")
+            with open("latest_advice.txt", "w") as f:
+                f.write(advice)
+            break
+        except Exception as e:
+            print(f"✗ Gemini attempt {attempt}/3 failed: {e}")
+            if attempt < 3:
+                print(f"  Retrying in 10 seconds…")
+                import time
+                time.sleep(10)
+            else:
+                print("  All 3 attempts failed. Advice left empty.")
 
     # Write coach_data.json (consumed by index.html dashboard)
     coach_data = {
