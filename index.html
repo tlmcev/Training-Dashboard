@@ -609,9 +609,13 @@
         thon
       </div>
     </div>
-    <div class="countdown-box">
+    <div class="countdown-box" style="text-align:right;">
       <div class="countdown-num" id="daysLeft">—</div>
       <div class="countdown-label">Days to Race</div>
+      <div style="margin-top:12px;">
+        <div class="countdown-num" style="font-size:36px;color:var(--muted);" id="daysToPlan">—</div>
+        <div class="countdown-label">Days to Plan Start</div>
+      </div>
     </div>
   </div>
 
@@ -619,7 +623,7 @@
   <div class="stat-strip">
     <div class="stat-cell">
       <div class="stat-val" id="statWeek">—</div>
-      <div class="stat-lbl">Training Week</div>
+      <div class="stat-lbl" id="statWeekLabel">Training Phase</div>
     </div>
     <div class="stat-cell">
       <div class="stat-val" id="statMiles">—</div>
@@ -805,8 +809,11 @@ function getTodayDayIndex() {
 // ── Days until race ──────────────────────────────────────────────────────────
 function renderCountdown() {
   const now = new Date();
-  const diff = Math.ceil((MARATHON_DATE - now) / 86400000);
-  document.getElementById('daysLeft').textContent = diff > 0 ? diff : '🏆';
+  const daysToRace = Math.ceil((MARATHON_DATE - now) / 86400000);
+  const planStart = new Date('2026-06-29');
+  const daysToPlan = Math.ceil((planStart - now) / 86400000);
+  document.getElementById('daysLeft').textContent = daysToRace > 0 ? daysToRace : '🏆';
+  document.getElementById('daysToPlan').textContent = daysToPlan > 0 ? daysToPlan : '🏃';
 }
 
 // ── This Week schedule ────────────────────────────────────────────────────────
@@ -864,7 +871,13 @@ function renderRuns(activities) {
 
 // ── Stats ────────────────────────────────────────────────────────────────────
 function renderStats(activities, weekNum) {
-  document.getElementById('statWeek').textContent = weekNum;
+  if (data && data.phase === 'base_building') {
+    document.getElementById('statWeek').textContent = 'BASE';
+    document.getElementById('statWeekLabel').textContent = 'Building Phase';
+  } else {
+    document.getElementById('statWeek').textContent = 'Wk ' + weekNum;
+    document.getElementById('statWeekLabel').textContent = 'Training Week';
+  }
 
   if (!activities || !activities.length) return;
 

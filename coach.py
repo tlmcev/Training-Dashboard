@@ -95,9 +95,12 @@ def pace_zones(avg_pace_sec):
 
 # ── 4. CURRENT TRAINING WEEK ──────────────────────────────────────────────────
 def get_current_week():
-    plan_start = datetime(2026, 6, 28)
-    delta = datetime.now() - plan_start
-    week  = max(1, min(18, int(delta.days / 7) + 1))
+    plan_start = datetime(2026, 6, 29)
+    now = datetime.now()
+    if now < plan_start:
+        return 0  # 0 = pre-plan / base building
+    delta = now - plan_start
+    week = max(1, min(18, int(delta.days / 7) + 1))
     return week
 
 
@@ -169,8 +172,11 @@ PERFORMANCE METRICS:
 {predictor_block}
 
 TRAINING CONTEXT:
-- Current Week: {current_week} of 18 (plan starts {PLAN_START})
+- Phase: {"BASE BUILDING (pre-plan)" if current_week == 0 else f"Week {current_week} of 18 — Hal Higdon Novice 2"}
+- Official plan starts: {PLAN_START} (June 29, 2026)
+- Days until training plan begins: {max(0, (datetime(2026,6,29) - datetime.now()).days)}
 - Days until NYC Marathon: {(datetime(2026,11,1) - datetime.now()).days}
+- Coaching note: {"Tom is currently in the BASE BUILDING phase. Do NOT reference Week 1 of the plan. Focus on aerobic base, easy mileage, recovery from the Newport Half Marathon, and general fitness maintenance until the plan starts June 29." if current_week == 0 else "Tom is actively following the Hal Higdon Novice 2 plan."}
 
 HAL HIGDON NOVICE 2 SCHEDULE:
 {HAL_HIGDON_N2}
@@ -292,7 +298,8 @@ def main():
     print(f"  {len(activities)} runs found")
 
     current_week = get_current_week()
-    print(f"  Training week: {current_week}/18")
+    phase = "Base Building (pre-plan)" if current_week == 0 else f"Week {current_week}/18"
+    print(f"  Training phase: {phase}")
 
     # Average pace from recent runs (exclude 0-pace entries)
     paces = [a["pace_seconds"] for a in activities if a["pace_seconds"] > 0]
@@ -327,6 +334,8 @@ def main():
     coach_data = {
         "updated_at":    updated_at,
         "current_week":  current_week,
+        "phase": "base_building" if current_week == 0 else "training",
+        "days_to_plan_start": max(0, (datetime(2026, 6, 29) - datetime.now()).days),
         "activities":    activities,
         "avg_pace_sec":  round(avg_pace_sec, 1),
         "predictions":   predictions,
