@@ -104,7 +104,7 @@ def hr_pace_zones(avg_pace_sec):
         'Z5': {'name': 'VO2 Max',       'hr': '162–190 bpm', 'pct': '85–100%','desc': 'Hard — short intervals only'},
     }
 
- def classify_hr_zone(avg_hr):
+def classify_hr_zone(avg_hr):
     """Return zone name for a given average HR."""
     if not avg_hr:
         return None
