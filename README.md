@@ -46,4 +46,4 @@ No advice yet.
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-23 18:29:20 UTC | Run ID: 24851971014*
+*Last updated: 2026-04-23 18:34:26 UTC | Run ID: 24852202881*
