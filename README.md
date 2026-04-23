@@ -16,12 +16,7 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, excellent work on those recent races! Let's get you set for a strong base-building phase.
-
----
-
-**Coaching Brief for Tom: Base Building Phase**
-
+No advice yet.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +46,4 @@ Alright Tom, excellent work on those recent races! Let's get you set for a stron
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-23 16:54:29 UTC | Run ID: 24847741717*
+*Last updated: 2026-04-23 18:29:20 UTC | Run ID: 24851971014*
