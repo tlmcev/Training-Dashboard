@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief, Tom:
+Alright Tom, excellent work on those recent races! Let's get you set for a strong base-building phase.
 
-**Fitness Assessment**
-Your recent race performances are excellent! The Newport Half Marathon (13.31mi @ 8:35/mi, HR 151bpm) and Cherry Blossom 10 Mile (10.19mi @ 8:41/mi, HR 156bpm) demonstrate strong current fitness, significantly faster than your predicted half marathon pace of 9:09/mi. This is a great sign of your potential.
+---
 
-However, your "easy" training runs are consistently too fast. For example, your 9.01mi @ 9:00/mi (HR 150bpm) and 7.65mi @ 8:50/mi (HR 147bpm) are well above your target Easy/Long Run pace of 11:01/mi and often fall into your marathon pace or even threshold zones. This indicates you're not fully utilizing your easy days for recovery and crucial aerobic base building.
+**Coaching Brief for Tom: Base Building Phase**
+
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ However, your "easy" training runs are consistently too fast. For example, your 
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-22 20:53:13 UTC | Run ID: 24802095176*
+*Last updated: 2026-04-23 16:54:29 UTC | Run ID: 24847741717*
