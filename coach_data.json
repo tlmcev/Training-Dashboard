@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-23 18:47:24",
+  "updated_at": "2026-04-23 18:56:46",
   "current_week": 0,
   "phase": "base_building",
   "days_to_plan_start": 66,
@@ -14,7 +14,7 @@
       "pace_seconds": 515.1,
       "elevation_ft": 465.0,
       "avg_hr": 151,
-      "hr_zone": "Z3",
+      "hr_zone": "Z2",
       "suffer_score": 167.0
     },
     {
@@ -27,7 +27,7 @@
       "pace_seconds": 521.1,
       "elevation_ft": 110.0,
       "avg_hr": 156,
-      "hr_zone": "Z4",
+      "hr_zone": "Z3",
       "suffer_score": 158.0
     },
     {
@@ -40,7 +40,7 @@
       "pace_seconds": 570.8,
       "elevation_ft": 131.0,
       "avg_hr": 136,
-      "hr_zone": "Z3",
+      "hr_zone": "Z2",
       "suffer_score": 16.0
     },
     {
@@ -53,7 +53,7 @@
       "pace_seconds": 568.8,
       "elevation_ft": 157.0,
       "avg_hr": 137,
-      "hr_zone": "Z3",
+      "hr_zone": "Z2",
       "suffer_score": 14.0
     },
     {
@@ -66,7 +66,7 @@
       "pace_seconds": 540.7,
       "elevation_ft": 446.0,
       "avg_hr": 150,
-      "hr_zone": "Z3",
+      "hr_zone": "Z2",
       "suffer_score": 107.0
     },
     {
@@ -79,7 +79,7 @@
       "pace_seconds": 555.4,
       "elevation_ft": 189.0,
       "avg_hr": 140,
-      "hr_zone": "Z3",
+      "hr_zone": "Z2",
       "suffer_score": 22.0
     },
     {
@@ -92,7 +92,7 @@
       "pace_seconds": 564.2,
       "elevation_ft": 179.0,
       "avg_hr": 149,
-      "hr_zone": "Z3",
+      "hr_zone": "Z2",
       "suffer_score": 49.0
     },
     {
@@ -105,7 +105,7 @@
       "pace_seconds": 577.1,
       "elevation_ft": 159.0,
       "avg_hr": 144,
-      "hr_zone": "Z3",
+      "hr_zone": "Z2",
       "suffer_score": 31.0
     },
     {
@@ -118,7 +118,7 @@
       "pace_seconds": 530.2,
       "elevation_ft": 380.0,
       "avg_hr": 147,
-      "hr_zone": "Z3",
+      "hr_zone": "Z2",
       "suffer_score": 81.0
     },
     {
@@ -131,7 +131,7 @@
       "pace_seconds": 511.6,
       "elevation_ft": 185.0,
       "avg_hr": 149,
-      "hr_zone": "Z3",
+      "hr_zone": "Z2",
       "suffer_score": 44.0
     },
     {
@@ -144,7 +144,7 @@
       "pace_seconds": 557.7,
       "elevation_ft": 0.0,
       "avg_hr": 156,
-      "hr_zone": "Z4",
+      "hr_zone": "Z3",
       "suffer_score": 55.0
     },
     {
@@ -157,7 +157,7 @@
       "pace_seconds": 556.0,
       "elevation_ft": 497.0,
       "avg_hr": 156,
-      "hr_zone": "Z4",
+      "hr_zone": "Z3",
       "suffer_score": 154.0
     },
     {
@@ -170,7 +170,7 @@
       "pace_seconds": 582.0,
       "elevation_ft": 198.0,
       "avg_hr": 142,
-      "hr_zone": "Z3",
+      "hr_zone": "Z2",
       "suffer_score": 32.0
     },
     {
@@ -183,7 +183,7 @@
       "pace_seconds": 586.6,
       "elevation_ft": 417.0,
       "avg_hr": 143,
-      "hr_zone": "Z3",
+      "hr_zone": "Z2",
       "suffer_score": 58.0
     },
     {
@@ -196,7 +196,7 @@
       "pace_seconds": 556.4,
       "elevation_ft": 137.0,
       "avg_hr": 149,
-      "hr_zone": "Z3",
+      "hr_zone": "Z2",
       "suffer_score": 35.0
     },
     {
@@ -209,7 +209,7 @@
       "pace_seconds": 544.4,
       "elevation_ft": 411.0,
       "avg_hr": 145,
-      "hr_zone": "Z3",
+      "hr_zone": "Z2",
       "suffer_score": 68.0
     },
     {
@@ -222,7 +222,7 @@
       "pace_seconds": 554.5,
       "elevation_ft": 156.0,
       "avg_hr": 152,
-      "hr_zone": "Z4",
+      "hr_zone": "Z2",
       "suffer_score": 48.0
     },
     {
@@ -235,7 +235,7 @@
       "pace_seconds": 526.9,
       "elevation_ft": 146.0,
       "avg_hr": 151,
-      "hr_zone": "Z3",
+      "hr_zone": "Z2",
       "suffer_score": 36.0
     },
     {
@@ -248,7 +248,7 @@
       "pace_seconds": 558.3,
       "elevation_ft": 0.0,
       "avg_hr": 148,
-      "hr_zone": "Z3",
+      "hr_zone": "Z2",
       "suffer_score": 37.0
     }
   ],
@@ -292,42 +292,42 @@
   "pace_zones": {
     "Z1": {
       "name": "Recovery",
-      "hr": "95-114 bpm",
-      "pct": "50-60%",
+      "hr": "<124 bpm",
+      "pct": "<65%",
       "desc": "Very easy, warm up/cool down"
     },
     "Z2": {
-      "name": "Aerobic Base",
-      "hr": "114-133 bpm",
-      "pct": "60-70%",
+      "name": "Endurance",
+      "hr": "124-154 bpm",
+      "pct": "65-89%",
       "desc": "Easy runs, base building \u2014 most of your miles"
     },
     "Z3": {
       "name": "Tempo",
-      "hr": "133-152 bpm",
-      "pct": "70-80%",
+      "hr": "155-169 bpm",
+      "pct": "90-94%",
       "desc": "Moderate \u2014 marathon to half marathon effort"
     },
     "Z4": {
       "name": "Threshold",
-      "hr": "152-162 bpm",
-      "pct": "80-85%",
+      "hr": "170-184 bpm",
+      "pct": "95-97%",
       "desc": "Comfortably hard \u2014 10K effort"
     },
     "Z5": {
-      "name": "VO2 Max",
-      "hr": "162-190 bpm",
-      "pct": "85-100%",
+      "name": "Anaerobic",
+      "hr": ">185 bpm",
+      "pct": ">97%",
       "desc": "Hard \u2014 short intervals only"
     }
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 0,
-    "Z3": 15,
-    "Z4": 4,
+    "Z2": 16,
+    "Z3": 3,
+    "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here is your coaching brief, Tom:\n\n**Fitness Assessment**\nTom, your recent race performances are solid! A Half Marathon at 8:35/mi (13.31mi) and a 10-mile race at 8:41/mi show good fitness and the ability to push hard. Based on your Half Marathon pace, your current marathon potential is likely closer to **3:53-3:58**, which is a fantastic starting point for NYC. However, your recent HR data reveals a critical area for improvement: **you are consistently running too hard on your easy days.** All of your recent runs, including shorter recovery efforts, are in Z3 (Tempo) or Z4 (Threshold), with **zero Z2 (Aerobic Base) runs.** This indicates a significant imbalance in your training intensity. While your current mileage is decent, the lack of Z2 work means you're not efficiently building the aerobic engine crucial for marathon success and sustainable training.\n\n**This Week's Focus**\nYour absolute top priority this week is to **introduce and commit to Z2 (Aerobic Base) running**.\n*   **Pace Target:** Forget pace for your easy runs. Focus solely on keeping your heart rate in **Z2 (114-133 bpm)**. This will likely feel *much* slower than you're used to \u2013 potentially 10:00-10:30/mi or even slower, especially at the start. Embrace the slow.\n*   **Run Structure:** Aim for 3-4 easy Z2 runs this week, along with one slightly longer, controlled run where you still prioritize Z2/low Z3.\n*   **Listen to Your Body:** You've had two races recently. Recovery is key. If you feel tired, walk breaks are encouraged to keep HR down.\n\n**Key Priorities**\n*   **HR Discipline:** Learn to run truly easy in Z2. This is foundational for marathon training, building capillary density, mitochondrial efficiency, and fat-burning capabilities without excessive stress.\n*   **Aerobic Base Development:** Shift your training focus to building a robust aerobic engine. This phase is about endurance and efficiency, not speed.\n*   **Active Recovery:** Integrate proper recovery after your recent races to prevent burnout and injury.\n\n**Watch Out For**\n*   **Running Too Fast:** This is your primary red flag. Resisting the urge to speed up on easy days will be challenging but essential. Use your watch to monitor HR and actively slow down.\n*   **Burnout/Injury:** Sustained Z3/Z4 effort without adequate Z2 recovery increases your risk for fatigue and injury, especially as mileage increases.\n*   **Lack of Adaptation:** Without Z2 work, your body won't develop the specific aerobic adaptations needed for marathon endurance.\n\n**Upcoming Milestones**\nOver the next 2-3 weeks, as we continue in the Base Building phase:\n1.  **Consistent Z2 Integration:** Establish a habit of 3-4 easy Z2 runs per week.\n2.  **Gradual Mileage Increase:** Once Z2 running feels comfortable, we'll slowly and safely increase your weekly mileage.\n3.  **Longer Z2 Runs:** We'll introduce longer runs (e.g., 60-90 minutes) that are primarily executed in Z2 to build endurance at the correct intensity."
+  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nTom, your recent race performances are very strong, showcasing excellent aerobic efficiency. The Newport Half Marathon (13.31mi @ 8:35/mi) was particularly impressive, run entirely in **Zone 2 (151bpm HR average)**, indicating a high level of endurance and controlled effort. Your Cherry Blossom 10 Miler (10.19mi @ 8:41/mi @ 156bpm Z3) was a solid moderate effort, appropriate for a race. Most of your daily runs are consistently in **Z2 (typically 9:00-9:30/mi range)**, which is ideal for base building. Your predicted marathon time of 4:11:02 reflects a strong foundation to build upon.\n\n**This Week's Focus (April 24 - April 30)**\nGiven your recent half marathon, the primary focus this week is active recovery and maintaining consistent, easy mileage.\n*   **Target Pace**: For all runs, prioritize effort over pace. Aim for a relaxed, conversational pace, keeping your heart rate firmly in **Zone 2 (124-154 bpm)**. This will likely translate to paces in the **9:00-9:45/mi** range, but always defer to HR and feel.\n*   **Prioritize**: Listen to your body. Ensure adequate sleep, hydration, and nutrition to aid recovery.\n\n**Key Priorities**\n*   **Strict Z2 Adherence**: All non-race runs must be easy. Resist the urge to push the pace, especially after the half marathon.\n*   **Active Recovery**: Allow your body to fully recover from the recent races before gradually increasing volume or intensity.\n*   **Consistency**: Aim for 4-5 runs this week, keeping them easy and enjoyable.\n\n**Watch Out For**\n*   **Post-Race Fatigue/Niggles**: Pay close attention to any unusual soreness or fatigue. Don't hesitate to take an extra rest day or cross-train if needed.\n*   **\"Running Hot\" Easy Runs**: While your half marathon pace at Z2 is impressive, be mindful not to let your daily easy runs consistently creep into the higher end of Z2 or into Z3. Consistently check your HR.\n\n**Upcoming Milestones (Next 2-3 Weeks)**\n*   Continue to build your aerobic base with consistent, easy mileage.\n*   Gradually increase the duration of your weekly long run by no more than 10-15% per week.\n*   No specific speed work or tempo efforts are planned during this base-building phase; the focus remains on endurance and recovery as we prepare for the formal plan to start in about 9.5 weeks."
 }

@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief, Tom:
+Here's your coaching brief, Tom:
 
 **Fitness Assessment**
-Tom, your recent race performances are solid! A Half Marathon at 8:35/mi (13.31mi) and a 10-mile race at 8:41/mi show good fitness and the ability to push hard. Based on your Half Marathon pace, your current marathon potential is likely closer to **3:53-3:58**, which is a fantastic starting point for NYC. However, your recent HR data reveals a critical area for improvement: **you are consistently running too hard on your easy days.** All of your recent runs, including shorter recovery efforts, are in Z3 (Tempo) or Z4 (Threshold), with **zero Z2 (Aerobic Base) runs.** This indicates a significant imbalance in your training intensity. While your current mileage is decent, the lack of Z2 work means you're not efficiently building the aerobic engine crucial for marathon success and sustainable training.
+Tom, your recent race performances are very strong, showcasing excellent aerobic efficiency. The Newport Half Marathon (13.31mi @ 8:35/mi) was particularly impressive, run entirely in **Zone 2 (151bpm HR average)**, indicating a high level of endurance and controlled effort. Your Cherry Blossom 10 Miler (10.19mi @ 8:41/mi @ 156bpm Z3) was a solid moderate effort, appropriate for a race. Most of your daily runs are consistently in **Z2 (typically 9:00-9:30/mi range)**, which is ideal for base building. Your predicted marathon time of 4:11:02 reflects a strong foundation to build upon.
 
-**This Week's Focus**
+**This Week's Focus (April 24 - April 30)**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent race performances are solid! A Half Marathon at 8:35/mi (13.31m
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-23 18:47:24 UTC | Run ID: 24852783634*
+*Last updated: 2026-04-23 18:56:46 UTC | Run ID: 24853211623*
