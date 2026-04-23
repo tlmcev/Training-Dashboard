@@ -162,11 +162,10 @@ def get_gemini_advice(activities, current_week, avg_pace_sec):
     Half:   {pred_half}
     Full:   {pred_full}
 
-  Training Pace Zones:
-    Easy/Long Run:  {zones['easy']}
-    Marathon Pace:  {zones['marathon']}
-    Threshold:      {zones['threshold']}
-    Tempo:          {zones['tempo']}
+  HR-Based Training Zones (max HR 190):
+    Z2 Aerobic Base: 114-133 bpm (easy runs target)
+    Z3 Tempo:        133-152 bpm (moderate)
+    Z4 Threshold:    152-162 bpm (hard)
 """
     else:
         predictor_block = "  (Insufficient pace data for predictions)"
