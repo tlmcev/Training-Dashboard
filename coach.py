@@ -149,10 +149,7 @@ def get_gemini_advice(activities, current_week, avg_pace_sec):
             f"  • {r['date']} — {r['name']}: {r['distance_miles']}mi @ {r['pace_per_mile']}/mi{hr_str}{elev}"
         )
     runs_block = "\n".join(run_lines) if run_lines else "  (No runs in the last 14 days)"
-    HR zone context (max HR 190):
-- Z1 Recovery: 95-114 bpm | Z2 Aerobic Base: 114-133 bpm | Z3 Tempo: 133-152 bpm | Z4 Threshold: 152-162 bpm | Z5 VO2 Max: 162-190 bpm
-- Easy runs should be Z2. Flag any easy runs running hot (Z3+).
-- Recent zone distribution: {hr_distribution}
+
     # Predicted race times
     if avg_pace_sec and avg_pace_sec > 0:
         pred_5k   = sec_to_time(riegel_predict(avg_pace_sec, 3.1))
@@ -176,12 +173,17 @@ def get_gemini_advice(activities, current_week, avg_pace_sec):
 
     prompt = f"""You are an expert marathon coach for an athlete named Tom.
 Today is {today}. Goal: NYC Marathon on {MARATHON_DATE}.
-Phase: {"BASE BUILDING — official Hal Higdon Novice 2 plan starts June 29, 2026" if current_week == 0 else f"Week {current_week} of 18, Hal Higdon Novice 2"}
+Phase: {"BASE BUILDING" if current_week == 0 else f"Week {current_week} of 18, Hal Higdon Novice 2"}
 Days to plan start: {max(0, (datetime(2026,6,29) - datetime.now()).days)}
 Days to marathon: {(datetime(2026,11,1) - datetime.now()).days}
 
 Tom's recent runs:
 {runs_block}
+
+HR zone context (max HR 190):
+- Z1 Recovery: 95-114 bpm | Z2 Aerobic Base: 114-133 bpm | Z3 Tempo: 133-152 bpm | Z4 Threshold: 152-162 bpm | Z5 VO2 Max: 162-190 bpm
+- Easy runs should be Z2. Flag any easy runs running hot (Z3+).
+- Recent zone distribution: {hr_distribution}
 
 Performance:
 {predictor_block}
