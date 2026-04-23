@@ -9,6 +9,15 @@ CLIENT_SECRET = os.getenv("STRAVA_CLIENT_SECRET")
 REFRESH_TOKEN = os.getenv("STRAVA_REFRESH_TOKEN")
 GEMINI_KEY    = os.getenv("GEMINI_API_KEY")
 
+MAX_HR = 190
+HR_ZONES = {
+    'Z1': (0,    114, 'Recovery'),
+    'Z2': (114,  133, 'Aerobic Base'),
+    'Z3': (133,  152, 'Tempo'),
+    'Z4': (152,  162, 'Threshold'),
+    'Z5': (162,  190, 'VO2 Max'),
+}
+
 MARATHON_DATE = "November 1, 2026"
 PLAN_START    = "June 28, 2026"        # 18 weeks out from Nov 1
 
@@ -49,7 +58,9 @@ def format_activity(act):
     pace_str = f"{pace_min}:{str(pace_s).zfill(2)}" if dist_mi > 0 else "—"
 
     elev_ft  = round(act.get("total_elevation_gain", 0) * 3.28084, 0)
-    hr       = act.get("average_heartrate")
+
+    hr = act.get("average_heartrate")
+    hr_zone = classify_hr_zone(round(hr) if hr else None)
 
     return {
         "id":             act.get("id"),
@@ -61,6 +72,7 @@ def format_activity(act):
         "pace_seconds":   round(pace_sec, 1),
         "elevation_ft":   elev_ft,
         "avg_hr":         round(hr) if hr else None,
+        "hr_zone":        hr_zone,
         "suffer_score":   act.get("suffer_score"),
     }
 
@@ -82,15 +94,34 @@ def sec_to_time(s):
     return f"{m}:{str(sec).zfill(2)}"
 
 
-def pace_zones(avg_pace_sec):
-    """Return training pace zones based on average race pace."""
+def hr_pace_zones(avg_pace_sec):
+    """Return training zones based on HR zones with corresponding pace estimates."""
     return {
-        "easy":      f"{sec_to_time(int(avg_pace_sec * 1.20))}/mi  (conversational)",
-        "long_run":  f"{sec_to_time(int(avg_pace_sec * 1.15))}/mi  (comfortable)",
-        "marathon":  f"{sec_to_time(int(avg_pace_sec * 1.05))}/mi  (goal marathon pace)",
-        "threshold": f"{sec_to_time(int(avg_pace_sec * 0.95))}/mi  (comfortably hard)",
-        "tempo":     f"{sec_to_time(int(avg_pace_sec * 0.90))}/mi  (10K effort)",
+        'Z1': {'name': 'Recovery',      'hr': '95–114 bpm',  'pct': '50–60%', 'desc': 'Very easy, warm up/cool down'},
+        'Z2': {'name': 'Aerobic Base',  'hr': '114–133 bpm', 'pct': '60–70%', 'desc': 'Easy runs, base building — most of your miles'},
+        'Z3': {'name': 'Tempo',         'hr': '133–152 bpm', 'pct': '70–80%', 'desc': 'Moderate — marathon to half marathon effort'},
+        'Z4': {'name': 'Threshold',     'hr': '152–162 bpm', 'pct': '80–85%', 'desc': 'Comfortably hard — 10K effort'},
+        'Z5': {'name': 'VO2 Max',       'hr': '162–190 bpm', 'pct': '85–100%','desc': 'Hard — short intervals only'},
     }
+
+ def classify_hr_zone(avg_hr):
+    """Return zone name for a given average HR."""
+    if not avg_hr:
+        return None
+    for zone, (low, high, name) in HR_ZONES.items():
+        if low <= avg_hr < high:
+            return zone
+    return 'Z5'
+
+
+def hr_zone_distribution(activities):
+    """Count how many runs fell in each HR zone."""
+    dist = {z: 0 for z in HR_ZONES}
+    for a in activities:
+        zone = classify_hr_zone(a.get('avg_hr'))
+        if zone:
+            dist[zone] += 1
+    return dist   
 
 
 # ── 4. CURRENT TRAINING WEEK ──────────────────────────────────────────────────
@@ -112,13 +143,16 @@ def get_gemini_advice(activities, current_week, avg_pace_sec):
     # Build rich run summary
     run_lines = []
     for r in activities[:10]:
-        hr_str = f" | HR {r['avg_hr']}bpm" if r['avg_hr'] else ""
+        hr_str = f" | HR {r['avg_hr']}bpm ({r['hr_zone']})" if r['avg_hr'] else ""
         elev   = f" | +{r['elevation_ft']}ft" if r['elevation_ft'] else ""
         run_lines.append(
             f"  • {r['date']} — {r['name']}: {r['distance_miles']}mi @ {r['pace_per_mile']}/mi{hr_str}{elev}"
         )
     runs_block = "\n".join(run_lines) if run_lines else "  (No runs in the last 14 days)"
-
+    HR zone context (max HR 190):
+- Z1 Recovery: 95–114 bpm — Z2 Aerobic Base: 114–133 bpm — Z3 Tempo: 133–152 bpm — Z4 Threshold: 152–162 bpm — Z5 VO2 Max: 162–190 bpm
+- Easy runs should be Z2. Flag any easy runs running hot (Z3+).
+- Recent zone distribution: {hr_distribution}
     # Predicted race times
     if avg_pace_sec and avg_pace_sec > 0:
         pred_5k   = sec_to_time(riegel_predict(avg_pace_sec, 3.1))
@@ -294,7 +328,8 @@ def main():
         print(f"  Predicted marathon: {predictions['marathon']}")
 
     # Pace zones
-    zones = pace_zones(avg_pace_sec) if avg_pace_sec else {}
+    zones = hr_pace_zones(avg_pace_sec)
+    hr_distribution = hr_zone_distribution(activities)
 
     # Gemini advice (with retry)
     advice = ""
@@ -326,7 +361,9 @@ def main():
         "weekly_mileage":   weekly_mileage,
         "avg_pace_sec":     round(avg_pace_sec, 1),
         "predictions":      predictions,
-        "pace_zones":       zones,
+        "pace_zones":    zones,
+        "hr_distribution": hr_distribution,
+        "max_hr":        MAX_HR,
         "advice":           advice,
     }
     base = os.path.dirname(os.path.abspath(__file__))

@@ -871,15 +871,20 @@ function renderRuns(activities) {
     const date = new Date(run.date).toLocaleDateString('en-US', { month:'short', day:'numeric' });
     const dist = parseFloat(run.distance_miles).toFixed(2);
     const pace = run.pace_per_mile || '—';
+    const zoneColors = {Z1:'#4caf50',Z2:'#8bc34a',Z3:'#f48c06',Z4:'#e85d04',Z5:'#c1121f'};
+    const hrBadge = run.hr_zone
+      ? `<span style="font-family:'Barlow Condensed',sans-serif;font-size:10px;letter-spacing:1px;padding:2px 6px;border-radius:4px;background:${zoneColors[run.hr_zone]};color:#fff;">${run.hr_zone}</span>`
+      : '';
+    const hrText = run.avg_hr ? `${run.avg_hr}bpm` : '—';
     return `<div class="run-item">
       <div class="run-icon">${icons[i % icons.length]}</div>
       <div class="run-info">
         <div class="run-name">${run.name}</div>
-        <div class="run-date">${date}</div>
+        <div class="run-date">${date} ${hrBadge}</div>
       </div>
       <div class="run-stats">
         <div class="run-dist">${dist} mi</div>
-        <div class="run-pace">${pace}/mi</div>
+        <div class="run-pace">${pace}/mi · ${hrText}</div>
       </div>
     </div>`;
   }).join('');
@@ -1005,25 +1010,20 @@ function renderPredictor(avgPaceSec) {
 }
 
 // ── Pace zones ──────────────────────────────────────────────────────────────
-function renderZones(avgPaceSec) {
-  if (!avgPaceSec) avgPaceSec = paceToSec('8:35');
+function renderZones(zones) {
+  if (!zones || !Object.keys(zones).length) return;
 
-  const zones = [
-    { name: 'Easy / Long', mult: 1.20, color: '#4caf50', desc: 'Conversational — most of your miles' },
-    { name: 'Marathon',    mult: 1.05, color: var_orange(), desc: 'Goal marathon race pace' },
-    { name: 'Threshold',   mult: 0.95, color: '#ff9800', desc: 'Comfortably hard — 20–30 min efforts' },
-    { name: 'Tempo',       mult: 0.90, color: '#f44336', desc: '10K effort — controlled discomfort' },
-    { name: '5K Effort',   mult: 0.85, color: '#9c27b0', desc: 'Hard — short repeats only' },
-  ];
+  const colors = {
+    Z1: '#4caf50', Z2: '#8bc34a', Z3: '#f48c06',
+    Z4: '#e85d04', Z5: '#c1121f'
+  };
 
-  function var_orange() { return '#e85d04'; }
-
-  const html = zones.map(z => `
+  const html = Object.entries(zones).map(([zone, info]) => `
     <div class="zone-row">
-      <div class="zone-dot" style="background:${z.color}"></div>
-      <div class="zone-name">${z.name}</div>
-      <div class="zone-pace">${secToPace(avgPaceSec * z.mult)}/mi</div>
-      <div class="zone-desc">${z.desc}</div>
+      <div class="zone-dot" style="background:${colors[zone]}"></div>
+      <div class="zone-name">${zone} — ${info.name}</div>
+      <div class="zone-pace">${info.hr}</div>
+      <div class="zone-desc">${info.desc}</div>
     </div>
   `).join('');
 
@@ -1077,7 +1077,7 @@ async function loadData() {
   renderWeek(weekNum, 'base_building');
   renderScheduleTable(weekNum);
   renderPredictor(null);
-  renderZones(null);
+  renderZones({});
 
   try {
     const res = await fetch('coach_data.json?v=' + Date.now());
@@ -1098,7 +1098,7 @@ async function loadData() {
     if (pacesSec.length) {
       const avg = pacesSec.reduce((s, p) => s + p, 0) / pacesSec.length;
       renderPredictor(avg);
-      renderZones(avg);
+      renderZones(data.pace_zones);
     }
 
     renderMileageChart(data.weekly_mileage || []);
