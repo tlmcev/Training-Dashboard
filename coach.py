@@ -11,11 +11,11 @@ GEMINI_KEY    = os.getenv("GEMINI_API_KEY")
 
 MAX_HR = 190
 HR_ZONES = {
-    'Z1': (0,    114, 'Recovery'),
-    'Z2': (114,  133, 'Aerobic Base'),
-    'Z3': (133,  152, 'Tempo'),
-    'Z4': (152,  162, 'Threshold'),
-    'Z5': (162,  190, 'VO2 Max'),
+    'Z1': (0,    124, 'Recovery'),
+    'Z2': (124,  155, 'Endurance'),
+    'Z3': (155,  170, 'Tempo'),
+    'Z4': (170,  185, 'Threshold'),
+    'Z5': (185,  220, 'Anaerobic'),
 }
 
 MARATHON_DATE = "November 1, 2026"
@@ -95,13 +95,12 @@ def sec_to_time(s):
 
 
 def hr_pace_zones(avg_pace_sec):
-    """Return training zones based on HR zones with corresponding pace estimates."""
     return {
-        'Z1': {'name': 'Recovery',      'hr': '95-114 bpm',  'pct': '50-60%', 'desc': 'Very easy, warm up/cool down'},
-        'Z2': {'name': 'Aerobic Base',  'hr': '114-133 bpm', 'pct': '60-70%', 'desc': 'Easy runs, base building — most of your miles'},
-        'Z3': {'name': 'Tempo',         'hr': '133-152 bpm', 'pct': '70-80%', 'desc': 'Moderate — marathon to half marathon effort'},
-        'Z4': {'name': 'Threshold',     'hr': '152-162 bpm', 'pct': '80-85%', 'desc': 'Comfortably hard — 10K effort'},
-        'Z5': {'name': 'VO2 Max',       'hr': '162-190 bpm', 'pct': '85-100%','desc': 'Hard — short intervals only'},
+        'Z1': {'name': 'Recovery',   'hr': '<124 bpm',    'pct': '<65%',   'desc': 'Very easy, warm up/cool down'},
+        'Z2': {'name': 'Endurance',  'hr': '124-154 bpm', 'pct': '65-89%', 'desc': 'Easy runs, base building — most of your miles'},
+        'Z3': {'name': 'Tempo',      'hr': '155-169 bpm', 'pct': '90-94%', 'desc': 'Moderate — marathon to half marathon effort'},
+        'Z4': {'name': 'Threshold',  'hr': '170-184 bpm', 'pct': '95-97%', 'desc': 'Comfortably hard — 10K effort'},
+        'Z5': {'name': 'Anaerobic',  'hr': '>185 bpm',    'pct': '>97%',   'desc': 'Hard — short intervals only'},
     }
 
 def classify_hr_zone(avg_hr):
@@ -163,9 +162,9 @@ def get_gemini_advice(activities, current_week, avg_pace_sec, hr_distribution):
     Full:   {pred_full}
 
   HR-Based Training Zones (max HR 190):
-    Z2 Aerobic Base: 114-133 bpm (easy runs target)
-    Z3 Tempo:        133-152 bpm (moderate)
-    Z4 Threshold:    152-162 bpm (hard)
+    Z2 Endurance: 124-154 bpm (easy runs target)
+    Z3 Tempo:     155-169 bpm (moderate)
+    Z4 Threshold: 170-184 bpm (hard)
 """
     else:
         predictor_block = "  (Insufficient pace data for predictions)"
@@ -180,7 +179,7 @@ Tom's recent runs:
 {runs_block}
 
 HR zone context (max HR 190):
-- Z1 Recovery: 95-114 bpm | Z2 Aerobic Base: 114-133 bpm | Z3 Tempo: 133-152 bpm | Z4 Threshold: 152-162 bpm | Z5 VO2 Max: 162-190 bpm
+- Z1 Recovery: <124 bpm | Z2 Endurance: 124-154 bpm | Z3 Tempo: 155-169 bpm | Z4 Threshold: 170-184 bpm | Z5 Anaerobic: >185 bpm
 - Easy runs should be Z2. Flag any easy runs running hot (Z3+).
 - Recent zone distribution: {hr_distribution}
 
