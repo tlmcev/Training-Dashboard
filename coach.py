@@ -155,7 +155,7 @@ def get_gemini_advice(activities, current_week, avg_pace_sec):
         pred_5k   = sec_to_time(riegel_predict(avg_pace_sec, 3.1))
         pred_half = sec_to_time(riegel_predict(avg_pace_sec, 13.1))
         pred_full = sec_to_time(riegel_predict(avg_pace_sec, 26.2))
-        zones     = pace_zones(avg_pace_sec)
+        zones     = hr_pace_zones(avg_pace_sec)
         predictor_block = f"""
   Predicted Finish Times (Riegel formula from avg pace {sec_to_time(int(avg_pace_sec))}/mi):
     5K:     {pred_5k}
