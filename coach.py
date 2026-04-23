@@ -137,7 +137,7 @@ def get_current_week():
 
 # ── 5. GEMINI COACHING ────────────────────────────────────────────────────────
 
-def get_gemini_advice(activities, current_week, avg_pace_sec):
+def get_gemini_advice(activities, current_week, avg_pace_sec, hr_distribution):
     today = datetime.now().strftime("%A, %B %d, %Y")
 
     # Build rich run summary
@@ -337,7 +337,7 @@ def main():
     print("→ Calling Gemini…")
     for attempt in range(1, 4):
         try:
-            advice = get_gemini_advice(activities, current_week, avg_pace_sec)
+            advice = get_gemini_advice(activities, current_week, avg_pace_sec, hr_distribution)
             print(f"✓ Gemini advice received (attempt {attempt})")
             with open("latest_advice.txt", "w") as f:
                 f.write(advice)
