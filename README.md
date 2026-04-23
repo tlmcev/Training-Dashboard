@@ -16,7 +16,12 @@
 
 ## AI Coach Snapshot
 
-No advice yet.
+Here is your coaching brief, Tom:
+
+**Fitness Assessment**
+Tom, your recent race performances are solid! A Half Marathon at 8:35/mi (13.31mi) and a 10-mile race at 8:41/mi show good fitness and the ability to push hard. Based on your Half Marathon pace, your current marathon potential is likely closer to **3:53-3:58**, which is a fantastic starting point for NYC. However, your recent HR data reveals a critical area for improvement: **you are consistently running too hard on your easy days.** All of your recent runs, including shorter recovery efforts, are in Z3 (Tempo) or Z4 (Threshold), with **zero Z2 (Aerobic Base) runs.** This indicates a significant imbalance in your training intensity. While your current mileage is decent, the lack of Z2 work means you're not efficiently building the aerobic engine crucial for marathon success and sustainable training.
+
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -46,4 +51,4 @@ No advice yet.
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-23 18:42:59 UTC | Run ID: 24852580907*
+*Last updated: 2026-04-23 18:47:24 UTC | Run ID: 24852783634*

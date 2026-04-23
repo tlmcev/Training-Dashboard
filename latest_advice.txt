@@ -1,37 +1,26 @@
-Alright Tom, excellent work on those recent races! Let's get you set for a strong base-building phase.
-
----
-
-**Coaching Brief for Tom: Base Building Phase**
+Here is your coaching brief, Tom:
 
 **Fitness Assessment**
-Tom, your recent race performances are very strong and indicate a higher level of fitness than your predicted paces suggest.
-*   **Newport Half Marathon (April 18):** 13.31mi @ **8:35/mi** with an average HR of 151bpm. This is an excellent result, significantly faster than your predicted Half Marathon time of 2:00:24 (9:11/mi) and even quicker than your calculated Threshold pace (8:43/mi). This shows great endurance and speed.
-*   **Cherry Blossom 10 Mile (April 12):** 10.19mi @ **8:41/mi** with an average HR of 156bpm. Another robust performance, again faster than your predicted Threshold pace.
-*   **Training Pacing:** Most of your training runs (e.g., 9.01mi @ 9:00/mi, 7.65mi @ 8:50/mi) are being run at paces much faster than your calculated Easy/Long Run pace (11:01/mi) and even your goal Marathon Pace (9:39/mi). While this demonstrates good fitness, your average HRs (140-150bpm) for these efforts suggest a moderate intensity, not truly easy. This indicates your current training zones are likely too conservative, or you're consistently pushing harder than necessary on easy days.
-*   **Consistent Activity & Hills:** You're maintaining consistent running volume, and it's great to see you tackling runs with significant elevation, which will be beneficial for NYC.
+Tom, your recent race performances are solid! A Half Marathon at 8:35/mi (13.31mi) and a 10-mile race at 8:41/mi show good fitness and the ability to push hard. Based on your Half Marathon pace, your current marathon potential is likely closer to **3:53-3:58**, which is a fantastic starting point for NYC. However, your recent HR data reveals a critical area for improvement: **you are consistently running too hard on your easy days.** All of your recent runs, including shorter recovery efforts, are in Z3 (Tempo) or Z4 (Threshold), with **zero Z2 (Aerobic Base) runs.** This indicates a significant imbalance in your training intensity. While your current mileage is decent, the lack of Z2 work means you're not efficiently building the aerobic engine crucial for marathon success and sustainable training.
 
-**This Week's Focus (April 23 - April 29)**
-Given your recent Half Marathon, the priority this week is **active recovery and easy mileage** to allow your body to absorb the training and race effort.
-*   **Thursday (Today):** Complete Rest or 30-45 min light cross-training (e.g., easy cycling, swimming, elliptical) at a very low intensity.
-*   **Friday:** Easy Run: 3-4 miles @ **9:45-10:15/mi** (truly conversational, HR under 145bpm).
-*   **Saturday:** Cross-Training: 45-60 minutes (e.g., cycling, elliptical) at a moderate, steady effort.
-*   **Sunday:** Easy Run: 5-6 miles @ **9:45-10:15/mi**, focusing on smooth, relaxed running.
-*   **Monday:** Rest or 30 min strength/mobility work.
-*   **Tuesday:** Easy Run: 3-4 miles @ **9:45-10:15/mi**.
-*   **Wednesday:** Moderate Effort Run: 5-6 miles @ **9:20-9:30/mi**. This should feel comfortably conversational, not pushing.
+**This Week's Focus**
+Your absolute top priority this week is to **introduce and commit to Z2 (Aerobic Base) running**.
+*   **Pace Target:** Forget pace for your easy runs. Focus solely on keeping your heart rate in **Z2 (114-133 bpm)**. This will likely feel *much* slower than you're used to – potentially 10:00-10:30/mi or even slower, especially at the start. Embrace the slow.
+*   **Run Structure:** Aim for 3-4 easy Z2 runs this week, along with one slightly longer, controlled run where you still prioritize Z2/low Z3.
+*   **Listen to Your Body:** You've had two races recently. Recovery is key. If you feel tired, walk breaks are encouraged to keep HR down.
 
 **Key Priorities**
-*   **Prioritize Recovery:** Allow your body to fully recover from the Half Marathon. Easy efforts are crucial to avoid overtraining.
-*   **Re-evaluate Paces:** Your race results clearly show you're fitter than your current calculated zones. Plan to perform a new 5K or 10K time trial in the next few weeks to establish more accurate training paces.
-*   **Build Aerobic Base:** Focus on consistent, truly easy mileage. Resist the urge to push the pace on every run; this is key for marathon endurance.
+*   **HR Discipline:** Learn to run truly easy in Z2. This is foundational for marathon training, building capillary density, mitochondrial efficiency, and fat-burning capabilities without excessive stress.
+*   **Aerobic Base Development:** Shift your training focus to building a robust aerobic engine. This phase is about endurance and efficiency, not speed.
+*   **Active Recovery:** Integrate proper recovery after your recent races to prevent burnout and injury.
 
 **Watch Out For**
-*   **Running Easy Runs Too Fast:** This is a common pitfall. Your body needs dedicated easy days to recover and build aerobic capacity. Pushing the pace too often can lead to fatigue and injury.
-*   **Injury/Fatigue:** After two hard races in quick succession, be vigilant for any aches, pains, or persistent fatigue. Prioritize rest if needed.
-*   **Neglecting Strength/Mobility:** Continue to incorporate cross-training and strength work to support your running and prevent imbalances.
+*   **Running Too Fast:** This is your primary red flag. Resisting the urge to speed up on easy days will be challenging but essential. Use your watch to monitor HR and actively slow down.
+*   **Burnout/Injury:** Sustained Z3/Z4 effort without adequate Z2 recovery increases your risk for fatigue and injury, especially as mileage increases.
+*   **Lack of Adaptation:** Without Z2 work, your body won't develop the specific aerobic adaptations needed for marathon endurance.
 
-**Upcoming Milestones (Next 2-3 Weeks)**
-*   **Week 2 (Apr 30 - May 6):** Gradually increase your weekly mileage by no more than 10-15%. Continue with predominantly easy runs, introducing one slightly longer run (7-8 miles) at an easy, conversational pace.
-*   **Week 3 (May 7 - May 13):** Maintain consistent mileage. Consider adding 4-6 x 100m strides at the end of 1-2 easy runs to maintain leg speed and efficiency without adding significant stress.
-*   **Pace Assessment (Mid-May):** Aim to perform a dedicated 5K time trial or race to establish updated, more accurate training zones for your easy, marathon, and threshold paces. This will be vital for effective base building leading into the Hal Higdon plan.
+**Upcoming Milestones**
+Over the next 2-3 weeks, as we continue in the Base Building phase:
+1.  **Consistent Z2 Integration:** Establish a habit of 3-4 easy Z2 runs per week.
+2.  **Gradual Mileage Increase:** Once Z2 running feels comfortable, we'll slowly and safely increase your weekly mileage.
+3.  **Longer Z2 Runs:** We'll introduce longer runs (e.g., 60-90 minutes) that are primarily executed in Z2 to build endurance at the correct intensity.
