@@ -97,11 +97,11 @@ def sec_to_time(s):
 def hr_pace_zones(avg_pace_sec):
     """Return training zones based on HR zones with corresponding pace estimates."""
     return {
-        'Z1': {'name': 'Recovery',      'hr': '95–114 bpm',  'pct': '50–60%', 'desc': 'Very easy, warm up/cool down'},
-        'Z2': {'name': 'Aerobic Base',  'hr': '114–133 bpm', 'pct': '60–70%', 'desc': 'Easy runs, base building — most of your miles'},
-        'Z3': {'name': 'Tempo',         'hr': '133–152 bpm', 'pct': '70–80%', 'desc': 'Moderate — marathon to half marathon effort'},
-        'Z4': {'name': 'Threshold',     'hr': '152–162 bpm', 'pct': '80–85%', 'desc': 'Comfortably hard — 10K effort'},
-        'Z5': {'name': 'VO2 Max',       'hr': '162–190 bpm', 'pct': '85–100%','desc': 'Hard — short intervals only'},
+        'Z1': {'name': 'Recovery',      'hr': '95-114 bpm',  'pct': '50-60%', 'desc': 'Very easy, warm up/cool down'},
+        'Z2': {'name': 'Aerobic Base',  'hr': '114-133 bpm', 'pct': '60-70%', 'desc': 'Easy runs, base building — most of your miles'},
+        'Z3': {'name': 'Tempo',         'hr': '133-152 bpm', 'pct': '70-80%', 'desc': 'Moderate — marathon to half marathon effort'},
+        'Z4': {'name': 'Threshold',     'hr': '152-162 bpm', 'pct': '80-85%', 'desc': 'Comfortably hard — 10K effort'},
+        'Z5': {'name': 'VO2 Max',       'hr': '162-190 bpm', 'pct': '85-100%','desc': 'Hard — short intervals only'},
     }
 
 def classify_hr_zone(avg_hr):
@@ -150,7 +150,7 @@ def get_gemini_advice(activities, current_week, avg_pace_sec):
         )
     runs_block = "\n".join(run_lines) if run_lines else "  (No runs in the last 14 days)"
     HR zone context (max HR 190):
-- Z1 Recovery: 95–114 bpm — Z2 Aerobic Base: 114–133 bpm — Z3 Tempo: 133–152 bpm — Z4 Threshold: 152–162 bpm — Z5 VO2 Max: 162–190 bpm
+- Z1 Recovery: 95-114 bpm | Z2 Aerobic Base: 114-133 bpm | Z3 Tempo: 133-152 bpm | Z4 Threshold: 152-162 bpm | Z5 VO2 Max: 162-190 bpm
 - Easy runs should be Z2. Flag any easy runs running hot (Z3+).
 - Recent zone distribution: {hr_distribution}
     # Predicted race times
