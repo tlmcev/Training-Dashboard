@@ -136,7 +136,7 @@ def get_current_week():
 
 # ── 5. GEMINI COACHING ────────────────────────────────────────────────────────
 
-def get_gemini_advice(activities, current_week, avg_pace_sec, hr_distribution):
+def get_gemini_advice(activities, current_week, avg_pace_sec, hr_distribution, weather):
     today = datetime.now().strftime("%A, %B %d, %Y")
 
     # Build rich run summary
@@ -390,13 +390,21 @@ def main():
     # Pace zones
     zones = hr_pace_zones(avg_pace_sec)
     hr_distribution = hr_zone_distribution(activities)
-
+    
+    print("→ Fetching NYC weather…")
+    try:
+        weather = get_nyc_weather()
+        print(f"  {len(weather)} day forecast fetched")
+    except Exception as e:
+        print(f"✗ Weather error: {e}")
+        weather = []
+        
     # Gemini advice (with retry)
     advice = ""
     print("→ Calling Gemini…")
     for attempt in range(1, 4):
         try:
-            advice = get_gemini_advice(activities, current_week, avg_pace_sec, hr_distribution)
+            advice = get_gemini_advice(activities, current_week, avg_pace_sec, hr_distribution, weather)
             print(f"✓ Gemini advice received (attempt {attempt})")
             with open("latest_advice.txt", "w") as f:
                 f.write(advice)
@@ -410,14 +418,7 @@ def main():
             else:
                 print("  All 3 attempts failed. Advice left empty.")
 
-    print("→ Fetching NYC weather…")
-    try:
-        weather = get_nyc_weather()
-        print(f"  {len(weather)} day forecast fetched")
-    except Exception as e:
-        print(f"✗ Weather error: {e}")
-        weather = []
-        
+
     # Write coach_data.json (consumed by index.html dashboard)
     weekly_mileage = aggregate_weekly_mileage(activities)
     ae_trend = calculate_aerobic_efficiency(activities)
