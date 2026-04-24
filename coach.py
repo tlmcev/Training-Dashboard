@@ -321,7 +321,7 @@ def get_nyc_weather():
             'code':      data['weathercode'][i],
         })
     return days
- def weather_description(code):
+def weather_description(code):
     """Convert WMO weather code to emoji and short description."""
     if code == 0:                    return ('☀️',  'Clear')
     if code in [1, 2]:               return ('🌤️',  'Partly Cloudy')
