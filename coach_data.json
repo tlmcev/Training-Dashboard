@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-24 14:16:12",
+  "updated_at": "2026-04-24 14:59:24",
   "current_week": 0,
   "phase": "base_building",
   "days_to_plan_start": 65,
@@ -421,7 +421,7 @@
     {
       "date": "2026-04-24",
       "high": 68,
-      "low": 49,
+      "low": 48,
       "precip": 0.0,
       "windspeed": 12,
       "code": 3
@@ -430,7 +430,7 @@
       "date": "2026-04-25",
       "high": 48,
       "low": 41,
-      "precip": 0.81,
+      "precip": 0.82,
       "windspeed": 11,
       "code": 63
     },
@@ -522,5 +522,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nTom, you've established a strong aerobic foundation, highlighted by two solid race efforts: the Newport Half Marathon (13.31mi @ 8:35/mi in Z2) and the Cherry Blossom 10 Mile (10.19mi @ 8:41/mi in Z3). Your Newport Half performance at 8:35/mi in Z2 is particularly impressive and suggests your predicted half marathon time of 2:00:24 (9:11/mi) is conservative; you're demonstrating capability for faster. Most of your easy runs are consistently in Z2, which is ideal for base building, with the 10-mile race being an acceptable Z3 effort.\n\n**This Week's Focus**\n*   **Pace Target:** Aim for easy runs at **9:15-9:45/mi**, keeping your heart rate firmly in **Z2 (124-154 bpm)**.\n*   **Prioritize:** Recovery from your recent races and consistent, easy aerobic mileage.\n*   **Weather Adaptation:** Be prepared for significant weather challenges this weekend.\n    *   **Friday (Apr 24):** 3-4 miles easy. Enjoy the milder weather.\n    *   **Saturday (Apr 25):** Rest or light cross-training.\n    *   **Sunday (Apr 26):** **Crucial weather note:** Heavy snow and strong winds are forecast. Plan for a shorter 6-8 mile easy run, or consider a treadmill session if outdoor conditions are unsafe or too uncomfortable. Prioritize safety and comfort.\n    *   **Monday (Apr 27):** 4-5 miles easy.\n    *   **Tuesday (Apr 28):** 3-4 miles easy.\n    *   **Wednesday (Apr 29):** 6-7 miles easy.\n    *   **Thursday (Apr 30):** Rest or 3-4 miles easy.\n\n**Key Priorities**\n*   **Full Recovery:** Ensure adequate recovery from your recent Half Marathon and 10-Mile race efforts.\n*   **Consistent Z2 Mileage:** Build your aerobic base safely and consistently within Z2.\n*   **Smart Adaptation:** Adjust training plans proactively for the challenging weather conditions, especially this weekend.\n\n**Watch Out For**\n*   **Over-pushing:** Resist the urge to push pace too hard, particularly after recent races. Stick to Z2.\n*   **Weather Risks:** Do not underestimate the snow and wind on Sunday. Adjust your run or move indoors to prevent injury or illness.\n*   **Fatigue/Niggles:** Pay close attention to your body for any signs of overtraining or potential injuries.\n\n**Upcoming Milestones**\nThe next 2-3 weeks will continue the **BASE BUILDING** phase, with a gradual, healthy increase in your weekly mileage. Your primary goal is to build a robust, injury-free aerobic foundation leading into the formal training plan, which officially begins in **65 days (July 1st, 2026)**. We'll continue to monitor your easy pace and ensure you're optimally prepared for the structured build."
+  "advice": "Here's your coaching brief for the week, Tom:\n\n**Fitness Assessment**\nYou're entering the base-building phase with a very strong foundation. Your recent Newport Half Marathon (13.31mi @ 8:35/mi) completed comfortably within your Z2 heart rate (151bpm) is an excellent performance, demonstrating great aerobic fitness and endurance. Your easy runs consistently fall within your Z2 target (typically 9:00-9:30/mi), with your overall HR distribution showing excellent adherence to easy effort (16 Z2, 3 Z3 runs). You handle elevation well, indicating good running strength. This solid base sets you up perfectly for the training ahead.\n\n**This Week's Focus**\nThis week is about consistent, easy-effort mileage to continue building your aerobic capacity.\n*   **Easy Runs:** Maintain Z2 effort, targeting paces between **9:00-9:45/mi**. Focus on perceived effort and heart rate, letting pace fluctuate with terrain and especially the upcoming weather.\n*   **Long Run:** Aim for an 8-10 mile long run this week, keeping it firmly in Z2.\n*   **Weather Adaptation:** The weekend looks challenging with rain, snow, cold, and strong winds. Be prepared with appropriate gear (layers, waterproofs) or consider shifting runs indoors (treadmill) if conditions become unsafe or too unpleasant. Do not try to maintain pace in adverse weather; adjust your effort to stay in Z2.\n\n**Key Priorities**\n*   **Consistent Z2 Effort:** Prioritize staying within your easy heart rate zone for all runs to build your aerobic base effectively and safely.\n*   **Smart Weather Management:** Dress appropriately for cold, wet, and windy conditions. Be flexible with your schedule or location if outdoor running becomes hazardous.\n*   **Active Recovery:** Ensure good recovery after your recent races. Incorporate stretching, foam rolling, and adequate sleep to prevent injury and promote adaptation.\n\n**Watch Out For**\n*   **Over-pacing in Challenging Conditions:** The instinct to maintain pace in headwinds, rain, or cold can push your HR too high. Listen to your body and adjust pace to keep HR in Z2.\n*   **Injury/Fatigue:** You've had two races recently. Ensure you're not pushing too hard too soon in this base phase. Any niggles should be addressed immediately.\n\n**Upcoming Milestones**\n*   **Weeks 2-3 (May 1-15):** Continue to gradually increase your weekly mileage. Your long run will progress towards 10-12 miles. Maintain the 80/20 rule, with the vast majority of your mileage in Z2.\n*   **Building Foundation:** These next 6-8 weeks are critical for establishing a robust aerobic base before the formal training plan begins in early July. Focus on consistent, easy running and building durability."
 }
