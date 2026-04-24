@@ -1024,6 +1024,13 @@ function renderAEChart(aeTrend) {
     return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
   });
   const values = aeTrend.map(r => r.ae);
+
+  // 4-week rolling average to smooth the line
+  const smoothed = values.map((_, i) => {
+    const window = values.slice(Math.max(0, i - 3), i + 1);
+    return parseFloat((window.reduce((a, b) => a + b, 0) / window.length).toFixed(3));
+  });
+  
   const colors = aeTrend.map(r =>
     new Date(r.date) < planStart ? '#8a8880' : '#e85d04'
   );
@@ -1045,7 +1052,7 @@ function renderAEChart(aeTrend) {
       datasets: [
         {
           label: 'Aerobic Efficiency',
-          data: values,
+          data: smoothed,
           borderColor: '#e85d04',
           backgroundColor: 'rgba(232,93,4,0.08)',
           pointRadius: 0,
