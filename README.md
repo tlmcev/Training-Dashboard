@@ -16,12 +16,7 @@
 
 ## AI Coach Snapshot
 
-**Coaching Brief for Tom**
-
-**Fitness Assessment**
-Tom, your recent race performances are truly impressive and demonstrate a strong foundation! You ran the Newport Half Marathon at a swift 8:35/mi, remarkably staying within your Z2 heart rate (151bpm). This is significantly faster than your predicted half-marathon pace (9:09/mi), indicating you're fitter than the general Riegel formula suggests and have excellent endurance. Your Cherry Blossom 10 Mile race also showcased your ability to comfortably push into Z3 (156bpm). Crucially, your easy runs are consistently executed in Z2, typically ranging from 9:00-9:37/mi, which is fantastic discipline and exactly what we want for base building. No easy runs were flagged for running hot, which is a testament to your pacing control.
-
-**This Week's Focus (April 24 - April 30)**
+No advice yet.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +46,4 @@ Tom, your recent race performances are truly impressive and demonstrate a strong
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-24 13:23:47 UTC | Run ID: 24891829260*
+*Last updated: 2026-04-24 13:34:22 UTC | Run ID: 24892302533*
