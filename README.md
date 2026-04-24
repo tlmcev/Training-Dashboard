@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-**Coaching Brief for Tom**
+Here's your coaching brief, Tom:
 
-**Date:** Friday, April 24, 2026
-**Goal:** NYC Marathon, November 1, 2026 (190 days)
-**Phase:** Base Building
+**Fitness Assessment**
+Tom, your recent training is highly commendable, showcasing excellent consistency and adherence to your heart rate zones. You've successfully navigated two races: the Newport Half Marathon (13.31mi @ 8:35/mi, HR 151bpm Z2) and the Cherry Blossom 10 Mile (10.19mi @ 8:41/mi, HR 156bpm Z3). These are strong performances, and your effort levels were appropriate for race day. Crucially, your easy runs, which range from 9:00/mi to 10:20/mi, are consistently staying within Zone 2 (136-150bpm), indicating great discipline in building your aerobic base effectively without over-exertion. This consistent, smart training, especially following recent race efforts, provides a robust foundation as we move deeper into the base-building phase. Your current fitness predicts a marathon time of approximately 4:12:36.
 
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-24 19:20:54 UTC | Run ID: 24907648893*
+*Last updated: 2026-04-24 19:33:11 UTC | Run ID: 24908145497*
