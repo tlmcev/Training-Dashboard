@@ -16,7 +16,12 @@
 
 ## AI Coach Snapshot
 
-No advice yet.
+Here's your coaching brief, Tom:
+
+**Fitness Assessment**
+Tom, you've established a strong aerobic foundation, highlighted by two solid race efforts: the Newport Half Marathon (13.31mi @ 8:35/mi in Z2) and the Cherry Blossom 10 Mile (10.19mi @ 8:41/mi in Z3). Your Newport Half performance at 8:35/mi in Z2 is particularly impressive and suggests your predicted half marathon time of 2:00:24 (9:11/mi) is conservative; you're demonstrating capability for faster. Most of your easy runs are consistently in Z2, which is ideal for base building, with the 10-mile race being an acceptable Z3 effort.
+
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -46,4 +51,4 @@ No advice yet.
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-24 14:04:04 UTC | Run ID: 24893650947*
+*Last updated: 2026-04-24 14:16:12 UTC | Run ID: 24894208486*
