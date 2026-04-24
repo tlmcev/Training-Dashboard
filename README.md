@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | Date |
 | :--- | :--- | :--- | :--- |
+| “Jessica” - Allman Brothers | 3.01 mi | 10:20/mi | 2026-04-24 |
 | Newport Half Marathon! | 13.31 mi | 8:35/mi | 2026-04-18 |
 | Cherry Blossom 10 Mile | 10.19 mi | 8:41/mi | 2026-04-12 |
 | “Cough Syrup” - Young The Giant | 3.29 mi | 9:30/mi | 2026-04-10 |
 | “California”- Phantom Planet | 3.08 mi | 9:28/mi | 2026-04-07 |
-| “(Your Love Keeps Lifting Me) Higher and Higher”- Jackie Wilson | 9.01 mi | 9:00/mi | 2026-04-04 |
 
 ## AI Coach Snapshot
 
-Here's your coaching brief for the week, Tom:
+**Coaching Brief for Tom**
 
-**Fitness Assessment**
-You're entering the base-building phase with a very strong foundation. Your recent Newport Half Marathon (13.31mi @ 8:35/mi) completed comfortably within your Z2 heart rate (151bpm) is an excellent performance, demonstrating great aerobic fitness and endurance. Your easy runs consistently fall within your Z2 target (typically 9:00-9:30/mi), with your overall HR distribution showing excellent adherence to easy effort (16 Z2, 3 Z3 runs). You handle elevation well, indicating good running strength. This solid base sets you up perfectly for the training ahead.
+**Date:** Friday, April 24, 2026
+**Goal:** NYC Marathon, November 1, 2026 (190 days)
+**Phase:** Base Building
 
-**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ You're entering the base-building phase with a very strong foundation. Your rece
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-24 14:59:24 UTC | Run ID: 24896228013*
+*Last updated: 2026-04-24 19:20:54 UTC | Run ID: 24907648893*
