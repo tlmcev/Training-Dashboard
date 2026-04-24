@@ -582,13 +582,87 @@
   }
 
   /* ── Responsive ── */
+  /* ── Tablet (≤700px) ── */
   @media (max-width: 700px) {
+    .page { padding: 24px 16px 60px; }
+
+    /* Hero */
+    .hero { grid-template-columns: 1fr; gap: 16px; }
+    .hero-title { font-size: clamp(40px, 12vw, 64px); }
+    .countdown-box { text-align: left; display: flex; gap: 24px; align-items: flex-end; }
+    .countdown-num { font-size: 48px; }
+
+    /* Topbar */
+    .topbar-meta { display: none; }
+
+    /* Stat strip */
     .stat-strip { grid-template-columns: 1fr 1fr; }
+    .stat-cell { padding: 14px 16px; }
+    .stat-val { font-size: 28px; }
+    .stat-cell:first-child { border-radius: 8px 0 0 0; }
+    .stat-cell:last-child  { border-radius: 0 0 8px 0; }
+    .stat-cell:nth-child(2) { border-radius: 0 8px 0 0; }
+    .stat-cell:nth-child(3) { border-radius: 0 0 0 8px; }
+
+    /* Grids */
     .grid-2 { grid-template-columns: 1fr; }
     .grid-3 { grid-template-columns: 1fr 1fr; }
-    .predictor-grid { grid-template-columns: 1fr; }
-    .hero { grid-template-columns: 1fr; }
-    .countdown-box { text-align: left; }
+    .predictor-grid { grid-template-columns: repeat(3, 1fr); }
+
+    /* Weather — horizontal scroll */
+    #weatherGrid {
+      grid-template-columns: repeat(7, minmax(80px, 1fr)) !important;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      padding-bottom: 8px;
+    }
+    #weatherGrid > div {
+      scroll-snap-align: start;
+      min-width: 80px;
+    }
+    .weather-scroll-hint::after {
+      content: '';
+      position: absolute;
+      right: 0; top: 0; bottom: 0;
+      width: 32px;
+      background: linear-gradient(to right, transparent, var(--surface));
+      pointer-events: none;
+      border-radius: 0 10px 10px 0;
+    }
+
+    /* Schedule table */
+    .schedule-table { font-size: 11px; }
+    .schedule-table th,
+    .schedule-table td { padding: 7px 8px; white-space: nowrap; }
+    .week-badge { width: 20px; height: 20px; font-size: 10px; }
+
+    /* Zone rows — hide description */
+    .zone-desc { display: none; }
+    .zone-name { width: 80px; font-size: 12px; }
+
+    /* Cards */
+    .card { padding: 16px; }
+    .coach-card { padding: 20px 18px; }
+
+    /* Section titles */
+    .section-title { font-size: 16px; }
+  }
+
+  /* ── Small phone (≤480px) ── */
+  @media (max-width: 480px) {
+    .hero-title { font-size: 36px; }
+    .countdown-num { font-size: 40px; }
+    .stat-val { font-size: 24px; }
+    .stat-lbl { font-size: 9px; letter-spacing: 1px; }
+    .predictor-grid { grid-template-columns: repeat(3, 1fr); }
+    .pred-time { font-size: 18px; }
+    .run-name { font-size: 13px; }
+    .coach-text { font-size: 13px; }
+    .topbar-brand { font-size: 18px; }
+    .schedule-table { font-size: 10px; }
+    .schedule-table th,
+    .schedule-table td { padding: 5px 6px; }
   }
 </style>
 </head>
@@ -622,7 +696,7 @@
   </div>
   
 <!-- 7-Day Weather -->
-  <div class="card" style="margin-bottom: 32px; animation: fadeUp 0.6s 0.28s ease both;">
+  <div class="card weather-scroll-hint" style="margin-bottom: 32px; animation: fadeUp 0.6s 0.28s ease both; position: relative;">
     <div class="section-head">
       <div class="section-title">NYC Forecast</div>
       <div class="section-line"></div>
@@ -1036,7 +1110,8 @@ function renderMileageChart(weeklyMileage) {
           ticks: {
             font: { family: 'Barlow Condensed', size: 11 },
             color: '#8a8880',
-            callback: val => val + ' mi'
+            maxRotation: 45,
+            maxTicksLimit: window.innerWidth < 480 ? 4 : window.innerWidth < 700 ? 6 : 12,
           }
         }
       }
@@ -1126,16 +1201,12 @@ function renderAEChart(aeTrend) {
           }
         }
       },
-      scales: {
-        x: {
-          grid: { color: '#e8e4de' },
-          ticks: {
+      ticks: {
             font: { family: 'Barlow Condensed', size: 11 },
             color: '#8a8880',
             maxRotation: 45,
-            maxTicksLimit: 12,
+            maxTicksLimit: window.innerWidth < 480 ? 4 : window.innerWidth < 700 ? 6 : 12,
           }
-        },
         y: {
           min: minVal,
           max: maxVal,
