@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-24 13:56:35",
+  "updated_at": "2026-04-24 14:04:04",
   "current_week": 0,
   "phase": "base_building",
   "days_to_plan_start": 65,
@@ -423,7 +423,7 @@
       "high": 68,
       "low": 49,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 12,
       "code": 3
     },
     {
@@ -431,7 +431,7 @@
       "high": 48,
       "low": 41,
       "precip": 0.81,
-      "windspeed": 12,
+      "windspeed": 11,
       "code": 63
     },
     {
