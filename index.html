@@ -839,6 +839,15 @@ function renderWeek(weekNum, phase, weather) {
     document.getElementById('bigWeekNum').textContent = '';
     const days = ['MON','TUE','WED','THU','FRI','SAT','SUN'];
     const today = getTodayDayIndex();
+    const checklist = [
+      'Easy run',
+      'Strides + easy run',
+      'Easy run',
+      'Cross train',
+      'Rest',
+      'Long easy run',
+      'Rest',
+    ];
 
     const html = days.map((day, i) => {
       const weatherDay = weather && weather[i];
@@ -846,11 +855,12 @@ function renderWeek(weekNum, phase, weather) {
       const temp = weatherDay ? `${weatherDay.high}°/${weatherDay.low}°` : '';
       const isToday = i === today;
       const cls = isToday ? 'week-row today' : 'week-row';
-      return `<div class="${cls}">
+      const task = checklist[i];
+      return `<div class="${cls}" style="align-items:center;">
         <span class="day-label">${day}</span>
-        <div style="flex:1;"></div>
-        <span style="font-size:16px;margin-right:6px;">${emoji}</span>
-        <span class="day-dist" style="width:70px;font-size:12px;">${temp}</span>
+        <div style="flex:1;font-size:12px;color:${isToday ? '#fff' : 'var(--muted)'};">${task}</div>
+        <span style="font-size:16px;margin-right:4px;">${emoji}</span>
+        <span style="font-family:'Barlow Condensed',sans-serif;font-size:12px;width:64px;text-align:right;color:${isToday ? '#fff' : 'var(--ink)'};">${temp}</span>
       </div>`;
     }).join('');
 
@@ -858,7 +868,7 @@ function renderWeek(weekNum, phase, weather) {
     return;
   }
 
-  // Normal training week display
+  // Marathon training week display with weather
   document.getElementById('bigWeekNum').textContent = weekNum;
   const todayIdx = getTodayDayIndex();
   const maxMiles = Math.max(...HH[weekNum-1].map(mileToNum), 1);
@@ -868,6 +878,9 @@ function renderWeek(weekNum, phase, weather) {
     const pct = miles > 0 ? (miles / maxMiles) * 100 : 0;
     const isRest = day === 'Rest' || day === 'Cross';
     const isToday = i === todayIdx;
+    const weatherDay = weather && weather[i];
+    const emoji = weatherDay ? getWeatherEmoji(weatherDay.code, weatherDay.low) : '';
+    const temp = weatherDay ? `${weatherDay.high}°` : '';
     let cls = 'week-row';
     if (isToday) cls += ' today';
     if (isRest) cls += ' rest';
@@ -876,6 +889,8 @@ function renderWeek(weekNum, phase, weather) {
       <span class="day-label">${DAYS[i]}</span>
       <div class="day-bar-wrap"><div class="day-bar" style="width:${pct}%"></div></div>
       <span class="day-dist">${miles > 0 ? miles + 'mi' : day === 'Cross' ? 'CT' : '—'}</span>
+      <span style="font-size:14px;margin-left:6px;">${emoji}</span>
+      <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;color:${isToday ? '#fff' : 'var(--muted)'};width:28px;text-align:right;">${temp}</span>
     </div>`;
   }).join('');
 
