@@ -835,15 +835,6 @@ function renderCountdown() {
 function renderWeek(weekNum, phase, weather) {
   if (phase === 'base_building') {
     document.getElementById('bigWeekNum').textContent = '';
-    const checklist = [
-      { icon: '🏃', label: 'Easy runs', detail: '3–5x this week, conversational pace' },
-      { icon: '⚡', label: 'Strides', detail: '2x this week, tacked onto easy runs' },
-      { icon: '🚴', label: 'Cross training', detail: '1x this week, 30–45 min' },
-      { icon: '🧘', label: 'Rest days', detail: 'At least 2x this week' },
-      { icon: '🛣️', label: 'Long easy run', detail: '1x this week, keep it relaxed' },
-    ];
-    if (phase === 'base_building') {
-    document.getElementById('bigWeekNum').textContent = '';
     const days = ['MON','TUE','WED','THU','FRI','SAT','SUN'];
     const today = getTodayDayIndex();
 
