@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-24 13:34:22",
+  "updated_at": "2026-04-24 13:56:35",
   "current_week": 0,
   "phase": "base_building",
   "days_to_plan_start": 65,
@@ -415,6 +415,64 @@
       "ae": 1.241,
       "hr": 151,
       "dist": 13.31
+    }
+  ],
+  "weather": [
+    {
+      "date": "2026-04-24",
+      "high": 68,
+      "low": 49,
+      "precip": 0.0,
+      "windspeed": 11,
+      "code": 3
+    },
+    {
+      "date": "2026-04-25",
+      "high": 48,
+      "low": 41,
+      "precip": 0.81,
+      "windspeed": 12,
+      "code": 63
+    },
+    {
+      "date": "2026-04-26",
+      "high": 48,
+      "low": 37,
+      "precip": 1.09,
+      "windspeed": 16,
+      "code": 73
+    },
+    {
+      "date": "2026-04-27",
+      "high": 61,
+      "low": 43,
+      "precip": 0.0,
+      "windspeed": 15,
+      "code": 1
+    },
+    {
+      "date": "2026-04-28",
+      "high": 62,
+      "low": 46,
+      "precip": 0.0,
+      "windspeed": 14,
+      "code": 3
+    },
+    {
+      "date": "2026-04-29",
+      "high": 55,
+      "low": 51,
+      "precip": 0.06,
+      "windspeed": 7,
+      "code": 51
+    },
+    {
+      "date": "2026-04-30",
+      "high": 56,
+      "low": 48,
+      "precip": 0.0,
+      "windspeed": 15,
+      "code": 3
     }
   ],
   "avg_pace_sec": 551.5,
