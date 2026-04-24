@@ -273,7 +273,26 @@ def update_readme(activities, current_week, advice, run_id, updated_at):
         f.write(readme)
     print("✓ README.md updated")
 
-
+def calculate_aerobic_efficiency(activities):
+    """Calculate aerobic efficiency (meters/min per bpm) for each run with HR data."""
+    results = []
+    for a in activities:
+        if not a.get('avg_hr') or a['avg_hr'] == 0:
+            continue
+        if not a.get('moving_time_sec') or a['moving_time_sec'] == 0:
+            continue
+        dist_meters = a['distance_miles'] * 1609.34
+        speed_mpm = dist_meters / (a['moving_time_sec'] / 60)  # meters per minute
+        ae = round(speed_mpm / a['avg_hr'], 3)
+        results.append({
+            'date': a['date'],
+            'name': a['name'],
+            'ae':   ae,
+            'hr':   a['avg_hr'],
+            'dist': a['distance_miles'],
+        })
+    return sorted(results, key=lambda x: x['date'])
+    
 # ── 7. MAIN ───────────────────────────────────────────────────────────────────
 def aggregate_weekly_mileage(activities):
     """Group activities into Mon–Sun weeks, return list of {week_start, miles}."""
@@ -352,6 +371,7 @@ def main():
 
     # Write coach_data.json (consumed by index.html dashboard)
     weekly_mileage = aggregate_weekly_mileage(activities)
+    ae_trend = calculate_aerobic_efficiency(activities)
     coach_data = {
         "updated_at":       updated_at,
         "current_week":     current_week,
@@ -359,6 +379,7 @@ def main():
         "days_to_plan_start": max(0, (datetime(2026, 6, 29) - datetime.now()).days),
         "activities":       activities,
         "weekly_mileage":   weekly_mileage,
+        "ae_trend":         ae_trend,
         "avg_pace_sec":     round(avg_pace_sec, 1),
         "predictions":      predictions,
         "pace_zones":    zones,
