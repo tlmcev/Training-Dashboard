@@ -1201,12 +1201,16 @@ function renderAEChart(aeTrend) {
           }
         }
       },
-      ticks: {
+      scales: {
+        x: {
+          grid: { color: '#e8e4de' },
+          ticks: {
             font: { family: 'Barlow Condensed', size: 11 },
             color: '#8a8880',
             maxRotation: 45,
             maxTicksLimit: window.innerWidth < 480 ? 4 : window.innerWidth < 700 ? 6 : 12,
           }
+        },
         y: {
           min: minVal,
           max: maxVal,
