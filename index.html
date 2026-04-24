@@ -139,7 +139,8 @@
     text-transform: uppercase;
     color: var(--muted);
   }
-
+  
+  
   /* ── Stat Strip ── */
   .stat-strip {
     display: grid;
@@ -619,7 +620,17 @@
       </div>
     </div>
   </div>
-
+  
+<!-- 7-Day Weather -->
+  <div class="card" style="margin-bottom: 32px; animation: fadeUp 0.6s 0.28s ease both;">
+    <div class="section-head">
+      <div class="section-title">NYC Forecast</div>
+      <div class="section-line"></div>
+      <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);">Next 7 Days</span>
+    </div>
+    <div id="weatherGrid" style="display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin-top:4px;"></div>
+  </div>
+  
   <!-- Stat Strip -->
   <div class="stat-strip">
     <div class="stat-cell">
@@ -684,15 +695,6 @@
     </div>
   </div>
   
-  <!-- 7-Day Weather -->
-  <div class="card" style="margin-bottom: 32px; animation: fadeUp 0.6s 0.28s ease both;">
-    <div class="section-head">
-      <div class="section-title">NYC Forecast</div>
-      <div class="section-line"></div>
-      <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);">Next 7 Days</span>
-    </div>
-    <div id="weatherGrid" style="display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin-top:4px;"></div>
-  </div>
   
   <!-- AI Coach -->
   <div class="coach-card">
