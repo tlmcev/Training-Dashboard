@@ -16,12 +16,7 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, great work on the recent races! You're building a fantastic foundation for NYC.
-
-### **Fitness Assessment**
-You're demonstrating excellent aerobic fitness for this base-building phase. Your Newport Half Marathon (13.31mi @ 8:35/mi | HR 151bpm, Z2) was a very strong performance, maintaining a solid Z2 pace for the entire distance. This suggests your current Riegel marathon prediction of 4:12:36 might be conservative, as you ran your half significantly faster than the predicted pace. Your Cherry Blossom 10 Mile (10.19mi @ 8:41/mi | HR 156bpm, Z3) also shows you can push when needed. Crucially, your easy runs are consistently in Z2 (e.g., 3.01mi @ 10:20/mi | HR 145bpm, Z2), indicating great control and understanding of easy effort.
-
-### **This Week's Focus**
+No advice yet.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +46,4 @@ You're demonstrating excellent aerobic fitness for this base-building phase. You
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-24 20:11:36 UTC | Run ID: 24909679319*
+*Last updated: 2026-04-24 20:29:09 UTC | Run ID: 24910387128*
