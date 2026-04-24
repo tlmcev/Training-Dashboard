@@ -175,7 +175,7 @@ Phase: {"BASE BUILDING" if current_week == 0 else f"Week {current_week} of 18, H
 Days to plan start: {max(0, (datetime(2026,6,29) - datetime.now()).days)}
 Days to marathon: {(datetime(2026,11,1) - datetime.now()).days}
 Upcoming NYC weather (next 7 days):
-{chr(10).join([f"  {w['date']}: {weather_description(w['code'])[1]}, High {w['high']}F / Low {w['low']}F, Wind {w['windspeed']}mph, Precip {w['precip']}in" for w in weather]) if weather else "  (unavailable)"}
+{chr(10).join([f"  {w['date']}: {weather_description(w['code'], w['low'])[1]}, High {w['high']}F / Low {w['low']}F, Wind {w['windspeed']}mph, Precip {w['precip']}in" for w in weather]) if weather else "  (unavailable)"}
 
 Tom's recent runs:
 {runs_block}
@@ -321,7 +321,7 @@ def get_nyc_weather():
             'code':      data['weathercode'][i],
         })
     return days
-def weather_description(code):
+def weather_description(code, low=32):
     """Convert WMO weather code to emoji and short description."""
     if code == 0:                    return ('☀️',  'Clear')
     if code in [1, 2]:               return ('🌤️',  'Partly Cloudy')
@@ -329,7 +329,7 @@ def weather_description(code):
     if code in [45, 48]:             return ('🌫️',  'Foggy')
     if code in [51, 53, 55]:         return ('🌦️',  'Drizzle')
     if code in [61, 63, 65]:         return ('🌧️',  'Rain')
-    if code in [71, 73, 75]:         return ('❄️',  'Snow')
+    if code in [71, 73, 75]:         return ('❄️' if low < 32 else '🌧️', 'Snow' if low < 32 else 'Cold Rain')
     if code in [80, 81, 82]:         return ('🌧️',  'Showers')
     if code in [95, 96, 99]:         return ('⛈️',  'Thunderstorm')
     return ('🌡️', 'Mixed')
