@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-23 18:56:46",
+  "updated_at": "2026-04-24 13:23:47",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 66,
+  "days_to_plan_start": 65,
   "activities": [
     {
       "id": 18159409941,
@@ -282,6 +282,141 @@
       "miles": 13.3
     }
   ],
+  "ae_trend": [
+    {
+      "date": "2026-03-03",
+      "name": "Morning Run",
+      "ae": 1.169,
+      "hr": 148,
+      "dist": 3.19
+    },
+    {
+      "date": "2026-03-04",
+      "name": "\u201cForever Your Girl\u201d - Paula Abdul",
+      "ae": 1.214,
+      "hr": 151,
+      "dist": 3.01
+    },
+    {
+      "date": "2026-03-06",
+      "name": "\u201cThe Fly\u201d - U2",
+      "ae": 1.146,
+      "hr": 152,
+      "dist": 3.54
+    },
+    {
+      "date": "2026-03-07",
+      "name": "\u201cProud Mary\u201d -Tina Turner",
+      "ae": 1.223,
+      "hr": 145,
+      "dist": 8.15
+    },
+    {
+      "date": "2026-03-10",
+      "name": "\u201c\u00c7a Plane Pour Moi\u201d- Plastic Bertrand",
+      "ae": 1.165,
+      "hr": 149,
+      "dist": 3.07
+    },
+    {
+      "date": "2026-03-14",
+      "name": "\u201cTwist And Shout\u201d - The Beatles",
+      "ae": 1.151,
+      "hr": 143,
+      "dist": 7.32
+    },
+    {
+      "date": "2026-03-19",
+      "name": "\u201cGiorgio by Moroder\u201d -Daft Punk",
+      "ae": 1.168,
+      "hr": 142,
+      "dist": 4.17
+    },
+    {
+      "date": "2026-03-21",
+      "name": "\u201cMelancholy Hill\u201d- Gorillaz",
+      "ae": 1.113,
+      "hr": 156,
+      "dist": 10.04
+    },
+    {
+      "date": "2026-03-23",
+      "name": "Lunch Run",
+      "ae": 1.11,
+      "hr": 156,
+      "dist": 3.36
+    },
+    {
+      "date": "2026-03-25",
+      "name": "\u201cSally, When the Wine Runs Out\u201d -ROLE MODEL",
+      "ae": 1.267,
+      "hr": 149,
+      "dist": 4.14
+    },
+    {
+      "date": "2026-03-28",
+      "name": "\u201cNobody\u2019s Son\u201d - Sabrina Carpenter",
+      "ae": 1.239,
+      "hr": 147,
+      "dist": 7.65
+    },
+    {
+      "date": "2026-03-30",
+      "name": "\u201cAmos Moses\u201d- Jerry Reed",
+      "ae": 1.162,
+      "hr": 144,
+      "dist": 3.53
+    },
+    {
+      "date": "2026-03-31",
+      "name": "\u201cWhen My Train Pulls In\u201d - Gary Clark Jr.",
+      "ae": 1.149,
+      "hr": 149,
+      "dist": 4.16
+    },
+    {
+      "date": "2026-04-03",
+      "name": "\u201cMercy Mercy Mercy\u201d - Cannonball Adderley",
+      "ae": 1.242,
+      "hr": 140,
+      "dist": 4.15
+    },
+    {
+      "date": "2026-04-04",
+      "name": "\u201c(Your Love Keeps Lifting Me) Higher and Higher\u201d- Jackie Wilson",
+      "ae": 1.19,
+      "hr": 150,
+      "dist": 9.01
+    },
+    {
+      "date": "2026-04-07",
+      "name": "\u201cCalifornia\u201d- Phantom Planet",
+      "ae": 1.239,
+      "hr": 137,
+      "dist": 3.08
+    },
+    {
+      "date": "2026-04-10",
+      "name": "\u201cCough Syrup\u201d - Young The Giant",
+      "ae": 1.244,
+      "hr": 136,
+      "dist": 3.29
+    },
+    {
+      "date": "2026-04-12",
+      "name": "Cherry Blossom 10 Mile",
+      "ae": 1.188,
+      "hr": 156,
+      "dist": 10.19
+    },
+    {
+      "date": "2026-04-18",
+      "name": "Newport Half Marathon!",
+      "ae": 1.241,
+      "hr": 151,
+      "dist": 13.31
+    }
+  ],
   "avg_pace_sec": 551.5,
   "predictions": {
     "5k": "26:08",
@@ -329,5 +464,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nTom, your recent race performances are very strong, showcasing excellent aerobic efficiency. The Newport Half Marathon (13.31mi @ 8:35/mi) was particularly impressive, run entirely in **Zone 2 (151bpm HR average)**, indicating a high level of endurance and controlled effort. Your Cherry Blossom 10 Miler (10.19mi @ 8:41/mi @ 156bpm Z3) was a solid moderate effort, appropriate for a race. Most of your daily runs are consistently in **Z2 (typically 9:00-9:30/mi range)**, which is ideal for base building. Your predicted marathon time of 4:11:02 reflects a strong foundation to build upon.\n\n**This Week's Focus (April 24 - April 30)**\nGiven your recent half marathon, the primary focus this week is active recovery and maintaining consistent, easy mileage.\n*   **Target Pace**: For all runs, prioritize effort over pace. Aim for a relaxed, conversational pace, keeping your heart rate firmly in **Zone 2 (124-154 bpm)**. This will likely translate to paces in the **9:00-9:45/mi** range, but always defer to HR and feel.\n*   **Prioritize**: Listen to your body. Ensure adequate sleep, hydration, and nutrition to aid recovery.\n\n**Key Priorities**\n*   **Strict Z2 Adherence**: All non-race runs must be easy. Resist the urge to push the pace, especially after the half marathon.\n*   **Active Recovery**: Allow your body to fully recover from the recent races before gradually increasing volume or intensity.\n*   **Consistency**: Aim for 4-5 runs this week, keeping them easy and enjoyable.\n\n**Watch Out For**\n*   **Post-Race Fatigue/Niggles**: Pay close attention to any unusual soreness or fatigue. Don't hesitate to take an extra rest day or cross-train if needed.\n*   **\"Running Hot\" Easy Runs**: While your half marathon pace at Z2 is impressive, be mindful not to let your daily easy runs consistently creep into the higher end of Z2 or into Z3. Consistently check your HR.\n\n**Upcoming Milestones (Next 2-3 Weeks)**\n*   Continue to build your aerobic base with consistent, easy mileage.\n*   Gradually increase the duration of your weekly long run by no more than 10-15% per week.\n*   No specific speed work or tempo efforts are planned during this base-building phase; the focus remains on endurance and recovery as we prepare for the formal plan to start in about 9.5 weeks."
+  "advice": "**Coaching Brief for Tom**\n\n**Fitness Assessment**\nTom, your recent race performances are truly impressive and demonstrate a strong foundation! You ran the Newport Half Marathon at a swift 8:35/mi, remarkably staying within your Z2 heart rate (151bpm). This is significantly faster than your predicted half-marathon pace (9:09/mi), indicating you're fitter than the general Riegel formula suggests and have excellent endurance. Your Cherry Blossom 10 Mile race also showcased your ability to comfortably push into Z3 (156bpm). Crucially, your easy runs are consistently executed in Z2, typically ranging from 9:00-9:37/mi, which is fantastic discipline and exactly what we want for base building. No easy runs were flagged for running hot, which is a testament to your pacing control.\n\n**This Week's Focus (April 24 - April 30)**\nFollowing your Half Marathon last weekend, this week is all about recovery and allowing your body to absorb that strong effort.\n*   **Target Paces:**\n    *   **Easy Runs (Z2):** Aim for 9:15-9:45/mi with your heart rate firmly in Z2 (124-154 bpm). Focus on feeling easy and conversational, not hitting a specific pace number.\n*   **Priorities:** Gentle, consistent movement. Prioritize rest, quality sleep, and ensure you're hydrating and fueling well to aid recovery. Keep mileage low and effort minimal.\n\n**Key Priorities**\n*   **Smart Recovery:** Allow full recovery from the Half Marathon before increasing volume. This prevents burnout and injury.\n*   **Consistent Z2 Foundation:** Continue your excellent habit of keeping easy runs truly easy. This is the bedrock of marathon training and builds crucial aerobic capacity.\n*   **Gradual Mileage Build-Up:** After this recovery week, we'll begin a slow, progressive increase in your weekly running volume, adhering to the 10-15% rule to safely enhance your endurance base.\n\n**Watch Out For**\n*   **Post-Race Fatigue:** It's normal to feel tired for several days post-half. Don't rush back into heavy training; listen to your body.\n*   **Pacing Creep:** As you feel fitter, it's tempting to run easy runs faster. Stick to your Z2 effort to maximize aerobic benefits and minimize fatigue.\n*   **Niggles:** Pay close attention to any unusual aches or pains as you start to build volume. Address them proactively.\n\n**Upcoming Milestones**\n*   **Next 1-2 Weeks:** Gentle recovery followed by the initial, slow build-up of your base mileage, focusing purely on consistent, easy running.\n*   **July 1, 2026:** The official start of your specific NYC Marathon training block (65 days away!), building on the robust base you're establishing now.\n*   **November 1, 2026:** NYC Marathon!"
 }
