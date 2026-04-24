@@ -174,6 +174,8 @@ Today is {today}. Goal: NYC Marathon on {MARATHON_DATE}.
 Phase: {"BASE BUILDING" if current_week == 0 else f"Week {current_week} of 18, Hal Higdon Novice 2"}
 Days to plan start: {max(0, (datetime(2026,6,29) - datetime.now()).days)}
 Days to marathon: {(datetime(2026,11,1) - datetime.now()).days}
+Upcoming NYC weather (next 7 days):
+{chr(10).join([f"  {w['date']}: {weather_description(w['code'])[1]}, High {w['high']}F / Low {w['low']}F, Wind {w['windspeed']}mph, Precip {w['precip']}in" for w in weather]) if weather else "  (unavailable)"}
 
 Tom's recent runs:
 {runs_block}
@@ -292,7 +294,46 @@ def calculate_aerobic_efficiency(activities):
             'dist': a['distance_miles'],
         })
     return sorted(results, key=lambda x: x['date'])
-    
+def get_nyc_weather():
+    """Fetch 7-day hourly forecast for NYC from Open-Meteo (no API key needed)."""
+    url = (
+        "https://api.open-meteo.com/v1/forecast"
+        "?latitude=40.7128&longitude=-74.0060"
+        "&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weathercode,windspeed_10m_max"
+        "&temperature_unit=fahrenheit"
+        "&wind_speed_unit=mph"
+        "&precipitation_unit=inch"
+        "&timezone=America%2FNew_York"
+        "&forecast_days=7"
+    )
+    resp = requests.get(url)
+    resp.raise_for_status()
+    data = resp.json()['daily']
+
+    days = []
+    for i in range(7):
+        days.append({
+            'date':      data['time'][i],
+            'high':      round(data['temperature_2m_max'][i]),
+            'low':       round(data['temperature_2m_min'][i]),
+            'precip':    round(data['precipitation_sum'][i], 2),
+            'windspeed': round(data['windspeed_10m_max'][i]),
+            'code':      data['weathercode'][i],
+        })
+    return days
+ def weather_description(code):
+    """Convert WMO weather code to emoji and short description."""
+    if code == 0:                    return ('☀️',  'Clear')
+    if code in [1, 2]:               return ('🌤️',  'Partly Cloudy')
+    if code == 3:                    return ('☁️',  'Overcast')
+    if code in [45, 48]:             return ('🌫️',  'Foggy')
+    if code in [51, 53, 55]:         return ('🌦️',  'Drizzle')
+    if code in [61, 63, 65]:         return ('🌧️',  'Rain')
+    if code in [71, 73, 75]:         return ('❄️',  'Snow')
+    if code in [80, 81, 82]:         return ('🌧️',  'Showers')
+    if code in [95, 96, 99]:         return ('⛈️',  'Thunderstorm')
+    return ('🌡️', 'Mixed')
+     
 # ── 7. MAIN ───────────────────────────────────────────────────────────────────
 def aggregate_weekly_mileage(activities):
     """Group activities into Mon–Sun weeks, return list of {week_start, miles}."""
@@ -369,6 +410,14 @@ def main():
             else:
                 print("  All 3 attempts failed. Advice left empty.")
 
+    print("→ Fetching NYC weather…")
+    try:
+        weather = get_nyc_weather()
+        print(f"  {len(weather)} day forecast fetched")
+    except Exception as e:
+        print(f"✗ Weather error: {e}")
+        weather = []
+        
     # Write coach_data.json (consumed by index.html dashboard)
     weekly_mileage = aggregate_weekly_mileage(activities)
     ae_trend = calculate_aerobic_efficiency(activities)
@@ -380,6 +429,7 @@ def main():
         "activities":       activities,
         "weekly_mileage":   weekly_mileage,
         "ae_trend":         ae_trend,
+        "weather":          weather,
         "avg_pace_sec":     round(avg_pace_sec, 1),
         "predictions":      predictions,
         "pace_zones":    zones,
