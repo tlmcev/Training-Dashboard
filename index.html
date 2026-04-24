@@ -1043,6 +1043,7 @@ function renderMileageChart(weeklyMileage) {
     }
   });
 }
+  
 function renderAEChart(aeTrend) {
   if (!aeTrend || !aeTrend.length) return;
 
@@ -1053,24 +1054,28 @@ function renderAEChart(aeTrend) {
   });
   const values = aeTrend.map(r => r.ae);
 
-  // 4-week rolling average to smooth the line
+  // 7-run centered rolling average (3 before + point + 3 after)
   const smoothed = values.map((_, i) => {
-    const window = values.slice(Math.max(0, i - 3), i + 1);
-    return parseFloat((window.reduce((a, b) => a + b, 0) / window.length).toFixed(3));
+    const win = values.slice(Math.max(0, i - 3), Math.min(values.length, i + 4));
+    return parseFloat((win.reduce((a, b) => a + b, 0) / win.length).toFixed(3));
   });
-  
-  const colors = aeTrend.map(r =>
+
+  // Linear trend line through smoothed data
+  const n = smoothed.length;
+  const xMean = (n - 1) / 2;
+  const yMean = smoothed.reduce((a, b) => a + b, 0) / n;
+  const slope = smoothed.reduce((s, y, i) => s + (i - xMean) * (y - yMean), 0) /
+                smoothed.reduce((s, _, i) => s + Math.pow(i - xMean, 2), 0);
+  const intercept = yMean - slope * xMean;
+  const trendData = smoothed.map((_, i) => parseFloat((slope * i + intercept).toFixed(3)));
+
+  // Y-axis range: hug the data
+  const minVal = Math.min(...smoothed) * 0.97;
+  const maxVal = Math.max(...smoothed) * 1.03;
+
+  const pointColors = aeTrend.map(r =>
     new Date(r.date) < planStart ? '#8a8880' : '#e85d04'
   );
-
-  // Simple linear trend line
-  const n = values.length;
-  const xMean = (n - 1) / 2;
-  const yMean = values.reduce((a, b) => a + b, 0) / n;
-  const slope = values.reduce((s, y, i) => s + (i - xMean) * (y - yMean), 0) /
-                values.reduce((s, _, i) => s + Math.pow(i - xMean, 2), 0);
-  const intercept = yMean - slope * xMean;
-  const trendData = values.map((_, i) => parseFloat((slope * i + intercept).toFixed(3)));
 
   const ctx = document.getElementById('aeChart').getContext('2d');
   new Chart(ctx, {
@@ -1085,16 +1090,17 @@ function renderAEChart(aeTrend) {
           backgroundColor: 'rgba(232,93,4,0.08)',
           pointRadius: 0,
           pointHoverRadius: 5,
+          pointBackgroundColor: pointColors,
           borderWidth: 2,
           fill: true,
-          tension: 0.3,
+          tension: 0.4,
         },
         {
           label: 'Trend',
           data: trendData,
-          borderColor: '#8a8880',
-          borderWidth: 1.5,
-          borderDash: [4, 4],
+          borderColor: '#1d3557',
+          borderWidth: 2,
+          borderDash: [6, 3],
           pointRadius: 0,
           fill: false,
           tension: 0,
@@ -1107,9 +1113,16 @@ function renderAEChart(aeTrend) {
         legend: { display: false },
         tooltip: {
           callbacks: {
-            label: ctx => ctx.dataset.label === 'Trend'
-              ? `Trend: ${ctx.parsed.y}`
-              : `AE: ${ctx.parsed.y} | ${aeTrend[ctx.dataIndex]?.name}`
+            title: (items) => aeTrend[items[0].dataIndex]?.name || '',
+            label: (item) => {
+              if (item.dataset.label === 'Trend') return `Trend: ${item.parsed.y}`;
+              const r = aeTrend[item.dataIndex];
+              return [
+                `AE: ${item.parsed.y}`,
+                `HR: ${r?.hr || '—'} bpm`,
+                `Dist: ${r?.dist || '—'} mi`,
+              ];
+            }
           }
         }
       },
@@ -1120,9 +1133,12 @@ function renderAEChart(aeTrend) {
             font: { family: 'Barlow Condensed', size: 11 },
             color: '#8a8880',
             maxRotation: 45,
+            maxTicksLimit: 12,
           }
         },
         y: {
+          min: minVal,
+          max: maxVal,
           grid: { color: '#e8e4de' },
           ticks: {
             font: { family: 'Barlow Condensed', size: 11 },
