@@ -683,7 +683,17 @@
       </div>
     </div>
   </div>
-
+  
+  <!-- 7-Day Weather -->
+  <div class="card" style="margin-bottom: 32px; animation: fadeUp 0.6s 0.28s ease both;">
+    <div class="section-head">
+      <div class="section-title">NYC Forecast</div>
+      <div class="section-line"></div>
+      <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);">Next 7 Days</span>
+    </div>
+    <div id="weatherGrid" style="display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin-top:4px;"></div>
+  </div>
+  
   <!-- AI Coach -->
   <div class="coach-card">
     <div class="coach-label">
@@ -822,7 +832,7 @@ function renderCountdown() {
 }
 
 // ── This Week schedule ────────────────────────────────────────────────────────
-function renderWeek(weekNum, phase) {
+function renderWeek(weekNum, phase, weather) {
   if (phase === 'base_building') {
     document.getElementById('bigWeekNum').textContent = '';
     const checklist = [
@@ -832,15 +842,25 @@ function renderWeek(weekNum, phase) {
       { icon: '🧘', label: 'Rest days', detail: 'At least 2x this week' },
       { icon: '🛣️', label: 'Long easy run', detail: '1x this week, keep it relaxed' },
     ];
-    const html = checklist.map(item => `
-      <div class="week-row" style="gap:14px; align-items:flex-start; opacity:1;">
-        <span style="font-size:20px; flex-shrink:0;">${item.icon}</span>
-        <div style="flex:1;">
-          <div style="font-family:'Barlow Semi Condensed',sans-serif; font-weight:500; font-size:14px;">${item.label}</div>
-          <div style="font-size:12px; color:var(--muted); margin-top:2px;">${item.detail}</div>
-        </div>
-      </div>
-    `).join('');
+    if (phase === 'base_building') {
+    document.getElementById('bigWeekNum').textContent = '';
+    const days = ['MON','TUE','WED','THU','FRI','SAT','SUN'];
+    const today = getTodayDayIndex();
+
+    const html = days.map((day, i) => {
+      const weatherDay = weather && weather[i];
+      const emoji = weatherDay ? getWeatherEmoji(weatherDay.code) : '';
+      const temp = weatherDay ? `${weatherDay.high}°/${weatherDay.low}°` : '';
+      const isToday = i === today;
+      const cls = isToday ? 'week-row today' : 'week-row';
+      return `<div class="${cls}">
+        <span class="day-label">${day}</span>
+        <div style="flex:1;"></div>
+        <span style="font-size:16px;margin-right:6px;">${emoji}</span>
+        <span class="day-dist" style="width:70px;font-size:12px;">${temp}</span>
+      </div>`;
+    }).join('');
+
     document.getElementById('weekDays').innerHTML = html;
     return;
   }
@@ -1181,13 +1201,51 @@ function renderCoach(text) {
     .replace(/^\* /gm, '• ');
   document.getElementById('coachText').innerHTML = formatted;
 }
+  
+function renderWeather(weather) {
+  if (!weather || !weather.length) return;
 
+  const html = weather.map(day => {
+    const date = new Date(day.date + 'T12:00:00');
+    const dayName = date.toLocaleDateString('en-US', { weekday: 'short' });
+    const monthDay = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    const emoji = getWeatherEmoji(day.code);
+    const isGoodRunning = day.high <= 65 && day.precip < 0.1 && day.windspeed < 15;
+    const isOkRunning = day.high <= 75 && day.precip < 0.3;
+    const borderColor = isGoodRunning ? 'var(--green)' : isOkRunning ? 'var(--orange2)' : '#ccc';
+
+    return `<div style="background:var(--bg);border:1px solid ${borderColor};border-radius:8px;padding:10px 6px;text-align:center;">
+      <div style="font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);">${dayName}</div>
+      <div style="font-size:8px;color:var(--muted);margin-bottom:6px;">${monthDay}</div>
+      <div style="font-size:24px;margin-bottom:6px;">${emoji}</div>
+      <div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:16px;">${day.high}°</div>
+      <div style="font-family:'Barlow Condensed',sans-serif;font-size:12px;color:var(--muted);">${day.low}°</div>
+      <div style="font-family:'Barlow Condensed',sans-serif;font-size:10px;color:var(--muted);margin-top:4px;">${day.windspeed}mph</div>
+      ${day.precip > 0 ? `<div style="font-family:'Barlow Condensed',sans-serif;font-size:10px;color:#4285f4;margin-top:2px;">${day.precip}"</div>` : ''}
+    </div>`;
+  }).join('');
+
+  document.getElementById('weatherGrid').innerHTML = html;
+}
+
+function getWeatherEmoji(code) {
+  if (code === 0)                    return '☀️';
+  if (code <= 2)                     return '🌤️';
+  if (code === 3)                    return '☁️';
+  if (code <= 48)                    return '🌫️';
+  if (code <= 55)                    return '🌦️';
+  if (code <= 65)                    return '🌧️';
+  if (code <= 75)                    return '❄️';
+  if (code <= 82)                    return '🌧️';
+  return '⛈️';
+}
+  
 // ── Load data ─────────────────────────────────────────────────────────────────
 async function loadData() {
   const weekNum = getCurrentWeek();
 
   renderCountdown();
-  renderWeek(weekNum, 'base_building');
+  renderWeek(weekNum, 'base_building', []);
   renderScheduleTable(weekNum);
   renderPredictor(null);
   renderZones({});
@@ -1198,7 +1256,8 @@ async function loadData() {
     const data = await res.json();
 
     renderProgress(weekNum, data.phase);
-    renderWeek(weekNum, data.phase);
+    renderWeek(weekNum, data.phase, data.weather || []);
+    renderWeather(data.weather || []);
 
     const activities = data.activities || [];
     renderRuns(activities);
@@ -1225,7 +1284,7 @@ async function loadData() {
 
   } catch (e) {
     renderProgress(weekNum, 'base_building');
-    renderWeek(weekNum, 'base_building');
+    renderWeek(weekNum, 'base_building', []);
 
     const placeholder = [
       { name: 'Newport Half Marathon!', date: '2026-04-18', distance_miles: '13.31', pace_per_mile: '8:35', pace_seconds: 515 },
