@@ -650,6 +650,16 @@
     <canvas id="mileageChart" height="80"></canvas>
   </div>
 
+    <!-- Aerobic Efficiency Chart -->
+  <div class="card progress-card" style="margin-bottom: 32px;">
+    <div class="section-head">
+      <div class="section-title">Aerobic Efficiency</div>
+      <div class="section-line"></div>
+      <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);">Higher = Fitter</span>
+    </div>
+    <canvas id="aeChart" height="80"></canvas>
+  </div>
+
   <!-- This Week + Recent Runs -->
   <div class="grid-2">
     <div class="card" style="position:relative; overflow:hidden;">
@@ -860,13 +870,25 @@ function renderWeek(weekNum, phase) {
 }
 
 // ── Recent runs ──────────────────────────────────────────────────────────────
+function getRunEmoji(run) {
+  const name = (run.name || '').toLowerCase();
+  const isRace = /race|marathon|10k|5k|half|hm|finish|pr|pb|mile/.test(name);
+  const isLong = parseFloat(run.distance_miles) >= 8;
+  const zone = run.hr_zone;
+  if (isRace)                         return '🏆';
+  if (isLong)                         return '🛣️';
+  if (zone === 'Z4' || zone === 'Z5') return '🔥';
+  if (zone === 'Z1')                  return '😌';
+  if (!run.avg_hr)                    return '⚡';
+  return '🏃';
+}
+
 function renderRuns(activities) {
   if (!activities || !activities.length) {
     document.getElementById('runList').innerHTML = '<div style="color:var(--muted);font-size:13px;">No recent runs found.</div>';
     return;
   }
 
-  const icons = ['🏃', '⚡', '🎯', '🔥', '💨'];
   const html = activities.slice(0, 6).map((run, i) => {
     const date = new Date(run.date).toLocaleDateString('en-US', { month:'short', day:'numeric' });
     const dist = parseFloat(run.distance_miles).toFixed(2);
@@ -877,7 +899,7 @@ function renderRuns(activities) {
       : '';
     const hrText = run.avg_hr ? `${run.avg_hr}bpm` : '—';
     return `<div class="run-item">
-      <div class="run-icon">${icons[i % icons.length]}</div>
+      <div class="run-icon">${getRunEmoji(run)}</div>
       <div class="run-info">
         <div class="run-name">${run.name}</div>
         <div class="run-date">${date} ${hrBadge}</div>
@@ -993,7 +1015,93 @@ function renderMileageChart(weeklyMileage) {
     }
   });
 }
+function renderAEChart(aeTrend) {
+  if (!aeTrend || !aeTrend.length) return;
 
+  const planStart = new Date('2026-06-29');
+  const labels = aeTrend.map(r => {
+    const d = new Date(r.date);
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  });
+  const values = aeTrend.map(r => r.ae);
+  const colors = aeTrend.map(r =>
+    new Date(r.date) < planStart ? '#8a8880' : '#e85d04'
+  );
+
+  // Simple linear trend line
+  const n = values.length;
+  const xMean = (n - 1) / 2;
+  const yMean = values.reduce((a, b) => a + b, 0) / n;
+  const slope = values.reduce((s, y, i) => s + (i - xMean) * (y - yMean), 0) /
+                values.reduce((s, _, i) => s + Math.pow(i - xMean, 2), 0);
+  const intercept = yMean - slope * xMean;
+  const trendData = values.map((_, i) => parseFloat((slope * i + intercept).toFixed(3)));
+
+  const ctx = document.getElementById('aeChart').getContext('2d');
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: 'Aerobic Efficiency',
+          data: values,
+          borderColor: '#e85d04',
+          backgroundColor: 'rgba(232,93,4,0.08)',
+          pointBackgroundColor: colors,
+          pointBorderColor: colors,
+          pointRadius: 5,
+          pointHoverRadius: 7,
+          borderWidth: 2,
+          fill: true,
+          tension: 0.3,
+        },
+        {
+          label: 'Trend',
+          data: trendData,
+          borderColor: '#8a8880',
+          borderWidth: 1.5,
+          borderDash: [4, 4],
+          pointRadius: 0,
+          fill: false,
+          tension: 0,
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: ctx => ctx.dataset.label === 'Trend'
+              ? `Trend: ${ctx.parsed.y}`
+              : `AE: ${ctx.parsed.y} | ${aeTrend[ctx.dataIndex]?.name}`
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { color: '#e8e4de' },
+          ticks: {
+            font: { family: 'Barlow Condensed', size: 11 },
+            color: '#8a8880',
+            maxRotation: 45,
+          }
+        },
+        y: {
+          grid: { color: '#e8e4de' },
+          ticks: {
+            font: { family: 'Barlow Condensed', size: 11 },
+            color: '#8a8880',
+            callback: val => val.toFixed(2)
+          }
+        }
+      }
+    }
+  });
+}
+  
 // ── Race predictor ───────────────────────────────────────────────────────────
 function renderPredictor(avgPaceSec) {
   if (!avgPaceSec) avgPaceSec = paceToSec('8:35'); // fallback to known HM pace
@@ -1102,6 +1210,8 @@ async function loadData() {
     }
 
     renderMileageChart(data.weekly_mileage || []);
+
+    renderAEChart(data.ae_trend || []);
     
     if (data.updated_at) {
       document.getElementById('footerUpdated').textContent =
