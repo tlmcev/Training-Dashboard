@@ -19,9 +19,9 @@
 Here's your coaching brief, Tom:
 
 **Fitness Assessment**
-Tom, your recent training is highly commendable, showcasing excellent consistency and adherence to your heart rate zones. You've successfully navigated two races: the Newport Half Marathon (13.31mi @ 8:35/mi, HR 151bpm Z2) and the Cherry Blossom 10 Mile (10.19mi @ 8:41/mi, HR 156bpm Z3). These are strong performances, and your effort levels were appropriate for race day. Crucially, your easy runs, which range from 9:00/mi to 10:20/mi, are consistently staying within Zone 2 (136-150bpm), indicating great discipline in building your aerobic base effectively without over-exertion. This consistent, smart training, especially following recent race efforts, provides a robust foundation as we move deeper into the base-building phase. Your current fitness predicts a marathon time of approximately 4:12:36.
+Tom, your recent running shows excellent consistency and a strong aerobic base. You've logged significant mileage with two impressive race efforts: the Newport Half Marathon (13.31mi @ 8:35/mi, HR 151bpm in Z2) and the Cherry Blossom 10 Mile (10.19mi @ 8:41/mi, HR 156bpm in Z3). Maintaining Z2 for your half marathon effort is particularly noteworthy, demonstrating great aerobic efficiency. Your easy runs are generally well within Z2 (e.g., today's 3.01mi @ 10:20/mi, HR 145bpm), which is crucial for base building. Your current predicted marathon time of 4:12:36 provides a solid foundation as we move forward.
 
-**This Week's Focus**
+**This Week's Focus (April 25 - May 1)**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent training is highly commendable, showcasing excellent consistenc
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-24 19:33:11 UTC | Run ID: 24908145497*
+*Last updated: 2026-04-24 19:45:29 UTC | Run ID: 24908633447*
