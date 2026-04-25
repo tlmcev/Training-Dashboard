@@ -204,6 +204,7 @@
     gap: 24px;
     margin-bottom: 32px;
     animation: fadeUp 0.6s 0.2s ease both;
+    align-items: stretch;
   }
 
   .grid-3 {
@@ -811,13 +812,13 @@
   
   <!-- This Week + Recent Runs -->
   <div class="grid-2">
-    <div class="card" style="position:relative; overflow:hidden;">
+    <div class="card" style="position:relative; overflow:hidden; display:flex; flex-direction:column;">
       <div class="week-num" id="bigWeekNum">—</div>
       <div class="section-head">
         <div class="section-title">This Week</div>
         <div class="section-line"></div>
       </div>
-      <div class="week-days" id="weekDays">
+      <div class="week-days" id="weekDays" style="flex:1; justify-content:space-between;">
         <div style="color:var(--muted);font-size:13px;">Loading schedule…</div>
       </div>
     </div>
