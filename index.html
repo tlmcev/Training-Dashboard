@@ -664,6 +664,60 @@
     .schedule-table th,
     .schedule-table td { padding: 5px 6px; }
   }
+  /* ── Post-run card ── */
+  .post-run-card {
+    background: var(--surface);
+    border: 1px solid var(--faint);
+    border-left: 4px solid var(--orange);
+    border-radius: 10px;
+    padding: 24px 28px;
+    margin-bottom: 24px;
+    animation: fadeUp 0.6s 0.29s ease both;
+    display: none;
+  }
+
+  .post-run-card.visible { display: block; }
+
+  .post-run-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .post-run-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .post-run-meta {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .post-run-stat {
+    background: var(--faint);
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .post-run-text {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #555;
+    white-space: pre-wrap;
+  }
+
+  .post-run-text strong { color: var(--ink); }
 </style>
 </head>
 <body>
@@ -769,6 +823,18 @@
     </div>
   </div>
   
+  <!-- Post-Run Analysis -->
+  <div class="post-run-card" id="postRunCard">
+    <div class="post-run-header">
+      <div>
+        <div style="font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--orange);margin-bottom:4px;">Latest Run Analysis</div>
+        <div class="post-run-title" id="postRunName">—</div>
+      </div>
+      <div class="post-run-meta" id="postRunMeta"></div>
+    </div>
+    <div class="post-run-text" id="postRunText"></div>
+    <div style="font-family:'Barlow Condensed',sans-serif;font-size:11px;color:var(--muted);margin-top:12px;letter-spacing:1px;" id="postRunTime"></div>
+  </div>
   
   <!-- AI Coach -->
   <div class="coach-card">
@@ -831,7 +897,7 @@
   </div>
 
 </div>
-
+  
 <script>
 // ── Hal Higdon Novice 2 ──────────────────────────────────────────────────────
 const HH = [
@@ -1301,6 +1367,43 @@ function renderCoach(text) {
   document.getElementById('coachText').innerHTML = formatted;
 }
   
+function renderPostRun(data) {
+  if (!data || !data.analysis) return;
+
+  // Only show if analyzed within last 24 hours
+  const analyzedAt = new Date(data.analyzed_at);
+  const hoursAgo = (Date.now() - analyzedAt) / 3600000;
+  if (hoursAgo > 24) return;
+
+  const card = document.getElementById('postRunCard');
+  const act  = data.activity || {};
+  const zoneColors = {Z1:'#4caf50',Z2:'#8bc34a',Z3:'#f48c06',Z4:'#e85d04',Z5:'#c1121f'};
+  const zoneColor  = act.hr_zone ? zoneColors[act.hr_zone] : 'var(--muted)';
+
+  document.getElementById('postRunName').textContent = act.name || 'Recent Run';
+
+  const stats = [
+    act.distance_miles ? `${act.distance_miles} mi` : null,
+    act.pace_per_mile  ? `${act.pace_per_mile}/mi`  : null,
+    act.avg_hr         ? `<span style="background:${zoneColor};color:#fff;padding:4px 10px;border-radius:6px;font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:600;">${act.avg_hr}bpm ${act.hr_zone || ''}</span>` : null,
+    act.elevation_ft   ? `+${act.elevation_ft}ft`   : null,
+  ].filter(Boolean);
+
+  document.getElementById('postRunMeta').innerHTML = stats.map(s =>
+    s.startsWith('<') ? s : `<div class="post-run-stat">${s}</div>`
+  ).join('');
+
+  const formatted = data.analysis
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>');
+  document.getElementById('postRunText').innerHTML = formatted;
+
+  const timeStr = analyzedAt.toLocaleString('en-US', { month:'short', day:'numeric', hour:'numeric', minute:'2-digit' });
+  document.getElementById('postRunTime').textContent = `Analyzed ${timeStr}`;
+
+  card.classList.add('visible');
+}
+  
 function renderWeather(weather) {
   if (!weather || !weather.length) return;
 
@@ -1361,6 +1464,16 @@ async function loadData() {
     const activities = data.activities || [];
     renderRuns(activities);
     renderStats(activities, weekNum, data);
+
+    // Load post-run analysis if available
+    try {
+      const runRes = await fetch('latest_run.json?v=' + Date.now());
+      if (runRes.ok) {
+        const runData = await runRes.json();
+        renderPostRun(runData);
+      }
+    } catch(e) { /* no latest_run.json yet */ }
+    
     renderCoach(data.advice || '');
 
     const pacesSec = activities
