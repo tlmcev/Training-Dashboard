@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, great work lately! Let's get you set for the next phase.
+Alright Tom, excellent work lately! Here's your coaching brief as we look ahead:
 
 **Fitness Assessment**
-Tom, you're demonstrating excellent consistency, regularly logging miles and completing races with strong efforts in April. Your easy runs are well within Z2, and recent race performances (Half Marathon at 8:35/mi, 10-mile at 8:41/mi) indicate a solid fitness base. These paces align well with a projected marathon finish around 4:12:36.
+You're demonstrating excellent consistency in your training, blending shorter recovery runs with significant race efforts like the Newport Half and Cherry Blossom 10 Mile. Your ability to maintain Z2 heart rates during these longer, faster efforts indicates a strong aerobic base and impressive fitness. Overall, you're looking very solid, effectively balancing challenging runs with necessary recovery.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you're demonstrating excellent consistency, regularly logging miles and com
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-25 16:13:59 UTC | Run ID: 24935086446*
+*Last updated: 2026-04-25 16:22:37 UTC | Run ID: 24935251011*
