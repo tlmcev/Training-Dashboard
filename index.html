@@ -1130,9 +1130,8 @@ function renderStats(activities, weekNum, data) {
 
 // ── Progress bar ─────────────────────────────────────────────────────────────
 function renderProgress(weekNum, phase) {
-  // Phase label
-  document.getElementById('chartPhaseLabel').textContent =
-    phase === 'base_building' ? 'Base Building' : `Week ${weekNum} of 18`;
+  const el = document.getElementById('chartSubtitle');
+  if (el) el.textContent = phase === 'base_building' ? 'Base Building' : `Week ${weekNum} of 18`;
 }
 
 function renderMileageChart(weeklyMileage) {
