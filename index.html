@@ -1700,17 +1700,20 @@ function getWeatherEmoji(code, lowTemp) {
 }
 
 function switchChart(name) {
-  // Update tabs
   ['mileage','ae','pred'].forEach(t => {
     document.getElementById(`tab-${t}`).classList.toggle('active', t === name);
     document.getElementById(`chart-${t}`).style.display = t === name ? 'block' : 'none';
   });
 
-  // Update title and subtitle
+  // Force chart to resize to fill container
+  const chartIds = { mileage: 'mileageChart', ae: 'aeChart', pred: 'predChart' };
+  const chartInst = Chart.getChart(document.getElementById(chartIds[name]));
+  if (chartInst) chartInst.resize();
+
   const titles = {
-    mileage: ['Weekly Mileage',      ''],
-    ae:      ['Aerobic Efficiency',  'Higher = Fitter'],
-    pred:    ['Predicted Marathon',  'Lower = Faster'],
+    mileage: ['Weekly Mileage',     ''],
+    ae:      ['Aerobic Efficiency', 'Higher = Fitter'],
+    pred:    ['Predicted Marathon', 'Lower = Faster'],
   };
   document.getElementById('chartTitle').textContent    = titles[name][0];
   document.getElementById('chartSubtitle').textContent = titles[name][1];
@@ -1757,10 +1760,17 @@ async function loadData() {
       renderZones(data.pace_zones);
     }
 
+    // Show all charts temporarily so they render at full width
+    ['mileage','ae','pred'].forEach(t => {
+      document.getElementById(`chart-${t}`).style.display = 'block';
+    });
     renderMileageChart(data.weekly_mileage || []);
-
     renderAEChart(data.ae_trend || []);
     renderPredChart(data.ae_trend || []);
+    // Then hide inactive ones
+    ['ae','pred'].forEach(t => {
+      document.getElementById(`chart-${t}`).style.display = 'none';
+    });
     
     if (data.updated_at) {
       document.getElementById('footerUpdated').textContent =
