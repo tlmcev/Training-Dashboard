@@ -939,26 +939,22 @@ const HH = [
 
 const DAYS = ['MON','TUE','WED','THU','FRI','SAT','SUN'];
 const MARATHON_DATE = new Date('2026-11-01');
-const PLAN_START = new Date('2026-06-28'); // 18 weeks before Nov 1
+const PLAN_START = new Date('2026-06-28');
 
 // ── Utilities ────────────────────────────────────────────────────────────────
 function mileToNum(s) {
   const m = s.match(/(\d+(?:\.\d+)?)m/);
   return m ? parseFloat(m[1]) : 0;
 }
-
 function paceToSec(paceStr) {
-  // "8:35" → seconds
   const [min, sec] = paceStr.split(':').map(Number);
   return min * 60 + (sec || 0);
 }
-
 function secToPace(secs) {
   const m = Math.floor(secs / 60);
   const s = Math.round(secs % 60);
   return `${m}:${String(s).padStart(2,'0')}`;
 }
-
 function secToTime(totalSecs) {
   const h = Math.floor(totalSecs / 3600);
   const m = Math.floor((totalSecs % 3600) / 60);
@@ -966,20 +962,17 @@ function secToTime(totalSecs) {
   if (h > 0) return `${h}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
   return `${m}:${String(s).padStart(2,'0')}`;
 }
-
 function getCurrentWeek() {
   const now = new Date();
   const diffMs = now - PLAN_START;
   const week = Math.ceil(diffMs / (7 * 86400000));
   return Math.min(Math.max(week, 1), 18);
 }
-
 function getTodayDayIndex() {
-  // JS: 0=Sun, need MON=0
   return (new Date().getDay() + 6) % 7;
 }
 
-// ── Days until race ──────────────────────────────────────────────────────────
+// ── Countdown ────────────────────────────────────────────────────────────────
 function renderCountdown() {
   const now = new Date();
   const daysToRace = Math.ceil((MARATHON_DATE - now) / 86400000);
@@ -989,7 +982,7 @@ function renderCountdown() {
   document.getElementById('daysToPlan').textContent = daysToPlan > 0 ? daysToPlan : '🏃';
 }
 
-// ── This Week schedule ────────────────────────────────────────────────────────
+// ── This Week ────────────────────────────────────────────────────────────────
 function renderWeek(weekNum, phase, weather) {
   if (phase === 'base_building') {
     document.getElementById('bigWeekNum').textContent = '';
@@ -1004,31 +997,26 @@ function renderWeek(weekNum, phase, weather) {
       'Long easy run',
       'Rest',
     ];
-
     const html = days.map((day, i) => {
       const weatherDay = weather && weather[i];
       const emoji = weatherDay ? getWeatherEmoji(weatherDay.code, weatherDay.low) : '';
       const temp = weatherDay ? `${weatherDay.high}°/${weatherDay.low}°` : '';
       const isToday = i === today;
       const cls = isToday ? 'week-row today' : 'week-row';
-      const task = checklist[i];
       return `<div class="${cls}" style="align-items:center;">
         <span class="day-label">${day}</span>
-        <div style="flex:1;font-size:12px;color:${isToday ? '#fff' : 'var(--muted)'};">${task}</div>
+        <div style="flex:1;font-size:12px;color:${isToday ? '#fff' : 'var(--muted)'};">${checklist[i]}</div>
         <span style="font-size:16px;margin-right:4px;">${emoji}</span>
         <span style="font-family:'Barlow Condensed',sans-serif;font-size:12px;width:64px;text-align:right;color:${isToday ? '#fff' : 'var(--ink)'};">${temp}</span>
       </div>`;
     }).join('');
-
     document.getElementById('weekDays').innerHTML = html;
     return;
   }
 
-  // Marathon training week display with weather
   document.getElementById('bigWeekNum').textContent = weekNum;
   const todayIdx = getTodayDayIndex();
   const maxMiles = Math.max(...HH[weekNum-1].map(mileToNum), 1);
-
   const html = HH[weekNum-1].map((day, i) => {
     const miles = mileToNum(day);
     const pct = miles > 0 ? (miles / maxMiles) * 100 : 0;
@@ -1040,20 +1028,18 @@ function renderWeek(weekNum, phase, weather) {
     let cls = 'week-row';
     if (isToday) cls += ' today';
     if (isRest) cls += ' rest';
-
     return `<div class="${cls}">
       <span class="day-label">${DAYS[i]}</span>
       <div class="day-bar-wrap"><div class="day-bar" style="width:${pct}%"></div></div>
-      <span class="day-dist">${miles > 0 ? miles + 'mi' : day === 'Cross' ? 'CT' : '—'}</span>
+      <span class="day-dist">${miles > 0 ? miles+'mi' : day==='Cross' ? 'CT' : '—'}</span>
       <span style="font-size:14px;margin-left:6px;">${emoji}</span>
-      <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;color:${isToday ? '#fff' : 'var(--muted)'};width:28px;text-align:right;">${temp}</span>
+      <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;color:${isToday?'#fff':'var(--muted)'};width:28px;text-align:right;">${temp}</span>
     </div>`;
   }).join('');
-
   document.getElementById('weekDays').innerHTML = html;
 }
 
-// ── Recent runs ──────────────────────────────────────────────────────────────
+// ── Run emoji ────────────────────────────────────────────────────────────────
 function getRunEmoji(run) {
   const name = (run.name || '').toLowerCase();
   const isRace = /race|marathon|10k|5k|half|hm|finish|pr|pb|mile/.test(name);
@@ -1067,13 +1053,13 @@ function getRunEmoji(run) {
   return '🏃';
 }
 
+// ── Recent runs ──────────────────────────────────────────────────────────────
 function renderRuns(activities) {
   if (!activities || !activities.length) {
     document.getElementById('runList').innerHTML = '<div style="color:var(--muted);font-size:13px;">No recent runs found.</div>';
     return;
   }
-
-  const html = activities.slice(0, 6).map((run, i) => {
+  const html = activities.slice(0, 6).map((run) => {
     const date = new Date(run.date).toLocaleDateString('en-US', { month:'short', day:'numeric' });
     const dist = parseFloat(run.distance_miles).toFixed(2);
     const pace = run.pace_per_mile || '—';
@@ -1094,7 +1080,6 @@ function renderRuns(activities) {
       </div>
     </div>`;
   }).join('');
-
   document.getElementById('runList').innerHTML = html;
 }
 
@@ -1107,18 +1092,13 @@ function renderStats(activities, weekNum, data) {
     document.getElementById('statWeek').textContent = 'Week ' + weekNum + ' of 18';
     document.getElementById('statWeekLabel').textContent = 'Training Week';
   }
-
   if (!activities || !activities.length) return;
-
-  // Filter to last 14 days only for stats
   const cutoff = new Date();
   cutoff.setDate(cutoff.getDate() - 14);
   const recent = activities.filter(a => new Date(a.date) >= cutoff);
-
   const totalMiles = recent.reduce((s, a) => s + parseFloat(a.distance_miles || 0), 0);
   document.getElementById('statMiles').textContent = totalMiles.toFixed(1);
   document.getElementById('statRuns').textContent = recent.length;
-
   const paces = recent.filter(a => a.pace_seconds > 0).map(a => a.pace_seconds);
   if (paces.length) {
     const avgPace = paces.reduce((s, p) => s + p, 0) / paces.length;
@@ -1128,34 +1108,26 @@ function renderStats(activities, weekNum, data) {
   }
 }
 
-// ── Progress bar ─────────────────────────────────────────────────────────────
+// ── Progress / Chart subtitle ─────────────────────────────────────────────────
 function renderProgress(weekNum, phase) {
   const el = document.getElementById('chartSubtitle');
   if (el) el.textContent = phase === 'base_building' ? 'Base Building' : `Week ${weekNum} of 18`;
 }
 
+// ── Mileage chart ─────────────────────────────────────────────────────────────
 function renderMileageChart(weeklyMileage) {
   if (!weeklyMileage || !weeklyMileage.length) return;
-
   const planStart = new Date('2026-06-29');
-  const labels = weeklyMileage.map(w => {
-    const d = new Date(w.week_start);
-    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-  });
+  const labels = weeklyMileage.map(w => new Date(w.week_start).toLocaleDateString('en-US', { month:'short', day:'numeric' }));
   const miles = weeklyMileage.map(w => w.miles);
-  const colors = weeklyMileage.map(w =>
-    new Date(w.week_start) < planStart ? '#8a8880' : '#e85d04'
-  );
-
+  const colors = weeklyMileage.map(w => new Date(w.week_start) < planStart ? '#8a8880' : '#e85d04');
   const mileageCanvas = document.getElementById('mileageChart');
   if (Chart.getChart(mileageCanvas)) Chart.getChart(mileageCanvas).destroy();
-  const ctx = mileageCanvas.getContext('2d');
-  new Chart(ctx, {
+  new Chart(mileageCanvas.getContext('2d'), {
     type: 'line',
     data: {
       labels,
       datasets: [{
-        label: 'Miles',
         data: miles,
         borderColor: '#e85d04',
         backgroundColor: 'rgba(232,93,4,0.08)',
@@ -1172,126 +1144,48 @@ function renderMileageChart(weeklyMileage) {
       responsive: true,
       maintainAspectRatio: false,
       layout: { padding: { right: 0 } },
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            label: ctx => `${ctx.parsed.y} miles`
-          }
-        }
-      },
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => `${ctx.parsed.y} miles` } } },
       scales: {
-        x: {
-          grid: { color: '#e8e4de' },
-          ticks: {
-            font: { family: 'Barlow Condensed', size: 11 },
-            color: '#8a8880',
-            maxRotation: 45,
-          }
-        },
-        y: {
-          beginAtZero: true,
-          grid: { color: '#e8e4de' },
-          ticks: {
-            font: { family: 'Barlow Condensed', size: 11 },
-            color: '#8a8880',
-            maxRotation: 45,
-            maxTicksLimit: window.innerWidth < 480 ? 4 : window.innerWidth < 700 ? 6 : 12,
-          }
-        }
+        x: { bounds:'data', grid:{color:'#e8e4de'}, ticks:{font:{family:'Barlow Condensed',size:11},color:'#8a8880',maxRotation:45,maxTicksLimit:12} },
+        y: { beginAtZero:true, grid:{color:'#e8e4de'}, ticks:{font:{family:'Barlow Condensed',size:11},color:'#8a8880',callback:val=>val+' mi'} }
       }
     }
   });
 }
-  
+
+// ── AE chart ──────────────────────────────────────────────────────────────────
 function renderAEChart(aeTrend) {
   if (!aeTrend || !aeTrend.length) return;
-
   const planStart = new Date('2026-06-29');
-  const labels = aeTrend.map(r => {
-    const d = new Date(r.date);
-    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-  });
+  const labels = aeTrend.map(r => new Date(r.date).toLocaleDateString('en-US', { month:'short', day:'numeric' }));
   const values = aeTrend.map(r => r.ae);
 
-  // 7-run centered rolling average (3 before + point + 3 after)
   const smoothed = values.map((_, i) => {
-    const win = values.slice(Math.max(0, i - 3), Math.min(values.length, i + 4));
-    return parseFloat((win.reduce((a, b) => a + b, 0) / win.length).toFixed(3));
-  });
-function renderPredChart(aeTrend) {
-  if (!aeTrend || aeTrend.length < 2) return;
-
-  // Filter to runs with marathon prediction
-  const data = aeTrend.filter(r => r.marathon_sec);
-  if (data.length < 2) return;
-
-  const planStart = new Date('2026-06-29');
-  const labels = data.map(r => {
-    const d = new Date(r.date);
-    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-  });
-  const values = data.map(r => r.marathon_sec);
-
-  // 7-run centered rolling average
-  const smoothed = values.map((_, i) => {
-    const win = values.slice(Math.max(0, i - 3), Math.min(values.length, i + 4));
-    return Math.round(win.reduce((a, b) => a + b, 0) / win.length);
+    const win = values.slice(Math.max(0, i-3), Math.min(values.length, i+4));
+    return parseFloat((win.reduce((a,b) => a+b, 0) / win.length).toFixed(3));
   });
 
-  // Linear trend through smoothed data
   const n = smoothed.length;
-  const xMean = (n - 1) / 2;
-  const yMean = smoothed.reduce((a, b) => a + b, 0) / n;
-  const slope = smoothed.reduce((s, y, i) => s + (i - xMean) * (y - yMean), 0) /
-                smoothed.reduce((s, _, i) => s + Math.pow(i - xMean, 2), 0);
+  const xMean = (n-1)/2;
+  const yMean = smoothed.reduce((a,b) => a+b, 0) / n;
+  const slope = smoothed.reduce((s,y,i) => s + (i-xMean)*(y-yMean), 0) /
+                smoothed.reduce((s,_,i) => s + Math.pow(i-xMean, 2), 0);
   const intercept = yMean - slope * xMean;
-  const trendData = smoothed.map((_, i) => Math.round(slope * i + intercept));
+  const trendData = smoothed.map((_,i) => parseFloat((slope*i+intercept).toFixed(3)));
 
-  // Y-axis: hug the data, inverted so lower = better visually
-  const minVal = Math.min(...smoothed) * 0.98;
-  const maxVal = Math.max(...smoothed) * 1.02;
+  const minVal = Math.min(...smoothed) * 0.97;
+  const maxVal = Math.max(...smoothed) * 1.03;
+  const pointColors = aeTrend.map(r => new Date(r.date) < planStart ? '#8a8880' : '#e85d04');
 
-  const pointColors = data.map(r =>
-    new Date(r.date) < planStart ? '#8a8880' : '#e85d04'
-  );
-
-  function secToHMS(s) {
-    const h = Math.floor(s / 3600);
-    const m = Math.floor((s % 3600) / 60);
-    return `${h}:${String(m).padStart(2, '0')}`;
-  }
-
-  const predCanvas = document.getElementById('predChart');
-  if (Chart.getChart(predCanvas)) Chart.getChart(predCanvas).destroy();
-  const ctx = predCanvas.getContext('2d');
-  new Chart(ctx, {
+  const aeCanvas = document.getElementById('aeChart');
+  if (Chart.getChart(aeCanvas)) Chart.getChart(aeCanvas).destroy();
+  new Chart(aeCanvas.getContext('2d'), {
     type: 'line',
     data: {
       labels,
       datasets: [
-        {
-          label: 'Predicted Marathon',
-          data: smoothed,
-          borderColor: '#e85d04',
-          backgroundColor: 'rgba(232,93,4,0.08)',
-          pointRadius: 0,
-          pointHoverRadius: 5,
-          pointBackgroundColor: pointColors,
-          borderWidth: 2,
-          fill: true,
-          tension: 0.4,
-        },
-        {
-          label: 'Trend',
-          data: trendData,
-          borderColor: '#1d3557',
-          borderWidth: 2,
-          borderDash: [6, 3],
-          pointRadius: 0,
-          fill: false,
-          tension: 0,
-        }
+        { data:smoothed, borderColor:'#e85d04', backgroundColor:'rgba(232,93,4,0.08)', pointRadius:0, pointHoverRadius:5, pointBackgroundColor:pointColors, borderWidth:2, fill:true, tension:0.4 },
+        { data:trendData, borderColor:'#1d3557', borderWidth:2, borderDash:[6,3], pointRadius:0, fill:false, tension:0 }
       ]
     },
     options: {
@@ -1300,322 +1194,158 @@ function renderPredChart(aeTrend) {
       layout: { padding: { right: 0 } },
       plugins: {
         legend: { display: false },
-        tooltip: {
-          callbacks: {
-            title: items => data[items[0].dataIndex]?.name || '',
-            label: item => {
-              if (item.dataset.label === 'Trend') return `Trend: ${secToHMS(item.parsed.y)}`;
-              const r = data[item.dataIndex];
-              return [
-                `Predicted: ${secToHMS(item.parsed.y)}`,
-                `HR: ${r?.hr || '—'} bpm`,
-                `Dist: ${r?.dist || '—'} mi`,
-              ];
-            }
+        tooltip: { callbacks: {
+          title: items => aeTrend[items[0].dataIndex]?.name || '',
+          label: item => {
+            if (item.datasetIndex === 1) return `Trend: ${item.parsed.y}`;
+            const r = aeTrend[item.dataIndex];
+            return [`AE: ${item.parsed.y}`, `HR: ${r?.hr||'—'} bpm`, `Dist: ${r?.dist||'—'} mi`];
           }
-        }
+        }}
       },
       scales: {
-        x: {
-          bounds: 'data',
-          grid: { color: '#e8e4de' },
-          ticks: {
-            font: { family: 'Barlow Condensed', size: 11 },
-            color: '#8a8880',
-            maxRotation: 45,
-            maxTicksLimit: window.innerWidth < 480 ? 4 : window.innerWidth < 700 ? 6 : 12,
-          }
-        },
-        y: {
-          min: minVal,
-          max: maxVal,
-          reverse: false,
-          grid: { color: '#e8e4de' },
-          ticks: {
-            font: { family: 'Barlow Condensed', size: 11 },
-            color: '#8a8880',
-            callback: val => secToHMS(val)
-          }
-        }
+        x: { bounds:'data', grid:{color:'#e8e4de'}, ticks:{font:{family:'Barlow Condensed',size:11},color:'#8a8880',maxRotation:45,maxTicksLimit:12} },
+        y: { min:minVal, max:maxVal, grid:{color:'#e8e4de'}, ticks:{font:{family:'Barlow Condensed',size:11},color:'#8a8880',callback:val=>val.toFixed(2)} }
       }
     }
   });
 }
-    
-  // Linear trend line through smoothed data
-  const n = smoothed.length;
-  const xMean = (n - 1) / 2;
-  const yMean = smoothed.reduce((a, b) => a + b, 0) / n;
-  const slope = smoothed.reduce((s, y, i) => s + (i - xMean) * (y - yMean), 0) /
-                smoothed.reduce((s, _, i) => s + Math.pow(i - xMean, 2), 0);
-  const intercept = yMean - slope * xMean;
-  const trendData = smoothed.map((_, i) => parseFloat((slope * i + intercept).toFixed(3)));
 
-  // Y-axis range: hug the data
-  const minVal = Math.min(...smoothed) * 0.97;
-  const maxVal = Math.max(...smoothed) * 1.03;
-
-  const pointColors = aeTrend.map(r =>
-    new Date(r.date) < planStart ? '#8a8880' : '#e85d04'
-  );
-
-  const ctx = document.getElementById('aeChart').getContext('2d');
-  new Chart(ctx, {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [
-        {
-          label: 'Aerobic Efficiency',
-          data: smoothed,
-          borderColor: '#e85d04',
-          backgroundColor: 'rgba(232,93,4,0.08)',
-          pointRadius: 0,
-          pointHoverRadius: 5,
-          pointBackgroundColor: pointColors,
-          borderWidth: 2,
-          fill: true,
-          tension: 0.4,
-        },
-        {
-          label: 'Trend',
-          data: trendData,
-          borderColor: '#1d3557',
-          borderWidth: 2,
-          borderDash: [6, 3],
-          pointRadius: 0,
-          fill: false,
-          tension: 0,
-        }
-      ]
-    },
-    options: {
-      responsive: true,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            title: (items) => aeTrend[items[0].dataIndex]?.name || '',
-            label: (item) => {
-              if (item.dataset.label === 'Trend') return `Trend: ${item.parsed.y}`;
-              const r = aeTrend[item.dataIndex];
-              return [
-                `AE: ${item.parsed.y}`,
-                `HR: ${r?.hr || '—'} bpm`,
-                `Dist: ${r?.dist || '—'} mi`,
-              ];
-            }
-          }
-        }
-      },
-      scales: {
-        x: {
-          bounds: 'data',
-          grid: { color: '#e8e4de' },
-          ticks: {
-            font: { family: 'Barlow Condensed', size: 11 },
-            color: '#8a8880',
-            maxRotation: 45,
-            maxTicksLimit: window.innerWidth < 480 ? 4 : window.innerWidth < 700 ? 6 : 12,
-          }
-        },
-        y: {
-          min: minVal,
-          max: maxVal,
-          grid: { color: '#e8e4de' },
-          ticks: {
-            font: { family: 'Barlow Condensed', size: 11 },
-            color: '#8a8880',
-            callback: val => val.toFixed(2)
-          }
-        }
-      }
-    }
-  });
-}
+// ── Predicted marathon chart ──────────────────────────────────────────────────
 function renderPredChart(aeTrend) {
   if (!aeTrend || aeTrend.length < 2) return;
-
   const data = aeTrend.filter(r => r.marathon_sec);
   if (data.length < 2) return;
 
   const planStart = new Date('2026-06-29');
-  const labels = data.map(r => {
-    const d = new Date(r.date);
-    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-  });
+  const labels = data.map(r => new Date(r.date).toLocaleDateString('en-US', { month:'short', day:'numeric' }));
   const values = data.map(r => r.marathon_sec);
 
   const smoothed = values.map((_, i) => {
-    const win = values.slice(Math.max(0, i - 3), Math.min(values.length, i + 4));
-    return Math.round(win.reduce((a, b) => a + b, 0) / win.length);
+    const win = values.slice(Math.max(0, i-3), Math.min(values.length, i+4));
+    return Math.round(win.reduce((a,b) => a+b, 0) / win.length);
   });
 
   const n = smoothed.length;
-  const xMean = (n - 1) / 2;
-  const yMean = smoothed.reduce((a, b) => a + b, 0) / n;
-  const slope = smoothed.reduce((s, y, i) => s + (i - xMean) * (y - yMean), 0) /
-                smoothed.reduce((s, _, i) => s + Math.pow(i - xMean, 2), 0);
+  const xMean = (n-1)/2;
+  const yMean = smoothed.reduce((a,b) => a+b, 0) / n;
+  const slope = smoothed.reduce((s,y,i) => s + (i-xMean)*(y-yMean), 0) /
+                smoothed.reduce((s,_,i) => s + Math.pow(i-xMean, 2), 0);
   const intercept = yMean - slope * xMean;
-  const trendData = smoothed.map((_, i) => Math.round(slope * i + intercept));
+  const trendData = smoothed.map((_,i) => Math.round(slope*i+intercept));
 
   const minVal = Math.min(...smoothed) * 0.98;
   const maxVal = Math.max(...smoothed) * 1.02;
-
-  const pointColors = data.map(r =>
-    new Date(r.date) < planStart ? '#8a8880' : '#e85d04'
-  );
+  const pointColors = data.map(r => new Date(r.date) < planStart ? '#8a8880' : '#e85d04');
 
   function secToHMS(s) {
-    const h = Math.floor(s / 3600);
-    const m = Math.floor((s % 3600) / 60);
-    return `${h}:${String(m).padStart(2, '0')}`;
+    const h = Math.floor(s/3600);
+    const m = Math.floor((s%3600)/60);
+    return `${h}:${String(m).padStart(2,'0')}`;
   }
 
   const predCanvas = document.getElementById('predChart');
   if (Chart.getChart(predCanvas)) Chart.getChart(predCanvas).destroy();
-  const ctx = predCanvas.getContext('2d');
-  new Chart(ctx, {
+  new Chart(predCanvas.getContext('2d'), {
     type: 'line',
     data: {
       labels,
       datasets: [
-        {
-          label: 'Predicted Marathon',
-          data: smoothed,
-          borderColor: '#e85d04',
-          backgroundColor: 'rgba(232,93,4,0.08)',
-          pointRadius: 0,
-          pointHoverRadius: 5,
-          pointBackgroundColor: pointColors,
-          borderWidth: 2,
-          fill: true,
-          tension: 0.4,
-        },
-        {
-          label: 'Trend',
-          data: trendData,
-          borderColor: '#1d3557',
-          borderWidth: 2,
-          borderDash: [6, 3],
-          pointRadius: 0,
-          fill: false,
-          tension: 0,
-        }
+        { data:smoothed, borderColor:'#e85d04', backgroundColor:'rgba(232,93,4,0.08)', pointRadius:0, pointHoverRadius:5, pointBackgroundColor:pointColors, borderWidth:2, fill:true, tension:0.4 },
+        { data:trendData, borderColor:'#1d3557', borderWidth:2, borderDash:[6,3], pointRadius:0, fill:false, tension:0 }
       ]
     },
     options: {
       responsive: true,
+      maintainAspectRatio: false,
+      layout: { padding: { right: 0 } },
       plugins: {
         legend: { display: false },
-        tooltip: {
-          callbacks: {
-            title: items => data[items[0].dataIndex]?.name || '',
-            label: item => {
-              if (item.dataset.label === 'Trend') return `Trend: ${secToHMS(item.parsed.y)}`;
-              const r = data[item.dataIndex];
-              return [
-                `Predicted: ${secToHMS(item.parsed.y)}`,
-                `HR: ${r?.hr || '—'} bpm`,
-                `Dist: ${r?.dist || '—'} mi`,
-              ];
-            }
+        tooltip: { callbacks: {
+          title: items => data[items[0].dataIndex]?.name || '',
+          label: item => {
+            if (item.datasetIndex === 1) return `Trend: ${secToHMS(item.parsed.y)}`;
+            const r = data[item.dataIndex];
+            return [`Predicted: ${secToHMS(item.parsed.y)}`, `HR: ${r?.hr||'—'} bpm`, `Dist: ${r?.dist||'—'} mi`];
           }
-        }
+        }}
       },
       scales: {
-        x: {
-          bounds: 'data',
-          grid: { color: '#e8e4de' },
-          ticks: {
-            font: { family: 'Barlow Condensed', size: 11 },
-            color: '#8a8880',
-            maxRotation: 45,
-            maxTicksLimit: window.innerWidth < 480 ? 4 : window.innerWidth < 700 ? 6 : 12,
-          }
-        },
-        y: {
-          min: minVal,
-          max: maxVal,
-          grid: { color: '#e8e4de' },
-          ticks: {
-            font: { family: 'Barlow Condensed', size: 11 },
-            color: '#8a8880',
-            callback: val => secToHMS(val)
-          }
-        }
+        x: { bounds:'data', grid:{color:'#e8e4de'}, ticks:{font:{family:'Barlow Condensed',size:11},color:'#8a8880',maxRotation:45,maxTicksLimit:12} },
+        y: { min:minVal, max:maxVal, grid:{color:'#e8e4de'}, ticks:{font:{family:'Barlow Condensed',size:11},color:'#8a8880',callback:val=>secToHMS(val)} }
       }
     }
   });
 }
 
+// ── Chart tab switcher ────────────────────────────────────────────────────────
+function switchChart(name) {
+  ['mileage','ae','pred'].forEach(t => {
+    document.getElementById(`tab-${t}`).classList.toggle('active', t === name);
+    document.getElementById(`chart-${t}`).style.display = t === name ? 'block' : 'none';
+  });
+  const chartIds = { mileage:'mileageChart', ae:'aeChart', pred:'predChart' };
+  const chartInst = Chart.getChart(document.getElementById(chartIds[name]));
+  if (chartInst) chartInst.resize();
+  const titles = {
+    mileage: ['Weekly Mileage',     ''],
+    ae:      ['Aerobic Efficiency', 'Higher = Fitter'],
+    pred:    ['Predicted Marathon', 'Lower = Faster'],
+  };
+  document.getElementById('chartTitle').textContent    = titles[name][0];
+  document.getElementById('chartSubtitle').textContent = titles[name][1];
+}
+
 // ── Race predictor ───────────────────────────────────────────────────────────
 function renderPredictor(avgPaceSec) {
-  if (!avgPaceSec) avgPaceSec = paceToSec('8:35'); // fallback to known HM pace
-
-  // Use Riegel formula: T2 = T1 * (D2/D1)^1.06
+  if (!avgPaceSec) avgPaceSec = paceToSec('8:35');
   const hmTimeSec = avgPaceSec * 13.1;
-  function predict(dist) {
-    return hmTimeSec * Math.pow(dist / 13.1, 1.06);
-  }
-
+  function predict(dist) { return hmTimeSec * Math.pow(dist/13.1, 1.06); }
   document.getElementById('pred5k').textContent   = secToTime(predict(3.1));
   document.getElementById('predHalf').textContent = secToTime(predict(13.1));
   document.getElementById('predFull').textContent = secToTime(predict(26.2));
 }
 
-// ── Pace zones ──────────────────────────────────────────────────────────────
+// ── Pace zones ───────────────────────────────────────────────────────────────
 function renderZones(zones) {
   if (!zones || !Object.keys(zones).length) return;
-
-  const colors = {
-    Z1: '#4caf50', Z2: '#8bc34a', Z3: '#f48c06',
-    Z4: '#e85d04', Z5: '#c1121f'
-  };
-
+  const colors = { Z1:'#4caf50', Z2:'#8bc34a', Z3:'#f48c06', Z4:'#e85d04', Z5:'#c1121f' };
   const html = Object.entries(zones).map(([zone, info]) => `
     <div class="zone-row">
       <div class="zone-dot" style="background:${colors[zone]}"></div>
       <div class="zone-name">${zone} — ${info.name}</div>
       <div class="zone-pace">${info.hr}</div>
       <div class="zone-desc">${info.desc}</div>
-    </div>
-  `).join('');
-
+    </div>`).join('');
   document.getElementById('zoneList').innerHTML = html;
 }
 
-// ── Full schedule table ───────────────────────────────────────────────────────
+// ── Schedule table ───────────────────────────────────────────────────────────
 function renderScheduleTable(currentWeek) {
-  const today = new Date();
   const body = HH.map((week, i) => {
     const wn = i + 1;
     let rowClass = '';
     if (wn < currentWeek) rowClass = 'past-week';
     if (wn === currentWeek) rowClass = 'current-week';
-
     const cells = week.map((day, di) => {
       let cls = '';
       if (day === 'Rest' || day === 'Cross') cls = 'rest-day';
-      if (di === 6 && wn < 18) cls = 'long-run'; // Saturday long run
+      if (di === 6 && wn < 18) cls = 'long-run';
       if (wn === 18 && di === 6) cls = 'marathon';
       return `<td class="${cls}">${day}</td>`;
     }).join('');
-
-    const badge = `<span class="week-badge ${wn === currentWeek ? 'current' : ''}">${wn}</span>`;
+    const badge = `<span class="week-badge ${wn===currentWeek?'current':''}">${wn}</span>`;
     return `<tr class="${rowClass}"><td>${badge}</td>${cells}</tr>`;
   }).join('');
-
   document.getElementById('scheduleBody').innerHTML = body;
 }
 
-// ── Coach text ────────────────────────────────────────────────────────────────
+// ── Coach text ───────────────────────────────────────────────────────────────
 function renderCoach(text) {
   if (!text) {
     document.getElementById('coachText').textContent = 'No coaching advice available yet. Run coach.py to generate.';
     return;
   }
-  // Light markdown → HTML
   const formatted = text
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/\*(.+?)\*/g, '<em>$1</em>')
@@ -1623,56 +1353,47 @@ function renderCoach(text) {
     .replace(/^\* /gm, '• ');
   document.getElementById('coachText').innerHTML = formatted;
 }
-  
+
+// ── Post-run card ─────────────────────────────────────────────────────────────
 function renderPostRun(data) {
   if (!data || !data.analysis) return;
-
-  // Only show if analyzed within last 24 hours
   const analyzedAt = new Date(data.analyzed_at);
   const hoursAgo = (Date.now() - analyzedAt) / 3600000;
   if (hoursAgo > 24) return;
-
   const card = document.getElementById('postRunCard');
-  const act  = data.activity || {};
+  const act = data.activity || {};
   const zoneColors = {Z1:'#4caf50',Z2:'#8bc34a',Z3:'#f48c06',Z4:'#e85d04',Z5:'#c1121f'};
-  const zoneColor  = act.hr_zone ? zoneColors[act.hr_zone] : 'var(--muted)';
-
+  const zoneColor = act.hr_zone ? zoneColors[act.hr_zone] : 'var(--muted)';
   document.getElementById('postRunName').textContent = act.name || 'Recent Run';
-
   const stats = [
     act.distance_miles ? `${act.distance_miles} mi` : null,
     act.pace_per_mile  ? `${act.pace_per_mile}/mi`  : null,
-    act.avg_hr         ? `<span style="background:${zoneColor};color:#fff;padding:4px 10px;border-radius:6px;font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:600;">${act.avg_hr}bpm ${act.hr_zone || ''}</span>` : null,
-    act.elevation_ft   ? `+${act.elevation_ft}ft`   : null,
+    act.avg_hr ? `<span style="background:${zoneColor};color:#fff;padding:4px 10px;border-radius:6px;font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:600;">${act.avg_hr}bpm ${act.hr_zone||''}</span>` : null,
+    act.elevation_ft ? `+${act.elevation_ft}ft` : null,
   ].filter(Boolean);
-
   document.getElementById('postRunMeta').innerHTML = stats.map(s =>
     s.startsWith('<') ? s : `<div class="post-run-stat">${s}</div>`
   ).join('');
-
   const formatted = data.analysis
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/\*(.+?)\*/g, '<em>$1</em>');
   document.getElementById('postRunText').innerHTML = formatted;
-
   const timeStr = analyzedAt.toLocaleString('en-US', { month:'short', day:'numeric', hour:'numeric', minute:'2-digit' });
   document.getElementById('postRunTime').textContent = `Analyzed ${timeStr}`;
-
   card.classList.add('visible');
 }
-  
+
+// ── Weather ───────────────────────────────────────────────────────────────────
 function renderWeather(weather) {
   if (!weather || !weather.length) return;
-
   const html = weather.map(day => {
     const date = new Date(day.date + 'T12:00:00');
-    const dayName = date.toLocaleDateString('en-US', { weekday: 'short' });
-    const monthDay = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    const dayName = date.toLocaleDateString('en-US', { weekday:'short' });
+    const monthDay = date.toLocaleDateString('en-US', { month:'short', day:'numeric' });
     const emoji = getWeatherEmoji(day.code, day.low);
-    const isGoodRunning = day.high <= 65 && day.precip < 0.1 && day.windspeed < 15;
-    const isOkRunning = day.high <= 75 && day.precip < 0.3;
-    const borderColor = isGoodRunning ? 'var(--green)' : isOkRunning ? 'var(--orange2)' : '#ccc';
-
+    const isGood = day.high <= 65 && day.precip < 0.1 && day.windspeed < 15;
+    const isOk   = day.high <= 75 && day.precip < 0.3;
+    const borderColor = isGood ? 'var(--green)' : isOk ? 'var(--orange2)' : '#ccc';
     return `<div style="background:var(--bg);border:1px solid ${borderColor};border-radius:8px;padding:10px 6px;text-align:center;">
       <div style="font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);">${dayName}</div>
       <div style="font-size:8px;color:var(--muted);margin-bottom:6px;">${monthDay}</div>
@@ -1683,46 +1404,24 @@ function renderWeather(weather) {
       ${day.precip > 0 ? `<div style="font-family:'Barlow Condensed',sans-serif;font-size:10px;color:#4285f4;margin-top:2px;">${day.precip}"</div>` : ''}
     </div>`;
   }).join('');
-
   document.getElementById('weatherGrid').innerHTML = html;
 }
 
 function getWeatherEmoji(code, lowTemp) {
-  if (code === 0)                    return '☀️';
-  if (code <= 2)                     return '🌤️';
-  if (code === 3)                    return '☁️';
-  if (code <= 48)                    return '🌫️';
-  if (code <= 55)                    return '🌦️';
-  if (code <= 65)                    return '🌧️';
-  if (code <= 75)                    return lowTemp < 32 ? '❄️' : '🌧️';
-  if (code <= 82)                    return '🌧️';
+  if (code === 0)    return '☀️';
+  if (code <= 2)     return '🌤️';
+  if (code === 3)    return '☁️';
+  if (code <= 48)    return '🌫️';
+  if (code <= 55)    return '🌦️';
+  if (code <= 65)    return '🌧️';
+  if (code <= 75)    return lowTemp < 32 ? '❄️' : '🌧️';
+  if (code <= 82)    return '🌧️';
   return '⛈️';
 }
 
-function switchChart(name) {
-  ['mileage','ae','pred'].forEach(t => {
-    document.getElementById(`tab-${t}`).classList.toggle('active', t === name);
-    document.getElementById(`chart-${t}`).style.display = t === name ? 'block' : 'none';
-  });
-
-  // Force chart to resize to fill container
-  const chartIds = { mileage: 'mileageChart', ae: 'aeChart', pred: 'predChart' };
-  const chartInst = Chart.getChart(document.getElementById(chartIds[name]));
-  if (chartInst) chartInst.resize();
-
-  const titles = {
-    mileage: ['Weekly Mileage',     ''],
-    ae:      ['Aerobic Efficiency', 'Higher = Fitter'],
-    pred:    ['Predicted Marathon', 'Lower = Faster'],
-  };
-  document.getElementById('chartTitle').textContent    = titles[name][0];
-  document.getElementById('chartSubtitle').textContent = titles[name][1];
-}  
-  
 // ── Load data ─────────────────────────────────────────────────────────────────
 async function loadData() {
   const weekNum = getCurrentWeek();
-
   renderCountdown();
   renderWeek(weekNum, 'base_building', []);
   renderScheduleTable(weekNum);
@@ -1742,45 +1441,41 @@ async function loadData() {
     renderRuns(activities);
     renderStats(activities, weekNum, data);
 
-    // Load post-run analysis if available
     const runRes = await fetch('latest_run.json?v=' + Date.now()).catch(() => null);
     if (runRes && runRes.ok) {
       const runData = await runRes.json().catch(() => null);
       if (runData) renderPostRun(runData);
     }
-    
+
     renderCoach(data.advice || '');
 
-    const pacesSec = activities
-      .filter(a => a.pace_seconds && a.pace_seconds > 0)
-      .map(a => parseFloat(a.pace_seconds));
+    const pacesSec = activities.filter(a => a.pace_seconds && a.pace_seconds > 0).map(a => parseFloat(a.pace_seconds));
     if (pacesSec.length) {
-      const avg = pacesSec.reduce((s, p) => s + p, 0) / pacesSec.length;
+      const avg = pacesSec.reduce((s,p) => s+p, 0) / pacesSec.length;
       renderPredictor(avg);
       renderZones(data.pace_zones);
     }
 
-    // Show all charts temporarily so they render at full width
+    // Render all charts while visible so they get correct width
     ['mileage','ae','pred'].forEach(t => {
       document.getElementById(`chart-${t}`).style.display = 'block';
     });
     renderMileageChart(data.weekly_mileage || []);
     renderAEChart(data.ae_trend || []);
     renderPredChart(data.ae_trend || []);
-    // Then hide inactive ones
+    // Hide inactive tabs
     ['ae','pred'].forEach(t => {
       document.getElementById(`chart-${t}`).style.display = 'none';
     });
-    
+
     if (data.updated_at) {
       document.getElementById('footerUpdated').textContent =
         'Last updated: ' + new Date(data.updated_at).toLocaleString();
     }
 
-  } catch (e) {
+  } catch(e) {
     renderProgress(weekNum, 'base_building');
     renderWeek(weekNum, 'base_building', []);
-
     const placeholder = [
       { name: 'Newport Half Marathon!', date: '2026-04-18', distance_miles: '13.31', pace_per_mile: '8:35', pace_seconds: 515 },
       { name: 'Cherry Blossom 10 Mile', date: '2026-04-12', distance_miles: '10.19', pace_per_mile: '—', pace_seconds: 0 },
