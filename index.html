@@ -1142,7 +1142,9 @@ function renderMileageChart(weeklyMileage) {
     new Date(w.week_start) < planStart ? '#8a8880' : '#e85d04'
   );
 
-  const ctx = document.getElementById('mileageChart').getContext('2d');
+  const canvas = document.getElementById('mileageChart');
+  if (Chart.getChart(canvas)) Chart.getChart(canvas).destroy();
+  const ctx = canvas.getContext('2d');
   new Chart(ctx, {
     type: 'line',
     data: {
@@ -1253,7 +1255,11 @@ function renderPredChart(aeTrend) {
     return `${h}:${String(m).padStart(2, '0')}`;
   }
 
-  const ctx = document.getElementById('predChart').getContext('2d');
+  const canvas = document.getElementById('aeChart');
+  if (Chart.getChart(canvas)) Chart.getChart(canvas).destroy();
+  const canvas = document.getElementById('predChart');
+  if (Chart.getChart(canvas)) Chart.getChart(canvas).destroy();
+  const ctx = canvas.getContext('2d');
   new Chart(ctx, {
     type: 'line',
     data: {
