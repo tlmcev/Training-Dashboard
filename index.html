@@ -798,7 +798,15 @@
     </div>
     <canvas id="aeChart" height="80"></canvas>
   </div>
-
+<!-- Predicted Finish Time Chart -->
+  <div class="card progress-card" style="margin-bottom: 32px;">
+    <div class="section-head">
+      <div class="section-title">Predicted Marathon Time</div>
+      <div class="section-line"></div>
+      <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);">Lower = Faster</span>
+    </div>
+    <canvas id="predChart" height="80"></canvas>
+  </div>
   <!-- This Week + Recent Runs -->
   <div class="grid-2">
     <div class="card" style="position:relative; overflow:hidden;">
@@ -1200,7 +1208,123 @@ function renderAEChart(aeTrend) {
     const win = values.slice(Math.max(0, i - 3), Math.min(values.length, i + 4));
     return parseFloat((win.reduce((a, b) => a + b, 0) / win.length).toFixed(3));
   });
+function renderPredChart(aeTrend) {
+  if (!aeTrend || aeTrend.length < 2) return;
 
+  // Filter to runs with marathon prediction
+  const data = aeTrend.filter(r => r.marathon_sec);
+  if (data.length < 2) return;
+
+  const planStart = new Date('2026-06-29');
+  const labels = data.map(r => {
+    const d = new Date(r.date);
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  });
+  const values = data.map(r => r.marathon_sec);
+
+  // 7-run centered rolling average
+  const smoothed = values.map((_, i) => {
+    const win = values.slice(Math.max(0, i - 3), Math.min(values.length, i + 4));
+    return Math.round(win.reduce((a, b) => a + b, 0) / win.length);
+  });
+
+  // Linear trend through smoothed data
+  const n = smoothed.length;
+  const xMean = (n - 1) / 2;
+  const yMean = smoothed.reduce((a, b) => a + b, 0) / n;
+  const slope = smoothed.reduce((s, y, i) => s + (i - xMean) * (y - yMean), 0) /
+                smoothed.reduce((s, _, i) => s + Math.pow(i - xMean, 2), 0);
+  const intercept = yMean - slope * xMean;
+  const trendData = smoothed.map((_, i) => Math.round(slope * i + intercept));
+
+  // Y-axis: hug the data, inverted so lower = better visually
+  const minVal = Math.min(...smoothed) * 0.98;
+  const maxVal = Math.max(...smoothed) * 1.02;
+
+  const pointColors = data.map(r =>
+    new Date(r.date) < planStart ? '#8a8880' : '#e85d04'
+  );
+
+  function secToHMS(s) {
+    const h = Math.floor(s / 3600);
+    const m = Math.floor((s % 3600) / 60);
+    return `${h}:${String(m).padStart(2, '0')}`;
+  }
+
+  const ctx = document.getElementById('predChart').getContext('2d');
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: 'Predicted Marathon',
+          data: smoothed,
+          borderColor: '#e85d04',
+          backgroundColor: 'rgba(232,93,4,0.08)',
+          pointRadius: 0,
+          pointHoverRadius: 5,
+          pointBackgroundColor: pointColors,
+          borderWidth: 2,
+          fill: true,
+          tension: 0.4,
+        },
+        {
+          label: 'Trend',
+          data: trendData,
+          borderColor: '#1d3557',
+          borderWidth: 2,
+          borderDash: [6, 3],
+          pointRadius: 0,
+          fill: false,
+          tension: 0,
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            title: items => data[items[0].dataIndex]?.name || '',
+            label: item => {
+              if (item.dataset.label === 'Trend') return `Trend: ${secToHMS(item.parsed.y)}`;
+              const r = data[item.dataIndex];
+              return [
+                `Predicted: ${secToHMS(item.parsed.y)}`,
+                `HR: ${r?.hr || '—'} bpm`,
+                `Dist: ${r?.dist || '—'} mi`,
+              ];
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { color: '#e8e4de' },
+          ticks: {
+            font: { family: 'Barlow Condensed', size: 11 },
+            color: '#8a8880',
+            maxRotation: 45,
+            maxTicksLimit: window.innerWidth < 480 ? 4 : window.innerWidth < 700 ? 6 : 12,
+          }
+        },
+        y: {
+          min: minVal,
+          max: maxVal,
+          reverse: false,
+          grid: { color: '#e8e4de' },
+          ticks: {
+            font: { family: 'Barlow Condensed', size: 11 },
+            color: '#8a8880',
+            callback: val => secToHMS(val)
+          }
+        }
+      }
+    }
+  });
+}
   // Linear trend line through smoothed data
   const n = smoothed.length;
   const xMean = (n - 1) / 2;
@@ -1488,6 +1612,7 @@ async function loadData() {
     renderMileageChart(data.weekly_mileage || []);
 
     renderAEChart(data.ae_trend || []);
+    renderPredChart(data.ae_trend || []);
     
     if (data.updated_at) {
       document.getElementById('footerUpdated').textContent =
