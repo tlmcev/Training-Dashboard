@@ -19,7 +19,7 @@
 Here's your coaching brief, Tom:
 
 **Fitness Assessment**
-Tom displays excellent consistency and effort separation, with recent strong race performances at the half marathon and 10-mile distance. His easy runs are consistently in Z2, establishing a solid aerobic foundation. The Riegel formula predicts a marathon time of 4:12:36, providing a good benchmark as we progress.
+You've built a strong foundation, completing a half marathon and a 10-miler recently with solid efforts. Your easy runs are consistently in Zone 2, which is excellent for aerobic development and shows great control. This consistent mileage and appropriate pacing set you up well for the upcoming training phases.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom displays excellent consistency and effort separation, with recent strong rac
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-25 16:26:49 UTC | Run ID: 24935331235*
+*Last updated: 2026-04-25 16:37:01 UTC | Run ID: 24935526800*
