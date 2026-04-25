@@ -1426,9 +1426,117 @@ function renderPredChart(aeTrend) {
   if (!aeTrend || aeTrend.length < 2) return;
 
   const data = aeTrend.filter(r => r.marathon_sec);
-  console.log('predChart data points:', data.length, data[0]);  // ADD THIS
   if (data.length < 2) return;
-  
+
+  const planStart = new Date('2026-06-29');
+  const labels = data.map(r => {
+    const d = new Date(r.date);
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  });
+  const values = data.map(r => r.marathon_sec);
+
+  const smoothed = values.map((_, i) => {
+    const win = values.slice(Math.max(0, i - 3), Math.min(values.length, i + 4));
+    return Math.round(win.reduce((a, b) => a + b, 0) / win.length);
+  });
+
+  const n = smoothed.length;
+  const xMean = (n - 1) / 2;
+  const yMean = smoothed.reduce((a, b) => a + b, 0) / n;
+  const slope = smoothed.reduce((s, y, i) => s + (i - xMean) * (y - yMean), 0) /
+                smoothed.reduce((s, _, i) => s + Math.pow(i - xMean, 2), 0);
+  const intercept = yMean - slope * xMean;
+  const trendData = smoothed.map((_, i) => Math.round(slope * i + intercept));
+
+  const minVal = Math.min(...smoothed) * 0.98;
+  const maxVal = Math.max(...smoothed) * 1.02;
+
+  const pointColors = data.map(r =>
+    new Date(r.date) < planStart ? '#8a8880' : '#e85d04'
+  );
+
+  function secToHMS(s) {
+    const h = Math.floor(s / 3600);
+    const m = Math.floor((s % 3600) / 60);
+    return `${h}:${String(m).padStart(2, '0')}`;
+  }
+
+  const predCanvas = document.getElementById('predChart');
+  if (Chart.getChart(predCanvas)) Chart.getChart(predCanvas).destroy();
+  const ctx = predCanvas.getContext('2d');
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: 'Predicted Marathon',
+          data: smoothed,
+          borderColor: '#e85d04',
+          backgroundColor: 'rgba(232,93,4,0.08)',
+          pointRadius: 0,
+          pointHoverRadius: 5,
+          pointBackgroundColor: pointColors,
+          borderWidth: 2,
+          fill: true,
+          tension: 0.4,
+        },
+        {
+          label: 'Trend',
+          data: trendData,
+          borderColor: '#1d3557',
+          borderWidth: 2,
+          borderDash: [6, 3],
+          pointRadius: 0,
+          fill: false,
+          tension: 0,
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            title: items => data[items[0].dataIndex]?.name || '',
+            label: item => {
+              if (item.dataset.label === 'Trend') return `Trend: ${secToHMS(item.parsed.y)}`;
+              const r = data[item.dataIndex];
+              return [
+                `Predicted: ${secToHMS(item.parsed.y)}`,
+                `HR: ${r?.hr || '—'} bpm`,
+                `Dist: ${r?.dist || '—'} mi`,
+              ];
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { color: '#e8e4de' },
+          ticks: {
+            font: { family: 'Barlow Condensed', size: 11 },
+            color: '#8a8880',
+            maxRotation: 45,
+            maxTicksLimit: window.innerWidth < 480 ? 4 : window.innerWidth < 700 ? 6 : 12,
+          }
+        },
+        y: {
+          min: minVal,
+          max: maxVal,
+          grid: { color: '#e8e4de' },
+          ticks: {
+            font: { family: 'Barlow Condensed', size: 11 },
+            color: '#8a8880',
+            callback: val => secToHMS(val)
+          }
+        }
+      }
+    }
+  });
+}
+
 // ── Race predictor ───────────────────────────────────────────────────────────
 function renderPredictor(avgPaceSec) {
   if (!avgPaceSec) avgPaceSec = paceToSec('8:35'); // fallback to known HM pace
