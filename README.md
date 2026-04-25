@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, excellent work lately! Here's your coaching brief as we look ahead:
+Here's your coaching brief, Tom:
 
 **Fitness Assessment**
-You're demonstrating excellent consistency in your training, blending shorter recovery runs with significant race efforts like the Newport Half and Cherry Blossom 10 Mile. Your ability to maintain Z2 heart rates during these longer, faster efforts indicates a strong aerobic base and impressive fitness. Overall, you're looking very solid, effectively balancing challenging runs with necessary recovery.
+Tom displays excellent consistency and effort separation, with recent strong race performances at the half marathon and 10-mile distance. His easy runs are consistently in Z2, establishing a solid aerobic foundation. The Riegel formula predicts a marathon time of 4:12:36, providing a good benchmark as we progress.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ You're demonstrating excellent consistency in your training, blending shorter re
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-25 16:22:37 UTC | Run ID: 24935251011*
+*Last updated: 2026-04-25 16:26:49 UTC | Run ID: 24935331235*
