@@ -289,8 +289,9 @@ def calculate_aerobic_efficiency(activities):
 
         # Predicted marathon using AE-adjusted pace at marathon HR
         # Project what speed would be at target HR using linear AE relationship
-        projected_speed_mpm = ae * MARATHON_HR_TARGET
-        projected_pace_sec  = 60 / (projected_speed_mpm / 1609.34 * 60)  # sec/mile
+        projected_speed_mpm = ae * MARATHON_HR_TARGET  # meters per minute
+        projected_speed_mps = projected_speed_mpm / 60  # meters per second
+        projected_pace_sec  = 1609.34 / projected_speed_mps  # seconds per mile
         marathon_sec        = riegel_predict(projected_pace_sec, 26.2)
         marathon_pred       = sec_to_time(marathon_sec)
 
