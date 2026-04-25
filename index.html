@@ -1596,13 +1596,11 @@ async function loadData() {
     renderStats(activities, weekNum, data);
 
     // Load post-run analysis if available
-    try {
-      const runRes = await fetch('latest_run.json?v=' + Date.now());
-      if (runRes.ok) {
-        const runData = await runRes.json();
-        renderPostRun(runData);
-      }
-    } catch(e) { /* no latest_run.json yet */ }
+    const runRes = await fetch('latest_run.json?v=' + Date.now()).catch(() => null);
+    if (runRes && runRes.ok) {
+      const runData = await runRes.json().catch(() => null);
+      if (runData) renderPostRun(runData);
+    }
     
     renderCoach(data.advice || '');
 
