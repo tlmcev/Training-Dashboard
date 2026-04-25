@@ -36,7 +36,7 @@ def get_strava_access_token():
 def get_activities(access_token, days=120):
     since = int(datetime(2026, 3, 1).timestamp())
     resp = requests.get(
-        f"https://www.strava.com/api/v3/athlete/activities?after={since}&per_page=30",
+        f"https://www.strava.com/api/v3/athlete/activities?after={since}&per_page=100",
         headers={"Authorization": f"Bearer {access_token}"},
     )
     resp.raise_for_status()
