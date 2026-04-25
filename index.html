@@ -719,6 +719,24 @@
   }
 
   .post-run-text strong { color: var(--ink); }
+  
+  /* ── Chart tabs ── */
+  .chart-tab {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border: 1px solid var(--faint);
+    border-radius: 4px;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .chart-tab:hover { border-color: var(--orange); color: var(--orange); }
+  .chart-tab.active { background: var(--orange); color: #fff; border-color: var(--orange); }
+
 </style>
 </head>
 <body>
@@ -780,34 +798,21 @@
     </div>
   </div>
 
-  <!-- Weekly Mileage Chart -->
+  <!-- Combined Chart Card -->
   <div class="card progress-card" style="margin-bottom: 32px;">
-    <div class="section-head">
-      <div class="section-title">Weekly Mileage</div>
+    <div class="section-head" style="margin-bottom: 20px;">
+      <div class="section-title" id="chartTitle">Weekly Mileage</div>
       <div class="section-line"></div>
-      <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);" id="chartPhaseLabel"></span>
+      <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);" id="chartSubtitle"></span>
     </div>
-    <canvas id="mileageChart" height="80"></canvas>
-  </div>
-
-    <!-- Aerobic Efficiency Chart -->
-  <div class="card progress-card" style="margin-bottom: 32px;">
-    <div class="section-head">
-      <div class="section-title">Aerobic Efficiency</div>
-      <div class="section-line"></div>
-      <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);">Higher = Fitter</span>
+    <div style="display:flex; gap:8px; margin-bottom:20px; flex-wrap:wrap;">
+      <button class="chart-tab active" onclick="switchChart('mileage')" id="tab-mileage">Weekly Mileage</button>
+      <button class="chart-tab" onclick="switchChart('ae')" id="tab-ae">Aerobic Efficiency</button>
+      <button class="chart-tab" onclick="switchChart('pred')" id="tab-pred">Predicted Time</button>
     </div>
-    <canvas id="aeChart" height="80"></canvas>
-  </div>
-  
-  <!-- Predicted Finish Time Chart -->
-  <div class="card progress-card" style="margin-bottom: 32px;">
-    <div class="section-head">
-      <div class="section-title">Predicted Marathon Time</div>
-      <div class="section-line"></div>
-      <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);">Lower = Faster</span>
-    </div>
-    <canvas id="predChart" height="80"></canvas>
+    <div id="chart-mileage"><canvas id="mileageChart" height="80"></canvas></div>
+    <div id="chart-ae" style="display:none;"><canvas id="aeChart" height="80"></canvas></div>
+    <div id="chart-pred" style="display:none;"><canvas id="predChart" height="80"></canvas></div>
   </div>
   
   <!-- This Week + Recent Runs -->
@@ -1687,6 +1692,23 @@ function getWeatherEmoji(code, lowTemp) {
   if (code <= 82)                    return '🌧️';
   return '⛈️';
 }
+
+function switchChart(name) {
+  // Update tabs
+  ['mileage','ae','pred'].forEach(t => {
+    document.getElementById(`tab-${t}`).classList.toggle('active', t === name);
+    document.getElementById(`chart-${t}`).style.display = t === name ? 'block' : 'none';
+  });
+
+  // Update title and subtitle
+  const titles = {
+    mileage: ['Weekly Mileage',      ''],
+    ae:      ['Aerobic Efficiency',  'Higher = Fitter'],
+    pred:    ['Predicted Marathon',  'Lower = Faster'],
+  };
+  document.getElementById('chartTitle').textContent    = titles[name][0];
+  document.getElementById('chartSubtitle').textContent = titles[name][1];
+}  
   
 // ── Load data ─────────────────────────────────────────────────────────────────
 async function loadData() {
