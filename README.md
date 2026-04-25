@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's look at where you're at and what's ahead.
+Hey Tom, great work lately! Let's get you set for the next phase.
 
 **Fitness Assessment**
-Tom, your recent Half Marathon and 10-mile races show excellent endurance and consistent Z2 effort in your easy runs, which is exactly what we want to see. You're effectively building your aerobic base, and your current fitness aligns well with a predicted marathon time of 4:12:36. This strong foundation is perfect as we approach the structured training phases.
+Tom, you're demonstrating excellent consistency, regularly logging miles and completing races with strong efforts in April. Your easy runs are well within Z2, and recent race performances (Half Marathon at 8:35/mi, 10-mile at 8:41/mi) indicate a solid fitness base. These paces align well with a projected marathon finish around 4:12:36.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent Half Marathon and 10-mile races show excellent endurance and co
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-25 14:08:58 UTC | Run ID: 24932728621*
+*Last updated: 2026-04-25 16:13:59 UTC | Run ID: 24935086446*

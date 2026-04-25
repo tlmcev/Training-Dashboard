@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-25 14:08:58",
+  "updated_at": "2026-04-25 16:13:59",
   "current_week": 0,
   "phase": "base_building",
   "days_to_plan_start": 64,
@@ -484,17 +484,17 @@
   "weather": [
     {
       "date": "2026-04-25",
-      "high": 51,
+      "high": 49,
       "low": 41,
-      "precip": 0.77,
-      "windspeed": 14,
+      "precip": 0.86,
+      "windspeed": 12,
       "code": 63
     },
     {
       "date": "2026-04-26",
       "high": 49,
       "low": 40,
-      "precip": 0.49,
+      "precip": 0.42,
       "windspeed": 12,
       "code": 63
     },
@@ -586,5 +586,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's look at where you're at and what's ahead.\n\n**Fitness Assessment**\nTom, your recent Half Marathon and 10-mile races show excellent endurance and consistent Z2 effort in your easy runs, which is exactly what we want to see. You're effectively building your aerobic base, and your current fitness aligns well with a predicted marathon time of 4:12:36. This strong foundation is perfect as we approach the structured training phases.\n\n**This Week's Focus**\nWith the formal base-building phase still 64 days out, your primary focus this week is consistent, easy Z2 running (target 9:15-10:15/mi, 124-154 bpm HR). Given the upcoming rainy and windy conditions, prioritize adapting your runs, opting for shorter outdoor sessions or indoor alternatives to maintain mileage safely.\n\n**Key Priorities**\n*   **Weather Adaptation:** Be smart and flexible with the rain and wind; dress appropriately or consider indoor options to stay consistent.\n*   **Consistent Z2 Effort:** Continue to build your aerobic engine with easy, conversational pace runs, listening to your body.\n*   **Recovery & Health:** Ensure adequate rest and nutrition, especially after your recent race efforts, to prevent burnout or injury.\n\n**Watch Out For**\nDon't let the consistently poor weather dampen your spirits or lead to missed runs; find ways to stay active and consistent without pushing too hard in adverse conditions.\n\n**Upcoming Milestones**\nLook forward to the official start of your Base Building phase on June 29th, marking the structured beginning of your journey towards the NYC Marathon."
+  "advice": "Hey Tom, great work lately! Let's get you set for the next phase.\n\n**Fitness Assessment**\nTom, you're demonstrating excellent consistency, regularly logging miles and completing races with strong efforts in April. Your easy runs are well within Z2, and recent race performances (Half Marathon at 8:35/mi, 10-mile at 8:41/mi) indicate a solid fitness base. These paces align well with a projected marathon finish around 4:12:36.\n\n**This Week's Focus**\nGiven your recent race efforts and the upcoming rainy weather, the focus for this week is active recovery and maintaining consistent, easy mileage. Aim for Z2 paces (approx. 9:30-10:30/mi) on your runs, prioritizing effort over specific pace. Adjust your schedule as needed for weather conditions, perhaps opting for a treadmill if winds are too high.\n\n**Key Priorities**\n*   Prioritize recovery from recent races to prevent overtraining.\n*   Maintain consistent Zone 2 running to continue building your aerobic base.\n*   Incorporate injury prevention strategies like strength and mobility work.\n\n**Watch Out For**\nBe mindful of cumulative fatigue from recent races; pushing too hard on easy runs or trying to make up for missed miles can increase injury risk in this pre-base phase.\n\n**Upcoming Milestones**\nWe're looking forward to the official start of your structured Base Building plan on June 29th, which will mark the formal beginning of your NYC Marathon training journey!"
 }
