@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, great work lately! Let's get you ready for NYC.
+Here's your coaching brief, Tom:
 
 **Fitness Assessment**
-You're demonstrating excellent aerobic fitness and race readiness, as evidenced by your strong Newport Half Marathon (1:53:30) and Cherry Blossom 10-Mile performances, which significantly outperform general predictions. Your easy runs are consistently well-paced within Zone 2, indicating a solid and consistent aerobic base crucial for marathon training.
+Your recent Half Marathon and 10-mile races demonstrate excellent endurance and a strong aerobic base, with consistent Z2 pacing on your easy runs. This consistent effort and race experience put you in a great position as we approach the formal training block. Your Riegel predicted finish time of 4:12:36 for the marathon is a good initial benchmark.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ You're demonstrating excellent aerobic fitness and race readiness, as evidenced 
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-25 04:20:50 UTC | Run ID: 24922430914*
+*Last updated: 2026-04-25 04:28:04 UTC | Run ID: 24922556152*
