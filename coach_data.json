@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-25 04:43:04",
+  "updated_at": "2026-04-25 14:08:58",
   "current_week": 0,
   "phase": "base_building",
   "days_to_plan_start": 64,
@@ -484,58 +484,58 @@
   "weather": [
     {
       "date": "2026-04-25",
-      "high": 48,
+      "high": 51,
       "low": 41,
-      "precip": 1.09,
-      "windspeed": 10,
+      "precip": 0.77,
+      "windspeed": 14,
       "code": 63
     },
     {
       "date": "2026-04-26",
-      "high": 52,
+      "high": 49,
       "low": 40,
-      "precip": 0.41,
-      "windspeed": 14,
+      "precip": 0.49,
+      "windspeed": 12,
       "code": 63
     },
     {
       "date": "2026-04-27",
       "high": 62,
-      "low": 44,
+      "low": 38,
       "precip": 0.0,
-      "windspeed": 11,
-      "code": 0
+      "windspeed": 12,
+      "code": 1
     },
     {
       "date": "2026-04-28",
-      "high": 61,
-      "low": 48,
-      "precip": 0.0,
+      "high": 60,
+      "low": 50,
+      "precip": 0.07,
       "windspeed": 12,
-      "code": 3
+      "code": 55
     },
     {
       "date": "2026-04-29",
-      "high": 63,
-      "low": 53,
-      "precip": 0.01,
+      "high": 55,
+      "low": 50,
+      "precip": 0.24,
       "windspeed": 10,
-      "code": 51
+      "code": 63
     },
     {
       "date": "2026-04-30",
-      "high": 58,
-      "low": 51,
-      "precip": 0.11,
-      "windspeed": 15,
-      "code": 51
+      "high": 50,
+      "low": 45,
+      "precip": 0.59,
+      "windspeed": 21,
+      "code": 61
     },
     {
       "date": "2026-05-01",
-      "high": 56,
-      "low": 46,
+      "high": 52,
+      "low": 44,
       "precip": 0.0,
-      "windspeed": 16,
+      "windspeed": 20,
       "code": 3
     }
   ],
@@ -586,5 +586,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nYour recent race performances, including a Half Marathon and 10-miler, demonstrate excellent current fitness and consistency, with easy runs well within Zone 2. Your projected marathon time of 4:12:36 from these efforts indicates a strong aerobic foundation. You're clearly absorbing training effectively and building endurance.\n\n**This Week's Focus**\nWith recent races completed, this week's priority is active recovery and maintaining your aerobic base. Aim for easy, conversational Z2 runs (approx. 9:30-10:30/mi pace) to allow your body to fully absorb the recent efforts. Be smart about upcoming wet and windy weather, prioritizing safety and comfort.\n\n**Key Priorities**\n*   **Prioritize Recovery:** Allow your body to fully recover from the recent races to prevent burnout.\n*   **Consistent Aerobic Base:** Continue building your weekly mileage gradually with Z2 easy runs.\n*   **Listen to Your Body:** Adapt runs based on how you feel and the challenging weather conditions.\n\n**Watch Out For**\nBe mindful of cumulative fatigue from your recent races; pushing too hard too soon could increase injury risk. Also, don't underestimate the impact of running in wet and windy conditions on your perceived effort and pace.\n\n**Upcoming Milestones**\nThe official Base Building phase for the NYC Marathon kicks off on June 29th, marking a significant step in your training journey. This period will be crucial for building a robust foundation for the demanding training ahead."
+  "advice": "Alright Tom, let's look at where you're at and what's ahead.\n\n**Fitness Assessment**\nTom, your recent Half Marathon and 10-mile races show excellent endurance and consistent Z2 effort in your easy runs, which is exactly what we want to see. You're effectively building your aerobic base, and your current fitness aligns well with a predicted marathon time of 4:12:36. This strong foundation is perfect as we approach the structured training phases.\n\n**This Week's Focus**\nWith the formal base-building phase still 64 days out, your primary focus this week is consistent, easy Z2 running (target 9:15-10:15/mi, 124-154 bpm HR). Given the upcoming rainy and windy conditions, prioritize adapting your runs, opting for shorter outdoor sessions or indoor alternatives to maintain mileage safely.\n\n**Key Priorities**\n*   **Weather Adaptation:** Be smart and flexible with the rain and wind; dress appropriately or consider indoor options to stay consistent.\n*   **Consistent Z2 Effort:** Continue to build your aerobic engine with easy, conversational pace runs, listening to your body.\n*   **Recovery & Health:** Ensure adequate rest and nutrition, especially after your recent race efforts, to prevent burnout or injury.\n\n**Watch Out For**\nDon't let the consistently poor weather dampen your spirits or lead to missed runs; find ways to stay active and consistent without pushing too hard in adverse conditions.\n\n**Upcoming Milestones**\nLook forward to the official start of your Base Building phase on June 29th, marking the structured beginning of your journey towards the NYC Marathon."
 }
