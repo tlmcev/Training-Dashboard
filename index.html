@@ -810,9 +810,9 @@
       <button class="chart-tab" onclick="switchChart('ae')" id="tab-ae">Aerobic Efficiency</button>
       <button class="chart-tab" onclick="switchChart('pred')" id="tab-pred">Predicted Time</button>
     </div>
-    <div id="chart-mileage"><canvas id="mileageChart" height="80"></canvas></div>
-    <div id="chart-ae" style="display:none;"><canvas id="aeChart" height="80"></canvas></div>
-    <div id="chart-pred" style="display:none;"><canvas id="predChart" height="80"></canvas></div>
+    <div id="chart-mileage" style="height:220px;"><canvas id="mileageChart"></canvas></div>
+    <div id="chart-ae" style="display:none;height:220px;"><canvas id="aeChart"></canvas></div>
+    <div id="chart-pred" style="display:none;height:220px;"><canvas id="predChart"></canvas></div>
   </div>
   
   <!-- This Week + Recent Runs -->
@@ -1170,6 +1170,8 @@ function renderMileageChart(weeklyMileage) {
     },
     options: {
       responsive: true,
+      maintainAspectRatio: false,
+      layout: { padding: { right: 0 } },
       plugins: {
         legend: { display: false },
         tooltip: {
@@ -1294,6 +1296,8 @@ function renderPredChart(aeTrend) {
     },
     options: {
       responsive: true,
+      maintainAspectRatio: false,
+      layout: { padding: { right: 0 } },
       plugins: {
         legend: { display: false },
         tooltip: {
@@ -1313,6 +1317,7 @@ function renderPredChart(aeTrend) {
       },
       scales: {
         x: {
+          bounds: 'data',
           grid: { color: '#e8e4de' },
           ticks: {
             font: { family: 'Barlow Condensed', size: 11 },
@@ -1405,6 +1410,7 @@ function renderPredChart(aeTrend) {
       },
       scales: {
         x: {
+          bounds: 'data',
           grid: { color: '#e8e4de' },
           ticks: {
             font: { family: 'Barlow Condensed', size: 11 },
@@ -1519,6 +1525,7 @@ function renderPredChart(aeTrend) {
       },
       scales: {
         x: {
+          bounds: 'data',
           grid: { color: '#e8e4de' },
           ticks: {
             font: { family: 'Barlow Condensed', size: 11 },
