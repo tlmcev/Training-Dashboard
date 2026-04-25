@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for NYC!
+Here's your coaching brief, Tom:
 
 **Fitness Assessment**
-Tom, you're demonstrating excellent aerobic fitness, evidenced by your recent Half Marathon at an impressive 8:35/mi pace, well within Z2. Your easy runs consistently maintain Z2 heart rates, indicating a solid foundation, though the Riegel prediction appears conservative compared to your actual race performance.
+Tom is demonstrating excellent consistency, having completed a Half Marathon and 10-mile race recently with solid efforts. His easy runs are generally well-controlled in Zone 2, though some longer efforts lean towards the upper end of the zone. This shows a strong fitness base and good endurance as we approach the formal training block.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you're demonstrating excellent aerobic fitness, evidenced by your recent Ha
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-25 03:53:07 UTC | Run ID: 24921947141*
+*Last updated: 2026-04-25 04:00:33 UTC | Run ID: 24922077441*

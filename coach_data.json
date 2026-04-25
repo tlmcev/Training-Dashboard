@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-25 03:53:07",
+  "updated_at": "2026-04-25 04:00:33",
   "current_week": 0,
   "phase": "base_building",
   "days_to_plan_start": 64,
@@ -306,8 +306,8 @@
       "ae": 1.169,
       "hr": 148,
       "dist": 3.19,
-      "marathon_pred": "4:03",
-      "marathon_sec": 243
+      "marathon_pred": "4:02:35",
+      "marathon_sec": 14555
     },
     {
       "date": "2026-03-04",
@@ -315,8 +315,8 @@
       "ae": 1.214,
       "hr": 151,
       "dist": 3.01,
-      "marathon_pred": "3:54",
-      "marathon_sec": 234
+      "marathon_pred": "3:53:36",
+      "marathon_sec": 14016
     },
     {
       "date": "2026-03-06",
@@ -324,8 +324,8 @@
       "ae": 1.146,
       "hr": 152,
       "dist": 3.54,
-      "marathon_pred": "4:07",
-      "marathon_sec": 247
+      "marathon_pred": "4:07:27",
+      "marathon_sec": 14847
     },
     {
       "date": "2026-03-07",
@@ -333,8 +333,8 @@
       "ae": 1.223,
       "hr": 145,
       "dist": 8.15,
-      "marathon_pred": "3:52",
-      "marathon_sec": 232
+      "marathon_pred": "3:51:52",
+      "marathon_sec": 13912
     },
     {
       "date": "2026-03-10",
@@ -342,8 +342,8 @@
       "ae": 1.165,
       "hr": 149,
       "dist": 3.07,
-      "marathon_pred": "4:03",
-      "marathon_sec": 243
+      "marathon_pred": "4:03:25",
+      "marathon_sec": 14605
     },
     {
       "date": "2026-03-14",
@@ -351,8 +351,8 @@
       "ae": 1.151,
       "hr": 143,
       "dist": 7.32,
-      "marathon_pred": "4:06",
-      "marathon_sec": 246
+      "marathon_pred": "4:06:23",
+      "marathon_sec": 14783
     },
     {
       "date": "2026-03-19",
@@ -360,8 +360,8 @@
       "ae": 1.168,
       "hr": 142,
       "dist": 4.17,
-      "marathon_pred": "4:03",
-      "marathon_sec": 243
+      "marathon_pred": "4:02:48",
+      "marathon_sec": 14568
     },
     {
       "date": "2026-03-21",
@@ -369,8 +369,8 @@
       "ae": 1.113,
       "hr": 156,
       "dist": 10.04,
-      "marathon_pred": "4:15",
-      "marathon_sec": 255
+      "marathon_pred": "4:14:47",
+      "marathon_sec": 15287
     },
     {
       "date": "2026-03-23",
@@ -378,8 +378,8 @@
       "ae": 1.11,
       "hr": 156,
       "dist": 3.36,
-      "marathon_pred": "4:15",
-      "marathon_sec": 255
+      "marathon_pred": "4:15:29",
+      "marathon_sec": 15329
     },
     {
       "date": "2026-03-25",
@@ -387,8 +387,8 @@
       "ae": 1.267,
       "hr": 149,
       "dist": 4.14,
-      "marathon_pred": "3:44",
-      "marathon_sec": 224
+      "marathon_pred": "3:43:49",
+      "marathon_sec": 13429
     },
     {
       "date": "2026-03-28",
@@ -396,8 +396,8 @@
       "ae": 1.239,
       "hr": 147,
       "dist": 7.65,
-      "marathon_pred": "3:49",
-      "marathon_sec": 229
+      "marathon_pred": "3:48:53",
+      "marathon_sec": 13733
     },
     {
       "date": "2026-03-30",
@@ -405,8 +405,8 @@
       "ae": 1.162,
       "hr": 144,
       "dist": 3.53,
-      "marathon_pred": "4:04",
-      "marathon_sec": 244
+      "marathon_pred": "4:04:03",
+      "marathon_sec": 14643
     },
     {
       "date": "2026-03-31",
@@ -414,8 +414,8 @@
       "ae": 1.149,
       "hr": 149,
       "dist": 4.16,
-      "marathon_pred": "4:07",
-      "marathon_sec": 247
+      "marathon_pred": "4:06:48",
+      "marathon_sec": 14808
     },
     {
       "date": "2026-04-03",
@@ -423,8 +423,8 @@
       "ae": 1.242,
       "hr": 140,
       "dist": 4.15,
-      "marathon_pred": "3:48",
-      "marathon_sec": 228
+      "marathon_pred": "3:48:20",
+      "marathon_sec": 13700
     },
     {
       "date": "2026-04-04",
@@ -432,8 +432,8 @@
       "ae": 1.19,
       "hr": 150,
       "dist": 9.01,
-      "marathon_pred": "3:58",
-      "marathon_sec": 238
+      "marathon_pred": "3:58:18",
+      "marathon_sec": 14298
     },
     {
       "date": "2026-04-07",
@@ -441,8 +441,8 @@
       "ae": 1.239,
       "hr": 137,
       "dist": 3.08,
-      "marathon_pred": "3:49",
-      "marathon_sec": 229
+      "marathon_pred": "3:48:53",
+      "marathon_sec": 13733
     },
     {
       "date": "2026-04-10",
@@ -450,8 +450,8 @@
       "ae": 1.244,
       "hr": 136,
       "dist": 3.29,
-      "marathon_pred": "3:48",
-      "marathon_sec": 228
+      "marathon_pred": "3:47:58",
+      "marathon_sec": 13678
     },
     {
       "date": "2026-04-12",
@@ -459,8 +459,8 @@
       "ae": 1.188,
       "hr": 156,
       "dist": 10.19,
-      "marathon_pred": "3:59",
-      "marathon_sec": 239
+      "marathon_pred": "3:58:42",
+      "marathon_sec": 14322
     },
     {
       "date": "2026-04-18",
@@ -468,8 +468,8 @@
       "ae": 1.241,
       "hr": 151,
       "dist": 13.31,
-      "marathon_pred": "3:49",
-      "marathon_sec": 229
+      "marathon_pred": "3:48:31",
+      "marathon_sec": 13711
     },
     {
       "date": "2026-04-24",
@@ -477,19 +477,11 @@
       "ae": 1.074,
       "hr": 145,
       "dist": 3.01,
-      "marathon_pred": "4:24",
-      "marathon_sec": 264
+      "marathon_pred": "4:24:03",
+      "marathon_sec": 15843
     }
   ],
   "weather": [
-    {
-      "date": "2026-04-24",
-      "high": 66,
-      "low": 49,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
     {
       "date": "2026-04-25",
       "high": 48,
@@ -537,6 +529,14 @@
       "precip": 0.11,
       "windspeed": 15,
       "code": 51
+    },
+    {
+      "date": "2026-05-01",
+      "high": 56,
+      "low": 46,
+      "precip": 0.0,
+      "windspeed": 16,
+      "code": 3
     }
   ],
   "avg_pace_sec": 554.9,
@@ -586,5 +586,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for NYC!\n\n**Fitness Assessment**\nTom, you're demonstrating excellent aerobic fitness, evidenced by your recent Half Marathon at an impressive 8:35/mi pace, well within Z2. Your easy runs consistently maintain Z2 heart rates, indicating a solid foundation, though the Riegel prediction appears conservative compared to your actual race performance.\n\n**This Week's Focus**\nThis week, your focus is on continued aerobic development and active recovery. Aim for easy Z2 runs (around 9:30-10:00/mi) and a moderate long run, adjusting for the cool, rainy weekend weather. Ensure you're listening to your body after recent race efforts.\n\n**Key Priorities**\n*   **Consistent Z2 Mileage:** Continue building your aerobic base with regular, easy-paced runs.\n*   **Strength & Mobility:** Dedicate time to strength training and dynamic stretching for injury prevention.\n*   **Active Recovery:** Prioritize rest and smart nutrition to absorb training and prepare for the upcoming plan.\n\n**Watch Out For**\nBe mindful of pushing your easy runs too fast; ensure your heart rate stays comfortably in Z2 to maximize aerobic development and prevent early burnout.\n\n**Upcoming Milestones**\nThe official NYC Marathon training plan begins in 64 days on June 29th, marking the start of a more structured and progressive build towards race day."
+  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nTom is demonstrating excellent consistency, having completed a Half Marathon and 10-mile race recently with solid efforts. His easy runs are generally well-controlled in Zone 2, though some longer efforts lean towards the upper end of the zone. This shows a strong fitness base and good endurance as we approach the formal training block.\n\n**This Week's Focus**\nGiven the recent races and upcoming rainy weather, this week's priority is active recovery and maintaining consistent, easy mileage. Aim for your Z2 easy pace, roughly 9:30-10:00/mi, keeping your heart rate comfortably in the mid-Z2 range. Focus on listening to your body and adapting to the conditions.\n\n**Key Priorities**\n*   Prioritize recovery and active rest after your recent race efforts.\n*   Maintain consistent, easy mileage, strictly adhering to Zone 2 heart rate for most runs.\n*   Stay flexible with your schedule due to the varied weather forecast.\n\n**Watch Out For**\nBe mindful of pushing your easy runs too fast, particularly while recovering from the Half Marathon and 10-miler. Overdoing it now could lead to unnecessary fatigue or increase injury risk before base building officially begins.\n\n**Upcoming Milestones**\nThe official Base Building phase for your NYC Marathon plan kicks off on June 29th, marking the structured start of your marathon journey. This period will be crucial for building your aerobic engine and preparing for the specific demands of the race."
 }
