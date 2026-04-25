@@ -1331,6 +1331,7 @@ function renderPredChart(aeTrend) {
     }
   });
 }
+    
   // Linear trend line through smoothed data
   const n = smoothed.length;
   const xMean = (n - 1) / 2;
@@ -1421,6 +1422,12 @@ function renderPredChart(aeTrend) {
     }
   });
 }
+function renderPredChart(aeTrend) {
+  if (!aeTrend || aeTrend.length < 2) return;
+
+  const data = aeTrend.filter(r => r.marathon_sec);
+  console.log('predChart data points:', data.length, data[0]);  // ADD THIS
+  if (data.length < 2) return;
   
 // ── Race predictor ───────────────────────────────────────────────────────────
 function renderPredictor(avgPaceSec) {
