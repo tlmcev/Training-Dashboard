@@ -275,7 +275,8 @@ def update_readme(activities, current_week, advice, run_id, updated_at):
     print("✓ README.md updated")
 
 def calculate_aerobic_efficiency(activities):
-    """Calculate aerobic efficiency (meters/min per bpm) for each run with HR data."""
+    """Calculate AE and predicted marathon time for each run with HR data."""
+    MARATHON_HR_TARGET = 155  # top of Z2, Tom's aerobic ceiling
     results = []
     for a in activities:
         if not a.get('avg_hr') or a['avg_hr'] == 0:
@@ -283,16 +284,27 @@ def calculate_aerobic_efficiency(activities):
         if not a.get('moving_time_sec') or a['moving_time_sec'] == 0:
             continue
         dist_meters = a['distance_miles'] * 1609.34
-        speed_mpm = dist_meters / (a['moving_time_sec'] / 60)  # meters per minute
-        ae = round(speed_mpm / a['avg_hr'], 3)
+        speed_mpm   = dist_meters / (a['moving_time_sec'] / 60)
+        ae          = round(speed_mpm / a['avg_hr'], 3)
+
+        # Predicted marathon using AE-adjusted pace at marathon HR
+        # Project what speed would be at target HR using linear AE relationship
+        projected_speed_mpm = ae * MARATHON_HR_TARGET
+        projected_pace_sec  = 60 / (projected_speed_mpm / 1609.34 * 60)  # sec/mile
+        marathon_sec        = riegel_predict(projected_pace_sec, 26.2)
+        marathon_pred       = sec_to_time(marathon_sec)
+
         results.append({
-            'date': a['date'],
-            'name': a['name'],
-            'ae':   ae,
-            'hr':   a['avg_hr'],
-            'dist': a['distance_miles'],
+            'date':         a['date'],
+            'name':         a['name'],
+            'ae':           ae,
+            'hr':           a['avg_hr'],
+            'dist':         a['distance_miles'],
+            'marathon_pred': marathon_pred,
+            'marathon_sec': marathon_sec,
         })
     return sorted(results, key=lambda x: x['date'])
+    
 def get_nyc_weather():
     """Fetch 7-day hourly forecast for NYC from Open-Meteo (no API key needed)."""
     url = (
