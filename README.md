@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here's your coaching brief, Tom:
+Alright Tom, let's get you ready for November 1st! You've had a strong start to the spring.
 
 **Fitness Assessment**
-Tom is demonstrating excellent consistency, having completed a Half Marathon and 10-mile race recently with solid efforts. His easy runs are generally well-controlled in Zone 2, though some longer efforts lean towards the upper end of the zone. This shows a strong fitness base and good endurance as we approach the formal training block.
+Tom, your recent Newport Half Marathon (8:35/mi in Z2) and Cherry Blossom 10 Mile (8:41/mi in Z3) demonstrate excellent race fitness and endurance. You consistently maintain easy runs in Zone 2 (9:00-10:20/mi), showing great aerobic control and a solid foundation. Your current fitness is strong, positioning you well for the upcoming training block.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom is demonstrating excellent consistency, having completed a Half Marathon and
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-25 04:00:33 UTC | Run ID: 24922077441*
+*Last updated: 2026-04-25 04:10:19 UTC | Run ID: 24922253330*
