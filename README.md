@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for November 1st! You've had a strong start to the spring.
+Hey Tom, great work lately! Let's get you ready for NYC.
 
 **Fitness Assessment**
-Tom, your recent Newport Half Marathon (8:35/mi in Z2) and Cherry Blossom 10 Mile (8:41/mi in Z3) demonstrate excellent race fitness and endurance. You consistently maintain easy runs in Zone 2 (9:00-10:20/mi), showing great aerobic control and a solid foundation. Your current fitness is strong, positioning you well for the upcoming training block.
+You're demonstrating excellent aerobic fitness and race readiness, as evidenced by your strong Newport Half Marathon (1:53:30) and Cherry Blossom 10-Mile performances, which significantly outperform general predictions. Your easy runs are consistently well-paced within Zone 2, indicating a solid and consistent aerobic base crucial for marathon training.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent Newport Half Marathon (8:35/mi in Z2) and Cherry Blossom 10 Mil
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-25 04:10:19 UTC | Run ID: 24922253330*
+*Last updated: 2026-04-25 04:20:50 UTC | Run ID: 24922430914*
