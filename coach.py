@@ -171,29 +171,28 @@ def get_gemini_advice(activities, current_week, avg_pace_sec, hr_distribution, w
 
     prompt = f"""You are an expert marathon coach for an athlete named Tom.
 Today is {today}. Goal: NYC Marathon on {MARATHON_DATE}.
-Phase: {"BASE BUILDING" if current_week == 0 else f"Week {current_week} of 18, Hal Higdon Novice 2"}
+Phase: {"BASE BUILDING - plan starts June 29, 2026" if current_week == 0 else f"Week {current_week} of 18, Hal Higdon Novice 2"}
 Days to plan start: {max(0, (datetime(2026,6,29) - datetime.now()).days)}
 Days to marathon: {(datetime(2026,11,1) - datetime.now()).days}
-Upcoming NYC weather (next 7 days):
-{chr(10).join([f"  {w['date']}: {weather_description(w['code'], w['low'])[1]}, High {w['high']}F / Low {w['low']}F, Wind {w['windspeed']}mph, Precip {w['precip']}in" for w in weather]) if weather else "  (unavailable)"}
+
+Upcoming NYC weather:
+{chr(10).join([f"  {w['date']}: {weather_description(w['code'], w['low'])[1]}, High {w['high']}F / Low {w['low']}F, Wind {w['windspeed']}mph" for w in weather]) if weather else "  (unavailable)"}
 
 Tom's recent runs:
 {runs_block}
 
-HR zone context (max HR 190):
-- Z1 Recovery: <124 bpm | Z2 Endurance: 124-154 bpm | Z3 Tempo: 155-169 bpm | Z4 Threshold: 170-184 bpm | Z5 Anaerobic: >185 bpm
-- Easy runs should be Z2. Flag any easy runs running hot (Z3+).
-- Recent zone distribution: {hr_distribution}
+HR zones (max HR 190): Z1 <124 | Z2 124-154 | Z3 155-169 | Z4 170-184 | Z5 >185
+Easy runs target: Z2. Recent zone distribution: {hr_distribution}
 
-Performance:
 {predictor_block}
 
-Write a concise coaching brief for Tom with these sections:
-**Fitness Assessment** — analyze his recent runs with specific numbers.
-**This Week's Focus** — exact target paces, what to prioritize.
+Write a coaching brief for Tom. Keep each section to 2-3 sentences max.
+
+**Fitness Assessment** — pacing trends and consistency from the data.
+**This Week's Focus** — target paces and priorities.
 **Key Priorities** — 2-3 bullet points.
-**Watch Out For** — any red flags.
-**Upcoming Milestones** — next 2-3 weeks preview.
+**Watch Out For** — one key red flag.
+**Upcoming Milestones** — one thing to look forward to.
 """
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_KEY}"
