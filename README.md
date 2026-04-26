@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief, Tom:
+Alright Tom, let's get you ready for NYC! Here's your brief as we prepare for the official base building phase.
 
 **Fitness Assessment**
-Tom, you're showing excellent consistency, having recently completed a half marathon and a 10-mile race with strong performances. Your easy runs are consistently in Zone 2, indicating great discipline in managing effort and building a solid aerobic base. This consistent training and race experience set a strong foundation for your upcoming marathon build.
+You've shown excellent endurance with recent strong performances in a Half Marathon and a 10-mile race, indicating a solid aerobic foundation. Your easy runs are consistently well-controlled in Zone 2, which is crucial for building stamina and recovery. This consistency is exactly what we want to see as we gear up for a structured plan.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you're showing excellent consistency, having recently completed a half mara
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-25 16:41:48 UTC | Run ID: 24935615125*
+*Last updated: 2026-04-26 14:10:36 UTC | Run ID: 24958635799*
