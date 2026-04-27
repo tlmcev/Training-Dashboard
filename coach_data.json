@@ -1,9 +1,22 @@
 {
-  "updated_at": "2026-04-26 14:10:36",
+  "updated_at": "2026-04-27 14:20:18",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 63,
+  "days_to_plan_start": 62,
   "activities": [
+    {
+      "id": 18277405077,
+      "name": "\u201cSigned, Sealed, Delivered (I\u2019m Yours)\u201d- Stevie Wonder",
+      "date": "2026-04-27",
+      "distance_miles": 3.02,
+      "moving_time_sec": 1596,
+      "pace_per_mile": "8:48",
+      "pace_seconds": 528.5,
+      "elevation_ft": 145.0,
+      "avg_hr": 147,
+      "hr_zone": "Z2",
+      "suffer_score": 30.0
+    },
     {
       "id": 18241386847,
       "name": "\u201cJessica\u201d - Allman Brothers",
@@ -297,6 +310,10 @@
     {
       "week_start": "2026-04-20",
       "miles": 3.0
+    },
+    {
+      "week_start": "2026-04-27",
+      "miles": 3.0
     }
   ],
   "ae_trend": [
@@ -479,72 +496,81 @@
       "dist": 3.01,
       "marathon_pred": "4:24:03",
       "marathon_sec": 15843
+    },
+    {
+      "date": "2026-04-27",
+      "name": "\u201cSigned, Sealed, Delivered (I\u2019m Yours)\u201d- Stevie Wonder",
+      "ae": 1.243,
+      "hr": 147,
+      "dist": 3.02,
+      "marathon_pred": "3:48:09",
+      "marathon_sec": 13689
     }
   ],
   "weather": [
     {
-      "date": "2026-04-26",
-      "high": 53,
-      "low": 41,
-      "precip": 0.17,
-      "windspeed": 10,
-      "code": 63
-    },
-    {
       "date": "2026-04-27",
-      "high": 62,
-      "low": 38,
+      "high": 66,
+      "low": 41,
       "precip": 0.0,
-      "windspeed": 10,
-      "code": 3
+      "windspeed": 8,
+      "code": 1
     },
     {
       "date": "2026-04-28",
-      "high": 60,
-      "low": 41,
+      "high": 62,
+      "low": 42,
       "precip": 0.0,
-      "windspeed": 12,
+      "windspeed": 10,
       "code": 3
     },
     {
       "date": "2026-04-29",
       "high": 56,
-      "low": 51,
-      "precip": 0.0,
-      "windspeed": 15,
-      "code": 51
+      "low": 45,
+      "precip": 0.48,
+      "windspeed": 16,
+      "code": 63
     },
     {
       "date": "2026-04-30",
-      "high": 54,
+      "high": 57,
       "low": 49,
-      "precip": 0.63,
-      "windspeed": 18,
-      "code": 81
+      "precip": 0.35,
+      "windspeed": 15,
+      "code": 63
     },
     {
       "date": "2026-05-01",
       "high": 63,
       "low": 45,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 12,
       "code": 3
     },
     {
       "date": "2026-05-02",
-      "high": 57,
+      "high": 54,
       "low": 48,
+      "precip": 0.32,
+      "windspeed": 15,
+      "code": 53
+    },
+    {
+      "date": "2026-05-03",
+      "high": 58,
+      "low": 45,
       "precip": 0.04,
-      "windspeed": 14,
+      "windspeed": 21,
       "code": 51
     }
   ],
-  "avg_pace_sec": 554.9,
+  "avg_pace_sec": 553.6,
   "predictions": {
-    "5k": "26:18",
-    "10k": "54:49",
-    "half": "2:01:09",
-    "marathon": "4:12:36"
+    "5k": "26:14",
+    "10k": "54:42",
+    "half": "2:00:53",
+    "marathon": "4:12:02"
   },
   "pace_zones": {
     "Z1": {
@@ -580,11 +606,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 17,
+    "Z2": 18,
     "Z3": 3,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for NYC! Here's your brief as we prepare for the official base building phase.\n\n**Fitness Assessment**\nYou've shown excellent endurance with recent strong performances in a Half Marathon and a 10-mile race, indicating a solid aerobic foundation. Your easy runs are consistently well-controlled in Zone 2, which is crucial for building stamina and recovery. This consistency is exactly what we want to see as we gear up for a structured plan.\n\n**This Week's Focus**\nWith 63 days until your official base building begins, this week's priority is to maintain consistent, easy aerobic mileage without pushing too hard. Focus on accumulating comfortable Z2 miles to continue building your engine, and ensure you're listening to your body, especially with the variable weather forecast.\n\n**Key Priorities**\n*   **Consistent Z2 Mileage**: Prioritize easy, conversational runs to further cement your aerobic base.\n*   **Gradual Volume Increase**: Aim for a slight, manageable increase in total weekly mileage, nothing drastic.\n*   **Active Recovery/Mobility**: Incorporate foam rolling, stretching, or light cross-training to aid recovery and prevent stiffness.\n\n**Watch Out For**\nAvoid the temptation to push pace or mileage too aggressively this week, especially coming off recent races and before the official plan begins. Overreaching now could lead to unnecessary fatigue or injury, setting you back before we even start.\n\n**Upcoming Milestones**\nThe official start of your NYC Marathon Base Building plan on June 29th is just around the corner, which will kick off the structured journey towards race day!"
+  "advice": ""
 }

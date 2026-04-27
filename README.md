@@ -8,20 +8,15 @@
 
 | Workout | Distance | Pace | Date |
 | :--- | :--- | :--- | :--- |
+| “Signed, Sealed, Delivered (I’m Yours)”- Stevie Wonder | 3.02 mi | 8:48/mi | 2026-04-27 |
 | “Jessica” - Allman Brothers | 3.01 mi | 10:20/mi | 2026-04-24 |
 | Newport Half Marathon! | 13.31 mi | 8:35/mi | 2026-04-18 |
 | Cherry Blossom 10 Mile | 10.19 mi | 8:41/mi | 2026-04-12 |
 | “Cough Syrup” - Young The Giant | 3.29 mi | 9:30/mi | 2026-04-10 |
-| “California”- Phantom Planet | 3.08 mi | 9:28/mi | 2026-04-07 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for NYC! Here's your brief as we prepare for the official base building phase.
-
-**Fitness Assessment**
-You've shown excellent endurance with recent strong performances in a Half Marathon and a 10-mile race, indicating a solid aerobic foundation. Your easy runs are consistently well-controlled in Zone 2, which is crucial for building stamina and recovery. This consistency is exactly what we want to see as we gear up for a structured plan.
-
-**This Week's Focus**
+No advice yet.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +46,4 @@ You've shown excellent endurance with recent strong performances in a Half Marat
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-26 14:10:36 UTC | Run ID: 24958635799*
+*Last updated: 2026-04-27 14:20:18 UTC | Run ID: 25000510103*
