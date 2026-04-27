@@ -16,7 +16,12 @@
 
 ## AI Coach Snapshot
 
-No advice yet.
+Here's your coaching brief, Tom:
+
+**Fitness Assessment**
+Tom is demonstrating strong aerobic fitness, as evidenced by solid performances in the Newport Half and Cherry Blossom 10 Mile, largely within his Z2/Z3 heart rate zones. His recent easy runs consistently keep him within the target Z2, indicating a good base and readiness for the upcoming training block.
+
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -46,4 +51,4 @@ No advice yet.
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-27 14:20:18 UTC | Run ID: 25000510103*
+*Last updated: 2026-04-27 16:14:46 UTC | Run ID: 25006391697*

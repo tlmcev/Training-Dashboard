@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27 14:20:18",
+  "updated_at": "2026-04-27 16:14:46",
   "current_week": 0,
   "phase": "base_building",
   "days_to_plan_start": 62,
@@ -510,10 +510,10 @@
   "weather": [
     {
       "date": "2026-04-27",
-      "high": 66,
+      "high": 67,
       "low": 41,
       "precip": 0.0,
-      "windspeed": 8,
+      "windspeed": 10,
       "code": 1
     },
     {
@@ -612,5 +612,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": ""
+  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nTom is demonstrating strong aerobic fitness, as evidenced by solid performances in the Newport Half and Cherry Blossom 10 Mile, largely within his Z2/Z3 heart rate zones. His recent easy runs consistently keep him within the target Z2, indicating a good base and readiness for the upcoming training block.\n\n**This Week's Focus**\nThis week, our focus is on maintaining consistent, easy aerobic mileage to preserve your current fitness. Prioritize listening to your body and adjusting your pace to truly stay within Z2, especially with some variable weather ahead.\n\n**Key Priorities**\n*   **Consistent Easy Mileage**: Aim for regular, comfortable runs to maintain your aerobic engine.\n*   **Pacing Discipline**: Ensure your easy runs truly stay in Zone 2, resisting the urge to push the pace.\n*   **Listen to Your Body**: Pay attention to any aches or fatigue, prioritizing recovery as needed.\n\n**Watch Out For**\nBe mindful of your pacing on easy runs; today's 8:48/mi pace, while still Z2, is on the faster side for an easy effort and could creep into Zone 3 if you're not careful.\n\n**Upcoming Milestones**\nLook forward to the official start of your BASE BUILDING phase on June 29, which will mark the structured beginning of your journey towards the NYC Marathon!"
 }
