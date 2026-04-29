@@ -169,11 +169,41 @@ def get_gemini_advice(activities, current_week, avg_pace_sec, hr_distribution, w
     else:
         predictor_block = "  (Insufficient pace data for predictions)"
 
+    # Build current week's schedule for Gemini
+    HH_SCHEDULE = [
+        ['Rest','3m run','5m pace','3m run','Rest','8m','Cross'],
+        ['Rest','3m run','5m run', '3m run','Rest','9m','Cross'],
+        ['Rest','3m run','5m pace','3m run','Rest','6m','Cross'],
+        ['Rest','3m run','6m pace','3m run','Rest','11m','Cross'],
+        ['Rest','3m run','6m run', '3m run','Rest','12m','Cross'],
+        ['Rest','3m run','6m pace','3m run','Rest','9m','Cross'],
+        ['Rest','4m run','7m pace','4m run','Rest','14m','Cross'],
+        ['Rest','4m run','7m run', '4m run','Rest','15m','Cross'],
+        ['Rest','4m run','7m pace','4m run','Rest','Rest','Half Marathon'],
+        ['Rest','4m run','8m pace','4m run','Rest','17m','Cross'],
+        ['Rest','5m run','8m run', '5m run','Rest','18m','Cross'],
+        ['Rest','5m run','8m pace','5m run','Rest','13m','Cross'],
+        ['Rest','5m run','5m pace','5m run','Rest','19m','Cross'],
+        ['Rest','5m run','8m run', '5m run','Rest','12m','Cross'],
+        ['Rest','5m run','5m pace','5m run','Rest','20m','Cross'],
+        ['Rest','5m run','4m pace','5m run','Rest','12m','Cross'],
+        ['Rest','4m run','3m run', '4m run','Rest','8m','Cross'],
+        ['Rest','3m run','2m run', 'Rest',  'Rest','2m run','Marathon'],
+    ]
+    DAYS = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun']
+    if current_week > 0 and current_week <= 18:
+        week_sched = HH_SCHEDULE[current_week - 1]
+        week_block = "  " + " | ".join([f"{DAYS[i]}: {week_sched[i]}" for i in range(7)])
+    else:
+        week_block = "  Base building — easy aerobic running, no structured plan yet"
+
     prompt = f"""You are an expert marathon coach for an athlete named Tom.
 Today is {today}. Goal: NYC Marathon on {MARATHON_DATE}.
 Phase: {"BASE BUILDING - plan starts June 29, 2026" if current_week == 0 else f"Week {current_week} of 18, Hal Higdon Novice 2"}
 Days to plan start: {max(0, (datetime(2026,6,29) - datetime.now()).days)}
 Days to marathon: {(datetime(2026,11,1) - datetime.now()).days}
+This week's plan (Hal Higdon Novice 2):
+{week_block}
 
 Upcoming NYC weather:
 {chr(10).join([f"  {w['date']}: {weather_description(w['code'], w['low'])[1]}, High {w['high']}F / Low {w['low']}F, Wind {w['windspeed']}mph" for w in weather]) if weather else "  (unavailable)"}
@@ -222,24 +252,24 @@ def update_readme(activities, current_week, advice, run_id, updated_at):
 
     novice_2_plan = """| Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | Rest | 3m | 3m | 3m | Rest | 4m | Cross |
-| 2 | Rest | 3m | 3m | 3m | Rest | 5m | Cross |
-| 3 | Rest | 3m | 3m | 3m | Rest | 6m | Cross |
-| 4 | Rest | 3m | 4m | 3m | Rest | 7m | Cross |
-| 5 | Rest | 3m | 4m | 3m | Rest | 8m | Cross |
-| 6 | Rest | 3m | 4m | 3m | Rest | 9m | Cross |
-| 7 | Rest | 3m | 5m | 3m | Rest | 10m | Cross |
-| 8 | Rest | 3m | 5m | 3m | Rest | 11m | Cross |
-| 9 | Rest | 3m | 5m | 3m | Rest | 12m | Cross |
-| 10 | Rest | 3m | 5m | 3m | Rest | 13m | Cross |
-| 11 | Rest | 3m | 6m | 3m | Rest | 14m | Cross |
-| 12 | Rest | 3m | 6m | 3m | Rest | 15m | Cross |
-| 13 | Rest | 3m | 6m | 3m | Rest | 16m | Cross |
-| 14 | Rest | 3m | 7m | 3m | Rest | 17m | Cross |
-| 15 | Rest | 3m | 7m | 3m | Rest | 18m | Cross |
-| 16 | Rest | 3m | 8m | 3m | Rest | 19m | Cross |
-| 17 | Rest | 3m | 4m | 2m | Rest | 8m | Cross |
-| 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |"""
+| 1 | Rest | 3m run | 5m pace | 3m run | Rest | 8m | Cross |
+| 2 | Rest | 3m run | 5m run | 3m run | Rest | 9m | Cross |
+| 3 | Rest | 3m run | 5m pace | 3m run | Rest | 6m | Cross |
+| 4 | Rest | 3m run | 6m pace | 3m run | Rest | 11m | Cross |
+| 5 | Rest | 3m run | 6m run | 3m run | Rest | 12m | Cross |
+| 6 | Rest | 3m run | 6m pace | 3m run | Rest | 9m | Cross |
+| 7 | Rest | 4m run | 7m pace | 4m run | Rest | 14m | Cross |
+| 8 | Rest | 4m run | 7m run | 4m run | Rest | 15m | Cross |
+| 9 | Rest | 4m run | 7m pace | 4m run | Rest | Rest | Half Marathon |
+| 10 | Rest | 4m run | 8m pace | 4m run | Rest | 17m | Cross |
+| 11 | Rest | 5m run | 8m run | 5m run | Rest | 18m | Cross |
+| 12 | Rest | 5m run | 8m pace | 5m run | Rest | 13m | Cross |
+| 13 | Rest | 5m run | 5m pace | 5m run | Rest | 19m | Cross |
+| 14 | Rest | 5m run | 8m run | 5m run | Rest | 12m | Cross |
+| 15 | Rest | 5m run | 5m pace | 5m run | Rest | 20m | Cross |
+| 16 | Rest | 5m run | 4m pace | 5m run | Rest | 12m | Cross |
+| 17 | Rest | 4m run | 3m run | 4m run | Rest | 8m | Cross |
+| 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |"""
 
     # Short advice excerpt for README (first 3 lines)
     advice_excerpt = "\n".join(advice.split("\n")[:6]) if advice else "No advice yet."
