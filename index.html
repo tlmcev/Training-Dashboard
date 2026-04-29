@@ -593,10 +593,14 @@
 
     /* Hero */
     .hero { grid-template-columns: 1fr; gap: 16px; }
+    .hero > div:first-child { order: 1; }  /* title */
+    .countdown-box { order: 2; }            /* countdown above map */
+    .hero-map { order: 3; }                 /* map below countdown */
 
     .hero-title { font-size: clamp(40px, 12vw, 64px); }
-    .countdown-box { text-align: left; display: flex; flex-direction: column; gap: 4px; align-items: flex-start; }
+    .countdown-box { text-align: left; }
     .countdown-num { font-size: 48px; }
+    .countdown-plan { display: none; }
 
     /* Topbar */
     .topbar-meta { display: none; }
@@ -823,7 +827,7 @@
     <div class="countdown-box" style="text-align:right;">
       <div class="countdown-num" id="daysLeft">—</div>
       <div class="countdown-label">Days to Race</div>
-      <div style="margin-top:12px;">
+      <div class="countdown-plan" style="margin-top:12px;">
         <div class="countdown-num" style="font-size:36px;color:var(--muted);" id="daysToPlan">—</div>
         <div class="countdown-label">Days to Plan Start</div>
       </div>
