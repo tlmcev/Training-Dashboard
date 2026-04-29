@@ -316,6 +316,9 @@
     border-radius: 8px;
     border: 1px solid transparent;
     transition: all 0.15s;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
   }
 
   .run-item:hover { background: var(--faint); border-color: var(--faint); }
@@ -1136,7 +1139,10 @@ function renderRuns(activities) {
       ? `<span style="font-family:'Barlow Condensed',sans-serif;font-size:10px;letter-spacing:1px;padding:2px 6px;border-radius:4px;background:${zoneColors[run.hr_zone]};color:#fff;">${run.hr_zone}</span>`
       : '';
     const hrText = run.avg_hr ? `${run.avg_hr}bpm` : '—';
-    return `<div class="run-item">
+    const stravaUrl = run.id ? `https://www.strava.com/activities/${run.id}` : null;
+    const itemTag = stravaUrl ? `a href="${stravaUrl}" target="_blank" rel="noopener"` : 'div';
+    const closeTag = stravaUrl ? 'a' : 'div';
+    return `<${itemTag} class="run-item">
       <div class="run-icon">${getRunEmoji(run)}</div>
       <div class="run-info">
         <div class="run-name">${run.name}</div>
@@ -1146,7 +1152,7 @@ function renderRuns(activities) {
         <div class="run-dist">${dist} mi</div>
         <div class="run-pace">${pace}/mi · ${hrText}</div>
       </div>
-    </div>`;
+    </${closeTag}>`;
   }).join('');
   document.getElementById('runList').innerHTML = html;
 }
