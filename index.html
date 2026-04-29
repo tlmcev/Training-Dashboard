@@ -28,6 +28,7 @@
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
     min-height: 100vh;
+    overflow-x: hidden;
   }
 
   /* ── Topbar ── */
@@ -77,7 +78,7 @@
   }
 
   /* ── Layout ── */
-  .page { max-width: 1100px; margin: 0 auto; padding: 40px 24px 80px; }
+  .page { max-width: 1100px; margin: 0 auto; padding: 40px 24px 80px; overflow-x: hidden; }
 
   /* ── Hero ── */
   .hero {
@@ -207,6 +208,7 @@
     animation: fadeUp 0.6s 0.2s ease both;
     align-items: stretch;
   }
+  .grid-2 > * { min-width: 0; }
 
   .grid-3 {
     display: grid;
@@ -334,6 +336,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    max-width: 100%;
   }
 
   .run-date {
@@ -592,7 +595,7 @@
     .hero { grid-template-columns: 1fr; gap: 16px; }
 
     .hero-title { font-size: clamp(40px, 12vw, 64px); }
-    .countdown-box { text-align: left; display: flex; gap: 24px; align-items: flex-end; }
+    .countdown-box { text-align: left; display: flex; flex-direction: column; gap: 4px; align-items: flex-start; }
     .countdown-num { font-size: 48px; }
 
     /* Topbar */
@@ -1023,6 +1026,7 @@ function secToTime(totalSecs) {
 }
 function getCurrentWeek() {
   const now = new Date();
+  if (now < PLAN_START) return 0; // before plan starts — no week highlighted
   const diffMs = now - PLAN_START;
   const week = Math.ceil(diffMs / (7 * 86400000));
   return Math.min(Math.max(week, 1), 18);
@@ -1384,8 +1388,8 @@ function renderScheduleTable(currentWeek) {
   const body = HH.map((week, i) => {
     const wn = i + 1;
     let rowClass = '';
-    if (wn < currentWeek) rowClass = 'past-week';
-    if (wn === currentWeek) rowClass = 'current-week';
+    if (currentWeek > 0 && wn < currentWeek) rowClass = 'past-week';
+    if (currentWeek > 0 && wn === currentWeek) rowClass = 'current-week';
     const cells = week.map((day, di) => {
       let cls = '';
       if (day === 'Rest' || day === 'Cross') cls = 'rest-day';
@@ -1393,7 +1397,7 @@ function renderScheduleTable(currentWeek) {
       if (wn === 18 && di === 6) cls = 'marathon';
       return `<td class="${cls}">${day}</td>`;
     }).join('');
-    const badge = `<span class="week-badge ${wn===currentWeek?'current':''}">${wn}</span>`;
+    const badge = `<span class="week-badge ${currentWeek > 0 && wn===currentWeek?'current':''}">${wn}</span>`;
     return `<tr class="${rowClass}"><td>${badge}</td>${cells}</tr>`;
   }).join('');
   document.getElementById('scheduleBody').innerHTML = body;
