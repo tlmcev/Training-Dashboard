@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for November! Here's your coaching brief as we look ahead to the NYC Marathon.
+Here's your coaching brief, Tom:
 
 **Fitness Assessment**
-Tom, you've demonstrated strong race fitness with a recent 1:54 Half Marathon and a solid 10-mile effort, both showing excellent endurance. Your easy runs are consistently in Z2, indicating great aerobic control and a healthy base.
+Tom is demonstrating excellent aerobic fitness and consistency, with strong recent race performances in the Half Marathon and 10 Mile, largely staying within Z2/low Z3. His easy run paces are well-controlled, showing a solid foundation as we approach the formal training block.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you've demonstrated strong race fitness with a recent 1:54 Half Marathon an
 | 18 | Rest | 3m | 2m | Rest | Rest | 2m | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-28 17:13:51 UTC | Run ID: 25067183277*
+*Last updated: 2026-04-29 16:24:51 UTC | Run ID: 25120823140*

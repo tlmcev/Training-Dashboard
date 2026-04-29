@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-28 17:13:51",
+  "updated_at": "2026-04-29 16:24:51",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 61,
+  "days_to_plan_start": 60,
   "activities": [
     {
       "id": 18277405077,
@@ -509,60 +509,60 @@
   ],
   "weather": [
     {
-      "date": "2026-04-28",
-      "high": 68,
-      "low": 44,
-      "precip": 0.0,
-      "windspeed": 11,
-      "code": 3
-    },
-    {
       "date": "2026-04-29",
-      "high": 52,
-      "low": 46,
-      "precip": 0.16,
-      "windspeed": 12,
-      "code": 63
+      "high": 63,
+      "low": 49,
+      "precip": 0.08,
+      "windspeed": 13,
+      "code": 61
     },
     {
       "date": "2026-04-30",
-      "high": 58,
-      "low": 46,
-      "precip": 1.06,
-      "windspeed": 16,
+      "high": 57,
+      "low": 48,
+      "precip": 0.45,
+      "windspeed": 9,
       "code": 63
     },
     {
       "date": "2026-05-01",
-      "high": 60,
-      "low": 44,
+      "high": 61,
+      "low": 40,
       "precip": 0.0,
-      "windspeed": 17,
+      "windspeed": 16,
       "code": 3
     },
     {
       "date": "2026-05-02",
-      "high": 60,
-      "low": 44,
-      "precip": 0.0,
-      "windspeed": 15,
-      "code": 3
+      "high": 58,
+      "low": 49,
+      "precip": 0.04,
+      "windspeed": 7,
+      "code": 51
     },
     {
       "date": "2026-05-03",
-      "high": 56,
-      "low": 43,
+      "high": 60,
+      "low": 45,
       "precip": 0.0,
       "windspeed": 16,
       "code": 3
     },
     {
       "date": "2026-05-04",
-      "high": 55,
-      "low": 48,
+      "high": 63,
+      "low": 51,
       "precip": 0.0,
-      "windspeed": 18,
+      "windspeed": 22,
       "code": 3
+    },
+    {
+      "date": "2026-05-05",
+      "high": 66,
+      "low": 49,
+      "precip": 0.05,
+      "windspeed": 17,
+      "code": 51
     }
   ],
   "avg_pace_sec": 553.6,
@@ -612,5 +612,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for November! Here's your coaching brief as we look ahead to the NYC Marathon.\n\n**Fitness Assessment**\nTom, you've demonstrated strong race fitness with a recent 1:54 Half Marathon and a solid 10-mile effort, both showing excellent endurance. Your easy runs are consistently in Z2, indicating great aerobic control and a healthy base.\n\n**This Week's Focus**\nGiven the upcoming rainy and windy weather, prioritize consistency with easy Z2 runs, adapting to conditions as needed. The goal is to maintain your current fitness and enjoy your running without pushing too hard.\n\n**Key Priorities**\n*   Maintain consistent, easy aerobic mileage, ensuring most runs are comfortably in Z2.\n*   Incorporate strength and mobility work to prepare your body for the increased demands of base building.\n*   Prioritize recovery and listen to your body, especially given the recent race efforts.\n\n**Watch Out For**\nAvoid the temptation to push paces too hard on easy runs, as this can hinder recovery and increase injury risk before your structured plan begins.\n\n**Upcoming Milestones**\nLook forward to the official start of your NYC Marathon base-building plan on June 29th, marking the formal beginning of your journey to November 1st!"
+  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nTom is demonstrating excellent aerobic fitness and consistency, with strong recent race performances in the Half Marathon and 10 Mile, largely staying within Z2/low Z3. His easy run paces are well-controlled, showing a solid foundation as we approach the formal training block.\n\n**This Week's Focus**\nGiven the upcoming rainy and windy weather, prioritize consistency with your easy runs, focusing on maintaining Z2 heart rates. Adapt your routes or consider indoor options like a treadmill to ensure safety and comfort.\n\n**Key Priorities**\n*   **Maintain Consistency:** Keep up your regular running schedule to sustain your aerobic base.\n*   **Smart Recovery:** Allow your body to fully recover from recent race efforts.\n*   **Weather Adaptation:** Be flexible with your run plans to manage challenging conditions safely.\n\n**Watch Out For**\nPay close attention to your body's signals, especially with the poor weather conditions, to avoid pushing too hard or risking injury before the official training plan begins.\n\n**Upcoming Milestones**\nLook forward to the official start of your Base Building phase on June 29th, which will mark the structured beginning of your NYC Marathon journey."
 }
