@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-29 16:24:51",
+  "updated_at": "2026-04-29 17:39:46",
   "current_week": 0,
   "phase": "base_building",
   "days_to_plan_start": 60,
@@ -510,23 +510,23 @@
   "weather": [
     {
       "date": "2026-04-29",
-      "high": 63,
-      "low": 49,
-      "precip": 0.08,
+      "high": 62,
+      "low": 48,
+      "precip": 0.07,
       "windspeed": 13,
-      "code": 61
+      "code": 53
     },
     {
       "date": "2026-04-30",
       "high": 57,
-      "low": 48,
-      "precip": 0.45,
+      "low": 47,
+      "precip": 0.2,
       "windspeed": 9,
-      "code": 63
+      "code": 61
     },
     {
       "date": "2026-05-01",
-      "high": 61,
+      "high": 62,
       "low": 40,
       "precip": 0.0,
       "windspeed": 16,
@@ -535,23 +535,23 @@
     {
       "date": "2026-05-02",
       "high": 58,
-      "low": 49,
-      "precip": 0.04,
+      "low": 50,
+      "precip": 0.08,
       "windspeed": 7,
-      "code": 51
+      "code": 53
     },
     {
       "date": "2026-05-03",
-      "high": 60,
-      "low": 45,
+      "high": 59,
+      "low": 46,
       "precip": 0.0,
       "windspeed": 16,
       "code": 3
     },
     {
       "date": "2026-05-04",
-      "high": 63,
-      "low": 51,
+      "high": 68,
+      "low": 48,
       "precip": 0.0,
       "windspeed": 22,
       "code": 3
@@ -559,8 +559,8 @@
     {
       "date": "2026-05-05",
       "high": 66,
-      "low": 49,
-      "precip": 0.05,
+      "low": 56,
+      "precip": 0.07,
       "windspeed": 17,
       "code": 51
     }
@@ -612,5 +612,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nTom is demonstrating excellent aerobic fitness and consistency, with strong recent race performances in the Half Marathon and 10 Mile, largely staying within Z2/low Z3. His easy run paces are well-controlled, showing a solid foundation as we approach the formal training block.\n\n**This Week's Focus**\nGiven the upcoming rainy and windy weather, prioritize consistency with your easy runs, focusing on maintaining Z2 heart rates. Adapt your routes or consider indoor options like a treadmill to ensure safety and comfort.\n\n**Key Priorities**\n*   **Maintain Consistency:** Keep up your regular running schedule to sustain your aerobic base.\n*   **Smart Recovery:** Allow your body to fully recover from recent race efforts.\n*   **Weather Adaptation:** Be flexible with your run plans to manage challenging conditions safely.\n\n**Watch Out For**\nPay close attention to your body's signals, especially with the poor weather conditions, to avoid pushing too hard or risking injury before the official training plan begins.\n\n**Upcoming Milestones**\nLook forward to the official start of your Base Building phase on June 29th, which will mark the structured beginning of your NYC Marathon journey."
+  "advice": "Alright Tom, excellent work so far! Let's get you ready for November 1st.\n\n### Coaching Brief\n\n**Fitness Assessment**\nTom, your recent race efforts, including the Newport Half and Cherry Blossom 10 Mile, demonstrate a strong aerobic foundation and good endurance. You're consistently executing your easy runs within Zone 2, which is exactly where you need to be for base building. This consistency, coupled with varied pacing, shows you're listening to your body effectively.\n\n**This Week's Focus**\nYour primary goal this week is to continue with easy, aerobic running, focusing on building your base without a structured plan. Aim to keep all your runs firmly in Zone 2 (124-154 bpm), prioritizing effort and listening to your body over specific paces. Be mindful of the upcoming drizzle and wind, dressing appropriately to stay comfortable and safe.\n\n**Key Priorities**\n*   **Consistent Z2 Running:** Maintain your easy, conversational pace to build your aerobic engine without undue stress.\n*   **Gradual Mileage Increase:** Focus on incrementally increasing your weekly volume at a comfortable effort.\n*   **Active Recovery & Listening to Your Body:** Prioritize rest, nutrition, and address any minor aches promptly to prevent issues.\n\n**Watch Out For**\nAvoid the temptation to push too hard or chase faster paces, especially after your recent race efforts; staying disciplined in Zone 2 is paramount for effective base building.\n\n**Upcoming Milestones**\nLook forward to June 29th, when your structured Hal Higdon Novice 2 plan officially begins, providing a clear and progressive roadmap for your marathon journey."
 }
