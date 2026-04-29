@@ -491,6 +491,7 @@
 
   .schedule-table td.long-run { color: var(--orange); font-weight: 600; }
   .schedule-table td.rest-day { color: var(--muted); }
+  .schedule-table td.pace-day { color: var(--blue); font-weight: 500; }
   .schedule-table td.marathon { color: var(--red); font-weight: 700; font-family: 'Barlow Condensed', sans-serif; letter-spacing: 1px; }
 
   .week-badge {
@@ -983,24 +984,24 @@
 <script>
 // ── Hal Higdon Novice 2 ──────────────────────────────────────────────────────
 const HH = [
-  ['Rest','3m easy','3m easy','3m easy','Rest','4m','Cross'],
-  ['Rest','3m easy','3m easy','3m easy','Rest','5m','Cross'],
-  ['Rest','3m easy','3m easy','3m easy','Rest','6m','Cross'],
-  ['Rest','3m easy','4m easy','3m easy','Rest','7m','Cross'],
-  ['Rest','3m easy','4m easy','3m easy','Rest','8m','Cross'],
-  ['Rest','3m easy','4m easy','3m easy','Rest','9m','Cross'],
-  ['Rest','3m easy','5m easy','3m easy','Rest','10m','Cross'],
-  ['Rest','3m easy','5m easy','3m easy','Rest','11m','Cross'],
-  ['Rest','3m easy','5m easy','3m easy','Rest','12m','Cross'],
-  ['Rest','3m easy','5m easy','3m easy','Rest','13m','Cross'],
-  ['Rest','3m easy','6m easy','3m easy','Rest','14m','Cross'],
-  ['Rest','3m easy','6m easy','3m easy','Rest','15m','Cross'],
-  ['Rest','3m easy','6m easy','3m easy','Rest','16m','Cross'],
-  ['Rest','3m easy','7m easy','3m easy','Rest','17m','Cross'],
-  ['Rest','3m easy','7m easy','3m easy','Rest','18m','Cross'],
-  ['Rest','3m easy','8m easy','3m easy','Rest','19m','Cross'],
-  ['Rest','3m easy','4m easy','2m easy','Rest','8m','Cross'],
-  ['Rest','3m easy','2m easy','Rest','Rest','2m shakeout','🏆 MARATHON'],
+  ['Rest','3m run','5m pace','3m run','Rest','8m','Cross'],
+  ['Rest','3m run','5m run', '3m run','Rest','9m','Cross'],
+  ['Rest','3m run','5m pace','3m run','Rest','6m','Cross'],
+  ['Rest','3m run','6m pace','3m run','Rest','11m','Cross'],
+  ['Rest','3m run','6m run', '3m run','Rest','12m','Cross'],
+  ['Rest','3m run','6m pace','3m run','Rest','9m','Cross'],
+  ['Rest','4m run','7m pace','4m run','Rest','14m','Cross'],
+  ['Rest','4m run','7m run', '4m run','Rest','15m','Cross'],
+  ['Rest','4m run','7m pace','4m run','Rest','Rest','Half Marathon'],
+  ['Rest','4m run','8m pace','4m run','Rest','17m','Cross'],
+  ['Rest','5m run','8m run', '5m run','Rest','18m','Cross'],
+  ['Rest','5m run','8m pace','5m run','Rest','13m','Cross'],
+  ['Rest','5m run','5m pace','5m run','Rest','19m','Cross'],
+  ['Rest','5m run','8m run', '5m run','Rest','12m','Cross'],
+  ['Rest','5m run','5m pace','5m run','Rest','20m','Cross'],
+  ['Rest','5m run','4m pace','5m run','Rest','12m','Cross'],
+  ['Rest','4m run','3m run', '4m run','Rest','8m','Cross'],
+  ['Rest','3m run','2m run', 'Rest',  'Rest','2m run','🏆 MARATHON'],
 ];
 
 const DAYS = ['MON','TUE','WED','THU','FRI','SAT','SUN'];
@@ -1397,8 +1398,10 @@ function renderScheduleTable(currentWeek) {
     const cells = week.map((day, di) => {
       let cls = '';
       if (day === 'Rest' || day === 'Cross') cls = 'rest-day';
-      if (di === 6 && wn < 18) cls = 'long-run';
+      if (day === 'Half Marathon') cls = 'long-run';
+      if (di === 5 && day !== 'Rest' && wn < 18) cls = 'long-run'; // Saturday long run
       if (wn === 18 && di === 6) cls = 'marathon';
+      if (day.includes('pace')) cls = 'pace-day';
       return `<td class="${cls}">${day}</td>`;
     }).join('');
     const badge = `<span class="week-badge ${currentWeek > 0 && wn===currentWeek?'current':''}">${wn}</span>`;
