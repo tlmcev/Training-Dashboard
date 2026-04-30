@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | Date |
 | :--- | :--- | :--- | :--- |
+| “Bust a Move” - Young MC | 4.14 mi | 9:09/mi | 2026-04-30 |
 | “Signed, Sealed, Delivered (I’m Yours)”- Stevie Wonder | 3.02 mi | 8:48/mi | 2026-04-27 |
 | “Jessica” - Allman Brothers | 3.01 mi | 10:20/mi | 2026-04-24 |
 | Newport Half Marathon! | 13.31 mi | 8:35/mi | 2026-04-18 |
 | Cherry Blossom 10 Mile | 10.19 mi | 8:41/mi | 2026-04-12 |
-| “Cough Syrup” - Young The Giant | 3.29 mi | 9:30/mi | 2026-04-10 |
 
 ## AI Coach Snapshot
 
-Alright Tom, excellent work so far! Let's get you ready for November 1st.
-
-### Coaching Brief
+Hey Tom, great work on the roads! Here's your coaching brief:
 
 **Fitness Assessment**
-Tom, your recent race efforts, including the Newport Half and Cherry Blossom 10 Mile, demonstrate a strong aerobic foundation and good endurance. You're consistently executing your easy runs within Zone 2, which is exactly where you need to be for base building. This consistency, coupled with varied pacing, shows you're listening to your body effectively.
+Your recent race efforts, including the Newport Half and Cherry Blossom 10 Mile, demonstrate solid endurance and a strong aerobic base. Consistently hitting Zone 2 on your easy runs shows excellent discipline and effective aerobic development. This consistency is exactly what we want to see in this phase.
+
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent race efforts, including the Newport Half and Cherry Blossom 10 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-29 17:39:46 UTC | Run ID: 25124361030*
+*Last updated: 2026-04-30 16:09:24 UTC | Run ID: 25176164999*

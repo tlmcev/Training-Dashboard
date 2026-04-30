@@ -1,9 +1,22 @@
 {
-  "updated_at": "2026-04-29 17:39:46",
+  "updated_at": "2026-04-30 16:09:24",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 60,
+  "days_to_plan_start": 59,
   "activities": [
+    {
+      "id": 18318310719,
+      "name": "\u201cBust a Move\u201d - Young MC",
+      "date": "2026-04-30",
+      "distance_miles": 4.14,
+      "moving_time_sec": 2275,
+      "pace_per_mile": "9:09",
+      "pace_seconds": 549.5,
+      "elevation_ft": 174.0,
+      "avg_hr": 145,
+      "hr_zone": "Z2",
+      "suffer_score": 36.0
+    },
     {
       "id": 18277405077,
       "name": "\u201cSigned, Sealed, Delivered (I\u2019m Yours)\u201d- Stevie Wonder",
@@ -313,7 +326,7 @@
     },
     {
       "week_start": "2026-04-27",
-      "miles": 3.0
+      "miles": 7.2
     }
   ],
   "ae_trend": [
@@ -505,72 +518,81 @@
       "dist": 3.02,
       "marathon_pred": "3:48:09",
       "marathon_sec": 13689
+    },
+    {
+      "date": "2026-04-30",
+      "name": "\u201cBust a Move\u201d - Young MC",
+      "ae": 1.212,
+      "hr": 145,
+      "dist": 4.14,
+      "marathon_pred": "3:53:59",
+      "marathon_sec": 14039
     }
   ],
   "weather": [
     {
-      "date": "2026-04-29",
-      "high": 62,
-      "low": 48,
-      "precip": 0.07,
-      "windspeed": 13,
-      "code": 53
-    },
-    {
       "date": "2026-04-30",
-      "high": 57,
+      "high": 56,
       "low": 47,
-      "precip": 0.2,
-      "windspeed": 9,
-      "code": 61
+      "precip": 0.22,
+      "windspeed": 6,
+      "code": 63
     },
     {
       "date": "2026-05-01",
       "high": 62,
-      "low": 40,
+      "low": 42,
       "precip": 0.0,
-      "windspeed": 16,
+      "windspeed": 12,
       "code": 3
     },
     {
       "date": "2026-05-02",
-      "high": 58,
-      "low": 50,
-      "precip": 0.08,
-      "windspeed": 7,
+      "high": 57,
+      "low": 48,
+      "precip": 0.12,
+      "windspeed": 9,
       "code": 53
     },
     {
       "date": "2026-05-03",
-      "high": 59,
-      "low": 46,
-      "precip": 0.0,
-      "windspeed": 16,
-      "code": 3
+      "high": 60,
+      "low": 44,
+      "precip": 0.01,
+      "windspeed": 17,
+      "code": 51
     },
     {
       "date": "2026-05-04",
-      "high": 68,
-      "low": 48,
+      "high": 66,
+      "low": 50,
       "precip": 0.0,
-      "windspeed": 22,
-      "code": 3
+      "windspeed": 18,
+      "code": 51
     },
     {
       "date": "2026-05-05",
-      "high": 66,
-      "low": 56,
-      "precip": 0.07,
+      "high": 74,
+      "low": 59,
+      "precip": 0.0,
       "windspeed": 17,
       "code": 51
+    },
+    {
+      "date": "2026-05-06",
+      "high": 62,
+      "low": 55,
+      "precip": 0.13,
+      "windspeed": 14,
+      "code": 53
     }
   ],
-  "avg_pace_sec": 553.6,
+  "avg_pace_sec": 553.5,
   "predictions": {
     "5k": "26:14",
-    "10k": "54:42",
-    "half": "2:00:53",
-    "marathon": "4:12:02"
+    "10k": "54:41",
+    "half": "2:00:50",
+    "marathon": "4:11:56"
   },
   "pace_zones": {
     "Z1": {
@@ -606,11 +628,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 18,
+    "Z2": 19,
     "Z3": 3,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, excellent work so far! Let's get you ready for November 1st.\n\n### Coaching Brief\n\n**Fitness Assessment**\nTom, your recent race efforts, including the Newport Half and Cherry Blossom 10 Mile, demonstrate a strong aerobic foundation and good endurance. You're consistently executing your easy runs within Zone 2, which is exactly where you need to be for base building. This consistency, coupled with varied pacing, shows you're listening to your body effectively.\n\n**This Week's Focus**\nYour primary goal this week is to continue with easy, aerobic running, focusing on building your base without a structured plan. Aim to keep all your runs firmly in Zone 2 (124-154 bpm), prioritizing effort and listening to your body over specific paces. Be mindful of the upcoming drizzle and wind, dressing appropriately to stay comfortable and safe.\n\n**Key Priorities**\n*   **Consistent Z2 Running:** Maintain your easy, conversational pace to build your aerobic engine without undue stress.\n*   **Gradual Mileage Increase:** Focus on incrementally increasing your weekly volume at a comfortable effort.\n*   **Active Recovery & Listening to Your Body:** Prioritize rest, nutrition, and address any minor aches promptly to prevent issues.\n\n**Watch Out For**\nAvoid the temptation to push too hard or chase faster paces, especially after your recent race efforts; staying disciplined in Zone 2 is paramount for effective base building.\n\n**Upcoming Milestones**\nLook forward to June 29th, when your structured Hal Higdon Novice 2 plan officially begins, providing a clear and progressive roadmap for your marathon journey."
+  "advice": "Hey Tom, great work on the roads! Here's your coaching brief:\n\n**Fitness Assessment**\nYour recent race efforts, including the Newport Half and Cherry Blossom 10 Mile, demonstrate solid endurance and a strong aerobic base. Consistently hitting Zone 2 on your easy runs shows excellent discipline and effective aerobic development. This consistency is exactly what we want to see in this phase.\n\n**This Week's Focus**\nContinue prioritizing easy, aerobic running, keeping your heart rate comfortably in Zone 2 (124-154 bpm). The aim is to build your mileage base gradually and consistently without adding intensity. Be sure to dress appropriately for the upcoming rainy and windy conditions to stay comfortable and safe.\n\n**Key Priorities**\n*   **Consistent Z2 effort**: Maintain your easy pace to build aerobic capacity.\n*   **Listen to your body**: Ensure adequate recovery after your recent races.\n*   **Weather preparedness**: Adapt your gear and route to handle the wet and windy conditions.\n\n**Watch Out For**\nAvoid pushing the pace too much on your easy runs; staying within your Zone 2 heart rate is paramount for effective base building and injury prevention.\n\n**Upcoming Milestones**\nGet ready for June 29th, when your official Hal Higdon Novice 2 training plan kicks off, marking the structured start of your NYC Marathon journey!"
 }
