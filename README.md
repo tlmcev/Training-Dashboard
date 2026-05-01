@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, great work on the roads! Here's your coaching brief:
+Here is your coaching brief, Tom:
 
 **Fitness Assessment**
-Your recent race efforts, including the Newport Half and Cherry Blossom 10 Mile, demonstrate solid endurance and a strong aerobic base. Consistently hitting Zone 2 on your easy runs shows excellent discipline and effective aerobic development. This consistency is exactly what we want to see in this phase.
+Tom is demonstrating excellent consistency in keeping his easy runs within Zone 2, building a solid aerobic foundation. His recent Half Marathon and 10-mile race performances show strong endurance and the ability to push when needed. This is a fantastic start to your marathon journey.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Your recent race efforts, including the Newport Half and Cherry Blossom 10 Mile,
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-04-30 16:09:24 UTC | Run ID: 25176164999*
+*Last updated: 2026-05-01 14:39:35 UTC | Run ID: 25218522365*
