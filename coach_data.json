@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-01 14:39:35",
+  "updated_at": "2026-05-02 14:15:47",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 58,
+  "days_to_plan_start": 57,
   "activities": [
     {
       "id": 18318310719,
@@ -531,24 +531,16 @@
   ],
   "weather": [
     {
-      "date": "2026-05-01",
-      "high": 65,
-      "low": 43,
-      "precip": 0.0,
-      "windspeed": 11,
-      "code": 3
-    },
-    {
       "date": "2026-05-02",
-      "high": 63,
-      "low": 49,
+      "high": 61,
+      "low": 50,
       "precip": 0.0,
       "windspeed": 12,
       "code": 3
     },
     {
       "date": "2026-05-03",
-      "high": 60,
+      "high": 56,
       "low": 40,
       "precip": 0.0,
       "windspeed": 18,
@@ -556,35 +548,43 @@
     },
     {
       "date": "2026-05-04",
-      "high": 68,
-      "low": 50,
+      "high": 69,
+      "low": 46,
       "precip": 0.0,
       "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-05-05",
-      "high": 77,
-      "low": 62,
+      "high": 78,
+      "low": 57,
       "precip": 0.0,
-      "windspeed": 18,
+      "windspeed": 17,
       "code": 3
     },
     {
       "date": "2026-05-06",
-      "high": 63,
-      "low": 54,
-      "precip": 0.19,
-      "windspeed": 17,
+      "high": 68,
+      "low": 61,
+      "precip": 0.15,
+      "windspeed": 18,
       "code": 55
     },
     {
       "date": "2026-05-07",
-      "high": 56,
-      "low": 49,
-      "precip": 0.08,
-      "windspeed": 11,
+      "high": 65,
+      "low": 59,
+      "precip": 0.29,
+      "windspeed": 18,
       "code": 53
+    },
+    {
+      "date": "2026-05-08",
+      "high": 63,
+      "low": 47,
+      "precip": 0.01,
+      "windspeed": 24,
+      "code": 51
     }
   ],
   "avg_pace_sec": 553.5,
@@ -634,5 +634,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here is your coaching brief, Tom:\n\n**Fitness Assessment**\nTom is demonstrating excellent consistency in keeping his easy runs within Zone 2, building a solid aerobic foundation. His recent Half Marathon and 10-mile race performances show strong endurance and the ability to push when needed. This is a fantastic start to your marathon journey.\n\n**This Week's Focus**\nContinue to prioritize easy, conversational running, ensuring your heart rate remains comfortably in Zone 2. Focus on consistent mileage to build your aerobic engine without pushing the pace. Adjust your effort for the upcoming warmer temperatures and strong winds to maintain your target zone.\n\n**Key Priorities**\n*   Maintain consistent easy mileage to build your foundational aerobic capacity.\n*   Prioritize listening to your body for recovery cues and consider incorporating light mobility or strength work.\n*   Stay well-hydrated, especially with the warmer weather on the horizon.\n\n**Watch Out For**\nBe mindful of the significantly warmer temperatures and strong winds expected early next week. These conditions will increase your perceived effort, so adjust your pace downward to keep your heart rate within Zone 2.\n\n**Upcoming Milestones**\nThe official structured Base Building plan kicks off on June 29th, just 58 days from now. This marks the exciting transition into a more focused training regimen for the NYC Marathon."
+  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nTom, your recent runs show excellent consistency in maintaining Zone 2 heart rates for your easy efforts, typically around a 9:00-9:30/mi pace. Completing a Half Marathon and a 10-Miler recently demonstrates a strong aerobic base and race readiness, putting you in a great position for your upcoming training block. Your predicted marathon time of 4:11:56 is a solid starting point for goal setting.\n\n**This Week's Focus**\nThis week, your focus remains on easy aerobic running to further solidify your base. Aim for a comfortable, conversational pace, keeping your heart rate firmly in Zone 2 (124-154 bpm), which will likely be in the 9:00-9:45/mi range. The priority is consistent, enjoyable mileage without any structured intensity.\n\n**Key Priorities**\n*   **Consistent Easy Mileage:** Maintain your current running frequency and duration, ensuring each run is truly easy and conversational.\n*   **Prioritize Recovery:** After your recent races, adequate rest, nutrition, and sleep are crucial for adaptation and injury prevention.\n*   **Listen to Your Body:** Pay close attention to any signs of fatigue or discomfort, adjusting your runs as needed.\n\n**Watch Out For**\nBe mindful of the increasing wind and potential drizzle later in the week, which can make runs feel more challenging. Remember to dress appropriately and don't let the conditions tempt you into pushing your effort beyond Zone 2 on your easy runs.\n\n**Upcoming Milestones**\nLook forward to the official start of your structured Hal Higdon Novice 2 training plan on June 29th. This will mark the formal kick-off of your NYC Marathon-specific journey!"
 }
