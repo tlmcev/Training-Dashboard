@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief, Tom:
+Alright Tom, let's get you ready for NYC! Here's your brief for the week:
 
 **Fitness Assessment**
-Tom, you've demonstrated a solid aerobic base with consistent Zone 2 running, evident in your recent easy efforts. Your strong performances in the Newport Half Marathon and Cherry Blossom 10 Mile highlight good race fitness, suggesting your potential may be even higher than the Riegel prediction based on average pace. You're building a great foundation for the training ahead.
+Your recent runs demonstrate excellent consistency in maintaining Zone 2 for easy efforts, typically around 9:00-9:30/mi. Completing a Half Marathon and a 10-mile race recently shows you have a strong aerobic base and can handle longer efforts, providing a great foundation for the upcoming training block. Your predicted marathon time of 4:11:56 is a good initial benchmark as we build.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you've demonstrated a solid aerobic base with consistent Zone 2 running, ev
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-03 14:15:33 UTC | Run ID: 25281514903*
+*Last updated: 2026-05-04 17:15:04 UTC | Run ID: 25332610118*
