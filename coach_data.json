@@ -1,9 +1,22 @@
 {
-  "updated_at": "2026-05-04 17:15:04",
+  "updated_at": "2026-05-05 16:29:37",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 55,
+  "days_to_plan_start": 54,
   "activities": [
+    {
+      "id": 18375463008,
+      "name": "\u201cAmerican Girls\u201d - Harry Styles",
+      "date": "2026-05-04",
+      "distance_miles": 3.09,
+      "moving_time_sec": 1687,
+      "pace_per_mile": "9:05",
+      "pace_seconds": 546.0,
+      "elevation_ft": 135.0,
+      "avg_hr": 150,
+      "hr_zone": "Z2",
+      "suffer_score": 39.0
+    },
     {
       "id": 18318310719,
       "name": "\u201cBust a Move\u201d - Young MC",
@@ -327,6 +340,10 @@
     {
       "week_start": "2026-04-27",
       "miles": 7.2
+    },
+    {
+      "week_start": "2026-05-04",
+      "miles": 3.1
     }
   ],
   "ae_trend": [
@@ -527,72 +544,81 @@
       "dist": 4.14,
       "marathon_pred": "3:53:59",
       "marathon_sec": 14039
+    },
+    {
+      "date": "2026-05-04",
+      "name": "\u201cAmerican Girls\u201d - Harry Styles",
+      "ae": 1.179,
+      "hr": 150,
+      "dist": 3.09,
+      "marathon_pred": "4:00:32",
+      "marathon_sec": 14432
     }
   ],
   "weather": [
     {
-      "date": "2026-05-04",
-      "high": 73,
-      "low": 47,
-      "precip": 0.0,
-      "windspeed": 15,
-      "code": 0
-    },
-    {
       "date": "2026-05-05",
       "high": 84,
-      "low": 56,
+      "low": 55,
       "precip": 0.0,
-      "windspeed": 19,
+      "windspeed": 18,
       "code": 3
     },
     {
       "date": "2026-05-06",
-      "high": 64,
-      "low": 60,
-      "precip": 0.47,
-      "windspeed": 16,
-      "code": 80
+      "high": 74,
+      "low": 59,
+      "precip": 0.02,
+      "windspeed": 20,
+      "code": 51
     },
     {
       "date": "2026-05-07",
-      "high": 61,
-      "low": 50,
-      "precip": 0.32,
-      "windspeed": 18,
-      "code": 61
-    },
-    {
-      "date": "2026-05-08",
-      "high": 63,
-      "low": 45,
-      "precip": 0.01,
-      "windspeed": 18,
-      "code": 51
-    },
-    {
-      "date": "2026-05-09",
-      "high": 57,
-      "low": 50,
-      "precip": 0.09,
-      "windspeed": 16,
-      "code": 51
-    },
-    {
-      "date": "2026-05-10",
       "high": 63,
       "low": 49,
       "precip": 0.0,
-      "windspeed": 16,
+      "windspeed": 13,
       "code": 3
+    },
+    {
+      "date": "2026-05-08",
+      "high": 65,
+      "low": 48,
+      "precip": 0.0,
+      "windspeed": 15,
+      "code": 3
+    },
+    {
+      "date": "2026-05-09",
+      "high": 66,
+      "low": 55,
+      "precip": 0.17,
+      "windspeed": 20,
+      "code": 80
+    },
+    {
+      "date": "2026-05-10",
+      "high": 67,
+      "low": 56,
+      "precip": 0.0,
+      "windspeed": 14,
+      "code": 3
+    },
+    {
+      "date": "2026-05-11",
+      "high": 61,
+      "low": 52,
+      "precip": 0.01,
+      "windspeed": 14,
+      "code": 51
     }
   ],
-  "avg_pace_sec": 553.5,
+  "avg_pace_sec": 553.1,
   "predictions": {
-    "5k": "26:14",
-    "10k": "54:41",
-    "half": "2:00:50",
-    "marathon": "4:11:56"
+    "5k": "26:13",
+    "10k": "54:39",
+    "half": "2:00:46",
+    "marathon": "4:11:48"
   },
   "pace_zones": {
     "Z1": {
@@ -628,11 +654,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 19,
+    "Z2": 20,
     "Z3": 3,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for NYC! Here's your brief for the week:\n\n**Fitness Assessment**\nYour recent runs demonstrate excellent consistency in maintaining Zone 2 for easy efforts, typically around 9:00-9:30/mi. Completing a Half Marathon and a 10-mile race recently shows you have a strong aerobic base and can handle longer efforts, providing a great foundation for the upcoming training block. Your predicted marathon time of 4:11:56 is a good initial benchmark as we build.\n\n**This Week's Focus**\nYour primary goal this week is to continue building your aerobic base with easy, comfortable running, staying firmly in Zone 2 (124-154 bpm). Aim for a conversational pace, likely in the 9:00-9:45/mi range, and prioritize consistency over speed. With significant rain and wind expected mid-week, be prepared to adjust your schedule or choose indoor options if needed.\n\n**Key Priorities**\n*   Maintain consistent, easy aerobic runs within Zone 2 (124-154 bpm).\n*   Prioritize listening to your body and active recovery, especially after your recent races.\n*   Adapt your running schedule to the challenging weather conditions to stay safe and motivated.\n\n**Watch Out For**\nThe main red flag is pushing your pace too hard during these base-building weeks, which can lead to unnecessary fatigue or injury before structured training even begins.\n\n**Upcoming Milestones**\nLook forward to June 29th, when your official Hal Higdon Novice 2 plan kicks off, providing a structured roadmap towards your NYC Marathon goal."
+  "advice": "Alright Tom, let's get you ready for NYC! Here's your coaching brief for the week:\n\n**Fitness Assessment**\nYour recent runs show excellent consistency in maintaining Zone 2 efforts, with easy paces generally in the 9:00-9:30/mi range. The Newport Half Marathon and Cherry Blossom 10-Mile races demonstrate solid endurance, performed mostly within or just above your target aerobic zone. The Riegel prediction of 4:11:48 for the full marathon provides a good current benchmark for your fitness.\n\n**This Week's Focus**\nContinue prioritizing easy aerobic running, keeping your heart rate firmly within Zone 2 (124-154 bpm) for all efforts. Aim for a comfortable, conversational pace, likely in the 9:00-9:45/mi range, and remain flexible with your schedule given the upcoming weather. The goal is to build your aerobic engine without stressing your body.\n\n**Key Priorities**\n*   **Consistent Aerobic Base Building:** Gradually increase your weekly mileage through easy, low-impact runs to prepare your body for the structured plan.\n*   **Maintain Easy Effort:** Strictly adhere to Zone 2 heart rate for all runs; avoid pushing the pace to ensure proper adaptation and recovery.\n*   **Listen to Your Body & Recover:** Given your recent races, prioritize adequate rest and nutrition to prevent burnout and ensure you're fresh for each run.\n\n**Watch Out For**\nBe mindful of the strong winds and varying temperatures predicted this week, as these conditions can make maintaining an easy effort more challenging and increase perceived exertion. Ensure you're dressing appropriately and adjusting your pace as needed to stay in Zone 2.\n\n**Upcoming Milestones**\nYou're building a strong foundation, and the structured Hal Higdon Novice 2 plan officially kicks off on June 29th, marking the exciting start of your specific marathon training journey."
 }

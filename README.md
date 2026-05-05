@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | Date |
 | :--- | :--- | :--- | :--- |
+| “American Girls” - Harry Styles | 3.09 mi | 9:05/mi | 2026-05-04 |
 | “Bust a Move” - Young MC | 4.14 mi | 9:09/mi | 2026-04-30 |
 | “Signed, Sealed, Delivered (I’m Yours)”- Stevie Wonder | 3.02 mi | 8:48/mi | 2026-04-27 |
 | “Jessica” - Allman Brothers | 3.01 mi | 10:20/mi | 2026-04-24 |
 | Newport Half Marathon! | 13.31 mi | 8:35/mi | 2026-04-18 |
-| Cherry Blossom 10 Mile | 10.19 mi | 8:41/mi | 2026-04-12 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for NYC! Here's your brief for the week:
+Alright Tom, let's get you ready for NYC! Here's your coaching brief for the week:
 
 **Fitness Assessment**
-Your recent runs demonstrate excellent consistency in maintaining Zone 2 for easy efforts, typically around 9:00-9:30/mi. Completing a Half Marathon and a 10-mile race recently shows you have a strong aerobic base and can handle longer efforts, providing a great foundation for the upcoming training block. Your predicted marathon time of 4:11:56 is a good initial benchmark as we build.
+Your recent runs show excellent consistency in maintaining Zone 2 efforts, with easy paces generally in the 9:00-9:30/mi range. The Newport Half Marathon and Cherry Blossom 10-Mile races demonstrate solid endurance, performed mostly within or just above your target aerobic zone. The Riegel prediction of 4:11:48 for the full marathon provides a good current benchmark for your fitness.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Your recent runs demonstrate excellent consistency in maintaining Zone 2 for eas
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-04 17:15:04 UTC | Run ID: 25332610118*
+*Last updated: 2026-05-05 16:29:37 UTC | Run ID: 25388200048*
