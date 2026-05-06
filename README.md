@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for NYC! Here's your coaching brief for the week:
+Alright Tom, let's get you ready for NYC!
 
 **Fitness Assessment**
-Your recent runs show excellent consistency in maintaining Zone 2 efforts, with easy paces generally in the 9:00-9:30/mi range. The Newport Half Marathon and Cherry Blossom 10-Mile races demonstrate solid endurance, performed mostly within or just above your target aerobic zone. The Riegel prediction of 4:11:48 for the full marathon provides a good current benchmark for your fitness.
+Tom, you've built a solid aerobic foundation, evidenced by your consistent Z2 heart rates during easy runs and strong performances in recent longer races. Your ability to maintain a controlled effort is excellent for base building. We'll look to gently increase your consistent weekly mileage as we approach the structured plan.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Your recent runs show excellent consistency in maintaining Zone 2 efforts, with 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-05 16:29:37 UTC | Run ID: 25388200048*
+*Last updated: 2026-05-06 16:21:49 UTC | Run ID: 25447491317*

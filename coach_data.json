@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05 16:29:37",
+  "updated_at": "2026-05-06 16:21:49",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 54,
+  "days_to_plan_start": 53,
   "activities": [
     {
       "id": 18375463008,
@@ -557,60 +557,60 @@
   ],
   "weather": [
     {
-      "date": "2026-05-05",
-      "high": 84,
-      "low": 55,
-      "precip": 0.0,
-      "windspeed": 18,
-      "code": 3
-    },
-    {
       "date": "2026-05-06",
-      "high": 74,
-      "low": 59,
-      "precip": 0.02,
+      "high": 73,
+      "low": 61,
+      "precip": 0.09,
       "windspeed": 20,
-      "code": 51
+      "code": 61
     },
     {
       "date": "2026-05-07",
-      "high": 63,
-      "low": 49,
-      "precip": 0.0,
-      "windspeed": 13,
-      "code": 3
+      "high": 65,
+      "low": 50,
+      "precip": 0.07,
+      "windspeed": 12,
+      "code": 61
     },
     {
       "date": "2026-05-08",
-      "high": 65,
-      "low": 48,
+      "high": 62,
+      "low": 46,
       "precip": 0.0,
-      "windspeed": 15,
-      "code": 3
+      "windspeed": 19,
+      "code": 51
     },
     {
       "date": "2026-05-09",
-      "high": 66,
-      "low": 55,
-      "precip": 0.17,
-      "windspeed": 20,
-      "code": 80
+      "high": 62,
+      "low": 53,
+      "precip": 0.41,
+      "windspeed": 17,
+      "code": 81
     },
     {
       "date": "2026-05-10",
       "high": 67,
-      "low": 56,
+      "low": 51,
       "precip": 0.0,
-      "windspeed": 14,
-      "code": 3
+      "windspeed": 15,
+      "code": 51
     },
     {
       "date": "2026-05-11",
-      "high": 61,
-      "low": 52,
-      "precip": 0.01,
-      "windspeed": 14,
-      "code": 51
+      "high": 63,
+      "low": 50,
+      "precip": 0.05,
+      "windspeed": 20,
+      "code": 53
+    },
+    {
+      "date": "2026-05-12",
+      "high": 60,
+      "low": 47,
+      "precip": 0.0,
+      "windspeed": 19,
+      "code": 3
     }
   ],
   "avg_pace_sec": 553.1,
@@ -660,5 +660,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for NYC! Here's your coaching brief for the week:\n\n**Fitness Assessment**\nYour recent runs show excellent consistency in maintaining Zone 2 efforts, with easy paces generally in the 9:00-9:30/mi range. The Newport Half Marathon and Cherry Blossom 10-Mile races demonstrate solid endurance, performed mostly within or just above your target aerobic zone. The Riegel prediction of 4:11:48 for the full marathon provides a good current benchmark for your fitness.\n\n**This Week's Focus**\nContinue prioritizing easy aerobic running, keeping your heart rate firmly within Zone 2 (124-154 bpm) for all efforts. Aim for a comfortable, conversational pace, likely in the 9:00-9:45/mi range, and remain flexible with your schedule given the upcoming weather. The goal is to build your aerobic engine without stressing your body.\n\n**Key Priorities**\n*   **Consistent Aerobic Base Building:** Gradually increase your weekly mileage through easy, low-impact runs to prepare your body for the structured plan.\n*   **Maintain Easy Effort:** Strictly adhere to Zone 2 heart rate for all runs; avoid pushing the pace to ensure proper adaptation and recovery.\n*   **Listen to Your Body & Recover:** Given your recent races, prioritize adequate rest and nutrition to prevent burnout and ensure you're fresh for each run.\n\n**Watch Out For**\nBe mindful of the strong winds and varying temperatures predicted this week, as these conditions can make maintaining an easy effort more challenging and increase perceived exertion. Ensure you're dressing appropriately and adjusting your pace as needed to stay in Zone 2.\n\n**Upcoming Milestones**\nYou're building a strong foundation, and the structured Hal Higdon Novice 2 plan officially kicks off on June 29th, marking the exciting start of your specific marathon training journey."
+  "advice": "Alright Tom, let's get you ready for NYC!\n\n**Fitness Assessment**\nTom, you've built a solid aerobic foundation, evidenced by your consistent Z2 heart rates during easy runs and strong performances in recent longer races. Your ability to maintain a controlled effort is excellent for base building. We'll look to gently increase your consistent weekly mileage as we approach the structured plan.\n\n**This Week's Focus**\nThis week, Tom, your focus remains on consistent, easy aerobic running to further build your base. Continue to prioritize effort over pace, keeping your heart rate firmly in Zone 2 (124-154 bpm) for all runs. Aim for your comfortable easy pace, roughly 9:00-9:30/mi, or slower if needed to stay in Z2.\n\n**Key Priorities**\n*   **Consistency is King:** Aim for regular runs, even if they're shorter, to build your weekly volume.\n*   **Stay Easy:** Keep all runs firmly in your Z2 heart rate zone to enhance aerobic fitness without overstressing.\n*   **Weather Preparedness:** Dress appropriately for the upcoming rainy and windy conditions to ensure comfortable and safe runs.\n\n**Watch Out For**\nWith the consistently wet and windy forecast, pay close attention to your footing and dress in appropriate layers to avoid chafing or getting chilled.\n\n**Upcoming Milestones**\nGet excited for June 29th, when your structured Hal Higdon Novice 2 plan officially begins, marking the focused start of your NYC Marathon build!"
 }
