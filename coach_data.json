@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07 17:23:59",
+  "updated_at": "2026-05-08 16:01:55",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 52,
+  "days_to_plan_start": 51,
   "activities": [
     {
       "id": 18375463008,
@@ -557,48 +557,40 @@
   ],
   "weather": [
     {
-      "date": "2026-05-07",
-      "high": 65,
-      "low": 50,
-      "precip": 0.09,
-      "windspeed": 13,
-      "code": 55
-    },
-    {
       "date": "2026-05-08",
       "high": 64,
-      "low": 43,
-      "precip": 0.28,
-      "windspeed": 18,
-      "code": 63
+      "low": 46,
+      "precip": 0.07,
+      "windspeed": 15,
+      "code": 61
     },
     {
       "date": "2026-05-09",
-      "high": 61,
-      "low": 48,
-      "precip": 0.33,
-      "windspeed": 15,
-      "code": 80
+      "high": 67,
+      "low": 50,
+      "precip": 0.5,
+      "windspeed": 16,
+      "code": 65
     },
     {
       "date": "2026-05-10",
       "high": 69,
-      "low": 54,
-      "precip": 0.18,
-      "windspeed": 11,
-      "code": 61
+      "low": 55,
+      "precip": 0.34,
+      "windspeed": 12,
+      "code": 80
     },
     {
       "date": "2026-05-11",
-      "high": 59,
-      "low": 50,
-      "precip": 0.28,
+      "high": 57,
+      "low": 46,
+      "precip": 1.0,
       "windspeed": 16,
       "code": 63
     },
     {
       "date": "2026-05-12",
-      "high": 64,
+      "high": 62,
       "low": 46,
       "precip": 0.0,
       "windspeed": 15,
@@ -608,8 +600,16 @@
       "date": "2026-05-13",
       "high": 59,
       "low": 51,
-      "precip": 0.08,
-      "windspeed": 14,
+      "precip": 0.13,
+      "windspeed": 12,
+      "code": 53
+    },
+    {
+      "date": "2026-05-14",
+      "high": 66,
+      "low": 55,
+      "precip": 0.06,
+      "windspeed": 11,
       "code": 51
     }
   ],
@@ -660,5 +660,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for NYC! You've got a great foundation from those recent races and consistent easy runs.\n\n**Fitness Assessment**\nYou're showing excellent aerobic fitness with solid Z2 heart rates for your easy runs, typically holding a 9:00-10:00/mile pace. The recent Half Marathon and 10-mile efforts demonstrate good endurance, mostly within or just touching Z3, which is a strong indicator of your current base. Your predicted marathon time of 4:11:48 gives us a good benchmark for future training.\n\n**This Week's Focus**\nThis week, your focus remains on easy, aerobic running to continue building your base, keeping your heart rate firmly in Zone 2 (124-154 bpm). Given the upcoming rainy weather, prioritize safety and flexibility, choosing routes that are well-lit and less prone to slippery conditions.\n\n**Key Priorities**\n*   **Consistent Easy Mileage:** Maintain regular, comfortable runs to enhance your aerobic engine without stressing your system.\n*   **Listen to Your Body:** Pay close attention to any aches or fatigue; recovery is just as important as the runs themselves.\n*   **Weather Adaptation:** Dress appropriately for the wet conditions and don't hesitate to adjust your run times or distances if the weather becomes unsafe.\n\n**Watch Out For**\nBe mindful not to push the pace too hard, especially in challenging weather, which can lead to unnecessary fatigue or injury. Ensure your easy runs stay truly easy, keeping that heart rate within Z2.\n\n**Upcoming Milestones**\nLook forward to the official start of your structured Hal Higdon Novice 2 plan in just 52 days, on June 29th, which will bring a clear progression to your training."
+  "advice": "Hey Tom, great work building up your base! Here's your brief for the week:\n\n**Fitness Assessment**\nTom, your recent runs show excellent consistency in maintaining Zone 2 heart rates, with easy paces averaging around 9:00-9:30/mi. Successfully completing a Half Marathon and a 10-mile race recently demonstrates a strong endurance base, which is exactly what we want at this stage. You're building a solid foundation effectively and smartly.\n\n**This Week's Focus**\nContinue with easy aerobic running, keeping your heart rate in Zone 2 (124-154 bpm) for all efforts. Given the consistently rainy forecast, prioritize adapting your runs to stay safe and comfortable, perhaps opting for shorter, more frequent runs or indoor alternatives if conditions are severe. The goal is consistent, enjoyable mileage.\n\n**Key Priorities**\n*   **Consistency over intensity:** Maintain your current easy running routine without pushing paces.\n*   **Weather adaptation:** Be smart about the rain; dress appropriately, choose safe routes, or consider indoor options.\n*   **Listen to your body:** Ensure you're recovering well, especially after your recent races, and don't hesitate to take an extra rest day if needed.\n\n**Watch Out For**\nDon't let the persistent rainy weather disrupt your consistency or lead to a decline in motivation; find ways to make your runs happen safely and comfortably.\n\n**Upcoming Milestones**\nThe official start of your structured Hal Higdon Novice 2 plan on June 29, 2026, is just 51 days away, marking the exciting transition into more focused training."
 }
