@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, great work building up your base! Here's your brief for the week:
+Here's your coaching brief, Tom:
 
 **Fitness Assessment**
-Tom, your recent runs show excellent consistency in maintaining Zone 2 heart rates, with easy paces averaging around 9:00-9:30/mi. Successfully completing a Half Marathon and a 10-mile race recently demonstrates a strong endurance base, which is exactly what we want at this stage. You're building a solid foundation effectively and smartly.
+Tom, your recent training shows excellent consistency in maintaining Zone 2 heart rates for your easy runs, which is crucial for building your aerobic base. You've also demonstrated strong race efforts with your recent Half Marathon and 10-mile races, indicating a solid foundation. Your predicted marathon time of 4:11:48 from the Riegel formula provides a great benchmark as we progress.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent runs show excellent consistency in maintaining Zone 2 heart rat
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-08 16:01:55 UTC | Run ID: 25565736283*
+*Last updated: 2026-05-09 14:35:37 UTC | Run ID: 25603658533*
