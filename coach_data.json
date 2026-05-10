@@ -1,9 +1,22 @@
 {
-  "updated_at": "2026-05-09 14:35:37",
+  "updated_at": "2026-05-10 14:38:05",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 50,
+  "days_to_plan_start": 49,
   "activities": [
+    {
+      "id": 18440054488,
+      "name": "\u201cBaba O\u2019Riley\u201d - The Who",
+      "date": "2026-05-09",
+      "distance_miles": 5.07,
+      "moving_time_sec": 2808,
+      "pace_per_mile": "9:13",
+      "pace_seconds": 553.8,
+      "elevation_ft": 52.0,
+      "avg_hr": 154,
+      "hr_zone": "Z2",
+      "suffer_score": 76.0
+    },
     {
       "id": 18375463008,
       "name": "\u201cAmerican Girls\u201d - Harry Styles",
@@ -343,7 +356,7 @@
     },
     {
       "week_start": "2026-05-04",
-      "miles": 3.1
+      "miles": 8.2
     }
   ],
   "ae_trend": [
@@ -553,67 +566,76 @@
       "dist": 3.09,
       "marathon_pred": "4:00:32",
       "marathon_sec": 14432
+    },
+    {
+      "date": "2026-05-09",
+      "name": "\u201cBaba O\u2019Riley\u201d - The Who",
+      "ae": 1.132,
+      "hr": 154,
+      "dist": 5.07,
+      "marathon_pred": "4:10:31",
+      "marathon_sec": 15031
     }
   ],
   "weather": [
     {
-      "date": "2026-05-09",
-      "high": 72,
-      "low": 53,
-      "precip": 0.29,
-      "windspeed": 18,
-      "code": 63
-    },
-    {
       "date": "2026-05-10",
-      "high": 75,
-      "low": 51,
-      "precip": 0.0,
-      "windspeed": 9,
-      "code": 45
+      "high": 69,
+      "low": 52,
+      "precip": 1.03,
+      "windspeed": 8,
+      "code": 65
     },
     {
       "date": "2026-05-11",
-      "high": 62,
-      "low": 47,
-      "precip": 0.39,
-      "windspeed": 12,
+      "high": 64,
+      "low": 48,
+      "precip": 0.16,
+      "windspeed": 11,
       "code": 63
     },
     {
       "date": "2026-05-12",
       "high": 66,
-      "low": 47,
+      "low": 42,
       "precip": 0.0,
-      "windspeed": 13,
-      "code": 2
+      "windspeed": 12,
+      "code": 3
     },
     {
       "date": "2026-05-13",
-      "high": 64,
+      "high": 62,
       "low": 52,
-      "precip": 0.02,
-      "windspeed": 19,
+      "precip": 0.03,
+      "windspeed": 20,
       "code": 51
     },
     {
       "date": "2026-05-14",
       "high": 66,
       "low": 52,
-      "precip": 0.07,
+      "precip": 0.09,
       "windspeed": 16,
-      "code": 51
+      "code": 55
     },
     {
       "date": "2026-05-15",
-      "high": 69,
-      "low": 47,
+      "high": 68,
+      "low": 46,
       "precip": 0.0,
-      "windspeed": 12,
-      "code": 2
+      "windspeed": 14,
+      "code": 3
+    },
+    {
+      "date": "2026-05-16",
+      "high": 76,
+      "low": 60,
+      "precip": 0.01,
+      "windspeed": 15,
+      "code": 51
     }
   ],
-  "avg_pace_sec": 553.1,
+  "avg_pace_sec": 553.2,
   "predictions": {
     "5k": "26:13",
     "10k": "54:39",
@@ -654,11 +676,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 20,
+    "Z2": 21,
     "Z3": 3,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nTom, your recent training shows excellent consistency in maintaining Zone 2 heart rates for your easy runs, which is crucial for building your aerobic base. You've also demonstrated strong race efforts with your recent Half Marathon and 10-mile races, indicating a solid foundation. Your predicted marathon time of 4:11:48 from the Riegel formula provides a great benchmark as we progress.\n\n**This Week's Focus**\nThis week, your primary focus remains on easy, aerobic running within your Zone 2 heart rate (124-154 bpm). Prioritize consistency and listening to your body, especially with the varied weather conditions. Aim for comfortable efforts that allow you to build mileage without strain.\n\n**Key Priorities**\n*   **Consistent Z2 Running:** Continue to log easy miles within your target aerobic zone to strengthen your base.\n*   **Smart Progression:** Gradually increase your weekly mileage, ensuring adequate recovery between runs.\n*   **Weather Adaptation:** Be mindful of the rainy and windy conditions; adjust your routes, clothing, and expectations as needed.\n\n**Watch Out For**\nBe cautious not to push too hard or too fast in an effort to \"get ahead\" before the structured plan begins. Overdoing it now could lead to unnecessary fatigue or injury down the line.\n\n**Upcoming Milestones**\nLook forward to the official start of your Hal Higdon Novice 2 training plan on June 29th, which is just 50 days away. This marks the transition to a more structured approach as we build towards the NYC Marathon on November 1st."
+  "advice": "Here is your coaching brief, Tom:\n\n**Fitness Assessment**\nTom is demonstrating excellent consistency in his base building, maintaining Z2 heart rate for most runs. His recent Half Marathon and 10-mile races show solid endurance and a good aerobic foundation, with a predicted marathon finish time around 4:11:48. You're building a strong foundation for the upcoming structured training.\n\n**This Week's Focus**\nContinue with easy, aerobic running, prioritizing consistent effort over specific pace. Aim for Z2 heart rate, typically around 9:10-9:30/mi based on your recent runs, but adjust for the challenging weather conditions this week. Focus on accumulating mileage comfortably and listening to your body.\n\n**Key Priorities**\n*   **Consistency over Intensity:** Maintain regular easy runs to build aerobic endurance without pushing too hard.\n*   **Weather Adaptability:** Dress appropriately for rain and wind, and be prepared to adjust pace or duration as needed.\n*   **Listen to Your Body:** Prioritize recovery and avoid any niggles as you prepare for the structured plan.\n\n**Watch Out For**\nDon't let the consistent rainy and windy weather deter you from your runs, but also be careful not to push too hard in adverse conditions, which could lead to fatigue or injury.\n\n**Upcoming Milestones**\nLook forward to the official start of your Hal Higdon Novice 2 marathon training plan on June 29th, which is just 49 days away. This will bring more structure and specific workouts to your training."
 }

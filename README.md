@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | Date |
 | :--- | :--- | :--- | :--- |
+| “Baba O’Riley” - The Who | 5.07 mi | 9:13/mi | 2026-05-09 |
 | “American Girls” - Harry Styles | 3.09 mi | 9:05/mi | 2026-05-04 |
 | “Bust a Move” - Young MC | 4.14 mi | 9:09/mi | 2026-04-30 |
 | “Signed, Sealed, Delivered (I’m Yours)”- Stevie Wonder | 3.02 mi | 8:48/mi | 2026-04-27 |
 | “Jessica” - Allman Brothers | 3.01 mi | 10:20/mi | 2026-04-24 |
-| Newport Half Marathon! | 13.31 mi | 8:35/mi | 2026-04-18 |
 
 ## AI Coach Snapshot
 
-Here's your coaching brief, Tom:
+Here is your coaching brief, Tom:
 
 **Fitness Assessment**
-Tom, your recent training shows excellent consistency in maintaining Zone 2 heart rates for your easy runs, which is crucial for building your aerobic base. You've also demonstrated strong race efforts with your recent Half Marathon and 10-mile races, indicating a solid foundation. Your predicted marathon time of 4:11:48 from the Riegel formula provides a great benchmark as we progress.
+Tom is demonstrating excellent consistency in his base building, maintaining Z2 heart rate for most runs. His recent Half Marathon and 10-mile races show solid endurance and a good aerobic foundation, with a predicted marathon finish time around 4:11:48. You're building a strong foundation for the upcoming structured training.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent training shows excellent consistency in maintaining Zone 2 hear
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-09 14:35:37 UTC | Run ID: 25603658533*
+*Last updated: 2026-05-10 14:38:05 UTC | Run ID: 25631458582*
