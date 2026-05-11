@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief, Tom:
+Alright Tom, let's get you ready for the NYC Marathon! You've got a fantastic foundation to build upon.
 
 **Fitness Assessment**
-Tom is demonstrating excellent consistency in his base building, maintaining Z2 heart rate for most runs. His recent Half Marathon and 10-mile races show solid endurance and a good aerobic foundation, with a predicted marathon finish time around 4:11:48. You're building a strong foundation for the upcoming structured training.
+You're demonstrating excellent consistency in your easy runs, comfortably staying within Zone 2 at paces around 9:00-9:30/mi. Your recent Half Marathon and 10-mile race show a strong endurance base and good pacing discipline, which are crucial assets. This consistent aerobic work is exactly what we want to see as we approach the main training block.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom is demonstrating excellent consistency in his base building, maintaining Z2 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-10 14:38:05 UTC | Run ID: 25631458582*
+*Last updated: 2026-05-11 18:02:45 UTC | Run ID: 25687999051*
