@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for that NYC Marathon! You're in a great spot, and this base-building phase is crucial.
+Here is your coaching brief, Tom:
 
 **Fitness Assessment**
-Tom, your recent race performances, like the Newport Half and Cherry Blossom 10 Mile, demonstrate a strong aerobic engine and an ability to hold a solid pace within your Z2/borderline Z3. Your easy runs are consistently well-controlled in Zone 2, which is excellent for building endurance. This consistent effort and smart pacing are exactly what we want to see as you approach the structured plan.
+Tom, your recent training logs demonstrate excellent consistency in maintaining your easy runs within Zone 2, typically at a comfortable 9:00-9:15/mi pace. Your strong performances in the Newport Half and Cherry Blossom 10 Mile races further highlight a solid aerobic base and good fitness. This disciplined approach is exactly what we want to see in this base-building phase.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent race performances, like the Newport Half and Cherry Blossom 10 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-12 18:20:12 UTC | Run ID: 25753702883*
+*Last updated: 2026-05-13 18:20:36 UTC | Run ID: 25818084790*

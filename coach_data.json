@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-12 18:20:12",
+  "updated_at": "2026-05-13 18:20:36",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 47,
+  "days_to_plan_start": 46,
   "activities": [
     {
       "id": 18476270509,
@@ -605,60 +605,60 @@
   ],
   "weather": [
     {
-      "date": "2026-05-12",
-      "high": 67,
-      "low": 44,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 1
-    },
-    {
       "date": "2026-05-13",
       "high": 73,
-      "low": 50,
+      "low": 51,
       "precip": 0.0,
-      "windspeed": 20,
+      "windspeed": 19,
       "code": 3
     },
     {
       "date": "2026-05-14",
       "high": 64,
-      "low": 55,
-      "precip": 0.31,
-      "windspeed": 15,
-      "code": 81
+      "low": 51,
+      "precip": 0.04,
+      "windspeed": 14,
+      "code": 53
     },
     {
       "date": "2026-05-15",
-      "high": 63,
-      "low": 51,
+      "high": 65,
+      "low": 48,
       "precip": 0.0,
-      "windspeed": 13,
+      "windspeed": 15,
       "code": 51
     },
     {
       "date": "2026-05-16",
-      "high": 74,
-      "low": 54,
-      "precip": 0.01,
-      "windspeed": 14,
-      "code": 51
+      "high": 72,
+      "low": 53,
+      "precip": 0.0,
+      "windspeed": 11,
+      "code": 3
     },
     {
       "date": "2026-05-17",
-      "high": 82,
+      "high": 80,
       "low": 62,
+      "precip": 0.06,
+      "windspeed": 11,
+      "code": 53
+    },
+    {
+      "date": "2026-05-18",
+      "high": 72,
+      "low": 57,
       "precip": 0.0,
       "windspeed": 12,
       "code": 3
     },
     {
-      "date": "2026-05-18",
-      "high": 70,
-      "low": 60,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
+      "date": "2026-05-19",
+      "high": 87,
+      "low": 57,
+      "precip": 0.02,
+      "windspeed": 16,
+      "code": 51
     }
   ],
   "avg_pace_sec": 552.8,
@@ -708,5 +708,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for that NYC Marathon! You're in a great spot, and this base-building phase is crucial.\n\n**Fitness Assessment**\nTom, your recent race performances, like the Newport Half and Cherry Blossom 10 Mile, demonstrate a strong aerobic engine and an ability to hold a solid pace within your Z2/borderline Z3. Your easy runs are consistently well-controlled in Zone 2, which is excellent for building endurance. This consistent effort and smart pacing are exactly what we want to see as you approach the structured plan.\n\n**This Week's Focus**\nYour primary goal this week is to continue with easy aerobic running, keeping your heart rate comfortably within Zone 2. With the weather warming up and some wind, prioritize effort over pace and don't be afraid to slow down if needed. Focus on consistent, enjoyable movement to build your foundational fitness.\n\n**Key Priorities**\n*   **Consistent Z2 Efforts:** Ensure all runs remain comfortably within your Zone 2 heart rate to build endurance efficiently.\n*   **Hydration & Heat Acclimation:** Pay close attention to hydration and adjust your pace on hotter, windier days.\n*   **Listen to Your Body:** Prioritize recovery and don't hesitate to take an extra rest day if you feel unusually fatigued.\n\n**Watch Out For**\nBe mindful of pushing your easy runs too hard, especially when you feel good or are trying to maintain a specific pace in warmer conditions. Creeping into Zone 3 during base building can hinder recovery and increase injury risk.\n\n**Upcoming Milestones**\nThe official start of your Hal Higdon Novice 2 plan on June 29th is just around the corner. This structured approach will bring exciting new challenges and progress toward your NYC Marathon goal!"
+  "advice": "Here is your coaching brief, Tom:\n\n**Fitness Assessment**\nTom, your recent training logs demonstrate excellent consistency in maintaining your easy runs within Zone 2, typically at a comfortable 9:00-9:15/mi pace. Your strong performances in the Newport Half and Cherry Blossom 10 Mile races further highlight a solid aerobic base and good fitness. This disciplined approach is exactly what we want to see in this base-building phase.\n\n**This Week's Focus**\nContinue to prioritize easy aerobic running, keeping your heart rate firmly within Zone 2 (124-154 bpm) for all sessions. This translates to a conversational pace, likely in the 9:00-9:30/mi range. The goal is to build endurance without stress.\n\n**Key Priorities**\n*   Consistently accumulate easy mileage to strengthen your aerobic base.\n*   Maintain excellent Zone 2 heart rate discipline to enhance endurance and recovery.\n*   Focus on listening to your body, ensuring adequate rest and nutrition as you gradually increase your running volume.\n\n**Watch Out For**\nThe significant jump in temperatures later this week, especially reaching 80F and 87F with drizzle, could lead to overheating or excessive fatigue; be prepared to slow down your pace, hydrate diligently, and consider adjusting run times to cooler parts of the day.\n\n**Upcoming Milestones**\nYou're now just 46 days away from officially starting your structured Hal Higdon Novice 2 training plan on June 29th. This marks an exciting transition from unstructured base building to a more defined roadmap for the NYC Marathon."
 }
