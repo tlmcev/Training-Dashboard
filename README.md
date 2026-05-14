@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief, Tom:
+Alright Tom, let's get you ready for NYC! Here's your brief for the week:
 
 **Fitness Assessment**
-Tom, your recent training logs demonstrate excellent consistency in maintaining your easy runs within Zone 2, typically at a comfortable 9:00-9:15/mi pace. Your strong performances in the Newport Half and Cherry Blossom 10 Mile races further highlight a solid aerobic base and good fitness. This disciplined approach is exactly what we want to see in this base-building phase.
+You're demonstrating excellent aerobic fitness, consistently logging easy miles in Z2 with paces around 9:00-9:30/mi. Your recent Half Marathon (8:35/mi in Z2) and 10-mile (8:41/mi in Z3) show a strong endurance base, indicating great potential for your 4:11:39 predicted marathon finish. This consistent effort is exactly what we want to see as we build towards the structured plan.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent training logs demonstrate excellent consistency in maintaining 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-13 18:20:36 UTC | Run ID: 25818084790*
+*Last updated: 2026-05-14 17:26:20 UTC | Run ID: 25874826213*
