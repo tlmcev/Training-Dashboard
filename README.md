@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, great work building up your base! Let's get you ready for the NYC Marathon.
+Alright Tom, excellent work building your base and setting yourself up for success! Here's your brief for the week:
 
 **Fitness Assessment**
-Tom, your recent race performances (Newport Half, Cherry Blossom 10M) show a strong aerobic base and good race-day execution, consistently hitting Z2/Z3. Your easy runs are well-controlled within Z2, demonstrating excellent consistency and adherence to an easy effort. This puts you in a great position as we approach the structured training.
+Tom, you're showing great consistency with your easy runs, maintaining a solid Z2 heart rate and paces generally in the 9:00-9:30/mi range. Your recent half marathon and 10-mile race demonstrate strong fitness, and you've returned to lower mileage appropriately for recovery. This consistent base-building is exactly what we want to see heading into structured training.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent race performances (Newport Half, Cherry Blossom 10M) show a str
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-15 17:10:53 UTC | Run ID: 25931006648*
+*Last updated: 2026-05-16 11:41:52 UTC | Run ID: 25961024630*
