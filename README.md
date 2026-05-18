@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Here's your coaching brief for the week, Tom:
+Alright Tom, great to connect today! We're in a fantastic position, building a strong foundation before the structured plan kicks in.
+
+Here's your brief for the week ahead:
 
 **Fitness Assessment**
-You've shown excellent consistency in your easy Zone 2 runs since your recent races, demonstrating smart recovery and a solid aerobic base. Your ability to maintain a strong race pace in Z2/Z3 for the half marathon and 10-mile events indicates good foundational fitness. This controlled approach is exactly what we want to see as you prepare for structured training.
-
-**This Week's Focus**
+Tom, your recent runs show excellent consistency in maintaining Z2 heart rates during your easy efforts, typically around 9:00-9:30/mi. Your recent Half Marathon and 10-mile races demonstrate solid endurance and the ability to push when needed, which is a great sign for your upcoming marathon training. You're building a very robust aerobic base, which is exactly what we want at this stage.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ You've shown excellent consistency in your easy Zone 2 runs since your recent ra
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-17 11:53:07 UTC | Run ID: 25990079568*
+*Last updated: 2026-05-18 14:24:32 UTC | Run ID: 26039634745*
