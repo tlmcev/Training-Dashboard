@@ -1,9 +1,22 @@
 {
-  "updated_at": "2026-05-19 13:47:52",
+  "updated_at": "2026-05-20 13:28:35",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 40,
+  "days_to_plan_start": 39,
   "activities": [
+    {
+      "id": 18581107243,
+      "name": "\u201cScotty Doesn\u2019t Know\u201d -Lustra",
+      "date": "2026-05-20",
+      "distance_miles": 3.07,
+      "moving_time_sec": 1754,
+      "pace_per_mile": "9:31",
+      "pace_seconds": 571.3,
+      "elevation_ft": 138.0,
+      "avg_hr": 148,
+      "hr_zone": "Z2",
+      "suffer_score": 35.0
+    },
     {
       "id": 18476270509,
       "name": "\u201cWake Waka\u201d - Shakira",
@@ -374,6 +387,10 @@
     {
       "week_start": "2026-05-11",
       "miles": 3.1
+    },
+    {
+      "week_start": "2026-05-18",
+      "miles": 3.1
     }
   ],
   "ae_trend": [
@@ -601,72 +618,81 @@
       "dist": 3.06,
       "marathon_pred": "3:47:03",
       "marathon_sec": 13623
+    },
+    {
+      "date": "2026-05-20",
+      "name": "\u201cScotty Doesn\u2019t Know\u201d -Lustra",
+      "ae": 1.142,
+      "hr": 148,
+      "dist": 3.07,
+      "marathon_pred": "4:08:19",
+      "marathon_sec": 14899
     }
   ],
   "weather": [
     {
-      "date": "2026-05-19",
-      "high": 98,
-      "low": 72,
+      "date": "2026-05-20",
+      "high": 95,
+      "low": 71,
+      "precip": 0.0,
+      "windspeed": 14,
+      "code": 3
+    },
+    {
+      "date": "2026-05-21",
+      "high": 66,
+      "low": 54,
+      "precip": 0.24,
+      "windspeed": 12,
+      "code": 63
+    },
+    {
+      "date": "2026-05-22",
+      "high": 65,
+      "low": 54,
       "precip": 0.0,
       "windspeed": 15,
       "code": 3
     },
     {
-      "date": "2026-05-20",
-      "high": 94,
-      "low": 73,
-      "precip": 0.0,
-      "windspeed": 17,
-      "code": 3
-    },
-    {
-      "date": "2026-05-21",
-      "high": 70,
-      "low": 55,
-      "precip": 0.05,
-      "windspeed": 14,
-      "code": 53
-    },
-    {
-      "date": "2026-05-22",
-      "high": 64,
-      "low": 55,
-      "precip": 0.0,
-      "windspeed": 13,
-      "code": 3
-    },
-    {
       "date": "2026-05-23",
-      "high": 58,
+      "high": 57,
       "low": 50,
-      "precip": 0.91,
+      "precip": 0.57,
       "windspeed": 12,
-      "code": 81
+      "code": 61
     },
     {
       "date": "2026-05-24",
-      "high": 57,
-      "low": 51,
-      "precip": 0.07,
-      "windspeed": 16,
-      "code": 51
+      "high": 54,
+      "low": 52,
+      "precip": 0.56,
+      "windspeed": 15,
+      "code": 61
     },
     {
       "date": "2026-05-25",
-      "high": 74,
-      "low": 56,
-      "precip": 0.38,
-      "windspeed": 14,
-      "code": 55
+      "high": 64,
+      "low": 52,
+      "precip": 0.04,
+      "windspeed": 11,
+      "code": 51
+    },
+    {
+      "date": "2026-05-26",
+      "high": 79,
+      "low": 61,
+      "precip": 0.0,
+      "windspeed": 6,
+      "code": 3
     }
   ],
-  "avg_pace_sec": 552.8,
+  "avg_pace_sec": 553.5,
   "predictions": {
-    "5k": "26:12",
-    "10k": "54:37",
-    "half": "2:00:42",
-    "marathon": "4:11:39"
+    "5k": "26:14",
+    "10k": "54:41",
+    "half": "2:00:51",
+    "marathon": "4:11:58"
   },
   "pace_zones": {
     "Z1": {
@@ -702,11 +728,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 22,
+    "Z2": 23,
     "Z3": 3,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, Coach here! Let's get you ready for NYC.\n\n### Coaching Brief\n\n**Fitness Assessment**\nYour recent runs show fantastic consistency in maintaining Zone 2 heart rate for easy efforts, typically around 9:00-9:30/mi. The strong performances in your recent half marathon and 10-mile race demonstrate a solid aerobic base and excellent endurance. This consistent Z2 work is exactly what we want to see during base building.\n\n**This Week's Focus**\nGiven the extreme heat forecast for the next two days, your absolute priority is easy aerobic running, adjusting pace significantly or moving runs indoors if necessary. Aim to maintain your Z2 heart rate for all runs, likely around 9:15-9:45/mi, especially when the weather cools later in the week. Focus on consistent effort, not speed, as we continue to build your foundation.\n\n**Key Priorities**\n*   **Heat Management**: Drastically modify or move runs indoors on Tuesday and Wednesday due to dangerous temperatures. Prioritize safety over hitting mileage targets.\n*   **Hydration & Electrolytes**: With the current heat and upcoming cooler, rainy conditions, stay on top of hydration throughout the day.\n*   **Listen to Your Body**: This is a base-building phase; if you feel fatigued or any niggles, don't hesitate to take an extra rest day or shorten a run.\n\n**Watch Out For**\nThe dangerously high temperatures on Tuesday and Wednesday pose a significant risk of heat exhaustion or heat stroke; do not push through these conditions outdoors.\n\n**Upcoming Milestones**\nLook forward to the official start of your structured Hal Higdon Novice 2 plan on June 29th, which will provide a clear roadmap for the next phase of your training."
+  "advice": "Alright Tom, let's get you ready for NYC!\n\n**Fitness Assessment**\nYour recent runs demonstrate solid aerobic fitness, consistently maintaining Zone 2 heart rates for easy efforts and even during your strong Newport Half Marathon. Your easy run paces around 9:00-9:30/mi align well with your race performances, indicating a good understanding of your easy effort. A slight improvement in daily running consistency would be beneficial as we approach the structured plan.\n\n**This Week's Focus**\nContinue to prioritize easy aerobic running, keeping your heart rate firmly in Zone 2. Aim for comfortable, conversational efforts rather than specific paces or distances, focusing on building your overall endurance base. Given the extreme weather fluctuations, be flexible with your running times and consider indoor options when conditions are unsafe or too uncomfortable.\n\n**Key Priorities**\n*   **Consistency:** Aim for regular easy runs throughout the week to maintain and build your aerobic base.\n*   **Effort Control:** Always keep your runs conversational and your heart rate comfortably in Zone 2.\n*   **Adaptability:** Be smart about the weather; adjust your schedule or route as needed to stay safe and comfortable.\n\n**Watch Out For**\nThe significant temperature swing from today's heat to upcoming cooler, rainy conditions presents a challenge. Be mindful of hydration and overheating today, and ensure proper gear for the wet weather to avoid discomfort or illness.\n\n**Upcoming Milestones**\nThe official start of your structured Hal Higdon Novice 2 marathon plan is just 39 days away on June 29th! This base-building period is crucial for preparing your body effectively for the increased demands of the training plan."
 }

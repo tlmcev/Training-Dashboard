@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | Date |
 | :--- | :--- | :--- | :--- |
+| “Scotty Doesn’t Know” -Lustra | 3.07 mi | 9:31/mi | 2026-05-20 |
 | “Wake Waka” - Shakira | 3.06 mi | 9:04/mi | 2026-05-12 |
 | “Baba O’Riley” - The Who | 5.07 mi | 9:13/mi | 2026-05-09 |
 | “American Girls” - Harry Styles | 3.09 mi | 9:05/mi | 2026-05-04 |
 | “Bust a Move” - Young MC | 4.14 mi | 9:09/mi | 2026-04-30 |
-| “Signed, Sealed, Delivered (I’m Yours)”- Stevie Wonder | 3.02 mi | 8:48/mi | 2026-04-27 |
 
 ## AI Coach Snapshot
 
-Alright Tom, Coach here! Let's get you ready for NYC.
-
-### Coaching Brief
+Alright Tom, let's get you ready for NYC!
 
 **Fitness Assessment**
-Your recent runs show fantastic consistency in maintaining Zone 2 heart rate for easy efforts, typically around 9:00-9:30/mi. The strong performances in your recent half marathon and 10-mile race demonstrate a solid aerobic base and excellent endurance. This consistent Z2 work is exactly what we want to see during base building.
+Your recent runs demonstrate solid aerobic fitness, consistently maintaining Zone 2 heart rates for easy efforts and even during your strong Newport Half Marathon. Your easy run paces around 9:00-9:30/mi align well with your race performances, indicating a good understanding of your easy effort. A slight improvement in daily running consistency would be beneficial as we approach the structured plan.
+
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Your recent runs show fantastic consistency in maintaining Zone 2 heart rate for
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-19 13:47:52 UTC | Run ID: 26101454201*
+*Last updated: 2026-05-20 13:28:35 UTC | Run ID: 26165688120*
