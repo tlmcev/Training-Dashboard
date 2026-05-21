@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for NYC!
+Alright Tom, let's get you ready for November! You've got a great foundation to build on.
 
 **Fitness Assessment**
-Your recent runs demonstrate solid aerobic fitness, consistently maintaining Zone 2 heart rates for easy efforts and even during your strong Newport Half Marathon. Your easy run paces around 9:00-9:30/mi align well with your race performances, indicating a good understanding of your easy effort. A slight improvement in daily running consistency would be beneficial as we approach the structured plan.
+Tom, your recent easy runs consistently hit Zone 2 with a comfortable pace around 9:00-9:30/mi, showing a solid aerobic foundation. Your recent Half Marathon and 10-Miler demonstrate good endurance, with race efforts mostly within or just above Zone 2. This consistency in pacing and heart rate is excellent for base building.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Your recent runs demonstrate solid aerobic fitness, consistently maintaining Zon
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-20 13:28:35 UTC | Run ID: 26165688120*
+*Last updated: 2026-05-21 13:53:18 UTC | Run ID: 26230367833*
