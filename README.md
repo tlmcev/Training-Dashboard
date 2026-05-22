@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for November! You've got a great foundation to build on.
+Here's your coaching brief, Tom:
 
 **Fitness Assessment**
-Tom, your recent easy runs consistently hit Zone 2 with a comfortable pace around 9:00-9:30/mi, showing a solid aerobic foundation. Your recent Half Marathon and 10-Miler demonstrate good endurance, with race efforts mostly within or just above Zone 2. This consistency in pacing and heart rate is excellent for base building.
+Your recent runs show a strong aerobic base, consistently maintaining Zone 2 heart rates at a comfortable 9:00-9:30/mi pace for your easy efforts. Impressive performances in your recent half marathon and 10-miler also highlight good endurance and a solid foundation for marathon training.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent easy runs consistently hit Zone 2 with a comfortable pace aroun
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-21 13:53:18 UTC | Run ID: 26230367833*
+*Last updated: 2026-05-22 13:22:06 UTC | Run ID: 26290300731*

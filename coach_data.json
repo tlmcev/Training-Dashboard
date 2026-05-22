@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-21 13:53:18",
+  "updated_at": "2026-05-22 13:22:06",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 38,
+  "days_to_plan_start": 37,
   "activities": [
     {
       "id": 18581107243,
@@ -631,60 +631,60 @@
   ],
   "weather": [
     {
-      "date": "2026-05-21",
-      "high": 67,
-      "low": 58,
-      "precip": 0.1,
-      "windspeed": 10,
-      "code": 61
-    },
-    {
       "date": "2026-05-22",
-      "high": 69,
-      "low": 52,
+      "high": 71,
+      "low": 54,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 13,
       "code": 3
     },
     {
       "date": "2026-05-23",
-      "high": 57,
+      "high": 58,
       "low": 49,
-      "precip": 0.59,
-      "windspeed": 15,
-      "code": 61
-    },
-    {
-      "date": "2026-05-24",
-      "high": 54,
-      "low": 51,
-      "precip": 1.68,
-      "windspeed": 17,
+      "precip": 0.41,
+      "windspeed": 11,
       "code": 63
     },
     {
+      "date": "2026-05-24",
+      "high": 58,
+      "low": 50,
+      "precip": 0.57,
+      "windspeed": 16,
+      "code": 61
+    },
+    {
       "date": "2026-05-25",
-      "high": 61,
-      "low": 51,
-      "precip": 0.1,
-      "windspeed": 13,
-      "code": 53
+      "high": 63,
+      "low": 54,
+      "precip": 0.87,
+      "windspeed": 11,
+      "code": 65
     },
     {
       "date": "2026-05-26",
-      "high": 66,
-      "low": 58,
+      "high": 68,
+      "low": 59,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 10,
       "code": 3
     },
     {
       "date": "2026-05-27",
-      "high": 80,
-      "low": 62,
+      "high": 78,
+      "low": 63,
+      "precip": 0.01,
+      "windspeed": 18,
+      "code": 51
+    },
+    {
+      "date": "2026-05-28",
+      "high": 77,
+      "low": 59,
       "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
+      "windspeed": 11,
+      "code": 0
     }
   ],
   "avg_pace_sec": 553.5,
@@ -734,5 +734,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for November! You've got a great foundation to build on.\n\n**Fitness Assessment**\nTom, your recent easy runs consistently hit Zone 2 with a comfortable pace around 9:00-9:30/mi, showing a solid aerobic foundation. Your recent Half Marathon and 10-Miler demonstrate good endurance, with race efforts mostly within or just above Zone 2. This consistency in pacing and heart rate is excellent for base building.\n\n**This Week's Focus**\nContinue with easy, conversational pace runs, aiming for 3-5 miles per session, keeping your heart rate in Zone 2. Given the upcoming rainy forecast, prioritize consistency by adjusting your running days or times as needed. Focus on building your aerobic capacity without pushing the pace.\n\n**Key Priorities**\n*   Maintain consistent easy aerobic running in Zone 2 to solidify your base.\n*   Gradually increase your weekly mileage by no more than 10% to prepare for the structured plan.\n*   Prioritize recovery and stay flexible with your schedule, especially with the weather.\n\n**Watch Out For**\nBe mindful of the temptation to push your pace on easy runs, ensuring your heart rate remains consistently in Zone 2. Also, stay flexible with your running schedule due to the upcoming wet weather, avoiding unnecessary risks.\n\n**Upcoming Milestones**\nYour primary goal is to build a robust aerobic foundation before the structured Hal Higdon Novice 2 plan officially begins on June 29th. This upcoming plan will introduce more specific workouts and a progressive mileage increase."
+  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nYour recent runs show a strong aerobic base, consistently maintaining Zone 2 heart rates at a comfortable 9:00-9:30/mi pace for your easy efforts. Impressive performances in your recent half marathon and 10-miler also highlight good endurance and a solid foundation for marathon training.\n\n**This Week's Focus**\nContinue to prioritize easy aerobic running, ensuring your heart rate remains firmly in Zone 2 (124-154 bpm) for all sessions. Focus on building consistent time on your feet rather than chasing speed, especially with the rainy weather ahead.\n\n**Key Priorities**\n*   **Consistency:** Aim for 3-4 runs this week to establish a regular rhythm before the structured plan begins.\n*   **Aerobic Focus:** Keep all runs easy and conversational, ensuring your heart rate stays within Zone 2.\n*   **Weather Adaptability:** Don't let the upcoming rain derail your efforts; plan your runs around the forecast or consider indoor options if needed.\n\n**Watch Out For**\nBe mindful of the inconsistent frequency in your recent running; aim to avoid long gaps between sessions this week to build a stronger routine.\n\n**Upcoming Milestones**\nLook forward to the official start of your Hal Higdon Novice 2 plan on June 29th, marking the exciting beginning of your structured marathon journey!"
 }
