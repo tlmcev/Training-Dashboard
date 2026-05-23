@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Here's your coaching brief, Tom:
+Alright Tom, let's get you ready for NYC!
+
+### Coaching Brief: May 23, 2026
 
 **Fitness Assessment**
-Your recent runs show a strong aerobic base, consistently maintaining Zone 2 heart rates at a comfortable 9:00-9:30/mi pace for your easy efforts. Impressive performances in your recent half marathon and 10-miler also highlight good endurance and a solid foundation for marathon training.
-
-**This Week's Focus**
+Your recent data shows excellent consistency in maintaining Zone 2 heart rate for your easy runs, typically around a 9:00-9:30/mi pace. You've built a strong aerobic foundation, demonstrated by your solid performances in the recent 10-mile and half marathon races. This consistent effort is exactly what we want to see as we head into a more structured plan.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Your recent runs show a strong aerobic base, consistently maintaining Zone 2 hea
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-22 13:22:06 UTC | Run ID: 26290300731*
+*Last updated: 2026-05-23 11:53:15 UTC | Run ID: 26331960391*
