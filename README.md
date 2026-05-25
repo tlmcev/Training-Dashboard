@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief, Tom:
+Alright Tom, let's get you ready for an excellent week as we continue our build-up towards the NYC Marathon!
 
 **Fitness Assessment**
-Tom, your recent runs demonstrate excellent endurance, highlighted by strong performances in your Half Marathon and 10-mile races, both maintaining good Z2 effort. Your easy runs are consistently in Zone 2, generally holding a comfortable 9:00-9:30/mi pace, indicating a solid aerobic base. This consistent effort, even with varied terrain, is a great foundation for the upcoming training block.
+Your recent easy runs show good consistency in maintaining Zone 2 heart rate, with paces typically in the 9:00-9:30/mi range. You've successfully completed longer efforts like the Half Marathon and 10-Mile race at a strong pace, indicating a solid endurance base. While your easy run effort is consistent, increasing run frequency would be beneficial.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent runs demonstrate excellent endurance, highlighted by strong per
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-24 11:57:12 UTC | Run ID: 26360585141*
+*Last updated: 2026-05-25 13:54:30 UTC | Run ID: 26404059966*
