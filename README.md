@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for NYC! Here's your coaching brief:
+Alright Tom, let's get you set for a strong start to your NYC Marathon journey!
+
+### Coaching Brief: May 27 - June 2, 2026
 
 **Fitness Assessment**
-Tom, your recent runs show excellent consistency in maintaining Zone 2 heart rates, indicating a solid aerobic base. Your half marathon at 8:35/mi in Z2 is particularly strong, demonstrating good endurance and a comfortable easy pace. Keep up the consistent effort, your body is responding well to the training.
-
-**This Week's Focus**
+Your recent runs show excellent consistency in maintaining Zone 2 heart rates, indicating a solid aerobic base for easy efforts. Your half marathon and 10-mile performances are strong, suggesting a good foundation for marathon training. The Riegel prediction of 4:11:58 for the full marathon aligns well with your current fitness.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent runs show excellent consistency in maintaining Zone 2 heart rat
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-26 13:44:59 UTC | Run ID: 26451894747*
+*Last updated: 2026-05-27 14:16:17 UTC | Run ID: 26516849587*
