@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-27 14:16:17",
+  "updated_at": "2026-05-28 14:26:51",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 32,
+  "days_to_plan_start": 31,
   "activities": [
     {
       "id": 18581107243,
@@ -631,60 +631,60 @@
   ],
   "weather": [
     {
-      "date": "2026-05-27",
-      "high": 88,
-      "low": 66,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
-    {
       "date": "2026-05-28",
-      "high": 74,
-      "low": 59,
+      "high": 76,
+      "low": 60,
       "precip": 0.0,
-      "windspeed": 18,
+      "windspeed": 17,
       "code": 3
     },
     {
       "date": "2026-05-29",
       "high": 77,
-      "low": 57,
+      "low": 53,
       "precip": 0.0,
-      "windspeed": 17,
+      "windspeed": 12,
       "code": 3
     },
     {
       "date": "2026-05-30",
       "high": 67,
       "low": 51,
-      "precip": 0.01,
-      "windspeed": 22,
-      "code": 51
+      "precip": 0.0,
+      "windspeed": 19,
+      "code": 3
     },
     {
       "date": "2026-05-31",
-      "high": 73,
+      "high": 75,
       "low": 54,
       "precip": 0.0,
-      "windspeed": 9,
+      "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-06-01",
-      "high": 64,
-      "low": 57,
-      "precip": 0.09,
-      "windspeed": 10,
-      "code": 51
+      "high": 74,
+      "low": 61,
+      "precip": 0.0,
+      "windspeed": 21,
+      "code": 3
     },
     {
       "date": "2026-06-02",
-      "high": 62,
-      "low": 54,
-      "precip": 0.07,
-      "windspeed": 19,
-      "code": 51
+      "high": 73,
+      "low": 55,
+      "precip": 0.0,
+      "windspeed": 14,
+      "code": 3
+    },
+    {
+      "date": "2026-06-03",
+      "high": 77,
+      "low": 58,
+      "precip": 0.0,
+      "windspeed": 14,
+      "code": 2
     }
   ],
   "avg_pace_sec": 553.5,
@@ -734,5 +734,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you set for a strong start to your NYC Marathon journey!\n\n### Coaching Brief: May 27 - June 2, 2026\n\n**Fitness Assessment**\nYour recent runs show excellent consistency in maintaining Zone 2 heart rates, indicating a solid aerobic base for easy efforts. Your half marathon and 10-mile performances are strong, suggesting a good foundation for marathon training. The Riegel prediction of 4:11:58 for the full marathon aligns well with your current fitness.\n\n**This Week's Focus**\nContinue prioritizing easy, conversational running within Zone 2 to build your aerobic engine. Aim for 3-4 runs this week, focusing on consistent effort rather than speed. Be mindful of the fluctuating weather, especially the high heat early on and the drizzle/wind later in the week.\n\n**Key Priorities**\n*   **Consistency:** Establish a regular running routine to build habit and fitness.\n*   **Effort Control:** Keep all runs easy and comfortable, resisting the urge to push the pace.\n*   **Listen to Your Body:** Pay attention to fatigue and adjust as needed, especially with the varied weather.\n\n**Watch Out For**\nAvoid the temptation to push too hard or too fast during these base-building weeks; overdoing it now can lead to burnout or injury before the structured plan even begins.\n\n**Upcoming Milestones**\nLook forward to June 29th, when your structured Hal Higdon Novice 2 plan officially kicks off, marking the next exciting phase of your NYC Marathon journey!"
+  "advice": "Alright Tom, let's get you ready for NYC! Here's your coaching brief for the week:\n\n### Fitness Assessment\nTom, you've demonstrated a solid aerobic base, successfully tackling a Half Marathon and a 10-mile race recently, predominantly in your Zone 2. Your easy run paces are consistent around 9:00-9:30/mi, showing good control of your effort. However, we've seen some inconsistency in your weekly run frequency, with noticeable gaps between sessions.\n\n### This Week's Focus\nYour primary goal this week is consistent, easy aerobic running within Zone 2, focusing on building your base mileage gently. Listen to your body and adjust to the upcoming warmer, windy conditions by staying hydrated and not pushing the pace. Aim for a conversational effort where you can speak in full sentences comfortably.\n\n### Key Priorities\n*   **Consistency:** Aim for more regular runs throughout the week to build a stronger, more reliable foundation.\n*   **Effort Control:** Keep all runs easy and conversational, strictly within your Zone 2 heart rate (124-154 bpm).\n*   **Listen & Adapt:** Pay attention to how your body feels and adjust your runs as needed, especially with changing weather conditions.\n\n### Watch Out For\nBe mindful of the recent gaps in your training; avoid long breaks to maintain momentum and prevent losing your current fitness.\n\n### Upcoming Milestones\nLook forward to the official start of your structured Hal Higdon Novice 2 plan on June 29th, marking the true beginning of your marathon build."
 }
