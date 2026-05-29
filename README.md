@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for NYC! Here's your coaching brief for the week:
+Here is your coaching brief, Tom:
 
-### Fitness Assessment
-Tom, you've demonstrated a solid aerobic base, successfully tackling a Half Marathon and a 10-mile race recently, predominantly in your Zone 2. Your easy run paces are consistent around 9:00-9:30/mi, showing good control of your effort. However, we've seen some inconsistency in your weekly run frequency, with noticeable gaps between sessions.
+**Fitness Assessment**
+Tom, your recent race efforts and consistent Z2 heart rate on easy runs demonstrate a solid aerobic base. However, there's a clear pattern of inconsistent running frequency between your recent efforts.
 
-### This Week's Focus
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, you've demonstrated a solid aerobic base, successfully tackling a Half Mara
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-28 14:26:51 UTC | Run ID: 26580918832*
+*Last updated: 2026-05-29 13:52:15 UTC | Run ID: 26641227309*
