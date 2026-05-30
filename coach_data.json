@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-29 13:52:15",
+  "updated_at": "2026-05-30 12:00:25",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 30,
+  "days_to_plan_start": 29,
   "activities": [
     {
       "id": 18581107243,
@@ -631,57 +631,57 @@
   ],
   "weather": [
     {
-      "date": "2026-05-29",
-      "high": 78,
-      "low": 56,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
-    {
       "date": "2026-05-30",
-      "high": 69,
-      "low": 51,
+      "high": 70,
+      "low": 53,
       "precip": 0.0,
-      "windspeed": 22,
+      "windspeed": 24,
       "code": 3
     },
     {
       "date": "2026-05-31",
       "high": 74,
-      "low": 52,
+      "low": 47,
       "precip": 0.0,
       "windspeed": 9,
       "code": 3
     },
     {
       "date": "2026-06-01",
-      "high": 73,
-      "low": 59,
-      "precip": 0.13,
-      "windspeed": 18,
-      "code": 80
+      "high": 74,
+      "low": 62,
+      "precip": 0.0,
+      "windspeed": 14,
+      "code": 3
     },
     {
       "date": "2026-06-02",
-      "high": 74,
-      "low": 53,
-      "precip": 0.01,
-      "windspeed": 18,
-      "code": 51
+      "high": 71,
+      "low": 55,
+      "precip": 0.0,
+      "windspeed": 14,
+      "code": 3
     },
     {
       "date": "2026-06-03",
       "high": 72,
       "low": 58,
       "precip": 0.0,
-      "windspeed": 16,
+      "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-06-04",
-      "high": 81,
-      "low": 64,
+      "high": 75,
+      "low": 58,
+      "precip": 0.0,
+      "windspeed": 12,
+      "code": 3
+    },
+    {
+      "date": "2026-06-05",
+      "high": 82,
+      "low": 60,
       "precip": 0.0,
       "windspeed": 10,
       "code": 3
@@ -734,5 +734,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here is your coaching brief, Tom:\n\n**Fitness Assessment**\nTom, your recent race efforts and consistent Z2 heart rate on easy runs demonstrate a solid aerobic base. However, there's a clear pattern of inconsistent running frequency between your recent efforts.\n\n**This Week's Focus**\nYour primary focus this week is to build consistency with easy aerobic running in Zone 2. Aim for comfortable, conversational paces, generally around 9:00-10:00/mi, adjusting for upcoming wind and rain.\n\n**Key Priorities**\n*   **Consistency is Key:** Aim to run 3-4 times this week to establish a regular routine.\n*   **Maintain Zone 2:** Keep your heart rate in the 124-154 bpm range for all easy runs to build your aerobic engine.\n*   **Listen to Your Body:** Adapt your pace and effort to the weather, especially with upcoming wind and potential rain.\n\n**Watch Out For**\nThe main red flag is allowing significant gaps between your runs; prioritize getting out the door regularly to build a strong foundation.\n\n**Upcoming Milestones**\nLook forward to June 29th, which marks the official start of your Hal Higdon Novice 2 marathon training plan. This pre-plan period is crucial preparation for that transition."
+  "advice": "Alright Tom, let's get you ready for NYC!\n\n**Fitness Assessment**\nTom's recent runs demonstrate excellent consistency in maintaining Zone 2 heart rates for easy efforts, typically around 9:00-9:30/mi pace. His recent Half Marathon and 10-mile race performances show a solid aerobic base and good endurance. This is a strong foundation as we approach the structured training.\n\n**This Week's Focus**\nThis week, continue with easy, aerobic running, focusing on maintaining your Zone 2 heart rate. Aim for comfortable efforts, allowing your body to recover and adapt while gradually building your weekly mileage if you feel good.\n\n**Key Priorities**\n*   Maintain consistent Zone 2 heart rate during all runs to build your aerobic base effectively.\n*   Prioritize rest and recovery to ensure you're fresh and ready for the structured plan ahead.\n*   Listen to your body; if anything feels off, don't push it.\n\n**Watch Out For**\nBe mindful of the increasing temperatures towards the end of the week; adjust your pace and hydration as needed to avoid overheating or pushing too hard.\n\n**Upcoming Milestones**\nLook forward to June 29th, when we officially kick off the Hal Higdon Novice 2 plan and begin our structured journey towards the NYC Marathon!"
 }

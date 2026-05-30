@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief, Tom:
+Alright Tom, let's get you ready for NYC!
 
 **Fitness Assessment**
-Tom, your recent race efforts and consistent Z2 heart rate on easy runs demonstrate a solid aerobic base. However, there's a clear pattern of inconsistent running frequency between your recent efforts.
+Tom's recent runs demonstrate excellent consistency in maintaining Zone 2 heart rates for easy efforts, typically around 9:00-9:30/mi pace. His recent Half Marathon and 10-mile race performances show a solid aerobic base and good endurance. This is a strong foundation as we approach the structured training.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent race efforts and consistent Z2 heart rate on easy runs demonstr
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-29 13:52:15 UTC | Run ID: 26641227309*
+*Last updated: 2026-05-30 12:00:25 UTC | Run ID: 26683264742*
