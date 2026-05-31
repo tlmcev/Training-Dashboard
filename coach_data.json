@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-30 12:00:25",
+  "updated_at": "2026-05-31 12:05:45",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 29,
+  "days_to_plan_start": 28,
   "activities": [
     {
       "id": 18581107243,
@@ -631,59 +631,59 @@
   ],
   "weather": [
     {
-      "date": "2026-05-30",
-      "high": 70,
-      "low": 53,
-      "precip": 0.0,
-      "windspeed": 24,
-      "code": 3
-    },
-    {
       "date": "2026-05-31",
-      "high": 74,
-      "low": 47,
+      "high": 76,
+      "low": 46,
       "precip": 0.0,
-      "windspeed": 9,
+      "windspeed": 13,
       "code": 3
     },
     {
       "date": "2026-06-01",
       "high": 74,
-      "low": 62,
+      "low": 55,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 11,
       "code": 3
     },
     {
       "date": "2026-06-02",
-      "high": 71,
+      "high": 74,
       "low": 55,
-      "precip": 0.0,
-      "windspeed": 14,
-      "code": 3
+      "precip": 0.01,
+      "windspeed": 7,
+      "code": 51
     },
     {
       "date": "2026-06-03",
-      "high": 72,
-      "low": 58,
+      "high": 74,
+      "low": 59,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 11,
       "code": 3
     },
     {
       "date": "2026-06-04",
-      "high": 75,
-      "low": 58,
+      "high": 84,
+      "low": 62,
       "precip": 0.0,
-      "windspeed": 12,
+      "windspeed": 9,
       "code": 3
     },
     {
       "date": "2026-06-05",
-      "high": 82,
-      "low": 60,
+      "high": 84,
+      "low": 67,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 14,
+      "code": 3
+    },
+    {
+      "date": "2026-06-06",
+      "high": 87,
+      "low": 70,
+      "precip": 0.0,
+      "windspeed": 15,
       "code": 3
     }
   ],
@@ -734,5 +734,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for NYC!\n\n**Fitness Assessment**\nTom's recent runs demonstrate excellent consistency in maintaining Zone 2 heart rates for easy efforts, typically around 9:00-9:30/mi pace. His recent Half Marathon and 10-mile race performances show a solid aerobic base and good endurance. This is a strong foundation as we approach the structured training.\n\n**This Week's Focus**\nThis week, continue with easy, aerobic running, focusing on maintaining your Zone 2 heart rate. Aim for comfortable efforts, allowing your body to recover and adapt while gradually building your weekly mileage if you feel good.\n\n**Key Priorities**\n*   Maintain consistent Zone 2 heart rate during all runs to build your aerobic base effectively.\n*   Prioritize rest and recovery to ensure you're fresh and ready for the structured plan ahead.\n*   Listen to your body; if anything feels off, don't push it.\n\n**Watch Out For**\nBe mindful of the increasing temperatures towards the end of the week; adjust your pace and hydration as needed to avoid overheating or pushing too hard.\n\n**Upcoming Milestones**\nLook forward to June 29th, when we officially kick off the Hal Higdon Novice 2 plan and begin our structured journey towards the NYC Marathon!"
+  "advice": "Alright Tom, let's get you ready for a strong start to your NYC Marathon journey!\n\n### **Fitness Assessment**\nTom, your recent training logs show excellent consistency in maintaining Zone 2 heart rate for your easy runs, typically around 9:00-9:30/mi. Your Half Marathon and 10-mile race performances demonstrate a solid aerobic base, confirming you're in a great position to begin marathon-specific training. This consistent Z2 work is exactly what we want to see.\n\n### **This Week's Focus**\nThis week's focus remains on easy, aerobic running within your Zone 2 heart rate, keeping your efforts conversational and comfortable. Aim for 3-4 runs, adapting your pace as needed, especially with the upcoming warmer weather. The goal is to continue building your aerobic base without pushing intensity.\n\n### **Key Priorities**\n*   **Consistency over Speed:** Maintain regular easy runs to build endurance without strain.\n*   **Listen to Your Body:** Pay close attention to fatigue and adjust your efforts accordingly.\n*   **Hydration and Heat Adaptation:** Prioritize staying well-hydrated and be mindful of the rising temperatures mid-week.\n\n### **Watch Out For**\nBe particularly cautious of pushing too hard as temperatures rise significantly mid-week (up to 87F), which can lead to overexertion or dehydration if you're not careful.\n\n### **Upcoming Milestones**\nWe're just 28 days away from officially starting the Hal Higdon Novice 2 plan on June 29th, marking the formal beginning of your NYC Marathon training journey!"
 }

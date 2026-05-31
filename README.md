@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for NYC!
+Alright Tom, let's get you ready for a strong start to your NYC Marathon journey!
 
-**Fitness Assessment**
-Tom's recent runs demonstrate excellent consistency in maintaining Zone 2 heart rates for easy efforts, typically around 9:00-9:30/mi pace. His recent Half Marathon and 10-mile race performances show a solid aerobic base and good endurance. This is a strong foundation as we approach the structured training.
+### **Fitness Assessment**
+Tom, your recent training logs show excellent consistency in maintaining Zone 2 heart rate for your easy runs, typically around 9:00-9:30/mi. Your Half Marathon and 10-mile race performances demonstrate a solid aerobic base, confirming you're in a great position to begin marathon-specific training. This consistent Z2 work is exactly what we want to see.
 
-**This Week's Focus**
+### **This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom's recent runs demonstrate excellent consistency in maintaining Zone 2 heart 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-30 12:00:25 UTC | Run ID: 26683264742*
+*Last updated: 2026-05-31 12:05:45 UTC | Run ID: 26712134885*
