@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | Date |
 | :--- | :--- | :--- | :--- |
+| “Roll it on Home” -John Mayer | 4.17 mi | 9:59/mi | 2026-05-31 |
 | “Scotty Doesn’t Know” -Lustra | 3.07 mi | 9:31/mi | 2026-05-20 |
 | “Wake Waka” - Shakira | 3.06 mi | 9:04/mi | 2026-05-12 |
 | “Baba O’Riley” - The Who | 5.07 mi | 9:13/mi | 2026-05-09 |
 | “American Girls” - Harry Styles | 3.09 mi | 9:05/mi | 2026-05-04 |
-| “Bust a Move” - Young MC | 4.14 mi | 9:09/mi | 2026-04-30 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for a strong start to your NYC Marathon journey!
+Here is your coaching brief for the week, Tom:
 
-### **Fitness Assessment**
-Tom, your recent training logs show excellent consistency in maintaining Zone 2 heart rate for your easy runs, typically around 9:00-9:30/mi. Your Half Marathon and 10-mile race performances demonstrate a solid aerobic base, confirming you're in a great position to begin marathon-specific training. This consistent Z2 work is exactly what we want to see.
+**Fitness Assessment**
+Tom, your recent race performances at the 10-mile and half marathon distances show a strong aerobic base, with good pacing and effort control in Zone 2/3. Your easy runs are consistently in Zone 2, which is excellent for building endurance, though there have been some gaps in frequency.
 
-### **This Week's Focus**
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent training logs show excellent consistency in maintaining Zone 2 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-05-31 12:05:45 UTC | Run ID: 26712134885*
+*Last updated: 2026-06-01 16:30:29 UTC | Run ID: 26767919058*
