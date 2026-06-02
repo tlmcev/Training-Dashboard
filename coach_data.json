@@ -1,9 +1,22 @@
 {
-  "updated_at": "2026-06-01 16:30:29",
+  "updated_at": "2026-06-02 14:40:48",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 27,
+  "days_to_plan_start": 26,
   "activities": [
+    {
+      "id": 18754713968,
+      "name": "\u201cI Love You Always Forever\u201d - Donna Lewis",
+      "date": "2026-06-02",
+      "distance_miles": 3.05,
+      "moving_time_sec": 1729,
+      "pace_per_mile": "9:26",
+      "pace_seconds": 566.9,
+      "elevation_ft": 146.0,
+      "avg_hr": 147,
+      "hr_zone": "Z2",
+      "suffer_score": 32.0
+    },
     {
       "id": 18732211379,
       "name": "\u201cRoll it on Home\u201d -John Mayer",
@@ -408,6 +421,10 @@
     {
       "week_start": "2026-05-25",
       "miles": 4.2
+    },
+    {
+      "week_start": "2026-06-01",
+      "miles": 3.0
     }
   ],
   "ae_trend": [
@@ -653,72 +670,81 @@
       "dist": 4.17,
       "marathon_pred": "4:08:06",
       "marathon_sec": 14886
+    },
+    {
+      "date": "2026-06-02",
+      "name": "\u201cI Love You Always Forever\u201d - Donna Lewis",
+      "ae": 1.159,
+      "hr": 147,
+      "dist": 3.05,
+      "marathon_pred": "4:04:41",
+      "marathon_sec": 14681
     }
   ],
   "weather": [
     {
-      "date": "2026-06-01",
-      "high": 71,
-      "low": 55,
-      "precip": 0.0,
-      "windspeed": 11,
-      "code": 3
-    },
-    {
       "date": "2026-06-02",
-      "high": 76,
-      "low": 48,
-      "precip": 0.0,
-      "windspeed": 11,
-      "code": 3
-    },
-    {
-      "date": "2026-06-03",
-      "high": 76,
-      "low": 53,
+      "high": 78,
+      "low": 49,
       "precip": 0.0,
       "windspeed": 13,
       "code": 3
     },
     {
-      "date": "2026-06-04",
-      "high": 84,
-      "low": 63,
+      "date": "2026-06-03",
+      "high": 81,
+      "low": 54,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 11,
+      "code": 3
+    },
+    {
+      "date": "2026-06-04",
+      "high": 81,
+      "low": 58,
+      "precip": 0.0,
+      "windspeed": 15,
       "code": 3
     },
     {
       "date": "2026-06-05",
-      "high": 85,
-      "low": 67,
+      "high": 87,
+      "low": 68,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 13,
       "code": 3
     },
     {
       "date": "2026-06-06",
       "high": 89,
-      "low": 69,
-      "precip": 0.06,
-      "windspeed": 16,
-      "code": 53
+      "low": 70,
+      "precip": 0.0,
+      "windspeed": 14,
+      "code": 3
     },
     {
       "date": "2026-06-07",
-      "high": 70,
+      "high": 82,
+      "low": 69,
+      "precip": 0.15,
+      "windspeed": 18,
+      "code": 53
+    },
+    {
+      "date": "2026-06-08",
+      "high": 68,
       "low": 61,
-      "precip": 0.26,
-      "windspeed": 15,
-      "code": 55
+      "precip": 0.2,
+      "windspeed": 14,
+      "code": 53
     }
   ],
-  "avg_pace_sec": 555.2,
+  "avg_pace_sec": 555.6,
   "predictions": {
-    "5k": "26:19",
-    "10k": "54:51",
-    "half": "2:01:13",
-    "marathon": "4:12:44"
+    "5k": "26:20",
+    "10k": "54:54",
+    "half": "2:01:19",
+    "marathon": "4:12:56"
   },
   "pace_zones": {
     "Z1": {
@@ -754,11 +780,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 24,
+    "Z2": 25,
     "Z3": 3,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here is your coaching brief for the week, Tom:\n\n**Fitness Assessment**\nTom, your recent race performances at the 10-mile and half marathon distances show a strong aerobic base, with good pacing and effort control in Zone 2/3. Your easy runs are consistently in Zone 2, which is excellent for building endurance, though there have been some gaps in frequency.\n\n**This Week's Focus**\nThis week's focus is on establishing consistent, easy aerobic running to further build your base. Aim for 3-4 runs, keeping your heart rate comfortably in Zone 2 (124-154 bpm), which should translate to paces around 9:30-10:30/mi. The priority is accumulating time on your feet without pushing intensity.\n\n**Key Priorities**\n*   **Consistency**: Aim for regular, scheduled runs to build a solid routine before the plan starts.\n*   **Effort Control**: Keep all runs strictly easy, focusing on maintaining your Zone 2 heart rate.\n*   **Hydration & Heat Acclimation**: Start proactively hydrating and be mindful of the warming temperatures.\n\n**Watch Out For**\nThe weather is heating up significantly mid-week, with high humidity and temperatures climbing into the high 80s. Adjust your pace and hydration on these days to avoid overexertion, and consider running earlier or later to beat the worst of the heat.\n\n**Upcoming Milestones**\nThe official Hal Higdon Novice 2 marathon training plan begins in just 27 days, on June 29th, marking the exciting formal start of your NYC Marathon journey!"
+  "advice": "Hey Tom, great to connect as you gear up for NYC! Let's get you ready.\n\n### Fitness Assessment\nYou're demonstrating excellent consistency in keeping your easy runs within Zone 2, which is fundamental for building a strong aerobic base. Your recent half marathon at a solid Z2 effort confirms you have a good foundation to build upon. Paces for your easy runs vary appropriately, showing you're listening to your body rather than chasing specific speeds.\n\n### This Week's Focus\nThis week, continue to prioritize easy aerobic running, focusing on effort over pace to stay comfortably within Zone 2 (124-154 bpm). Aim for consistent short to moderate runs, allowing your body to adapt and build endurance without stress. With rising temperatures, adjust your pace and consider running earlier or later in the day to maintain a comfortable effort.\n\n### Key Priorities\n*   **Consistency**: Aim for regular runs, even if they are shorter, to solidify your running routine.\n*   **Effort Control**: Keep all runs easy and conversational, ensuring your heart rate stays firmly in Zone 2.\n*   **Hydration & Heat Management**: With warmer weather approaching, stay well-hydrated and be mindful of the heat during your runs.\n\n### Watch Out For\nThe significant increase in temperatures towards the end of the week could lead to overexertion if you don't adjust your pace and hydration. Prioritize effort over pace, especially on hotter days, and don't be afraid to slow down or take walk breaks.\n\n### Upcoming Milestones\nThe official Hal Higdon Novice 2 training plan kicks off on June 29th, marking the structured start of your exciting marathon journey!"
 }

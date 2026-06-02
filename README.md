@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | Date |
 | :--- | :--- | :--- | :--- |
+| “I Love You Always Forever” - Donna Lewis | 3.05 mi | 9:26/mi | 2026-06-02 |
 | “Roll it on Home” -John Mayer | 4.17 mi | 9:59/mi | 2026-05-31 |
 | “Scotty Doesn’t Know” -Lustra | 3.07 mi | 9:31/mi | 2026-05-20 |
 | “Wake Waka” - Shakira | 3.06 mi | 9:04/mi | 2026-05-12 |
 | “Baba O’Riley” - The Who | 5.07 mi | 9:13/mi | 2026-05-09 |
-| “American Girls” - Harry Styles | 3.09 mi | 9:05/mi | 2026-05-04 |
 
 ## AI Coach Snapshot
 
-Here is your coaching brief for the week, Tom:
+Hey Tom, great to connect as you gear up for NYC! Let's get you ready.
 
-**Fitness Assessment**
-Tom, your recent race performances at the 10-mile and half marathon distances show a strong aerobic base, with good pacing and effort control in Zone 2/3. Your easy runs are consistently in Zone 2, which is excellent for building endurance, though there have been some gaps in frequency.
+### Fitness Assessment
+You're demonstrating excellent consistency in keeping your easy runs within Zone 2, which is fundamental for building a strong aerobic base. Your recent half marathon at a solid Z2 effort confirms you have a good foundation to build upon. Paces for your easy runs vary appropriately, showing you're listening to your body rather than chasing specific speeds.
 
-**This Week's Focus**
+### This Week's Focus
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent race performances at the 10-mile and half marathon distances sh
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-01 16:30:29 UTC | Run ID: 26767919058*
+*Last updated: 2026-06-02 14:40:48 UTC | Run ID: 26827185051*
