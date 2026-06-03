@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, great to connect as you gear up for NYC! Let's get you ready.
+Alright Tom, let's get you set up for the week and look ahead to your NYC Marathon journey!
 
-### Fitness Assessment
-You're demonstrating excellent consistency in keeping your easy runs within Zone 2, which is fundamental for building a strong aerobic base. Your recent half marathon at a solid Z2 effort confirms you have a good foundation to build upon. Paces for your easy runs vary appropriately, showing you're listening to your body rather than chasing specific speeds.
+**Fitness Assessment**
+Tom, you've built a solid aerobic base, clearly demonstrated by your ability to comfortably hold Z2 during a half marathon at an impressive 8:35/mi pace. Your easy runs consistently fall within the target Zone 2 heart rate, showing great control. While your fitness is strong, a bit more consistency in your weekly run frequency will be beneficial as we approach the structured training.
 
-### This Week's Focus
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ You're demonstrating excellent consistency in keeping your easy runs within Zone
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-02 14:40:48 UTC | Run ID: 26827185051*
+*Last updated: 2026-06-03 15:23:53 UTC | Run ID: 26894768801*

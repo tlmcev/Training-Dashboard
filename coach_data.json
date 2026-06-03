@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-02 14:40:48",
+  "updated_at": "2026-06-03 15:23:53",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 26,
+  "days_to_plan_start": 25,
   "activities": [
     {
       "id": 18754713968,
@@ -683,60 +683,60 @@
   ],
   "weather": [
     {
-      "date": "2026-06-02",
-      "high": 78,
-      "low": 49,
-      "precip": 0.0,
-      "windspeed": 13,
-      "code": 3
-    },
-    {
       "date": "2026-06-03",
-      "high": 81,
-      "low": 54,
+      "high": 85,
+      "low": 59,
       "precip": 0.0,
       "windspeed": 11,
       "code": 3
     },
     {
       "date": "2026-06-04",
-      "high": 81,
-      "low": 58,
+      "high": 87,
+      "low": 60,
       "precip": 0.0,
-      "windspeed": 15,
+      "windspeed": 11,
       "code": 3
     },
     {
       "date": "2026-06-05",
-      "high": 87,
-      "low": 68,
+      "high": 86,
+      "low": 63,
       "precip": 0.0,
-      "windspeed": 13,
+      "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-06-06",
-      "high": 89,
+      "high": 88,
       "low": 70,
+      "precip": 0.01,
+      "windspeed": 18,
+      "code": 51
+    },
+    {
+      "date": "2026-06-07",
+      "high": 81,
+      "low": 61,
+      "precip": 0.02,
+      "windspeed": 18,
+      "code": 51
+    },
+    {
+      "date": "2026-06-08",
+      "high": 74,
+      "low": 58,
       "precip": 0.0,
       "windspeed": 14,
       "code": 3
     },
     {
-      "date": "2026-06-07",
-      "high": 82,
-      "low": 69,
-      "precip": 0.15,
-      "windspeed": 18,
-      "code": 53
-    },
-    {
-      "date": "2026-06-08",
-      "high": 68,
+      "date": "2026-06-09",
+      "high": 81,
       "low": 61,
-      "precip": 0.2,
-      "windspeed": 14,
-      "code": 53
+      "precip": 0.0,
+      "windspeed": 13,
+      "code": 3
     }
   ],
   "avg_pace_sec": 555.6,
@@ -786,5 +786,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Hey Tom, great to connect as you gear up for NYC! Let's get you ready.\n\n### Fitness Assessment\nYou're demonstrating excellent consistency in keeping your easy runs within Zone 2, which is fundamental for building a strong aerobic base. Your recent half marathon at a solid Z2 effort confirms you have a good foundation to build upon. Paces for your easy runs vary appropriately, showing you're listening to your body rather than chasing specific speeds.\n\n### This Week's Focus\nThis week, continue to prioritize easy aerobic running, focusing on effort over pace to stay comfortably within Zone 2 (124-154 bpm). Aim for consistent short to moderate runs, allowing your body to adapt and build endurance without stress. With rising temperatures, adjust your pace and consider running earlier or later in the day to maintain a comfortable effort.\n\n### Key Priorities\n*   **Consistency**: Aim for regular runs, even if they are shorter, to solidify your running routine.\n*   **Effort Control**: Keep all runs easy and conversational, ensuring your heart rate stays firmly in Zone 2.\n*   **Hydration & Heat Management**: With warmer weather approaching, stay well-hydrated and be mindful of the heat during your runs.\n\n### Watch Out For\nThe significant increase in temperatures towards the end of the week could lead to overexertion if you don't adjust your pace and hydration. Prioritize effort over pace, especially on hotter days, and don't be afraid to slow down or take walk breaks.\n\n### Upcoming Milestones\nThe official Hal Higdon Novice 2 training plan kicks off on June 29th, marking the structured start of your exciting marathon journey!"
+  "advice": "Alright Tom, let's get you set up for the week and look ahead to your NYC Marathon journey!\n\n**Fitness Assessment**\nTom, you've built a solid aerobic base, clearly demonstrated by your ability to comfortably hold Z2 during a half marathon at an impressive 8:35/mi pace. Your easy runs consistently fall within the target Zone 2 heart rate, showing great control. While your fitness is strong, a bit more consistency in your weekly run frequency will be beneficial as we approach the structured training.\n\n**This Week's Focus**\nThis week is all about continuing to build your aerobic foundation with easy, comfortable runs, keeping your heart rate firmly in Zone 2. Aim for a conversational pace, adapting your effort to the warm and humid conditions expected. Focus on consistent effort rather than specific speed or distance, listening to your body.\n\n**Key Priorities**\n*   **Establish Consistency:** Aim for more regular runs throughout the week to prepare your body for the upcoming structured plan.\n*   **Maintain Z2 Effort:** Keep all runs easy and conversational, prioritizing aerobic development over pace.\n*   **Hydrate & Adapt to Heat:** With rising temperatures, focus on staying well-hydrated and consider running during cooler parts of the day to manage effort.\n\n**Watch Out For**\nBe mindful of the rising temperatures and humidity this week; don't be tempted to push your pace if you feel overheated, as this can quickly lead to fatigue or injury.\n\n**Upcoming Milestones**\nLook forward to June 29th, when we officially kick off your structured Hal Higdon Novice 2 training plan for the NYC Marathon!"
 }
