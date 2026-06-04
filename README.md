@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | Date |
 | :--- | :--- | :--- | :--- |
+| “With a Little Help From My Friends” - The Beatles | 4.13 mi | 9:15/mi | 2026-06-04 |
 | “I Love You Always Forever” - Donna Lewis | 3.05 mi | 9:26/mi | 2026-06-02 |
 | “Roll it on Home” -John Mayer | 4.17 mi | 9:59/mi | 2026-05-31 |
 | “Scotty Doesn’t Know” -Lustra | 3.07 mi | 9:31/mi | 2026-05-20 |
 | “Wake Waka” - Shakira | 3.06 mi | 9:04/mi | 2026-05-12 |
-| “Baba O’Riley” - The Who | 5.07 mi | 9:13/mi | 2026-05-09 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you set up for the week and look ahead to your NYC Marathon journey!
+Here's your coaching brief, Tom:
 
 **Fitness Assessment**
-Tom, you've built a solid aerobic base, clearly demonstrated by your ability to comfortably hold Z2 during a half marathon at an impressive 8:35/mi pace. Your easy runs consistently fall within the target Zone 2 heart rate, showing great control. While your fitness is strong, a bit more consistency in your weekly run frequency will be beneficial as we approach the structured training.
+Your recent runs show excellent consistency in both frequency and effort, comfortably maintaining a Zone 2 heart rate across 3-5 mile distances. Your average pace around 9:15-9:30/mi indicates a solid aerobic base is forming, which is exactly what we want at this stage. You're building a strong foundation for the structured training ahead.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you've built a solid aerobic base, clearly demonstrated by your ability to 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-03 15:23:53 UTC | Run ID: 26894768801*
+*Last updated: 2026-06-04 13:51:32 UTC | Run ID: 26956056128*
