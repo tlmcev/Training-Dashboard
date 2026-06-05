@@ -19,7 +19,7 @@
 Here's your coaching brief, Tom:
 
 **Fitness Assessment**
-Your recent runs show excellent consistency in both frequency and effort, comfortably maintaining a Zone 2 heart rate across 3-5 mile distances. Your average pace around 9:15-9:30/mi indicates a solid aerobic base is forming, which is exactly what we want at this stage. You're building a strong foundation for the structured training ahead.
+Tom, your recent runs consistently show excellent adherence to Zone 2 heart rates, which is perfect for building your aerobic base. Your paces, generally around 9:15-9:30/mi, are solid for easy efforts and align well with your predicted marathon finish time. The recent increase in your running frequency is a positive sign as we approach the structured plan.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Your recent runs show excellent consistency in both frequency and effort, comfor
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-04 13:51:32 UTC | Run ID: 26956056128*
+*Last updated: 2026-06-05 13:46:27 UTC | Run ID: 27018602398*

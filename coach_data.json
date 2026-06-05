@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-04 13:51:32",
+  "updated_at": "2026-06-05 13:46:27",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 24,
+  "days_to_plan_start": 23,
   "activities": [
     {
       "id": 18783767538,
@@ -703,7 +703,64 @@
       "marathon_sec": 14886
     }
   ],
-  "weather": [],
+  "weather": [
+    {
+      "date": "2026-06-05",
+      "high": 92,
+      "low": 63,
+      "precip": 0.0,
+      "windspeed": 11,
+      "code": 3
+    },
+    {
+      "date": "2026-06-06",
+      "high": 95,
+      "low": 65,
+      "precip": 0.0,
+      "windspeed": 17,
+      "code": 3
+    },
+    {
+      "date": "2026-06-07",
+      "high": 82,
+      "low": 68,
+      "precip": 0.11,
+      "windspeed": 18,
+      "code": 51
+    },
+    {
+      "date": "2026-06-08",
+      "high": 74,
+      "low": 61,
+      "precip": 0.0,
+      "windspeed": 15,
+      "code": 3
+    },
+    {
+      "date": "2026-06-09",
+      "high": 78,
+      "low": 62,
+      "precip": 0.0,
+      "windspeed": 15,
+      "code": 3
+    },
+    {
+      "date": "2026-06-10",
+      "high": 77,
+      "low": 70,
+      "precip": 0.0,
+      "windspeed": 17,
+      "code": 3
+    },
+    {
+      "date": "2026-06-11",
+      "high": 78,
+      "low": 68,
+      "precip": 0.01,
+      "windspeed": 14,
+      "code": 51
+    }
+  ],
   "avg_pace_sec": 555.6,
   "predictions": {
     "5k": "26:20",
@@ -751,5 +808,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nYour recent runs show excellent consistency in both frequency and effort, comfortably maintaining a Zone 2 heart rate across 3-5 mile distances. Your average pace around 9:15-9:30/mi indicates a solid aerobic base is forming, which is exactly what we want at this stage. You're building a strong foundation for the structured training ahead.\n\n**This Week's Focus**\nThis week, continue to build your aerobic base with easy, comfortable runs, focusing on staying in Zone 2 (124-154 bpm). Aim for a conversational pace, generally around 9:15-9:45/mi, allowing your body to adapt without stress. Don't worry about specific distances; just run by feel.\n\n**Key Priorities**\n*   Maintain consistent running frequency (3-4 times/week) to build routine and endurance.\n*   Prioritize easy effort, keeping your heart rate firmly in Zone 2 for all your runs.\n*   Focus on enjoying your runs and listening to your body's signals for recovery.\n\n**Watch Out For**\nWatch out for the temptation to push the pace too hard, especially on shorter runs. Staying in Zone 2 is crucial for building a durable aerobic foundation and preventing early fatigue or injury before the main plan begins.\n\n**Upcoming Milestones**\nThe official Hal Higdon Novice 2 plan begins on June 29th, marking the start of your structured marathon journey. This is a great milestone to look forward to as you transition from general base building."
+  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nTom, your recent runs consistently show excellent adherence to Zone 2 heart rates, which is perfect for building your aerobic base. Your paces, generally around 9:15-9:30/mi, are solid for easy efforts and align well with your predicted marathon finish time. The recent increase in your running frequency is a positive sign as we approach the structured plan.\n\n**This Week's Focus**\nYour primary goal this week remains easy aerobic running, keeping your heart rate comfortably within Zone 2 (124-154 bpm). Due to the forecasted extreme heat, your pace will likely be slower, so prioritize effort and listening to your body over hitting specific speeds. Focus on consistent movement and getting your runs in, even if they're shorter than usual.\n\n**Key Priorities**\n*   **Heat Management**: Adjust your run schedule to cooler parts of the day (early morning/late evening) and hydrate thoroughly before, during, and after each run.\n*   **Consistent Z2 Effort**: Maintain your easy, conversational pace to continue building your aerobic foundation without overstressing your system.\n*   **Listen to Your Body**: Be prepared to modify or shorten runs if the heat becomes overwhelming or you feel excessive fatigue to prevent injury.\n\n**Watch Out For**\nThe dangerously high temperatures and humidity early this week are a significant concern. Pushing too hard in these conditions can quickly lead to heat exhaustion or unnecessary fatigue, potentially hindering your progress.\n\n**Upcoming Milestones**\nMark your calendar for June 29, 2026 \u2013 that's when your structured Hal Higdon Novice 2 plan officially kicks off! This current base-building phase is vital preparation for that transition, so keep up the great work."
 }
