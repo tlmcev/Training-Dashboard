@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | Date |
 | :--- | :--- | :--- | :--- |
+| “Who Says” -DOPAMOON | 3.3 mi | 9:47/mi | 2026-06-05 |
 | “With a Little Help From My Friends” - The Beatles | 4.13 mi | 9:15/mi | 2026-06-04 |
 | “I Love You Always Forever” - Donna Lewis | 3.05 mi | 9:26/mi | 2026-06-02 |
 | “Roll it on Home” -John Mayer | 4.17 mi | 9:59/mi | 2026-05-31 |
 | “Scotty Doesn’t Know” -Lustra | 3.07 mi | 9:31/mi | 2026-05-20 |
-| “Wake Waka” - Shakira | 3.06 mi | 9:04/mi | 2026-05-12 |
 
 ## AI Coach Snapshot
 
-Here's your coaching brief, Tom:
+Alright Tom, let's get you ready for NYC! It's great to see you're already thinking about the race.
 
-**Fitness Assessment**
-Tom, your recent runs consistently show excellent adherence to Zone 2 heart rates, which is perfect for building your aerobic base. Your paces, generally around 9:15-9:30/mi, are solid for easy efforts and align well with your predicted marathon finish time. The recent increase in your running frequency is a positive sign as we approach the structured plan.
+---
 
-**This Week's Focus**
+### Coaching Brief for Tom
+
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent runs consistently show excellent adherence to Zone 2 heart rate
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-05 13:46:27 UTC | Run ID: 27018602398*
+*Last updated: 2026-06-06 12:03:06 UTC | Run ID: 27061773688*
