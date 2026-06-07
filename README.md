@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | Date |
 | :--- | :--- | :--- | :--- |
+| “Fat Bottomed Girls”- Queen | 3.76 mi | 10:30/mi | 2026-06-06 |
 | “Who Says” -DOPAMOON | 3.3 mi | 9:47/mi | 2026-06-05 |
 | “With a Little Help From My Friends” - The Beatles | 4.13 mi | 9:15/mi | 2026-06-04 |
 | “I Love You Always Forever” - Donna Lewis | 3.05 mi | 9:26/mi | 2026-06-02 |
 | “Roll it on Home” -John Mayer | 4.17 mi | 9:59/mi | 2026-05-31 |
-| “Scotty Doesn’t Know” -Lustra | 3.07 mi | 9:31/mi | 2026-05-20 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for NYC! It's great to see you're already thinking about the race.
+Here is your coaching brief for Tom:
 
----
+**Fitness Assessment**
+Tom, your recent running consistency is excellent, with frequent Z2 efforts demonstrating a solid aerobic base. While paces have varied a bit, your heart rate remains well within the easy zone, which is exactly what we want for base building. This indicates you're listening to your body and building endurance effectively.
 
-### Coaching Brief for Tom
-
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Alright Tom, let's get you ready for NYC! It's great to see you're already think
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-06 12:03:06 UTC | Run ID: 27061773688*
+*Last updated: 2026-06-07 12:15:09 UTC | Run ID: 27092274208*

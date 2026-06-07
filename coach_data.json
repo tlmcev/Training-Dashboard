@@ -1,9 +1,22 @@
 {
-  "updated_at": "2026-06-06 12:03:06",
+  "updated_at": "2026-06-07 12:15:09",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 22,
+  "days_to_plan_start": 21,
   "activities": [
+    {
+      "id": 18813087113,
+      "name": "\u201cFat Bottomed Girls\u201d- Queen",
+      "date": "2026-06-06",
+      "distance_miles": 3.76,
+      "moving_time_sec": 2369,
+      "pace_per_mile": "10:30",
+      "pace_seconds": 630.1,
+      "elevation_ft": 127.0,
+      "avg_hr": 143,
+      "hr_zone": "Z2",
+      "suffer_score": 36.0
+    },
     {
       "id": 18799085812,
       "name": "\u201cWho Says\u201d -DOPAMOON",
@@ -450,7 +463,7 @@
     },
     {
       "week_start": "2026-06-01",
-      "miles": 10.5
+      "miles": 14.2
     }
   ],
   "ae_trend": [
@@ -723,20 +736,21 @@
       "dist": 3.3,
       "marathon_pred": "4:20:24",
       "marathon_sec": 15624
+    },
+    {
+      "date": "2026-06-06",
+      "name": "\u201cFat Bottomed Girls\u201d- Queen",
+      "ae": 1.072,
+      "hr": 143,
+      "dist": 3.76,
+      "marathon_pred": "4:24:32",
+      "marathon_sec": 15872
     }
   ],
   "weather": [
     {
-      "date": "2026-06-06",
-      "high": 94,
-      "low": 70,
-      "precip": 0.03,
-      "windspeed": 16,
-      "code": 53
-    },
-    {
       "date": "2026-06-07",
-      "high": 86,
+      "high": 85,
       "low": 67,
       "precip": 0.0,
       "windspeed": 16,
@@ -744,51 +758,59 @@
     },
     {
       "date": "2026-06-08",
-      "high": 79,
-      "low": 62,
+      "high": 78,
+      "low": 60,
       "precip": 0.0,
-      "windspeed": 14,
-      "code": 3
+      "windspeed": 13,
+      "code": 2
     },
     {
       "date": "2026-06-09",
-      "high": 84,
-      "low": 62,
+      "high": 79,
+      "low": 60,
       "precip": 0.0,
       "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-06-10",
-      "high": 78,
+      "high": 79,
       "low": 66,
-      "precip": 0.29,
-      "windspeed": 11,
-      "code": 80
+      "precip": 0.02,
+      "windspeed": 15,
+      "code": 51
     },
     {
       "date": "2026-06-11",
-      "high": 81,
-      "low": 68,
+      "high": 82,
+      "low": 71,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-06-12",
-      "high": 73,
-      "low": 66,
+      "high": 75,
+      "low": 65,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 11,
+      "code": 3
+    },
+    {
+      "date": "2026-06-13",
+      "high": 76,
+      "low": 65,
+      "precip": 0.0,
+      "windspeed": 15,
       "code": 3
     }
   ],
-  "avg_pace_sec": 556.7,
+  "avg_pace_sec": 559.1,
   "predictions": {
-    "5k": "26:23",
-    "10k": "55:00",
-    "half": "2:01:33",
-    "marathon": "4:13:25"
+    "5k": "26:30",
+    "10k": "55:14",
+    "half": "2:02:04",
+    "marathon": "4:14:30"
   },
   "pace_zones": {
     "Z1": {
@@ -824,11 +846,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 27,
+    "Z2": 28,
     "Z3": 3,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for NYC! It's great to see you're already thinking about the race.\n\n---\n\n### Coaching Brief for Tom\n\n**Fitness Assessment**\nTom, your recent runs demonstrate excellent consistency in maintaining your Zone 2 heart rate, which is crucial for building an aerobic base. Your paces are generally in the 9:00-10:00/mi range, showing a solid foundation, though we'll aim for more consistent weekly frequency moving forward. Your predicted marathon time of 4:13:25 gives us a great starting point for future goal setting.\n\n**This Week's Focus**\nThis week, your primary focus remains on easy aerobic running, keeping your heart rate comfortably in Zone 2. Don't chase specific paces; instead, let your body dictate the effort, especially with the challenging heat and humidity forecasted. Prioritize consistent, enjoyable efforts over distance.\n\n**Key Priorities**\n*   **Consistency**: Aim for 3-4 easy runs this week to build a strong routine before the structured plan begins.\n*   **Hydration & Heat Management**: With high temperatures and humidity, prioritize pre- and post-run hydration and consider running during cooler parts of the day.\n*   **Listen to Your Body**: Maintain easy efforts; if you feel fatigued or the heat is too much, shorten your run or take an extra rest day.\n\n**Watch Out For**\nThe forecasted high temperatures and humidity pose a significant challenge; pushing too hard in these conditions can lead to overheating or excessive fatigue, hindering your base-building efforts.\n\n**Upcoming Milestones**\nThe official start of your Hal Higdon Novice 2 marathon training plan begins on June 29th, marking a structured progression towards your NYC Marathon goal."
+  "advice": "Here is your coaching brief for Tom:\n\n**Fitness Assessment**\nTom, your recent running consistency is excellent, with frequent Z2 efforts demonstrating a solid aerobic base. While paces have varied a bit, your heart rate remains well within the easy zone, which is exactly what we want for base building. This indicates you're listening to your body and building endurance effectively.\n\n**This Week's Focus**\nGiven it's a base-building week, your primary goal is to continue with easy, aerobic running, keeping your heart rate in Zone 2 (124-154 bpm). Don't focus on pace; let your effort dictate it, especially with the upcoming warm weather. Aim for consistent, comfortable mileage to build your foundation.\n\n**Key Priorities**\n*   **Consistent Aerobic Base:** Continue to log regular, easy Z2 runs to build your endurance engine.\n*   **Heat Adaptation:** Prioritize hydration and adjust your pace significantly during the upcoming hot and humid days.\n*   **Listen to Your Body:** Pay close attention to fatigue and soreness; recovery is paramount during this phase.\n\n**Watch Out For**\nBe mindful of your heart rate creeping into Zone 3 during easy runs, especially with the high temperatures and humidity this week, which can make easy efforts feel much harder.\n\n**Upcoming Milestones**\nWe're just 21 days away from the official start of your structured Hal Higdon Novice 2 plan on June 29th, which will mark the exciting transition into more focused training."
 }
