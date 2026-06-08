@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief for Tom:
+Alright Tom, let's get you ready for NYC! Here's your brief for the week:
 
 **Fitness Assessment**
-Tom, your recent running consistency is excellent, with frequent Z2 efforts demonstrating a solid aerobic base. While paces have varied a bit, your heart rate remains well within the easy zone, which is exactly what we want for base building. This indicates you're listening to your body and building endurance effectively.
+You're showing great consistency in hitting your Zone 2 heart rate for easy runs, indicating a solid aerobic base. Your recent paces, averaging around 9:19/mi, align well with your predicted marathon time of 4:14:30. The increase in run frequency lately is excellent for building overall consistency.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent running consistency is excellent, with frequent Z2 efforts demo
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-07 12:15:09 UTC | Run ID: 27092274208*
+*Last updated: 2026-06-08 14:41:15 UTC | Run ID: 27145424543*
