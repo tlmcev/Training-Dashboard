@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-08 14:41:15",
+  "updated_at": "2026-06-09 13:35:24",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 20,
+  "days_to_plan_start": 19,
   "activities": [
     {
       "id": 18813087113,
@@ -749,59 +749,59 @@
   ],
   "weather": [
     {
-      "date": "2026-06-08",
-      "high": 77,
-      "low": 62,
-      "precip": 0.0,
-      "windspeed": 15,
-      "code": 3
-    },
-    {
       "date": "2026-06-09",
       "high": 80,
-      "low": 57,
+      "low": 59,
       "precip": 0.0,
-      "windspeed": 13,
-      "code": 3
+      "windspeed": 12,
+      "code": 2
     },
     {
       "date": "2026-06-10",
-      "high": 79,
-      "low": 63,
-      "precip": 0.31,
-      "windspeed": 14,
-      "code": 81
+      "high": 83,
+      "low": 65,
+      "precip": 0.06,
+      "windspeed": 11,
+      "code": 61
     },
     {
       "date": "2026-06-11",
-      "high": 88,
-      "low": 70,
-      "precip": 0.16,
-      "windspeed": 19,
-      "code": 80
+      "high": 89,
+      "low": 72,
+      "precip": 0.03,
+      "windspeed": 15,
+      "code": 53
     },
     {
       "date": "2026-06-12",
-      "high": 82,
-      "low": 66,
-      "precip": 0.09,
-      "windspeed": 15,
+      "high": 90,
+      "low": 73,
+      "precip": 0.15,
+      "windspeed": 16,
       "code": 80
     },
     {
       "date": "2026-06-13",
-      "high": 77,
-      "low": 65,
+      "high": 88,
+      "low": 72,
       "precip": 0.06,
-      "windspeed": 11,
-      "code": 55
+      "windspeed": 15,
+      "code": 80
     },
     {
       "date": "2026-06-14",
-      "high": 85,
-      "low": 70,
-      "precip": 0.06,
-      "windspeed": 11,
+      "high": 87,
+      "low": 68,
+      "precip": 0.0,
+      "windspeed": 16,
+      "code": 3
+    },
+    {
+      "date": "2026-06-15",
+      "high": 74,
+      "low": 67,
+      "precip": 0.05,
+      "windspeed": 13,
       "code": 51
     }
   ],
@@ -852,5 +852,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for NYC! Here's your brief for the week:\n\n**Fitness Assessment**\nYou're showing great consistency in hitting your Zone 2 heart rate for easy runs, indicating a solid aerobic base. Your recent paces, averaging around 9:19/mi, align well with your predicted marathon time of 4:14:30. The increase in run frequency lately is excellent for building overall consistency.\n\n**This Week's Focus**\nThis week is all about continuing to build your aerobic engine with easy, comfortable running, keeping your heart rate firmly in Zone 2 (124-154 bpm). Don't focus on speed; prioritize consistent effort and gradually increasing your time on feet. The goal is to feel good and recover well.\n\n**Key Priorities**\n*   **Consistency over Intensity:** Aim for 4-5 easy, conversational runs this week, prioritizing frequency and enjoyment.\n*   **Hydration & Heat Management:** With upcoming hot, humid, and showery weather, stay well-hydrated throughout the day and adjust your pace to the conditions.\n*   **Listen to Your Body:** Pay close attention to any signs of fatigue or discomfort; these pre-plan weeks are crucial for injury prevention.\n\n**Watch Out For**\nThe significant increase in heat and humidity this week could make your usual paces feel much harder. Be mindful of your perceived exertion and don't hesitate to slow down or take walk breaks to avoid overexertion.\n\n**Upcoming Milestones**\nThe official Hal Higdon Novice 2 marathon training plan kicks off in just 20 days, on June 29th! This base-building period is setting you up perfectly for a strong, healthy start to the structured program."
+  "advice": "Hey Tom, great to connect as you gear up for the NYC Marathon! Here's your brief for the week:\n\n**Fitness Assessment**\nYou're showing good consistency with 3-5 mile runs, maintaining your Zone 2 heart rate across a variety of paces (9:04-10:30/mi). This indicates a solid aerobic base and excellent control over effort for easy runs, which is perfect for this base-building phase. Your predicted marathon time of 4:14:30 is a strong starting point for the journey ahead.\n\n**This Week's Focus**\nContinue with easy aerobic running, targeting your Zone 2 heart rate (124-154 bpm) for all sessions. Aim for 3-5 runs this week, keeping distances between 3-5 miles, adjusting pace as needed to stay comfortable and within your target zone, especially with the rising temperatures.\n\n**Key Priorities**\n*   Maintain consistent running frequency and duration within Zone 2.\n*   Prioritize hydration and heat management due to the upcoming hot and humid weather.\n*   Listen to your body, adjusting pace or duration to avoid overexertion in the heat.\n\n**Watch Out For**\nThe significant increase in temperature and humidity this week will make runs feel harder; be mindful not to push your pace and inadvertently elevate your heart rate out of Zone 2.\n\n**Upcoming Milestones**\nThe official start of your Hal Higdon Novice 2 plan is just 19 days away, on June 29th, marking the formal kick-off of your marathon training."
 }
