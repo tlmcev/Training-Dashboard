@@ -6,20 +6,20 @@
 
 ## Recent Runs
 
-| Workout | Distance | Pace | Date |
-| :--- | :--- | :--- | :--- |
-| “Fat Bottomed Girls”- Queen | 3.76 mi | 10:30/mi | 2026-06-06 |
-| “Who Says” -DOPAMOON | 3.3 mi | 9:47/mi | 2026-06-05 |
-| “With a Little Help From My Friends” - The Beatles | 4.13 mi | 9:15/mi | 2026-06-04 |
-| “I Love You Always Forever” - Donna Lewis | 3.05 mi | 9:26/mi | 2026-06-02 |
-| “Roll it on Home” -John Mayer | 4.17 mi | 9:59/mi | 2026-05-31 |
+| Workout | Distance | Pace | HR | Date |
+| :--- | :--- | :--- | :--- | :--- |
+| “Fat Bottomed Girls”- Queen | 3.76mi | 10:30/mi | 143bpm (Z2) | 2026-06-06 |
+| “Who Says” -DOPAMOON | 3.3mi | 9:47/mi | 151bpm (Z2) | 2026-06-05 |
+| “With a Little Help From My Friends” - The Beatles | 4.13mi | 9:15/mi | 152bpm (Z2) | 2026-06-04 |
+| “I Love You Always Forever” - Donna Lewis | 3.05mi | 9:26/mi | 147bpm (Z2) | 2026-06-02 |
+| “Roll it on Home” -John Mayer | 4.17mi | 9:59/mi | 141bpm (Z2) | 2026-05-31 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for November 1st! Here's your brief for the week:
+Alright Tom, let's get you dialed in for a strong base-building week as we approach the official start of your NYC Marathon training.
 
 **Fitness Assessment**
-Tom, your recent runs demonstrate excellent consistency in maintaining your Zone 2 heart rate, which is foundational for building your aerobic base. You're effectively controlling your effort, allowing your body to adapt and build endurance without overstressing.
+Tom, you're building a solid aerobic engine. Your recent runs consistently show an average heart rate in Zone 2 (141-154 bpm), which is perfect for base development. Your paces, typically between 9:15-10:30/mi at these Z2 efforts, along with consistent watts (232-266W), demonstrate good control and efficiency. While cadence data isn't available, your overall metrics indicate excellent aerobic health for this phase.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent runs demonstrate excellent consistency in maintaining your Zone
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-10 14:15:46 UTC | Run ID: 27282610111*
+*Last updated: 2026-06-10 18:16:49 UTC | Run ID: 27296696817*

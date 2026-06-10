@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10 14:15:46",
+  "updated_at": "2026-06-10 18:16:49",
   "current_week": 0,
   "phase": "base_building",
   "days_to_plan_start": 18,
@@ -15,7 +15,13 @@
       "elevation_ft": 127.0,
       "avg_hr": 143,
       "hr_zone": "Z2",
-      "suffer_score": 36.0
+      "suffer_score": 36.0,
+      "max_hr": 158.0,
+      "avg_watts": 232,
+      "avg_cadence": null,
+      "fastest_mile": "9:30",
+      "fastest_5k": "31:49",
+      "pr_count": 0
     },
     {
       "id": 18799085812,
@@ -28,7 +34,13 @@
       "elevation_ft": 75.0,
       "avg_hr": 151,
       "hr_zone": "Z2",
-      "suffer_score": 44.0
+      "suffer_score": 44.0,
+      "max_hr": 171.0,
+      "avg_watts": 248,
+      "avg_cadence": null,
+      "fastest_mile": "9:24",
+      "fastest_5k": "29:37",
+      "pr_count": 0
     },
     {
       "id": 18783767538,
@@ -41,7 +53,13 @@
       "elevation_ft": 168.0,
       "avg_hr": 152,
       "hr_zone": "Z2",
-      "suffer_score": 57.0
+      "suffer_score": 57.0,
+      "max_hr": 171.0,
+      "avg_watts": 260,
+      "avg_cadence": null,
+      "fastest_mile": "8:48",
+      "fastest_5k": "28:11",
+      "pr_count": 0
     },
     {
       "id": 18754713968,
@@ -54,7 +72,13 @@
       "elevation_ft": 146.0,
       "avg_hr": 147,
       "hr_zone": "Z2",
-      "suffer_score": 32.0
+      "suffer_score": 32.0,
+      "max_hr": 166.0,
+      "avg_watts": 257,
+      "avg_cadence": null,
+      "fastest_mile": "9:07",
+      "fastest_5k": null,
+      "pr_count": 0
     },
     {
       "id": 18732211379,
@@ -67,7 +91,13 @@
       "elevation_ft": 175.0,
       "avg_hr": 141,
       "hr_zone": "Z2",
-      "suffer_score": 30.0
+      "suffer_score": 30.0,
+      "max_hr": 159.0,
+      "avg_watts": 241,
+      "avg_cadence": null,
+      "fastest_mile": "9:28",
+      "fastest_5k": "30:41",
+      "pr_count": 0
     },
     {
       "id": 18581107243,
@@ -80,7 +110,13 @@
       "elevation_ft": 138.0,
       "avg_hr": 148,
       "hr_zone": "Z2",
-      "suffer_score": 35.0
+      "suffer_score": 35.0,
+      "max_hr": 166.0,
+      "avg_watts": 253,
+      "avg_cadence": null,
+      "fastest_mile": "9:14",
+      "fastest_5k": null,
+      "pr_count": 0
     },
     {
       "id": 18476270509,
@@ -93,7 +129,13 @@
       "elevation_ft": 142.0,
       "avg_hr": 142,
       "hr_zone": "Z2",
-      "suffer_score": 22.0
+      "suffer_score": 22.0,
+      "max_hr": 162.0,
+      "avg_watts": 266,
+      "avg_cadence": null,
+      "fastest_mile": "8:34",
+      "fastest_5k": null,
+      "pr_count": 1
     },
     {
       "id": 18440054488,
@@ -106,7 +148,13 @@
       "elevation_ft": 52.0,
       "avg_hr": 154,
       "hr_zone": "Z2",
-      "suffer_score": 76.0
+      "suffer_score": 76.0,
+      "max_hr": 165.0,
+      "avg_watts": 263,
+      "avg_cadence": null,
+      "fastest_mile": "8:46",
+      "fastest_5k": "27:55",
+      "pr_count": 4
     },
     {
       "id": 18375463008,
@@ -119,7 +167,13 @@
       "elevation_ft": 135.0,
       "avg_hr": 150,
       "hr_zone": "Z2",
-      "suffer_score": 39.0
+      "suffer_score": 39.0,
+      "max_hr": 162.0,
+      "avg_watts": 264,
+      "avg_cadence": null,
+      "fastest_mile": "8:38",
+      "fastest_5k": null,
+      "pr_count": 0
     },
     {
       "id": 18318310719,
@@ -132,7 +186,13 @@
       "elevation_ft": 174.0,
       "avg_hr": 145,
       "hr_zone": "Z2",
-      "suffer_score": 36.0
+      "suffer_score": 36.0,
+      "max_hr": 171.0,
+      "avg_watts": 263,
+      "avg_cadence": null,
+      "fastest_mile": "8:44",
+      "fastest_5k": "28:08",
+      "pr_count": 1
     },
     {
       "id": 18277405077,
@@ -145,7 +205,13 @@
       "elevation_ft": 145.0,
       "avg_hr": 147,
       "hr_zone": "Z2",
-      "suffer_score": 30.0
+      "suffer_score": 30.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 0
     },
     {
       "id": 18241386847,
@@ -158,7 +224,13 @@
       "elevation_ft": 48.0,
       "avg_hr": 145,
       "hr_zone": "Z2",
-      "suffer_score": 32.0
+      "suffer_score": 32.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 0
     },
     {
       "id": 18159409941,
@@ -171,7 +243,13 @@
       "elevation_ft": 465.0,
       "avg_hr": 151,
       "hr_zone": "Z2",
-      "suffer_score": 167.0
+      "suffer_score": 167.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 0
     },
     {
       "id": 18080317369,
@@ -184,7 +262,13 @@
       "elevation_ft": 110.0,
       "avg_hr": 156,
       "hr_zone": "Z3",
-      "suffer_score": 158.0
+      "suffer_score": 158.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 0
     },
     {
       "id": 18052536320,
@@ -197,7 +281,13 @@
       "elevation_ft": 131.0,
       "avg_hr": 136,
       "hr_zone": "Z2",
-      "suffer_score": 16.0
+      "suffer_score": 16.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 1
     },
     {
       "id": 18011677153,
@@ -210,7 +300,13 @@
       "elevation_ft": 157.0,
       "avg_hr": 137,
       "hr_zone": "Z2",
-      "suffer_score": 14.0
+      "suffer_score": 14.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 0
     },
     {
       "id": 17975395467,
@@ -223,7 +319,13 @@
       "elevation_ft": 446.0,
       "avg_hr": 150,
       "hr_zone": "Z2",
-      "suffer_score": 107.0
+      "suffer_score": 107.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 3
     },
     {
       "id": 17961689745,
@@ -236,7 +338,13 @@
       "elevation_ft": 189.0,
       "avg_hr": 140,
       "hr_zone": "Z2",
-      "suffer_score": 22.0
+      "suffer_score": 22.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 0
     },
     {
       "id": 17931056657,
@@ -249,7 +357,13 @@
       "elevation_ft": 179.0,
       "avg_hr": 149,
       "hr_zone": "Z2",
-      "suffer_score": 49.0
+      "suffer_score": 49.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 0
     },
     {
       "id": 17918086633,
@@ -262,7 +376,13 @@
       "elevation_ft": 159.0,
       "avg_hr": 144,
       "hr_zone": "Z2",
-      "suffer_score": 31.0
+      "suffer_score": 31.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 0
     },
     {
       "id": 17889583793,
@@ -275,7 +395,13 @@
       "elevation_ft": 380.0,
       "avg_hr": 147,
       "hr_zone": "Z2",
-      "suffer_score": 81.0
+      "suffer_score": 81.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 2
     },
     {
       "id": 17852678686,
@@ -288,7 +414,13 @@
       "elevation_ft": 185.0,
       "avg_hr": 149,
       "hr_zone": "Z2",
-      "suffer_score": 44.0
+      "suffer_score": 44.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 2
     },
     {
       "id": 17829808107,
@@ -301,7 +433,13 @@
       "elevation_ft": 0.0,
       "avg_hr": 156,
       "hr_zone": "Z3",
-      "suffer_score": 55.0
+      "suffer_score": 55.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 0
     },
     {
       "id": 17804052820,
@@ -314,7 +452,13 @@
       "elevation_ft": 497.0,
       "avg_hr": 156,
       "hr_zone": "Z3",
-      "suffer_score": 154.0
+      "suffer_score": 154.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 28
     },
     {
       "id": 17785300708,
@@ -327,7 +471,13 @@
       "elevation_ft": 198.0,
       "avg_hr": 142,
       "hr_zone": "Z2",
-      "suffer_score": 32.0
+      "suffer_score": 32.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 0
     },
     {
       "id": 17721005618,
@@ -340,7 +490,13 @@
       "elevation_ft": 417.0,
       "avg_hr": 143,
       "hr_zone": "Z2",
-      "suffer_score": 58.0
+      "suffer_score": 58.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 0
     },
     {
       "id": 17671096583,
@@ -353,7 +509,13 @@
       "elevation_ft": 137.0,
       "avg_hr": 149,
       "hr_zone": "Z2",
-      "suffer_score": 35.0
+      "suffer_score": 35.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 0
     },
     {
       "id": 17636944384,
@@ -366,7 +528,13 @@
       "elevation_ft": 411.0,
       "avg_hr": 145,
       "hr_zone": "Z2",
-      "suffer_score": 68.0
+      "suffer_score": 68.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 5
     },
     {
       "id": 17628038689,
@@ -379,7 +547,13 @@
       "elevation_ft": 156.0,
       "avg_hr": 152,
       "hr_zone": "Z2",
-      "suffer_score": 48.0
+      "suffer_score": 48.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 0
     },
     {
       "id": 17600627093,
@@ -392,7 +566,13 @@
       "elevation_ft": 146.0,
       "avg_hr": 151,
       "hr_zone": "Z2",
-      "suffer_score": 36.0
+      "suffer_score": 36.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 1
     },
     {
       "id": 17586707349,
@@ -405,7 +585,13 @@
       "elevation_ft": 0.0,
       "avg_hr": 148,
       "hr_zone": "Z2",
-      "suffer_score": 37.0
+      "suffer_score": 37.0,
+      "max_hr": null,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 0
     }
   ],
   "weekly_mileage": [
@@ -750,11 +936,11 @@
   "weather": [
     {
       "date": "2026-06-10",
-      "high": 85,
+      "high": 84,
       "low": 69,
-      "precip": 0.07,
-      "windspeed": 12,
-      "code": 61
+      "precip": 0.02,
+      "windspeed": 11,
+      "code": 51
     },
     {
       "date": "2026-06-11",
@@ -852,5 +1038,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for November 1st! Here's your brief for the week:\n\n**Fitness Assessment**\nTom, your recent runs demonstrate excellent consistency in maintaining your Zone 2 heart rate, which is foundational for building your aerobic base. You're effectively controlling your effort, allowing your body to adapt and build endurance without overstressing.\n\n**This Week's Focus**\nThis week, your primary focus remains on easy aerobic running, keeping your heart rate comfortably in Zone 2. Given the anticipated hot, humid, and rainy conditions, prioritize effort over pace and be prepared to slow down significantly to stay within your target zone.\n\n**Key Priorities**\n*   **Effort Over Pace:** Let your heart rate and perceived effort dictate your pace, especially in the challenging weather.\n*   **Hydration:** Stay well-hydrated throughout the day, not just around your runs, to combat the high temperatures and humidity.\n*   **Listen to Your Body:** We're still in an unstructured phase, so don't hesitate to take extra rest or shorten a run if you feel excessive fatigue or discomfort.\n\n**Watch Out For**\nBe extremely mindful of the high heat and humidity; pushing your pace too hard could lead to overheating or dehydration, so don't hesitate to take walk breaks or cut runs short if needed.\n\n**Upcoming Milestones**\nLook forward to June 29th, when we officially kick off your structured Hal Higdon Novice 2 marathon training plan!"
+  "advice": "Alright Tom, let's get you dialed in for a strong base-building week as we approach the official start of your NYC Marathon training.\n\n**Fitness Assessment**\nTom, you're building a solid aerobic engine. Your recent runs consistently show an average heart rate in Zone 2 (141-154 bpm), which is perfect for base development. Your paces, typically between 9:15-10:30/mi at these Z2 efforts, along with consistent watts (232-266W), demonstrate good control and efficiency. While cadence data isn't available, your overall metrics indicate excellent aerobic health for this phase.\n\n**This Week's Focus**\nThis week continues the critical base-building phase, emphasizing easy aerobic running. Your primary goal is to maintain your heart rate firmly within Zone 2 (124-154 bpm), which will likely translate to paces around 9:30-10:30/mi given recent efforts and the upcoming warm weather. Focus on consistent, comfortable efforts rather than pushing pace or distance, aiming for a total weekly mileage similar to or slightly above last week's 14.2 miles.\n\n**Key Priorities**\n*   **Prioritize Z2 HR:** Ensure all runs remain firmly in Zone 2, keeping your average heart rate below 154 bpm. Your recent HR distribution shows excellent Z2 adherence, let's maintain that.\n*   **Adjust for Heat & Humidity:** With forecasted highs of 84-96F and drizzle, expect your Z2 pace to slow significantly; listen to your body and don't chase pace.\n*   **Consistent Volume:** Aim for 3-4 easy runs this week, building on last week's 14.2 miles, without any single run exceeding 4-5 miles to ensure sustainable progression.\n\n**Watch Out For**\nYour weekly mileage saw a substantial jump from 4.2 miles to 14.2 miles last week. While your body adapted well with consistent Z2 heart rates, be mindful of this rapid increase and prioritize recovery to prevent any undue stress or potential injury.\n\n**Upcoming Milestones**\nLook forward to the official Hal Higdon Novice 2 plan beginning on June 29, 2026, which is just 18 days away. This structured approach will introduce specific workouts and guide your progression towards the NYC Marathon."
 }
