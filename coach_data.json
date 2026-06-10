@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-09 13:35:24",
+  "updated_at": "2026-06-10 14:15:46",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 19,
+  "days_to_plan_start": 18,
   "activities": [
     {
       "id": 18813087113,
@@ -749,60 +749,60 @@
   ],
   "weather": [
     {
-      "date": "2026-06-09",
-      "high": 80,
-      "low": 59,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 2
-    },
-    {
       "date": "2026-06-10",
-      "high": 83,
-      "low": 65,
-      "precip": 0.06,
-      "windspeed": 11,
+      "high": 85,
+      "low": 69,
+      "precip": 0.07,
+      "windspeed": 12,
       "code": 61
     },
     {
       "date": "2026-06-11",
-      "high": 89,
-      "low": 72,
-      "precip": 0.03,
-      "windspeed": 15,
-      "code": 53
+      "high": 96,
+      "low": 71,
+      "precip": 0.0,
+      "windspeed": 13,
+      "code": 3
     },
     {
       "date": "2026-06-12",
-      "high": 90,
-      "low": 73,
-      "precip": 0.15,
-      "windspeed": 16,
-      "code": 80
+      "high": 93,
+      "low": 72,
+      "precip": 0.02,
+      "windspeed": 15,
+      "code": 51
     },
     {
       "date": "2026-06-13",
       "high": 88,
-      "low": 72,
-      "precip": 0.06,
+      "low": 70,
+      "precip": 0.04,
       "windspeed": 15,
-      "code": 80
+      "code": 53
     },
     {
       "date": "2026-06-14",
-      "high": 87,
-      "low": 68,
-      "precip": 0.0,
-      "windspeed": 16,
-      "code": 3
+      "high": 92,
+      "low": 71,
+      "precip": 0.06,
+      "windspeed": 19,
+      "code": 53
     },
     {
       "date": "2026-06-15",
-      "high": 74,
-      "low": 67,
-      "precip": 0.05,
-      "windspeed": 13,
-      "code": 51
+      "high": 76,
+      "low": 66,
+      "precip": 0.02,
+      "windspeed": 14,
+      "code": 53
+    },
+    {
+      "date": "2026-06-16",
+      "high": 69,
+      "low": 63,
+      "precip": 0.28,
+      "windspeed": 8,
+      "code": 55
     }
   ],
   "avg_pace_sec": 559.1,
@@ -852,5 +852,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Hey Tom, great to connect as you gear up for the NYC Marathon! Here's your brief for the week:\n\n**Fitness Assessment**\nYou're showing good consistency with 3-5 mile runs, maintaining your Zone 2 heart rate across a variety of paces (9:04-10:30/mi). This indicates a solid aerobic base and excellent control over effort for easy runs, which is perfect for this base-building phase. Your predicted marathon time of 4:14:30 is a strong starting point for the journey ahead.\n\n**This Week's Focus**\nContinue with easy aerobic running, targeting your Zone 2 heart rate (124-154 bpm) for all sessions. Aim for 3-5 runs this week, keeping distances between 3-5 miles, adjusting pace as needed to stay comfortable and within your target zone, especially with the rising temperatures.\n\n**Key Priorities**\n*   Maintain consistent running frequency and duration within Zone 2.\n*   Prioritize hydration and heat management due to the upcoming hot and humid weather.\n*   Listen to your body, adjusting pace or duration to avoid overexertion in the heat.\n\n**Watch Out For**\nThe significant increase in temperature and humidity this week will make runs feel harder; be mindful not to push your pace and inadvertently elevate your heart rate out of Zone 2.\n\n**Upcoming Milestones**\nThe official start of your Hal Higdon Novice 2 plan is just 19 days away, on June 29th, marking the formal kick-off of your marathon training."
+  "advice": "Alright Tom, let's get you ready for November 1st! Here's your brief for the week:\n\n**Fitness Assessment**\nTom, your recent runs demonstrate excellent consistency in maintaining your Zone 2 heart rate, which is foundational for building your aerobic base. You're effectively controlling your effort, allowing your body to adapt and build endurance without overstressing.\n\n**This Week's Focus**\nThis week, your primary focus remains on easy aerobic running, keeping your heart rate comfortably in Zone 2. Given the anticipated hot, humid, and rainy conditions, prioritize effort over pace and be prepared to slow down significantly to stay within your target zone.\n\n**Key Priorities**\n*   **Effort Over Pace:** Let your heart rate and perceived effort dictate your pace, especially in the challenging weather.\n*   **Hydration:** Stay well-hydrated throughout the day, not just around your runs, to combat the high temperatures and humidity.\n*   **Listen to Your Body:** We're still in an unstructured phase, so don't hesitate to take extra rest or shorten a run if you feel excessive fatigue or discomfort.\n\n**Watch Out For**\nBe extremely mindful of the high heat and humidity; pushing your pace too hard could lead to overheating or dehydration, so don't hesitate to take walk breaks or cut runs short if needed.\n\n**Upcoming Milestones**\nLook forward to June 29th, when we officially kick off your structured Hal Higdon Novice 2 marathon training plan!"
 }

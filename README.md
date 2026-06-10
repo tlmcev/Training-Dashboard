@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, great to connect as you gear up for the NYC Marathon! Here's your brief for the week:
+Alright Tom, let's get you ready for November 1st! Here's your brief for the week:
 
 **Fitness Assessment**
-You're showing good consistency with 3-5 mile runs, maintaining your Zone 2 heart rate across a variety of paces (9:04-10:30/mi). This indicates a solid aerobic base and excellent control over effort for easy runs, which is perfect for this base-building phase. Your predicted marathon time of 4:14:30 is a strong starting point for the journey ahead.
+Tom, your recent runs demonstrate excellent consistency in maintaining your Zone 2 heart rate, which is foundational for building your aerobic base. You're effectively controlling your effort, allowing your body to adapt and build endurance without overstressing.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ You're showing good consistency with 3-5 mile runs, maintaining your Zone 2 hear
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-09 13:35:24 UTC | Run ID: 27209921305*
+*Last updated: 2026-06-10 14:15:46 UTC | Run ID: 27282610111*
