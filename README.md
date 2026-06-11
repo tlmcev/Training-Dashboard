@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for a strong base-building week as we approach the official start of your NYC Marathon training.
+Here is your coaching brief, Tom:
 
 **Fitness Assessment**
-Tom, you're building a solid aerobic engine. Your recent runs consistently show an average heart rate in Zone 2 (141-154 bpm), which is perfect for base development. Your paces, typically between 9:15-10:30/mi at these Z2 efforts, along with consistent watts (232-266W), demonstrate good control and efficiency. While cadence data isn't available, your overall metrics indicate excellent aerobic health for this phase.
+You've built a solid aerobic base, consistently running in Zone 2 (124-154 bpm) with only 3 instances of Z3 spikes in your recent runs. Your easy paces range from 9:15-10:30/mi, and your recent 5K best efforts (27:55-31:49) align well with your predicted 5K time of 26:30, indicating a strong foundation. While cadence data is missing, your consistent power output (232-266W) demonstrates good efficiency at these efforts.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you're building a solid aerobic engine. Your recent runs consistently show 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-10 18:16:49 UTC | Run ID: 27296696817*
+*Last updated: 2026-06-11 14:28:14 UTC | Run ID: 27354074771*
