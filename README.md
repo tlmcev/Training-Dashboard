@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief, Tom:
+Here is your coaching brief for the week, Tom:
 
 **Fitness Assessment**
-You've built a solid aerobic base, consistently running in Zone 2 (124-154 bpm) with only 3 instances of Z3 spikes in your recent runs. Your easy paces range from 9:15-10:30/mi, and your recent 5K best efforts (27:55-31:49) align well with your predicted 5K time of 26:30, indicating a strong foundation. While cadence data is missing, your consistent power output (232-266W) demonstrates good efficiency at these efforts.
+Tom, you're demonstrating excellent aerobic development, consistently maintaining your runs within Zone 2 (average HRs from 141-154 bpm) even across varied paces (9:15-10:30/mi). Your recent "best efforts," like a 5K at 27:55 and a mile at 8:34, confirm a solid underlying fitness base. The significant jump to 14.2 miles last week indicates increasing capacity as we approach the structured plan, showing good progress in your base building.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ You've built a solid aerobic base, consistently running in Zone 2 (124-154 bpm) 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-11 14:28:14 UTC | Run ID: 27354074771*
+*Last updated: 2026-06-12 13:57:10 UTC | Run ID: 27420298045*
