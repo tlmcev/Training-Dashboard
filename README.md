@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief for the week, Tom:
+Alright Tom, let's get you ready for a solid week of base building as we approach the official start of your plan.
 
 **Fitness Assessment**
-Tom, you're demonstrating excellent aerobic development, consistently maintaining your runs within Zone 2 (average HRs from 141-154 bpm) even across varied paces (9:15-10:30/mi). Your recent "best efforts," like a 5K at 27:55 and a mile at 8:34, confirm a solid underlying fitness base. The significant jump to 14.2 miles last week indicates increasing capacity as we approach the structured plan, showing good progress in your base building.
+You're consistently demonstrating excellent aerobic control, with nearly all your recent runs, like your 3.76mi run on June 6th (HR 143/158 bpm) and 4.17mi on May 31st (HR 141/159 bpm), firmly in Zone 2. Your average paces in the 9:00-10:30/mi range at these efforts, along with consistent watts (232-266W), indicate a strong and developing aerobic base for marathon training. The significant jump to 14.2 miles last week shows good capacity for increasing volume.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you're demonstrating excellent aerobic development, consistently maintainin
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-12 13:57:10 UTC | Run ID: 27420298045*
+*Last updated: 2026-06-13 12:19:23 UTC | Run ID: 27466576756*
