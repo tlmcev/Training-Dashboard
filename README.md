@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for a solid week of base building as we approach the official start of your plan.
+Alright Tom, let's get you ready for a strong week of base building as we approach the official start of your NYC Marathon training.
 
-**Fitness Assessment**
-You're consistently demonstrating excellent aerobic control, with nearly all your recent runs, like your 3.76mi run on June 6th (HR 143/158 bpm) and 4.17mi on May 31st (HR 141/159 bpm), firmly in Zone 2. Your average paces in the 9:00-10:30/mi range at these efforts, along with consistent watts (232-266W), indicate a strong and developing aerobic base for marathon training. The significant jump to 14.2 miles last week shows good capacity for increasing volume.
+### Fitness Assessment
+Tom, your recent runs clearly demonstrate excellent aerobic development, consistently keeping your average heart rate within Zone 2 (141-154 bpm) across nearly all your recent efforts. You're maintaining a strong, consistent effort with watts typically in the 230-260W range, even as your weekly mileage significantly increased to 14.2 miles last week. While your easy run paces are in the 9:15-10:30/mi range, your best efforts show you can comfortably push into sub-9:00/mi territory, indicating a solid foundation.
 
-**This Week's Focus**
+### This Week's Focus
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ You're consistently demonstrating excellent aerobic control, with nearly all you
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-13 12:19:23 UTC | Run ID: 27466576756*
+*Last updated: 2026-06-14 12:56:11 UTC | Run ID: 27499534032*
