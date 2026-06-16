@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for a strong week as we finalize your base building before the official plan kicks off.
-
-### Coaching Brief: Week of June 15, 2026
+Here is your coaching brief, Tom:
 
 **Fitness Assessment**
-Tom, your recent runs consistently show strong aerobic development, with average heart rates firmly in Zone 2 (e.g., 141-154 bpm) across various paces (9:15-10:30/mi). Your power output is also consistent, ranging from 232-266W, indicating a solid base for building endurance. The significant jump to 14.2 miles last week demonstrates good progress in increasing your weekly volume.
+Tom, your recent runs consistently demonstrate strong aerobic development, with average heart rates of 141-154 bpm firmly in Zone 2 for nearly all efforts. Your paces, typically ranging from 9:15-10:30/mi, coupled with consistent power output (232-266W), indicate a solid base. The significant jump to 14.2 miles last week shows you're building volume effectively as we approach the structured plan.
+
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent runs consistently show strong aerobic development, with average
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-15 16:11:42 UTC | Run ID: 27559791395*
+*Last updated: 2026-06-16 15:47:12 UTC | Run ID: 27629929749*
