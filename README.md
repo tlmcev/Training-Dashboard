@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| Watch Died! | 2.48mi | 9:39/mi | 145bpm (Z2) | 2026-06-16 |
 | “Fat Bottomed Girls”- Queen | 3.76mi | 10:30/mi | 143bpm (Z2) | 2026-06-06 |
 | “Who Says” -DOPAMOON | 3.3mi | 9:47/mi | 151bpm (Z2) | 2026-06-05 |
 | “With a Little Help From My Friends” - The Beatles | 4.13mi | 9:15/mi | 152bpm (Z2) | 2026-06-04 |
 | “I Love You Always Forever” - Donna Lewis | 3.05mi | 9:26/mi | 147bpm (Z2) | 2026-06-02 |
-| “Roll it on Home” -John Mayer | 4.17mi | 9:59/mi | 141bpm (Z2) | 2026-05-31 |
 
 ## AI Coach Snapshot
 
-Here is your coaching brief, Tom:
+Here's your coaching brief for the week, Tom:
 
 **Fitness Assessment**
-Tom, your recent runs consistently demonstrate strong aerobic development, with average heart rates of 141-154 bpm firmly in Zone 2 for nearly all efforts. Your paces, typically ranging from 9:15-10:30/mi, coupled with consistent power output (232-266W), indicate a solid base. The significant jump to 14.2 miles last week shows you're building volume effectively as we approach the structured plan.
+Tom's recent runs show consistent Z2 heart rates, generally between 140-154 bpm, which is excellent for base building. His average paces for these Z2 efforts range from 9:15/mi to 10:30/mi, indicating a solid aerobic foundation with consistent power output (230-260W). His best 5K PR of 27:55 is a bit slower than the Riegel prediction of 26:31, suggesting potential for faster race efforts as fitness improves.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent runs consistently demonstrate strong aerobic development, with 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-16 15:47:12 UTC | Run ID: 27629929749*
+*Last updated: 2026-06-17 14:22:26 UTC | Run ID: 27695976053*
