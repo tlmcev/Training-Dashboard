@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Here's your coaching brief for the week, Tom:
+Alright Tom, let's get you dialed in for the NYC Marathon. Today is Thursday, June 18th, and we're 10 days out from the official plan start.
 
-**Fitness Assessment**
-Tom's recent runs show consistent Z2 heart rates, generally between 140-154 bpm, which is excellent for base building. His average paces for these Z2 efforts range from 9:15/mi to 10:30/mi, indicating a solid aerobic foundation with consistent power output (230-260W). His best 5K PR of 27:55 is a bit slower than the Riegel prediction of 26:31, suggesting potential for faster race efforts as fitness improves.
+### **Fitness Assessment**
+Tom, your recent runs consistently show strong aerobic development, with 29 out of 32 recorded heart rate zones firmly in Z2 (124-154 bpm) and average HRs between 141-154bpm. Your average paces of 9:00-10:30/mi, paired with consistent power outputs of 230-260W, indicate a solid and efficient effort level. The progression in your 5K PRs, such as the 27:55 on May 9th, further confirms your improving speed and endurance, setting a good foundation for the upcoming training block.
 
-**This Week's Focus**
+### **This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom's recent runs show consistent Z2 heart rates, generally between 140-154 bpm,
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-17 14:22:26 UTC | Run ID: 27695976053*
+*Last updated: 2026-06-18 13:55:32 UTC | Run ID: 27764519959*
