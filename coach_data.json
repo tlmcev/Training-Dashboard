@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-18 13:55:32",
+  "updated_at": "2026-06-19 13:57:27",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 10,
+  "days_to_plan_start": 9,
   "activities": [
     {
       "id": 18946397950,
@@ -967,59 +967,59 @@
   ],
   "weather": [
     {
-      "date": "2026-06-18",
-      "high": 92,
-      "low": 69,
-      "precip": 0.0,
-      "windspeed": 26,
-      "code": 3
-    },
-    {
       "date": "2026-06-19",
-      "high": 78,
-      "low": 68,
+      "high": 86,
+      "low": 71,
       "precip": 0.0,
-      "windspeed": 15,
+      "windspeed": 16,
       "code": 3
     },
     {
       "date": "2026-06-20",
-      "high": 81,
-      "low": 64,
-      "precip": 0.0,
-      "windspeed": 20,
-      "code": 1
-    },
-    {
-      "date": "2026-06-21",
-      "high": 82,
+      "high": 83,
       "low": 64,
       "precip": 0.0,
       "windspeed": 18,
       "code": 3
     },
     {
-      "date": "2026-06-22",
-      "high": 73,
-      "low": 62,
-      "precip": 1.78,
-      "windspeed": 14,
-      "code": 82
-    },
-    {
-      "date": "2026-06-23",
-      "high": 82,
-      "low": 61,
+      "date": "2026-06-21",
+      "high": 81,
+      "low": 64,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 9,
       "code": 3
     },
     {
+      "date": "2026-06-22",
+      "high": 72,
+      "low": 63,
+      "precip": 1.57,
+      "windspeed": 13,
+      "code": 81
+    },
+    {
+      "date": "2026-06-23",
+      "high": 75,
+      "low": 62,
+      "precip": 0.16,
+      "windspeed": 11,
+      "code": 61
+    },
+    {
       "date": "2026-06-24",
-      "high": 76,
-      "low": 66,
+      "high": 82,
+      "low": 65,
+      "precip": 0.0,
+      "windspeed": 13,
+      "code": 3
+    },
+    {
+      "date": "2026-06-25",
+      "high": 77,
+      "low": 68,
       "precip": 0.01,
-      "windspeed": 20,
+      "windspeed": 13,
       "code": 51
     }
   ],
@@ -1070,5 +1070,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for the NYC Marathon. Today is Thursday, June 18th, and we're 10 days out from the official plan start.\n\n### **Fitness Assessment**\nTom, your recent runs consistently show strong aerobic development, with 29 out of 32 recorded heart rate zones firmly in Z2 (124-154 bpm) and average HRs between 141-154bpm. Your average paces of 9:00-10:30/mi, paired with consistent power outputs of 230-260W, indicate a solid and efficient effort level. The progression in your 5K PRs, such as the 27:55 on May 9th, further confirms your improving speed and endurance, setting a good foundation for the upcoming training block.\n\n### **This Week's Focus**\nThis week, as per the Hal Higdon base-building phase, your primary focus is on easy aerobic running to continue strengthening your foundation. Aim for a comfortable, conversational pace, likely in the 9:30-10:30/mi range, ensuring your heart rate remains consistently within Zone 2 (124-154 bpm). The goal is to accumulate relaxed mileage without intensity, preparing your body for the structured plan that begins soon.\n\n### **Key Priorities**\n*   **Maintain Z2 Discipline:** Continue to prioritize keeping your average heart rate below 154bpm during all runs to maximize aerobic development and minimize fatigue.\n*   **Rebuild Mileage Consistency:** Aim to increase your weekly mileage from the recent 2.5 miles, striving for 8-10 miles this week to establish a more consistent base before the official plan starts.\n*   **Hydrate and Adjust for Heat:** With upcoming temperatures in the high 70s-90s and significant wind, be prepared to slow your pace further and focus on ample hydration to maintain Z2 and prevent overheating.\n\n### **Watch Out For**\nYour weekly mileage trend shows a significant drop from 14.2 miles in the first week of June to just 2.5 miles in the week ending June 15th. This inconsistency can hinder your adaptation to the increasing demands of the structured plan, so prioritize getting back to a more regular running schedule.\n\n### **Upcoming Milestones**\nYou're just 10 days away from the official start of your Hal Higdon Novice 2 marathon plan on June 29th, marking the formal kick-off of your journey to the NYC Marathon."
+  "advice": "Alright Tom, let's get you dialed in for a strong start to your marathon journey.\n\n### Fitness Assessment\nTom, you've established a solid aerobic base, consistently logging runs with an average heart rate in Zone 2 (141-154 bpm), as seen in 29 of your recent runs. Your easy paces typically fall between 9:04-10:30/mi, and power outputs ranging from 232-266W indicate consistent effort. Based on your current fitness and an average pace of 9:19/mi, the Riegel prediction of a 4:14:47 marathon is a good initial benchmark.\n\n### This Week's Focus\nAs we're still in base building and before the official plan starts, your focus this week is on easy, aerobic running with no structured plan. All your runs should target Zone 2 (124-154 bpm) for the entire duration, maintaining a comfortable, conversational pace, likely in your 9:30-10:30/mi range. The goal is to gently rebuild consistent weekly mileage after your recent dip.\n\n### Key Priorities\n*   **Maintain Z2 Heart Rate:** Ensure your average heart rate stays below 154 bpm on all runs to maximize aerobic development and avoid overexertion. Be mindful that your maximum heart rate sometimes touches Z3 (e.g., 171 bpm).\n*   **Consistent Mileage Build:** Gradually increase your weekly mileage from last week's 2.5 miles, aiming for a steady, modest progression to prepare your body for the upcoming plan.\n*   **Hydration & Heat Management:** With temperatures reaching 86F and windy conditions this week, prioritize hydration before, during, and after runs, and consider adjusting run times to avoid peak heat.\n\n### Watch Out For\nThe significant drop in your weekly mileage from 14.2 miles to 2.5 miles over the last two weeks is a key red flag; consistency is crucial for building endurance and preventing injury. Additionally, remember your watch died on your last run, so ensure your equipment is reliable to accurately track your efforts.\n\n### Upcoming Milestones\nWe are just 9 days away from the official launch of your Hal Higdon Novice 2 marathon plan on Monday, June 29th! This week offers a final opportunity to solidify your aerobic foundation and ensure your body is ready for the structured training ahead of the NYC Marathon on November 1st."
 }

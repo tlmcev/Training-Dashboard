@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for the NYC Marathon. Today is Thursday, June 18th, and we're 10 days out from the official plan start.
+Alright Tom, let's get you dialed in for a strong start to your marathon journey.
 
-### **Fitness Assessment**
-Tom, your recent runs consistently show strong aerobic development, with 29 out of 32 recorded heart rate zones firmly in Z2 (124-154 bpm) and average HRs between 141-154bpm. Your average paces of 9:00-10:30/mi, paired with consistent power outputs of 230-260W, indicate a solid and efficient effort level. The progression in your 5K PRs, such as the 27:55 on May 9th, further confirms your improving speed and endurance, setting a good foundation for the upcoming training block.
+### Fitness Assessment
+Tom, you've established a solid aerobic base, consistently logging runs with an average heart rate in Zone 2 (141-154 bpm), as seen in 29 of your recent runs. Your easy paces typically fall between 9:04-10:30/mi, and power outputs ranging from 232-266W indicate consistent effort. Based on your current fitness and an average pace of 9:19/mi, the Riegel prediction of a 4:14:47 marathon is a good initial benchmark.
 
-### **This Week's Focus**
+### This Week's Focus
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent runs consistently show strong aerobic development, with 29 out 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-18 13:55:32 UTC | Run ID: 27764519959*
+*Last updated: 2026-06-19 13:57:27 UTC | Run ID: 27830024175*
