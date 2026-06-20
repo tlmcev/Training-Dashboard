@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for a strong start to your marathon journey.
+Alright Tom, let's get you ready for NYC!
 
 ### Fitness Assessment
-Tom, you've established a solid aerobic base, consistently logging runs with an average heart rate in Zone 2 (141-154 bpm), as seen in 29 of your recent runs. Your easy paces typically fall between 9:04-10:30/mi, and power outputs ranging from 232-266W indicate consistent effort. Based on your current fitness and an average pace of 9:19/mi, the Riegel prediction of a 4:14:47 marathon is a good initial benchmark.
+You consistently maintain an easy aerobic pace, typically between 9:00-10:30/mi, with average heart rates firmly in Zone 2 (141-154 bpm), demonstrating a solid aerobic base. Your consistent power output of 230-260 watts across these runs, despite varying paces, indicates good running economy. With a recent 5K PR of 27:55 (May 9) and a predicted marathon time of 4:14:47, you have a strong foundation as we approach the structured training phase.
 
 ### This Week's Focus
 
@@ -51,4 +51,4 @@ Tom, you've established a solid aerobic base, consistently logging runs with an 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-19 13:57:27 UTC | Run ID: 27830024175*
+*Last updated: 2026-06-20 12:21:58 UTC | Run ID: 27871034486*

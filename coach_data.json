@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-19 13:57:27",
+  "updated_at": "2026-06-20 12:21:58",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 9,
+  "days_to_plan_start": 8,
   "activities": [
     {
       "id": 18946397950,
@@ -967,60 +967,60 @@
   ],
   "weather": [
     {
-      "date": "2026-06-19",
-      "high": 86,
-      "low": 71,
-      "precip": 0.0,
-      "windspeed": 16,
-      "code": 3
-    },
-    {
       "date": "2026-06-20",
-      "high": 83,
-      "low": 64,
+      "high": 84,
+      "low": 66,
       "precip": 0.0,
       "windspeed": 18,
-      "code": 3
+      "code": 1
     },
     {
       "date": "2026-06-21",
-      "high": 81,
+      "high": 83,
       "low": 64,
       "precip": 0.0,
-      "windspeed": 9,
+      "windspeed": 12,
       "code": 3
     },
     {
       "date": "2026-06-22",
-      "high": 72,
-      "low": 63,
-      "precip": 1.57,
-      "windspeed": 13,
+      "high": 70,
+      "low": 64,
+      "precip": 0.4,
+      "windspeed": 14,
       "code": 81
     },
     {
       "date": "2026-06-23",
-      "high": 75,
-      "low": 62,
-      "precip": 0.16,
-      "windspeed": 11,
-      "code": 61
+      "high": 72,
+      "low": 63,
+      "precip": 0.56,
+      "windspeed": 9,
+      "code": 81
     },
     {
       "date": "2026-06-24",
-      "high": 82,
+      "high": 80,
       "low": 65,
       "precip": 0.0,
-      "windspeed": 13,
-      "code": 3
+      "windspeed": 15,
+      "code": 1
     },
     {
       "date": "2026-06-25",
       "high": 77,
-      "low": 68,
-      "precip": 0.01,
-      "windspeed": 13,
-      "code": 51
+      "low": 69,
+      "precip": 0.0,
+      "windspeed": 17,
+      "code": 3
+    },
+    {
+      "date": "2026-06-26",
+      "high": 74,
+      "low": 69,
+      "precip": 0.0,
+      "windspeed": 11,
+      "code": 3
     }
   ],
   "avg_pace_sec": 559.7,
@@ -1070,5 +1070,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for a strong start to your marathon journey.\n\n### Fitness Assessment\nTom, you've established a solid aerobic base, consistently logging runs with an average heart rate in Zone 2 (141-154 bpm), as seen in 29 of your recent runs. Your easy paces typically fall between 9:04-10:30/mi, and power outputs ranging from 232-266W indicate consistent effort. Based on your current fitness and an average pace of 9:19/mi, the Riegel prediction of a 4:14:47 marathon is a good initial benchmark.\n\n### This Week's Focus\nAs we're still in base building and before the official plan starts, your focus this week is on easy, aerobic running with no structured plan. All your runs should target Zone 2 (124-154 bpm) for the entire duration, maintaining a comfortable, conversational pace, likely in your 9:30-10:30/mi range. The goal is to gently rebuild consistent weekly mileage after your recent dip.\n\n### Key Priorities\n*   **Maintain Z2 Heart Rate:** Ensure your average heart rate stays below 154 bpm on all runs to maximize aerobic development and avoid overexertion. Be mindful that your maximum heart rate sometimes touches Z3 (e.g., 171 bpm).\n*   **Consistent Mileage Build:** Gradually increase your weekly mileage from last week's 2.5 miles, aiming for a steady, modest progression to prepare your body for the upcoming plan.\n*   **Hydration & Heat Management:** With temperatures reaching 86F and windy conditions this week, prioritize hydration before, during, and after runs, and consider adjusting run times to avoid peak heat.\n\n### Watch Out For\nThe significant drop in your weekly mileage from 14.2 miles to 2.5 miles over the last two weeks is a key red flag; consistency is crucial for building endurance and preventing injury. Additionally, remember your watch died on your last run, so ensure your equipment is reliable to accurately track your efforts.\n\n### Upcoming Milestones\nWe are just 9 days away from the official launch of your Hal Higdon Novice 2 marathon plan on Monday, June 29th! This week offers a final opportunity to solidify your aerobic foundation and ensure your body is ready for the structured training ahead of the NYC Marathon on November 1st."
+  "advice": "Alright Tom, let's get you ready for NYC!\n\n### Fitness Assessment\nYou consistently maintain an easy aerobic pace, typically between 9:00-10:30/mi, with average heart rates firmly in Zone 2 (141-154 bpm), demonstrating a solid aerobic base. Your consistent power output of 230-260 watts across these runs, despite varying paces, indicates good running economy. With a recent 5K PR of 27:55 (May 9) and a predicted marathon time of 4:14:47, you have a strong foundation as we approach the structured training phase.\n\n### This Week's Focus\nThis week is dedicated to easy aerobic running; therefore, all runs should be at a conversational effort, keeping your heart rate within Zone 2 (124-154 bpm). Aim for a comfortable pace in the 9:30-10:30/mi range, similar to your 10:30/mi run on June 6th, adjusting for effort and terrain. The goal is to build consistency and gradually increase your weekly mileage from last week's 2.5 miles.\n\n### Key Priorities\n*   **Consistency:** Aim for 3-4 easy runs this week to establish a routine and build back from the low 2.5-mile week.\n*   **Zone 2 Adherence:** Ensure your average heart rate remains below 154 bpm on all runs, as you successfully did on June 16th (145 bpm) and June 6th (143 bpm).\n*   **Weather Adaptation:** With high temperatures (e.g., 84F today) and wind, be prepared to slow your pace significantly to maintain Zone 2 and stay hydrated.\n\n### Watch Out For\nYour recent weekly mileage trend shows significant fluctuation (14.2mi then 2.5mi), indicating inconsistency that can hinder aerobic development and increase injury risk. Focus on steady, gradual increases this week to build a more stable foundation.\n\n### Upcoming Milestones\nLook forward to June 29th, when the structured Hal Higdon Novice 2 plan officially begins, bringing specific workouts and mileage progression. This will mark the start of your focused journey towards the NYC Marathon on November 1st."
 }
