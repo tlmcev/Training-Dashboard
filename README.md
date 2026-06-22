@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for a solid week of base building before the official plan kicks off!
+Alright Tom, let's get you set for a productive week before we dive into the structured plan.
 
-### **Fitness Assessment**
-Tom, you're building a solid aerobic foundation, consistently running in Zone 2 with average heart rates between 141-154 bpm, as seen in runs like 2026-06-06 (143bpm) and 2026-05-31 (141bpm). Your efforts, measured by watts (232-266W), are consistent, and your pace has shown good development, with recent best mile efforts around 8:30-9:30/mi and a 5K PR of 27:55. This indicates a strong base for the upcoming marathon training.
+**Fitness Assessment**
+Your recent runs demonstrate a solid aerobic base, consistently maintaining an average heart rate within Zone 2 (141-154 bpm) across various paces from 9:00-10:30/mi. Your power output, consistently between 232-266W, further confirms a steady effort level during these easy runs. This consistency in aerobic development is a strong foundation as we head into structured training.
 
-### **This Week's Focus**
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, you're building a solid aerobic foundation, consistently running in Zone 2 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-21 12:59:58 UTC | Run ID: 27905110971*
+*Last updated: 2026-06-22 15:46:23 UTC | Run ID: 27965245410*
