@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for the week ahead as we approach the official start of your NYC Marathon journey.
+Alright Tom, let's get you dialed in for the NYC Marathon! We're in a crucial base-building phase before the official plan kicks off.
 
 ### Fitness Assessment
-Tom, you're building a solid aerobic engine, consistently performing your runs within Zone 2 with an average HR in the 140s (e.g., 143-154 bpm). Your average pace around 9:19/mi, with best mile efforts often dipping into the 8:xx/mi range (e.g., 8:34, 8:48), indicates good foundational speed and power output in the 230-260W range. This consistent Z2 work is exactly what we want to see for base building.
+You've established a solid aerobic base, with average heart rates consistently in Zone 2 (140s bpm) across your recent runs, typically at a 9:15-9:45/mi pace with consistent power output around 230-260W. Your strong mile (8:34) and 5K (27:55) PRs from May indicate good underlying fitness and speed potential, setting a promising foundation for a marathon finish around 4:15. The consistent Z2 efforts are excellent for building endurance without excessive strain.
 
 ### This Week's Focus
 
@@ -51,4 +51,4 @@ Tom, you're building a solid aerobic engine, consistently performing your runs w
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-23 13:34:37 UTC | Run ID: 28030167855*
+*Last updated: 2026-06-24 13:10:02 UTC | Run ID: 28100880692*
