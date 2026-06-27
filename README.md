@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for a strong start to your NYC Marathon journey!
+Here is your coaching brief for Tom:
 
-### Fitness Assessment
-You've consistently demonstrated excellent aerobic control, keeping your average heart rate within Zone 2 (141-154 bpm) across most recent runs at paces ranging from 9:00-10:30/mi. Your ability to maintain this zone while producing power outputs between 232-266W, even hitting best mile efforts around 8:34-9:38/mi, indicates a solid base and good aerobic efficiency as you prepare for more structured training.
+**Fitness Assessment**
+Tom displays a solid aerobic base, consistently maintaining Zone 2 heart rates (e.g., 141-154 bpm) at easy paces ranging from 9:00-10:30/mi. His best mile efforts in the 8:30-9:00/mi range, coupled with consistent wattage (232-266W), indicate good underlying fitness. This foundation is excellent for transitioning into formal marathon training.
 
-### This Week's Focus
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ You've consistently demonstrated excellent aerobic control, keeping your average
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-26 13:01:26 UTC | Run ID: 28239697960*
+*Last updated: 2026-06-27 12:04:26 UTC | Run ID: 28288650821*
