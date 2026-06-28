@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Message in a Bottle” - The Police | 4.22mi | 10:10/mi | 157bpm (Z3) | 2026-06-27 |
 | Watch Died! | 2.48mi | 9:39/mi | 145bpm (Z2) | 2026-06-16 |
 | “Fat Bottomed Girls”- Queen | 3.76mi | 10:30/mi | 143bpm (Z2) | 2026-06-06 |
 | “Who Says” -DOPAMOON | 3.3mi | 9:47/mi | 151bpm (Z2) | 2026-06-05 |
 | “With a Little Help From My Friends” - The Beatles | 4.13mi | 9:15/mi | 152bpm (Z2) | 2026-06-04 |
-| “I Love You Always Forever” - Donna Lewis | 3.05mi | 9:26/mi | 147bpm (Z2) | 2026-06-02 |
 
 ## AI Coach Snapshot
 
-Here is your coaching brief for Tom:
+Alright Tom, welcome aboard! It's fantastic to have you on the path to the NYC Marathon. Today marks the final day before your official Hal Higdon Novice 2 plan begins, so let's get you primed for a strong start to base building.
 
-**Fitness Assessment**
-Tom displays a solid aerobic base, consistently maintaining Zone 2 heart rates (e.g., 141-154 bpm) at easy paces ranging from 9:00-10:30/mi. His best mile efforts in the 8:30-9:00/mi range, coupled with consistent wattage (232-266W), indicate good underlying fitness. This foundation is excellent for transitioning into formal marathon training.
+### Fitness Assessment
+Your recent runs show a good aerobic base with average HR typically in Zone 2 (124-154 bpm), as seen in 29 of your recorded runs. You're consistently holding paces around 9:00-10:30/mi with average watts around 240-260W, indicating solid effort. However, your last run on June 27th averaged 157 bpm (Z3), suggesting you might be pushing a bit too hard for pure easy aerobic efforts.
 
-**This Week's Focus**
+### This Week's Focus
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom displays a solid aerobic base, consistently maintaining Zone 2 heart rates (
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-27 12:04:26 UTC | Run ID: 28288650821*
+*Last updated: 2026-06-28 12:11:23 UTC | Run ID: 28321804062*

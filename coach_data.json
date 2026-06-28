@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-06-27 12:04:26",
+  "updated_at": "2026-06-28 12:11:23",
   "current_week": 0,
   "phase": "base_building",
-  "days_to_plan_start": 1,
+  "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19087204486,
+      "name": "\u201cMessage in a Bottle\u201d - The Police",
+      "date": "2026-06-27",
+      "distance_miles": 4.22,
+      "moving_time_sec": 2576,
+      "pace_per_mile": "10:10",
+      "pace_seconds": 610.4,
+      "elevation_ft": 182.0,
+      "avg_hr": 157,
+      "hr_zone": "Z3",
+      "suffer_score": 71.0,
+      "max_hr": 175.0,
+      "avg_watts": 245,
+      "avg_cadence": null,
+      "fastest_mile": "9:06",
+      "fastest_5k": "29:14",
+      "pr_count": 0
+    },
     {
       "id": 18946397950,
       "name": "Watch Died!",
@@ -187,10 +206,10 @@
       "avg_hr": 150,
       "hr_zone": "Z2",
       "suffer_score": 39.0,
-      "max_hr": 162.0,
-      "avg_watts": 264,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "8:38",
+      "fastest_mile": null,
       "fastest_5k": null,
       "pr_count": 0
     },
@@ -673,6 +692,10 @@
     {
       "week_start": "2026-06-15",
       "miles": 2.5
+    },
+    {
+      "week_start": "2026-06-22",
+      "miles": 4.2
     }
   ],
   "ae_trend": [
@@ -963,72 +986,81 @@
       "dist": 2.48,
       "marathon_pred": "4:06:48",
       "marathon_sec": 14808
+    },
+    {
+      "date": "2026-06-27",
+      "name": "\u201cMessage in a Bottle\u201d - The Police",
+      "ae": 1.008,
+      "hr": 157,
+      "dist": 4.22,
+      "marathon_pred": "4:41:20",
+      "marathon_sec": 16880
     }
   ],
   "weather": [
     {
-      "date": "2026-06-27",
-      "high": 84,
-      "low": 69,
-      "precip": 0.04,
-      "windspeed": 6,
-      "code": 53
-    },
-    {
       "date": "2026-06-28",
-      "high": 78,
-      "low": 66,
-      "precip": 0.03,
-      "windspeed": 8,
-      "code": 53
+      "high": 84,
+      "low": 68,
+      "precip": 0.0,
+      "windspeed": 9,
+      "code": 3
     },
     {
       "date": "2026-06-29",
-      "high": 82,
-      "low": 68,
-      "precip": 0.09,
-      "windspeed": 13,
-      "code": 51
+      "high": 86,
+      "low": 64,
+      "precip": 0.0,
+      "windspeed": 12,
+      "code": 3
     },
     {
       "date": "2026-06-30",
-      "high": 83,
-      "low": 70,
-      "precip": 0.03,
-      "windspeed": 15,
-      "code": 51
+      "high": 85,
+      "low": 71,
+      "precip": 0.06,
+      "windspeed": 12,
+      "code": 55
     },
     {
       "date": "2026-07-01",
-      "high": 101,
-      "low": 74,
-      "precip": 0.0,
-      "windspeed": 14,
+      "high": 93,
+      "low": 70,
+      "precip": 0.41,
+      "windspeed": 13,
       "code": 95
     },
     {
       "date": "2026-07-02",
-      "high": 99,
-      "low": 79,
-      "precip": 0.01,
-      "windspeed": 18,
+      "high": 98,
+      "low": 77,
+      "precip": 0.0,
+      "windspeed": 14,
       "code": 51
     },
     {
       "date": "2026-07-03",
-      "high": 100,
+      "high": 103,
+      "low": 82,
+      "precip": 0.02,
+      "windspeed": 13,
+      "code": 95
+    },
+    {
+      "date": "2026-07-04",
+      "high": 98,
       "low": 79,
-      "precip": 0.01,
-      "windspeed": 15,
+      "precip": 0.04,
+      "windspeed": 9,
       "code": 51
     }
   ],
-  "avg_pace_sec": 559.7,
+  "avg_pace_sec": 561.2,
   "predictions": {
-    "5k": "26:31",
-    "10k": "55:18",
-    "half": "2:02:12",
-    "marathon": "4:14:47"
+    "5k": "26:36",
+    "10k": "55:27",
+    "half": "2:02:32",
+    "marathon": "4:15:29"
   },
   "pace_zones": {
     "Z1": {
@@ -1065,10 +1097,10 @@
   "hr_distribution": {
     "Z1": 0,
     "Z2": 29,
-    "Z3": 3,
+    "Z3": 4,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here is your coaching brief for Tom:\n\n**Fitness Assessment**\nTom displays a solid aerobic base, consistently maintaining Zone 2 heart rates (e.g., 141-154 bpm) at easy paces ranging from 9:00-10:30/mi. His best mile efforts in the 8:30-9:00/mi range, coupled with consistent wattage (232-266W), indicate good underlying fitness. This foundation is excellent for transitioning into formal marathon training.\n\n**This Week's Focus**\nFor the remainder of this base-building week (Saturday and Sunday), continue with easy aerobic running. Aim for a comfortable pace around 9:30-10:30/mi, ensuring your average heart rate stays strictly within Zone 2 (124-154 bpm). Prioritize effort and perceived exertion over pace, especially given the upcoming hot and humid weather.\n\n**Key Priorities**\n*   **Consistent Z2 Running:** Maintain your average heart rate comfortably within Zone 2 (124-154 bpm) for all runs this weekend, adjusting pace as needed to avoid drifting into higher zones.\n*   **Moderate Volume:** Aim for a total of 6-8 miles across Saturday and Sunday to gently increase your weekly mileage after the recent dip, preparing your body for the upcoming structured plan.\n*   **Heat & Hydration:** With forecasted drizzle and high temperatures (80s-100s), focus on pre-run hydration and consider running earlier or later in the day to mitigate heat stress.\n\n**Watch Out For**\nYour weekly mileage has been quite erratic, with a significant jump from 4.2 miles to 14.2 miles, followed by a sharp drop to 2.5 miles in the last four weeks. Such inconsistency can increase injury risk and hinder adaptation as you begin your structured plan.\n\n**Upcoming Milestones**\nMonday, June 29, marks the exciting official start of your Hal Higdon Novice 2 marathon training plan. This structured approach will provide a clear roadmap and progressive build-up towards the NYC Marathon."
+  "advice": "Alright Tom, welcome aboard! It's fantastic to have you on the path to the NYC Marathon. Today marks the final day before your official Hal Higdon Novice 2 plan begins, so let's get you primed for a strong start to base building.\n\n### Fitness Assessment\nYour recent runs show a good aerobic base with average HR typically in Zone 2 (124-154 bpm), as seen in 29 of your recorded runs. You're consistently holding paces around 9:00-10:30/mi with average watts around 240-260W, indicating solid effort. However, your last run on June 27th averaged 157 bpm (Z3), suggesting you might be pushing a bit too hard for pure easy aerobic efforts.\n\n### This Week's Focus\nThis week is all about easy aerobic running to build your base. Target all runs in Zone 2, aiming for a heart rate between 124-154 bpm. Based on your data, this should correspond to a comfortable, conversational pace in the 9:30-10:30/mi range, adjusting for the upcoming hot and humid weather.\n\n### Key Priorities\n*   **Maintain Z2 Heart Rate:** Strictly keep your average heart rate below 154 bpm on all runs this week to optimize aerobic development.\n*   **Increase Consistency:** Aim for more frequent runs to build your weekly mileage, as your recent weeks show fluctuations (e.g., 2.5mi and 4.2mi weeks).\n*   **Listen to Your Body in Heat:** With highs reaching 93-103F this week, prioritize effort over pace; slow down significantly to keep your HR in Z2.\n\n### Watch Out For\nYour run on June 27th averaged 157 bpm, pushing into Zone 3. For base building, consistently running at this intensity can be counterproductive for aerobic development and increase fatigue before the plan officially begins.\n\n### Upcoming Milestones\nTomorrow, June 29th, marks the official start of your Hal Higdon Novice 2 marathon training plan! This is a significant step, providing structure and progression towards your NYC Marathon goal."
 }
