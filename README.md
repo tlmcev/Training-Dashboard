@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, welcome aboard! It's fantastic to have you on the path to the NYC Marathon. Today marks the final day before your official Hal Higdon Novice 2 plan begins, so let's get you primed for a strong start to base building.
+Alright Tom, let's get you dialed in for Week 1 of your NYC Marathon journey. The Hal Higdon Novice 2 plan is a solid choice, and with 18 weeks ahead, we're starting strong.
 
 ### Fitness Assessment
-Your recent runs show a good aerobic base with average HR typically in Zone 2 (124-154 bpm), as seen in 29 of your recorded runs. You're consistently holding paces around 9:00-10:30/mi with average watts around 240-260W, indicating solid effort. However, your last run on June 27th averaged 157 bpm (Z3), suggesting you might be pushing a bit too hard for pure easy aerobic efforts.
+Your recent runs show a good foundation, with the majority of your efforts (29 out of 33 HR readings) falling within Zone 2, indicating strong aerobic development. Your consistent power output around 230-260W across various paces suggests good running economy, though we're missing cadence data for a complete picture. While your average pace is around 9:21/mi, your ability to hit sub-9:00/mi for best efforts shows you have another gear when needed.
 
 ### This Week's Focus
 
@@ -27,7 +27,7 @@ Your recent runs show a good aerobic base with average HR typically in Zone 2 (1
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 0 of 18**
+**Current week: 1 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ Your recent runs show a good aerobic base with average HR typically in Zone 2 (1
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-28 12:11:23 UTC | Run ID: 28321804062*
+*Last updated: 2026-06-29 14:40:34 UTC | Run ID: 28380235638*

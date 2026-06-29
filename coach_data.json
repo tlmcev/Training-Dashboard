@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-28 12:11:23",
-  "current_week": 0,
-  "phase": "base_building",
+  "updated_at": "2026-06-29 14:40:34",
+  "current_week": 1,
+  "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
     {
@@ -999,59 +999,59 @@
   ],
   "weather": [
     {
-      "date": "2026-06-28",
-      "high": 84,
-      "low": 68,
-      "precip": 0.0,
-      "windspeed": 9,
-      "code": 3
-    },
-    {
       "date": "2026-06-29",
-      "high": 86,
-      "low": 64,
+      "high": 88,
+      "low": 65,
       "precip": 0.0,
-      "windspeed": 12,
+      "windspeed": 10,
       "code": 3
     },
     {
       "date": "2026-06-30",
-      "high": 85,
-      "low": 71,
-      "precip": 0.06,
-      "windspeed": 12,
-      "code": 55
+      "high": 88,
+      "low": 68,
+      "precip": 0.0,
+      "windspeed": 16,
+      "code": 3
     },
     {
       "date": "2026-07-01",
-      "high": 93,
-      "low": 70,
-      "precip": 0.41,
-      "windspeed": 13,
+      "high": 97,
+      "low": 73,
+      "precip": 0.0,
+      "windspeed": 14,
       "code": 95
     },
     {
       "date": "2026-07-02",
-      "high": 98,
-      "low": 77,
+      "high": 100,
+      "low": 81,
       "precip": 0.0,
       "windspeed": 14,
       "code": 51
     },
     {
       "date": "2026-07-03",
-      "high": 103,
-      "low": 82,
-      "precip": 0.02,
-      "windspeed": 13,
-      "code": 95
+      "high": 101,
+      "low": 78,
+      "precip": 0.24,
+      "windspeed": 22,
+      "code": 80
     },
     {
       "date": "2026-07-04",
-      "high": 98,
-      "low": 79,
-      "precip": 0.04,
-      "windspeed": 9,
+      "high": 97,
+      "low": 78,
+      "precip": 0.02,
+      "windspeed": 19,
+      "code": 51
+    },
+    {
+      "date": "2026-07-05",
+      "high": 94,
+      "low": 77,
+      "precip": 0.02,
+      "windspeed": 10,
       "code": 51
     }
   ],
@@ -1102,5 +1102,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, welcome aboard! It's fantastic to have you on the path to the NYC Marathon. Today marks the final day before your official Hal Higdon Novice 2 plan begins, so let's get you primed for a strong start to base building.\n\n### Fitness Assessment\nYour recent runs show a good aerobic base with average HR typically in Zone 2 (124-154 bpm), as seen in 29 of your recorded runs. You're consistently holding paces around 9:00-10:30/mi with average watts around 240-260W, indicating solid effort. However, your last run on June 27th averaged 157 bpm (Z3), suggesting you might be pushing a bit too hard for pure easy aerobic efforts.\n\n### This Week's Focus\nThis week is all about easy aerobic running to build your base. Target all runs in Zone 2, aiming for a heart rate between 124-154 bpm. Based on your data, this should correspond to a comfortable, conversational pace in the 9:30-10:30/mi range, adjusting for the upcoming hot and humid weather.\n\n### Key Priorities\n*   **Maintain Z2 Heart Rate:** Strictly keep your average heart rate below 154 bpm on all runs this week to optimize aerobic development.\n*   **Increase Consistency:** Aim for more frequent runs to build your weekly mileage, as your recent weeks show fluctuations (e.g., 2.5mi and 4.2mi weeks).\n*   **Listen to Your Body in Heat:** With highs reaching 93-103F this week, prioritize effort over pace; slow down significantly to keep your HR in Z2.\n\n### Watch Out For\nYour run on June 27th averaged 157 bpm, pushing into Zone 3. For base building, consistently running at this intensity can be counterproductive for aerobic development and increase fatigue before the plan officially begins.\n\n### Upcoming Milestones\nTomorrow, June 29th, marks the official start of your Hal Higdon Novice 2 marathon training plan! This is a significant step, providing structure and progression towards your NYC Marathon goal."
+  "advice": "Alright Tom, let's get you dialed in for Week 1 of your NYC Marathon journey. The Hal Higdon Novice 2 plan is a solid choice, and with 18 weeks ahead, we're starting strong.\n\n### Fitness Assessment\nYour recent runs show a good foundation, with the majority of your efforts (29 out of 33 HR readings) falling within Zone 2, indicating strong aerobic development. Your consistent power output around 230-260W across various paces suggests good running economy, though we're missing cadence data for a complete picture. While your average pace is around 9:21/mi, your ability to hit sub-9:00/mi for best efforts shows you have another gear when needed.\n\n### This Week's Focus\nFor your 3-mile and 8-mile easy runs, target a comfortable Zone 2 effort (124-154 bpm), aiming for a pace in the 9:15-10:00/mi range. On Wednesday's 5-mile pace run, push into Zone 3 (155-169 bpm), likely around a 9:00-9:30/mi pace, similar to your \"Message in a Bottle\" run but sustained for longer. Remember to keep Sunday's cross-training focused on active recovery or strengthening, keeping intensity low.\n\n### Key Priorities\n*   **HR Control on Easy Runs:** Ensure your Tuesday, Thursday, and Saturday runs stay strictly in Zone 2 (below 154 bpm) to maximize aerobic base building, unlike your last run which drifted into Z3.\n*   **Consistent Mileage:** After fluctuating weekly mileage (e.g., 2.5mi, 4.2mi in recent weeks), focus on hitting all prescribed distances to build consistency early in the plan.\n*   **Pace Run Execution:** For Wednesday's 5-mile pace run, aim for a controlled, sustainable Zone 3 effort, ensuring you can maintain the target HR and pace throughout.\n\n### Watch Out For\nThe upcoming week's forecast for NYC shows extremely high temperatures (88-101F) and potential thunderstorms/drizzle. This will significantly impact your perceived effort and heart rate, so be prepared to slow your pace considerably and hydrate diligently to avoid overheating.\n\n### Upcoming Milestones\nThis Saturday's 8-mile run is your first significant long run of the training cycle, marking a key step in building endurance. Successfully completing it will set a strong precedent for the progressive long runs to come."
 }
