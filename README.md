@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Suddenly I See” - KT Tunstall | 3.05mi | 9:29/mi | 144bpm (Z2) | 2026-06-30 |
 | “Message in a Bottle” - The Police | 4.22mi | 10:10/mi | 157bpm (Z3) | 2026-06-27 |
 | Watch Died! | 2.48mi | 9:39/mi | 145bpm (Z2) | 2026-06-16 |
 | “Fat Bottomed Girls”- Queen | 3.76mi | 10:30/mi | 143bpm (Z2) | 2026-06-06 |
 | “Who Says” -DOPAMOON | 3.3mi | 9:47/mi | 151bpm (Z2) | 2026-06-05 |
-| “With a Little Help From My Friends” - The Beatles | 4.13mi | 9:15/mi | 152bpm (Z2) | 2026-06-04 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 1 of your NYC Marathon journey. The Hal Higdon Novice 2 plan is a solid choice, and with 18 weeks ahead, we're starting strong.
+Alright Tom, welcome to Week 1 of your NYC Marathon journey! Today is Tuesday, June 30, 2026, and you've got 123 days until race day. Let's get you set up for success with the Hal Higdon Novice 2 plan.
 
-### Fitness Assessment
-Your recent runs show a good foundation, with the majority of your efforts (29 out of 33 HR readings) falling within Zone 2, indicating strong aerobic development. Your consistent power output around 230-260W across various paces suggests good running economy, though we're missing cadence data for a complete picture. While your average pace is around 9:21/mi, your ability to hit sub-9:00/mi for best efforts shows you have another gear when needed.
+**Fitness Assessment**
+You've built a solid aerobic foundation, consistently running in Zone 2 (e.g., 144 bpm on June 30th) with an average pace around 9:30/mi and strong power output (e.g., 257W on June 30th). Your best mile efforts in the 8:30-9:00/mi range demonstrate good underlying speed, which is a great starting point for your predicted 4:15:36 marathon finish. The high percentage of Z2 runs (30 out of 34 recent HR zone entries) indicates excellent aerobic development.
 
-### This Week's Focus
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Your recent runs show a good foundation, with the majority of your efforts (29 o
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-29 14:40:34 UTC | Run ID: 28380235638*
+*Last updated: 2026-06-30 13:02:21 UTC | Run ID: 28446323671*

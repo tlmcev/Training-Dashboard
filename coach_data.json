@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-06-29 14:40:34",
+  "updated_at": "2026-06-30 13:02:21",
   "current_week": 1,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19122650456,
+      "name": "\u201cSuddenly I See\u201d - KT Tunstall",
+      "date": "2026-06-30",
+      "distance_miles": 3.05,
+      "moving_time_sec": 1737,
+      "pace_per_mile": "9:29",
+      "pace_seconds": 569.5,
+      "elevation_ft": 130.0,
+      "avg_hr": 144,
+      "hr_zone": "Z2",
+      "suffer_score": 28.0,
+      "max_hr": 170.0,
+      "avg_watts": 257,
+      "avg_cadence": null,
+      "fastest_mile": "8:57",
+      "fastest_5k": null,
+      "pr_count": 0
+    },
     {
       "id": 19087204486,
       "name": "\u201cMessage in a Bottle\u201d - The Police",
@@ -187,11 +206,11 @@
       "avg_hr": 154,
       "hr_zone": "Z2",
       "suffer_score": 76.0,
-      "max_hr": 165.0,
-      "avg_watts": 263,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "8:46",
-      "fastest_5k": "27:55",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 4
     },
     {
@@ -696,6 +715,10 @@
     {
       "week_start": "2026-06-22",
       "miles": 4.2
+    },
+    {
+      "week_start": "2026-06-29",
+      "miles": 3.0
     }
   ],
   "ae_trend": [
@@ -995,72 +1018,81 @@
       "dist": 4.22,
       "marathon_pred": "4:41:20",
       "marathon_sec": 16880
+    },
+    {
+      "date": "2026-06-30",
+      "name": "\u201cSuddenly I See\u201d - KT Tunstall",
+      "ae": 1.177,
+      "hr": 144,
+      "dist": 3.05,
+      "marathon_pred": "4:00:56",
+      "marathon_sec": 14456
     }
   ],
   "weather": [
     {
-      "date": "2026-06-29",
-      "high": 88,
-      "low": 65,
-      "precip": 0.0,
-      "windspeed": 10,
-      "code": 3
-    },
-    {
       "date": "2026-06-30",
-      "high": 88,
-      "low": 68,
+      "high": 93,
+      "low": 70,
       "precip": 0.0,
-      "windspeed": 16,
+      "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-07-01",
       "high": 97,
-      "low": 73,
-      "precip": 0.0,
-      "windspeed": 14,
-      "code": 95
+      "low": 69,
+      "precip": 0.14,
+      "windspeed": 22,
+      "code": 63
     },
     {
       "date": "2026-07-02",
-      "high": 100,
-      "low": 81,
+      "high": 98,
+      "low": 78,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 13,
       "code": 51
     },
     {
       "date": "2026-07-03",
-      "high": 101,
-      "low": 78,
-      "precip": 0.24,
-      "windspeed": 22,
-      "code": 80
+      "high": 103,
+      "low": 82,
+      "precip": 0.04,
+      "windspeed": 16,
+      "code": 51
     },
     {
       "date": "2026-07-04",
       "high": 97,
-      "low": 78,
-      "precip": 0.02,
-      "windspeed": 19,
-      "code": 51
+      "low": 77,
+      "precip": 0.19,
+      "windspeed": 14,
+      "code": 95
     },
     {
       "date": "2026-07-05",
-      "high": 94,
-      "low": 77,
-      "precip": 0.02,
-      "windspeed": 10,
+      "high": 85,
+      "low": 76,
+      "precip": 0.07,
+      "windspeed": 17,
       "code": 51
+    },
+    {
+      "date": "2026-07-06",
+      "high": 89,
+      "low": 74,
+      "precip": 0.0,
+      "windspeed": 14,
+      "code": 3
     }
   ],
-  "avg_pace_sec": 561.2,
+  "avg_pace_sec": 561.5,
   "predictions": {
     "5k": "26:36",
-    "10k": "55:27",
-    "half": "2:02:32",
-    "marathon": "4:15:29"
+    "10k": "55:28",
+    "half": "2:02:35",
+    "marathon": "4:15:36"
   },
   "pace_zones": {
     "Z1": {
@@ -1096,11 +1128,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 29,
+    "Z2": 30,
     "Z3": 4,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for Week 1 of your NYC Marathon journey. The Hal Higdon Novice 2 plan is a solid choice, and with 18 weeks ahead, we're starting strong.\n\n### Fitness Assessment\nYour recent runs show a good foundation, with the majority of your efforts (29 out of 33 HR readings) falling within Zone 2, indicating strong aerobic development. Your consistent power output around 230-260W across various paces suggests good running economy, though we're missing cadence data for a complete picture. While your average pace is around 9:21/mi, your ability to hit sub-9:00/mi for best efforts shows you have another gear when needed.\n\n### This Week's Focus\nFor your 3-mile and 8-mile easy runs, target a comfortable Zone 2 effort (124-154 bpm), aiming for a pace in the 9:15-10:00/mi range. On Wednesday's 5-mile pace run, push into Zone 3 (155-169 bpm), likely around a 9:00-9:30/mi pace, similar to your \"Message in a Bottle\" run but sustained for longer. Remember to keep Sunday's cross-training focused on active recovery or strengthening, keeping intensity low.\n\n### Key Priorities\n*   **HR Control on Easy Runs:** Ensure your Tuesday, Thursday, and Saturday runs stay strictly in Zone 2 (below 154 bpm) to maximize aerobic base building, unlike your last run which drifted into Z3.\n*   **Consistent Mileage:** After fluctuating weekly mileage (e.g., 2.5mi, 4.2mi in recent weeks), focus on hitting all prescribed distances to build consistency early in the plan.\n*   **Pace Run Execution:** For Wednesday's 5-mile pace run, aim for a controlled, sustainable Zone 3 effort, ensuring you can maintain the target HR and pace throughout.\n\n### Watch Out For\nThe upcoming week's forecast for NYC shows extremely high temperatures (88-101F) and potential thunderstorms/drizzle. This will significantly impact your perceived effort and heart rate, so be prepared to slow your pace considerably and hydrate diligently to avoid overheating.\n\n### Upcoming Milestones\nThis Saturday's 8-mile run is your first significant long run of the training cycle, marking a key step in building endurance. Successfully completing it will set a strong precedent for the progressive long runs to come."
+  "advice": "Alright Tom, welcome to Week 1 of your NYC Marathon journey! Today is Tuesday, June 30, 2026, and you've got 123 days until race day. Let's get you set up for success with the Hal Higdon Novice 2 plan.\n\n**Fitness Assessment**\nYou've built a solid aerobic foundation, consistently running in Zone 2 (e.g., 144 bpm on June 30th) with an average pace around 9:30/mi and strong power output (e.g., 257W on June 30th). Your best mile efforts in the 8:30-9:00/mi range demonstrate good underlying speed, which is a great starting point for your predicted 4:15:36 marathon finish. The high percentage of Z2 runs (30 out of 34 recent HR zone entries) indicates excellent aerobic development.\n\n**This Week's Focus**\nYour 3-mile run yesterday (June 30th) was perfectly executed in Z2. For your 5-mile pace run on Wednesday, target an average pace around 8:50-9:00/mi, aiming to hold your heart rate in Zone 3 (155-169 bpm). Your 3-mile run on Thursday and the 8-mile long run on Saturday should be easy, keeping your heart rate in Zone 2 (124-154 bpm) and pace around 9:30-10:00/mi.\n\n**Key Priorities**\n*   **Maintain Z2 for Easy Runs:** Keep your easy runs (Thursday 3m, Saturday 8m) below 154 bpm, targeting a relaxed pace around 9:30-10:00/mi to continue building your aerobic base.\n*   **Execute Pace Run:** Successfully complete Wednesday's 5-mile pace run, holding an average pace of 8:50-9:00/mi while maintaining your heart rate in Z3 (155-169 bpm).\n*   **Consistent Mileage:** Re-establish consistent weekly mileage, aiming for the full 19 miles prescribed by the plan, which is a significant increase from your recent 3-4 mile weeks.\n\n**Watch Out For**\nBe extremely cautious with the projected high heat and humidity (93-103F) and strong winds this week; these conditions can significantly elevate your heart rate and perceived effort. Prioritize hydration, consider running during cooler parts of the day, or adjust your pace and expectations downward to avoid overheating.\n\n**Upcoming Milestones**\nThis Saturday marks your first 8-mile long run of the training cycle, which will be your longest run since before May 31st and a key step in building your endurance foundation. This week also represents a significant jump in overall weekly volume to 19 miles, setting the tone for consistent progression."
 }
