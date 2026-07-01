@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, welcome to Week 1 of your NYC Marathon journey! Today is Tuesday, June 30, 2026, and you've got 123 days until race day. Let's get you set up for success with the Hal Higdon Novice 2 plan.
+Alright Tom, let's get you dialed in for Week 1 of your NYC Marathon journey. Today is Wednesday, July 01, 2026, and we're 122 days out from race day.
+
+---
 
 **Fitness Assessment**
-You've built a solid aerobic foundation, consistently running in Zone 2 (e.g., 144 bpm on June 30th) with an average pace around 9:30/mi and strong power output (e.g., 257W on June 30th). Your best mile efforts in the 8:30-9:00/mi range demonstrate good underlying speed, which is a great starting point for your predicted 4:15:36 marathon finish. The high percentage of Z2 runs (30 out of 34 recent HR zone entries) indicates excellent aerobic development.
-
-**This Week's Focus**
+Tom, your recent run data shows a strong foundation for endurance, with most of your runs like the 3.05mi at 9:29/mi consistently in Z2 with an average HR of 144bpm and solid wattage around 257W. This indicates excellent aerobic development, which is crucial for marathon training. You also demonstrate the ability to push into Z3, as seen in your 4.22mi run at 10:10/mi with an HR of 157bpm, showing you can vary your intensity.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ You've built a solid aerobic foundation, consistently running in Zone 2 (e.g., 1
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-06-30 13:02:21 UTC | Run ID: 28446323671*
+*Last updated: 2026-07-01 13:30:04 UTC | Run ID: 28521220786*
