@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 1 of your NYC Marathon journey. Today is Wednesday, July 01, 2026, and we're 122 days out from race day.
-
----
+Alright Tom, let's get you dialed in for Week 1 of your NYC Marathon journey. The plan officially kicks off today, and we've got some good data to work with.
 
 **Fitness Assessment**
-Tom, your recent run data shows a strong foundation for endurance, with most of your runs like the 3.05mi at 9:29/mi consistently in Z2 with an average HR of 144bpm and solid wattage around 257W. This indicates excellent aerobic development, which is crucial for marathon training. You also demonstrate the ability to push into Z3, as seen in your 4.22mi run at 10:10/mi with an HR of 157bpm, showing you can vary your intensity.
+Tom, your recent runs consistently show strong aerobic development, with 30 out of your last 34 HR readings landing squarely in Zone 2 (124-154 bpm) at paces typically ranging from 9:15-10:30/mi. Your consistent wattage output, generally between 240-260W, and best mile efforts like 8:57/mi indicate a solid foundational fitness, preparing you well for the increased demands of marathon training.
+
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent run data shows a strong foundation for endurance, with most of 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-01 13:30:04 UTC | Run ID: 28521220786*
+*Last updated: 2026-07-02 12:52:33 UTC | Run ID: 28591469137*
