@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “July for the Whole Year” - Devon Cole | 5.38mi | 9:24/mi | 147bpm (Z2) | 2026-07-02 |
 | “Suddenly I See” - KT Tunstall | 3.05mi | 9:29/mi | 144bpm (Z2) | 2026-06-30 |
 | “Message in a Bottle” - The Police | 4.22mi | 10:10/mi | 157bpm (Z3) | 2026-06-27 |
 | Watch Died! | 2.48mi | 9:39/mi | 145bpm (Z2) | 2026-06-16 |
 | “Fat Bottomed Girls”- Queen | 3.76mi | 10:30/mi | 143bpm (Z2) | 2026-06-06 |
-| “Who Says” -DOPAMOON | 3.3mi | 9:47/mi | 151bpm (Z2) | 2026-06-05 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 1 of your NYC Marathon journey. The plan officially kicks off today, and we've got some good data to work with.
+Alright Tom, let's get you set up for Week 1 of your NYC Marathon training with Hal Higdon Novice 2.
 
 **Fitness Assessment**
-Tom, your recent runs consistently show strong aerobic development, with 30 out of your last 34 HR readings landing squarely in Zone 2 (124-154 bpm) at paces typically ranging from 9:15-10:30/mi. Your consistent wattage output, generally between 240-260W, and best mile efforts like 8:57/mi indicate a solid foundational fitness, preparing you well for the increased demands of marathon training.
+You demonstrate a solid aerobic base, with most recent runs like your 5.38mi on July 2nd consistently in Zone 2 (average HR 147 bpm @ 9:24/mi). Your best 5K of 28:11 from June 4th and mile best of 8:48 show good potential for speed development. While your power output (240-260W) is consistent at easy efforts, your weekly mileage has been inconsistent, with a recent jump from 4.2mi to 8.4mi.
 
-**This Week's Focus**
+**This Week's Focus (July 3 – July 9)**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent runs consistently show strong aerobic development, with 30 out 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-02 12:52:33 UTC | Run ID: 28591469137*
+*Last updated: 2026-07-03 12:50:46 UTC | Run ID: 28661698970*

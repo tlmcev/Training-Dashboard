@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-07-02 12:52:33",
+  "updated_at": "2026-07-03 12:50:46",
   "current_week": 1,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19151012518,
+      "name": "\u201cJuly for the Whole Year\u201d - Devon Cole",
+      "date": "2026-07-02",
+      "distance_miles": 5.38,
+      "moving_time_sec": 3035,
+      "pace_per_mile": "9:24",
+      "pace_seconds": 564.1,
+      "elevation_ft": 178.0,
+      "avg_hr": 147,
+      "hr_zone": "Z2",
+      "suffer_score": 57.0,
+      "max_hr": 169.0,
+      "avg_watts": 259,
+      "avg_cadence": null,
+      "fastest_mile": "9:07",
+      "fastest_5k": "30:24",
+      "pr_count": 0
+    },
     {
       "id": 19122650456,
       "name": "\u201cSuddenly I See\u201d - KT Tunstall",
@@ -187,10 +206,10 @@
       "avg_hr": 142,
       "hr_zone": "Z2",
       "suffer_score": 22.0,
-      "max_hr": 162.0,
-      "avg_watts": 266,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "8:34",
+      "fastest_mile": null,
       "fastest_5k": null,
       "pr_count": 1
     },
@@ -718,7 +737,7 @@
     },
     {
       "week_start": "2026-06-29",
-      "miles": 3.0
+      "miles": 8.4
     }
   ],
   "ae_trend": [
@@ -1027,72 +1046,81 @@
       "dist": 3.05,
       "marathon_pred": "4:00:56",
       "marathon_sec": 14456
+    },
+    {
+      "date": "2026-07-02",
+      "name": "\u201cJuly for the Whole Year\u201d - Devon Cole",
+      "ae": 1.164,
+      "hr": 147,
+      "dist": 5.38,
+      "marathon_pred": "4:03:38",
+      "marathon_sec": 14618
     }
   ],
   "weather": [
     {
-      "date": "2026-07-02",
-      "high": 103,
-      "low": 80,
-      "precip": 0.0,
-      "windspeed": 14,
-      "code": 45
-    },
-    {
       "date": "2026-07-03",
-      "high": 104,
-      "low": 81,
+      "high": 105,
+      "low": 83,
       "precip": 0.0,
-      "windspeed": 21,
-      "code": 1
+      "windspeed": 12,
+      "code": 0
     },
     {
       "date": "2026-07-04",
-      "high": 96,
-      "low": 78,
-      "precip": 0.08,
-      "windspeed": 16,
+      "high": 99,
+      "low": 77,
+      "precip": 0.03,
+      "windspeed": 32,
       "code": 53
     },
     {
       "date": "2026-07-05",
-      "high": 85,
-      "low": 74,
+      "high": 84,
+      "low": 75,
       "precip": 0.0,
-      "windspeed": 15,
+      "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-07-06",
       "high": 77,
-      "low": 72,
-      "precip": 0.0,
-      "windspeed": 13,
-      "code": 3
+      "low": 71,
+      "precip": 0.8,
+      "windspeed": 14,
+      "code": 81
     },
     {
       "date": "2026-07-07",
-      "high": 79,
-      "low": 70,
-      "precip": 0.56,
-      "windspeed": 12,
-      "code": 82
+      "high": 83,
+      "low": 69,
+      "precip": 0.08,
+      "windspeed": 11,
+      "code": 53
     },
     {
       "date": "2026-07-08",
-      "high": 78,
-      "low": 66,
+      "high": 76,
+      "low": 68,
       "precip": 0.0,
-      "windspeed": 12,
+      "windspeed": 11,
       "code": 3
+    },
+    {
+      "date": "2026-07-09",
+      "high": 80,
+      "low": 70,
+      "precip": 0.15,
+      "windspeed": 18,
+      "code": 53
     }
   ],
-  "avg_pace_sec": 561.5,
+  "avg_pace_sec": 561.6,
   "predictions": {
-    "5k": "26:36",
-    "10k": "55:28",
-    "half": "2:02:35",
-    "marathon": "4:15:36"
+    "5k": "26:37",
+    "10k": "55:29",
+    "half": "2:02:36",
+    "marathon": "4:15:38"
   },
   "pace_zones": {
     "Z1": {
@@ -1128,11 +1156,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 30,
+    "Z2": 31,
     "Z3": 4,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for Week 1 of your NYC Marathon journey. The plan officially kicks off today, and we've got some good data to work with.\n\n**Fitness Assessment**\nTom, your recent runs consistently show strong aerobic development, with 30 out of your last 34 HR readings landing squarely in Zone 2 (124-154 bpm) at paces typically ranging from 9:15-10:30/mi. Your consistent wattage output, generally between 240-260W, and best mile efforts like 8:57/mi indicate a solid foundational fitness, preparing you well for the increased demands of marathon training.\n\n**This Week's Focus**\nToday, Thursday, you have a 3-mile run; aim for an easy Zone 2 effort (124-154 bpm), likely around 9:30-10:30/mi, similar to your 3.05mi run on June 30th (9:29/mi @ 144bpm). Saturday's 8-mile long run should also be a comfortable Zone 2 pace, focusing on completing the distance rather than speed. The 5-mile pace run scheduled for Wednesday (July 1st) was missed, so we'll incorporate that intensity focus into future weeks, targeting Zone 3 (155-169 bpm) for those efforts.\n\n**Key Priorities**\n*   **Prioritize Heat Safety:** With extreme temperatures forecasted (103-104F), seriously consider adjusting your run times to early morning or late evening, or opt for indoor alternatives like a treadmill, to avoid heat-related illness.\n*   **Master Zone 2:** Ensure your 3-mile run today and especially your 8-mile long run on Saturday stay strictly within Zone 2 (124-154 bpm) to build your aerobic base efficiently without overtraining.\n*   **Embrace the Long Run:** The 8-mile run on Saturday is a significant step up from your recent 3-4 mile efforts; focus on maintaining a conversational pace to comfortably cover the distance.\n\n**Watch Out For**\nThe severe heat advisory for NYC over the next few days (103-104F) is a major red flag. Running outdoors in such conditions can be dangerous and detrimental to your training; prioritize your health by making smart adjustments.\n\n**Upcoming Milestones**\nSuccessfully completing your 8-mile long run on Saturday will be a significant milestone, marking your longest distance in over a month and laying a strong endurance foundation for the demanding weeks ahead."
+  "advice": "Alright Tom, let's get you set up for Week 1 of your NYC Marathon training with Hal Higdon Novice 2.\n\n**Fitness Assessment**\nYou demonstrate a solid aerobic base, with most recent runs like your 5.38mi on July 2nd consistently in Zone 2 (average HR 147 bpm @ 9:24/mi). Your best 5K of 28:11 from June 4th and mile best of 8:48 show good potential for speed development. While your power output (240-260W) is consistent at easy efforts, your weekly mileage has been inconsistent, with a recent jump from 4.2mi to 8.4mi.\n\n**This Week's Focus (July 3 \u2013 July 9)**\n*   **Today (Fri):** Rest.\n*   **Saturday (July 4, 8m):** Target an easy, conversational pace, aiming for an average HR in Zone 2 (124-154 bpm), likely around 9:30-10:00/mi. Given the forecasted 99F and 32mph wind, prioritize hydration and consider running very early/late to avoid the worst heat.\n*   **Sunday (July 5, Cross-Training):** Focus on active recovery or low-impact cardio like cycling or swimming for 30-60 minutes, keeping your HR in Zone 2.\n*   **Monday (July 6):** Rest.\n*   **Tuesday (July 7, 3m run):** Easy effort, maintain Zone 2 HR (124-154 bpm), aiming for a pace similar to your recent easy runs, e.g., 9:30-10:00/mi.\n*   **Wednesday (July 8, 5m pace):** This is your first \"pace\" run. Aim for a moderate effort in Zone 3 (155-169 bpm), targeting a pace around 8:45-9:15/mi, similar to your 5K best mile efforts.\n*   **Thursday (July 9, 3m run):** Easy effort, Zone 2 HR (124-154 bpm), similar to Tuesday's run.\n\n**Key Priorities**\n1.  **Consistent Zone 2:** For all easy runs (Sat, Tue, Thu), keep your average heart rate firmly in Zone 2 (124-154 bpm), even if it means slowing down your pace. Your 5.38mi run on July 2nd at 9:24/mi with 147 bpm is a great example of this effort.\n2.  **Introduce Pace Work:** On Wednesday's 5m pace run, aim to elevate your heart rate into Zone 3 (155-169 bpm) to develop your aerobic threshold. Look to hit paces around your recent best mile efforts, like the 8:48/mi from June 4th.\n3.  **Adapt to Heat:** With temperatures soaring to 105F and 99F this weekend, prioritize safety by running during cooler parts of the day, hydrating heavily, and being prepared to significantly adjust paces or even move runs indoors if necessary.\n\n**Watch Out For**\nYour recent weekly mileage trend shows significant drops (2.5mi, 4.2mi) before a recent increase to 8.4mi. Be mindful of increasing your mileage too quickly this week (up to 19 miles) to avoid injury, especially with the extreme heat.\n\n**Upcoming Milestones**\nYou're starting an 18-week journey to the NYC Marathon! Your first major milestone will be completing your initial 8-mile long run this Saturday, July 4th, which will be your longest run in several weeks."
 }
