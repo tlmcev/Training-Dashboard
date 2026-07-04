@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Dreams” - The Cranberries | 3.11mi | 9:42/mi | 152bpm (Z2) | 2026-07-03 |
 | “July for the Whole Year” - Devon Cole | 5.38mi | 9:24/mi | 147bpm (Z2) | 2026-07-02 |
 | “Suddenly I See” - KT Tunstall | 3.05mi | 9:29/mi | 144bpm (Z2) | 2026-06-30 |
 | “Message in a Bottle” - The Police | 4.22mi | 10:10/mi | 157bpm (Z3) | 2026-06-27 |
 | Watch Died! | 2.48mi | 9:39/mi | 145bpm (Z2) | 2026-06-16 |
-| “Fat Bottomed Girls”- Queen | 3.76mi | 10:30/mi | 143bpm (Z2) | 2026-06-06 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you set up for Week 1 of your NYC Marathon training with Hal Higdon Novice 2.
+Alright Tom, let's get you dialed in for Week 1 of your NYC Marathon journey. The goal is clear, and we've got a solid plan to follow.
 
 **Fitness Assessment**
-You demonstrate a solid aerobic base, with most recent runs like your 5.38mi on July 2nd consistently in Zone 2 (average HR 147 bpm @ 9:24/mi). Your best 5K of 28:11 from June 4th and mile best of 8:48 show good potential for speed development. While your power output (240-260W) is consistent at easy efforts, your weekly mileage has been inconsistent, with a recent jump from 4.2mi to 8.4mi.
+Tom, your recent runs consistently show an average heart rate in Zone 2 (e.g., 147-152 bpm on your last two runs) while maintaining strong paces between 9:24-9:42/mi, indicating a robust aerobic base. Your ability to generate 250+ watts and hit max HRs up to 175 bpm (Z3) on some efforts also demonstrates good capacity for harder work when needed.
 
-**This Week's Focus (July 3 – July 9)**
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ You demonstrate a solid aerobic base, with most recent runs like your 5.38mi on 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-03 12:50:46 UTC | Run ID: 28661698970*
+*Last updated: 2026-07-04 12:00:13 UTC | Run ID: 28705517422*
