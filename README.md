@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, coach here. Today marks the official start of your 18-week journey to the NYC Marathon. We're kicking off Week 1 of the Hal Higdon Novice 2 plan, and I've reviewed your recent data to set you up for success.
+Alright Tom, welcome to Week 1 of your NYC Marathon training! It's great to see your recent consistency and the solid base you've built. Let's get you set for a strong start.
 
----
+**Fitness Assessment**
+Tom, you're showing a robust aerobic foundation, consistently running in Zone 2 with average paces between 9:20-9:45/mi on your shorter efforts. Your recent 8-mile run at 10:23/mi in Zone 3 (157bpm) indicates good endurance, and your best efforts like a 9:17 mile and 29:14 5K show promising speed potential. The Riegel prediction of a 4:16:39 marathon suggests you're well-positioned to begin this training block.
 
-### Coaching Brief for Tom
-
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Alright Tom, coach here. Today marks the official start of your 18-week journey 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-05 12:07:57 UTC | Run ID: 28740248748*
+*Last updated: 2026-07-05 16:06:57 UTC | Run ID: 28746763197*
