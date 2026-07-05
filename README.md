@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, welcome to Week 1 of your NYC Marathon training! It's great to see your recent consistency and the solid base you've built. Let's get you set for a strong start.
+Alright Tom, let's get you dialed in for Week 1 of your NYC Marathon training. It's great to see you're starting strong!
 
 **Fitness Assessment**
-Tom, you're showing a robust aerobic foundation, consistently running in Zone 2 with average paces between 9:20-9:45/mi on your shorter efforts. Your recent 8-mile run at 10:23/mi in Zone 3 (157bpm) indicates good endurance, and your best efforts like a 9:17 mile and 29:14 5K show promising speed potential. The Riegel prediction of a 4:16:39 marathon suggests you're well-positioned to begin this training block.
+Your recent runs show a developing aerobic base with a strong average pace around 9:23/mi, as evidenced by your Riegel prediction of 4:16:39 for the marathon. You're consistently running in Zone 2 (124-154 bpm) for base building, with good power output between 230-260W, indicating efficient running. Your best efforts, like a 5K in 28:11 and a mile at 8:48, highlight your potential for speed when challenged.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you're showing a robust aerobic foundation, consistently running in Zone 2 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-05 16:06:57 UTC | Run ID: 28746763197*
+*Last updated: 2026-07-05 16:10:32 UTC | Run ID: 28746859469*
