@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Star Spangled Banner” - Jimi Hendrix | 8.02mi | 10:23/mi | 157bpm (Z3) | 2026-07-04 |
 | “Dreams” - The Cranberries | 3.11mi | 9:42/mi | 152bpm (Z2) | 2026-07-03 |
 | “July for the Whole Year” - Devon Cole | 5.38mi | 9:24/mi | 147bpm (Z2) | 2026-07-02 |
 | “Suddenly I See” - KT Tunstall | 3.05mi | 9:29/mi | 144bpm (Z2) | 2026-06-30 |
 | “Message in a Bottle” - The Police | 4.22mi | 10:10/mi | 157bpm (Z3) | 2026-06-27 |
-| Watch Died! | 2.48mi | 9:39/mi | 145bpm (Z2) | 2026-06-16 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 1 of your NYC Marathon journey. The goal is clear, and we've got a solid plan to follow.
+Alright Tom, coach here. Today marks the official start of your 18-week journey to the NYC Marathon. We're kicking off Week 1 of the Hal Higdon Novice 2 plan, and I've reviewed your recent data to set you up for success.
 
-**Fitness Assessment**
-Tom, your recent runs consistently show an average heart rate in Zone 2 (e.g., 147-152 bpm on your last two runs) while maintaining strong paces between 9:24-9:42/mi, indicating a robust aerobic base. Your ability to generate 250+ watts and hit max HRs up to 175 bpm (Z3) on some efforts also demonstrates good capacity for harder work when needed.
+---
 
-**This Week's Focus**
+### Coaching Brief for Tom
+
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent runs consistently show an average heart rate in Zone 2 (e.g., 1
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-04 12:00:13 UTC | Run ID: 28705517422*
+*Last updated: 2026-07-05 12:07:57 UTC | Run ID: 28740248748*

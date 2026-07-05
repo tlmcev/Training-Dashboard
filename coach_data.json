@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-07-04 12:00:13",
+  "updated_at": "2026-07-05 12:07:57",
   "current_week": 1,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19176874125,
+      "name": "\u201cStar Spangled Banner\u201d - Jimi Hendrix",
+      "date": "2026-07-04",
+      "distance_miles": 8.02,
+      "moving_time_sec": 5002,
+      "pace_per_mile": "10:23",
+      "pace_seconds": 623.7,
+      "elevation_ft": 314.0,
+      "avg_hr": 157,
+      "hr_zone": "Z3",
+      "suffer_score": 143.0,
+      "max_hr": 174.0,
+      "avg_watts": 243,
+      "avg_cadence": null,
+      "fastest_mile": "9:17",
+      "fastest_5k": "29:47",
+      "pr_count": 0
+    },
     {
       "id": 19164773860,
       "name": "\u201cDreams\u201d - The Cranberries",
@@ -187,11 +206,11 @@
       "avg_hr": 141,
       "hr_zone": "Z2",
       "suffer_score": 30.0,
-      "max_hr": 159.0,
-      "avg_watts": 241,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "9:28",
-      "fastest_5k": "30:41",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 0
     },
     {
@@ -756,7 +775,7 @@
     },
     {
       "week_start": "2026-06-29",
-      "miles": 11.5
+      "miles": 19.6
     }
   ],
   "ae_trend": [
@@ -1083,72 +1102,81 @@
       "dist": 3.11,
       "marathon_pred": "4:20:10",
       "marathon_sec": 15610
+    },
+    {
+      "date": "2026-07-04",
+      "name": "\u201cStar Spangled Banner\u201d - Jimi Hendrix",
+      "ae": 0.986,
+      "hr": 157,
+      "dist": 8.02,
+      "marathon_pred": "4:47:37",
+      "marathon_sec": 17257
     }
   ],
   "weather": [
     {
-      "date": "2026-07-04",
-      "high": 99,
-      "low": 75,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
-    {
       "date": "2026-07-05",
-      "high": 89,
-      "low": 72,
-      "precip": 0.3,
-      "windspeed": 13,
-      "code": 63
+      "high": 88,
+      "low": 73,
+      "precip": 0.02,
+      "windspeed": 11,
+      "code": 51
     },
     {
       "date": "2026-07-06",
       "high": 73,
-      "low": 66,
-      "precip": 1.5,
-      "windspeed": 17,
-      "code": 80
+      "low": 69,
+      "precip": 1.3,
+      "windspeed": 11,
+      "code": 65
     },
     {
       "date": "2026-07-07",
-      "high": 68,
-      "low": 62,
-      "precip": 0.24,
-      "windspeed": 17,
+      "high": 70,
+      "low": 65,
+      "precip": 0.17,
+      "windspeed": 13,
       "code": 80
     },
     {
       "date": "2026-07-08",
-      "high": 82,
-      "low": 60,
+      "high": 79,
+      "low": 65,
       "precip": 0.0,
-      "windspeed": 15,
-      "code": 0
+      "windspeed": 10,
+      "code": 3
     },
     {
       "date": "2026-07-09",
-      "high": 85,
+      "high": 84,
       "low": 70,
-      "precip": 0.0,
-      "windspeed": 14,
-      "code": 2
+      "precip": 0.12,
+      "windspeed": 16,
+      "code": 55
     },
     {
       "date": "2026-07-10",
       "high": 91,
-      "low": 70,
-      "precip": 0.07,
+      "low": 74,
+      "precip": 0.0,
       "windspeed": 11,
+      "code": 51
+    },
+    {
+      "date": "2026-07-11",
+      "high": 80,
+      "low": 70,
+      "precip": 0.09,
+      "windspeed": 13,
       "code": 51
     }
   ],
-  "avg_pace_sec": 562.2,
+  "avg_pace_sec": 563.8,
   "predictions": {
-    "5k": "26:38",
-    "10k": "55:32",
-    "half": "2:02:44",
-    "marathon": "4:15:54"
+    "5k": "26:43",
+    "10k": "55:42",
+    "half": "2:03:06",
+    "marathon": "4:16:39"
   },
   "pace_zones": {
     "Z1": {
@@ -1185,10 +1213,10 @@
   "hr_distribution": {
     "Z1": 0,
     "Z2": 32,
-    "Z3": 4,
+    "Z3": 5,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for Week 1 of your NYC Marathon journey. The goal is clear, and we've got a solid plan to follow.\n\n**Fitness Assessment**\nTom, your recent runs consistently show an average heart rate in Zone 2 (e.g., 147-152 bpm on your last two runs) while maintaining strong paces between 9:24-9:42/mi, indicating a robust aerobic base. Your ability to generate 250+ watts and hit max HRs up to 175 bpm (Z3) on some efforts also demonstrates good capacity for harder work when needed.\n\n**This Week's Focus**\nYour easy runs (Tuesday 3m, Thursday 3m, Saturday 8m) should target a conversational pace with an average HR strictly in Zone 2 (124-154 bpm), aiming for paces similar to your recent 9:42-9:59/mi Z2 efforts. For Wednesday's 5-mile pace run, push into Zone 3 (155-169 bpm), targeting a pace around 8:45-9:15/mi, drawing on your recent best mile efforts like 8:48 and 8:57.\n\n**Key Priorities**\n*   **Z2 Discipline:** Keep your easy runs (Tuesday, Thursday, Saturday) strictly in Zone 2, aiming for an average HR below 154 bpm to effectively build your aerobic base.\n*   **Pace Run Execution:** For Wednesday's 5-mile pace run, target an average HR within Zone 3 (155-169 bpm) and aim for a pace around 8:45-9:15/mi, leveraging your recent best mile efforts.\n*   **Heat Management:** Given Saturday's predicted 99F heat and 12mph wind, prioritize hydration and be prepared to significantly slow your 8-mile long run, even incorporating walk breaks, to maintain a Z2 HR and prevent heat stress.\n\n**Watch Out For**\nThe significant jump to an 8-mile long run on Saturday, coupled with the forecast of 99F and 12mph wind, presents a high risk of heat exhaustion. Be extremely diligent about monitoring your body and heart rate, and do not hesitate to cut the run short or walk if conditions become unsafe.\n\n**Upcoming Milestones**\nSuccessfully completing your first 8-mile long run this Saturday, despite the challenging weather, will be a significant mental and physical milestone for your 18-week training cycle. This achievement will set a strong foundation for the longer runs to come as you prepare for the NYC Marathon."
+  "advice": "Alright Tom, coach here. Today marks the official start of your 18-week journey to the NYC Marathon. We're kicking off Week 1 of the Hal Higdon Novice 2 plan, and I've reviewed your recent data to set you up for success.\n\n---\n\n### Coaching Brief for Tom\n\n**Fitness Assessment**\nTom displays a solid aerobic base, spending 32% of recent run time in Z2 with efficient efforts like 9:24/mi at 147bpm on July 2nd. Your average watts are consistently in the 240-260W range for these comfortable paces, indicating good power output. The recent jump to 19.6 miles last week, including an 8-mile run, shows you're well-prepared for the Novice 2 plan's increasing demands.\n\n**This Week's Focus**\nFor your easy 3-mile runs on Tuesday and Thursday, target a Z2 heart rate (124-154bpm) at a comfortable pace around 9:45-10:15/mi. Wednesday's 5-mile pace run should push into Z3 (155-169bpm), aiming for a stronger effort around 9:00-9:15/mi. Saturday's 8-mile long run is crucial; maintain a Z2 heart rate, keeping your pace easy and conversational, likely closer to 10:00-10:30/mi.\n\n**Key Priorities**\n*   **Easy Run Discipline:** For Tuesday, Thursday, and Saturday's runs, prioritize keeping your average heart rate firmly in Z2 (124-154bpm), adjusting pace as needed for the hot and humid conditions.\n*   **Pace Run Execution:** On Wednesday's 5-mile pace effort, aim to sustain an average heart rate in Z3 (155-169bpm), pushing towards a pace around 9:00-9:15/mi, leveraging your recent best mile of 8:57.\n*   **Smart Progression:** Adhere closely to the Novice 2 plan's mileage increases, ensuring a structured and safe build-up from your solid 19.6-mile week.\n\n**Watch Out For**\nYour 8.02-mile run on July 4th at 10:23/mi had an average heart rate of 157bpm (Z3), which is too high for an easy long run. Be mindful not to push easy efforts into Z3, as this can hinder recovery and aerobic development; prioritize staying in Z2 for your easy and long runs.\n\n**Upcoming Milestones**\nSuccessfully completing your first 8-mile long run of the plan on Saturday will be a significant early milestone, building confidence for the progressive increases ahead. You'll also look forward to your first 10-mile long run in Week 3, demonstrating consistent build-up."
 }
