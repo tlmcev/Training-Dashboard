@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 1 of your NYC Marathon training. It's great to see you're starting strong!
+Alright Tom, let's get you ready for Week 2 of your NYC Marathon journey. You've had a strong start to July, and we're building momentum.
 
 **Fitness Assessment**
-Your recent runs show a developing aerobic base with a strong average pace around 9:23/mi, as evidenced by your Riegel prediction of 4:16:39 for the marathon. You're consistently running in Zone 2 (124-154 bpm) for base building, with good power output between 230-260W, indicating efficient running. Your best efforts, like a 5K in 28:11 and a mile at 8:48, highlight your potential for speed when challenged.
+Tom, your recent runs demonstrate a solid aerobic foundation, with an impressive 32% of your time spent in Z2, indicating effective base building. Your average pace of 9:23/mi across recent efforts, supported by consistent power output in the 240-260W range, shows good efficiency. The ability to push for best efforts like a 5K in 28:11 and a mile in 8:48 confirms you have a good range of gears.
 
 **This Week's Focus**
 
@@ -27,7 +27,7 @@ Your recent runs show a developing aerobic base with a strong average pace aroun
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 1 of 18**
+**Current week: 2 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ Your recent runs show a developing aerobic base with a strong average pace aroun
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-05 16:10:32 UTC | Run ID: 28746859469*
+*Last updated: 2026-07-06 14:18:04 UTC | Run ID: 28798361155*
