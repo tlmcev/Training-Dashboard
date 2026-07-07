@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Nanã” - Polo and Pan | 3.04mi | 9:35/mi | 144bpm (Z2) | 2026-07-07 |
 | “Star Spangled Banner” - Jimi Hendrix | 8.02mi | 10:23/mi | 157bpm (Z3) | 2026-07-04 |
 | “Dreams” - The Cranberries | 3.11mi | 9:42/mi | 152bpm (Z2) | 2026-07-03 |
 | “July for the Whole Year” - Devon Cole | 5.38mi | 9:24/mi | 147bpm (Z2) | 2026-07-02 |
 | “Suddenly I See” - KT Tunstall | 3.05mi | 9:29/mi | 144bpm (Z2) | 2026-06-30 |
-| “Message in a Bottle” - The Police | 4.22mi | 10:10/mi | 157bpm (Z3) | 2026-06-27 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for Week 2 of your NYC Marathon journey. You've had a strong start to July, and we're building momentum.
+Here is your coaching brief for Tom:
 
 **Fitness Assessment**
-Tom, your recent runs demonstrate a solid aerobic foundation, with an impressive 32% of your time spent in Z2, indicating effective base building. Your average pace of 9:23/mi across recent efforts, supported by consistent power output in the 240-260W range, shows good efficiency. The ability to push for best efforts like a 5K in 28:11 and a mile in 8:48 confirms you have a good range of gears.
+Tom consistently demonstrates strong aerobic development, with 33 of his recent runs falling within Zone 2 (124-154 bpm) at an average HR of 144-152 bpm. His 3.04mi run on July 7th at 9:35/mi with a 144 bpm average HR, along with frequent power outputs above 250W, indicates efficient running economy at an easy effort. These consistent efforts support his Riegel predicted marathon time of 4:16:48.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent runs demonstrate a solid aerobic foundation, with an impressive
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-06 14:18:04 UTC | Run ID: 28798361155*
+*Last updated: 2026-07-07 13:10:20 UTC | Run ID: 28868716195*
