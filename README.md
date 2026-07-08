@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief for Tom:
+Here is your coaching brief, Tom:
 
 **Fitness Assessment**
-Tom consistently demonstrates strong aerobic development, with 33 of his recent runs falling within Zone 2 (124-154 bpm) at an average HR of 144-152 bpm. His 3.04mi run on July 7th at 9:35/mi with a 144 bpm average HR, along with frequent power outputs above 250W, indicates efficient running economy at an easy effort. These consistent efforts support his Riegel predicted marathon time of 4:16:48.
+Tom, your recent runs, like your 3.04mi run at 9:35/mi with an average HR of 144 bpm (Z2), demonstrate a developing aerobic base. You consistently maintain an easy pace between 9:24/mi and 9:42/mi with steady power output around 250-260W, indicating good efficiency in your Z2 zone. This strong foundation is crucial for building marathon endurance.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom consistently demonstrates strong aerobic development, with 33 of his recent 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-07 13:10:20 UTC | Run ID: 28868716195*
+*Last updated: 2026-07-08 12:12:15 UTC | Run ID: 28941618174*

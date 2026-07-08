@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07 13:10:20",
+  "updated_at": "2026-07-08 12:12:15",
   "current_week": 2,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -1147,59 +1147,59 @@
   ],
   "weather": [
     {
-      "date": "2026-07-07",
-      "high": 68,
+      "date": "2026-07-08",
+      "high": 81,
       "low": 64,
       "precip": 0.0,
-      "windspeed": 9,
-      "code": 3
-    },
-    {
-      "date": "2026-07-08",
-      "high": 78,
-      "low": 60,
-      "precip": 0.0,
-      "windspeed": 9,
+      "windspeed": 10,
       "code": 3
     },
     {
       "date": "2026-07-09",
       "high": 83,
-      "low": 69,
-      "precip": 0.22,
-      "windspeed": 11,
-      "code": 80
+      "low": 68,
+      "precip": 0.02,
+      "windspeed": 14,
+      "code": 51
     },
     {
       "date": "2026-07-10",
-      "high": 89,
+      "high": 90,
+      "low": 72,
+      "precip": 0.01,
+      "windspeed": 15,
+      "code": 3
+    },
+    {
+      "date": "2026-07-11",
+      "high": 87,
       "low": 72,
       "precip": 0.0,
       "windspeed": 13,
       "code": 3
     },
     {
-      "date": "2026-07-11",
-      "high": 86,
-      "low": 71,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
-    {
       "date": "2026-07-12",
-      "high": 77,
-      "low": 71,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
+      "high": 80,
+      "low": 72,
+      "precip": 0.01,
+      "windspeed": 14,
+      "code": 51
     },
     {
       "date": "2026-07-13",
-      "high": 80,
+      "high": 79,
       "low": 70,
       "precip": 0.0,
       "windspeed": 14,
+      "code": 0
+    },
+    {
+      "date": "2026-07-14",
+      "high": 92,
+      "low": 71,
+      "precip": 0.0,
+      "windspeed": 11,
       "code": 3
     }
   ],
@@ -1250,5 +1250,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here is your coaching brief for Tom:\n\n**Fitness Assessment**\nTom consistently demonstrates strong aerobic development, with 33 of his recent runs falling within Zone 2 (124-154 bpm) at an average HR of 144-152 bpm. His 3.04mi run on July 7th at 9:35/mi with a 144 bpm average HR, along with frequent power outputs above 250W, indicates efficient running economy at an easy effort. These consistent efforts support his Riegel predicted marathon time of 4:16:48.\n\n**This Week's Focus**\nFor your Wednesday 5m and Thursday 3m runs, aim for an easy, conversational pace in Zone 2 (124-154 bpm), likely around 9:30-10:00/mi. The Saturday 9m long run should also be primarily in Zone 2, focusing on sustained effort and building endurance, potentially at a slightly slower pace of 10:00-10:30/mi to manage fatigue. Given the rising temperatures and humidity later in the week (83-89F), prioritize hydration and consider running earlier to maintain target heart rates.\n\n**Key Priorities**\n*   **Maintain Z2 Discipline:** Ensure all easy runs (Wed, Thu, Sat) stay firmly within Zone 2 (124-154 bpm) to build your aerobic base effectively, even if it means slowing your pace.\n*   **Consistent Weekly Volume:** Aim to complete the prescribed weekly mileage (20 miles total) to establish a consistent training load after the recent fluctuations in weekly mileage.\n*   **Heat Management:** With temperatures climbing to 89F, focus on pre-hydration, carrying water, and adjusting pace downwards as needed to keep HR in check during your runs, especially the 9m long run.\n\n**Watch Out For**\nYour weekly mileage trend shows significant fluctuation, with a jump from 4.2mi to 19.6mi then a drop to 3.0mi in the last three weeks. This erratic pattern in volume could hinder consistent adaptation and potentially increase your risk of injury if not stabilized with a more gradual progression.\n\n**Upcoming Milestones**\nThis Saturday marks your first 9-mile long run of the plan, a significant step in building the endurance required for the NYC Marathon. Successfully completing this long run will establish a new baseline for your weekly long run progression, setting you up for the increasing distances in the coming weeks."
+  "advice": "Here is your coaching brief, Tom:\n\n**Fitness Assessment**\nTom, your recent runs, like your 3.04mi run at 9:35/mi with an average HR of 144 bpm (Z2), demonstrate a developing aerobic base. You consistently maintain an easy pace between 9:24/mi and 9:42/mi with steady power output around 250-260W, indicating good efficiency in your Z2 zone. This strong foundation is crucial for building marathon endurance.\n\n**This Week's Focus**\nFor your remaining runs this week (Wednesday 5m, Thursday 3m, Saturday 9m), concentrate on an easy, conversational Z2 effort, aiming for an average heart rate between 124-154 bpm. Given the warm, humid forecast (80-90F), be prepared to adjust your pace to maintain this HR zone, likely around your recent 9:20-9:45/mi easy paces. Your cross-training on Sunday should be low-impact active recovery.\n\n**Key Priorities**\n*   **Consistent Z2:** Aim to keep your average heart rate below 154 bpm for all your runs this week, slowing your pace as needed, especially in the heat.\n*   **Hydration & Heat Management:** With temperatures in the 80s-90s and high humidity, focus on pre-hydrating and carrying fluids on your runs.\n*   **Listen to Your Body on Long Run:** The 9-mile run on Saturday is a significant step; prioritize finishing strong and feeling good over hitting a specific pace.\n\n**Watch Out For**\nYour weekly mileage trend shows a jump from 3.0 miles last week to a planned 20 miles this week, which is a significant increase. Be extremely vigilant for any unusual aches or pains, and don't hesitate to shorten a run if you feel excessive fatigue or discomfort to prevent injury.\n\n**Upcoming Milestones**\nSuccessfully completing your 9-mile long run on Saturday will be a fantastic achievement, marking a significant increase in your endurance and building confidence for the longer distances ahead. This also sets you up to consistently hit your weekly mileage targets as the plan progresses."
 }
