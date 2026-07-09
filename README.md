@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Like a Rolling Stone” - Bob Dylan | 5.21mi | 9:01/mi | 153bpm (Z2) | 2026-07-08 |
 | “Nanã” - Polo and Pan | 3.04mi | 9:35/mi | 144bpm (Z2) | 2026-07-07 |
 | “Star Spangled Banner” - Jimi Hendrix | 8.02mi | 10:23/mi | 157bpm (Z3) | 2026-07-04 |
 | “Dreams” - The Cranberries | 3.11mi | 9:42/mi | 152bpm (Z2) | 2026-07-03 |
 | “July for the Whole Year” - Devon Cole | 5.38mi | 9:24/mi | 147bpm (Z2) | 2026-07-02 |
-| “Suddenly I See” - KT Tunstall | 3.05mi | 9:29/mi | 144bpm (Z2) | 2026-06-30 |
 
 ## AI Coach Snapshot
 
-Here is your coaching brief, Tom:
+Alright Tom, let's get you ready for the rest of Week 2 as you build towards NYC!
 
 **Fitness Assessment**
-Tom, your recent runs, like your 3.04mi run at 9:35/mi with an average HR of 144 bpm (Z2), demonstrate a developing aerobic base. You consistently maintain an easy pace between 9:24/mi and 9:42/mi with steady power output around 250-260W, indicating good efficiency in your Z2 zone. This strong foundation is crucial for building marathon endurance.
+You're demonstrating a solid aerobic base, consistently running most efforts in Zone 2 with an average HR between 144-153 bpm and paces typically ranging from 9:01-9:42/mi. Your recent 5.21-mile run at 9:01/mi with a 153 bpm average HR, earning a new 5K PR of 27:44, highlights your current fitness and ability to sustain a strong effort. Watts are stable around 250-260W, indicating consistent power output.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent runs, like your 3.04mi run at 9:35/mi with an average HR of 144
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-08 12:12:15 UTC | Run ID: 28941618174*
+*Last updated: 2026-07-09 13:41:27 UTC | Run ID: 29022306511*
