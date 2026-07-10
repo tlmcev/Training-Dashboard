@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-07-09 13:41:27",
+  "updated_at": "2026-07-10 13:02:42",
   "current_week": 2,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19255276720,
+      "name": "\u201cGive It Up\u201d - KC & The Sunshine Band",
+      "date": "2026-07-10",
+      "distance_miles": 3.02,
+      "moving_time_sec": 1700,
+      "pace_per_mile": "9:22",
+      "pace_seconds": 562.9,
+      "elevation_ft": 129.0,
+      "avg_hr": 150,
+      "hr_zone": "Z2",
+      "suffer_score": 36.0,
+      "max_hr": 168.0,
+      "avg_watts": 257,
+      "avg_cadence": null,
+      "fastest_mile": "8:56",
+      "fastest_5k": null,
+      "pr_count": 0
+    },
     {
       "id": 19228185927,
       "name": "\u201cLike a Rolling Stone\u201d - Bob Dylan",
@@ -187,11 +206,11 @@
       "avg_hr": 151,
       "hr_zone": "Z2",
       "suffer_score": 44.0,
-      "max_hr": 171.0,
-      "avg_watts": 248,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "9:24",
-      "fastest_5k": "29:37",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 0
     },
     {
@@ -817,7 +836,7 @@
     },
     {
       "week_start": "2026-07-06",
-      "miles": 8.2
+      "miles": 11.3
     }
   ],
   "ae_trend": [
@@ -1171,72 +1190,81 @@
       "dist": 5.21,
       "marathon_pred": "4:03:13",
       "marathon_sec": 14593
+    },
+    {
+      "date": "2026-07-10",
+      "name": "\u201cGive It Up\u201d - KC & The Sunshine Band",
+      "ae": 1.144,
+      "hr": 150,
+      "dist": 3.02,
+      "marathon_pred": "4:07:53",
+      "marathon_sec": 14873
     }
   ],
   "weather": [
     {
-      "date": "2026-07-09",
-      "high": 82,
-      "low": 69,
-      "precip": 0.11,
-      "windspeed": 12,
-      "code": 63
-    },
-    {
       "date": "2026-07-10",
-      "high": 90,
-      "low": 71,
-      "precip": 0.02,
-      "windspeed": 12,
-      "code": 51
+      "high": 86,
+      "low": 73,
+      "precip": 0.0,
+      "windspeed": 13,
+      "code": 3
     },
     {
       "date": "2026-07-11",
-      "high": 87,
-      "low": 73,
+      "high": 76,
+      "low": 67,
       "precip": 0.03,
-      "windspeed": 8,
+      "windspeed": 10,
       "code": 53
     },
     {
       "date": "2026-07-12",
-      "high": 82,
+      "high": 81,
       "low": 68,
-      "precip": 0.05,
-      "windspeed": 14,
-      "code": 55
-    },
-    {
-      "date": "2026-07-13",
-      "high": 78,
-      "low": 70,
-      "precip": 0.0,
-      "windspeed": 15,
-      "code": 0
-    },
-    {
-      "date": "2026-07-14",
-      "high": 90,
-      "low": 71,
       "precip": 0.0,
       "windspeed": 14,
       "code": 3
     },
     {
-      "date": "2026-07-15",
-      "high": 87,
-      "low": 75,
-      "precip": 0.01,
+      "date": "2026-07-13",
+      "high": 80,
+      "low": 69,
+      "precip": 0.0,
       "windspeed": 17,
-      "code": 51
+      "code": 3
+    },
+    {
+      "date": "2026-07-14",
+      "high": 93,
+      "low": 72,
+      "precip": 0.0,
+      "windspeed": 16,
+      "code": 3
+    },
+    {
+      "date": "2026-07-15",
+      "high": 95,
+      "low": 79,
+      "precip": 0.0,
+      "windspeed": 17,
+      "code": 3
+    },
+    {
+      "date": "2026-07-16",
+      "high": 93,
+      "low": 74,
+      "precip": 0.0,
+      "windspeed": 13,
+      "code": 3
     }
   ],
   "avg_pace_sec": 563.5,
   "predictions": {
     "5k": "26:42",
-    "10k": "55:41",
+    "10k": "55:40",
     "half": "2:03:02",
-    "marathon": "4:16:32"
+    "marathon": "4:16:31"
   },
   "pace_zones": {
     "Z1": {
@@ -1272,11 +1300,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 34,
+    "Z2": 35,
     "Z3": 5,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for the rest of Week 2 as you build towards NYC!\n\n**Fitness Assessment**\nYou're demonstrating a solid aerobic base, consistently running most efforts in Zone 2 with an average HR between 144-153 bpm and paces typically ranging from 9:01-9:42/mi. Your recent 5.21-mile run at 9:01/mi with a 153 bpm average HR, earning a new 5K PR of 27:44, highlights your current fitness and ability to sustain a strong effort. Watts are stable around 250-260W, indicating consistent power output.\n\n**This Week's Focus**\nFor your remaining runs this week, maintain an easy, conversational effort primarily targeting Zone 2 (124-154 bpm). Aim for paces in the 9:30-10:00/mi range for your Thursday 3-mile run, and a slightly slower 9:45-10:30/mi for your Saturday 9-mile long run to build endurance comfortably. Your Sunday cross-training should focus on active recovery, keeping effort low.\n\n**Key Priorities**\n*   **Maintain Z2 Discipline:** Ensure your easy runs, especially the upcoming 9-mile long run, keep your average heart rate firmly within Zone 2 (124-154 bpm) to build aerobic endurance effectively.\n*   **Monitor Mileage Progression:** Be mindful of the significant mileage increase from last week's 8.2 miles to this week's planned 20 miles; listen to your body and prioritize recovery to prevent overtraining.\n*   **Hydrate for Heat:** With upcoming high temperatures and drizzle, focus on pre-hydration and carrying fluids during your runs, especially the longer Saturday effort.\n\n**Watch Out For**\nBe cautious of the substantial increase in weekly mileage from 8.2 miles last week to an anticipated 20 miles this week, which is a significant jump. While your average HR is often in Zone 2, your max HR frequently touches Zone 3 or even Zone 4 (e.g., 170bpm on 06-30), suggesting you might be pushing too hard at times during what should be easy efforts.\n\n**Upcoming Milestones**\nLook forward to completing your first 9-mile long run this Saturday, which will be a significant step in building your marathon endurance. Successfully completing this will also mark your first 20-mile week of the training cycle, a solid foundation for the weeks ahead."
+  "advice": "Alright Tom, let's get you ready for the NYC Marathon! We're in a great spot, building that foundation.\n\n### **Fitness Assessment**\nTom, your recent runs demonstrate a strong and developing aerobic base, with 35 out of 40 HR zone entries landing squarely in Zone 2. Your easy run paces are consistently in the 9:20-9:40/mi range with a solid average power output of 257W, showing good efficiency. You're also demonstrating improved leg speed with best mile efforts consistently dipping under 9:00/mi.\n\n### **This Week's Focus**\nToday is a planned rest day, so enjoy it. For your 9-mile long run on Saturday, aim for an easy, conversational pace in Zone 2 (124-154 bpm), likely in the 9:45-10:30/mi range, similar to your 8-mile run from July 4th. Sunday's cross-training should also be moderate, keeping your heart rate in Zone 2 to promote recovery and active rest.\n\n### **Key Priorities**\n*   Keep your 9-mile long run on Saturday strictly in Zone 2, ensuring your average HR stays below 154 bpm to build endurance effectively.\n*   Prioritize hydration and electrolyte intake throughout the weekend, especially with the predicted high temperatures (86-95F) and humidity in NYC.\n*   Focus on consistent weekly mileage progression, avoiding large jumps like the increase from 4.2mi to 19.6mi seen two weeks ago, to minimize injury risk.\n\n### **Watch Out For**\nThe upcoming high temperatures (86-95F) and significant humidity could significantly impact your performance and recovery over the weekend. Be mindful of overheating, adjust your pace as needed, and consider early morning or late evening runs if possible.\n\n### **Upcoming Milestones**\nThis Saturday marks your first 9-mile long run of the plan, a significant step towards building the endurance needed for NYC."
 }
