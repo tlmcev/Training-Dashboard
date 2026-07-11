@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for the NYC Marathon! We're in a great spot, building that foundation.
+Alright Tom, let's get you ready for Week 2 of your NYC Marathon journey!
 
-### **Fitness Assessment**
-Tom, your recent runs demonstrate a strong and developing aerobic base, with 35 out of 40 HR zone entries landing squarely in Zone 2. Your easy run paces are consistently in the 9:20-9:40/mi range with a solid average power output of 257W, showing good efficiency. You're also demonstrating improved leg speed with best mile efforts consistently dipping under 9:00/mi.
+**Fitness Assessment**
+Tom, your recent runs demonstrate solid aerobic development, consistently maintaining Zone 2 heart rates (e.g., 150 bpm for 3.02mi @ 9:22/mi) while producing steady power output around 250-270W. Your recent 5K PR of 27:44 on July 8th, run at a strong 9:01/mi pace, confirms good progress and suggests your predicted marathon time of 4:16:31 is well within reach with continued consistent training.
 
-### **This Week's Focus**
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent runs demonstrate a strong and developing aerobic base, with 35 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-10 13:02:42 UTC | Run ID: 29094610929*
+*Last updated: 2026-07-11 11:42:28 UTC | Run ID: 29151409308*
