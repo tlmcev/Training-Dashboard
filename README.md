@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Gimme Shelter” - Rolling Stones | 9.05mi | 9:21/mi | 155bpm (Z3) | 2026-07-11 |
 | “Give It Up” - KC & The Sunshine Band | 3.02mi | 9:22/mi | 150bpm (Z2) | 2026-07-10 |
 | “Like a Rolling Stone” - Bob Dylan | 5.21mi | 9:01/mi | 153bpm (Z2) | 2026-07-08 |
 | “Nanã” - Polo and Pan | 3.04mi | 9:35/mi | 144bpm (Z2) | 2026-07-07 |
 | “Star Spangled Banner” - Jimi Hendrix | 8.02mi | 10:23/mi | 157bpm (Z3) | 2026-07-04 |
-| “Dreams” - The Cranberries | 3.11mi | 9:42/mi | 152bpm (Z2) | 2026-07-03 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for Week 2 of your NYC Marathon journey!
+Alright Tom, let's get you set for Week 2 of your NYC Marathon training with the Hal Higdon Novice 2 plan. Today is Sunday, July 12, 2026, and we've got 111 days until race day.
+
+---
 
 **Fitness Assessment**
-Tom, your recent runs demonstrate solid aerobic development, consistently maintaining Zone 2 heart rates (e.g., 150 bpm for 3.02mi @ 9:22/mi) while producing steady power output around 250-270W. Your recent 5K PR of 27:44 on July 8th, run at a strong 9:01/mi pace, confirms good progress and suggests your predicted marathon time of 4:16:31 is well within reach with continued consistent training.
-
-**This Week's Focus**
+Your recent average pace for runs is consistently around 9:20-9:30/mi with solid power output between 250-270W, and your recent 5K best of 27:44 (8:51/mi) shows good speed endurance. Aerobic development is progressing well, with weekly mileage increasing to 20.3mi last week and most runs staying within Z2, though your 9.05mi run on 7/11 averaging 155bpm edged into Z3.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent runs demonstrate solid aerobic development, consistently mainta
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-11 11:42:28 UTC | Run ID: 29151409308*
+*Last updated: 2026-07-12 11:49:29 UTC | Run ID: 29191510244*

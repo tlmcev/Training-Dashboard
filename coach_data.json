@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-07-11 11:42:28",
+  "updated_at": "2026-07-12 11:49:29",
   "current_week": 2,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19271591814,
+      "name": "\u201cGimme Shelter\u201d - Rolling Stones",
+      "date": "2026-07-11",
+      "distance_miles": 9.05,
+      "moving_time_sec": 5081,
+      "pace_per_mile": "9:21",
+      "pace_seconds": 561.4,
+      "elevation_ft": 436.0,
+      "avg_hr": 155,
+      "hr_zone": "Z3",
+      "suffer_score": 138.0,
+      "max_hr": 172.0,
+      "avg_watts": 260,
+      "avg_cadence": null,
+      "fastest_mile": "8:58",
+      "fastest_5k": "28:46",
+      "pr_count": 0
+    },
     {
       "id": 19255276720,
       "name": "\u201cGive It Up\u201d - KC & The Sunshine Band",
@@ -187,11 +206,11 @@
       "avg_hr": 143,
       "hr_zone": "Z2",
       "suffer_score": 36.0,
-      "max_hr": 158.0,
-      "avg_watts": 232,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "9:30",
-      "fastest_5k": "31:49",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 0
     },
     {
@@ -836,7 +855,7 @@
     },
     {
       "week_start": "2026-07-06",
-      "miles": 11.3
+      "miles": 20.3
     }
   ],
   "ae_trend": [
@@ -1199,63 +1218,72 @@
       "dist": 3.02,
       "marathon_pred": "4:07:53",
       "marathon_sec": 14873
+    },
+    {
+      "date": "2026-07-11",
+      "name": "\u201cGimme Shelter\u201d - Rolling Stones",
+      "ae": 1.11,
+      "hr": 155,
+      "dist": 9.05,
+      "marathon_pred": "4:15:29",
+      "marathon_sec": 15329
     }
   ],
   "weather": [
     {
-      "date": "2026-07-11",
-      "high": 81,
-      "low": 69,
-      "precip": 0.02,
-      "windspeed": 10,
-      "code": 51
-    },
-    {
       "date": "2026-07-12",
-      "high": 83,
-      "low": 64,
+      "high": 84,
+      "low": 68,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 11,
       "code": 3
     },
     {
       "date": "2026-07-13",
-      "high": 80,
-      "low": 68,
+      "high": 86,
+      "low": 66,
       "precip": 0.0,
-      "windspeed": 17,
+      "windspeed": 13,
       "code": 3
     },
     {
       "date": "2026-07-14",
       "high": 92,
-      "low": 72,
+      "low": 71,
       "precip": 0.0,
-      "windspeed": 15,
+      "windspeed": 17,
       "code": 3
     },
     {
       "date": "2026-07-15",
-      "high": 98,
-      "low": 79,
+      "high": 99,
+      "low": 77,
       "precip": 0.0,
-      "windspeed": 16,
-      "code": 3
+      "windspeed": 15,
+      "code": 51
     },
     {
       "date": "2026-07-16",
-      "high": 92,
-      "low": 78,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
+      "high": 87,
+      "low": 76,
+      "precip": 0.01,
+      "windspeed": 16,
+      "code": 51
     },
     {
       "date": "2026-07-17",
-      "high": 90,
-      "low": 75,
+      "high": 78,
+      "low": 66,
       "precip": 0.0,
-      "windspeed": 19,
+      "windspeed": 18,
+      "code": 3
+    },
+    {
+      "date": "2026-07-18",
+      "high": 84,
+      "low": 65,
+      "precip": 0.0,
+      "windspeed": 12,
       "code": 3
     }
   ],
@@ -1263,8 +1291,8 @@
   "predictions": {
     "5k": "26:42",
     "10k": "55:40",
-    "half": "2:03:02",
-    "marathon": "4:16:31"
+    "half": "2:03:01",
+    "marathon": "4:16:30"
   },
   "pace_zones": {
     "Z1": {
@@ -1301,10 +1329,10 @@
   "hr_distribution": {
     "Z1": 0,
     "Z2": 35,
-    "Z3": 5,
+    "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for Week 2 of your NYC Marathon journey!\n\n**Fitness Assessment**\nTom, your recent runs demonstrate solid aerobic development, consistently maintaining Zone 2 heart rates (e.g., 150 bpm for 3.02mi @ 9:22/mi) while producing steady power output around 250-270W. Your recent 5K PR of 27:44 on July 8th, run at a strong 9:01/mi pace, confirms good progress and suggests your predicted marathon time of 4:16:31 is well within reach with continued consistent training.\n\n**This Week's Focus**\nFor your Tuesday (3m), Wednesday (5m), Thursday (3m), and Saturday (9m) runs, focus on maintaining an easy, conversational pace, targeting 9:00-9:45/mi. Keep your heart rate firmly in Zone 2, ideally between 135-154 bpm, to build your aerobic base effectively. Your Sunday cross-training should be active recovery, low-impact, and keep your heart rate in Z1/Z2.\n\n**Key Priorities**\n*   **Heart Rate Discipline:** Consistently keep your running heart rate below 154 bpm (Z2) on all your scheduled runs to maximize aerobic adaptation and prevent overtraining.\n*   **Heat Management:** With temperatures soaring to 98F next week, prioritize early morning runs, stay extremely well-hydrated, and don't hesitate to slow your pace significantly or use indoor options to manage the heat stress.\n*   **Consistency:** Successfully complete your 9-mile long run on Saturday as it's a crucial step in building your endurance for the marathon.\n\n**Watch Out For**\nThe severe heatwave hitting NYC next week, with temperatures reaching 98F and high humidity, poses a significant risk for your training. Running in these conditions will elevate your heart rate and perceived effort considerably, potentially pushing you into Z3 even at slower paces, as seen in your 8.02mi run on July 4th (10:23/mi @ 157 bpm in Z3).\n\n**Upcoming Milestones**\nThis Saturday's 9-mile run is your longest scheduled run in this training block, marking a significant step up in endurance and a key test of your current aerobic fitness. Successfully completing this will build confidence and prepare you for increasing distances ahead on your journey to the NYC Marathon, now just 112 days away."
+  "advice": "Alright Tom, let's get you set for Week 2 of your NYC Marathon training with the Hal Higdon Novice 2 plan. Today is Sunday, July 12, 2026, and we've got 111 days until race day.\n\n---\n\n**Fitness Assessment**\nYour recent average pace for runs is consistently around 9:20-9:30/mi with solid power output between 250-270W, and your recent 5K best of 27:44 (8:51/mi) shows good speed endurance. Aerobic development is progressing well, with weekly mileage increasing to 20.3mi last week and most runs staying within Z2, though your 9.05mi run on 7/11 averaging 155bpm edged into Z3.\n\n**This Week's Focus**\nFor your 3-mile and 5-mile easy runs, target a comfortable Z2 heart rate (124-154 bpm), aiming for paces around 9:30-10:00/mi, adjusting significantly for the hot weather. Saturday's 9-mile long run is your key endurance builder; prioritize staying in Z2 (124-154 bpm) even if your pace slows to 10:00-10:30/mi or slower, as effort management is crucial in the heat. Sunday's cross-training should be light to moderate, maintaining Z2 for 45-60 minutes.\n\n**Key Priorities**\n*   **Heat Adaptation & Hydration:** With temperatures soaring up to 99F this week, prioritize hydration and be prepared to significantly slow your pace on all runs to keep your HR in Z2 and Z3 targets.\n*   **Consistent Z2 for Easy Runs:** Ensure your Tuesday 3-mile, Wednesday 5-mile, and Thursday 3-mile runs remain firmly in Z2 (124-154 bpm), similar to your controlled 5.21mi run on 7/8 at 153bpm.\n*   **Long Run Effort Management:** For Saturday's 9-mile run, strictly adhere to Z2 (124-154 bpm); your recent 9.05mi run averaged 155bpm (Z3), so actively manage your effort to stay aerobic.\n\n**Watch Out For**\nThe extreme heat and humidity forecasted for the entire week (Highs 84-99F) will make every run feel harder and elevate your heart rate. Do not push pace; listen to your body and slow down significantly to avoid overheating and unnecessary fatigue.\n\n**Upcoming Milestones**\nThis Saturday's 9-mile run is your longest scheduled run of this training block so far, marking a significant step in building your endurance foundation for the marathon."
 }
