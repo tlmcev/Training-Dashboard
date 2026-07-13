@@ -16,18 +16,18 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you set for Week 2 of your NYC Marathon training with the Hal Higdon Novice 2 plan. Today is Sunday, July 12, 2026, and we've got 111 days until race day.
-
----
+Here is your coaching brief for the week, Tom:
 
 **Fitness Assessment**
-Your recent average pace for runs is consistently around 9:20-9:30/mi with solid power output between 250-270W, and your recent 5K best of 27:44 (8:51/mi) shows good speed endurance. Aerobic development is progressing well, with weekly mileage increasing to 20.3mi last week and most runs staying within Z2, though your 9.05mi run on 7/11 averaging 155bpm edged into Z3.
+Tom is demonstrating solid aerobic development, consistently maintaining an average pace around 9:23/mi with most runs falling comfortably within Zone 2 (e.g., 150bpm for 3.02mi on 07-10). His consistent power output, often around 255-260W, and recent 5K PR on 07-08 at a 9:01/mi pace indicate improving fitness and adaptation to the training load.
+
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 2 of 18**
+**Current week: 3 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ Your recent average pace for runs is consistently around 9:20-9:30/mi with solid
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-12 11:49:29 UTC | Run ID: 29191510244*
+*Last updated: 2026-07-13 13:10:46 UTC | Run ID: 29252732640*

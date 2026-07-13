@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-12 11:49:29",
-  "current_week": 2,
+  "updated_at": "2026-07-13 13:10:46",
+  "current_week": 3,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
@@ -1231,60 +1231,60 @@
   ],
   "weather": [
     {
-      "date": "2026-07-12",
-      "high": 84,
-      "low": 68,
-      "precip": 0.0,
-      "windspeed": 11,
-      "code": 3
-    },
-    {
       "date": "2026-07-13",
-      "high": 86,
-      "low": 66,
+      "high": 85,
+      "low": 67,
       "precip": 0.0,
-      "windspeed": 13,
-      "code": 3
+      "windspeed": 14,
+      "code": 2
     },
     {
       "date": "2026-07-14",
-      "high": 92,
-      "low": 71,
+      "high": 96,
+      "low": 68,
       "precip": 0.0,
-      "windspeed": 17,
+      "windspeed": 16,
       "code": 3
     },
     {
       "date": "2026-07-15",
-      "high": 99,
+      "high": 100,
       "low": 77,
+      "precip": 0.0,
+      "windspeed": 14,
+      "code": 51
+    },
+    {
+      "date": "2026-07-16",
+      "high": 94,
+      "low": 79,
       "precip": 0.0,
       "windspeed": 15,
       "code": 51
     },
     {
-      "date": "2026-07-16",
-      "high": 87,
-      "low": 76,
-      "precip": 0.01,
-      "windspeed": 16,
-      "code": 51
-    },
-    {
       "date": "2026-07-17",
-      "high": 78,
-      "low": 66,
+      "high": 86,
+      "low": 75,
       "precip": 0.0,
-      "windspeed": 18,
+      "windspeed": 15,
       "code": 3
     },
     {
       "date": "2026-07-18",
-      "high": 84,
-      "low": 65,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
+      "high": 80,
+      "low": 71,
+      "precip": 0.14,
+      "windspeed": 16,
+      "code": 53
+    },
+    {
+      "date": "2026-07-19",
+      "high": 77,
+      "low": 72,
+      "precip": 0.29,
+      "windspeed": 18,
+      "code": 80
     }
   ],
   "avg_pace_sec": 563.5,
@@ -1334,5 +1334,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you set for Week 2 of your NYC Marathon training with the Hal Higdon Novice 2 plan. Today is Sunday, July 12, 2026, and we've got 111 days until race day.\n\n---\n\n**Fitness Assessment**\nYour recent average pace for runs is consistently around 9:20-9:30/mi with solid power output between 250-270W, and your recent 5K best of 27:44 (8:51/mi) shows good speed endurance. Aerobic development is progressing well, with weekly mileage increasing to 20.3mi last week and most runs staying within Z2, though your 9.05mi run on 7/11 averaging 155bpm edged into Z3.\n\n**This Week's Focus**\nFor your 3-mile and 5-mile easy runs, target a comfortable Z2 heart rate (124-154 bpm), aiming for paces around 9:30-10:00/mi, adjusting significantly for the hot weather. Saturday's 9-mile long run is your key endurance builder; prioritize staying in Z2 (124-154 bpm) even if your pace slows to 10:00-10:30/mi or slower, as effort management is crucial in the heat. Sunday's cross-training should be light to moderate, maintaining Z2 for 45-60 minutes.\n\n**Key Priorities**\n*   **Heat Adaptation & Hydration:** With temperatures soaring up to 99F this week, prioritize hydration and be prepared to significantly slow your pace on all runs to keep your HR in Z2 and Z3 targets.\n*   **Consistent Z2 for Easy Runs:** Ensure your Tuesday 3-mile, Wednesday 5-mile, and Thursday 3-mile runs remain firmly in Z2 (124-154 bpm), similar to your controlled 5.21mi run on 7/8 at 153bpm.\n*   **Long Run Effort Management:** For Saturday's 9-mile run, strictly adhere to Z2 (124-154 bpm); your recent 9.05mi run averaged 155bpm (Z3), so actively manage your effort to stay aerobic.\n\n**Watch Out For**\nThe extreme heat and humidity forecasted for the entire week (Highs 84-99F) will make every run feel harder and elevate your heart rate. Do not push pace; listen to your body and slow down significantly to avoid overheating and unnecessary fatigue.\n\n**Upcoming Milestones**\nThis Saturday's 9-mile run is your longest scheduled run of this training block so far, marking a significant step in building your endurance foundation for the marathon."
+  "advice": "Here is your coaching brief for the week, Tom:\n\n**Fitness Assessment**\nTom is demonstrating solid aerobic development, consistently maintaining an average pace around 9:23/mi with most runs falling comfortably within Zone 2 (e.g., 150bpm for 3.02mi on 07-10). His consistent power output, often around 255-260W, and recent 5K PR on 07-08 at a 9:01/mi pace indicate improving fitness and adaptation to the training load.\n\n**This Week's Focus**\nGiven the extreme heat, prioritize effort over pace for all runs. For your Tuesday, Thursday, and Saturday runs, target a comfortable Zone 2 heart rate (124-154 bpm), which will likely mean paces slower than your recent easy runs. On Wednesday's 5-mile pace run, aim for a controlled Zone 3 effort (155-169 bpm), but be prepared to adjust significantly if the heat is too taxing.\n\n**Key Priorities**\n*   **Prioritize Heat Adaptation:** With daily temperatures exceeding 90F, focus on running early mornings or late evenings, and do not hesitate to walk or cut runs short if you feel overheated.\n*   **Hydration & Electrolytes:** Actively pre-hydrate before runs and consider electrolyte supplements during and after, especially with the high humidity.\n*   **Zone 2 Discipline:** Despite the heat, ensure your easy runs stay firmly within Zone 2 (124-154 bpm) to continue building your aerobic base effectively.\n\n**Watch Out For**\nBe highly vigilant for signs of heat exhaustion or heat stroke; your 07-04 run already showed your HR hitting 157bpm in Z3 at a slower 10:23/mi pace, indicating how quickly heat can elevate your effort. Listen to your body and prioritize safety over hitting specific paces this week.\n\n**Upcoming Milestones**\nLook forward to completing your 6-mile long run on Saturday, a key step in building your endurance foundation and contributing to another solid week of mileage progression as you continue through Week 3 of your marathon build."
 }
