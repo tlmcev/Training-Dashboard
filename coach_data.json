@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13 13:10:46",
+  "updated_at": "2026-07-14 12:04:00",
   "current_week": 3,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -1231,60 +1231,60 @@
   ],
   "weather": [
     {
-      "date": "2026-07-13",
-      "high": 85,
-      "low": 67,
+      "date": "2026-07-14",
+      "high": 98,
+      "low": 70,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 13,
       "code": 2
     },
     {
-      "date": "2026-07-14",
-      "high": 96,
-      "low": 68,
-      "precip": 0.0,
-      "windspeed": 16,
-      "code": 3
-    },
-    {
       "date": "2026-07-15",
-      "high": 100,
-      "low": 77,
+      "high": 103,
+      "low": 76,
       "precip": 0.0,
-      "windspeed": 14,
-      "code": 51
+      "windspeed": 18,
+      "code": 3
     },
     {
       "date": "2026-07-16",
       "high": 94,
       "low": 79,
       "precip": 0.0,
-      "windspeed": 15,
-      "code": 51
+      "windspeed": 16,
+      "code": 3
     },
     {
       "date": "2026-07-17",
-      "high": 86,
-      "low": 75,
+      "high": 89,
+      "low": 76,
       "precip": 0.0,
-      "windspeed": 15,
+      "windspeed": 10,
       "code": 3
     },
     {
       "date": "2026-07-18",
-      "high": 80,
+      "high": 79,
       "low": 71,
-      "precip": 0.14,
-      "windspeed": 16,
-      "code": 53
+      "precip": 0.72,
+      "windspeed": 11,
+      "code": 81
     },
     {
       "date": "2026-07-19",
-      "high": 77,
+      "high": 92,
       "low": 72,
-      "precip": 0.29,
-      "windspeed": 18,
-      "code": 80
+      "precip": 0.0,
+      "windspeed": 14,
+      "code": 3
+    },
+    {
+      "date": "2026-07-20",
+      "high": 85,
+      "low": 74,
+      "precip": 0.0,
+      "windspeed": 11,
+      "code": 3
     }
   ],
   "avg_pace_sec": 563.5,
@@ -1334,5 +1334,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here is your coaching brief for the week, Tom:\n\n**Fitness Assessment**\nTom is demonstrating solid aerobic development, consistently maintaining an average pace around 9:23/mi with most runs falling comfortably within Zone 2 (e.g., 150bpm for 3.02mi on 07-10). His consistent power output, often around 255-260W, and recent 5K PR on 07-08 at a 9:01/mi pace indicate improving fitness and adaptation to the training load.\n\n**This Week's Focus**\nGiven the extreme heat, prioritize effort over pace for all runs. For your Tuesday, Thursday, and Saturday runs, target a comfortable Zone 2 heart rate (124-154 bpm), which will likely mean paces slower than your recent easy runs. On Wednesday's 5-mile pace run, aim for a controlled Zone 3 effort (155-169 bpm), but be prepared to adjust significantly if the heat is too taxing.\n\n**Key Priorities**\n*   **Prioritize Heat Adaptation:** With daily temperatures exceeding 90F, focus on running early mornings or late evenings, and do not hesitate to walk or cut runs short if you feel overheated.\n*   **Hydration & Electrolytes:** Actively pre-hydrate before runs and consider electrolyte supplements during and after, especially with the high humidity.\n*   **Zone 2 Discipline:** Despite the heat, ensure your easy runs stay firmly within Zone 2 (124-154 bpm) to continue building your aerobic base effectively.\n\n**Watch Out For**\nBe highly vigilant for signs of heat exhaustion or heat stroke; your 07-04 run already showed your HR hitting 157bpm in Z3 at a slower 10:23/mi pace, indicating how quickly heat can elevate your effort. Listen to your body and prioritize safety over hitting specific paces this week.\n\n**Upcoming Milestones**\nLook forward to completing your 6-mile long run on Saturday, a key step in building your endurance foundation and contributing to another solid week of mileage progression as you continue through Week 3 of your marathon build."
+  "advice": "Hey Tom, great work lately! Let's get you ready for Week 3.\n\n**Fitness Assessment**\nYour consistent Z2 heart rate distribution (35 runs in Z2) and steady power output (avg 257-269W) indicate a strong aerobic base is developing nicely. The recent 9.05mi run at 9:21/mi, despite touching Z3 (155/172 bpm), shows good endurance, and your 5K best effort of 27:44 (8:56/mi) demonstrates good underlying speed. Your weekly mileage has also shown excellent progression, more than quadrupling in the last month to 20.3 miles.\n\n**This Week's Focus**\n*   **Today (3m run):** Target an easy pace of 9:30-9:45/mi, keeping heart rate in Z2 (140-150 bpm), especially considering the high temperatures.\n*   **Wednesday (5m pace):** Aim for a comfortably hard effort around 8:50-9:10/mi, maintaining heart rate in Z3 (155-165 bpm) to develop speed endurance.\n*   **Thursday (3m run):** Return to an easy Z2 effort, 9:30-9:45/mi, with heart rate in the 140-150 bpm range.\n*   **Saturday (6m long run):** Focus on a conversational pace of 9:20-9:40/mi, allowing heart rate to drift into low Z3 (145-158 bpm) as fatigue sets in, similar to your 9.05mi effort.\n\n**Key Priorities**\n*   **Heat Adaptation:** Given the extreme heat (98-103F) this week, prioritize running by effort and heart rate, not pace; be prepared to slow down significantly or move runs indoors.\n*   **Z2 Maintenance:** Ensure easy runs remain firmly in Z2 (124-154 bpm) to continue building your aerobic engine, even if it means a slower pace than typical.\n*   **Pace Run Execution:** Successfully execute Wednesday's 5m pace run in Z3 (155-169 bpm) to introduce controlled intensity without overexertion in the heat.\n\n**Watch Out For**\nThe projected high temperatures this week (up to 103F) will significantly elevate your heart rate; be mindful that your HR could easily reach Z3 even at an easy pace, as seen in your 8.02mi run (10:23/mi, HR 157/174) in less extreme conditions. Stay hydrated and listen to your body.\n\n**Upcoming Milestones**\nThis week introduces your first \"pace\" workout, a great opportunity to practice a controlled faster effort, and your 6-mile long run continues to build your endurance base towards the marathon."
 }

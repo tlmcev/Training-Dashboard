@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief for the week, Tom:
+Hey Tom, great work lately! Let's get you ready for Week 3.
 
 **Fitness Assessment**
-Tom is demonstrating solid aerobic development, consistently maintaining an average pace around 9:23/mi with most runs falling comfortably within Zone 2 (e.g., 150bpm for 3.02mi on 07-10). His consistent power output, often around 255-260W, and recent 5K PR on 07-08 at a 9:01/mi pace indicate improving fitness and adaptation to the training load.
+Your consistent Z2 heart rate distribution (35 runs in Z2) and steady power output (avg 257-269W) indicate a strong aerobic base is developing nicely. The recent 9.05mi run at 9:21/mi, despite touching Z3 (155/172 bpm), shows good endurance, and your 5K best effort of 27:44 (8:56/mi) demonstrates good underlying speed. Your weekly mileage has also shown excellent progression, more than quadrupling in the last month to 20.3 miles.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom is demonstrating solid aerobic development, consistently maintaining an aver
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-13 13:10:46 UTC | Run ID: 29252732640*
+*Last updated: 2026-07-14 12:04:00 UTC | Run ID: 29331109334*
