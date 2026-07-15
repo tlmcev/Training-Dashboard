@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Sweet Jane” - The Velvet Underground | 3.05mi | 8:47/mi | 145bpm (Z2) | 2026-07-14 |
 | “Gimme Shelter” - Rolling Stones | 9.05mi | 9:21/mi | 155bpm (Z3) | 2026-07-11 |
 | “Give It Up” - KC & The Sunshine Band | 3.02mi | 9:22/mi | 150bpm (Z2) | 2026-07-10 |
 | “Like a Rolling Stone” - Bob Dylan | 5.21mi | 9:01/mi | 153bpm (Z2) | 2026-07-08 |
 | “Nanã” - Polo and Pan | 3.04mi | 9:35/mi | 144bpm (Z2) | 2026-07-07 |
-| “Star Spangled Banner” - Jimi Hendrix | 8.02mi | 10:23/mi | 157bpm (Z3) | 2026-07-04 |
 
 ## AI Coach Snapshot
 
-Hey Tom, great work lately! Let's get you ready for Week 3.
+Alright Tom, let's get you ready for Week 3 of your NYC Marathon journey.
 
 **Fitness Assessment**
-Your consistent Z2 heart rate distribution (35 runs in Z2) and steady power output (avg 257-269W) indicate a strong aerobic base is developing nicely. The recent 9.05mi run at 9:21/mi, despite touching Z3 (155/172 bpm), shows good endurance, and your 5K best effort of 27:44 (8:56/mi) demonstrates good underlying speed. Your weekly mileage has also shown excellent progression, more than quadrupling in the last month to 20.3 miles.
+Your recent runs showcase a robust aerobic foundation, with 36 runs predominantly in Z2 (124-154 bpm) and an average easy pace around 9:20-9:40/mi. Consistent watts (250-276W) and the ability to hit faster mile efforts like 8:35/mi indicate growing strength. The 5.21mi PR @ 9:01/mi on July 8th further confirms positive progress in your aerobic development and efficiency.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Your consistent Z2 heart rate distribution (35 runs in Z2) and steady power outp
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-14 12:04:00 UTC | Run ID: 29331109334*
+*Last updated: 2026-07-15 12:08:29 UTC | Run ID: 29414112006*
