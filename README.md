@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Redbone” - Childish Gambino | 5.02mi | 10:08/mi | 148bpm (Z2) | 2026-07-15 |
 | “Sweet Jane” - The Velvet Underground | 3.05mi | 8:47/mi | 145bpm (Z2) | 2026-07-14 |
 | “Gimme Shelter” - Rolling Stones | 9.05mi | 9:21/mi | 155bpm (Z3) | 2026-07-11 |
 | “Give It Up” - KC & The Sunshine Band | 3.02mi | 9:22/mi | 150bpm (Z2) | 2026-07-10 |
 | “Like a Rolling Stone” - Bob Dylan | 5.21mi | 9:01/mi | 153bpm (Z2) | 2026-07-08 |
-| “Nanã” - Polo and Pan | 3.04mi | 9:35/mi | 144bpm (Z2) | 2026-07-07 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for Week 3 of your NYC Marathon journey.
+Alright Tom, let's get you ready for the rest of Week 3, keeping your NYC Marathon goal firmly in sight.
 
-**Fitness Assessment**
-Your recent runs showcase a robust aerobic foundation, with 36 runs predominantly in Z2 (124-154 bpm) and an average easy pace around 9:20-9:40/mi. Consistent watts (250-276W) and the ability to hit faster mile efforts like 8:35/mi indicate growing strength. The 5.21mi PR @ 9:01/mi on July 8th further confirms positive progress in your aerobic development and efficiency.
+### Fitness Assessment
+You're building a strong aerobic base, with 37 out of 43 recent runs predominantly in Zone 2 (124-154 bpm). Your ability to maintain this zone during longer efforts, like your 5.21mi run at 9:01/mi with an average HR of 153 bpm, shows good cardiovascular efficiency. Furthermore, your wattage output, reaching 276W during your 8:47/mi pace, indicates you have solid power when you need to push.
 
-**This Week's Focus**
+### This Week's Focus
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Your recent runs showcase a robust aerobic foundation, with 36 runs predominantl
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-15 12:08:29 UTC | Run ID: 29414112006*
+*Last updated: 2026-07-16 12:12:39 UTC | Run ID: 29497267162*
