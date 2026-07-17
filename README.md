@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for the rest of Week 3, keeping your NYC Marathon goal firmly in sight.
+Alright Tom, let's get you ready for the NYC Marathon. Today is Friday, July 17, 2026, and we're 106 days out, entering Week 3 of your Hal Higdon Novice 2 plan.
 
-### Fitness Assessment
-You're building a strong aerobic base, with 37 out of 43 recent runs predominantly in Zone 2 (124-154 bpm). Your ability to maintain this zone during longer efforts, like your 5.21mi run at 9:01/mi with an average HR of 153 bpm, shows good cardiovascular efficiency. Furthermore, your wattage output, reaching 276W during your 8:47/mi pace, indicates you have solid power when you need to push.
+---
 
-### This Week's Focus
+### Coaching Brief for Tom
+
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ You're building a strong aerobic base, with 37 out of 43 recent runs predominant
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-16 12:12:39 UTC | Run ID: 29497267162*
+*Last updated: 2026-07-17 12:01:20 UTC | Run ID: 29578787560*

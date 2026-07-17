@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16 12:12:39",
+  "updated_at": "2026-07-17 12:01:20",
   "current_week": 3,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -1291,60 +1291,60 @@
   ],
   "weather": [
     {
-      "date": "2026-07-16",
-      "high": 97,
-      "low": 72,
-      "precip": 0.0,
-      "windspeed": 16,
-      "code": 3
-    },
-    {
       "date": "2026-07-17",
-      "high": 90,
-      "low": 65,
+      "high": 92,
+      "low": 69,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 8,
       "code": 3
     },
     {
       "date": "2026-07-18",
-      "high": 80,
+      "high": 83,
       "low": 70,
-      "precip": 0.54,
-      "windspeed": 18,
-      "code": 82
+      "precip": 0.3,
+      "windspeed": 11,
+      "code": 63
     },
     {
       "date": "2026-07-19",
-      "high": 85,
+      "high": 83,
       "low": 71,
-      "precip": 0.22,
+      "precip": 0.04,
       "windspeed": 18,
-      "code": 81
+      "code": 51
     },
     {
       "date": "2026-07-20",
-      "high": 78,
+      "high": 79,
       "low": 67,
       "precip": 0.0,
-      "windspeed": 16,
+      "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-07-21",
-      "high": 86,
-      "low": 74,
-      "precip": 0.56,
-      "windspeed": 14,
+      "high": 80,
+      "low": 72,
+      "precip": 1.24,
+      "windspeed": 18,
       "code": 95
     },
     {
       "date": "2026-07-22",
-      "high": 79,
-      "low": 64,
-      "precip": 0.12,
+      "high": 81,
+      "low": 70,
+      "precip": 1.44,
       "windspeed": 18,
-      "code": 55
+      "code": 82
+    },
+    {
+      "date": "2026-07-23",
+      "high": 81,
+      "low": 65,
+      "precip": 0.0,
+      "windspeed": 13,
+      "code": 0
     }
   ],
   "avg_pace_sec": 563.7,
@@ -1394,5 +1394,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for the rest of Week 3, keeping your NYC Marathon goal firmly in sight.\n\n### Fitness Assessment\nYou're building a strong aerobic base, with 37 out of 43 recent runs predominantly in Zone 2 (124-154 bpm). Your ability to maintain this zone during longer efforts, like your 5.21mi run at 9:01/mi with an average HR of 153 bpm, shows good cardiovascular efficiency. Furthermore, your wattage output, reaching 276W during your 8:47/mi pace, indicates you have solid power when you need to push.\n\n### This Week's Focus\nFor your remaining runs this week\u2014today's 3m run and Saturday's 6m run\u2014your primary focus is an easy, conversational pace within Zone 2 (124-154 bpm). Given the forecasted high temperatures, expect paces to be around 9:45-10:30/mi, prioritizing effort and heart rate over specific speed. Friday is a crucial rest day, and Sunday is for cross-training.\n\n### Key Priorities\n*   **Heat Management:** With today's temperature hitting 97F and remaining high, focus on pre-hydrating, carrying water, and adjusting your pace significantly to keep your HR in Zone 2.\n*   **Consistent Z2 Efforts:** Ensure your 3m and 6m runs stay comfortably within Zone 2 (124-154 bpm) to continue building your aerobic base effectively, as demonstrated in your \"Redbone\" (148bpm avg) and \"Nan\u00e3\" (144bpm avg) runs.\n*   **Embrace Recovery:** Utilize your scheduled rest day on Friday and cross-training on Sunday to facilitate recovery and adaptation, which is crucial for injury prevention and long-term progress in your training.\n\n### Watch Out For\nBe vigilant for signs of overheating or excessive fatigue due to the extreme heat; your average heart rate on the 8.02mi run in similar conditions (157bpm avg in Z3) suggests you're working hard, and high temperatures will exacerbate this.\n\n### Upcoming Milestones\nLook forward to reaching your first double-digit long run of 10 miles, which is scheduled for Week 6 of the plan. This will be a significant step in building your marathon endurance and confidence."
+  "advice": "Alright Tom, let's get you ready for the NYC Marathon. Today is Friday, July 17, 2026, and we're 106 days out, entering Week 3 of your Hal Higdon Novice 2 plan.\n\n---\n\n### Coaching Brief for Tom\n\n**Fitness Assessment**\nTom, your consistent Zone 2 heart rate distribution (37 runs in Z2) demonstrates a strong aerobic base, which is excellent for marathon training. Your recent 5.02mi run at 10:08/mi with an average HR of 148 bpm (Z2) and a 5K best effort of 27:44 (8:56/mi) highlight good endurance and the ability to find speed within a controlled effort. Your average watts in the 240-270W range further confirm a steady effort level.\n\n**This Week's Focus**\nToday is a planned rest day. For your 6-mile run tomorrow (Saturday), aim for an easy, conversational pace in Zone 2 (124-154 bpm), targeting 9:45-10:45/mi, especially given the predicted rain and high temperatures. Sunday's cross-training should also keep your heart rate in Zone 2 for active recovery and low impact.\n\n**Key Priorities**\n*   **Execute workouts as prescribed:** Your Wednesday \"5m pace\" run was completed at an easy Z2 effort (10:08/mi, 148bpm) instead of a targeted pace effort. Ensure you understand and execute the specific intensity for each workout type going forward.\n*   **Consistent Z2 for easy/long runs:** On your easy and long runs, maintain your average heart rate below 154 bpm to optimally build your aerobic engine without overstressing. This will be crucial for managing the upcoming hot weather and aiding recovery.\n*   **Monitor weekly volume:** After a significant drop to 8.1 miles last week from 20.3 miles the week prior, aim to consistently build your mileage back up as prescribed by the plan to ensure adequate training stimulus.\n\n**Watch Out For**\nThe significant drop in weekly mileage from 20.3mi to 8.1mi last week (July 6 to July 13) is a red flag, indicating either missed runs or a potential need for extra recovery. Ensure you're adhering to the plan's volume to build endurance effectively and prevent any setbacks.\n\n**Upcoming Milestones**\nLook forward to completing your first 6-mile long run of this training block tomorrow, a key step in building your marathon endurance. This will be an important mental and physical benchmark for the weeks ahead as we progress toward higher mileage."
 }
