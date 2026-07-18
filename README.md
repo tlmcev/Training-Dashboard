@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for the NYC Marathon. Today is Friday, July 17, 2026, and we're 106 days out, entering Week 3 of your Hal Higdon Novice 2 plan.
+Alright Tom, let's get you ready for a productive Week 3 of your Hal Higdon Novice 2 plan, keeping our eyes on that NYC Marathon finish line.
 
----
+**Fitness Assessment**
+Tom demonstrates solid aerobic development, consistently maintaining Zone 2 heart rates (37 runs) with an average pace of 9:23/mi and steady power output around 240-270W. His Riegel predictions (4:16:36 marathon, 2:03:04 half) are well-aligned with his recent best efforts like a 27:44 5K and an 8:35/mi best mile. This indicates a strong foundation, but there's room to build consistent mileage and speed.
 
-### Coaching Brief for Tom
-
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Alright Tom, let's get you ready for the NYC Marathon. Today is Friday, July 17,
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-17 12:01:20 UTC | Run ID: 29578787560*
+*Last updated: 2026-07-18 11:42:31 UTC | Run ID: 29643022962*

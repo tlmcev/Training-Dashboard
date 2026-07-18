@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17 12:01:20",
+  "updated_at": "2026-07-18 11:42:31",
   "current_week": 3,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -1291,60 +1291,60 @@
   ],
   "weather": [
     {
-      "date": "2026-07-17",
-      "high": 92,
-      "low": 69,
-      "precip": 0.0,
-      "windspeed": 8,
-      "code": 3
-    },
-    {
       "date": "2026-07-18",
-      "high": 83,
+      "high": 93,
       "low": 70,
-      "precip": 0.3,
-      "windspeed": 11,
-      "code": 63
+      "precip": 0.06,
+      "windspeed": 27,
+      "code": 61
     },
     {
       "date": "2026-07-19",
-      "high": 83,
-      "low": 71,
-      "precip": 0.04,
-      "windspeed": 18,
-      "code": 51
+      "high": 85,
+      "low": 69,
+      "precip": 0.08,
+      "windspeed": 13,
+      "code": 61
     },
     {
       "date": "2026-07-20",
-      "high": 79,
+      "high": 82,
       "low": 67,
+      "precip": 0.0,
+      "windspeed": 13,
+      "code": 3
+    },
+    {
+      "date": "2026-07-21",
+      "high": 78,
+      "low": 73,
+      "precip": 0.36,
+      "windspeed": 19,
+      "code": 95
+    },
+    {
+      "date": "2026-07-22",
+      "high": 84,
+      "low": 71,
+      "precip": 0.54,
+      "windspeed": 15,
+      "code": 81
+    },
+    {
+      "date": "2026-07-23",
+      "high": 82,
+      "low": 66,
       "precip": 0.0,
       "windspeed": 14,
       "code": 3
     },
     {
-      "date": "2026-07-21",
-      "high": 80,
-      "low": 72,
-      "precip": 1.24,
-      "windspeed": 18,
-      "code": 95
-    },
-    {
-      "date": "2026-07-22",
-      "high": 81,
-      "low": 70,
-      "precip": 1.44,
-      "windspeed": 18,
-      "code": 82
-    },
-    {
-      "date": "2026-07-23",
-      "high": 81,
-      "low": 65,
+      "date": "2026-07-24",
+      "high": 83,
+      "low": 67,
       "precip": 0.0,
       "windspeed": 13,
-      "code": 0
+      "code": 3
     }
   ],
   "avg_pace_sec": 563.7,
@@ -1394,5 +1394,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for the NYC Marathon. Today is Friday, July 17, 2026, and we're 106 days out, entering Week 3 of your Hal Higdon Novice 2 plan.\n\n---\n\n### Coaching Brief for Tom\n\n**Fitness Assessment**\nTom, your consistent Zone 2 heart rate distribution (37 runs in Z2) demonstrates a strong aerobic base, which is excellent for marathon training. Your recent 5.02mi run at 10:08/mi with an average HR of 148 bpm (Z2) and a 5K best effort of 27:44 (8:56/mi) highlight good endurance and the ability to find speed within a controlled effort. Your average watts in the 240-270W range further confirm a steady effort level.\n\n**This Week's Focus**\nToday is a planned rest day. For your 6-mile run tomorrow (Saturday), aim for an easy, conversational pace in Zone 2 (124-154 bpm), targeting 9:45-10:45/mi, especially given the predicted rain and high temperatures. Sunday's cross-training should also keep your heart rate in Zone 2 for active recovery and low impact.\n\n**Key Priorities**\n*   **Execute workouts as prescribed:** Your Wednesday \"5m pace\" run was completed at an easy Z2 effort (10:08/mi, 148bpm) instead of a targeted pace effort. Ensure you understand and execute the specific intensity for each workout type going forward.\n*   **Consistent Z2 for easy/long runs:** On your easy and long runs, maintain your average heart rate below 154 bpm to optimally build your aerobic engine without overstressing. This will be crucial for managing the upcoming hot weather and aiding recovery.\n*   **Monitor weekly volume:** After a significant drop to 8.1 miles last week from 20.3 miles the week prior, aim to consistently build your mileage back up as prescribed by the plan to ensure adequate training stimulus.\n\n**Watch Out For**\nThe significant drop in weekly mileage from 20.3mi to 8.1mi last week (July 6 to July 13) is a red flag, indicating either missed runs or a potential need for extra recovery. Ensure you're adhering to the plan's volume to build endurance effectively and prevent any setbacks.\n\n**Upcoming Milestones**\nLook forward to completing your first 6-mile long run of this training block tomorrow, a key step in building your marathon endurance. This will be an important mental and physical benchmark for the weeks ahead as we progress toward higher mileage."
+  "advice": "Alright Tom, let's get you ready for a productive Week 3 of your Hal Higdon Novice 2 plan, keeping our eyes on that NYC Marathon finish line.\n\n**Fitness Assessment**\nTom demonstrates solid aerobic development, consistently maintaining Zone 2 heart rates (37 runs) with an average pace of 9:23/mi and steady power output around 240-270W. His Riegel predictions (4:16:36 marathon, 2:03:04 half) are well-aligned with his recent best efforts like a 27:44 5K and an 8:35/mi best mile. This indicates a strong foundation, but there's room to build consistent mileage and speed.\n\n**This Week's Focus**\nThis week calls for careful execution given the challenging weather conditions. Today's 6-mile run should prioritize effort over pace, targeting a Z2 heart rate (below 154 bpm) at a slower pace (10:00-10:30/mi) due to the 93F heat and 27mph winds. For your easy 3-mile runs (Tue/Thu), maintain Z2, and on Wednesday's 5-mile pace run, aim for Z3 (155-169 bpm) around 8:45-9:00/mi, adjusting significantly for predicted thunderstorms.\n\n**Key Priorities**\n*   **Weather-Adjusted Effort:** For today's 6-mile run, focus on perceived effort and hydration, allowing your pace to drop to 10:00-10:30/mi or slower to keep your heart rate below 154 bpm in the extreme heat, heavy rain, and strong winds.\n*   **Consistent Z2 for Easy Runs:** Ensure your 3-mile runs on Tuesday and Thursday are genuinely easy, aiming for a consistent Zone 2 heart rate (below 154 bpm) to continue building your aerobic base effectively.\n*   **Smart Pace Run Execution:** On Wednesday's 5-mile pace run, target a Z3 heart rate (155-169 bpm) and a pace around 8:45-9:00/mi, but be prepared to modify or move the run if the predicted thunderstorms make conditions unsafe.\n\n**Watch Out For**\nYour weekly mileage significantly dropped to 8.1 miles last week from 20.3 miles the week prior. Ensure this was a planned reduction, and prioritize consistency this week to avoid losing fitness momentum and minimize injury risk as you progress through the plan.\n\n**Upcoming Milestones**\nLook forward to reaching your first 10-mile long run in Week 6 of the Hal Higdon Novice 2 plan, a significant step that will build crucial endurance for the NYC Marathon."
 }
