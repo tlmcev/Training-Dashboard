@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “I Touch Myself” - Divinyls | 6.03mi | 10:12/mi | 149bpm (Z2) | 2026-07-18 |
 | “Redbone” - Childish Gambino | 5.02mi | 10:08/mi | 148bpm (Z2) | 2026-07-15 |
 | “Sweet Jane” - The Velvet Underground | 3.05mi | 8:47/mi | 145bpm (Z2) | 2026-07-14 |
 | “Gimme Shelter” - Rolling Stones | 9.05mi | 9:21/mi | 155bpm (Z3) | 2026-07-11 |
 | “Give It Up” - KC & The Sunshine Band | 3.02mi | 9:22/mi | 150bpm (Z2) | 2026-07-10 |
-| “Like a Rolling Stone” - Bob Dylan | 5.21mi | 9:01/mi | 153bpm (Z2) | 2026-07-08 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for a productive Week 3 of your Hal Higdon Novice 2 plan, keeping our eyes on that NYC Marathon finish line.
+Alright Tom, let's get you ready for a strong Week 3 of your NYC Marathon training!
 
 **Fitness Assessment**
-Tom demonstrates solid aerobic development, consistently maintaining Zone 2 heart rates (37 runs) with an average pace of 9:23/mi and steady power output around 240-270W. His Riegel predictions (4:16:36 marathon, 2:03:04 half) are well-aligned with his recent best efforts like a 27:44 5K and an 8:35/mi best mile. This indicates a strong foundation, but there's room to build consistent mileage and speed.
+Tom, your recent runs demonstrate excellent aerobic development, evidenced by a 5bpm decrease in average heart rate over your last six runs while maintaining consistent power output (e.g., 258W on your 6.03mi run). Your ability to hold a 10:12/mi pace in Z2 for 6 miles, alongside a recent 5K best effort of 27:44 (8:57/mi), indicates a solid base and improving endurance.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom demonstrates solid aerobic development, consistently maintaining Zone 2 hear
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-18 11:42:31 UTC | Run ID: 29643022962*
+*Last updated: 2026-07-19 11:47:26 UTC | Run ID: 29685774494*
