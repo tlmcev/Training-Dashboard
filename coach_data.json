@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-19 11:47:26",
-  "current_week": 3,
+  "updated_at": "2026-07-20 12:59:22",
+  "current_week": 4,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
@@ -1319,60 +1319,60 @@
   ],
   "weather": [
     {
-      "date": "2026-07-19",
-      "high": 82,
-      "low": 65,
-      "precip": 0.0,
-      "windspeed": 13,
-      "code": 3
-    },
-    {
       "date": "2026-07-20",
       "high": 83,
-      "low": 59,
+      "low": 60,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 8,
       "code": 3
     },
     {
       "date": "2026-07-21",
-      "high": 80,
-      "low": 72,
-      "precip": 1.89,
-      "windspeed": 24,
-      "code": 96
+      "high": 76,
+      "low": 67,
+      "precip": 11.07,
+      "windspeed": 17,
+      "code": 65
     },
     {
       "date": "2026-07-22",
-      "high": 82,
-      "low": 70,
-      "precip": 0.01,
-      "windspeed": 16,
-      "code": 51
+      "high": 87,
+      "low": 71,
+      "precip": 1.41,
+      "windspeed": 15,
+      "code": 65
     },
     {
       "date": "2026-07-23",
-      "high": 80,
+      "high": 81,
       "low": 65,
       "precip": 0.0,
-      "windspeed": 14,
-      "code": 0
+      "windspeed": 13,
+      "code": 2
     },
     {
       "date": "2026-07-24",
       "high": 80,
       "low": 68,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 13,
       "code": 3
     },
     {
       "date": "2026-07-25",
-      "high": 83,
-      "low": 69,
-      "precip": 0.66,
-      "windspeed": 10,
-      "code": 81
+      "high": 82,
+      "low": 70,
+      "precip": 0.0,
+      "windspeed": 12,
+      "code": 3
+    },
+    {
+      "date": "2026-07-26",
+      "high": 79,
+      "low": 70,
+      "precip": 0.0,
+      "windspeed": 15,
+      "code": 3
     }
   ],
   "avg_pace_sec": 564.8,
@@ -1422,5 +1422,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for a strong Week 3 of your NYC Marathon training!\n\n**Fitness Assessment**\nTom, your recent runs demonstrate excellent aerobic development, evidenced by a 5bpm decrease in average heart rate over your last six runs while maintaining consistent power output (e.g., 258W on your 6.03mi run). Your ability to hold a 10:12/mi pace in Z2 for 6 miles, alongside a recent 5K best effort of 27:44 (8:57/mi), indicates a solid base and improving endurance.\n\n**This Week's Focus**\nFor your easy runs (Tuesday 3m, Thursday 3m, Saturday 6m), target a comfortable Z2 heart rate (124-154bpm), aiming for paces in the 9:45-10:15/mi range, similar to your 7/18 effort. Wednesday's 5-mile pace run is your chance to push slightly, targeting a consistent 8:55-9:05/mi pace while allowing your heart rate to naturally climb into Z3 (155-169bpm). Sunday's cross-training should remain low-impact, keeping your HR in Z2.\n\n**Key Priorities**\n*   **Maintain Z2 on Easy Runs:** For your Tuesday, Thursday, and Saturday runs, keep your HR below 154bpm by adjusting pace as needed.\n*   **Execute Pace Run:** Aim for a consistent 8:55-9:05/mi pace on Wednesday's 5-mile run, allowing your HR to naturally rise into Z3 (155-169bpm).\n*   **Build Weekly Volume:** After last week's dip to 14.1 miles, focus on safely increasing your total mileage back towards 20+ miles this week.\n\n**Watch Out For**\nBe highly aware of the hot and humid NYC weather this week, with highs in the low 80s and thunderstorms predicted. Your heart rate will naturally be elevated for a given pace in these conditions, so be prepared to slow down significantly on your easy runs to stay within your Z2 targets and prioritize hydration.\n\n**Upcoming Milestones**\nThis Saturday's 6-mile run is your longest planned run of the current training cycle, offering a valuable opportunity to practice hydration and fueling strategies. As you continue building consistency in Week 3 of 18, you're making excellent progress towards the NYC Marathon, now just 104 days away."
+  "advice": "Hey Tom, great to connect for Week 4! You've been putting in solid work, and your data shows some excellent progress.\n\n**Fitness Assessment**\nYour recent runs demonstrate excellent aerobic adaptation, with your HR trending down 5bpm over the last six runs, consistently maintaining Z2 for most efforts. Your ability to hold paces around 9:00-9:30/mi within Z2, as seen in your 5.02mi @ 10:08/mi (HR 148bpm) and 3.05mi @ 8:47/mi (HR 145bpm), indicates a strong base. Your current Riegel predicted marathon time of 4:17:06 is a solid benchmark for your progress.\n\n**This Week's Focus**\nThis week, your 3-mile and 11-mile runs should be easy efforts, targeting Z2 (124-154 bpm) at a comfortable pace, likely in the 9:45-10:15/mi range. For your 6-mile pace run, aim for a sustained effort in Z3 (155-169 bpm), pushing closer to your 8:45-9:15/mi range, similar to your 07-14 run but for longer duration. Remember to incorporate active recovery during your cross-training day to aid muscle repair.\n\n**Key Priorities**\n*   Maintain your excellent Z2 control on easy runs, ensuring your heart rate stays below 154 bpm, even as distances increase.\n*   For your 6-mile pace run, focus on sustaining a consistent effort in Z3 (155-169 bpm) to build speed endurance.\n*   Prioritize adequate recovery this week as your mileage increases significantly from last week's 14.1 miles to a planned 23 miles.\n\n**Watch Out For**\nBe mindful of the significant jump in weekly mileage from 14.1 miles last week to a planned 23 miles this week, which could increase injury risk if not managed carefully. Additionally, the upcoming hot and rainy weather in NYC (highs in the 80s, significant wind) will demand extra hydration and adjustments to pace to avoid overexertion.\n\n**Upcoming Milestones**\nSuccessfully completing Saturday's 11-mile long run will be a significant milestone, marking your longest run yet in this training block and a new weekly mileage high. This consistent progression is key as we are now 103 days out from the NYC Marathon."
 }

@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for a strong Week 3 of your NYC Marathon training!
+Hey Tom, great to connect for Week 4! You've been putting in solid work, and your data shows some excellent progress.
 
 **Fitness Assessment**
-Tom, your recent runs demonstrate excellent aerobic development, evidenced by a 5bpm decrease in average heart rate over your last six runs while maintaining consistent power output (e.g., 258W on your 6.03mi run). Your ability to hold a 10:12/mi pace in Z2 for 6 miles, alongside a recent 5K best effort of 27:44 (8:57/mi), indicates a solid base and improving endurance.
+Your recent runs demonstrate excellent aerobic adaptation, with your HR trending down 5bpm over the last six runs, consistently maintaining Z2 for most efforts. Your ability to hold paces around 9:00-9:30/mi within Z2, as seen in your 5.02mi @ 10:08/mi (HR 148bpm) and 3.05mi @ 8:47/mi (HR 145bpm), indicates a strong base. Your current Riegel predicted marathon time of 4:17:06 is a solid benchmark for your progress.
 
 **This Week's Focus**
 
@@ -27,7 +27,7 @@ Tom, your recent runs demonstrate excellent aerobic development, evidenced by a 
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 3 of 18**
+**Current week: 4 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ Tom, your recent runs demonstrate excellent aerobic development, evidenced by a 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-19 11:47:26 UTC | Run ID: 29685774494*
+*Last updated: 2026-07-20 12:59:22 UTC | Run ID: 29744335913*
