@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, great to connect for Week 4! You've been putting in solid work, and your data shows some excellent progress.
+Alright Tom, let's get you dialed in for Week 4 as you continue your journey toward the NYC Marathon.
 
 **Fitness Assessment**
-Your recent runs demonstrate excellent aerobic adaptation, with your HR trending down 5bpm over the last six runs, consistently maintaining Z2 for most efforts. Your ability to hold paces around 9:00-9:30/mi within Z2, as seen in your 5.02mi @ 10:08/mi (HR 148bpm) and 3.05mi @ 8:47/mi (HR 145bpm), indicates a strong base. Your current Riegel predicted marathon time of 4:17:06 is a solid benchmark for your progress.
+Your recent data shows excellent aerobic adaptation, with your average HR trending down by 5bpm over the last six runs, such as your 6.03mi at 10:12/mi with an average HR of 149bpm (Z2). You're consistently maintaining Z2 heart rates for easy efforts (e.g., 5.02mi @ 10:08/mi at 148bpm Z2), demonstrating a solid and developing aerobic base. Your ability to hit faster paces like 8:47/mi for 3.05mi at a comfortable 145bpm (Z2) indicates good speed endurance and power, as evidenced by 276W.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Your recent runs demonstrate excellent aerobic adaptation, with your HR trending
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-20 12:59:22 UTC | Run ID: 29744335913*
+*Last updated: 2026-07-21 12:17:35 UTC | Run ID: 29829482131*
