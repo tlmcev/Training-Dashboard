@@ -28,7 +28,6 @@
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
     min-height: 100vh;
-    overflow-x: hidden;
   }
 
   /* ── Topbar ── */
@@ -78,7 +77,7 @@
   }
 
   /* ── Layout ── */
-  .page { max-width: 1100px; margin: 0 auto; padding: 40px 24px 80px; overflow-x: hidden; }
+  .page { max-width: 1100px; margin: 0 auto; padding: 40px 24px 80px; }
 
   /* ── Hero ── */
   .hero {
@@ -208,7 +207,6 @@
     animation: fadeUp 0.6s 0.2s ease both;
     align-items: stretch;
   }
-  .grid-2 > * { min-width: 0; }
 
   .grid-3 {
     display: grid;
@@ -316,9 +314,6 @@
     border-radius: 8px;
     border: 1px solid transparent;
     transition: all 0.15s;
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
   }
 
   .run-item:hover { background: var(--faint); border-color: var(--faint); }
@@ -339,7 +334,6 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 100%;
   }
 
   .run-date {
@@ -494,7 +488,26 @@
 
   .schedule-table td.long-run { color: var(--orange); font-weight: 600; }
   .schedule-table td.rest-day { color: var(--muted); }
-  .schedule-table td.pace-day { color: var(--blue); font-weight: 500; }
+  .schedule-table td {
+    vertical-align: top;
+  }
+  .cell-date {
+    display: block;
+    font-size: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: var(--muted);
+    letter-spacing: 0.3px;
+    margin-bottom: 2px;
+    white-space: nowrap;
+  }
+  .cell-date .travel-loc {
+    color: var(--orange);
+    opacity: 0.8;
+    margin-left: 4px;
+  }
+  .cell-content {
+    display: block;
+  }
   .schedule-table td.marathon { color: var(--red); font-weight: 700; font-family: 'Barlow Condensed', sans-serif; letter-spacing: 1px; }
 
   .week-badge {
@@ -597,14 +610,10 @@
 
     /* Hero */
     .hero { grid-template-columns: 1fr; gap: 16px; }
-    .hero > div:first-child { order: 1; }  /* title */
-    .countdown-box { order: 2; }            /* countdown above map */
-    .hero-map { order: 3; }                 /* map below countdown */
 
     .hero-title { font-size: clamp(40px, 12vw, 64px); }
-    .countdown-box { text-align: left; }
+    .countdown-box { text-align: left; display: flex; gap: 24px; align-items: flex-end; }
     .countdown-num { font-size: 48px; }
-    .countdown-plan { display: none; }
 
     /* Topbar */
     .topbar-meta { display: none; }
@@ -831,10 +840,7 @@
     <div class="countdown-box" style="text-align:right;">
       <div class="countdown-num" id="daysLeft">—</div>
       <div class="countdown-label">Days to Race</div>
-      <div class="countdown-plan" style="margin-top:12px;">
-        <div class="countdown-num" style="font-size:36px;color:var(--muted);" id="daysToPlan">—</div>
-        <div class="countdown-label">Days to Plan Start</div>
-      </div>
+
     </div>
   </div>
   
@@ -1034,7 +1040,6 @@ function secToTime(totalSecs) {
 }
 function getCurrentWeek() {
   const now = new Date();
-  if (now < PLAN_START) return 0; // before plan starts — no week highlighted
   const diffMs = now - PLAN_START;
   const week = Math.ceil(diffMs / (7 * 86400000));
   return Math.min(Math.max(week, 1), 18);
@@ -1048,9 +1053,9 @@ function renderCountdown() {
   const now = new Date();
   const daysToRace = Math.ceil((MARATHON_DATE - now) / 86400000);
   const planStart = new Date('2026-06-29');
-  const daysToPlan = Math.ceil((planStart - now) / 86400000);
+
   document.getElementById('daysLeft').textContent = daysToRace > 0 ? daysToRace : '🏆';
-  document.getElementById('daysToPlan').textContent = daysToPlan > 0 ? daysToPlan : '🏃';
+
 }
 
 // ── This Week ────────────────────────────────────────────────────────────────
@@ -1139,10 +1144,7 @@ function renderRuns(activities) {
       ? `<span style="font-family:'Barlow Condensed',sans-serif;font-size:10px;letter-spacing:1px;padding:2px 6px;border-radius:4px;background:${zoneColors[run.hr_zone]};color:#fff;">${run.hr_zone}</span>`
       : '';
     const hrText = run.avg_hr ? `${run.avg_hr}bpm` : '—';
-    const stravaUrl = run.id ? `https://www.strava.com/activities/${run.id}` : null;
-    const itemTag = stravaUrl ? `a href="${stravaUrl}" target="_blank" rel="noopener"` : 'div';
-    const closeTag = stravaUrl ? 'a' : 'div';
-    return `<${itemTag} class="run-item">
+    return `<div class="run-item">
       <div class="run-icon">${getRunEmoji(run)}</div>
       <div class="run-info">
         <div class="run-name">${run.name}</div>
@@ -1152,7 +1154,7 @@ function renderRuns(activities) {
         <div class="run-dist">${dist} mi</div>
         <div class="run-pace">${pace}/mi · ${hrText}</div>
       </div>
-    </${closeTag}>`;
+    </div>`;
   }).join('');
   document.getElementById('runList').innerHTML = html;
 }
@@ -1192,9 +1194,11 @@ function renderProgress(weekNum, phase) {
 function renderMileageChart(weeklyMileage) {
   if (!weeklyMileage || !weeklyMileage.length) return;
   const planStart = new Date('2026-06-29');
+  weeklyMileage = weeklyMileage.filter(w => new Date(w.week_start) >= planStart);
+  if (!weeklyMileage.length) return;
   const labels = weeklyMileage.map(w => new Date(w.week_start).toLocaleDateString('en-US', { month:'short', day:'numeric' }));
   const miles = weeklyMileage.map(w => w.miles);
-  const colors = weeklyMileage.map(w => new Date(w.week_start) < planStart ? '#8a8880' : '#e85d04');
+  const colors = weeklyMileage.map(_ => '#e85d04');
   const mileageCanvas = document.getElementById('mileageChart');
   if (Chart.getChart(mileageCanvas)) Chart.getChart(mileageCanvas).destroy();
   new Chart(mileageCanvas.getContext('2d'), {
@@ -1231,6 +1235,8 @@ function renderMileageChart(weeklyMileage) {
 function renderAEChart(aeTrend) {
   if (!aeTrend || !aeTrend.length) return;
   const planStart = new Date('2026-06-29');
+  aeTrend = aeTrend.filter(r => new Date(r.date) >= planStart);
+  if (!aeTrend.length) return;
   const labels = aeTrend.map(r => new Date(r.date).toLocaleDateString('en-US', { month:'short', day:'numeric' }));
   const values = aeTrend.map(r => r.ae);
 
@@ -1249,7 +1255,7 @@ function renderAEChart(aeTrend) {
 
   const minVal = Math.min(...smoothed) * 0.97;
   const maxVal = Math.max(...smoothed) * 1.03;
-  const pointColors = aeTrend.map(r => new Date(r.date) < planStart ? '#8a8880' : '#e85d04');
+  const pointColors = aeTrend.map(_ => '#e85d04');
 
   const aeCanvas = document.getElementById('aeChart');
   if (Chart.getChart(aeCanvas)) Chart.getChart(aeCanvas).destroy();
@@ -1288,10 +1294,10 @@ function renderAEChart(aeTrend) {
 // ── Predicted marathon chart ──────────────────────────────────────────────────
 function renderPredChart(aeTrend) {
   if (!aeTrend || aeTrend.length < 2) return;
-  const data = aeTrend.filter(r => r.marathon_sec);
+  const planStart = new Date('2026-06-29');
+  const data = aeTrend.filter(r => r.marathon_sec && new Date(r.date) >= planStart);
   if (data.length < 2) return;
 
-  const planStart = new Date('2026-06-29');
   const labels = data.map(r => new Date(r.date).toLocaleDateString('en-US', { month:'short', day:'numeric' }));
   const values = data.map(r => r.marathon_sec);
 
@@ -1310,7 +1316,7 @@ function renderPredChart(aeTrend) {
 
   const minVal = Math.min(...smoothed) * 0.98;
   const maxVal = Math.max(...smoothed) * 1.02;
-  const pointColors = data.map(r => new Date(r.date) < planStart ? '#8a8880' : '#e85d04');
+  const pointColors = data.map(_ => '#e85d04');
 
   function secToHMS(s) {
     const h = Math.floor(s/3600);
@@ -1396,24 +1402,57 @@ function renderZones(zones) {
 
 // ── Schedule table ───────────────────────────────────────────────────────────
 function renderScheduleTable(currentWeek) {
-  const body = HH.map((week, i) => {
+  const WEEK_DATA = [
+  { days:["Jun 29", "Jun 30", "Jul 1", "Jul 2", "Jul 3", "Jul 4", "Jul 5"], travel:"" },
+  { days:["Jul 6", "Jul 7", "Jul 8", "Jul 9", "Jul 10", "Jul 11", "Jul 12"], travel:"" },
+  { days:["Jul 13", "Jul 14", "Jul 15", "Jul 16", "Jul 17", "Jul 18", "Jul 19"], travel:"" },
+  { days:["Jul 20", "Jul 21", "Jul 22", "Jul 23", "Jul 24", "Jul 25", "Jul 26"], travel:"" },
+  { days:["Jul 27", "Jul 28", "Jul 29", "Jul 30", "Jul 31", "Aug 1", "Aug 2"], travel:"" },
+  { days:["Aug 3", "Aug 4", "Aug 5", "Aug 6", "Aug 7", "Aug 8", "Aug 9"], travel:"" },
+  { days:["Aug 10", "Aug 11", "Aug 12", "Aug 13", "Aug 14", "Aug 15", "Aug 16"], travel:"" },
+  { days:["Aug 17", "Aug 18", "Aug 19", "Aug 20", "Aug 21", "Aug 22", "Aug 23"], travel:"Michigan" },
+  { days:["Aug 24", "Aug 25", "Aug 26", "Aug 27", "Aug 28", "Aug 29", "Aug 30"], travel:"" },
+  { days:["Aug 31", "Sep 1", "Sep 2", "Sep 3", "Sep 4", "Sep 5", "Sep 6"], travel:"California" },
+  { days:["Sep 7", "Sep 8", "Sep 9", "Sep 10", "Sep 11", "Sep 12", "Sep 13"], travel:"" },
+  { days:["Sep 14", "Sep 15", "Sep 16", "Sep 17", "Sep 18", "Sep 19", "Sep 20"], travel:"Chicago" },
+  { days:["Sep 21", "Sep 22", "Sep 23", "Sep 24", "Sep 25", "Sep 26", "Sep 27"], travel:"" },
+  { days:["Sep 28", "Sep 29", "Sep 30", "Oct 1", "Oct 2", "Oct 3", "Oct 4"], travel:"Block Island" },
+  { days:["Oct 5", "Oct 6", "Oct 7", "Oct 8", "Oct 9", "Oct 10", "Oct 11"], travel:"Denver" },
+  { days:["Oct 12", "Oct 13", "Oct 14", "Oct 15", "Oct 16", "Oct 17", "Oct 18"], travel:"" },
+  { days:["Oct 19", "Oct 20", "Oct 21", "Oct 22", "Oct 23", "Oct 24", "Oct 25"], travel:"" },
+  { days:["Oct 26", "Oct 27", "Oct 28", "Oct 29", "Oct 30", "Oct 31", "Nov 1"], travel:"" }
+  ];
+
+  const rows = HH.map((week, i) => {
     const wn = i + 1;
+    const wd = WEEK_DATA[i];
     let rowClass = '';
     if (currentWeek > 0 && wn < currentWeek) rowClass = 'past-week';
     if (currentWeek > 0 && wn === currentWeek) rowClass = 'current-week';
+
     const cells = week.map((day, di) => {
       let cls = '';
       if (day === 'Rest' || day === 'Cross') cls = 'rest-day';
       if (day === 'Half Marathon') cls = 'long-run';
-      if (di === 5 && day !== 'Rest' && wn < 18) cls = 'long-run'; // Saturday long run
+      if (di === 5 && day !== 'Rest' && wn < 18) cls = 'long-run';
       if (wn === 18 && di === 6) cls = 'marathon';
       if (day.includes('pace')) cls = 'pace-day';
-      return `<td class="${cls}">${day}</td>`;
+
+      const dayDate = wd.days[di];
+      const isTravelDay = wd.travel && (di === 5 || di === 6);
+      const travelStr = (isTravelDay && di === 5) ? `<span class="travel-loc">${wd.travel}</span>` : '';
+
+      return `<td class="${cls}">
+        <span class="cell-date">${dayDate}${travelStr}</span>
+        <span class="cell-content">${day}</span>
+      </td>`;
     }).join('');
+
     const badge = `<span class="week-badge ${currentWeek > 0 && wn===currentWeek?'current':''}">${wn}</span>`;
     return `<tr class="${rowClass}"><td>${badge}</td>${cells}</tr>`;
   }).join('');
-  document.getElementById('scheduleBody').innerHTML = body;
+
+  document.getElementById('scheduleBody').innerHTML = rows;
 }
 
 // ── Coach text ───────────────────────────────────────────────────────────────
@@ -1561,8 +1600,10 @@ async function loadData() {
 
     // Render route map with longest run
     const allActs = data.activities || [];
-    const longestRun = allActs.length > 0
-      ? Math.max(...allActs.map(a => parseFloat(a.distance_miles || 0)))
+    const planStartDate = '2026-06-29';
+    const trainingActs = allActs.filter(a => a.date >= planStartDate);
+    const longestRun = trainingActs.length > 0
+      ? Math.max(...trainingActs.map(a => parseFloat(a.distance_miles || 0)))
       : 0;
     renderRouteMap(longestRun);
     renderWeek(weekNum, data.phase, data.weather || []);
@@ -1607,7 +1648,7 @@ async function loadData() {
   } catch(e) {
     renderProgress(weekNum, 'base_building');
     renderWeek(weekNum, 'base_building', []);
-    renderRouteMap(13.31); // Newport Half placeholder
+    renderRouteMap(0); // no training runs yet
     const placeholder = [
       { name: 'Newport Half Marathon!', date: '2026-04-18', distance_miles: '13.31', pace_per_mile: '8:35', pace_seconds: 515 },
       { name: 'Cherry Blossom 10 Mile', date: '2026-04-12', distance_miles: '10.19', pace_per_mile: '—', pace_seconds: 0 },
