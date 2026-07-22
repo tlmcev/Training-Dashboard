@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Tumbling Dice” - Rolling Stones | 3.02mi | 9:11/mi | 146bpm (Z2) | 2026-07-21 |
 | “I Touch Myself” - Divinyls | 6.03mi | 10:12/mi | 149bpm (Z2) | 2026-07-18 |
 | “Redbone” - Childish Gambino | 5.02mi | 10:08/mi | 148bpm (Z2) | 2026-07-15 |
 | “Sweet Jane” - The Velvet Underground | 3.05mi | 8:47/mi | 145bpm (Z2) | 2026-07-14 |
 | “Gimme Shelter” - Rolling Stones | 9.05mi | 9:21/mi | 155bpm (Z3) | 2026-07-11 |
-| “Give It Up” - KC & The Sunshine Band | 3.02mi | 9:22/mi | 150bpm (Z2) | 2026-07-10 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 4 as you continue your journey toward the NYC Marathon.
+Alright Tom, let's get you ready for this week of training as we push towards the NYC Marathon!
 
-**Fitness Assessment**
-Your recent data shows excellent aerobic adaptation, with your average HR trending down by 5bpm over the last six runs, such as your 6.03mi at 10:12/mi with an average HR of 149bpm (Z2). You're consistently maintaining Z2 heart rates for easy efforts (e.g., 5.02mi @ 10:08/mi at 148bpm Z2), demonstrating a solid and developing aerobic base. Your ability to hit faster paces like 8:47/mi for 3.05mi at a comfortable 145bpm (Z2) indicates good speed endurance and power, as evidenced by 276W.
+### **Fitness Assessment**
+Tom, you're building a solid aerobic base, consistently running in Zone 2 as seen in your 3.02mi @ 9:11/mi with an average HR of 146 bpm. Your average watts around 260W across various paces indicates consistent effort output. Your ability to hit sub-9:00/mi best efforts (e.g., 8:35/mi on 3.05mi run) within Z2/Z3 shows good speed potential.
 
-**This Week's Focus**
+### **This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Your recent data shows excellent aerobic adaptation, with your average HR trendi
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-21 12:17:35 UTC | Run ID: 29829482131*
+*Last updated: 2026-07-22 12:19:58 UTC | Run ID: 29919180965*

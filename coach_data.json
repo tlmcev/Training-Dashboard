@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-07-21 12:17:35",
+  "updated_at": "2026-07-22 12:19:58",
   "current_week": 4,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19402377170,
+      "name": "\u201cTumbling Dice\u201d - Rolling Stones",
+      "date": "2026-07-21",
+      "distance_miles": 3.02,
+      "moving_time_sec": 1666,
+      "pace_per_mile": "9:11",
+      "pace_seconds": 551.7,
+      "elevation_ft": 145.0,
+      "avg_hr": 146,
+      "hr_zone": "Z2",
+      "suffer_score": 29.0,
+      "max_hr": 169.0,
+      "avg_watts": 268,
+      "avg_cadence": null,
+      "fastest_mile": "8:36",
+      "fastest_5k": null,
+      "pr_count": 0
+    },
     {
       "id": 19364199179,
       "name": "\u201cI Touch Myself\u201d - Divinyls",
@@ -187,11 +206,11 @@
       "avg_hr": 147,
       "hr_zone": "Z2",
       "suffer_score": 57.0,
-      "max_hr": 169.0,
-      "avg_watts": 259,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "9:07",
-      "fastest_5k": "30:24",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 0
     },
     {
@@ -917,6 +936,10 @@
     {
       "week_start": "2026-07-13",
       "miles": 14.1
+    },
+    {
+      "week_start": "2026-07-20",
+      "miles": 3.0
     }
   ],
   "ae_trend": [
@@ -1315,31 +1338,32 @@
       "dist": 6.03,
       "marathon_pred": "4:28:02",
       "marathon_sec": 16082
+    },
+    {
+      "date": "2026-07-21",
+      "name": "\u201cTumbling Dice\u201d - Rolling Stones",
+      "ae": 1.199,
+      "hr": 146,
+      "dist": 3.02,
+      "marathon_pred": "3:56:31",
+      "marathon_sec": 14191
     }
   ],
   "weather": [
     {
-      "date": "2026-07-21",
-      "high": 84,
-      "low": 69,
-      "precip": 1.08,
-      "windspeed": 22,
-      "code": 65
-    },
-    {
       "date": "2026-07-22",
-      "high": 83,
-      "low": 70,
+      "high": 90,
+      "low": 72,
       "precip": 0.0,
       "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-07-23",
-      "high": 82,
-      "low": 66,
+      "high": 84,
+      "low": 62,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 8,
       "code": 3
     },
     {
@@ -1347,13 +1371,13 @@
       "high": 80,
       "low": 68,
       "precip": 0.0,
-      "windspeed": 13,
+      "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-07-25",
-      "high": 82,
-      "low": 68,
+      "high": 80,
+      "low": 70,
       "precip": 0.0,
       "windspeed": 12,
       "code": 3
@@ -1364,23 +1388,31 @@
       "low": 69,
       "precip": 0.0,
       "windspeed": 14,
-      "code": 2
+      "code": 3
     },
     {
       "date": "2026-07-27",
-      "high": 80,
-      "low": 71,
-      "precip": 0.0,
-      "windspeed": 18,
-      "code": 3
+      "high": 82,
+      "low": 70,
+      "precip": 0.01,
+      "windspeed": 11,
+      "code": 51
+    },
+    {
+      "date": "2026-07-28",
+      "high": 84,
+      "low": 72,
+      "precip": 0.14,
+      "windspeed": 12,
+      "code": 55
     }
   ],
-  "avg_pace_sec": 564.8,
+  "avg_pace_sec": 564.5,
   "predictions": {
-    "5k": "26:46",
-    "10k": "55:48",
-    "half": "2:03:19",
-    "marathon": "4:17:06"
+    "5k": "26:45",
+    "10k": "55:46",
+    "half": "2:03:15",
+    "marathon": "4:16:58"
   },
   "pace_zones": {
     "Z1": {
@@ -1416,11 +1448,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 38,
+    "Z2": 39,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for Week 4 as you continue your journey toward the NYC Marathon.\n\n**Fitness Assessment**\nYour recent data shows excellent aerobic adaptation, with your average HR trending down by 5bpm over the last six runs, such as your 6.03mi at 10:12/mi with an average HR of 149bpm (Z2). You're consistently maintaining Z2 heart rates for easy efforts (e.g., 5.02mi @ 10:08/mi at 148bpm Z2), demonstrating a solid and developing aerobic base. Your ability to hit faster paces like 8:47/mi for 3.05mi at a comfortable 145bpm (Z2) indicates good speed endurance and power, as evidenced by 276W.\n\n**This Week's Focus**\nThis week calls for a balanced approach. Your **Tuesday 3m run** should be easy, targeting 10:00-10:20/mi with HR in Z2 (124-154 bpm), prioritizing effort over pace given the rainy and windy conditions. For **Wednesday's 6m pace run**, aim for a sustained effort around 9:00-9:15/mi, pushing your HR into Z3 (155-169 bpm) similar to your 9:21/mi at 155bpm (Z3) run. Your **Thursday 3m run** will revert to an easy pace, again in the 10:00-10:20/mi range within Z2, and your **Saturday 11m long run** should be a steady, conversational effort, maintaining 10:00-10:20/mi pace while keeping HR comfortably in Z2.\n\n**Key Priorities**\n*   **Pace Discipline on Easy Runs:** Ensure your Tuesday and Thursday 3-mile runs are truly easy, targeting 10:00-10:20/mi with HR below 154bpm, similar to your recent 10:08/mi run at 148bpm.\n*   **Execute the Pace Run:** For Wednesday's 6-mile pace run, focus on holding a consistent 9:00-9:15/mi, allowing your heart rate to climb into Z3 (155-169 bpm) for the duration.\n*   **Manage Long Run Effort:** Your 11-mile long run on Saturday is a significant step up. Prioritize maintaining a steady Z2 HR (below 154 bpm) for the entire duration, even if your pace slows slightly, to build endurance safely.\n\n**Watch Out For**\nBe highly aware of the substantial increase in weekly mileage, jumping from 14.1 miles last week to a planned 23 miles. This 63% increase, combined with the hot, humid, and windy NYC weather, significantly raises the risk of fatigue or overexertion, particularly during your 11-mile long run.\n\n**Upcoming Milestones**\nSuccessfully completing Saturday's 11-mile long run will mark a new personal best for your training cycle, providing a significant boost in confidence and endurance as you progress towards the NYC Marathon."
+  "advice": "Alright Tom, let's get you ready for this week of training as we push towards the NYC Marathon!\n\n### **Fitness Assessment**\nTom, you're building a solid aerobic base, consistently running in Zone 2 as seen in your 3.02mi @ 9:11/mi with an average HR of 146 bpm. Your average watts around 260W across various paces indicates consistent effort output. Your ability to hit sub-9:00/mi best efforts (e.g., 8:35/mi on 3.05mi run) within Z2/Z3 shows good speed potential.\n\n### **This Week's Focus**\nToday's 6m pace run should target a sustained effort around 9:00-9:15/mi, aiming for high Z2 (145-154 bpm) to low Z3 (155-160 bpm) to build your marathon specific pace. Your 3m run on Thursday and 11m long run on Saturday should be easy, conversational efforts, keeping your average heart rate firmly in Zone 2 (below 154 bpm). For the 11m run, particularly focus on maintaining this Z2 effort, as your previous longer runs (9.05mi, 8.02mi) often saw HR in Z3.\n\n### **Key Priorities**\n*   **HR Control on Long Runs:** For Saturday's 11-mile run, consciously aim to keep your average heart rate below 154 bpm (Zone 2) to maximize aerobic development, contrasting with your recent 9.05mi run where HR was 155 bpm (Z3).\n*   **Pace Run Execution:** On today's 6-mile pace run, target a consistent 9:00-9:15/mi pace, pushing into the higher end of Zone 2 or low Zone 3 for a sustained effort.\n*   **Re-establish Weekly Volume:** After two weeks of reduced mileage (14.1mi and 3.0mi), diligently complete all prescribed runs this week to rebuild your base and ensure consistent training progression.\n\n### **Watch Out For**\nThe forecasted high temperatures (e.g., 90F today, 84F tomorrow) and humidity in NYC will significantly elevate your heart rate and perceived effort. Be prepared to slow your pace to maintain target heart rate zones, especially on today's pace run and Saturday's long run.\n\n### **Upcoming Milestones**\nThis week marks a significant step up with your first 11-mile long run of this training block, surpassing your previous longest of 9.05 miles. Successfully completing this will be a strong confidence builder and a key endurance milestone."
 }
