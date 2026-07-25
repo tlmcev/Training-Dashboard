@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Never Let You Go” - Third Eye Blind | 3.03mi | 9:54/mi | 134bpm (Z2) | 2026-07-24 |
 | “DtMF” - Bad Bunny | 6.06mi | 9:25/mi | 147bpm (Z2) | 2026-07-22 |
 | “Tumbling Dice” - Rolling Stones | 3.02mi | 9:11/mi | 146bpm (Z2) | 2026-07-21 |
 | “I Touch Myself” - Divinyls | 6.03mi | 10:12/mi | 149bpm (Z2) | 2026-07-18 |
 | “Redbone” - Childish Gambino | 5.02mi | 10:08/mi | 148bpm (Z2) | 2026-07-15 |
-| “Sweet Jane” - The Velvet Underground | 3.05mi | 8:47/mi | 145bpm (Z2) | 2026-07-14 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for the rest of this week and beyond. You're 99 days out from NYC, and we're entering a crucial phase of building endurance.
+Alright Tom, let's get you dialed in for Week 4 of your NYC Marathon journey. You're 98 days out, and we're building momentum.
 
 ### Fitness Assessment
-Tom's recent runs demonstrate a solid aerobic base, with 40% of his HR data consistently in Zone 2 and an average HR of 149 bpm, indicating efficient cardiovascular work. His power output, generally between 240-270W, suggests stable effort, and a recent 5K PR of 27:44 shows promising speed development close to his predicted 26:45.
+Tom is demonstrating solid aerobic development, consistently running in Zone 2 for most efforts, exemplified by his recent 3-mile run at 9:54/mi with an average HR of 134 bpm (Z2). His capacity to maintain a 9:25/mi average pace for 6 miles ("DtMF") with an average HR of 147 bpm (Z2) indicates a strong base, further supported by his 5K PR of 27:44. Your average watts typically between 240-270W show consistent power output across various efforts.
 
 ### This Week's Focus
 
@@ -51,4 +51,4 @@ Tom's recent runs demonstrate a solid aerobic base, with 40% of his HR data cons
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-24 12:10:43 UTC | Run ID: 30092131555*
+*Last updated: 2026-07-25 11:55:06 UTC | Run ID: 30157056592*
