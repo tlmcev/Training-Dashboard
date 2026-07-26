@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-07-25 11:55:06",
+  "updated_at": "2026-07-26 11:53:10",
   "current_week": 4,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19461340252,
+      "name": "\u201cWavin\u2019 Flag\u201d - K\u2019NAAN",
+      "date": "2026-07-25",
+      "distance_miles": 11.62,
+      "moving_time_sec": 6615,
+      "pace_per_mile": "9:29",
+      "pace_seconds": 569.3,
+      "elevation_ft": 551.0,
+      "avg_hr": 147,
+      "hr_zone": "Z2",
+      "suffer_score": 129.0,
+      "max_hr": 161.0,
+      "avg_watts": 255,
+      "avg_cadence": null,
+      "fastest_mile": "9:06",
+      "fastest_5k": "28:42",
+      "pr_count": 20
+    },
     {
       "id": 19445538189,
       "name": "\u201cNever Let You Go\u201d - Third Eye Blind",
@@ -187,10 +206,10 @@
       "avg_hr": 144,
       "hr_zone": "Z2",
       "suffer_score": 27.0,
-      "max_hr": 166.0,
-      "avg_watts": 256,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "9:10",
+      "fastest_mile": null,
       "fastest_5k": null,
       "pr_count": 0
     },
@@ -977,7 +996,7 @@
     },
     {
       "week_start": "2026-07-20",
-      "miles": 12.1
+      "miles": 23.7
     }
   ],
   "ae_trend": [
@@ -1403,72 +1422,81 @@
       "dist": 3.03,
       "marathon_pred": "3:53:59",
       "marathon_sec": 14039
+    },
+    {
+      "date": "2026-07-25",
+      "name": "\u201cWavin\u2019 Flag\u201d - K\u2019NAAN",
+      "ae": 1.154,
+      "hr": 147,
+      "dist": 11.62,
+      "marathon_pred": "4:05:44",
+      "marathon_sec": 14744
     }
   ],
   "weather": [
     {
-      "date": "2026-07-25",
-      "high": 84,
-      "low": 63,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
-    {
       "date": "2026-07-26",
-      "high": 83,
-      "low": 60,
+      "high": 87,
+      "low": 62,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 8,
       "code": 3
     },
     {
       "date": "2026-07-27",
-      "high": 78,
-      "low": 71,
-      "precip": 0.04,
-      "windspeed": 14,
-      "code": 51
+      "high": 86,
+      "low": 66,
+      "precip": 0.03,
+      "windspeed": 19,
+      "code": 53
     },
     {
       "date": "2026-07-28",
-      "high": 78,
-      "low": 71,
-      "precip": 0.0,
-      "windspeed": 15,
-      "code": 51
+      "high": 79,
+      "low": 69,
+      "precip": 0.99,
+      "windspeed": 18,
+      "code": 82
     },
     {
       "date": "2026-07-29",
-      "high": 75,
-      "low": 71,
-      "precip": 0.39,
-      "windspeed": 11,
+      "high": 74,
+      "low": 70,
+      "precip": 0.52,
+      "windspeed": 17,
       "code": 81
     },
     {
       "date": "2026-07-30",
-      "high": 82,
-      "low": 69,
-      "precip": 0.32,
-      "windspeed": 10,
+      "high": 74,
+      "low": 68,
+      "precip": 0.31,
+      "windspeed": 14,
       "code": 80
     },
     {
       "date": "2026-07-31",
-      "high": 80,
-      "low": 69,
+      "high": 81,
+      "low": 68,
       "precip": 0.0,
-      "windspeed": 13,
+      "windspeed": 11,
+      "code": 51
+    },
+    {
+      "date": "2026-08-01",
+      "high": 85,
+      "low": 71,
+      "precip": 0.0,
+      "windspeed": 17,
       "code": 3
     }
   ],
   "avg_pace_sec": 565.2,
   "predictions": {
     "5k": "26:47",
-    "10k": "55:50",
-    "half": "2:03:24",
-    "marathon": "4:17:16"
+    "10k": "55:51",
+    "half": "2:03:25",
+    "marathon": "4:17:18"
   },
   "pace_zones": {
     "Z1": {
@@ -1504,11 +1532,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 41,
+    "Z2": 42,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for Week 4 of your NYC Marathon journey. You're 98 days out, and we're building momentum.\n\n### Fitness Assessment\nTom is demonstrating solid aerobic development, consistently running in Zone 2 for most efforts, exemplified by his recent 3-mile run at 9:54/mi with an average HR of 134 bpm (Z2). His capacity to maintain a 9:25/mi average pace for 6 miles (\"DtMF\") with an average HR of 147 bpm (Z2) indicates a strong base, further supported by his 5K PR of 27:44. Your average watts typically between 240-270W show consistent power output across various efforts.\n\n### This Week's Focus\nFor your 3-mile runs on Tuesday and Thursday, target an easy Zone 2 (124-154 bpm), aiming for paces around 9:30-10:00/mi. Wednesday's 6-mile pace run is your key workout: push into Zone 3 (155-169 bpm) with a pace around 8:45-9:00/mi, building on your 5K best effort of 8:49/mi from \"DtMF.\" Your 11-mile long run on Saturday should be a steady Zone 2 effort, likely in the 9:45-10:15/mi range, considering the warm weather.\n\n### Key Priorities\n*   **Zone Discipline:** Maintain a strict Zone 2 (124-154 bpm) for all easy runs and Saturday's 11-mile long run, aiming for paces slower than 9:30/mi to maximize aerobic benefit and recovery.\n*   **Pace Execution:** Successfully execute Wednesday's 6-mile pace run by sustaining a Zone 3 heart rate (155-169 bpm) at a challenging 8:45-9:00/mi pace.\n*   **Mileage Rebound:** Complete the prescribed 23 miles this week to reverse the recent 2-week downward trend in weekly volume (from 20.3mi to 12.1mi) and rebuild your base.\n\n### Watch Out For\nBe highly vigilant about the significant jump in weekly mileage from 12.1 miles last week to 23 miles this week. Focus on keeping easy runs truly in Zone 2 to prevent overtraining or injury, especially given the forecasted warm and humid NYC weather.\n\n### Upcoming Milestones\nLook forward to your first 13-mile long run, typically around Week 6-7 of the Hal Higdon Novice 2 plan, which marks a significant milestone as you approach the halfway point of the marathon distance. This will be a great test of endurance and a mental boost as you continue your build-up."
+  "advice": "Here is your coaching brief for the upcoming week, Tom:\n\n**Fitness Assessment**\nTom, your recent runs demonstrate strong aerobic development, with the majority of your efforts consistently in Zone 2 (e.g., 11.62mi at 9:29/mi with avg HR 147 bpm Z2). You're also showing good power output, maintaining 240-270W across various paces, and the consistent setting of PRs further indicates continuous improvement and adaptation to training load.\n\n**This Week's Focus**\nThis week includes two easy 3-mile runs, a 6-mile pace run, and an 11-mile long run. For easy runs (Tue, Thu, Sat), target a comfortable Zone 2 effort (124-154 bpm), aiming for 9:30-10:00/mi, while Wednesday's 6-mile pace run should be a controlled Zone 3 effort (155-169 bpm), closer to 8:45-9:15/mi, prioritizing effort in the hot and humid weather.\n\n**Key Priorities**\n*   **Maintain Z2 Discipline:** Keep easy runs (Tue, Thu, Sat) strictly within Zone 2 (124-154 bpm) to continue building your aerobic base, especially with the high temperatures and humidity this week.\n*   **Strategic Pace Run:** For Wednesday's 6-mile pace run, focus on holding a consistent effort in Zone 3 (155-169 bpm) rather than chasing a specific pace, as the weather will make maintaining higher speeds more challenging.\n*   **Manage Mileage Increase:** Be mindful of the significant jump from 14.1 miles two weeks ago to 23.7 miles last week, ensuring adequate recovery and nutrition to adapt to this increased load.\n\n**Watch Out For**\nThe significant weekly mileage jump from 14.1 miles to 23.7 miles in two weeks, combined with persistent hot and humid weather, could increase the risk of fatigue or minor aches. Pay close attention to your body's signals and don't hesitate to adjust paces or take extra rest if needed.\n\n**Upcoming Milestones**\nYou're entering Week 4, meaning you're almost a quarter of the way through your marathon training plan, building a strong foundation for the longer runs ahead. In just two weeks, you'll hit a 13-mile long run, marking your first half-marathon distance within the plan."
 }
