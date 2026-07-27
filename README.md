@@ -16,18 +16,18 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief for the upcoming week, Tom:
+Alright Tom, let's get you dialed in for Week 5. You're making solid progress, and we're just over three months out from NYC!
+
+---
 
 **Fitness Assessment**
-Tom, your recent runs demonstrate strong aerobic development, with the majority of your efforts consistently in Zone 2 (e.g., 11.62mi at 9:29/mi with avg HR 147 bpm Z2). You're also showing good power output, maintaining 240-270W across various paces, and the consistent setting of PRs further indicates continuous improvement and adaptation to training load.
-
-**This Week's Focus**
+Tom, you're building a strong aerobic base, consistently running your long efforts like the 11.62mi on July 25th at a Z2 average HR of 147 bpm and 9:29/mi pace. Your average power output around 240-260W across various distances indicates consistent effort, and your recent 20 PRs on July 25th highlight a surge in fitness. This consistent Z2 work is exactly what we want to see for marathon preparation, aligning well with your predicted 4:17 marathon time.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 4 of 18**
+**Current week: 5 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ Tom, your recent runs demonstrate strong aerobic development, with the majority 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-26 11:53:10 UTC | Run ID: 30200973628*
+*Last updated: 2026-07-27 13:30:55 UTC | Run ID: 30270617624*
