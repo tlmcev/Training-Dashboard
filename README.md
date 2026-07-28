@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Ooh La La” - Faces | 3.01mi | 9:30/mi | 140bpm (Z2) | 2026-07-28 |
 | “Wavin’ Flag” - K’NAAN | 11.62mi | 9:29/mi | 147bpm (Z2) | 2026-07-25 |
 | “Never Let You Go” - Third Eye Blind | 3.03mi | 9:54/mi | 134bpm (Z2) | 2026-07-24 |
 | “DtMF” - Bad Bunny | 6.06mi | 9:25/mi | 147bpm (Z2) | 2026-07-22 |
 | “Tumbling Dice” - Rolling Stones | 3.02mi | 9:11/mi | 146bpm (Z2) | 2026-07-21 |
-| “I Touch Myself” - Divinyls | 6.03mi | 10:12/mi | 149bpm (Z2) | 2026-07-18 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 5. You're making solid progress, and we're just over three months out from NYC!
-
----
+Here is your coaching brief for the week, Tom:
 
 **Fitness Assessment**
-Tom, you're building a strong aerobic base, consistently running your long efforts like the 11.62mi on July 25th at a Z2 average HR of 147 bpm and 9:29/mi pace. Your average power output around 240-260W across various distances indicates consistent effort, and your recent 20 PRs on July 25th highlight a surge in fitness. This consistent Z2 work is exactly what we want to see for marathon preparation, aligning well with your predicted 4:17 marathon time.
+Tom's recent runs demonstrate strong aerobic development, with an impressive 7bpm drop in HR for similar efforts over the last six runs, primarily staying within Zone 2 (124-154bpm). His previous week's total of 23.73 miles, including an 11.62mi long run, indicates a solid endurance base is being built. Consistent power output around 250-260W and best mile efforts regularly faster than 9:00/mi further highlight improving fitness and speed.
+
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, you're building a strong aerobic base, consistently running your long effor
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-27 13:30:55 UTC | Run ID: 30270617624*
+*Last updated: 2026-07-28 12:28:58 UTC | Run ID: 30359121713*

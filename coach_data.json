@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-07-27 13:30:55",
+  "updated_at": "2026-07-28 12:28:58",
   "current_week": 5,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19498894087,
+      "name": "\u201cOoh La La\u201d - Faces",
+      "date": "2026-07-28",
+      "distance_miles": 3.01,
+      "moving_time_sec": 1717,
+      "pace_per_mile": "9:30",
+      "pace_seconds": 570.4,
+      "elevation_ft": 117.0,
+      "avg_hr": 140,
+      "hr_zone": "Z2",
+      "suffer_score": 20.0,
+      "max_hr": 154.0,
+      "avg_watts": 256,
+      "avg_cadence": null,
+      "fastest_mile": "9:08",
+      "fastest_5k": null,
+      "pr_count": 0
+    },
     {
       "id": 19461340252,
       "name": "\u201cWavin\u2019 Flag\u201d - K\u2019NAAN",
@@ -187,11 +206,11 @@
       "avg_hr": 153,
       "hr_zone": "Z2",
       "suffer_score": 69.0,
-      "max_hr": 168.0,
-      "avg_watts": 269,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "8:51",
-      "fastest_5k": "27:44",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 1
     },
     {
@@ -997,6 +1016,10 @@
     {
       "week_start": "2026-07-20",
       "miles": 23.7
+    },
+    {
+      "week_start": "2026-07-27",
+      "miles": 3.0
     }
   ],
   "ae_trend": [
@@ -1431,72 +1454,81 @@
       "dist": 11.62,
       "marathon_pred": "4:05:44",
       "marathon_sec": 14744
+    },
+    {
+      "date": "2026-07-28",
+      "name": "\u201cOoh La La\u201d - Faces",
+      "ae": 1.209,
+      "hr": 140,
+      "dist": 3.01,
+      "marathon_pred": "3:54:34",
+      "marathon_sec": 14074
     }
   ],
   "weather": [
     {
-      "date": "2026-07-27",
-      "high": 85,
-      "low": 68,
-      "precip": 0.0,
-      "windspeed": 11,
-      "code": 3
-    },
-    {
       "date": "2026-07-28",
-      "high": 79,
-      "low": 70,
-      "precip": 0.47,
-      "windspeed": 19,
-      "code": 63
+      "high": 78,
+      "low": 69,
+      "precip": 0.49,
+      "windspeed": 14,
+      "code": 81
     },
     {
       "date": "2026-07-29",
-      "high": 86,
-      "low": 68,
-      "precip": 0.1,
-      "windspeed": 14,
+      "high": 78,
+      "low": 69,
+      "precip": 1.97,
+      "windspeed": 9,
       "code": 80
     },
     {
       "date": "2026-07-30",
-      "high": 78,
-      "low": 70,
-      "precip": 0.06,
-      "windspeed": 12,
-      "code": 53
+      "high": 75,
+      "low": 67,
+      "precip": 0.71,
+      "windspeed": 10,
+      "code": 80
     },
     {
       "date": "2026-07-31",
-      "high": 79,
-      "low": 69,
-      "precip": 0.03,
-      "windspeed": 11,
-      "code": 51
+      "high": 83,
+      "low": 67,
+      "precip": 0.0,
+      "windspeed": 10,
+      "code": 3
     },
     {
       "date": "2026-08-01",
-      "high": 79,
-      "low": 68,
-      "precip": 0.01,
-      "windspeed": 12,
+      "high": 82,
+      "low": 71,
+      "precip": 0.0,
+      "windspeed": 15,
       "code": 51
     },
     {
       "date": "2026-08-02",
-      "high": 76,
-      "low": 71,
-      "precip": 0.33,
+      "high": 78,
+      "low": 72,
+      "precip": 0.07,
       "windspeed": 12,
-      "code": 55
+      "code": 51
+    },
+    {
+      "date": "2026-08-03",
+      "high": 81,
+      "low": 74,
+      "precip": 0.05,
+      "windspeed": 10,
+      "code": 51
     }
   ],
-  "avg_pace_sec": 565.2,
+  "avg_pace_sec": 565.3,
   "predictions": {
     "5k": "26:47",
     "10k": "55:51",
-    "half": "2:03:25",
-    "marathon": "4:17:18"
+    "half": "2:03:26",
+    "marathon": "4:17:21"
   },
   "pace_zones": {
     "Z1": {
@@ -1532,11 +1564,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 42,
+    "Z2": 43,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for Week 5. You're making solid progress, and we're just over three months out from NYC!\n\n---\n\n**Fitness Assessment**\nTom, you're building a strong aerobic base, consistently running your long efforts like the 11.62mi on July 25th at a Z2 average HR of 147 bpm and 9:29/mi pace. Your average power output around 240-260W across various distances indicates consistent effort, and your recent 20 PRs on July 25th highlight a surge in fitness. This consistent Z2 work is exactly what we want to see for marathon preparation, aligning well with your predicted 4:17 marathon time.\n\n**This Week's Focus**\nFor your 3-mile and 6-mile easy runs, target a conversational Zone 2 effort, keeping your average heart rate between 124-154 bpm, which should translate to a pace around 9:30-10:00/mi. Your 12-mile long run on Saturday should also remain firmly in Zone 2, aiming for a slightly conservative pace of 9:45-10:15/mi to manage the distance and potential warm weather. Remember to adjust pace as needed due to the forecasted warm and rainy conditions.\n\n**Key Priorities**\n*   **Maintain Z2 Discipline:** Ensure all prescribed runs stay within your Zone 2 heart rate (124-154 bpm) to continue building your aerobic base efficiently.\n*   **Hydration & Electrolytes:** With the consistent high temperatures (up to 86F) and humidity forecasted, prioritize pre- and post-run hydration and consider electrolytes, especially for your longer runs.\n*   **Consistent Mileage Progression:** Aim to complete the full 24 miles of running this week, building on last week's 23.7 miles, to steadily increase your endurance.\n\n**Watch Out For**\nBe mindful of your heart rate creeping into Zone 3 during your easy runs, as seen on your 9.05-mile run on July 11th (155bpm average). The forecasted warm and humid weather can also elevate heart rate, so be prepared to slow your pace to stay within Zone 2.\n\n**Upcoming Milestones**\nThis Saturday's 12-mile run marks a significant milestone, becoming your longest run of this training cycle and pushing your endurance further as you approach the halfway point of your training block."
+  "advice": "Here is your coaching brief for the week, Tom:\n\n**Fitness Assessment**\nTom's recent runs demonstrate strong aerobic development, with an impressive 7bpm drop in HR for similar efforts over the last six runs, primarily staying within Zone 2 (124-154bpm). His previous week's total of 23.73 miles, including an 11.62mi long run, indicates a solid endurance base is being built. Consistent power output around 250-260W and best mile efforts regularly faster than 9:00/mi further highlight improving fitness and speed.\n\n**This Week's Focus**\nFor your Wednesday 6-mile and Thursday 3-mile runs, maintain an easy, conversational pace, targeting an average heart rate comfortably within Zone 2 (124-154bpm), likely around 9:30-9:45/mi. Saturday's 12-mile long run should be a steady effort, also primarily in Zone 2, aiming for an average pace around 9:40-9:55/mi, slightly more conservative than your recent 11.62mi run at 9:29/mi to manage the increased distance. Sunday's cross-training is for active recovery, focusing on low-impact cardio at a very light effort.\n\n**Key Priorities**\n*   **Maintain Z2 Heart Rate:** For all runs this week, prioritize keeping your average heart rate below 154bpm to continue building your aerobic base efficiently.\n*   **Consistent Long Run Effort:** Aim for a steady, controlled pace on Saturday's 12-mile run, ensuring you finish feeling strong and not overly fatigued, ideally around 9:40-9:55/mi.\n*   **Hydration & Heat Management:** With upcoming temperatures in the high 70s-80s and showers, focus on pre-hydrating and carrying fluids, especially for your 6-mile and 12-mile runs, to mitigate heat stress.\n\n**Watch Out For**\nThe upcoming week projects high temperatures (80-83F) and humidity with showers/drizzle, which can significantly increase perceived effort and heart rate; be prepared to slow your pace accordingly to stay in your target zones and avoid overheating.\n\n**Upcoming Milestones**\nThis Saturday's 12-mile long run will be your longest distance yet, building crucial endurance for the marathon and setting you up for future mileage increases in the coming weeks."
 }
