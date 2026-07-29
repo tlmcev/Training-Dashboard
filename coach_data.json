@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28 12:28:58",
+  "updated_at": "2026-07-29 12:53:47",
   "current_week": 5,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -1467,60 +1467,60 @@
   ],
   "weather": [
     {
-      "date": "2026-07-28",
-      "high": 78,
-      "low": 69,
-      "precip": 0.49,
-      "windspeed": 14,
-      "code": 81
-    },
-    {
       "date": "2026-07-29",
-      "high": 78,
-      "low": 69,
-      "precip": 1.97,
-      "windspeed": 9,
-      "code": 80
+      "high": 79,
+      "low": 68,
+      "precip": 2.04,
+      "windspeed": 11,
+      "code": 65
     },
     {
       "date": "2026-07-30",
       "high": 75,
-      "low": 67,
-      "precip": 0.71,
-      "windspeed": 10,
-      "code": 80
+      "low": 66,
+      "precip": 0.14,
+      "windspeed": 12,
+      "code": 61
     },
     {
       "date": "2026-07-31",
-      "high": 83,
+      "high": 84,
       "low": 67,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 13,
       "code": 3
     },
     {
       "date": "2026-08-01",
-      "high": 82,
-      "low": 71,
+      "high": 84,
+      "low": 72,
       "precip": 0.0,
-      "windspeed": 15,
-      "code": 51
+      "windspeed": 16,
+      "code": 3
     },
     {
       "date": "2026-08-02",
-      "high": 78,
-      "low": 72,
-      "precip": 0.07,
-      "windspeed": 12,
-      "code": 51
+      "high": 83,
+      "low": 75,
+      "precip": 0.05,
+      "windspeed": 19,
+      "code": 53
     },
     {
       "date": "2026-08-03",
-      "high": 81,
+      "high": 84,
       "low": 74,
-      "precip": 0.05,
-      "windspeed": 10,
-      "code": 51
+      "precip": 0.45,
+      "windspeed": 15,
+      "code": 80
+    },
+    {
+      "date": "2026-08-04",
+      "high": 87,
+      "low": 70,
+      "precip": 0.0,
+      "windspeed": 9,
+      "code": 3
     }
   ],
   "avg_pace_sec": 565.3,
@@ -1570,5 +1570,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here is your coaching brief for the week, Tom:\n\n**Fitness Assessment**\nTom's recent runs demonstrate strong aerobic development, with an impressive 7bpm drop in HR for similar efforts over the last six runs, primarily staying within Zone 2 (124-154bpm). His previous week's total of 23.73 miles, including an 11.62mi long run, indicates a solid endurance base is being built. Consistent power output around 250-260W and best mile efforts regularly faster than 9:00/mi further highlight improving fitness and speed.\n\n**This Week's Focus**\nFor your Wednesday 6-mile and Thursday 3-mile runs, maintain an easy, conversational pace, targeting an average heart rate comfortably within Zone 2 (124-154bpm), likely around 9:30-9:45/mi. Saturday's 12-mile long run should be a steady effort, also primarily in Zone 2, aiming for an average pace around 9:40-9:55/mi, slightly more conservative than your recent 11.62mi run at 9:29/mi to manage the increased distance. Sunday's cross-training is for active recovery, focusing on low-impact cardio at a very light effort.\n\n**Key Priorities**\n*   **Maintain Z2 Heart Rate:** For all runs this week, prioritize keeping your average heart rate below 154bpm to continue building your aerobic base efficiently.\n*   **Consistent Long Run Effort:** Aim for a steady, controlled pace on Saturday's 12-mile run, ensuring you finish feeling strong and not overly fatigued, ideally around 9:40-9:55/mi.\n*   **Hydration & Heat Management:** With upcoming temperatures in the high 70s-80s and showers, focus on pre-hydrating and carrying fluids, especially for your 6-mile and 12-mile runs, to mitigate heat stress.\n\n**Watch Out For**\nThe upcoming week projects high temperatures (80-83F) and humidity with showers/drizzle, which can significantly increase perceived effort and heart rate; be prepared to slow your pace accordingly to stay in your target zones and avoid overheating.\n\n**Upcoming Milestones**\nThis Saturday's 12-mile long run will be your longest distance yet, building crucial endurance for the marathon and setting you up for future mileage increases in the coming weeks."
+  "advice": "Here is your coaching brief for the week, Tom:\n\n**Fitness Assessment**\nTom, your recent runs demonstrate excellent aerobic adaptation, evidenced by a 7bpm decrease in average heart rate over the last six runs despite consistent paces around 9:25-9:30/mi and power output in the 250-260W range. Your 11.62-mile run on July 25th at a strong 9:29/mi pace with an average HR of 147 bpm (Z2) and 20 PRs confirms a solid endurance base and efficiency at your current fitness level. This is exactly what we want to see in this phase of training.\n\n**This Week's Focus**\nToday's 6-mile run and Thursday's 3-mile run should be comfortable Z2 efforts, aiming for an average HR below 154 bpm and a relaxed pace around 9:30-10:00/mi. For Saturday's crucial 12-mile long run, maintain your Z2 average HR below 154 bpm, focusing on consistent effort in the 9:30-9:45/mi range. With the upcoming warm and humid conditions, prioritize hydration and adjust your pace as needed to stay within your target heart rate zones.\n\n**Key Priorities**\n*   **Maintain Z2 for easy/long runs:** Ensure your average HR stays below 154 bpm, particularly during today's 6-mile and Saturday's 12-mile runs, to continue building your aerobic base effectively.\n*   **Consistent Power Output:** Aim for sustained wattage (e.g., 250-260W) during your runs to indicate consistent effort and strength, even on longer efforts, which translates to efficient running.\n*   **Hydration & Heat Management:** With high temperatures and humidity forecasted, pre-hydrate diligently and carry fluids on your longer runs to prevent overheating and sustain performance.\n\n**Watch Out For**\nBe mindful of your heart rate creeping into Z3 (above 155 bpm) on your easy runs, as noted during your 9.05-mile run on July 11th, which can detract from optimal aerobic development if it becomes a regular pattern for easy efforts.\n\n**Upcoming Milestones**\nYou're building towards your longest run yet in this plan next week, a 13-mile long run, which will be a significant step in your marathon preparation."
 }

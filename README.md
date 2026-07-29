@@ -19,7 +19,7 @@
 Here is your coaching brief for the week, Tom:
 
 **Fitness Assessment**
-Tom's recent runs demonstrate strong aerobic development, with an impressive 7bpm drop in HR for similar efforts over the last six runs, primarily staying within Zone 2 (124-154bpm). His previous week's total of 23.73 miles, including an 11.62mi long run, indicates a solid endurance base is being built. Consistent power output around 250-260W and best mile efforts regularly faster than 9:00/mi further highlight improving fitness and speed.
+Tom, your recent runs demonstrate excellent aerobic adaptation, evidenced by a 7bpm decrease in average heart rate over the last six runs despite consistent paces around 9:25-9:30/mi and power output in the 250-260W range. Your 11.62-mile run on July 25th at a strong 9:29/mi pace with an average HR of 147 bpm (Z2) and 20 PRs confirms a solid endurance base and efficiency at your current fitness level. This is exactly what we want to see in this phase of training.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom's recent runs demonstrate strong aerobic development, with an impressive 7bp
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-28 12:28:58 UTC | Run ID: 30359121713*
+*Last updated: 2026-07-29 12:53:47 UTC | Run ID: 30453541677*
