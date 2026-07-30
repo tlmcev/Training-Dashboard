@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Elias” - Dispatch | 2.11mi | 9:51/mi | 143bpm (Z2) | 2026-07-29 |
 | “Ooh La La” - Faces | 3.01mi | 9:30/mi | 140bpm (Z2) | 2026-07-28 |
 | “Wavin’ Flag” - K’NAAN | 11.62mi | 9:29/mi | 147bpm (Z2) | 2026-07-25 |
 | “Never Let You Go” - Third Eye Blind | 3.03mi | 9:54/mi | 134bpm (Z2) | 2026-07-24 |
 | “DtMF” - Bad Bunny | 6.06mi | 9:25/mi | 147bpm (Z2) | 2026-07-22 |
-| “Tumbling Dice” - Rolling Stones | 3.02mi | 9:11/mi | 146bpm (Z2) | 2026-07-21 |
 
 ## AI Coach Snapshot
 
-Here is your coaching brief for the week, Tom:
+Hey Tom, let's review your progress and plan for the rest of Week 5. You're 93 days out from NYC, and we're building that crucial base.
 
 **Fitness Assessment**
-Tom, your recent runs demonstrate excellent aerobic adaptation, evidenced by a 7bpm decrease in average heart rate over the last six runs despite consistent paces around 9:25-9:30/mi and power output in the 250-260W range. Your 11.62-mile run on July 25th at a strong 9:29/mi pace with an average HR of 147 bpm (Z2) and 20 PRs confirms a solid endurance base and efficiency at your current fitness level. This is exactly what we want to see in this phase of training.
+Tom, your aerobic base is developing well, as evidenced by your consistent Z2 heart rates (44% Z2, 6% Z3 overall) during runs, including longer efforts like your 11.62mi run at an average 147 bpm. Your paces generally hover around 9:15-9:50/mi, supported by a steady power output of 240-270W, indicating efficient running. You're showing good fitness with recent PRs, suggesting you're on track for your predicted marathon goal of 4:17:35.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent runs demonstrate excellent aerobic adaptation, evidenced by a 7
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-29 12:53:47 UTC | Run ID: 30453541677*
+*Last updated: 2026-07-30 12:21:45 UTC | Run ID: 30542205532*
