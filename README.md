@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, let's review your progress and plan for the rest of Week 5. You're 93 days out from NYC, and we're building that crucial base.
+Here's your coaching brief for the week, Tom:
 
 **Fitness Assessment**
-Tom, your aerobic base is developing well, as evidenced by your consistent Z2 heart rates (44% Z2, 6% Z3 overall) during runs, including longer efforts like your 11.62mi run at an average 147 bpm. Your paces generally hover around 9:15-9:50/mi, supported by a steady power output of 240-270W, indicating efficient running. You're showing good fitness with recent PRs, suggesting you're on track for your predicted marathon goal of 4:17:35.
+Tom, your consistent Z2 heart rates (e.g., 147 bpm avg on 11.62mi @ 9:29/mi on 07-25) demonstrate strong aerobic development and endurance. Your average pace for most runs hovers between 9:25-9:50/mi with best mile efforts in the 8:30-9:00 range, supported by a steady power output of 240-270W. This indicates a solid foundation for increasing mileage and intensity as the plan progresses towards a predicted 4:17:35 marathon time.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your aerobic base is developing well, as evidenced by your consistent Z2 he
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-07-30 12:21:45 UTC | Run ID: 30542205532*
+*Last updated: 2026-07-31 12:52:13 UTC | Run ID: 30632032974*
