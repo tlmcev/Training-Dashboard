@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-08-01 11:53:49",
+  "updated_at": "2026-08-02 11:51:41",
   "current_week": 5,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19557916009,
+      "name": "\u201cLike a Prayer\u201d - Madonna",
+      "date": "2026-08-01",
+      "distance_miles": 13.01,
+      "moving_time_sec": 7600,
+      "pace_per_mile": "9:44",
+      "pace_seconds": 584.2,
+      "elevation_ft": 557.0,
+      "avg_hr": 154,
+      "hr_zone": "Z2",
+      "suffer_score": 193.0,
+      "max_hr": 175.0,
+      "avg_watts": 254,
+      "avg_cadence": null,
+      "fastest_mile": "8:59",
+      "fastest_5k": "28:09",
+      "pr_count": 2
+    },
     {
       "id": 19544881590,
       "name": "Lunch Run",
@@ -187,10 +206,10 @@
       "avg_hr": 145,
       "hr_zone": "Z2",
       "suffer_score": 27.0,
-      "max_hr": 167.0,
-      "avg_watts": 276,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "8:35",
+      "fastest_mile": null,
       "fastest_5k": null,
       "pr_count": 0
     },
@@ -1057,7 +1076,7 @@
     },
     {
       "week_start": "2026-07-27",
-      "miles": 6.3
+      "miles": 19.4
     }
   ],
   "ae_trend": [
@@ -1519,72 +1538,81 @@
       "dist": 1.22,
       "marathon_pred": "3:29:45",
       "marathon_sec": 12585
+    },
+    {
+      "date": "2026-08-01",
+      "name": "\u201cLike a Prayer\u201d - Madonna",
+      "ae": 1.073,
+      "hr": 154,
+      "dist": 13.01,
+      "marathon_pred": "4:24:17",
+      "marathon_sec": 15857
     }
   ],
   "weather": [
     {
-      "date": "2026-08-01",
-      "high": 86,
-      "low": 70,
-      "precip": 0.0,
-      "windspeed": 13,
-      "code": 3
-    },
-    {
       "date": "2026-08-02",
-      "high": 83,
-      "low": 71,
+      "high": 84,
+      "low": 73,
       "precip": 0.0,
-      "windspeed": 17,
+      "windspeed": 16,
       "code": 3
     },
     {
       "date": "2026-08-03",
-      "high": 78,
+      "high": 82,
       "low": 74,
-      "precip": 0.99,
-      "windspeed": 21,
-      "code": 81
+      "precip": 2.27,
+      "windspeed": 12,
+      "code": 82
     },
     {
       "date": "2026-08-04",
-      "high": 85,
-      "low": 72,
-      "precip": 0.03,
-      "windspeed": 11,
-      "code": 51
+      "high": 82,
+      "low": 70,
+      "precip": 0.0,
+      "windspeed": 10,
+      "code": 3
     },
     {
       "date": "2026-08-05",
-      "high": 85,
-      "low": 75,
-      "precip": 0.17,
+      "high": 83,
+      "low": 74,
+      "precip": 0.76,
       "windspeed": 12,
-      "code": 80
+      "code": 95
     },
     {
       "date": "2026-08-06",
-      "high": 93,
-      "low": 77,
+      "high": 90,
+      "low": 74,
       "precip": 0.0,
       "windspeed": 12,
-      "code": 0
+      "code": 3
     },
     {
       "date": "2026-08-07",
-      "high": 93,
-      "low": 79,
+      "high": 92,
+      "low": 76,
+      "precip": 1.46,
+      "windspeed": 12,
+      "code": 82
+    },
+    {
+      "date": "2026-08-08",
+      "high": 90,
+      "low": 75,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 14,
       "code": 3
     }
   ],
-  "avg_pace_sec": 564.4,
+  "avg_pace_sec": 564.8,
   "predictions": {
-    "5k": "26:45",
-    "10k": "55:46",
-    "half": "2:03:14",
-    "marathon": "4:16:56"
+    "5k": "26:46",
+    "10k": "55:48",
+    "half": "2:03:19",
+    "marathon": "4:17:07"
   },
   "pace_zones": {
     "Z1": {
@@ -1620,11 +1648,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 45,
+    "Z2": 46,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for Week 5 of your NYC Marathon training. Today is Saturday, August 1st, and we have a big 12-mile run ahead.\n\n**Fitness Assessment**\nTom, you're building a very solid aerobic base, consistently running your easy and long efforts in Zone 2, as seen by your average HR of 140-149 bpm across recent runs like the 11.62mi at 147bpm. Your power output is strong and consistent, typically ranging from 242-268W, indicating efficient effort at your current paces around 9:15-9:50/mi. This consistent Z2 foundation is exactly what we want for marathon training.\n\n**This Week's Focus**\nToday's 12-mile long run should target an easy Z2 effort, keeping your HR between 124-154 bpm, likely around a 9:30-10:00/mi pace given the warmer 86F weather. For your mid-week 3- and 6-mile runs, maintain this conversational Z2 effort, aiming for similar paces and HR consistency. Remember to cross-train on Sunday for active recovery.\n\n**Key Priorities**\n*   **Maintain Z2 Discipline:** Ensure all runs, especially today's 12-miler, stay firmly within Zone 2 (124-154 bpm) to continue building your aerobic base, as 6% of your recent HR data crept into Z3.\n*   **Heat Management & Hydration:** With NYC temperatures hitting high 80s and low 90s this week, prioritize pre-hydration and carry fluids on all runs, especially today's long run, to mitigate performance drop and elevated HR.\n*   **Consistent Mileage:** Rebound from last week's low 6.3 miles by hitting the prescribed distances this week to regain momentum and prepare for increasing long run demands.\n\n**Watch Out For**\nYour weekly mileage dropped significantly to 6.3 miles last week, which is a notable decrease from previous weeks of 20.3, 14.1, and 23.7 miles. Ensure this was a planned recovery and not a sign of fatigue or inconsistency, especially as you step up to a 12-mile long run today in warm weather.\n\n**Upcoming Milestones**\nSuccessfully completing today's 12-mile run will be a significant milestone, marking your longest run of this training cycle and a strong progression from your recent 11.62-mile effort. This sets you up well for the 14-mile long run coming in Week 7."
+  "advice": "Alright Tom, let's get you set for Week 5 of your NYC Marathon training. We're 90 days out, and it's time to refine some key aspects of your approach.\n\n### Fitness Assessment\nYou're demonstrating solid aerobic development, consistently holding Z2 heart rates (46 out of 52 distribution points) during your runs, with consistent power output around 240-260W. Recent PRs on your 13.01mi run (mile 8:59, 5K 28:09) indicate good fitness. However, the +7bpm upward trend in your HR over the last six runs, coupled with max heart rates occasionally hitting Z3/Z4 (e.g., 175 bpm during your 13.01mi run), suggests you might be accumulating some fatigue or pushing a bit hard on your easy days.\n\n### This Week's Focus\nYour training plan this week includes 3-mile, 6-mile, and 12-mile runs. For all running workouts (Tuesday, Wednesday, Thursday, Saturday), your primary focus should be maintaining an easy, conversational pace, targeting your Z2 heart rate range (124-154 bpm). Aim for a comfortable pace around 9:45-10:15/mi, adjusting as needed based on your HR and the challenging hot and humid weather forecast (82-92F). Sunday's cross-training should be active recovery, prioritizing mobility and low-impact cardio.\n\n### Key Priorities\n*   **Strict Z2 Adherence:** Ensure all your runs, especially the 12-mile long run on Saturday, keep your heart rate strictly within Zone 2 (below 154 bpm) to promote aerobic development and manage fatigue.\n*   **Heat Management:** Prioritize hydration before, during, and after runs, and consider adjusting your run times to cooler parts of the day due to the persistent 82-92F heat and humidity. Don't be afraid to walk breaks if your HR spikes.\n*   **Active Recovery:** Given the recent HR trend, dedicate Sunday's cross-training and your rest days (Monday, Friday) to focused recovery, including stretching, foam rolling, and adequate sleep to combat potential overtraining.\n\n### Watch Out For\nThe +7bpm increase in your average heart rate over the last six runs is a significant fatigue signal. Monitor your HR closely this week; if your heart rate continues to trend upwards or feels unusually high for a given pace, consider taking an unscheduled rest day or significantly reducing intensity to prevent overtraining.\n\n### Upcoming Milestones\nThis Saturday's 12-mile long run is a crucial milestone, representing your longest run in the plan so far and a significant step forward in building the endurance needed for your 4:17:07 marathon goal."
 }

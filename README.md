@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Like a Prayer” - Madonna | 13.01mi | 9:44/mi | 154bpm (Z2) | 2026-08-01 |
 | Lunch Run | 1.22mi | 8:12/mi | 145bpm (Z2) | 2026-07-31 |
 | “Elias” - Dispatch | 2.11mi | 9:51/mi | 143bpm (Z2) | 2026-07-29 |
 | “Ooh La La” - Faces | 3.01mi | 9:30/mi | 140bpm (Z2) | 2026-07-28 |
 | “Wavin’ Flag” - K’NAAN | 11.62mi | 9:29/mi | 147bpm (Z2) | 2026-07-25 |
-| “Never Let You Go” - Third Eye Blind | 3.03mi | 9:54/mi | 134bpm (Z2) | 2026-07-24 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for Week 5 of your NYC Marathon training. Today is Saturday, August 1st, and we have a big 12-mile run ahead.
+Alright Tom, let's get you set for Week 5 of your NYC Marathon training. We're 90 days out, and it's time to refine some key aspects of your approach.
 
-**Fitness Assessment**
-Tom, you're building a very solid aerobic base, consistently running your easy and long efforts in Zone 2, as seen by your average HR of 140-149 bpm across recent runs like the 11.62mi at 147bpm. Your power output is strong and consistent, typically ranging from 242-268W, indicating efficient effort at your current paces around 9:15-9:50/mi. This consistent Z2 foundation is exactly what we want for marathon training.
+### Fitness Assessment
+You're demonstrating solid aerobic development, consistently holding Z2 heart rates (46 out of 52 distribution points) during your runs, with consistent power output around 240-260W. Recent PRs on your 13.01mi run (mile 8:59, 5K 28:09) indicate good fitness. However, the +7bpm upward trend in your HR over the last six runs, coupled with max heart rates occasionally hitting Z3/Z4 (e.g., 175 bpm during your 13.01mi run), suggests you might be accumulating some fatigue or pushing a bit hard on your easy days.
 
-**This Week's Focus**
+### This Week's Focus
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, you're building a very solid aerobic base, consistently running your easy a
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-01 11:53:49 UTC | Run ID: 30698588819*
+*Last updated: 2026-08-02 11:51:41 UTC | Run ID: 30746601430*
