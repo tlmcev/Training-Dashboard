@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you set for Week 5 of your NYC Marathon training. We're 90 days out, and it's time to refine some key aspects of your approach.
+Alright Tom, let's get you ready for Week 6 of your NYC Marathon journey. You're making solid progress, and we'll keep building on that foundation.
 
 ### Fitness Assessment
-You're demonstrating solid aerobic development, consistently holding Z2 heart rates (46 out of 52 distribution points) during your runs, with consistent power output around 240-260W. Recent PRs on your 13.01mi run (mile 8:59, 5K 28:09) indicate good fitness. However, the +7bpm upward trend in your HR over the last six runs, coupled with max heart rates occasionally hitting Z3/Z4 (e.g., 175 bpm during your 13.01mi run), suggests you might be accumulating some fatigue or pushing a bit hard on your easy days.
+Tom displays a solid aerobic base, consistently running long distances like 13.01 miles at 9:44/mi within Z2 (HR 154/175bpm), indicating good endurance. His power output is stable around 250-260W, and recent best mile efforts in the 8:30-9:00 range demonstrate a capacity for faster running when needed, aligning with a predicted marathon time of 4:17:07. The high percentage of Z2 running (46 out of 52 zones) confirms excellent aerobic development.
 
 ### This Week's Focus
 
@@ -27,7 +27,7 @@ You're demonstrating solid aerobic development, consistently holding Z2 heart ra
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 5 of 18**
+**Current week: 6 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ You're demonstrating solid aerobic development, consistently holding Z2 heart ra
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-02 11:51:41 UTC | Run ID: 30746601430*
+*Last updated: 2026-08-03 13:31:46 UTC | Run ID: 30818360019*
