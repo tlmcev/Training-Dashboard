@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for Week 6 of your NYC Marathon journey. You're making solid progress, and we'll keep building on that foundation.
+Here is your coaching brief for Tom:
 
-### Fitness Assessment
-Tom displays a solid aerobic base, consistently running long distances like 13.01 miles at 9:44/mi within Z2 (HR 154/175bpm), indicating good endurance. His power output is stable around 250-260W, and recent best mile efforts in the 8:30-9:00 range demonstrate a capacity for faster running when needed, aligning with a predicted marathon time of 4:17:07. The high percentage of Z2 running (46 out of 52 zones) confirms excellent aerobic development.
+**Fitness Assessment**
+Tom, your consistent running in Zone 2, evidenced by 46% of your recent HR distribution, indicates a solid aerobic base development, with long runs like the 13.01mi at 9:44/mi showcasing good endurance. Your average pace around 9:24/mi and watts consistently in the 240-260W range align well with your predicted 4:17:07 marathon finish. These metrics confirm you're building a strong foundation for the NYC Marathon.
 
-### This Week's Focus
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom displays a solid aerobic base, consistently running long distances like 13.0
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-03 13:31:46 UTC | Run ID: 30818360019*
+*Last updated: 2026-08-04 12:51:40 UTC | Run ID: 30910995725*
