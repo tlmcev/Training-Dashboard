@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05 12:45:53",
+  "updated_at": "2026-08-06 12:48:46",
   "current_week": 6,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -1551,60 +1551,60 @@
   ],
   "weather": [
     {
-      "date": "2026-08-05",
-      "high": 79,
-      "low": 68,
-      "precip": 0.0,
-      "windspeed": 8,
-      "code": 45
-    },
-    {
       "date": "2026-08-06",
-      "high": 86,
-      "low": 73,
+      "high": 88,
+      "low": 76,
       "precip": 0.0,
-      "windspeed": 8,
-      "code": 45
+      "windspeed": 10,
+      "code": 3
     },
     {
       "date": "2026-08-07",
       "high": 93,
-      "low": 77,
-      "precip": 0.06,
-      "windspeed": 14,
-      "code": 55
+      "low": 73,
+      "precip": 0.03,
+      "windspeed": 11,
+      "code": 53
     },
     {
       "date": "2026-08-08",
       "high": 91,
       "low": 73,
-      "precip": 0.11,
+      "precip": 0.0,
       "windspeed": 14,
-      "code": 80
+      "code": 3
     },
     {
       "date": "2026-08-09",
       "high": 94,
-      "low": 77,
+      "low": 76,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 16,
       "code": 3
     },
     {
       "date": "2026-08-10",
-      "high": 95,
-      "low": 81,
-      "precip": 0.0,
-      "windspeed": 14,
-      "code": 3
+      "high": 85,
+      "low": 78,
+      "precip": 0.25,
+      "windspeed": 18,
+      "code": 81
     },
     {
       "date": "2026-08-11",
-      "high": 88,
-      "low": 77,
-      "precip": 0.05,
-      "windspeed": 11,
-      "code": 51
+      "high": 90,
+      "low": 78,
+      "precip": 0.0,
+      "windspeed": 12,
+      "code": 3
+    },
+    {
+      "date": "2026-08-12",
+      "high": 83,
+      "low": 76,
+      "precip": 0.13,
+      "windspeed": 14,
+      "code": 53
     }
   ],
   "avg_pace_sec": 564.8,
@@ -1654,5 +1654,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for NYC. Today is Wednesday, August 5th, and we're heading into Week 6 of your 18-week Hal Higdon Novice 2 plan with 87 days to the marathon.\n\n### Fitness Assessment\nTom, your recent long runs, like the 13.01mi at 9:44/mi and 11.62mi at 9:29/mi, consistently show strong aerobic development, maintaining an average heart rate in Zone 2 (147-154 bpm) with consistent power output around 254-255W. Your ability to hold paces like 8:59/mile and a 28:09 5K (approx. 9:00/mi) in recent best efforts indicates good underlying speed. This base positions you well for a predicted marathon time of 4:17:07.\n\n### This Week's Focus\nFor today's 6-mile pace run, aim for a controlled effort at your predicted marathon pace or slightly quicker, targeting a consistent 9:35-9:45/mi pace, which should put your heart rate firmly in Zone 3 (155-169 bpm). Your 3-mile run on Thursday should be an easy recovery effort, ensuring your heart rate stays comfortably in Zone 2 (124-154 bpm) at a conversational pace. Saturday's 9-mile long run is crucial for endurance; maintain an easy effort, similar to your recent long runs, around 9:45-10:00/mi, keeping your heart rate strictly within Zone 2.\n\n### Key Priorities\n*   **HR Management:** Prioritize active recovery and strictly staying within Zone 2 (124-154 bpm) for all easy and long runs to address the recent +7bpm upward trend in your average heart rate. This is a key indicator of potential fatigue, so listen to your body and don't push the easy efforts.\n*   **Pacing for Purpose:** Execute today's 6-mile pace run with focus, aiming for a sustained effort at 9:35-9:45/mi, pushing into Zone 3 (155-169 bpm) without overdoing it. This will help build your marathon specific speed endurance.\n*   **Heat & Hydration Strategy:** With upcoming high temperatures (e.g., 93F on Friday, 95F on Monday) and humidity, pre-hydrate rigorously, carry fluids for all runs, and consider adjusting run times or routes to minimize sun exposure.\n\n### Watch Out For\nThe consistent +7bpm upward trend in your average heart rate over the last six runs is a significant red flag for accumulating fatigue, even though you're mostly in Zone 2. Be extra vigilant for signs of overtraining, ensuring you prioritize sleep, nutrition, and mental recovery this week.\n\n### Upcoming Milestones\nYou're building a strong foundation, and the next significant milestone to look forward to will be your first 10-mile long run in the coming weeks. This will be another crucial step in solidifying your endurance and mental readiness for the NYC Marathon."
+  "advice": "Alright Tom, let's get you ready for the NYC Marathon! Today is Thursday, August 6th, and you're entering Week 6 of 18, with 86 days until race day.\n\n### **Fitness Assessment**\nTom, you're building a solid aerobic base, consistently running in Z2 with an average pace around 9:24/mi. Your long runs, like the 13.01mi at 9:44/mi, demonstrate good endurance, supported by a consistent power output of 250-270W. While maintaining Z2, you're also able to hit faster segments (e.g., 5K in 28:09), indicating a strong foundation for speed development.\n\n### **This Week's Focus**\nFor your remaining runs this week, prioritize Z2 (124-154 bpm) for your 3-mile run today and Saturday's 9-mile long run, targeting a comfortable, conversational pace. When the plan calls for a pace run (like Wednesday's 6m pace), aim for Z3 (155-169 bpm) to build speed endurance, potentially around 9:00-9:15/mi, adjusting for the hot weather.\n\n### **Key Priorities**\n*   **HR Management:** Strictly adhere to Z2 (124-154 bpm) for all easy and long runs to mitigate the recent 7bpm HR trend increase, which signals potential fatigue.\n*   **Heat Adaptation:** Given the consistently high temperatures (88-94F) in NYC this week, prioritize hydration, start conservatively, and be prepared to adjust your pace or duration as needed.\n*   **Pace Work Execution:** When tackling pace runs, focus on hitting Z3 (155-169 bpm) for the specified duration, ensuring you can maintain the effort without overexertion.\n\n### **Watch Out For**\nYour average HR has trended up by 7bpm over the last six runs, which is a significant fatigue signal. Pay close attention to your body and ensure your easy runs stay firmly in Z2 to allow for proper recovery and adaptation, especially with the intense heat.\n\n### **Upcoming Milestones**\nThis Saturday's 9-mile run is a key endurance builder, marking another important step in your progression towards the NYC Marathon, now just 86 days away. You're successfully progressing through Week 6 of 18, putting you well on track for the race."
 }

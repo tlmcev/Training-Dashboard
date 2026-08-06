@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for NYC. Today is Wednesday, August 5th, and we're heading into Week 6 of your 18-week Hal Higdon Novice 2 plan with 87 days to the marathon.
+Alright Tom, let's get you ready for the NYC Marathon! Today is Thursday, August 6th, and you're entering Week 6 of 18, with 86 days until race day.
 
-### Fitness Assessment
-Tom, your recent long runs, like the 13.01mi at 9:44/mi and 11.62mi at 9:29/mi, consistently show strong aerobic development, maintaining an average heart rate in Zone 2 (147-154 bpm) with consistent power output around 254-255W. Your ability to hold paces like 8:59/mile and a 28:09 5K (approx. 9:00/mi) in recent best efforts indicates good underlying speed. This base positions you well for a predicted marathon time of 4:17:07.
+### **Fitness Assessment**
+Tom, you're building a solid aerobic base, consistently running in Z2 with an average pace around 9:24/mi. Your long runs, like the 13.01mi at 9:44/mi, demonstrate good endurance, supported by a consistent power output of 250-270W. While maintaining Z2, you're also able to hit faster segments (e.g., 5K in 28:09), indicating a strong foundation for speed development.
 
-### This Week's Focus
+### **This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent long runs, like the 13.01mi at 9:44/mi and 11.62mi at 9:29/mi, 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-05 12:45:53 UTC | Run ID: 31007044092*
+*Last updated: 2026-08-06 12:48:46 UTC | Run ID: 31103002818*
