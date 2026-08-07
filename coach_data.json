@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06 12:48:46",
+  "updated_at": "2026-08-07 11:36:16",
   "current_week": 6,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -1551,47 +1551,31 @@
   ],
   "weather": [
     {
-      "date": "2026-08-06",
-      "high": 88,
+      "date": "2026-08-07",
+      "high": 93,
       "low": 76,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 12,
       "code": 3
     },
     {
-      "date": "2026-08-07",
-      "high": 93,
-      "low": 73,
-      "precip": 0.03,
-      "windspeed": 11,
-      "code": 53
-    },
-    {
       "date": "2026-08-08",
-      "high": 91,
+      "high": 89,
       "low": 73,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 11,
       "code": 3
     },
     {
       "date": "2026-08-09",
       "high": 94,
-      "low": 76,
-      "precip": 0.0,
-      "windspeed": 16,
+      "low": 75,
+      "precip": 0.01,
+      "windspeed": 15,
       "code": 3
     },
     {
       "date": "2026-08-10",
-      "high": 85,
-      "low": 78,
-      "precip": 0.25,
-      "windspeed": 18,
-      "code": 81
-    },
-    {
-      "date": "2026-08-11",
       "high": 90,
       "low": 78,
       "precip": 0.0,
@@ -1599,12 +1583,28 @@
       "code": 3
     },
     {
-      "date": "2026-08-12",
-      "high": 83,
+      "date": "2026-08-11",
+      "high": 91,
       "low": 76,
-      "precip": 0.13,
+      "precip": 0.0,
       "windspeed": 14,
-      "code": 53
+      "code": 3
+    },
+    {
+      "date": "2026-08-12",
+      "high": 86,
+      "low": 76,
+      "precip": 0.0,
+      "windspeed": 13,
+      "code": 3
+    },
+    {
+      "date": "2026-08-13",
+      "high": 82,
+      "low": 72,
+      "precip": 0.06,
+      "windspeed": 15,
+      "code": 51
     }
   ],
   "avg_pace_sec": 564.8,
@@ -1654,5 +1654,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for the NYC Marathon! Today is Thursday, August 6th, and you're entering Week 6 of 18, with 86 days until race day.\n\n### **Fitness Assessment**\nTom, you're building a solid aerobic base, consistently running in Z2 with an average pace around 9:24/mi. Your long runs, like the 13.01mi at 9:44/mi, demonstrate good endurance, supported by a consistent power output of 250-270W. While maintaining Z2, you're also able to hit faster segments (e.g., 5K in 28:09), indicating a strong foundation for speed development.\n\n### **This Week's Focus**\nFor your remaining runs this week, prioritize Z2 (124-154 bpm) for your 3-mile run today and Saturday's 9-mile long run, targeting a comfortable, conversational pace. When the plan calls for a pace run (like Wednesday's 6m pace), aim for Z3 (155-169 bpm) to build speed endurance, potentially around 9:00-9:15/mi, adjusting for the hot weather.\n\n### **Key Priorities**\n*   **HR Management:** Strictly adhere to Z2 (124-154 bpm) for all easy and long runs to mitigate the recent 7bpm HR trend increase, which signals potential fatigue.\n*   **Heat Adaptation:** Given the consistently high temperatures (88-94F) in NYC this week, prioritize hydration, start conservatively, and be prepared to adjust your pace or duration as needed.\n*   **Pace Work Execution:** When tackling pace runs, focus on hitting Z3 (155-169 bpm) for the specified duration, ensuring you can maintain the effort without overexertion.\n\n### **Watch Out For**\nYour average HR has trended up by 7bpm over the last six runs, which is a significant fatigue signal. Pay close attention to your body and ensure your easy runs stay firmly in Z2 to allow for proper recovery and adaptation, especially with the intense heat.\n\n### **Upcoming Milestones**\nThis Saturday's 9-mile run is a key endurance builder, marking another important step in your progression towards the NYC Marathon, now just 86 days away. You're successfully progressing through Week 6 of 18, putting you well on track for the race."
+  "advice": "Alright Tom, let's get you ready for Week 6. Here\u2019s your coaching brief:\n\n### Fitness Assessment\nYou're building a solid aerobic base, consistently running in Zone 2 (124-154 bpm) with stable power output, often around 250W, even on runs with significant elevation. Your recent PRs, including a 28:09 5K on August 1st, demonstrate positive progress and improving speed endurance. Your average pace of 9:24/mi is strong, setting you up well for your predicted 4:17:07 marathon time.\n\n### This Week's Focus\nFor your easy runs (Tuesday 3m, Thursday 3m), target a relaxed effort with average HR in Z2 (124-154 bpm), aiming for a pace around 9:30-10:00/mi, similar to your 7/24 easy run (9:54/mi). On Wednesday's 6m pace run, aim for a controlled effort at or slightly faster than your predicted marathon pace, targeting 9:20-9:35/mi with an average HR in the high Z2 to low Z3 range (150-160 bpm), similar to your 7/22 6-mile run (9:25/mi at 147bpm). For Saturday's 9m long run, maintain an easy, conversational pace with average HR firmly in Z2 (124-154 bpm), likely in the 9:45-10:15/mi range, similar to your 8/1 13-mile run (9:44/mi at 154bpm).\n\n### Key Priorities\n*   Keep all easy and long runs firmly within Z2, ensuring your average HR stays below 154 bpm to manage fatigue and promote recovery.\n*   For Wednesday's 6m pace run, focus on maintaining a consistent effort in the 150-160 bpm range to develop speed endurance without overexerting yourself.\n*   Given the high temperatures and humidity forecasted this week, prioritize hydration before, during, and after all runs, especially for your long run on Saturday.\n\n### Watch Out For\nThe noticeable +7bpm increase in your average heart rate over the last 6 runs is a critical fatigue signal; pay close attention to your body and don't hesitate to slow down or take extra rest if your HR is consistently higher than expected for a given effort.\n\n### Upcoming Milestones\nLook forward to completing your first 9-mile long run of this training block on Saturday, which will be a significant step in building your endurance and confidence toward the NYC Marathon."
 }

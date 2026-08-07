@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for the NYC Marathon! Today is Thursday, August 6th, and you're entering Week 6 of 18, with 86 days until race day.
+Alright Tom, let's get you ready for Week 6. Here’s your coaching brief:
 
-### **Fitness Assessment**
-Tom, you're building a solid aerobic base, consistently running in Z2 with an average pace around 9:24/mi. Your long runs, like the 13.01mi at 9:44/mi, demonstrate good endurance, supported by a consistent power output of 250-270W. While maintaining Z2, you're also able to hit faster segments (e.g., 5K in 28:09), indicating a strong foundation for speed development.
+### Fitness Assessment
+You're building a solid aerobic base, consistently running in Zone 2 (124-154 bpm) with stable power output, often around 250W, even on runs with significant elevation. Your recent PRs, including a 28:09 5K on August 1st, demonstrate positive progress and improving speed endurance. Your average pace of 9:24/mi is strong, setting you up well for your predicted 4:17:07 marathon time.
 
-### **This Week's Focus**
+### This Week's Focus
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, you're building a solid aerobic base, consistently running in Z2 with an av
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-06 12:48:46 UTC | Run ID: 31103002818*
+*Last updated: 2026-08-07 11:36:16 UTC | Run ID: 31174734156*
