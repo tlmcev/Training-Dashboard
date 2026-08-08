@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-08-07 11:36:16",
+  "updated_at": "2026-08-08 11:18:32",
   "current_week": 6,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19643834600,
+      "name": "Lunch Run",
+      "date": "2026-08-07",
+      "distance_miles": 3.27,
+      "moving_time_sec": 2110,
+      "pace_per_mile": "10:45",
+      "pace_seconds": 645.3,
+      "elevation_ft": 0.0,
+      "avg_hr": 131,
+      "hr_zone": "Z2",
+      "suffer_score": 13.0,
+      "max_hr": 147.0,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 0
+    },
     {
       "id": 19557916009,
       "name": "\u201cLike a Prayer\u201d - Madonna",
@@ -187,11 +206,11 @@
       "avg_hr": 148,
       "hr_zone": "Z2",
       "suffer_score": 60.0,
-      "max_hr": 168.0,
-      "avg_watts": 242,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "9:36",
-      "fastest_5k": "30:20",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 0
     },
     {
@@ -1077,6 +1096,10 @@
     {
       "week_start": "2026-07-27",
       "miles": 19.4
+    },
+    {
+      "week_start": "2026-08-03",
+      "miles": 3.3
     }
   ],
   "ae_trend": [
@@ -1547,72 +1570,81 @@
       "dist": 13.01,
       "marathon_pred": "4:24:17",
       "marathon_sec": 15857
+    },
+    {
+      "date": "2026-08-07",
+      "name": "Lunch Run",
+      "ae": 1.142,
+      "hr": 131,
+      "dist": 3.27,
+      "marathon_pred": "4:08:19",
+      "marathon_sec": 14899
     }
   ],
   "weather": [
     {
-      "date": "2026-08-07",
-      "high": 93,
-      "low": 76,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
+      "date": "2026-08-08",
+      "high": 90,
+      "low": 72,
+      "precip": 0.03,
+      "windspeed": 11,
+      "code": 53
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-09",
+      "high": 96,
+      "low": 72,
+      "precip": 0.0,
+      "windspeed": 10,
+      "code": 1
+    },
+    {
+      "date": "2026-08-10",
+      "high": 91,
+      "low": 78,
+      "precip": 0.02,
+      "windspeed": 10,
+      "code": 51
+    },
+    {
+      "date": "2026-08-11",
+      "high": 91,
+      "low": 75,
+      "precip": 0.04,
+      "windspeed": 19,
+      "code": 55
+    },
+    {
+      "date": "2026-08-12",
       "high": 89,
       "low": 73,
+      "precip": 0.06,
+      "windspeed": 17,
+      "code": 80
+    },
+    {
+      "date": "2026-08-13",
+      "high": 86,
+      "low": 76,
       "precip": 0.0,
       "windspeed": 11,
       "code": 3
     },
     {
-      "date": "2026-08-09",
-      "high": 94,
-      "low": 75,
-      "precip": 0.01,
-      "windspeed": 15,
-      "code": 3
-    },
-    {
-      "date": "2026-08-10",
-      "high": 90,
-      "low": 78,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
-    {
-      "date": "2026-08-11",
-      "high": 91,
-      "low": 76,
-      "precip": 0.0,
-      "windspeed": 14,
-      "code": 3
-    },
-    {
-      "date": "2026-08-12",
-      "high": 86,
-      "low": 76,
-      "precip": 0.0,
-      "windspeed": 13,
-      "code": 3
-    },
-    {
-      "date": "2026-08-13",
-      "high": 82,
-      "low": 72,
-      "precip": 0.06,
-      "windspeed": 15,
+      "date": "2026-08-14",
+      "high": 88,
+      "low": 74,
+      "precip": 0.09,
+      "windspeed": 16,
       "code": 51
     }
   ],
-  "avg_pace_sec": 564.8,
+  "avg_pace_sec": 566.3,
   "predictions": {
-    "5k": "26:46",
-    "10k": "55:48",
-    "half": "2:03:19",
-    "marathon": "4:17:07"
+    "5k": "26:50",
+    "10k": "55:57",
+    "half": "2:03:39",
+    "marathon": "4:17:48"
   },
   "pace_zones": {
     "Z1": {
@@ -1648,11 +1680,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 46,
+    "Z2": 47,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for Week 6. Here\u2019s your coaching brief:\n\n### Fitness Assessment\nYou're building a solid aerobic base, consistently running in Zone 2 (124-154 bpm) with stable power output, often around 250W, even on runs with significant elevation. Your recent PRs, including a 28:09 5K on August 1st, demonstrate positive progress and improving speed endurance. Your average pace of 9:24/mi is strong, setting you up well for your predicted 4:17:07 marathon time.\n\n### This Week's Focus\nFor your easy runs (Tuesday 3m, Thursday 3m), target a relaxed effort with average HR in Z2 (124-154 bpm), aiming for a pace around 9:30-10:00/mi, similar to your 7/24 easy run (9:54/mi). On Wednesday's 6m pace run, aim for a controlled effort at or slightly faster than your predicted marathon pace, targeting 9:20-9:35/mi with an average HR in the high Z2 to low Z3 range (150-160 bpm), similar to your 7/22 6-mile run (9:25/mi at 147bpm). For Saturday's 9m long run, maintain an easy, conversational pace with average HR firmly in Z2 (124-154 bpm), likely in the 9:45-10:15/mi range, similar to your 8/1 13-mile run (9:44/mi at 154bpm).\n\n### Key Priorities\n*   Keep all easy and long runs firmly within Z2, ensuring your average HR stays below 154 bpm to manage fatigue and promote recovery.\n*   For Wednesday's 6m pace run, focus on maintaining a consistent effort in the 150-160 bpm range to develop speed endurance without overexerting yourself.\n*   Given the high temperatures and humidity forecasted this week, prioritize hydration before, during, and after all runs, especially for your long run on Saturday.\n\n### Watch Out For\nThe noticeable +7bpm increase in your average heart rate over the last 6 runs is a critical fatigue signal; pay close attention to your body and don't hesitate to slow down or take extra rest if your HR is consistently higher than expected for a given effort.\n\n### Upcoming Milestones\nLook forward to completing your first 9-mile long run of this training block on Saturday, which will be a significant step in building your endurance and confidence toward the NYC Marathon."
+  "advice": "Alright Tom, let's get you ready for Week 6 of your NYC Marathon training! You've been putting in some great work.\n\n**Fitness Assessment**\nTom, your recent runs demonstrate a strong aerobic base, consistently maintaining heart rates within Zone 2 (124-154 bpm) for nearly all your efforts, including your 13-mile run at 9:44/mi with an average HR of 154 bpm. Your consistent power output around 250W and recent PRs, such as 20 PRs on July 25th and 2 PRs on August 1st, show excellent development and adaptation to your training.\n\n**This Week's Focus**\nGiven today's 9-mile long run, aim for an easy, conversational pace, keeping your heart rate in Zone 2 (124-154 bpm), likely around 9:45-10:45/mi, similar to your recent long runs and easy efforts. For Wednesday's 6-mile pace run, challenge yourself to a quicker pace, targeting Zone 3 (155-169 bpm), perhaps in the 9:00-9:15/mi range, building on your recent best efforts like your 5K PR pace. Remember to prioritize hydration and adjust for the hot, humid weather expected this week.\n\n**Key Priorities**\n*   **Maintain Z2 Discipline:** Ensure all easy runs (Tuesday's 3m, Thursday's 3m, and today's 9m) remain firmly in Zone 2 (124-154 bpm) to continue building your aerobic engine.\n*   **Execute Pace Run in Z3:** Push Wednesday's 6-mile run into Zone 3 (155-169 bpm) to develop speed and stamina, aiming for a sustained effort faster than your easy run pace.\n*   **Hydration & Heat Management:** With high temperatures and humidity expected this week, pre-hydrate, carry fluids, and consider adjusting run times to cooler parts of the day.\n\n**Watch Out For**\nThe listed weekly mileage trend shows a significant drop to 3.3 miles in the most recent week; while this might be incomplete data, ensure you are consistently hitting the prescribed mileage to avoid losing momentum and continue building your endurance base.\n\n**Upcoming Milestones**\nLook forward to completing this week's 9-mile long run, which marks another significant step in your marathon build-up and prepares you for the double-digit long runs coming soon in the Hal Higdon plan."
 }

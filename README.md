@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| Lunch Run | 3.27mi | 10:45/mi | 131bpm (Z2) | 2026-08-07 |
 | “Like a Prayer” - Madonna | 13.01mi | 9:44/mi | 154bpm (Z2) | 2026-08-01 |
 | Lunch Run | 1.22mi | 8:12/mi | 145bpm (Z2) | 2026-07-31 |
 | “Elias” - Dispatch | 2.11mi | 9:51/mi | 143bpm (Z2) | 2026-07-29 |
 | “Ooh La La” - Faces | 3.01mi | 9:30/mi | 140bpm (Z2) | 2026-07-28 |
-| “Wavin’ Flag” - K’NAAN | 11.62mi | 9:29/mi | 147bpm (Z2) | 2026-07-25 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for Week 6. Here’s your coaching brief:
+Alright Tom, let's get you ready for Week 6 of your NYC Marathon training! You've been putting in some great work.
 
-### Fitness Assessment
-You're building a solid aerobic base, consistently running in Zone 2 (124-154 bpm) with stable power output, often around 250W, even on runs with significant elevation. Your recent PRs, including a 28:09 5K on August 1st, demonstrate positive progress and improving speed endurance. Your average pace of 9:24/mi is strong, setting you up well for your predicted 4:17:07 marathon time.
+**Fitness Assessment**
+Tom, your recent runs demonstrate a strong aerobic base, consistently maintaining heart rates within Zone 2 (124-154 bpm) for nearly all your efforts, including your 13-mile run at 9:44/mi with an average HR of 154 bpm. Your consistent power output around 250W and recent PRs, such as 20 PRs on July 25th and 2 PRs on August 1st, show excellent development and adaptation to your training.
 
-### This Week's Focus
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ You're building a solid aerobic base, consistently running in Zone 2 (124-154 bp
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-07 11:36:16 UTC | Run ID: 31174734156*
+*Last updated: 2026-08-08 11:18:32 UTC | Run ID: 31254678575*
