@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-09 11:19:03",
-  "current_week": 6,
+  "updated_at": "2026-08-10 11:40:05",
+  "current_week": 7,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
@@ -1611,60 +1611,60 @@
   ],
   "weather": [
     {
-      "date": "2026-08-09",
-      "high": 94,
-      "low": 73,
-      "precip": 0.0,
-      "windspeed": 10,
-      "code": 3
-    },
-    {
       "date": "2026-08-10",
-      "high": 94,
+      "high": 91,
       "low": 71,
-      "precip": 0.02,
-      "windspeed": 16,
-      "code": 51
+      "precip": 0.16,
+      "windspeed": 23,
+      "code": 81
     },
     {
       "date": "2026-08-11",
-      "high": 90,
-      "low": 74,
-      "precip": 0.04,
-      "windspeed": 21,
-      "code": 51
+      "high": 84,
+      "low": 72,
+      "precip": 0.0,
+      "windspeed": 9,
+      "code": 3
     },
     {
       "date": "2026-08-12",
-      "high": 84,
-      "low": 77,
-      "precip": 0.0,
-      "windspeed": 9,
-      "code": 51
+      "high": 88,
+      "low": 72,
+      "precip": 0.17,
+      "windspeed": 10,
+      "code": 80
     },
     {
       "date": "2026-08-13",
-      "high": 85,
-      "low": 71,
-      "precip": 0.03,
-      "windspeed": 18,
-      "code": 53
+      "high": 88,
+      "low": 76,
+      "precip": 0.02,
+      "windspeed": 14,
+      "code": 51
     },
     {
       "date": "2026-08-14",
-      "high": 78,
-      "low": 64,
+      "high": 83,
+      "low": 76,
       "precip": 0.0,
-      "windspeed": 20,
-      "code": 0
+      "windspeed": 12,
+      "code": 3
     },
     {
       "date": "2026-08-15",
-      "high": 80,
-      "low": 63,
+      "high": 81,
+      "low": 66,
       "precip": 0.0,
-      "windspeed": 16,
-      "code": 0
+      "windspeed": 12,
+      "code": 3
+    },
+    {
+      "date": "2026-08-16",
+      "high": 80,
+      "low": 72,
+      "precip": 1.12,
+      "windspeed": 11,
+      "code": 82
     }
   ],
   "avg_pace_sec": 566.4,
@@ -1714,5 +1714,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, today marks the start of Week 6 in your NYC Marathon build, with 83 days until race day. Let's look at your progress and set the plan for the week ahead.\n\n---\n\n**Fitness Assessment**\nTom, you're demonstrating solid foundational fitness, consistently holding a strong power output around 250-260W across various runs, with average paces for longer efforts in the 9:30-9:45/mi range. While most runs show average HR in Zone 2 (e.g., 147bpm on 11.62mi @ 9:29/mi), the tendency for average HR to reach the very top of Z2 (154bpm on 9.02mi"
+  "advice": "Alright Tom, let's get you ready for a productive Week 7. You're making excellent progress!\n\n**Fitness Assessment**\nTom, your recent data shows strong aerobic development, consistently running long distances like 13.01mi at a Z2 average HR of 154 bpm and a 9:44/mi pace. Your consistent power output around 254-268W across various runs, combined with best mile efforts as fast as 8:36/mi, indicates a solid foundation and good speed potential. The recent dip to 12.3mi last week suggests a well-timed recovery, setting you up for this week's increased volume.\n\n**This Week's Focus**\nFor your 4-mile easy runs, target a conversational Z2 effort, keeping your heart rate between 124-154 bpm, aiming for a pace around 9:45-10:15/mi given the heat and humidity. The 7-mile pace run is crucial: aim for a sustained Z3 effort (155-169 bpm), targeting a pace in the 8:45-9:00/mi range based on your recent 5K bests and mile efforts. Your 14-mile long run should be a controlled Z2 effort, similar to your 13.01mi run, focusing on consistency and hydration in the forecasted humid conditions.\n\n**Key Priorities**\n*   **HR Discipline:** With high temperatures (80-91F) and humidity all week, strictly adhere to your Z2 target (124-154 bpm) for easy and long runs to prevent overheating and excessive fatigue.\n*   **Pace Execution:** Successfully hit and maintain your Z3 target (155-169 bpm) for the full 7-mile pace run, which will be a key indicator of your developing marathon pace.\n*   **Mileage Management:** Carefully manage the significant jump in weekly mileage from 12.3mi to ~29mi, prioritizing recovery and listening to your body, especially during the 14-mile long run.\n\n**Watch Out For**\nThe forecasted high temperatures and humidity this week present a significant challenge; your heart rate will likely be higher for a given pace, so prioritize effort over pace to stay within your prescribed HR zones. Also, monitor any signs of overexertion or fatigue given the large increase in weekly mileage after a lower volume week.\n\n**Upcoming Milestones**\nThis Saturday's 14-mile long run marks a new personal best distance in your training block, a significant mental and physical achievement as you build towards the marathon. Successfully completing this week's higher mileage will also bring you closer to the halfway point of your 18-week plan."
 }

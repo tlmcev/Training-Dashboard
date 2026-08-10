@@ -16,18 +16,18 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, today marks the start of Week 6 in your NYC Marathon build, with 83 days until race day. Let's look at your progress and set the plan for the week ahead.
-
----
+Alright Tom, let's get you ready for a productive Week 7. You're making excellent progress!
 
 **Fitness Assessment**
-Tom, you're demonstrating solid foundational fitness, consistently holding a strong power output around 250-260W across various runs, with average paces for longer efforts in the 9:30-9:45/mi range. While most runs show average HR in Zone 2 (e.g., 147bpm on 11.62mi @ 9:29/mi), the tendency for average HR to reach the very top of Z2 (154bpm on 9.02mi
+Tom, your recent data shows strong aerobic development, consistently running long distances like 13.01mi at a Z2 average HR of 154 bpm and a 9:44/mi pace. Your consistent power output around 254-268W across various runs, combined with best mile efforts as fast as 8:36/mi, indicates a solid foundation and good speed potential. The recent dip to 12.3mi last week suggests a well-timed recovery, setting you up for this week's increased volume.
+
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 6 of 18**
+**Current week: 7 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ Tom, you're demonstrating solid foundational fitness, consistently holding a str
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-09 11:19:03 UTC | Run ID: 31310479353*
+*Last updated: 2026-08-10 11:40:05 UTC | Run ID: 31384506257*
