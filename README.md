@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for a productive Week 7. You're making excellent progress!
+Here's your coaching brief for Week 7, Tom:
 
 **Fitness Assessment**
-Tom, your recent data shows strong aerobic development, consistently running long distances like 13.01mi at a Z2 average HR of 154 bpm and a 9:44/mi pace. Your consistent power output around 254-268W across various runs, combined with best mile efforts as fast as 8:36/mi, indicates a solid foundation and good speed potential. The recent dip to 12.3mi last week suggests a well-timed recovery, setting you up for this week's increased volume.
+Tom, your consistent Z2 heart rate (48 out of 54 recorded zones) paired with an average pace around 9:30-9:45/mi and steady power output (e.g., 254W on 13.01mi and 9.02mi runs) indicates a strong aerobic base. The recent 🏆 PRs, like the 8:58 mile and 5K in 28:09 on August 8th, show promising development in speed and endurance.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent data shows strong aerobic development, consistently running lon
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-10 11:40:05 UTC | Run ID: 31384506257*
+*Last updated: 2026-08-11 11:35:16 UTC | Run ID: 31487284982*
