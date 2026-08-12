@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-08-11 11:35:16",
+  "updated_at": "2026-08-12 11:37:14",
   "current_week": 7,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19695412290,
+      "name": "\u201cMurder on the Dancefloor\u201d - Royal Otis",
+      "date": "2026-08-11",
+      "distance_miles": 3.04,
+      "moving_time_sec": 1690,
+      "pace_per_mile": "9:15",
+      "pace_seconds": 555.9,
+      "elevation_ft": 146.0,
+      "avg_hr": 139,
+      "hr_zone": "Z2",
+      "suffer_score": 19.0,
+      "max_hr": 162.0,
+      "avg_watts": 259,
+      "avg_cadence": null,
+      "fastest_mile": "8:58",
+      "fastest_5k": null,
+      "pr_count": 0
+    },
     {
       "id": 19655386305,
       "name": "\u201cLola\u201d - The Kinks",
@@ -187,10 +206,10 @@
       "avg_hr": 146,
       "hr_zone": "Z2",
       "suffer_score": 29.0,
-      "max_hr": 169.0,
-      "avg_watts": 268,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "8:36",
+      "fastest_mile": null,
       "fastest_5k": null,
       "pr_count": 0
     },
@@ -1119,6 +1138,10 @@
     {
       "week_start": "2026-08-03",
       "miles": 12.3
+    },
+    {
+      "week_start": "2026-08-10",
+      "miles": 3.0
     }
   ],
   "ae_trend": [
@@ -1607,72 +1630,81 @@
       "dist": 9.02,
       "marathon_pred": "4:18:30",
       "marathon_sec": 15510
+    },
+    {
+      "date": "2026-08-11",
+      "name": "\u201cMurder on the Dancefloor\u201d - Royal Otis",
+      "ae": 1.25,
+      "hr": 139,
+      "dist": 3.04,
+      "marathon_pred": "3:46:52",
+      "marathon_sec": 13612
     }
   ],
   "weather": [
     {
-      "date": "2026-08-11",
-      "high": 90,
-      "low": 71,
-      "precip": 0.35,
-      "windspeed": 22,
-      "code": 65
-    },
-    {
       "date": "2026-08-12",
-      "high": 81,
-      "low": 71,
-      "precip": 0.42,
-      "windspeed": 8,
-      "code": 81
-    },
-    {
-      "date": "2026-08-13",
-      "high": 80,
-      "low": 74,
-      "precip": 0.28,
-      "windspeed": 11,
-      "code": 80
-    },
-    {
-      "date": "2026-08-14",
-      "high": 84,
-      "low": 71,
-      "precip": 0.06,
-      "windspeed": 17,
-      "code": 53
-    },
-    {
-      "date": "2026-08-15",
-      "high": 82,
-      "low": 66,
+      "high": 89,
+      "low": 68,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 7,
       "code": 3
     },
     {
+      "date": "2026-08-13",
+      "high": 82,
+      "low": 69,
+      "precip": 3.89,
+      "windspeed": 8,
+      "code": 65
+    },
+    {
+      "date": "2026-08-14",
+      "high": 87,
+      "low": 73,
+      "precip": 0.0,
+      "windspeed": 9,
+      "code": 3
+    },
+    {
+      "date": "2026-08-15",
+      "high": 81,
+      "low": 69,
+      "precip": 0.05,
+      "windspeed": 20,
+      "code": 53
+    },
+    {
       "date": "2026-08-16",
-      "high": 86,
-      "low": 70,
-      "precip": 0.01,
-      "windspeed": 16,
-      "code": 51
+      "high": 82,
+      "low": 73,
+      "precip": 0.21,
+      "windspeed": 18,
+      "code": 81
     },
     {
       "date": "2026-08-17",
-      "high": 82,
-      "low": 73,
-      "precip": 0.17,
-      "windspeed": 15,
-      "code": 53
+      "high": 86,
+      "low": 74,
+      "precip": 0.0,
+      "windspeed": 13,
+      "code": 3
+    },
+    {
+      "date": "2026-08-18",
+      "high": 83,
+      "low": 70,
+      "precip": 0.0,
+      "windspeed": 12,
+      "code": 1
     }
   ],
-  "avg_pace_sec": 566.4,
+  "avg_pace_sec": 566.2,
   "predictions": {
     "5k": "26:50",
-    "10k": "55:58",
-    "half": "2:03:40",
-    "marathon": "4:17:51"
+    "10k": "55:57",
+    "half": "2:03:38",
+    "marathon": "4:17:45"
   },
   "pace_zones": {
     "Z1": {
@@ -1708,11 +1740,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 48,
+    "Z2": 49,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here's your coaching brief for Week 7, Tom:\n\n**Fitness Assessment**\nTom, your consistent Z2 heart rate (48 out of 54 recorded zones) paired with an average pace around 9:30-9:45/mi and steady power output (e.g., 254W on 13.01mi and 9.02mi runs) indicates a strong aerobic base. The recent \ud83c\udfc6 PRs, like the 8:58 mile and 5K in 28:09 on August 8th, show promising development in speed and endurance.\n\n**This Week's Focus**\nToday's 4-mile run should target an easy Z2 pace, aiming for 9:45-10:15/mi with HR below 154bpm, especially given the predicted high of 90F and rain. Wednesday's crucial 7-mile pace run should push into Z3, targeting 9:00-9:15/mi with HR between 155-169bpm. The 14-mile long run on Saturday should be a steady Z2 effort, maintaining a pace around 9:45-10:15/mi.\n\n**Key Priorities**\n*   **Maintain Z2 adherence for easy runs:** Ensure your heart rate stays below 154bpm for Tuesday's 4m and Saturday's 14m runs, even with the challenging weather.\n*   **Execute the pace run in Z3:** For Wednesday's 7-mile run, actively aim for your HR to be in the 155-169bpm range to develop your lactate threshold.\n*   **Increase weekly mileage safely:** After last week's dip to 12.3 miles, aim to complete the full 29 miles planned this week to get back on track with the training progression.\n\n**Watch Out For**\nThe significant drop in weekly mileage to 12.3 miles last week, down from 19.4 and 23.7 miles in prior weeks, is a red flag. Ensure you prioritize completing this week's scheduled runs to rebuild consistent volume and avoid further detraining.\n\n**Upcoming Milestones**\nThis Saturday's 14-mile long run will be your longest run of this training block so far, surpassing your 13.01-mile effort on August 1st. This is a key test of endurance and a significant step towards the NYC Marathon."
+  "advice": "Alright Tom, let's get you dialed in for Week 7. You're 80 days out from NYC, and we're entering a crucial building phase.\n\n**Fitness Assessment**\nTom, your recent runs show excellent aerobic development, with your average HR consistently in Zone 2 (139-154 bpm) even on longer efforts like the 13.01mi run at a 9:44/mi pace. The observed 6bpm downward trend in HR for similar efforts is a clear sign of improved aerobic efficiency. Your ability to sustain around 250-259W and hit sub-9:00/mi best efforts (e.g., 8:54/mi on 7/29) demonstrates good power and untapped speed.\n\n**This Week's Focus**\nToday's 7-mile pace run should target Zone 3 (155-169 bpm), aiming for a pace around 8:50-9:00/mi, similar to your recent best mile efforts, keeping the warm weather in mind. Your 4-mile run on Thursday and the critical 14-mile long run on Saturday should remain firmly in Zone 2 (124-154 bpm), maintaining a comfortable, conversational pace, likely in the 9:30-10:00/mi range. Remember to adjust your effort based on the high temperatures and humidity this week.\n\n**Key Priorities**\n*   **Rebuild Weekly Volume:** Your mileage has significantly dropped from 23.7mi to 3.0mi in the last four weeks; focus on safely completing this week's plan to increase your total volume back on track.\n*   **Execute Pace Work:** Successfully hit your target Z3 HR and pace for the 7-mile pace run today to effectively introduce speed work into your routine.\n*   **Maintain Z2 Discipline:** Keep your long run and easy runs firmly within the 124-154 bpm Zone 2, especially with the upcoming hot weather, even if it means slowing your pace.\n\n**Watch Out For**\nThe dramatic drop in weekly mileage from 23.7mi to 3.0mi over the past month is a significant concern and needs immediate attention. We must ensure consistent adherence to this week's plan to safely increase your volume and prevent potential injury from a sudden jump in load.\n\n**Upcoming Milestones**\nThis Saturday's 14-mile long run marks a crucial step in your marathon training, being your longest run since the 13.01mi on August 1st. Successfully completing this will build significant confidence and endurance as we continue to progress towards the NYC Marathon."
 }

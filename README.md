@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Murder on the Dancefloor” - Royal Otis | 3.04mi | 9:15/mi | 139bpm (Z2) | 2026-08-11 |
 | “Lola” - The Kinks | 9.02mi | 9:31/mi | 154bpm (Z2) | 2026-08-08 |
 | Lunch Run | 3.27mi | 10:45/mi | 131bpm (Z2) | 2026-08-07 |
 | “Like a Prayer” - Madonna | 13.01mi | 9:44/mi | 154bpm (Z2) | 2026-08-01 |
 | Lunch Run | 1.22mi | 8:12/mi | 145bpm (Z2) | 2026-07-31 |
-| “Elias” - Dispatch | 2.11mi | 9:51/mi | 143bpm (Z2) | 2026-07-29 |
 
 ## AI Coach Snapshot
 
-Here's your coaching brief for Week 7, Tom:
+Alright Tom, let's get you dialed in for Week 7. You're 80 days out from NYC, and we're entering a crucial building phase.
 
 **Fitness Assessment**
-Tom, your consistent Z2 heart rate (48 out of 54 recorded zones) paired with an average pace around 9:30-9:45/mi and steady power output (e.g., 254W on 13.01mi and 9.02mi runs) indicates a strong aerobic base. The recent 🏆 PRs, like the 8:58 mile and 5K in 28:09 on August 8th, show promising development in speed and endurance.
+Tom, your recent runs show excellent aerobic development, with your average HR consistently in Zone 2 (139-154 bpm) even on longer efforts like the 13.01mi run at a 9:44/mi pace. The observed 6bpm downward trend in HR for similar efforts is a clear sign of improved aerobic efficiency. Your ability to sustain around 250-259W and hit sub-9:00/mi best efforts (e.g., 8:54/mi on 7/29) demonstrates good power and untapped speed.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your consistent Z2 heart rate (48 out of 54 recorded zones) paired with an 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-11 11:35:16 UTC | Run ID: 31487284982*
+*Last updated: 2026-08-12 11:37:14 UTC | Run ID: 31592654796*
