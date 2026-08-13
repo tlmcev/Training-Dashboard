@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Althea” - Grateful Dead | 3.02mi | 8:12/mi | 153bpm (Z2) | 2026-08-12 |
 | “Murder on the Dancefloor” - Royal Otis | 3.04mi | 9:15/mi | 139bpm (Z2) | 2026-08-11 |
 | “Lola” - The Kinks | 9.02mi | 9:31/mi | 154bpm (Z2) | 2026-08-08 |
 | Lunch Run | 3.27mi | 10:45/mi | 131bpm (Z2) | 2026-08-07 |
 | “Like a Prayer” - Madonna | 13.01mi | 9:44/mi | 154bpm (Z2) | 2026-08-01 |
-| Lunch Run | 1.22mi | 8:12/mi | 145bpm (Z2) | 2026-07-31 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 7. You're 80 days out from NYC, and we're entering a crucial building phase.
+Alright Tom, let's get you dialed in for Week 7 of your NYC Marathon training.
 
 **Fitness Assessment**
-Tom, your recent runs show excellent aerobic development, with your average HR consistently in Zone 2 (139-154 bpm) even on longer efforts like the 13.01mi run at a 9:44/mi pace. The observed 6bpm downward trend in HR for similar efforts is a clear sign of improved aerobic efficiency. Your ability to sustain around 250-259W and hit sub-9:00/mi best efforts (e.g., 8:54/mi on 7/29) demonstrates good power and untapped speed.
+Your recent runs show solid aerobic development, maintaining Z2 for the majority of your efforts (50% Z2, 6% Z3) even with varied paces from 8:12/mi to 10:45/mi. The consistent achievement of PRs, like the 6 PRs on August 12 and the 20 PRs on July 25, demonstrates improving fitness and efficiency, with watts ranging from 242W to 291W. However, your sharply declining weekly mileage over the last four weeks (from 23.7mi to 6.1mi) is a significant concern for building marathon endurance, despite your strong predicted marathon time of 4:17:09.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent runs show excellent aerobic development, with your average HR c
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-12 11:37:14 UTC | Run ID: 31592654796*
+*Last updated: 2026-08-13 11:37:23 UTC | Run ID: 31696309672*
