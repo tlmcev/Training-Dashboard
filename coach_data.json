@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-08-13 11:37:23",
+  "updated_at": "2026-08-14 11:35:13",
   "current_week": 7,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19731646456,
+      "name": "\u201cShe\u2019s a Rainbow\u201d -The Rolling Stones",
+      "date": "2026-08-13",
+      "distance_miles": 4.21,
+      "moving_time_sec": 2566,
+      "pace_per_mile": "10:09",
+      "pace_seconds": 609.5,
+      "elevation_ft": 171.0,
+      "avg_hr": 142,
+      "hr_zone": "Z2",
+      "suffer_score": 33.0,
+      "max_hr": 156.0,
+      "avg_watts": 237,
+      "avg_cadence": null,
+      "fastest_mile": "9:22",
+      "fastest_5k": "30:35",
+      "pr_count": 0
+    },
     {
       "id": 19710344135,
       "name": "\u201cAlthea\u201d - Grateful Dead",
@@ -187,10 +206,10 @@
       "avg_hr": 134,
       "hr_zone": "Z2",
       "suffer_score": 13.0,
-      "max_hr": 150.0,
-      "avg_watts": 242,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "9:29",
+      "fastest_mile": null,
       "fastest_5k": null,
       "pr_count": 0
     },
@@ -1160,7 +1179,7 @@
     },
     {
       "week_start": "2026-08-10",
-      "miles": 6.1
+      "miles": 10.3
     }
   ],
   "ae_trend": [
@@ -1667,72 +1686,81 @@
       "dist": 3.02,
       "marathon_pred": "3:41:12",
       "marathon_sec": 13272
+    },
+    {
+      "date": "2026-08-13",
+      "name": "\u201cShe\u2019s a Rainbow\u201d -The Rolling Stones",
+      "ae": 1.116,
+      "hr": 142,
+      "dist": 4.21,
+      "marathon_pred": "4:14:06",
+      "marathon_sec": 15246
     }
   ],
   "weather": [
     {
-      "date": "2026-08-13",
-      "high": 88,
-      "low": 72,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
-    {
       "date": "2026-08-14",
-      "high": 86,
-      "low": 67,
+      "high": 88,
+      "low": 69,
       "precip": 0.0,
       "windspeed": 8,
       "code": 3
     },
     {
       "date": "2026-08-15",
-      "high": 83,
-      "low": 70,
+      "high": 84,
+      "low": 65,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 8,
       "code": 3
     },
     {
       "date": "2026-08-16",
-      "high": 76,
-      "low": 72,
-      "precip": 0.65,
-      "windspeed": 18,
-      "code": 80
+      "high": 80,
+      "low": 71,
+      "precip": 0.0,
+      "windspeed": 16,
+      "code": 51
     },
     {
       "date": "2026-08-17",
-      "high": 86,
+      "high": 84,
       "low": 71,
-      "precip": 0.05,
-      "windspeed": 12,
-      "code": 53
+      "precip": 0.47,
+      "windspeed": 13,
+      "code": 81
     },
     {
       "date": "2026-08-18",
       "high": 86,
       "low": 72,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 11,
       "code": 1
     },
     {
       "date": "2026-08-19",
-      "high": 90,
-      "low": 75,
-      "precip": 0.0,
+      "high": 87,
+      "low": 74,
+      "precip": 0.01,
       "windspeed": 13,
-      "code": 3
+      "code": 51
+    },
+    {
+      "date": "2026-08-20",
+      "high": 92,
+      "low": 76,
+      "precip": 0.06,
+      "windspeed": 13,
+      "code": 51
     }
   ],
-  "avg_pace_sec": 564.9,
+  "avg_pace_sec": 565.7,
   "predictions": {
-    "5k": "26:46",
-    "10k": "55:49",
-    "half": "2:03:20",
-    "marathon": "4:17:09"
+    "5k": "26:48",
+    "10k": "55:53",
+    "half": "2:03:31",
+    "marathon": "4:17:31"
   },
   "pace_zones": {
     "Z1": {
@@ -1768,11 +1796,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 50,
+    "Z2": 51,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for Week 7 of your NYC Marathon training.\n\n**Fitness Assessment**\nYour recent runs show solid aerobic development, maintaining Z2 for the majority of your efforts (50% Z2, 6% Z3) even with varied paces from 8:12/mi to 10:45/mi. The consistent achievement of PRs, like the 6 PRs on August 12 and the 20 PRs on July 25, demonstrates improving fitness and efficiency, with watts ranging from 242W to 291W. However, your sharply declining weekly mileage over the last four weeks (from 23.7mi to 6.1mi) is a significant concern for building marathon endurance, despite your strong predicted marathon time of 4:17:09.\n\n**This Week's Focus**\nThis week, prioritize rebuilding your mileage base while maintaining intensity where prescribed. For your 4-mile runs and 14-mile long run, target an easy Z2 effort, keeping your heart rate between 124-154 bpm, aiming for a comfortable pace in the 9:30-10:00/mi range. Your 7-mile pace run on Wednesday should challenge you, targeting Z3 (155-169 bpm) with a pace around 8:30-8:45/mi, similar to your recent \"best mile\" efforts, ensuring you push without overexerting given the recent HR trend.\n\n**Key Priorities**\n*   **Reverse the Mileage Trend:** Actively work to complete all prescribed runs this week to begin rebuilding your weekly mileage from the recent low of 6.1mi, crucial for marathon readiness.\n*   **Maintain Z2 Discipline:** Keep your easy runs, including the 14-miler, strictly within Zone 2 (124-154 bpm) to ensure proper aerobic development and recovery, especially with the observed upward HR trend.\n*   **Hydration & Heat Acclimation:** With upcoming temperatures reaching high 80s and low 90s, prioritize pre- and post-run hydration and consider adjusting pace downwards on warmer days to keep HR in check.\n\n**Watch Out For**\nBe highly vigilant of your rising heart rate; the +5bpm trend over your last six runs is a significant fatigue signal. This indicates your body is working harder than usual for similar efforts, so listen closely to your body and don't hesitate to slow down or take extra rest if needed to prevent overtraining.\n\n**Upcoming Milestones**\nThis Saturday's 14-mile long run is a significant milestone, marking your longest run in over a week and a crucial step in rebuilding your endurance base. Successfully completing this will set you up well as you approach the halfway point of your 18-week training cycle next week."
+  "advice": "Hey Tom, let's get you dialed in for the upcoming week and the NYC Marathon.\n\n**Fitness Assessment**\nTom's strong aerobic development is evident with consistent average heart rates in Z2 (e.g., 142-154 bpm) across most runs, indicating efficient fat burning. His speed potential is emerging, as seen in the 3.02mi run at 8:12/mi with 291W and max HR of 171bpm, leading to 6 recent PRs. Consistent PRs over various distances (e.g., 5K in 30:08 on Aug 8) further affirm improving fitness.\n\n**This Week's Focus**\nToday is a rest day, which is well-timed. For your upcoming 14-mile long run on Saturday, target an easy, conversational pace in your Z2 heart rate zone (124-154 bpm), aiming for paces around 9:45-10:45/mi. Sunday's cross-training should be active recovery, maintaining Z2 heart rate for overall fitness without impact.\n\n**Key Priorities**\n*   **Mileage Consistency:** Aim to hit the prescribed weekly mileage. Your recent trend of 10.3 miles last week is significantly below the Hal Higdon Novice 2 plan's ~29 miles for this week, which risks under-preparation.\n*   **Long Run Execution:** Successfully complete Saturday's 14-mile run, keeping HR in Z2 (124-154 bpm) and pace controlled (e.g., 9:45-10:45/mi) to build endurance.\n*   **Heat Management:** With forecasted highs of 80-88F this weekend, prioritize hydration and consider adjusting run times to cooler parts of the day to minimize heat stress.\n\n**Watch Out For**\nThe significant drop in weekly mileage, from 23.7mi four weeks ago to just 10.3mi last week, is a major concern. This inconsistency deviates from the Hal Higdon plan's progressive build and could hinder adaptation or increase injury risk when mileage increases again.\n\n**Upcoming Milestones**\nSuccessfully completing Saturday's 14-mile run will be a crucial step in rebuilding your long-run endurance, as it will be your longest run since the 13.01mi on August 1st. This will help get your training back on track for the marathon build."
 }

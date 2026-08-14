@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “She’s a Rainbow” -The Rolling Stones | 4.21mi | 10:09/mi | 142bpm (Z2) | 2026-08-13 |
 | “Althea” - Grateful Dead | 3.02mi | 8:12/mi | 153bpm (Z2) | 2026-08-12 |
 | “Murder on the Dancefloor” - Royal Otis | 3.04mi | 9:15/mi | 139bpm (Z2) | 2026-08-11 |
 | “Lola” - The Kinks | 9.02mi | 9:31/mi | 154bpm (Z2) | 2026-08-08 |
 | Lunch Run | 3.27mi | 10:45/mi | 131bpm (Z2) | 2026-08-07 |
-| “Like a Prayer” - Madonna | 13.01mi | 9:44/mi | 154bpm (Z2) | 2026-08-01 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 7 of your NYC Marathon training.
+Hey Tom, let's get you dialed in for the upcoming week and the NYC Marathon.
 
 **Fitness Assessment**
-Your recent runs show solid aerobic development, maintaining Z2 for the majority of your efforts (50% Z2, 6% Z3) even with varied paces from 8:12/mi to 10:45/mi. The consistent achievement of PRs, like the 6 PRs on August 12 and the 20 PRs on July 25, demonstrates improving fitness and efficiency, with watts ranging from 242W to 291W. However, your sharply declining weekly mileage over the last four weeks (from 23.7mi to 6.1mi) is a significant concern for building marathon endurance, despite your strong predicted marathon time of 4:17:09.
+Tom's strong aerobic development is evident with consistent average heart rates in Z2 (e.g., 142-154 bpm) across most runs, indicating efficient fat burning. His speed potential is emerging, as seen in the 3.02mi run at 8:12/mi with 291W and max HR of 171bpm, leading to 6 recent PRs. Consistent PRs over various distances (e.g., 5K in 30:08 on Aug 8) further affirm improving fitness.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Your recent runs show solid aerobic development, maintaining Z2 for the majority
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-13 11:37:23 UTC | Run ID: 31696309672*
+*Last updated: 2026-08-14 11:35:13 UTC | Run ID: 31796809595*
