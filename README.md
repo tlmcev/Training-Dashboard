@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, let's get you dialed in for the upcoming week and the NYC Marathon.
+Alright Tom, let's break down your progress and set a clear path for Week 7 of your NYC Marathon training. You're 77 days out, and consistency is key from here on.
 
 **Fitness Assessment**
-Tom's strong aerobic development is evident with consistent average heart rates in Z2 (e.g., 142-154 bpm) across most runs, indicating efficient fat burning. His speed potential is emerging, as seen in the 3.02mi run at 8:12/mi with 291W and max HR of 171bpm, leading to 6 recent PRs. Consistent PRs over various distances (e.g., 5K in 30:08 on Aug 8) further affirm improving fitness.
+Tom exhibits a strong aerobic base, consistently completing long runs up to 13.01 miles at a 9:44/mi pace with an average HR of 154 bpm (Z2). His recent PRs, including a 7:51 mile and a 28:09 5K, demonstrate developing speed, supported by consistent power outputs between 250-290W even as his pace varies. Overall, your ability to maintain Z2 across varied distances and efforts (51% Z2 distribution) points to good endurance, but there's room to integrate more Z3 work.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom's strong aerobic development is evident with consistent average heart rates 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-14 11:35:13 UTC | Run ID: 31796809595*
+*Last updated: 2026-08-15 11:08:42 UTC | Run ID: 31881297270*
