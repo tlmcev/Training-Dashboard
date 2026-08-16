@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-08-15 11:08:42",
+  "updated_at": "2026-08-16 11:09:49",
   "current_week": 7,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19753996864,
+      "name": "\u201cMan I Need\u201d - Olivia Dean",
+      "date": "2026-08-15",
+      "distance_miles": 14.2,
+      "moving_time_sec": 8486,
+      "pace_per_mile": "9:57",
+      "pace_seconds": 597.6,
+      "elevation_ft": 267.0,
+      "avg_hr": 144,
+      "hr_zone": "Z2",
+      "suffer_score": 127.0,
+      "max_hr": 165.0,
+      "avg_watts": 246,
+      "avg_cadence": null,
+      "fastest_mile": "9:06",
+      "fastest_5k": "30:26",
+      "pr_count": 0
+    },
     {
       "id": 19731646456,
       "name": "\u201cShe\u2019s a Rainbow\u201d -The Rolling Stones",
@@ -187,11 +206,11 @@
       "avg_hr": 147,
       "hr_zone": "Z2",
       "suffer_score": 129.0,
-      "max_hr": 161.0,
-      "avg_watts": 255,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "9:06",
-      "fastest_5k": "28:42",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 20
     },
     {
@@ -1179,7 +1198,7 @@
     },
     {
       "week_start": "2026-08-10",
-      "miles": 10.3
+      "miles": 24.5
     }
   ],
   "ae_trend": [
@@ -1695,72 +1714,81 @@
       "dist": 4.21,
       "marathon_pred": "4:14:06",
       "marathon_sec": 15246
+    },
+    {
+      "date": "2026-08-15",
+      "name": "\u201cMan I Need\u201d - Olivia Dean",
+      "ae": 1.122,
+      "hr": 144,
+      "dist": 14.2,
+      "marathon_pred": "4:12:45",
+      "marathon_sec": 15165
     }
   ],
   "weather": [
     {
-      "date": "2026-08-15",
-      "high": 84,
-      "low": 65,
-      "precip": 0.0,
-      "windspeed": 9,
-      "code": 1
-    },
-    {
       "date": "2026-08-16",
       "high": 82,
-      "low": 63,
-      "precip": 0.07,
-      "windspeed": 13,
-      "code": 55
+      "low": 68,
+      "precip": 0.1,
+      "windspeed": 16,
+      "code": 61
     },
     {
       "date": "2026-08-17",
-      "high": 88,
+      "high": 86,
       "low": 68,
-      "precip": 0.18,
-      "windspeed": 16,
-      "code": 63
+      "precip": 5.46,
+      "windspeed": 15,
+      "code": 65
     },
     {
       "date": "2026-08-18",
-      "high": 85,
+      "high": 83,
       "low": 73,
-      "precip": 0.0,
-      "windspeed": 8,
-      "code": 3
+      "precip": 0.02,
+      "windspeed": 10,
+      "code": 51
     },
     {
       "date": "2026-08-19",
-      "high": 86,
-      "low": 75,
+      "high": 87,
+      "low": 74,
       "precip": 0.0,
-      "windspeed": 12,
+      "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-08-20",
-      "high": 85,
+      "high": 81,
       "low": 71,
-      "precip": 0.29,
-      "windspeed": 9,
-      "code": 55
+      "precip": 0.08,
+      "windspeed": 11,
+      "code": 53
     },
     {
       "date": "2026-08-21",
-      "high": 84,
-      "low": 69,
+      "high": 75,
+      "low": 61,
+      "precip": 1.35,
+      "windspeed": 11,
+      "code": 63
+    },
+    {
+      "date": "2026-08-22",
+      "high": 75,
+      "low": 65,
       "precip": 0.0,
-      "windspeed": 12,
+      "windspeed": 10,
       "code": 3
     }
   ],
-  "avg_pace_sec": 565.7,
+  "avg_pace_sec": 566.3,
   "predictions": {
-    "5k": "26:48",
-    "10k": "55:53",
-    "half": "2:03:31",
-    "marathon": "4:17:31"
+    "5k": "26:50",
+    "10k": "55:57",
+    "half": "2:03:38",
+    "marathon": "4:17:46"
   },
   "pace_zones": {
     "Z1": {
@@ -1796,11 +1824,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 51,
+    "Z2": 52,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's break down your progress and set a clear path for Week 7 of your NYC Marathon training. You're 77 days out, and consistency is key from here on.\n\n**Fitness Assessment**\nTom exhibits a strong aerobic base, consistently completing long runs up to 13.01 miles at a 9:44/mi pace with an average HR of 154 bpm (Z2). His recent PRs, including a 7:51 mile and a 28:09 5K, demonstrate developing speed, supported by consistent power outputs between 250-290W even as his pace varies. Overall, your ability to maintain Z2 across varied distances and efforts (51% Z2 distribution) points to good endurance, but there's room to integrate more Z3 work.\n\n**This Week's Focus**\nThis week's schedule prioritizes building endurance with two 4-mile easy runs and Saturday's 14-mile long run, all to be completed in Zone 2 (124-154 bpm) at a comfortable pace, likely 9:45-10:30/mi. Wednesday's 7-mile pace run is crucial for developing speed endurance; aim to sustain a pace around 8:30-8:45/mi, targeting an average heart rate in Zone 3 (155-169 bpm). For Saturday's long run, focus on consistency, mirroring your 13.01mi effort at 9:44/mi while remaining in Z2.\n\n**Key Priorities**\n*   **Reverse Mileage Decline:** Prioritize completing all scheduled runs this week to reverse the concerning drop in weekly mileage from 23.7mi to 10.3mi over the past month. Successfully hitting 14 miles on Saturday is key to rebuilding your endurance base.\n*   **Hit Z3 on Pace Run:** Actively target an average heart rate in Zone 3 (155-169 bpm) during Wednesday's 7-mile pace run to develop your speed endurance, moving beyond your predominant Z2 efforts (6% Z3 distribution).\n*   **Maintain Z2 for Long Run:** Ensure Saturday's 14-mile long run is executed with an average heart rate firmly in Zone 2 (124-154 bpm), similar to your 13.01mi run at 154bpm, to maximize aerobic development without overtraining.\n\n**Watch Out For**\nThe most critical red flag is the significant and continuous decline in your weekly mileage, dropping from 23.7mi to 10.3mi over the last four weeks. This trend is unsustainable for marathon preparation and must be reversed immediately to build the necessary endurance.\n\n**Upcoming Milestones**\nSuccessfully completing Saturday's 14-mile long run will be a significant milestone, marking your longest distance since your 13.01mi run on August 1st"
+  "advice": "Alright Tom, let's get you set for Week 7. You're making solid progress, and we're entering a crucial phase of building endurance.\n\n**Fitness Assessment**\nYour aerobic base is developing well, consistently logging long runs like the 14.2mi @ 9:57/mi and 13.01mi @ 9:44/mi, both comfortably within Zone 2 (avg HR 144bpm and 154bpm respectively). Your ability to hold a strong pace, as seen in your 3.02mi @ 8:12/mi with an average HR of 153bpm (still Z2) and 291W, demonstrates improving efficiency and power. The frequent PRs in recent weeks indicate positive progress in speed and endurance.\n\n**This Week's Focus**\nFor your **Tuesday (4m run) & Thursday (4m run)**, aim for an easy, conversational pace, targeting Zone 2 (124-154bpm), likely in the 9:45-10:15/mi range, similar to your recent long runs. **Wednesday's 7m pace run** is a key workout to push the pace; target Zone 3 (155-169bpm), which should translate to a pace closer to your recent 8:12/mi efforts, perhaps 8:45-9:15/mi for the duration. On **Saturday's 14m**, maintain your strong Zone 2 effort (124-154bpm), keeping the pace controlled around 9:45-10:15/mi, similar to your 14.2mi run last week.\n\n**Key Priorities**\n*   **Pace Run Execution:** On Wednesday's 7-mile pace run, actively push into Zone 3 (155-169bpm) to build speed endurance, aiming for a consistent sub-9:00/mi pace.\n*   **Z2 Consistency:** Ensure all easy runs (Tuesday, Thursday, Saturday) remain firmly in Zone 2 (124-154bpm), resisting the urge to push too hard, especially given the challenging weather.\n*   **Weather Adaptation:** With rain, high humidity, and wind forecasted all week, prioritize hydration and adjust paces as needed; an extra 15-30 seconds per mile on easy runs is acceptable to maintain Z2.\n\n**Watch Out For**\nThe significant drop in weekly mileage from 23.7mi to 12.3mi two weeks ago, followed by a jump to 24.5mi last week, could indicate inconsistent training or a need for better recovery planning. Monitor for any signs of fatigue or soreness, especially with this week's 14-mile long run.\n\n**Upcoming Milestones**\nThis week marks the longest run in your plan so far at 14 miles, building crucial endurance as you approach the halfway point of your marathon training block."
 }
