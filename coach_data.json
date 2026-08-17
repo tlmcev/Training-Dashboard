@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-16 11:09:49",
-  "current_week": 7,
+  "updated_at": "2026-08-17 11:14:46",
+  "current_week": 8,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
@@ -1727,59 +1727,59 @@
   ],
   "weather": [
     {
-      "date": "2026-08-16",
-      "high": 82,
-      "low": 68,
-      "precip": 0.1,
-      "windspeed": 16,
-      "code": 61
-    },
-    {
       "date": "2026-08-17",
-      "high": 86,
+      "high": 85,
       "low": 68,
-      "precip": 5.46,
-      "windspeed": 15,
-      "code": 65
+      "precip": 0.31,
+      "windspeed": 8,
+      "code": 63
     },
     {
       "date": "2026-08-18",
-      "high": 83,
-      "low": 73,
-      "precip": 0.02,
-      "windspeed": 10,
-      "code": 51
-    },
-    {
-      "date": "2026-08-19",
-      "high": 87,
-      "low": 74,
+      "high": 88,
+      "low": 70,
       "precip": 0.0,
       "windspeed": 14,
       "code": 3
     },
     {
+      "date": "2026-08-19",
+      "high": 89,
+      "low": 72,
+      "precip": 0.0,
+      "windspeed": 10,
+      "code": 3
+    },
+    {
       "date": "2026-08-20",
-      "high": 81,
-      "low": 71,
-      "precip": 0.08,
-      "windspeed": 11,
-      "code": 53
+      "high": 88,
+      "low": 78,
+      "precip": 0.03,
+      "windspeed": 13,
+      "code": 51
     },
     {
       "date": "2026-08-21",
-      "high": 75,
-      "low": 61,
-      "precip": 1.35,
+      "high": 82,
+      "low": 72,
+      "precip": 0.0,
       "windspeed": 11,
-      "code": 63
+      "code": 3
     },
     {
       "date": "2026-08-22",
-      "high": 75,
-      "low": 65,
+      "high": 76,
+      "low": 73,
+      "precip": 0.02,
+      "windspeed": 6,
+      "code": 51
+    },
+    {
+      "date": "2026-08-23",
+      "high": 87,
+      "low": 71,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 13,
       "code": 3
     }
   ],
@@ -1830,5 +1830,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you set for Week 7. You're making solid progress, and we're entering a crucial phase of building endurance.\n\n**Fitness Assessment**\nYour aerobic base is developing well, consistently logging long runs like the 14.2mi @ 9:57/mi and 13.01mi @ 9:44/mi, both comfortably within Zone 2 (avg HR 144bpm and 154bpm respectively). Your ability to hold a strong pace, as seen in your 3.02mi @ 8:12/mi with an average HR of 153bpm (still Z2) and 291W, demonstrates improving efficiency and power. The frequent PRs in recent weeks indicate positive progress in speed and endurance.\n\n**This Week's Focus**\nFor your **Tuesday (4m run) & Thursday (4m run)**, aim for an easy, conversational pace, targeting Zone 2 (124-154bpm), likely in the 9:45-10:15/mi range, similar to your recent long runs. **Wednesday's 7m pace run** is a key workout to push the pace; target Zone 3 (155-169bpm), which should translate to a pace closer to your recent 8:12/mi efforts, perhaps 8:45-9:15/mi for the duration. On **Saturday's 14m**, maintain your strong Zone 2 effort (124-154bpm), keeping the pace controlled around 9:45-10:15/mi, similar to your 14.2mi run last week.\n\n**Key Priorities**\n*   **Pace Run Execution:** On Wednesday's 7-mile pace run, actively push into Zone 3 (155-169bpm) to build speed endurance, aiming for a consistent sub-9:00/mi pace.\n*   **Z2 Consistency:** Ensure all easy runs (Tuesday, Thursday, Saturday) remain firmly in Zone 2 (124-154bpm), resisting the urge to push too hard, especially given the challenging weather.\n*   **Weather Adaptation:** With rain, high humidity, and wind forecasted all week, prioritize hydration and adjust paces as needed; an extra 15-30 seconds per mile on easy runs is acceptable to maintain Z2.\n\n**Watch Out For**\nThe significant drop in weekly mileage from 23.7mi to 12.3mi two weeks ago, followed by a jump to 24.5mi last week, could indicate inconsistent training or a need for better recovery planning. Monitor for any signs of fatigue or soreness, especially with this week's 14-mile long run.\n\n**Upcoming Milestones**\nThis week marks the longest run in your plan so far at 14 miles, building crucial endurance as you approach the halfway point of your marathon training block."
+  "advice": "Alright Tom, let's get you ready for Week 8 of your NYC Marathon build. Today is Monday, August 17, 2026, and we've got 75 days until race day.\n\n### **Fitness Assessment**\nTom, you're showing excellent aerobic development, consistently handling long runs like your recent 14.2 miles at a 9:57/mi pace with an average HR of 144 bpm, well within Zone 2. Your recent PRs, including a 5K best of 28:09 and faster efforts like 8:12/mi with 291W, demonstrate a good blend of endurance and developing speed. This solid base positions you well as we approach the higher mileage weeks.\n\n### **This Week's Focus**\nThis week brings a significant mileage increase. For your **Tuesday (4m) and Thursday (4m) runs**, aim for an easy, conversational pace around 9:45-10:15/mi, keeping your average HR in the low-to-mid Zone 2 (135-145 bpm). Your **Wednesday (7m) run** should be a steady effort, targeting 9:30-9:50/mi with an average HR in the upper Zone 2 (145-150 bpm). Finally, your **Saturday (15m) long run** is all about endurance; prioritize a comfortable, sustainable pace of 10:00-10:30/mi, keeping your average HR in the low to mid-Zone 2 (138-148 bpm), especially given the warm weather forecast.\n\n### **Key Priorities**\n*   **Manage the Mileage Jump:** This week's 30 miles is a notable increase from last week's 24.5 miles; prioritize recovery and don't hesitate to slow down if you feel fatigued, especially on the 15-mile long run.\n*   **Maintain Aerobic Focus:** While your long runs are excellent, ensure your shorter runs, like the 3.02mi at 8:12/mi (avg HR 153 bpm), consistently stay in Zone 2 on average to build your aerobic engine without overtaxing your system.\n*   **Hydrate and Adapt to Heat:** With high temperatures and humidity expected all week, focus on consistent hydration before, during, and after runs, and be prepared to adjust your paces significantly slower to maintain your target heart rate zones.\n\n### **Watch Out For**\nThe dip in your weekly mileage to 12.3 miles three weeks ago, followed by a jump to 24.5 miles and now 30 miles this week, could potentially put stress on your body. Be highly vigilant for any unusual aches or pains, as rapid mileage increases can heighten injury risk.\n\n### **Upcoming Milestones**\nThis Saturday's 15-mile run will be your longest training run to date, a fantastic personal best that signifies a major step forward in your preparation for the NYC Marathon."
 }

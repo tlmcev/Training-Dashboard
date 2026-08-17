@@ -16,18 +16,18 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you set for Week 7. You're making solid progress, and we're entering a crucial phase of building endurance.
+Alright Tom, let's get you ready for Week 8 of your NYC Marathon build. Today is Monday, August 17, 2026, and we've got 75 days until race day.
 
-**Fitness Assessment**
-Your aerobic base is developing well, consistently logging long runs like the 14.2mi @ 9:57/mi and 13.01mi @ 9:44/mi, both comfortably within Zone 2 (avg HR 144bpm and 154bpm respectively). Your ability to hold a strong pace, as seen in your 3.02mi @ 8:12/mi with an average HR of 153bpm (still Z2) and 291W, demonstrates improving efficiency and power. The frequent PRs in recent weeks indicate positive progress in speed and endurance.
+### **Fitness Assessment**
+Tom, you're showing excellent aerobic development, consistently handling long runs like your recent 14.2 miles at a 9:57/mi pace with an average HR of 144 bpm, well within Zone 2. Your recent PRs, including a 5K best of 28:09 and faster efforts like 8:12/mi with 291W, demonstrate a good blend of endurance and developing speed. This solid base positions you well as we approach the higher mileage weeks.
 
-**This Week's Focus**
+### **This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 7 of 18**
+**Current week: 8 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ Your aerobic base is developing well, consistently logging long runs like the 14
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-16 11:09:49 UTC | Run ID: 31943573698*
+*Last updated: 2026-08-17 11:14:46 UTC | Run ID: 32024000673*
