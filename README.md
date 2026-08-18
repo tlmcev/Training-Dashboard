@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for Week 8 of your NYC Marathon build. Today is Monday, August 17, 2026, and we've got 75 days until race day.
+Alright Tom, let's get you dialed in for Week 8 of your NYC Marathon training. Today is Tuesday, August 18th, and we're 74 days out from race day.
 
 ### **Fitness Assessment**
-Tom, you're showing excellent aerobic development, consistently handling long runs like your recent 14.2 miles at a 9:57/mi pace with an average HR of 144 bpm, well within Zone 2. Your recent PRs, including a 5K best of 28:09 and faster efforts like 8:12/mi with 291W, demonstrate a good blend of endurance and developing speed. This solid base positions you well as we approach the higher mileage weeks.
+Tom, your consistent Z2 heart rate averages (e.g., 144bpm for 14.2mi) across recent long runs demonstrate a solid aerobic base for marathon training. You're efficiently maintaining paces around 9:30-10:00/mi while staying within the Z2 target (124-154bpm), indicating good endurance development. The frequent PRs in shorter segments within longer runs (e.g., 6 PRs on 8/12) also point to improving fitness and strength.
 
 ### **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you're showing excellent aerobic development, consistently handling long ru
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-17 11:14:46 UTC | Run ID: 32024000673*
+*Last updated: 2026-08-18 11:13:56 UTC | Run ID: 32130691298*
