@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 8 of your NYC Marathon training. Today is Tuesday, August 18th, and we're 74 days out from race day.
+Alright Tom, let's get you ready for a strong week of training as we push towards the NYC Marathon.
 
-### **Fitness Assessment**
-Tom, your consistent Z2 heart rate averages (e.g., 144bpm for 14.2mi) across recent long runs demonstrate a solid aerobic base for marathon training. You're efficiently maintaining paces around 9:30-10:00/mi while staying within the Z2 target (124-154bpm), indicating good endurance development. The frequent PRs in shorter segments within longer runs (e.g., 6 PRs on 8/12) also point to improving fitness and strength.
+**Fitness Assessment**
+Tom, your recent runs demonstrate excellent aerobic development, consistently maintaining Zone 2 heart rates (e.g., 144bpm average on your 14.2mi run) across various distances. Your ability to achieve 6 PRs on a 3.02mi run at an 8:12/mi pace with an average HR of 153bpm (high Z2) highlights your capacity to push within your aerobic limits. This consistent performance and strong Z2 presence (52% of recent HR data) provide a solid foundation for the demands of marathon training.
 
-### **This Week's Focus**
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your consistent Z2 heart rate averages (e.g., 144bpm for 14.2mi) across rec
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-18 11:13:56 UTC | Run ID: 32130691298*
+*Last updated: 2026-08-19 11:14:03 UTC | Run ID: 32246565268*
