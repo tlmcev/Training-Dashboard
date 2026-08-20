@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-08-19 11:14:03",
+  "updated_at": "2026-08-20 11:15:40",
   "current_week": 8,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19808174216,
+      "name": "\u201cHook\u201d - Blues Traveler",
+      "date": "2026-08-19",
+      "distance_miles": 3.17,
+      "moving_time_sec": 1833,
+      "pace_per_mile": "9:38",
+      "pace_seconds": 578.2,
+      "elevation_ft": 117.0,
+      "avg_hr": 141,
+      "hr_zone": "Z2",
+      "suffer_score": 22.0,
+      "max_hr": 154.0,
+      "avg_watts": 247,
+      "avg_cadence": null,
+      "fastest_mile": "9:25",
+      "fastest_5k": "29:44",
+      "pr_count": 0
+    },
     {
       "id": 19753996864,
       "name": "\u201cMan I Need\u201d - Olivia Dean",
@@ -187,10 +206,10 @@
       "avg_hr": 140,
       "hr_zone": "Z2",
       "suffer_score": 20.0,
-      "max_hr": 154.0,
-      "avg_watts": 256,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "9:08",
+      "fastest_mile": null,
       "fastest_5k": null,
       "pr_count": 0
     },
@@ -1199,6 +1218,10 @@
     {
       "week_start": "2026-08-10",
       "miles": 24.5
+    },
+    {
+      "week_start": "2026-08-17",
+      "miles": 3.2
     }
   ],
   "ae_trend": [
@@ -1723,72 +1746,81 @@
       "dist": 14.2,
       "marathon_pred": "4:12:45",
       "marathon_sec": 15165
+    },
+    {
+      "date": "2026-08-19",
+      "name": "\u201cHook\u201d - Blues Traveler",
+      "ae": 1.184,
+      "hr": 141,
+      "dist": 3.17,
+      "marathon_pred": "3:59:31",
+      "marathon_sec": 14371
     }
   ],
   "weather": [
     {
-      "date": "2026-08-19",
-      "high": 88,
-      "low": 68,
-      "precip": 0.0,
-      "windspeed": 10,
-      "code": 3
-    },
-    {
       "date": "2026-08-20",
       "high": 88,
-      "low": 69,
-      "precip": 0.5,
-      "windspeed": 14,
-      "code": 81
+      "low": 68,
+      "precip": 0.65,
+      "windspeed": 17,
+      "code": 65
     },
     {
       "date": "2026-08-21",
-      "high": 83,
-      "low": 70,
+      "high": 78,
+      "low": 67,
       "precip": 0.0,
       "windspeed": 11,
       "code": 3
     },
     {
       "date": "2026-08-22",
-      "high": 78,
-      "low": 72,
-      "precip": 0.0,
-      "windspeed": 14,
-      "code": 3
+      "high": 73,
+      "low": 68,
+      "precip": 0.33,
+      "windspeed": 11,
+      "code": 80
     },
     {
       "date": "2026-08-23",
-      "high": 78,
-      "low": 71,
-      "precip": 0.08,
-      "windspeed": 11,
-      "code": 53
+      "high": 84,
+      "low": 70,
+      "precip": 0.31,
+      "windspeed": 15,
+      "code": 80
     },
     {
       "date": "2026-08-24",
-      "high": 83,
-      "low": 69,
+      "high": 80,
+      "low": 65,
+      "precip": 0.0,
+      "windspeed": 16,
+      "code": 0
+    },
+    {
+      "date": "2026-08-25",
+      "high": 79,
+      "low": 64,
       "precip": 0.0,
       "windspeed": 10,
       "code": 3
     },
     {
-      "date": "2026-08-25",
-      "high": 80,
-      "low": 72,
-      "precip": 0.01,
-      "windspeed": 16,
-      "code": 51
+      "date": "2026-08-26",
+      "high": 78,
+      "low": 67,
+      "precip": 0.0,
+      "windspeed": 11,
+      "code": 3
     }
   ],
-  "avg_pace_sec": 566.3,
+  "avg_pace_sec": 566.5,
   "predictions": {
-    "5k": "26:50",
-    "10k": "55:57",
-    "half": "2:03:38",
-    "marathon": "4:17:46"
+    "5k": "26:51",
+    "10k": "55:58",
+    "half": "2:03:41",
+    "marathon": "4:17:51"
   },
   "pace_zones": {
     "Z1": {
@@ -1824,11 +1856,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 52,
+    "Z2": 53,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for a strong week of training as we push towards the NYC Marathon.\n\n**Fitness Assessment**\nTom, your recent runs demonstrate excellent aerobic development, consistently maintaining Zone 2 heart rates (e.g., 144bpm average on your 14.2mi run) across various distances. Your ability to achieve 6 PRs on a 3.02mi run at an 8:12/mi pace with an average HR of 153bpm (high Z2) highlights your capacity to push within your aerobic limits. This consistent performance and strong Z2 presence (52% of recent HR data) provide a solid foundation for the demands of marathon training.\n\n**This Week's Focus**\nFor your 7m run today and 4m run tomorrow, target an easy Zone 2 effort (124-154bpm), aiming for a comfortable pace around 9:45-10:15/mi, adjusting for the high temperatures. Your 15m long run on Saturday should also be a sustained Z2 effort, prioritizing endurance around 9:50-10:20/mi, mindful of the distance and potential wind. Sunday's cross-training should be active recovery, keeping your HR in Zone 2.\n\n**Key Priorities**\n*   **Maintain Z2 Discipline:** Ensure all easy and long runs this week stay firmly within Zone 2 (124-154bpm) to continue building your aerobic base, especially on the 15-mile long run.\n*   **Pace for Conditions:** With projected high temperatures (up to 88F) and humidity, prioritize perceived effort and heart rate over specific pace targets, allowing your pace to naturally slow to remain in Z2.\n*   **Hydration & Recovery:** Focus heavily on pre- and post-run hydration and electrolyte replenishment, particularly crucial for managing the heat and recovering effectively from your longest run yet.\n\n**Watch Out For**\nThe consistent forecast of high temperatures (88F-78F) and humidity throughout the week is a significant concern. These conditions will elevate your heart rate and perceived effort, making it challenging to stay in Zone 2 and increasing the risk of heat-related fatigue.\n\n**Upcoming Milestones**\nThis Saturday's 15-mile long run is your longest scheduled distance yet, marking a pivotal step in building marathon-specific endurance and confidence. Successfully completing this run will propel you further into the core of your training cycle, with the NYC Marathon just 73 days away."
+  "advice": "Here's your coaching brief for the week, Tom:\n\n**Fitness Assessment**\nYour recent runs demonstrate excellent aerobic adaptation, with your average heart rate trending down 6bpm over the last six runs while maintaining consistent paces around 9:30-10:00/mi, well within your Z2 target (124-154 bpm). Your ability to hit a faster 8:12/mi pace on August 12, achieving 6 PRs with 291W, shows good range and power when needed. Overall, you're building a strong base, consistently hitting Z2, and showing great progress.\n\n**This Week's Focus**\nThis week's plan calls for 26 miles of running, highlighted by a crucial 15-mile long run on Saturday. Given you've missed Tuesday's 4m and ran 3.17m instead of 7m on Wednesday, your immediate focus is to complete today's 4m and Saturday's 15m, aiming for a Z2 HR (124-154 bpm) and a comfortable 9:30-10:00/mi pace for these easy efforts. Ensure your Sunday cross-training is active recovery, keeping your HR in Z2-Z3.\n\n**Key Priorities**\n1.  **Adherence to Plan:** Your top priority is to complete the remaining scheduled runs: 4 miles today (Thursday) and the critical 15-mile long run on Saturday, to build back your weekly mileage.\n2.  **Aerobic Maintenance:** Continue to keep your easy run heart rate firmly in Zone 2 (below 154 bpm), as exemplified by your recent 3.17mi run at 141 bpm, to capitalize on your excellent aerobic adaptation.\n3.  **Pace and Power Consistency:** Aim for a steady effort on your long run, similar to your 14.2mi run at 9:57/mi with 246W, to build endurance without overexertion.\n\n**Watch Out For**\nThe significant deviation from your plan this week, having missed Tuesday's 4-mile run and running only 3.17 miles instead of 7 on Wednesday, is a red flag for consistency and overall weekly volume. Additionally, be cautious with today's hot (88F) and windy (17mph) conditions; prioritize hydration and adjust your pace to effort, not just speed, to prevent overheating.\n\n**Upcoming Milestones**\nThis Saturday's 15-mile long run marks your longest distance yet in this training block, a significant mental and physical test. Successfully completing it will build confidence as you approach the halfway point of your 18-week training plan next week, with only 72 days left until NYC."
 }
