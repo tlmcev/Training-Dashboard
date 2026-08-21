@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “New Shoes” - Paolo Nutini | 4.11mi | 8:44/mi | 152bpm (Z2) | 2026-08-20 |
 | “Hook” - Blues Traveler | 3.17mi | 9:38/mi | 141bpm (Z2) | 2026-08-19 |
 | “Man I Need” - Olivia Dean | 14.2mi | 9:57/mi | 144bpm (Z2) | 2026-08-15 |
 | “She’s a Rainbow” -The Rolling Stones | 4.21mi | 10:09/mi | 142bpm (Z2) | 2026-08-13 |
 | “Althea” - Grateful Dead | 3.02mi | 8:12/mi | 153bpm (Z2) | 2026-08-12 |
-| “Murder on the Dancefloor” - Royal Otis | 3.04mi | 9:15/mi | 139bpm (Z2) | 2026-08-11 |
 
 ## AI Coach Snapshot
 
-Here's your coaching brief for the week, Tom:
+Here's your coaching brief, Tom:
 
 **Fitness Assessment**
-Your recent runs demonstrate excellent aerobic adaptation, with your average heart rate trending down 6bpm over the last six runs while maintaining consistent paces around 9:30-10:00/mi, well within your Z2 target (124-154 bpm). Your ability to hit a faster 8:12/mi pace on August 12, achieving 6 PRs with 291W, shows good range and power when needed. Overall, you're building a strong base, consistently hitting Z2, and showing great progress.
+Tom, you're demonstrating solid aerobic development, consistently maintaining average heart rates in Zone 2 across varied paces, from 10:45/mi to a swift 8:12/mi. Your recent 4.11mi at 8:44/mi (274W) and the 3.02mi at 8:12/mi (291W) that garnered 6 PRs highlight good speed and power, indicating strong fitness as we build towards the marathon.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Your recent runs demonstrate excellent aerobic adaptation, with your average hea
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-20 11:15:40 UTC | Run ID: 32362935947*
+*Last updated: 2026-08-21 11:15:08 UTC | Run ID: 32476340671*

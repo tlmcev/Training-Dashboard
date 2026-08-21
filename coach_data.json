@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-08-20 11:15:40",
+  "updated_at": "2026-08-21 11:15:08",
   "current_week": 8,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19822732441,
+      "name": "\u201cNew Shoes\u201d - Paolo Nutini",
+      "date": "2026-08-20",
+      "distance_miles": 4.11,
+      "moving_time_sec": 2157,
+      "pace_per_mile": "8:44",
+      "pace_seconds": 524.8,
+      "elevation_ft": 175.0,
+      "avg_hr": 152,
+      "hr_zone": "Z2",
+      "suffer_score": 53.0,
+      "max_hr": 169.0,
+      "avg_watts": 274,
+      "avg_cadence": null,
+      "fastest_mile": "8:22",
+      "fastest_5k": "26:33",
+      "pr_count": 0
+    },
     {
       "id": 19808174216,
       "name": "\u201cHook\u201d - Blues Traveler",
@@ -187,10 +206,10 @@
       "avg_hr": 143,
       "hr_zone": "Z2",
       "suffer_score": 19.0,
-      "max_hr": 159.0,
-      "avg_watts": 250,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "8:54",
+      "fastest_mile": null,
       "fastest_5k": null,
       "pr_count": 0
     },
@@ -1221,7 +1240,7 @@
     },
     {
       "week_start": "2026-08-17",
-      "miles": 3.2
+      "miles": 7.3
     }
   ],
   "ae_trend": [
@@ -1755,72 +1774,81 @@
       "dist": 3.17,
       "marathon_pred": "3:59:31",
       "marathon_sec": 14371
+    },
+    {
+      "date": "2026-08-20",
+      "name": "\u201cNew Shoes\u201d - Paolo Nutini",
+      "ae": 1.21,
+      "hr": 152,
+      "dist": 4.11,
+      "marathon_pred": "3:54:22",
+      "marathon_sec": 14062
     }
   ],
   "weather": [
     {
-      "date": "2026-08-20",
-      "high": 88,
-      "low": 68,
-      "precip": 0.65,
-      "windspeed": 17,
-      "code": 65
-    },
-    {
       "date": "2026-08-21",
-      "high": 78,
-      "low": 67,
+      "high": 75,
+      "low": 64,
       "precip": 0.0,
       "windspeed": 11,
       "code": 3
     },
     {
       "date": "2026-08-22",
-      "high": 73,
-      "low": 68,
-      "precip": 0.33,
-      "windspeed": 11,
-      "code": 80
+      "high": 76,
+      "low": 66,
+      "precip": 0.0,
+      "windspeed": 8,
+      "code": 3
     },
     {
       "date": "2026-08-23",
       "high": 84,
-      "low": 70,
-      "precip": 0.31,
-      "windspeed": 15,
+      "low": 69,
+      "precip": 0.24,
+      "windspeed": 13,
       "code": 80
     },
     {
       "date": "2026-08-24",
-      "high": 80,
-      "low": 65,
+      "high": 82,
+      "low": 68,
       "precip": 0.0,
       "windspeed": 16,
-      "code": 0
+      "code": 3
     },
     {
       "date": "2026-08-25",
-      "high": 79,
-      "low": 64,
+      "high": 83,
+      "low": 68,
       "precip": 0.0,
-      "windspeed": 10,
-      "code": 3
+      "windspeed": 12,
+      "code": 0
     },
     {
       "date": "2026-08-26",
-      "high": 78,
-      "low": 67,
+      "high": 80,
+      "low": 72,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 15,
       "code": 3
+    },
+    {
+      "date": "2026-08-27",
+      "high": 78,
+      "low": 72,
+      "precip": 1.16,
+      "windspeed": 12,
+      "code": 81
     }
   ],
-  "avg_pace_sec": 566.5,
+  "avg_pace_sec": 565.8,
   "predictions": {
-    "5k": "26:51",
-    "10k": "55:58",
-    "half": "2:03:41",
-    "marathon": "4:17:51"
+    "5k": "26:49",
+    "10k": "55:54",
+    "half": "2:03:31",
+    "marathon": "4:17:32"
   },
   "pace_zones": {
     "Z1": {
@@ -1856,11 +1884,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 53,
+    "Z2": 54,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here's your coaching brief for the week, Tom:\n\n**Fitness Assessment**\nYour recent runs demonstrate excellent aerobic adaptation, with your average heart rate trending down 6bpm over the last six runs while maintaining consistent paces around 9:30-10:00/mi, well within your Z2 target (124-154 bpm). Your ability to hit a faster 8:12/mi pace on August 12, achieving 6 PRs with 291W, shows good range and power when needed. Overall, you're building a strong base, consistently hitting Z2, and showing great progress.\n\n**This Week's Focus**\nThis week's plan calls for 26 miles of running, highlighted by a crucial 15-mile long run on Saturday. Given you've missed Tuesday's 4m and ran 3.17m instead of 7m on Wednesday, your immediate focus is to complete today's 4m and Saturday's 15m, aiming for a Z2 HR (124-154 bpm) and a comfortable 9:30-10:00/mi pace for these easy efforts. Ensure your Sunday cross-training is active recovery, keeping your HR in Z2-Z3.\n\n**Key Priorities**\n1.  **Adherence to Plan:** Your top priority is to complete the remaining scheduled runs: 4 miles today (Thursday) and the critical 15-mile long run on Saturday, to build back your weekly mileage.\n2.  **Aerobic Maintenance:** Continue to keep your easy run heart rate firmly in Zone 2 (below 154 bpm), as exemplified by your recent 3.17mi run at 141 bpm, to capitalize on your excellent aerobic adaptation.\n3.  **Pace and Power Consistency:** Aim for a steady effort on your long run, similar to your 14.2mi run at 9:57/mi with 246W, to build endurance without overexertion.\n\n**Watch Out For**\nThe significant deviation from your plan this week, having missed Tuesday's 4-mile run and running only 3.17 miles instead of 7 on Wednesday, is a red flag for consistency and overall weekly volume. Additionally, be cautious with today's hot (88F) and windy (17mph) conditions; prioritize hydration and adjust your pace to effort, not just speed, to prevent overheating.\n\n**Upcoming Milestones**\nThis Saturday's 15-mile long run marks your longest distance yet in this training block, a significant mental and physical test. Successfully completing it will build confidence as you approach the halfway point of your 18-week training plan next week, with only 72 days left until NYC."
+  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nTom, you're demonstrating solid aerobic development, consistently maintaining average heart rates in Zone 2 across varied paces, from 10:45/mi to a swift 8:12/mi. Your recent 4.11mi at 8:44/mi (274W) and the 3.02mi at 8:12/mi (291W) that garnered 6 PRs highlight good speed and power, indicating strong fitness as we build towards the marathon.\n\n**This Week's Focus**\nToday is a rest day, followed by a crucial 15-mile long run on Saturday. For this long run, maintain a comfortable Zone 2"
 }
