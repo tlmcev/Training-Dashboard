@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here's your coaching brief, Tom:
+Alright Tom, let's get you ready for a strong Week 8 as we hit the 70-day countdown to NYC!
 
 **Fitness Assessment**
-Tom, you're demonstrating solid aerobic development, consistently maintaining average heart rates in Zone 2 across varied paces, from 10:45/mi to a swift 8:12/mi. Your recent 4.11mi at 8:44/mi (274W) and the 3.02mi at 8:12/mi (291W) that garnered 6 PRs highlight good speed and power, indicating strong fitness as we build towards the marathon.
+Your aerobic base is developing well, as evidenced by your ability to maintain Z2 heart rates (e.g., 153 bpm avg on an 8:12/mi run on 08-12) across various paces and distances. Longer runs, like the 14.2mi at 9:57/mi with an average HR of 144 bpm, demonstrate solid endurance within your target aerobic zone. Recent faster efforts, such as 4.11mi at 8:44/mi, show improving speed while generally staying within Z2.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you're demonstrating solid aerobic development, consistently maintaining av
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-21 11:15:08 UTC | Run ID: 32476340671*
+*Last updated: 2026-08-22 11:09:57 UTC | Run ID: 32569540372*

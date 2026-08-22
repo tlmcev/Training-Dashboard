@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21 11:15:08",
+  "updated_at": "2026-08-22 11:09:57",
   "current_week": 8,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -1787,60 +1787,60 @@
   ],
   "weather": [
     {
-      "date": "2026-08-21",
-      "high": 75,
-      "low": 64,
-      "precip": 0.0,
-      "windspeed": 11,
-      "code": 3
-    },
-    {
       "date": "2026-08-22",
-      "high": 76,
-      "low": 66,
+      "high": 75,
+      "low": 67,
       "precip": 0.0,
       "windspeed": 8,
       "code": 3
     },
     {
       "date": "2026-08-23",
-      "high": 84,
-      "low": 69,
-      "precip": 0.24,
-      "windspeed": 13,
+      "high": 79,
+      "low": 68,
+      "precip": 0.06,
+      "windspeed": 8,
       "code": 80
     },
     {
       "date": "2026-08-24",
-      "high": 82,
-      "low": 68,
-      "precip": 0.0,
-      "windspeed": 16,
-      "code": 3
-    },
-    {
-      "date": "2026-08-25",
-      "high": 83,
-      "low": 68,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 0
-    },
-    {
-      "date": "2026-08-26",
       "high": 80,
-      "low": 72,
+      "low": 68,
       "precip": 0.0,
       "windspeed": 15,
       "code": 3
     },
     {
-      "date": "2026-08-27",
-      "high": 78,
-      "low": 72,
-      "precip": 1.16,
+      "date": "2026-08-25",
+      "high": 80,
+      "low": 66,
+      "precip": 0.0,
+      "windspeed": 15,
+      "code": 51
+    },
+    {
+      "date": "2026-08-26",
+      "high": 82,
+      "low": 68,
+      "precip": 0.0,
       "windspeed": 12,
-      "code": 81
+      "code": 3
+    },
+    {
+      "date": "2026-08-27",
+      "high": 82,
+      "low": 70,
+      "precip": 1.91,
+      "windspeed": 18,
+      "code": 82
+    },
+    {
+      "date": "2026-08-28",
+      "high": 86,
+      "low": 71,
+      "precip": 0.15,
+      "windspeed": 14,
+      "code": 53
     }
   ],
   "avg_pace_sec": 565.8,
@@ -1890,5 +1890,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nTom, you're demonstrating solid aerobic development, consistently maintaining average heart rates in Zone 2 across varied paces, from 10:45/mi to a swift 8:12/mi. Your recent 4.11mi at 8:44/mi (274W) and the 3.02mi at 8:12/mi (291W) that garnered 6 PRs highlight good speed and power, indicating strong fitness as we build towards the marathon.\n\n**This Week's Focus**\nToday is a rest day, followed by a crucial 15-mile long run on Saturday. For this long run, maintain a comfortable Zone 2"
+  "advice": "Alright Tom, let's get you ready for a strong Week 8 as we hit the 70-day countdown to NYC!\n\n**Fitness Assessment**\nYour aerobic base is developing well, as evidenced by your ability to maintain Z2 heart rates (e.g., 153 bpm avg on an 8:12/mi run on 08-12) across various paces and distances. Longer runs, like the 14.2mi at 9:57/mi with an average HR of 144 bpm, demonstrate solid endurance within your target aerobic zone. Recent faster efforts, such as 4.11mi at 8:44/mi, show improving speed while generally staying within Z2.\n\n**This Week's Focus**\nThis week's running schedule includes a 15-mile long run today, followed by 4-mile and 7-mile runs mid-week. All runs should primarily target your Z2 heart rate zone (124-154 bpm) to continue building your aerobic base, aiming for paces generally between 9:00-10:00/mi for the longer efforts and potentially slightly faster (e.g., 8:45/mi) for the shorter runs if your HR remains in Z2. Remember to incorporate a cross-training session on Sunday and two rest days.\n\n**Key Priorities**\n*   **Consistent Z2 Effort**: Aim to keep all your runs, especially today's 15-miler, comfortably within your Z2 heart rate (124-154 bpm) to maximize aerobic development and recovery.\n*   **Rebuild Weekly Volume**: After a lower mileage week (7.3mi), successfully completing the planned 30 miles this week is crucial for consistency and adapting to increased load.\n*   **Smart Pacing on Long Run**: For today's 15-mile run, focus on a sustainable pace (e.g., 9:45-10:15/mi) that allows you to finish strong while keeping your HR in the Z2 range, similar to your 14.2mi run at 9:57/mi.\n\n**Watch Out For**\nBe mindful of the upcoming hot and humid NYC weather, especially during today's 15-mile long run, as it can significantly elevate heart rate and perceived effort. Your max HR has occasionally spiked into Z3 (e.g., 175 bpm on 08-01) even on Z2 average runs; focus on maintaining a consistent, controlled effort to avoid overexertion in the heat.\n\n**Upcoming Milestones**\nSuccessfully completing today's 15-mile long run will mark your longest training run to date in this cycle, building confidence and endurance as you continue towards the NYC Marathon. This is a significant step, putting you just 70 days away from race day."
 }
