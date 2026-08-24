@@ -16,18 +16,18 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for Week 8 of your NYC Marathon training. Today is Sunday, August 23, 2026, and we have 69 days until race day.
+Alright Tom, let's get you dialed in for Week 9 of your NYC Marathon training. Today is Monday, August 24, 2026, and you're 68 days out from race day.
 
-Here's your coaching brief for the upcoming week:
+---
 
 **Fitness Assessment**
-Your recent runs demonstrate a strong aerobic base, with 54% of your run time in Zone 2. You show good speed potential, hitting 8:12/mi for 3.02 miles with an average HR of 153 bpm (Z2) and 291W, while also comfortably managing a 14.2-mile run at 9:57/mi, keeping your HR at 144 bpm (Z2). This versatility in pace and consistent Zone 2 performance on longer efforts is excellent for marathon preparation.
+Tom, your aerobic base is looking strong; you consistently maintain Zone 2 heart rates, as seen in your 14.2mi run at 9:57/mi with an average HR of 144bpm. Your "Althea" run on 8/12, where you clocked 3.02mi at an impressive 8:12/mi pace within Z2 (153bpm) and achieved 6 PRs, demonstrates excellent efficiency and speed development within your aerobic capacity. The 54% Z2 distribution across your recent runs confirms a solid foundation, preparing you for the increased demands ahead.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 8 of 18**
+**Current week: 9 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ Your recent runs demonstrate a strong aerobic base, with 54% of your run time in
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-23 11:10:40 UTC | Run ID: 32635797275*
+*Last updated: 2026-08-24 11:16:37 UTC | Run ID: 32721012605*
