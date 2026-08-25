@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “I Wanna Cut To The Feeling” - Carly Rae Jepson | 15.15mi | 9:31/mi | 148bpm (Z2) | 2026-08-24 |
 | “New Shoes” - Paolo Nutini | 4.11mi | 8:44/mi | 152bpm (Z2) | 2026-08-20 |
 | “Hook” - Blues Traveler | 3.17mi | 9:38/mi | 141bpm (Z2) | 2026-08-19 |
 | “Man I Need” - Olivia Dean | 14.2mi | 9:57/mi | 144bpm (Z2) | 2026-08-15 |
 | “She’s a Rainbow” -The Rolling Stones | 4.21mi | 10:09/mi | 142bpm (Z2) | 2026-08-13 |
-| “Althea” - Grateful Dead | 3.02mi | 8:12/mi | 153bpm (Z2) | 2026-08-12 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 9 of your NYC Marathon training. Today is Monday, August 24, 2026, and you're 68 days out from race day.
-
----
+Alright Tom, let's get you dialed in for Week 9. Your training data paints a clear picture of an athlete making strong progress.
 
 **Fitness Assessment**
-Tom, your aerobic base is looking strong; you consistently maintain Zone 2 heart rates, as seen in your 14.2mi run at 9:57/mi with an average HR of 144bpm. Your "Althea" run on 8/12, where you clocked 3.02mi at an impressive 8:12/mi pace within Z2 (153bpm) and achieved 6 PRs, demonstrates excellent efficiency and speed development within your aerobic capacity. The 54% Z2 distribution across your recent runs confirms a solid foundation, preparing you for the increased demands ahead.
+Your recent long runs, like the 15.15mi at 9:31/mi on August 24th with an average HR of 148 bpm (Z2), demonstrate excellent aerobic development and endurance. Consistently maintaining 255W over such distances shows growing strength. The faster 3-4 mile efforts, such as 3.02mi at 8:12/mi on August 12th with a max HR touching Z3, highlight improving speed endurance and the ability to vary your pace effectively.
+
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your aerobic base is looking strong; you consistently maintain Zone 2 heart
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-24 11:16:37 UTC | Run ID: 32721012605*
+*Last updated: 2026-08-25 11:15:48 UTC | Run ID: 32841397519*

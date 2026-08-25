@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-08-24 11:16:37",
+  "updated_at": "2026-08-25 11:15:48",
   "current_week": 9,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19881471285,
+      "name": "\u201cI Wanna Cut To The Feeling\u201d - Carly Rae Jepson",
+      "date": "2026-08-24",
+      "distance_miles": 15.15,
+      "moving_time_sec": 8652,
+      "pace_per_mile": "9:31",
+      "pace_seconds": 571.1,
+      "elevation_ft": 325.0,
+      "avg_hr": 148,
+      "hr_zone": "Z2",
+      "suffer_score": 185.0,
+      "max_hr": 166.0,
+      "avg_watts": 255,
+      "avg_cadence": null,
+      "fastest_mile": "8:52",
+      "fastest_5k": "28:08",
+      "pr_count": 1
+    },
     {
       "id": 19822732441,
       "name": "\u201cNew Shoes\u201d - Paolo Nutini",
@@ -187,7 +206,7 @@
       "avg_hr": 145,
       "hr_zone": "Z2",
       "suffer_score": 11.0,
-      "max_hr": 157.0,
+      "max_hr": null,
       "avg_watts": null,
       "avg_cadence": null,
       "fastest_mile": null,
@@ -1241,6 +1260,10 @@
     {
       "week_start": "2026-08-17",
       "miles": 7.3
+    },
+    {
+      "week_start": "2026-08-24",
+      "miles": 15.2
     }
   ],
   "ae_trend": [
@@ -1783,63 +1806,72 @@
       "dist": 4.11,
       "marathon_pred": "3:54:22",
       "marathon_sec": 14062
+    },
+    {
+      "date": "2026-08-24",
+      "name": "\u201cI Wanna Cut To The Feeling\u201d - Carly Rae Jepson",
+      "ae": 1.142,
+      "hr": 148,
+      "dist": 15.15,
+      "marathon_pred": "4:08:19",
+      "marathon_sec": 14899
     }
   ],
   "weather": [
     {
-      "date": "2026-08-24",
-      "high": 82,
-      "low": 63,
+      "date": "2026-08-25",
+      "high": 81,
+      "low": 62,
       "precip": 0.0,
-      "windspeed": 13,
-      "code": 1
+      "windspeed": 11,
+      "code": 2
     },
     {
-      "date": "2026-08-25",
-      "high": 79,
-      "low": 61,
+      "date": "2026-08-26",
+      "high": 83,
+      "low": 63,
       "precip": 0.0,
       "windspeed": 10,
       "code": 3
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-08-27",
+      "high": 82,
+      "low": 72,
+      "precip": 0.37,
+      "windspeed": 17,
+      "code": 95
+    },
+    {
+      "date": "2026-08-28",
       "high": 83,
-      "low": 66,
+      "low": 72,
+      "precip": 0.41,
+      "windspeed": 14,
+      "code": 95
+    },
+    {
+      "date": "2026-08-29",
+      "high": 80,
+      "low": 65,
       "precip": 0.0,
       "windspeed": 13,
       "code": 3
     },
     {
-      "date": "2026-08-27",
-      "high": 80,
-      "low": 73,
-      "precip": 0.07,
-      "windspeed": 20,
-      "code": 53
-    },
-    {
-      "date": "2026-08-28",
-      "high": 84,
-      "low": 72,
+      "date": "2026-08-30",
+      "high": 76,
+      "low": 68,
       "precip": 0.0,
-      "windspeed": 15,
+      "windspeed": 13,
       "code": 3
     },
     {
-      "date": "2026-08-29",
-      "high": 83,
-      "low": 74,
-      "precip": 0.08,
-      "windspeed": 16,
-      "code": 51
-    },
-    {
-      "date": "2026-08-30",
+      "date": "2026-08-31",
       "high": 86,
-      "low": 72,
-      "precip": 0.07,
-      "windspeed": 9,
+      "low": 71,
+      "precip": 0.04,
+      "windspeed": 12,
       "code": 51
     }
   ],
@@ -1847,8 +1879,8 @@
   "predictions": {
     "5k": "26:49",
     "10k": "55:54",
-    "half": "2:03:31",
-    "marathon": "4:17:32"
+    "half": "2:03:33",
+    "marathon": "4:17:35"
   },
   "pace_zones": {
     "Z1": {
@@ -1884,11 +1916,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 54,
+    "Z2": 55,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for Week 9 of your NYC Marathon training. Today is Monday, August 24, 2026, and you're 68 days out from race day.\n\n---\n\n**Fitness Assessment**\nTom, your aerobic base is looking strong; you consistently maintain Zone 2 heart rates, as seen in your 14.2mi run at 9:57/mi with an average HR of 144bpm. Your \"Althea\" run on 8/12, where you clocked 3.02mi at an impressive 8:12/mi pace within Z2 (153bpm) and achieved 6 PRs, demonstrates excellent efficiency and speed development within your aerobic capacity. The 54% Z2 distribution across your recent runs confirms a solid foundation, preparing you for the increased demands ahead.\n\n**This Week's Focus**\nFor your 4-mile easy runs on Tuesday and Thursday, aim for a conversational pace around 9:45-10:15/mi, ensuring your heart rate remains comfortably in Zone 2 (124-154 bpm). Wednesday's 7-mile pace run is your opportunity to push slightly; target a pace of 9:20-9:30/mi, allowing your heart rate to climb into the lower end of Zone 3 (155-160 bpm) to practice race-specific effort. On Sunday, approach your Half Marathon long run at a steady, comfortable pace, similar to your 14.2mi effort, maintaining your HR within Zone 2 (124-154 bpm), likely around 9:50-10:20/mi.\n\n**Key Priorities**\n*   **Execute the Pace Run:** On Wednesday, make sure you hit the targeted 9:20-9:30/mi pace for your 7-mile run, allowing your HR to reach low Z3 (155-160 bpm) to build speed endurance.\n*   **Consistent Z2 for Long Run:** For Sunday's Half Marathon, prioritize maintaining your HR within Zone 2 (124-154 bpm) throughout, even if it means adjusting your pace due to the predicted high temperatures.\n*   **Heat & Hydration Management:** With upcoming highs in the 80s and increased humidity, focus on proactive hydration and consider running earlier or later in the day to mitigate heat stress.\n\n**Watch Out For**\nYour weekly mileage dropped significantly to just 7.3 miles last week (8/17), a sharp decrease from the 24.5 miles two weeks prior. Ensure you're consistently hitting your planned runs this week to rebuild your training volume and avoid losing the momentum you've built.\n\n**Upcoming Milestones**\nCompleting the Half Marathon on Sunday will be a crucial mental and physical milestone, marking your longest run of the training cycle and confirming your readiness for the increased distances ahead. You're also officially past the halfway point of your marathon training block \u2013 keep up the great work!"
+  "advice": "Alright Tom, let's get you dialed in for Week 9. Your training data paints a clear picture of an athlete making strong progress.\n\n**Fitness Assessment**\nYour recent long runs, like the 15.15mi at 9:31/mi on August 24th with an average HR of 148 bpm (Z2), demonstrate excellent aerobic development and endurance. Consistently maintaining 255W over such distances shows growing strength. The faster 3-4 mile efforts, such as 3.02mi at 8:12/mi on August 12th with a max HR touching Z3, highlight improving speed endurance and the ability to vary your pace effectively.\n\n**This Week's Focus**\n*   **Tuesday (4m run):** Focus on an easy, conversational pace, targeting 9:45-10:15/mi with HR in Zone 2 (135-145 bpm) to aid recovery from recent long runs and prepare for Wednesday.\n*   **Wednesday (7m pace):** This key workout should aim for a sustained effort in the 8:45-9:15/mi range, allowing your heart rate to comfortably settle into Zone 3 (155-165 bpm) to build your ability to hold a strong effort.\n*   **Thursday (4m run):** Another easy recovery run, similar to Tuesday. Keep the pace relaxed at 9:45-10:15/mi, maintaining HR in Zone 2 (135-145 bpm), especially important after Wednesday's pace effort.\n*   **Sunday (Half Marathon):** This long run should be a controlled effort, targeting a consistent pace of 9:20-9:40/mi. Your average heart rate should remain predominantly in Zone 2 (145-154 bpm), simulating marathon effort without overexertion.\n\n**Key Priorities**\n*   **Z2 Control on Easy Runs:** Given the warm forecast, ensure your average HR for Tuesday and Thursday's 4-mile runs stays firmly in Zone 2 (below 154 bpm), adjusting pace as needed, perhaps even slower than 10:00/mi.\n*   **Pace Run Execution:** For Wednesday's 7-mile pace run, focus on maintaining a consistent pace between 8:45-9:15/mi, allowing your HR to naturally rise and settle within Zone 3 (155-165 bpm) for the duration.\n*   **Half Marathon Fueling Practice:** Use Sunday's Half Marathon as a dress rehearsal for race day, diligently practicing your hydration and nutrition strategy by taking gels/fluids at regular 45-60 minute intervals.\n\n**Watch Out For**\nThe upcoming week's hot and humid weather, with highs in the 80s and potential thunderstorms, will significantly increase perceived effort and heart rate. Be prepared to adjust your paces downwards by 30-60 seconds per mile on all runs to stay within target heart rate zones and avoid overheating.\n\n**Upcoming Milestones**\nThis Sunday marks a significant training milestone with your Half Marathon long run, demonstrating your growing endurance and mental fortitude as you approach the final third of your marathon build."
 }
