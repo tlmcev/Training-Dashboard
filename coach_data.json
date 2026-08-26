@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25 11:15:48",
+  "updated_at": "2026-08-26 11:18:10",
   "current_week": 9,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -1819,14 +1819,6 @@
   ],
   "weather": [
     {
-      "date": "2026-08-25",
-      "high": 81,
-      "low": 62,
-      "precip": 0.0,
-      "windspeed": 11,
-      "code": 2
-    },
-    {
       "date": "2026-08-26",
       "high": 83,
       "low": 63,
@@ -1836,43 +1828,51 @@
     },
     {
       "date": "2026-08-27",
-      "high": 82,
-      "low": 72,
-      "precip": 0.37,
-      "windspeed": 17,
-      "code": 95
+      "high": 80,
+      "low": 68,
+      "precip": 0.06,
+      "windspeed": 15,
+      "code": 53
     },
     {
       "date": "2026-08-28",
-      "high": 83,
-      "low": 72,
-      "precip": 0.41,
-      "windspeed": 14,
-      "code": 95
+      "high": 87,
+      "low": 71,
+      "precip": 0.0,
+      "windspeed": 11,
+      "code": 3
     },
     {
       "date": "2026-08-29",
-      "high": 80,
-      "low": 65,
+      "high": 81,
+      "low": 70,
       "precip": 0.0,
-      "windspeed": 13,
+      "windspeed": 8,
       "code": 3
     },
     {
       "date": "2026-08-30",
-      "high": 76,
-      "low": 68,
+      "high": 85,
+      "low": 69,
       "precip": 0.0,
-      "windspeed": 13,
+      "windspeed": 12,
       "code": 3
     },
     {
       "date": "2026-08-31",
       "high": 86,
-      "low": 71,
-      "precip": 0.04,
+      "low": 75,
+      "precip": 0.0,
       "windspeed": 12,
-      "code": 51
+      "code": 3
+    },
+    {
+      "date": "2026-09-01",
+      "high": 93,
+      "low": 74,
+      "precip": 0.08,
+      "windspeed": 14,
+      "code": 53
     }
   ],
   "avg_pace_sec": 565.8,
@@ -1922,5 +1922,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for Week 9. Your training data paints a clear picture of an athlete making strong progress.\n\n**Fitness Assessment**\nYour recent long runs, like the 15.15mi at 9:31/mi on August 24th with an average HR of 148 bpm (Z2), demonstrate excellent aerobic development and endurance. Consistently maintaining 255W over such distances shows growing strength. The faster 3-4 mile efforts, such as 3.02mi at 8:12/mi on August 12th with a max HR touching Z3, highlight improving speed endurance and the ability to vary your pace effectively.\n\n**This Week's Focus**\n*   **Tuesday (4m run):** Focus on an easy, conversational pace, targeting 9:45-10:15/mi with HR in Zone 2 (135-145 bpm) to aid recovery from recent long runs and prepare for Wednesday.\n*   **Wednesday (7m pace):** This key workout should aim for a sustained effort in the 8:45-9:15/mi range, allowing your heart rate to comfortably settle into Zone 3 (155-165 bpm) to build your ability to hold a strong effort.\n*   **Thursday (4m run):** Another easy recovery run, similar to Tuesday. Keep the pace relaxed at 9:45-10:15/mi, maintaining HR in Zone 2 (135-145 bpm), especially important after Wednesday's pace effort.\n*   **Sunday (Half Marathon):** This long run should be a controlled effort, targeting a consistent pace of 9:20-9:40/mi. Your average heart rate should remain predominantly in Zone 2 (145-154 bpm), simulating marathon effort without overexertion.\n\n**Key Priorities**\n*   **Z2 Control on Easy Runs:** Given the warm forecast, ensure your average HR for Tuesday and Thursday's 4-mile runs stays firmly in Zone 2 (below 154 bpm), adjusting pace as needed, perhaps even slower than 10:00/mi.\n*   **Pace Run Execution:** For Wednesday's 7-mile pace run, focus on maintaining a consistent pace between 8:45-9:15/mi, allowing your HR to naturally rise and settle within Zone 3 (155-165 bpm) for the duration.\n*   **Half Marathon Fueling Practice:** Use Sunday's Half Marathon as a dress rehearsal for race day, diligently practicing your hydration and nutrition strategy by taking gels/fluids at regular 45-60 minute intervals.\n\n**Watch Out For**\nThe upcoming week's hot and humid weather, with highs in the 80s and potential thunderstorms, will significantly increase perceived effort and heart rate. Be prepared to adjust your paces downwards by 30-60 seconds per mile on all runs to stay within target heart rate zones and avoid overheating.\n\n**Upcoming Milestones**\nThis Sunday marks a significant training milestone with your Half Marathon long run, demonstrating your growing endurance and mental fortitude as you approach the final third of your marathon build."
+  "advice": "Hey Tom, let's get you ready for a strong Week 9!\n\n**Fitness Assessment**\nTom, you're building a solid aerobic base, consistently completing long runs up to 15.15 miles at a steady 9:31/mi pace with an average Heart Rate of 148bpm, comfortably in Zone 2. This demonstrates excellent endurance development and efficiency. While your faster efforts, like the 3.02-mile run at 8:12/mi (291W), show good speed potential, your max HR touched Z4 (171bpm) during that effort, indicating a higher intensity.\n\n**This Week's Focus**\nThis week, your focus is on a significant pace run and a key endurance test. For Wednesday's 7-mile pace run, target an 8:30-8:50/mi pace, aiming for an average Heart Rate in Zone 3 (155-169bpm). Then, on Sunday, execute your Half Marathon at a steady, controlled 9:30-9:50/mi pace, keeping your average Heart Rate comfortably within Zone 2, with Thursday's 4-mile run as an easy recovery.\n\n**Key Priorities**\n*   Execute Wednesday's 7-mile pace run by consciously pushing into Z3 (155-169bpm), similar to your 4.11mi run at 8:44/mi where your max HR touched 169bpm.\n*   Manage your effort on Sunday's Half Marathon, aiming for a consistent Z2 average HR, similar to your 15.15mi run (148bpm avg HR).\n*   Prioritize hydration and cooling strategies for all runs this week given the forecasted high temperatures and humidity (80-87F).\n\n**Watch Out For**\nThe significant jump in weekly mileage this week (projected ~28.1 miles, up from 15.2 miles last week and 7.3 miles the week prior) requires careful attention to recovery and listening to your body. Specifically, monitor for any unusual fatigue or aches, as this increase could heighten injury risk.\n\n**Upcoming Milestones**\nCompleting Sunday's Half Marathon will mark a significant achievement in your training cycle, demonstrating your increasing endurance and readiness for longer distances. This will be your longest scheduled run before the marathon, a crucial confidence booster as you enter the second half of your training."
 }

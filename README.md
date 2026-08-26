@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 9. Your training data paints a clear picture of an athlete making strong progress.
+Hey Tom, let's get you ready for a strong Week 9!
 
 **Fitness Assessment**
-Your recent long runs, like the 15.15mi at 9:31/mi on August 24th with an average HR of 148 bpm (Z2), demonstrate excellent aerobic development and endurance. Consistently maintaining 255W over such distances shows growing strength. The faster 3-4 mile efforts, such as 3.02mi at 8:12/mi on August 12th with a max HR touching Z3, highlight improving speed endurance and the ability to vary your pace effectively.
+Tom, you're building a solid aerobic base, consistently completing long runs up to 15.15 miles at a steady 9:31/mi pace with an average Heart Rate of 148bpm, comfortably in Zone 2. This demonstrates excellent endurance development and efficiency. While your faster efforts, like the 3.02-mile run at 8:12/mi (291W), show good speed potential, your max HR touched Z4 (171bpm) during that effort, indicating a higher intensity.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Your recent long runs, like the 15.15mi at 9:31/mi on August 24th with an averag
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-25 11:15:48 UTC | Run ID: 32841397519*
+*Last updated: 2026-08-26 11:18:10 UTC | Run ID: 32962623817*
