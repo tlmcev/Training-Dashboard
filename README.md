@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, let's get you ready for a strong Week 9!
+Alright Tom, let's get you dialed in for Week 9 as we push towards NYC!
 
 **Fitness Assessment**
-Tom, you're building a solid aerobic base, consistently completing long runs up to 15.15 miles at a steady 9:31/mi pace with an average Heart Rate of 148bpm, comfortably in Zone 2. This demonstrates excellent endurance development and efficiency. While your faster efforts, like the 3.02-mile run at 8:12/mi (291W), show good speed potential, your max HR touched Z4 (171bpm) during that effort, indicating a higher intensity.
+Tom, you're demonstrating a strong aerobic base, consistently maintaining Zone 2 heart rates (e.g., 148bpm for 15.15mi @ 9:31/mi) even on longer efforts, which is ideal for marathon training. Your recent faster runs, like 3.02mi @ 8:12/mi at 153bpm (still Z2), show developing speed and efficiency with a higher power output of 291W. This solid foundation, with 55% of your recent running in Z2, is setting you up well for the demands ahead.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you're building a solid aerobic base, consistently completing long runs up 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-26 11:18:10 UTC | Run ID: 32962623817*
+*Last updated: 2026-08-27 20:50:33 UTC | Run ID: 33115268328*
