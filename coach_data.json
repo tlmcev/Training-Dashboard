@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27 20:50:33",
+  "updated_at": "2026-08-28 21:16:35",
   "current_week": 9,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -1819,60 +1819,60 @@
   ],
   "weather": [
     {
-      "date": "2026-08-27",
-      "high": 77,
-      "low": 70,
-      "precip": 1.43,
-      "windspeed": 12,
-      "code": 82
-    },
-    {
       "date": "2026-08-28",
-      "high": 80,
-      "low": 70,
-      "precip": 0.02,
-      "windspeed": 5,
-      "code": 51
+      "high": 82,
+      "low": 69,
+      "precip": 0.0,
+      "windspeed": 8,
+      "code": 3
     },
     {
       "date": "2026-08-29",
-      "high": 81,
-      "low": 61,
+      "high": 74,
+      "low": 60,
       "precip": 0.0,
-      "windspeed": 7,
+      "windspeed": 8,
       "code": 3
     },
     {
       "date": "2026-08-30",
-      "high": 84,
-      "low": 70,
-      "precip": 0.0,
-      "windspeed": 10,
-      "code": 3
+      "high": 87,
+      "low": 63,
+      "precip": 0.9,
+      "windspeed": 16,
+      "code": 82
     },
     {
       "date": "2026-08-31",
-      "high": 87,
-      "low": 72,
-      "precip": 0.05,
+      "high": 86,
+      "low": 70,
+      "precip": 0.06,
       "windspeed": 9,
-      "code": 51
+      "code": 53
     },
     {
       "date": "2026-09-01",
-      "high": 87,
-      "low": 72,
-      "precip": 0.36,
-      "windspeed": 14,
-      "code": 95
+      "high": 76,
+      "low": 69,
+      "precip": 1.24,
+      "windspeed": 18,
+      "code": 82
     },
     {
       "date": "2026-09-02",
-      "high": 74,
-      "low": 69,
-      "precip": 0.01,
-      "windspeed": 10,
+      "high": 73,
+      "low": 71,
+      "precip": 0.03,
+      "windspeed": 16,
       "code": 51
+    },
+    {
+      "date": "2026-09-03",
+      "high": 87,
+      "low": 71,
+      "precip": 0.54,
+      "windspeed": 14,
+      "code": 95
     }
   ],
   "avg_pace_sec": 565.8,
@@ -1922,5 +1922,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for Week 9 as we push towards NYC!\n\n**Fitness Assessment**\nTom, you're demonstrating a strong aerobic base, consistently maintaining Zone 2 heart rates (e.g., 148bpm for 15.15mi @ 9:31/mi) even on longer efforts, which is ideal for marathon training. Your recent faster runs, like 3.02mi @ 8:12/mi at 153bpm (still Z2), show developing speed and efficiency with a higher power output of 291W. This solid foundation, with 55% of your recent running in Z2, is setting you up well for the demands ahead.\n\n**This Week's Focus**\nToday's 4-mile run should be an easy effort, targeting a conversational pace around 9:30-10:00/mi with your heart rate firmly in Zone 2 (124-154 bpm), similar to your 14.2mi run at 144bpm. For Sunday's Half Marathon, aim for a consistent Zone 2 pace of 9:30-10:00/mi, mirroring your recent 15.15mi effort at 9:31/mi while keeping your HR below 154 bpm.\n\n**Key Priorities**\n*   **Maintain Z2 Consistency**: Ensure Thursday's 4m run and Sunday's Half Marathon stay firmly within Z2 (124-154 bpm), as you've successfully done with recent long runs like the 15.15mi @ 148bpm.\n*   **Pacing for the Half Marathon**: Aim for a consistent, sustainable pace around 9:30-10:00/mi for Sunday's Half Marathon, similar to your recent 15.15mi effort, to build endurance without overtraining.\n*   **Hydration & Heat Management**: With upcoming temperatures potentially reaching 84-87F, prioritize pre-hydration and carry fluids during Sunday's Half Marathon. Adjust your pace as needed to manage the heat and humidity.\n\n**Watch Out For**\nThe planned weekly mileage of approximately 28.1 miles (assuming you completed Tuesday's 4m and Wednesday's 7m) represents a significant increase from last week's 15.2 miles. Be mindful of cumulative fatigue and listen closely to your body, especially during Sunday's Half Marathon, to avoid overtraining.\n\n**Upcoming Milestones**\nSuccessfully completing Sunday's Half Marathon will be a significant step in building your endurance confidence, marking a key benchmark in the second half of your training as you progress towards the NYC Marathon."
+  "advice": "Alright Tom, let's get you dialed in for Week 9 as we push towards NYC!\n\n**Fitness Assessment**\nTom, you've built a strong aerobic foundation, consistently performing your longer efforts like the 15.15-mile run at 9:31/mi with an average HR of 148 bpm, well within Zone 2. Your ability to hit faster paces, such as 8:12/mi with a max HR of 171 bpm (Z4), demonstrates good top-end fitness when needed. Your Riegel predicted marathon time of 4:17:35 aligns well with your current long run performance.\n\n**This Week's Focus**\nFor your 4-mile easy runs on Tuesday and Thursday, aim for a relaxed pace around 9:30-10:00/mi, keeping your average heart rate comfortably within Zone 2 (124-154 bpm). Wednesday's 7-mile pace run is an opportunity to push into Zone 3 (155-169 bpm), targeting a sustained effort around 8:30-8:50/mi. Your Half Marathon on Sunday should be a strong effort, targeting your predicted half marathon pace of 9:25/mi, allowing your HR to naturally rise into the higher end of Z2 or low Z3.\n\n**Key Priorities**\n*   **Maintain Z2 Discipline:** Ensure your 4-mile easy runs have an average heart rate below 154 bpm to maximize recovery and aerobic development.\n*   **Execute Pace Run:** Aim for an average heart rate in Zone 3 (155-169 bpm) for the entire 7-mile pace run on Wednesday to build speed endurance.\n*   **Strategic Half Marathon Pacing:** Target an average pace of 9:20-9:30/mi for Sunday's Half Marathon, focusing on a sustainable effort rather than an all-out race.\n\n**Watch Out For**\nYour weekly mileage has shown significant fluctuations, with recent drops from 24.5mi to 7.3mi before increasing to 15.2mi. Inconsistent volume can hinder adaptation and increase injury risk, so aim for more steady progression moving forward. Also, be mindful of the upcoming hot, humid, and rainy weather in NYC; adjust your effort and hydration accordingly.\n\n**Upcoming Milestones**\nCompleting this week's Half Marathon will be a significant mental and physical milestone, marking your longest training run to date in this cycle. This achievement will confidently set you up for the progressively longer runs in the second half of your training block."
 }
