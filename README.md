@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “American Girls” - Harry Styles | 12.12mi | 8:53/mi | 152bpm (Z2) | 2026-08-29 |
 | “I Wanna Cut To The Feeling” - Carly Rae Jepson | 15.15mi | 9:31/mi | 148bpm (Z2) | 2026-08-24 |
 | “New Shoes” - Paolo Nutini | 4.11mi | 8:44/mi | 152bpm (Z2) | 2026-08-20 |
 | “Hook” - Blues Traveler | 3.17mi | 9:38/mi | 141bpm (Z2) | 2026-08-19 |
 | “Man I Need” - Olivia Dean | 14.2mi | 9:57/mi | 144bpm (Z2) | 2026-08-15 |
-| “She’s a Rainbow” -The Rolling Stones | 4.21mi | 10:09/mi | 142bpm (Z2) | 2026-08-13 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 9 as we push towards NYC!
+Hey Tom, great work out there! You're making solid progress as we head into Week 9 of your NYC Marathon training.
 
 **Fitness Assessment**
-Tom, you've built a strong aerobic foundation, consistently performing your longer efforts like the 15.15-mile run at 9:31/mi with an average HR of 148 bpm, well within Zone 2. Your ability to hit faster paces, such as 8:12/mi with a max HR of 171 bpm (Z4), demonstrates good top-end fitness when needed. Your Riegel predicted marathon time of 4:17:35 aligns well with your current long run performance.
+Your recent runs, like the 12.12mi at 8:53/mi with 271W and consistent Z2 HR, demonstrate strong aerobic development and improving fitness, evidenced by your frequent PRs and ability to maintain Z2 over longer distances and significant elevation. Your predicted Half Marathon time of 2:03:26 (9:25/mi) aligns well with your recent performances, indicating a solid base for your goal. However, many runs are touching the upper end of Z2, with some max HRs creeping into Z3 and Z4.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you've built a strong aerobic foundation, consistently performing your long
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-28 21:16:35 UTC | Run ID: 33211831765*
+*Last updated: 2026-08-29 15:21:56 UTC | Run ID: 33260045600*

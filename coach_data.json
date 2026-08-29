@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-08-28 21:16:35",
+  "updated_at": "2026-08-29 15:21:56",
   "current_week": 9,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19948992560,
+      "name": "\u201cAmerican Girls\u201d - Harry Styles",
+      "date": "2026-08-29",
+      "distance_miles": 12.12,
+      "moving_time_sec": 6462,
+      "pace_per_mile": "8:53",
+      "pace_seconds": 533.2,
+      "elevation_ft": 599.0,
+      "avg_hr": 152,
+      "hr_zone": "Z2",
+      "suffer_score": 159.0,
+      "max_hr": 169.0,
+      "avg_watts": 271,
+      "avg_cadence": null,
+      "fastest_mile": "8:34",
+      "fastest_5k": "26:55",
+      "pr_count": 14
+    },
     {
       "id": 19881471285,
       "name": "\u201cI Wanna Cut To The Feeling\u201d - Carly Rae Jepson",
@@ -187,11 +206,11 @@
       "avg_hr": 154,
       "hr_zone": "Z2",
       "suffer_score": 193.0,
-      "max_hr": 175.0,
-      "avg_watts": 254,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "8:59",
-      "fastest_5k": "28:09",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 2
     },
     {
@@ -1263,7 +1282,7 @@
     },
     {
       "week_start": "2026-08-24",
-      "miles": 15.2
+      "miles": 27.3
     }
   ],
   "ae_trend": [
@@ -1815,72 +1834,81 @@
       "dist": 15.15,
       "marathon_pred": "4:08:19",
       "marathon_sec": 14899
+    },
+    {
+      "date": "2026-08-29",
+      "name": "\u201cAmerican Girls\u201d - Harry Styles",
+      "ae": 1.191,
+      "hr": 152,
+      "dist": 12.12,
+      "marathon_pred": "3:58:06",
+      "marathon_sec": 14286
     }
   ],
   "weather": [
     {
-      "date": "2026-08-28",
-      "high": 82,
-      "low": 69,
-      "precip": 0.0,
-      "windspeed": 8,
-      "code": 3
-    },
-    {
       "date": "2026-08-29",
-      "high": 74,
-      "low": 60,
+      "high": 77,
+      "low": 61,
       "precip": 0.0,
       "windspeed": 8,
-      "code": 3
+      "code": 2
     },
     {
       "date": "2026-08-30",
-      "high": 87,
-      "low": 63,
-      "precip": 0.9,
-      "windspeed": 16,
-      "code": 82
+      "high": 77,
+      "low": 62,
+      "precip": 0.0,
+      "windspeed": 8,
+      "code": 3
     },
     {
       "date": "2026-08-31",
-      "high": 86,
-      "low": 70,
-      "precip": 0.06,
+      "high": 81,
+      "low": 69,
+      "precip": 0.0,
       "windspeed": 9,
-      "code": 53
+      "code": 3
     },
     {
       "date": "2026-09-01",
-      "high": 76,
-      "low": 69,
-      "precip": 1.24,
-      "windspeed": 18,
-      "code": 82
+      "high": 87,
+      "low": 73,
+      "precip": 0.08,
+      "windspeed": 14,
+      "code": 55
     },
     {
       "date": "2026-09-02",
-      "high": 73,
-      "low": 71,
-      "precip": 0.03,
-      "windspeed": 16,
-      "code": 51
+      "high": 78,
+      "low": 66,
+      "precip": 0.2,
+      "windspeed": 14,
+      "code": 80
     },
     {
       "date": "2026-09-03",
-      "high": 87,
-      "low": 71,
-      "precip": 0.54,
-      "windspeed": 14,
-      "code": 95
+      "high": 76,
+      "low": 69,
+      "precip": 0.56,
+      "windspeed": 10,
+      "code": 80
+    },
+    {
+      "date": "2026-09-04",
+      "high": 79,
+      "low": 69,
+      "precip": 0.01,
+      "windspeed": 11,
+      "code": 51
     }
   ],
-  "avg_pace_sec": 565.8,
+  "avg_pace_sec": 565.3,
   "predictions": {
-    "5k": "26:49",
-    "10k": "55:54",
-    "half": "2:03:33",
-    "marathon": "4:17:35"
+    "5k": "26:47",
+    "10k": "55:51",
+    "half": "2:03:26",
+    "marathon": "4:17:20"
   },
   "pace_zones": {
     "Z1": {
@@ -1916,11 +1944,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 55,
+    "Z2": 56,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for Week 9 as we push towards NYC!\n\n**Fitness Assessment**\nTom, you've built a strong aerobic foundation, consistently performing your longer efforts like the 15.15-mile run at 9:31/mi with an average HR of 148 bpm, well within Zone 2. Your ability to hit faster paces, such as 8:12/mi with a max HR of 171 bpm (Z4), demonstrates good top-end fitness when needed. Your Riegel predicted marathon time of 4:17:35 aligns well with your current long run performance.\n\n**This Week's Focus**\nFor your 4-mile easy runs on Tuesday and Thursday, aim for a relaxed pace around 9:30-10:00/mi, keeping your average heart rate comfortably within Zone 2 (124-154 bpm). Wednesday's 7-mile pace run is an opportunity to push into Zone 3 (155-169 bpm), targeting a sustained effort around 8:30-8:50/mi. Your Half Marathon on Sunday should be a strong effort, targeting your predicted half marathon pace of 9:25/mi, allowing your HR to naturally rise into the higher end of Z2 or low Z3.\n\n**Key Priorities**\n*   **Maintain Z2 Discipline:** Ensure your 4-mile easy runs have an average heart rate below 154 bpm to maximize recovery and aerobic development.\n*   **Execute Pace Run:** Aim for an average heart rate in Zone 3 (155-169 bpm) for the entire 7-mile pace run on Wednesday to build speed endurance.\n*   **Strategic Half Marathon Pacing:** Target an average pace of 9:20-9:30/mi for Sunday's Half Marathon, focusing on a sustainable effort rather than an all-out race.\n\n**Watch Out For**\nYour weekly mileage has shown significant fluctuations, with recent drops from 24.5mi to 7.3mi before increasing to 15.2mi. Inconsistent volume can hinder adaptation and increase injury risk, so aim for more steady progression moving forward. Also, be mindful of the upcoming hot, humid, and rainy weather in NYC; adjust your effort and hydration accordingly.\n\n**Upcoming Milestones**\nCompleting this week's Half Marathon will be a significant mental and physical milestone, marking your longest training run to date in this cycle. This achievement will confidently set you up for the progressively longer runs in the second half of your training block."
+  "advice": "Hey Tom, great work out there! You're making solid progress as we head into Week 9 of your NYC Marathon training.\n\n**Fitness Assessment**\nYour recent runs, like the 12.12mi at 8:53/mi with 271W and consistent Z2 HR, demonstrate strong aerobic development and improving fitness, evidenced by your frequent PRs and ability to maintain Z2 over longer distances and significant elevation. Your predicted Half Marathon time of 2:03:26 (9:25/mi) aligns well with your recent performances, indicating a solid base for your goal. However, many runs are touching the upper end of Z2, with some max HRs creeping into Z3 and Z4.\n\n**This Week's Focus**\nFor your Tuesday and Thursday 4-mile easy runs, aim for a conversational Z2 pace, targeting 9:30-10:00/mi with an average HR below 154bpm, similar to your 3.17mi run at 9:38/mi. Your Wednesday 7-mile pace run should push into Z3, targeting 8:30-8:50/mi with an average HR between 155-169bpm, similar to your \"American Girls\" best mile split of 8:34. On Sunday, for your Half Marathon long run, maintain a steady Z2 effort, targeting 9:15-9:45/mi with an average HR below 154bpm, similar to your 15.15mi run at 9:31/mi.\n\n**Key Priorities**\n*   **Maintain Z2 Discipline**: For all easy and long runs, strictly aim to keep your average heart rate under 154bpm to ensure proper recovery and aerobic development.\n*   **Execute Pace Run Purposefully**: For your 7-mile pace run, focus on sustaining a Z3 effort (155-169bpm) for the majority of the run, pushing your perceived exertion without overdoing it.\n*   **Prioritize Recovery**: With two rest days and a significant long run, ensure adequate sleep and nutrition to manage the increasing training load and address the elevated HR trend.\n\n**Watch Out For**\nYour average heart rate has trended up by 8bpm over your last six runs, which is a significant fatigue signal. Pay close attention to how you feel; if you're experiencing unusual soreness or tiredness, consider adjusting your pace downwards for easy runs to keep your HR in check.\n\n**Upcoming Milestones**\nThis Sunday's Half Marathon is a fantastic opportunity to test your endurance and mental fortitude, offering a significant confidence boost as you approach the final training phases for NYC. Focus on a strong, consistent Z2 effort to validate your progress and build confidence for the marathon."
 }
