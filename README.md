@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, great work out there! You're making solid progress as we head into Week 9 of your NYC Marathon training.
+Alright Tom, great job pushing through some solid mileage and setting those PRs recently. We're now 62 days out from the NYC Marathon, right in the thick of it at Week 9. Let's get you set for this week's plan.
 
-**Fitness Assessment**
-Your recent runs, like the 12.12mi at 8:53/mi with 271W and consistent Z2 HR, demonstrate strong aerobic development and improving fitness, evidenced by your frequent PRs and ability to maintain Z2 over longer distances and significant elevation. Your predicted Half Marathon time of 2:03:26 (9:25/mi) aligns well with your recent performances, indicating a solid base for your goal. However, many runs are touching the upper end of Z2, with some max HRs creeping into Z3 and Z4.
+### Fitness Assessment
+Tom, you're showing strong aerobic development, consistently maintaining Zone 2 heart rates (e.g., 152bpm at 8:53/mi for 12.12mi) even on longer efforts with significant elevation. Your recent string of PRs, including 14 on August 29th, confirms improving fitness and the ability to sustain faster paces (e.g., 8:12/mi at 291W). This indicates a solid foundation and good progress in your marathon build-up.
 
-**This Week's Focus**
+### This Week's Focus
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Your recent runs, like the 12.12mi at 8:53/mi with 271W and consistent Z2 HR, de
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-29 15:21:56 UTC | Run ID: 33260045600*
+*Last updated: 2026-08-30 15:05:50 UTC | Run ID: 33318664876*
