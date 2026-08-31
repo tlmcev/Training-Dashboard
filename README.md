@@ -16,18 +16,18 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, great job pushing through some solid mileage and setting those PRs recently. We're now 62 days out from the NYC Marathon, right in the thick of it at Week 9. Let's get you set for this week's plan.
+Alright Tom, let's get you ready for Week 10 of your NYC Marathon build. You're making excellent progress, and it's time to build on that momentum.
 
-### Fitness Assessment
-Tom, you're showing strong aerobic development, consistently maintaining Zone 2 heart rates (e.g., 152bpm at 8:53/mi for 12.12mi) even on longer efforts with significant elevation. Your recent string of PRs, including 14 on August 29th, confirms improving fitness and the ability to sustain faster paces (e.g., 8:12/mi at 291W). This indicates a solid foundation and good progress in your marathon build-up.
+**Fitness Assessment**
+Tom, you're demonstrating strong aerobic development, consistently operating within Zone 2 with average heart rates typically in the mid-140s to low-150s bpm, indicating good efficiency. Your recent 12.12mi run at 8:53/mi, earning 14 PRs and maintaining 271W, highlights improved endurance and speed at an aerobic effort. This solid foundation, evident in your ability to hold a 9:25/mi average pace for predicted marathon times, sets you up well for the upcoming higher mileage.
 
-### This Week's Focus
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 9 of 18**
+**Current week: 10 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ Tom, you're showing strong aerobic development, consistently maintaining Zone 2 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-30 15:05:50 UTC | Run ID: 33318664876*
+*Last updated: 2026-08-31 17:44:56 UTC | Run ID: 33421228295*

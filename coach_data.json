@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-30 15:05:50",
-  "current_week": 9,
+  "updated_at": "2026-08-31 17:44:56",
+  "current_week": 10,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
@@ -1847,60 +1847,60 @@
   ],
   "weather": [
     {
-      "date": "2026-08-30",
-      "high": 80,
-      "low": 64,
-      "precip": 0.0,
-      "windspeed": 10,
-      "code": 3
-    },
-    {
       "date": "2026-08-31",
-      "high": 77,
-      "low": 70,
+      "high": 78,
+      "low": 69,
       "precip": 0.0,
-      "windspeed": 6,
+      "windspeed": 7,
       "code": 3
     },
     {
       "date": "2026-09-01",
-      "high": 82,
-      "low": 71,
-      "precip": 0.93,
-      "windspeed": 12,
-      "code": 81
+      "high": 81,
+      "low": 68,
+      "precip": 1.6,
+      "windspeed": 14,
+      "code": 65
     },
     {
       "date": "2026-09-02",
-      "high": 76,
-      "low": 72,
-      "precip": 0.69,
-      "windspeed": 11,
-      "code": 81
+      "high": 75,
+      "low": 67,
+      "precip": 0.04,
+      "windspeed": 12,
+      "code": 51
     },
     {
       "date": "2026-09-03",
       "high": 86,
-      "low": 73,
-      "precip": 0.44,
-      "windspeed": 10,
-      "code": 96
+      "low": 71,
+      "precip": 0.14,
+      "windspeed": 12,
+      "code": 80
     },
     {
       "date": "2026-09-04",
-      "high": 83,
-      "low": 72,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
+      "high": 88,
+      "low": 73,
+      "precip": 0.29,
+      "windspeed": 14,
+      "code": 80
     },
     {
       "date": "2026-09-05",
-      "high": 80,
+      "high": 81,
+      "low": 68,
+      "precip": 0.0,
+      "windspeed": 18,
+      "code": 3
+    },
+    {
+      "date": "2026-09-06",
+      "high": 79,
       "low": 67,
       "precip": 0.0,
       "windspeed": 13,
-      "code": 3
+      "code": 2
     }
   ],
   "avg_pace_sec": 565.3,
@@ -1950,5 +1950,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, great job pushing through some solid mileage and setting those PRs recently. We're now 62 days out from the NYC Marathon, right in the thick of it at Week 9. Let's get you set for this week's plan.\n\n### Fitness Assessment\nTom, you're showing strong aerobic development, consistently maintaining Zone 2 heart rates (e.g., 152bpm at 8:53/mi for 12.12mi) even on longer efforts with significant elevation. Your recent string of PRs, including 14 on August 29th, confirms improving fitness and the ability to sustain faster paces (e.g., 8:12/mi at 291W). This indicates a solid foundation and good progress in your marathon build-up.\n\n### This Week's Focus\nFor your 4-mile easy runs on Tuesday and Thursday, aim for a conversational Zone 2 pace, likely around 9:30-10:00/mi, ensuring your heart rate stays below 154bpm. Wednesday's 7-mile pace run should be a sustained effort in low Zone 3 (155-169bpm), targeting a consistent pace of 8:30-8:45/mi based on your recent best efforts and predicted times. Sunday's Half Marathon long run should be executed comfortably in Zone 2, targeting a steady pace of 9:15-9:45/mi.\n\n### Key Priorities\n*   **Heart Rate Management:** Prioritize keeping your heart rate consistently within Zone 2 (below 154bpm) for all easy and long runs to actively counter the recent upward trend in your average HR.\n*   **Pace Run Execution:** Focus on maintaining a steady, controlled pace of 8:30-8:45/mi for the full 7 miles on Wednesday, practicing a sustained effort in your target Zone 3.\n*   **Strategic Recovery:** Fully embrace your three scheduled rest days this week to allow for adequate physical and mental recovery, which is crucial given the increasing mileage and the upcoming half marathon.\n\n### Watch Out For\nThe +8bpm upward trend in your average heart rate over the last six runs is a significant fatigue signal that demands attention. Be highly vigilant about perceived effort and HR zones this week, especially with the challenging half marathon and the consistently hot and humid weather predicted for NYC.\n\n### Upcoming Milestones\nThis Sunday's Half Marathon is a pivotal training milestone, offering a perfect dress rehearsal to fine-tune your nutrition, hydration, and pacing strategies over a race-like distance. Successfully completing this will build significant confidence for the remaining weeks of training."
+  "advice": "Alright Tom, let's get you ready for Week 10 of your NYC Marathon build. You're making excellent progress, and it's time to build on that momentum.\n\n**Fitness Assessment**\nTom, you're demonstrating strong aerobic development, consistently operating within Zone 2 with average heart rates typically in the mid-140s to low-150s bpm, indicating good efficiency. Your recent 12.12mi run at 8:53/mi, earning 14 PRs and maintaining 271W, highlights improved endurance and speed at an aerobic effort. This solid foundation, evident in your ability to hold a 9:25/mi average pace for predicted marathon times, sets you up well for the upcoming higher mileage.\n\n**This Week's Focus**\nTuesday and Thursday's 4-mile runs should be easy, targeting Zone 2 HR (124-154bpm) at a conversational pace, likely 9:30-10:00/mi. Wednesday's 8-mile pace run is crucial; aim for Zone 3 HR (155-169bpm) at a pace around 8:45-9:00/mi to build speed endurance. Saturday's 17-mile long run should be controlled, remaining in Zone 2 (124-154bpm) with a pace around 9:45-10:15/mi, especially mindful of the hot and humid conditions.\n\n**Key Priorities**\n*   **Maintain Z2 Discipline**: For all easy and long runs, actively keep your average HR below 154bpm to ensure proper recovery and continued aerobic development, especially with the increased mileage this week.\n*   **Execute Pace Run Smartly**: For Wednesday's 8-mile pace run, target an average HR in the low-to-mid Z3 range (155-165bpm) to build speed endurance without overexertion.\n*   **Prioritize Recovery**: With a significant mileage jump to 33 miles and the upward HR trend, ensure adequate sleep, nutrition, and hydration. Consider foam rolling or light stretching on your rest days.\n\n**Watch Out For**\nThe reported +8bpm upward trend in your average HR over the last six runs is a significant fatigue signal. Monitor your heart rate closely this week, particularly during the long run, and be prepared to slow down if your heart rate is consistently higher than expected for a given effort.\n\n**Upcoming Milestones**\nThis week marks your highest mileage yet, culminating in a challenging 17-mile long run on Saturday. Successfully completing this week will demonstrate a significant leap in your endurance and readiness for the remaining training block as you head into the final two months before NYC."
 }
