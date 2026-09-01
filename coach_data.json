@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-08-31 17:44:56",
+  "updated_at": "2026-09-01 15:16:28",
   "current_week": 10,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 19989375335,
+      "name": "\u201cMr. Rager\u201d - Kid Cudi",
+      "date": "2026-09-01",
+      "distance_miles": 3.15,
+      "moving_time_sec": 1728,
+      "pace_per_mile": "9:08",
+      "pace_seconds": 548.6,
+      "elevation_ft": 143.0,
+      "avg_hr": 145,
+      "hr_zone": "Z2",
+      "suffer_score": 28.0,
+      "max_hr": 167.0,
+      "avg_watts": 265,
+      "avg_cadence": null,
+      "fastest_mile": "8:44",
+      "fastest_5k": "28:19",
+      "pr_count": 0
+    },
     {
       "id": 19948992560,
       "name": "\u201cAmerican Girls\u201d - Harry Styles",
@@ -187,7 +206,7 @@
       "avg_hr": 131,
       "hr_zone": "Z2",
       "suffer_score": 13.0,
-      "max_hr": 147.0,
+      "max_hr": null,
       "avg_watts": null,
       "avg_cadence": null,
       "fastest_mile": null,
@@ -1283,6 +1302,10 @@
     {
       "week_start": "2026-08-24",
       "miles": 27.3
+    },
+    {
+      "week_start": "2026-08-31",
+      "miles": 3.1
     }
   ],
   "ae_trend": [
@@ -1843,72 +1866,81 @@
       "dist": 12.12,
       "marathon_pred": "3:58:06",
       "marathon_sec": 14286
+    },
+    {
+      "date": "2026-09-01",
+      "name": "\u201cMr. Rager\u201d - Kid Cudi",
+      "ae": 1.214,
+      "hr": 145,
+      "dist": 3.15,
+      "marathon_pred": "3:53:36",
+      "marathon_sec": 14016
     }
   ],
   "weather": [
     {
-      "date": "2026-08-31",
-      "high": 78,
-      "low": 69,
-      "precip": 0.0,
-      "windspeed": 7,
-      "code": 3
-    },
-    {
       "date": "2026-09-01",
-      "high": 81,
-      "low": 68,
-      "precip": 1.6,
-      "windspeed": 14,
-      "code": 65
+      "high": 79,
+      "low": 71,
+      "precip": 0.06,
+      "windspeed": 12,
+      "code": 53
     },
     {
       "date": "2026-09-02",
-      "high": 75,
+      "high": 71,
       "low": 67,
-      "precip": 0.04,
-      "windspeed": 12,
-      "code": 51
+      "precip": 0.23,
+      "windspeed": 9,
+      "code": 63
     },
     {
       "date": "2026-09-03",
-      "high": 86,
-      "low": 71,
+      "high": 83,
+      "low": 69,
       "precip": 0.14,
       "windspeed": 12,
-      "code": 80
+      "code": 63
     },
     {
       "date": "2026-09-04",
-      "high": 88,
-      "low": 73,
-      "precip": 0.29,
-      "windspeed": 14,
+      "high": 87,
+      "low": 72,
+      "precip": 0.08,
+      "windspeed": 13,
       "code": 80
     },
     {
       "date": "2026-09-05",
       "high": 81,
-      "low": 68,
+      "low": 69,
       "precip": 0.0,
-      "windspeed": 18,
+      "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-09-06",
-      "high": 79,
+      "high": 78,
+      "low": 66,
+      "precip": 0.0,
+      "windspeed": 15,
+      "code": 1
+    },
+    {
+      "date": "2026-09-07",
+      "high": 80,
       "low": 67,
       "precip": 0.0,
       "windspeed": 13,
-      "code": 2
+      "code": 3
     }
   ],
-  "avg_pace_sec": 565.3,
+  "avg_pace_sec": 565.1,
   "predictions": {
     "5k": "26:47",
-    "10k": "55:51",
-    "half": "2:03:26",
-    "marathon": "4:17:20"
+    "10k": "55:50",
+    "half": "2:03:22",
+    "marathon": "4:17:13"
   },
   "pace_zones": {
     "Z1": {
@@ -1944,11 +1976,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 56,
+    "Z2": 57,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for Week 10 of your NYC Marathon build. You're making excellent progress, and it's time to build on that momentum.\n\n**Fitness Assessment**\nTom, you're demonstrating strong aerobic development, consistently operating within Zone 2 with average heart rates typically in the mid-140s to low-150s bpm, indicating good efficiency. Your recent 12.12mi run at 8:53/mi, earning 14 PRs and maintaining 271W, highlights improved endurance and speed at an aerobic effort. This solid foundation, evident in your ability to hold a 9:25/mi average pace for predicted marathon times, sets you up well for the upcoming higher mileage.\n\n**This Week's Focus**\nTuesday and Thursday's 4-mile runs should be easy, targeting Zone 2 HR (124-154bpm) at a conversational pace, likely 9:30-10:00/mi. Wednesday's 8-mile pace run is crucial; aim for Zone 3 HR (155-169bpm) at a pace around 8:45-9:00/mi to build speed endurance. Saturday's 17-mile long run should be controlled, remaining in Zone 2 (124-154bpm) with a pace around 9:45-10:15/mi, especially mindful of the hot and humid conditions.\n\n**Key Priorities**\n*   **Maintain Z2 Discipline**: For all easy and long runs, actively keep your average HR below 154bpm to ensure proper recovery and continued aerobic development, especially with the increased mileage this week.\n*   **Execute Pace Run Smartly**: For Wednesday's 8-mile pace run, target an average HR in the low-to-mid Z3 range (155-165bpm) to build speed endurance without overexertion.\n*   **Prioritize Recovery**: With a significant mileage jump to 33 miles and the upward HR trend, ensure adequate sleep, nutrition, and hydration. Consider foam rolling or light stretching on your rest days.\n\n**Watch Out For**\nThe reported +8bpm upward trend in your average HR over the last six runs is a significant fatigue signal. Monitor your heart rate closely this week, particularly during the long run, and be prepared to slow down if your heart rate is consistently higher than expected for a given effort.\n\n**Upcoming Milestones**\nThis week marks your highest mileage yet, culminating in a challenging 17-mile long run on Saturday. Successfully completing this week will demonstrate a significant leap in your endurance and readiness for the remaining training block as you head into the final two months before NYC."
+  "advice": "Alright Tom, let's get you ready for Week 10 of your NYC Marathon build. You're 60 days out, and the plan is progressing well.\n\n**Fitness Assessment**\nYou're demonstrating strong aerobic development, consistently keeping your average heart rate in Zone 2 (e.g., 152bpm for your 12.12mi run at 8:53/mi) while maintaining good paces. Your ability to hit faster efforts (like 8:12/mi at 291W on 08-12) and accumulate numerous recent PRs indicates improving speed endurance and overall fitness. Your current average pace of 9:25/mi aligns well with your predicted 4:17:13 marathon finish, showing you're on track.\n\n**This Week's Focus**\nThis week balances easy runs with a key pace workout and a significant long run. For your 4-mile easy runs and the 17-mile long run, maintain a comfortable, conversational pace (aim for 9:30-10:15/mi) with your average heart rate firmly in Zone 2 (124-154 bpm), similar to your 15.15mi run at 9:31/mi. Your 8-mile pace run on Wednesday is crucial for building marathon-specific endurance; target a slightly faster effort, perhaps 8:55-9:15/mi, allowing your heart rate to comfortably settle into Zone 3 (155-169 bpm).\n\n**Key Priorities**\n*   **Maintain Z2 for Easy & Long Runs:** Consistently keep your average heart rate below 154bpm for all easy and long runs, as you successfully did on your 12.12mi run (avg HR 152bpm).\n*   **Execute Wednesday's Pace Run:** Aim for consistent marathon-specific pacing (e.g., 8:55-9:15/mi) for the full 8 miles, pushing your average watts to 270W+ while monitoring your HR in Z3.\n*   **Hydration & Electrolytes:** With the warm, humid, and rainy weather forecast, prioritize pre-hydrating and taking in electrolytes during all runs, especially the 8-mile pace run and 17-mile long run.\n\n**Watch Out For**\nThe significant drop in weekly mileage to just 3.1 miles for the week ending August 31st is a red flag; ensure this was a planned rest day (Monday's run) and not an indication of missed training, as consistency is key for marathon prep. This week's scheduled 33 miles will be a substantial increase if last week was truly only 3.1 miles, so listen to your body closely.\n\n**Upcoming Milestones**\nThis Saturday's 17-mile long run is a significant milestone, marking your longest run yet in this training block and a critical step towards building the endurance needed for the NYC Marathon."
 }

@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Mr. Rager” - Kid Cudi | 3.15mi | 9:08/mi | 145bpm (Z2) | 2026-09-01 |
 | “American Girls” - Harry Styles | 12.12mi | 8:53/mi | 152bpm (Z2) | 2026-08-29 |
 | “I Wanna Cut To The Feeling” - Carly Rae Jepson | 15.15mi | 9:31/mi | 148bpm (Z2) | 2026-08-24 |
 | “New Shoes” - Paolo Nutini | 4.11mi | 8:44/mi | 152bpm (Z2) | 2026-08-20 |
 | “Hook” - Blues Traveler | 3.17mi | 9:38/mi | 141bpm (Z2) | 2026-08-19 |
-| “Man I Need” - Olivia Dean | 14.2mi | 9:57/mi | 144bpm (Z2) | 2026-08-15 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for Week 10 of your NYC Marathon build. You're making excellent progress, and it's time to build on that momentum.
+Alright Tom, let's get you ready for Week 10 of your NYC Marathon build. You're 60 days out, and the plan is progressing well.
 
 **Fitness Assessment**
-Tom, you're demonstrating strong aerobic development, consistently operating within Zone 2 with average heart rates typically in the mid-140s to low-150s bpm, indicating good efficiency. Your recent 12.12mi run at 8:53/mi, earning 14 PRs and maintaining 271W, highlights improved endurance and speed at an aerobic effort. This solid foundation, evident in your ability to hold a 9:25/mi average pace for predicted marathon times, sets you up well for the upcoming higher mileage.
+You're demonstrating strong aerobic development, consistently keeping your average heart rate in Zone 2 (e.g., 152bpm for your 12.12mi run at 8:53/mi) while maintaining good paces. Your ability to hit faster efforts (like 8:12/mi at 291W on 08-12) and accumulate numerous recent PRs indicates improving speed endurance and overall fitness. Your current average pace of 9:25/mi aligns well with your predicted 4:17:13 marathon finish, showing you're on track.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you're demonstrating strong aerobic development, consistently operating wit
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-08-31 17:44:56 UTC | Run ID: 33421228295*
+*Last updated: 2026-09-01 15:16:28 UTC | Run ID: 33524701110*
