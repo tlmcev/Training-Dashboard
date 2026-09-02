@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for Week 10 of your NYC Marathon build. You're 60 days out, and the plan is progressing well.
+Alright Tom, let's get you dialed in for Week 10 as you continue your build towards NYC.
 
 **Fitness Assessment**
-You're demonstrating strong aerobic development, consistently keeping your average heart rate in Zone 2 (e.g., 152bpm for your 12.12mi run at 8:53/mi) while maintaining good paces. Your ability to hit faster efforts (like 8:12/mi at 291W on 08-12) and accumulate numerous recent PRs indicates improving speed endurance and overall fitness. Your current average pace of 9:25/mi aligns well with your predicted 4:17:13 marathon finish, showing you're on track.
+Your recent runs demonstrate a robust aerobic base, consistently holding an average heart rate within Zone 2 (141-154 bpm) even at paces as quick as 8:12/mi, indicating excellent efficiency. The numerous PRs on your 12-mile run (Aug 29) and 3-mile run (Aug 12) showcase your improving speed and endurance, with power outputs often exceeding 270W on those stronger efforts.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ You're demonstrating strong aerobic development, consistently keeping your avera
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-01 15:16:28 UTC | Run ID: 33524701110*
+*Last updated: 2026-09-02 14:47:09 UTC | Run ID: 33644300749*

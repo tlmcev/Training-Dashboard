@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01 15:16:28",
+  "updated_at": "2026-09-02 14:47:09",
   "current_week": 10,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -1879,59 +1879,59 @@
   ],
   "weather": [
     {
-      "date": "2026-09-01",
-      "high": 79,
-      "low": 71,
-      "precip": 0.06,
-      "windspeed": 12,
-      "code": 53
-    },
-    {
       "date": "2026-09-02",
-      "high": 71,
-      "low": 67,
-      "precip": 0.23,
-      "windspeed": 9,
-      "code": 63
+      "high": 70,
+      "low": 66,
+      "precip": 0.0,
+      "windspeed": 8,
+      "code": 3
     },
     {
       "date": "2026-09-03",
-      "high": 83,
-      "low": 69,
-      "precip": 0.14,
+      "high": 82,
+      "low": 68,
+      "precip": 2.92,
       "windspeed": 12,
-      "code": 63
+      "code": 65
     },
     {
       "date": "2026-09-04",
-      "high": 87,
-      "low": 72,
-      "precip": 0.08,
-      "windspeed": 13,
-      "code": 80
+      "high": 86,
+      "low": 71,
+      "precip": 0.15,
+      "windspeed": 15,
+      "code": 55
     },
     {
       "date": "2026-09-05",
       "high": 81,
-      "low": 69,
+      "low": 68,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 12,
       "code": 3
     },
     {
       "date": "2026-09-06",
-      "high": 78,
+      "high": 79,
       "low": 66,
       "precip": 0.0,
-      "windspeed": 15,
-      "code": 1
+      "windspeed": 12,
+      "code": 51
     },
     {
       "date": "2026-09-07",
-      "high": 80,
-      "low": 67,
+      "high": 81,
+      "low": 65,
       "precip": 0.0,
-      "windspeed": 13,
+      "windspeed": 9,
+      "code": 3
+    },
+    {
+      "date": "2026-09-08",
+      "high": 82,
+      "low": 68,
+      "precip": 0.0,
+      "windspeed": 10,
       "code": 3
     }
   ],
@@ -1982,5 +1982,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for Week 10 of your NYC Marathon build. You're 60 days out, and the plan is progressing well.\n\n**Fitness Assessment**\nYou're demonstrating strong aerobic development, consistently keeping your average heart rate in Zone 2 (e.g., 152bpm for your 12.12mi run at 8:53/mi) while maintaining good paces. Your ability to hit faster efforts (like 8:12/mi at 291W on 08-12) and accumulate numerous recent PRs indicates improving speed endurance and overall fitness. Your current average pace of 9:25/mi aligns well with your predicted 4:17:13 marathon finish, showing you're on track.\n\n**This Week's Focus**\nThis week balances easy runs with a key pace workout and a significant long run. For your 4-mile easy runs and the 17-mile long run, maintain a comfortable, conversational pace (aim for 9:30-10:15/mi) with your average heart rate firmly in Zone 2 (124-154 bpm), similar to your 15.15mi run at 9:31/mi. Your 8-mile pace run on Wednesday is crucial for building marathon-specific endurance; target a slightly faster effort, perhaps 8:55-9:15/mi, allowing your heart rate to comfortably settle into Zone 3 (155-169 bpm).\n\n**Key Priorities**\n*   **Maintain Z2 for Easy & Long Runs:** Consistently keep your average heart rate below 154bpm for all easy and long runs, as you successfully did on your 12.12mi run (avg HR 152bpm).\n*   **Execute Wednesday's Pace Run:** Aim for consistent marathon-specific pacing (e.g., 8:55-9:15/mi) for the full 8 miles, pushing your average watts to 270W+ while monitoring your HR in Z3.\n*   **Hydration & Electrolytes:** With the warm, humid, and rainy weather forecast, prioritize pre-hydrating and taking in electrolytes during all runs, especially the 8-mile pace run and 17-mile long run.\n\n**Watch Out For**\nThe significant drop in weekly mileage to just 3.1 miles for the week ending August 31st is a red flag; ensure this was a planned rest day (Monday's run) and not an indication of missed training, as consistency is key for marathon prep. This week's scheduled 33 miles will be a substantial increase if last week was truly only 3.1 miles, so listen to your body closely.\n\n**Upcoming Milestones**\nThis Saturday's 17-mile long run is a significant milestone, marking your longest run yet in this training block and a critical step towards building the endurance needed for the NYC Marathon."
+  "advice": "Alright Tom, let's get you dialed in for Week 10 as you continue your build towards NYC.\n\n**Fitness Assessment**\nYour recent runs demonstrate a robust aerobic base, consistently holding an average heart rate within Zone 2 (141-154 bpm) even at paces as quick as 8:12/mi, indicating excellent efficiency. The numerous PRs on your 12-mile run (Aug 29) and 3-mile run (Aug 12) showcase your improving speed and endurance, with power outputs often exceeding 270W on those stronger efforts.\n\n**This Week's Focus**\nToday's 8-mile pace run should target your predicted marathon pace range, aiming for around 9:40-9:50/mi with an average heart rate in Zone 3 (155-165 bpm). For Thursday's 4-mile run and Saturday's 17-mile long run, maintain an easy effort in Zone 2 (135-145 bpm), adjusting your pace (likely 9:45-10:15/mi) as needed to account for the forecast heat, humidity, and rain. Remember to prioritize effort over pace, especially on Saturday.\n\n**Key Priorities**\n*   **Re-establish Consistency:** After last week's significant drop to only 3.1 miles, prioritize completing all scheduled runs this week to rebuild your training volume effectively.\n*   **Pace Run Execution:** Successfully execute Wednesday's 8-mile pace run by hitting your target Zone 3 heart rate (155-169 bpm) and maintaining a consistent effort around your predicted marathon pace.\n*   **Long Run Discipline:** Focus on disciplined fueling and hydration during Saturday's 17-mile long run, keeping your average heart rate firmly within Zone 2 (124-154 bpm) to promote endurance adaptation without excessive fatigue.\n\n**Watch Out For**\nThe sharp drop in your weekly mileage to just 3.1 miles for the week ending August 31, compared to 27.3 miles two weeks prior, is a significant red flag. This substantial decrease could indicate over-fatigue or a missed block of training, making it crucial to listen to your body closely this week to prevent injury or further disruption.\n\n**Upcoming Milestones**\nSaturday's 17-mile long run is your longest scheduled distance in the Hal Higdon plan so far, serving as a pivotal mental and physical test. Successfully completing this run will be a huge confidence booster as you move closer to the NYC Marathon."
 }
