@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Only The Good Die Young” - Billy Joel | 4.24mi | 9:33/mi | 142bpm (Z2) | 2026-09-03 |
 | “Mr. Rager” - Kid Cudi | 3.15mi | 9:08/mi | 145bpm (Z2) | 2026-09-01 |
 | “American Girls” - Harry Styles | 12.12mi | 8:53/mi | 152bpm (Z2) | 2026-08-29 |
 | “I Wanna Cut To The Feeling” - Carly Rae Jepson | 15.15mi | 9:31/mi | 148bpm (Z2) | 2026-08-24 |
 | “New Shoes” - Paolo Nutini | 4.11mi | 8:44/mi | 152bpm (Z2) | 2026-08-20 |
-| “Hook” - Blues Traveler | 3.17mi | 9:38/mi | 141bpm (Z2) | 2026-08-19 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 10 as you continue your build towards NYC.
+Here is your coaching brief, Tom:
 
 **Fitness Assessment**
-Your recent runs demonstrate a robust aerobic base, consistently holding an average heart rate within Zone 2 (141-154 bpm) even at paces as quick as 8:12/mi, indicating excellent efficiency. The numerous PRs on your 12-mile run (Aug 29) and 3-mile run (Aug 12) showcase your improving speed and endurance, with power outputs often exceeding 270W on those stronger efforts.
+Tom, your consistent Zone 2 heart rate across varied paces, from 8:12/mi to 9:57/mi, demonstrates a well-developed aerobic base crucial for marathon training. Your ability to maintain an average HR in the mid-140s (Z2) for long runs up to 15 miles, such as your 15.15mi at 9:31/mi, is excellent and reflects strong endurance. The higher watts (e.g., 291W at 8:12/mi) on your faster efforts also show good power output when needed, aligning well with your predicted 4:17:17 marathon finish.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Your recent runs demonstrate a robust aerobic base, consistently holding an aver
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-02 14:47:09 UTC | Run ID: 33644300749*
+*Last updated: 2026-09-03 14:46:13 UTC | Run ID: 33768794690*
