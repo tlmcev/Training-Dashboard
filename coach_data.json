@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-09-03 14:46:13",
+  "updated_at": "2026-09-04 14:36:08",
   "current_week": 10,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 20032664616,
+      "name": "Run With Mr. Potts!!",
+      "date": "2026-09-04",
+      "distance_miles": 3.9,
+      "moving_time_sec": 2249,
+      "pace_per_mile": "9:36",
+      "pace_seconds": 576.7,
+      "elevation_ft": 142.0,
+      "avg_hr": 137,
+      "hr_zone": "Z2",
+      "suffer_score": 20.0,
+      "max_hr": 157.0,
+      "avg_watts": 253,
+      "avg_cadence": null,
+      "fastest_mile": "9:16",
+      "fastest_5k": "29:23",
+      "pr_count": 0
+    },
     {
       "id": 20019335071,
       "name": "\u201cOnly The Good Die Young\u201d - Billy Joel",
@@ -187,10 +206,10 @@
       "avg_hr": 139,
       "hr_zone": "Z2",
       "suffer_score": 19.0,
-      "max_hr": 162.0,
-      "avg_watts": 259,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "8:58",
+      "fastest_mile": null,
       "fastest_5k": null,
       "pr_count": 0
     },
@@ -1324,7 +1343,7 @@
     },
     {
       "week_start": "2026-08-31",
-      "miles": 7.4
+      "miles": 11.3
     }
   ],
   "ae_trend": [
@@ -1903,52 +1922,53 @@
       "dist": 4.24,
       "marathon_pred": "3:59:06",
       "marathon_sec": 14346
+    },
+    {
+      "date": "2026-09-04",
+      "name": "Run With Mr. Potts!!",
+      "ae": 1.222,
+      "hr": 137,
+      "dist": 3.9,
+      "marathon_pred": "3:52:04",
+      "marathon_sec": 13924
     }
   ],
   "weather": [
     {
-      "date": "2026-09-03",
-      "high": 82,
-      "low": 68,
-      "precip": 0.03,
-      "windspeed": 11,
-      "code": 51
-    },
-    {
       "date": "2026-09-04",
-      "high": 84,
+      "high": 83,
       "low": 70,
-      "precip": 0.1,
-      "windspeed": 7,
-      "code": 81
+      "precip": 0.35,
+      "windspeed": 11,
+      "code": 65
     },
     {
       "date": "2026-09-05",
-      "high": 81,
+      "high": 79,
       "low": 66,
-      "precip": 0.0,
-      "windspeed": 14,
-      "code": 3
-    },
-    {
-      "date": "2026-09-06",
-      "high": 74,
-      "low": 65,
       "precip": 0.0,
       "windspeed": 12,
       "code": 3
     },
     {
-      "date": "2026-09-07",
-      "high": 80,
+      "date": "2026-09-06",
+      "high": 76,
       "low": 63,
+      "precip": 0.02,
+      "windspeed": 8,
+      "code": 51
+    },
+    {
+      "date": "2026-09-07",
+      "high": 81,
+      "low": 65,
       "precip": 0.0,
-      "windspeed": 7,
+      "windspeed": 10,
       "code": 0
     },
     {
       "date": "2026-09-08",
-      "high": 81,
+      "high": 84,
       "low": 67,
       "precip": 0.0,
       "windspeed": 9,
@@ -1956,19 +1976,27 @@
     },
     {
       "date": "2026-09-09",
-      "high": 73,
-      "low": 68,
-      "precip": 0.15,
-      "windspeed": 15,
-      "code": 53
+      "high": 87,
+      "low": 71,
+      "precip": 0.0,
+      "windspeed": 17,
+      "code": 3
+    },
+    {
+      "date": "2026-09-10",
+      "high": 79,
+      "low": 61,
+      "precip": 0.01,
+      "windspeed": 22,
+      "code": 51
     }
   ],
-  "avg_pace_sec": 565.2,
+  "avg_pace_sec": 565.4,
   "predictions": {
     "5k": "26:47",
-    "10k": "55:50",
-    "half": "2:03:24",
-    "marathon": "4:17:17"
+    "10k": "55:51",
+    "half": "2:03:26",
+    "marathon": "4:17:22"
   },
   "pace_zones": {
     "Z1": {
@@ -2004,11 +2032,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 58,
+    "Z2": 59,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here is your coaching brief, Tom:\n\n**Fitness Assessment**\nTom, your consistent Zone 2 heart rate across varied paces, from 8:12/mi to 9:57/mi, demonstrates a well-developed aerobic base crucial for marathon training. Your ability to maintain an average HR in the mid-140s (Z2) for long runs up to 15 miles, such as your 15.15mi at 9:31/mi, is excellent and reflects strong endurance. The higher watts (e.g., 291W at 8:12/mi) on your faster efforts also show good power output when needed, aligning well with your predicted 4:17:17 marathon finish.\n\n**This Week's Focus**\nThis week, your schedule includes a critical 17-mile long run. For your easy runs (like the 4m you completed today at 9:33/mi), aim to keep your heart rate firmly in Zone 2 (124-154 bpm), targeting a comfortable pace of 9:30-10:00/mi. For your 8-mile pace run, strive for a slightly quicker effort around 8:45-9:15/mi, allowing your heart rate to climb into Zone 3 (155-169 bpm) for a sustained period. Your 17-mile long run should be a controlled effort, maintaining a conversational Z2 pace, likely around 9:20-9:40/mi, to build endurance without over-exertion.\n\n**Key Priorities**\n*   **Consistent Z2 for Easy & Long Runs:** Ensure your average heart rate remains below 154 bpm for your 17-mile long run and subsequent easy runs, even if your pace varies slightly.\n*   **Pacing the 17-Mile Run:** Target a sustainable pace between 9:20-9:40/mi for the full 17 miles, focusing on maintaining a comfortable conversational effort.\n*   **Active Recovery on Cross-Training Day:** Utilize your Sunday cross-training to aid recovery from the long run, keeping intensity low to promote blood flow and muscle repair.\n\n**Watch Out For**\nYour recent weekly mileage trend shows significant fluctuations (e.g., 27.3mi followed by 7.4mi). This inconsistency could increase injury risk or hinder adaptation, so focus on gradually building volume as planned to avoid sharp drops and spikes. Additionally, observe the max HR spikes into Z3 on your \"easy\" runs (e.g., 163bpm on 9/3), indicating you might be pushing too hard at times when recovery is the goal.\n\n**Upcoming Milestones**\nThe 17-mile long run this Saturday marks your longest training run to date, a significant mental and physical achievement as you build towards 20 miles. This run will be a key indicator of your marathon readiness and confidence, bringing you closer to the NYC Marathon just 58 days away."
+  "advice": "Alright Tom, let's get you ready for a strong Week 10 as we push towards NYC.\n\n### Fitness Assessment\nYou're demonstrating excellent aerobic development, evidenced by your average HR trending down 9bpm over the last six runs, indicating improved efficiency at similar paces. Your recent 12.12mi at 8:53/mi (avg HR 152bpm, Z2) and 15.15mi at 9:31/mi (avg HR 148bpm, Z2) show solid endurance and the ability to maintain a controlled effort over distance. Consistently running in Z2 for your base runs is a testament to your disciplined approach.\n\n### This Week's Focus\nFor your easy 4m runs (Tuesday, Thursday), target a Z2 pace (9:30-9:45/mi, HR <154bpm) for active recovery. Wednesday's 8m pace run is critical; aim for a Z3 effort (155-169bpm), targeting 8:45-9:00/mi to build speed endurance. Saturday's 17-mile long run requires a sustained Z2 effort (9:30-10:00/mi, HR <154bpm) to build endurance.\n\n### Key Priorities\n*   **Consistent Mileage Build:** Ensure you hit the prescribed mileage this week, especially the 17-mile long run, to address the recent dips in weekly volume (7.3mi and 11.3mi).\n*   **Pace Run Execution:** On Wednesday's 8m pace run, aim for a Z3 effort (155-169bpm) to build speed endurance, targeting a pace around 8:45-9:00/mi, similar to your 12.12mi PR run.\n*   **Aerobic Zone Control:** Continue to keep your easy runs (Tuesday, Thursday, Saturday) firmly in Zone 2 (124-154 bpm) to promote further aerobic adaptation and recovery, even if it means slowing down.\n\n### Watch Out For\nYour weekly mileage has fluctuated significantly, with drops to 7.3mi and 11.3mi in recent weeks. This inconsistency could hinder adaptation and increase injury risk as you approach peak mileage, so prioritize hitting the planned runs.\n\n### Upcoming Milestones\nThis Saturday's 17-mile long run will be your longest run of the training cycle so far, a significant mental and physical milestone as you build towards the marathon."
 }

@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| Run With Mr. Potts!! | 3.9mi | 9:36/mi | 137bpm (Z2) | 2026-09-04 |
 | “Only The Good Die Young” - Billy Joel | 4.24mi | 9:33/mi | 142bpm (Z2) | 2026-09-03 |
 | “Mr. Rager” - Kid Cudi | 3.15mi | 9:08/mi | 145bpm (Z2) | 2026-09-01 |
 | “American Girls” - Harry Styles | 12.12mi | 8:53/mi | 152bpm (Z2) | 2026-08-29 |
 | “I Wanna Cut To The Feeling” - Carly Rae Jepson | 15.15mi | 9:31/mi | 148bpm (Z2) | 2026-08-24 |
-| “New Shoes” - Paolo Nutini | 4.11mi | 8:44/mi | 152bpm (Z2) | 2026-08-20 |
 
 ## AI Coach Snapshot
 
-Here is your coaching brief, Tom:
+Alright Tom, let's get you ready for a strong Week 10 as we push towards NYC.
 
-**Fitness Assessment**
-Tom, your consistent Zone 2 heart rate across varied paces, from 8:12/mi to 9:57/mi, demonstrates a well-developed aerobic base crucial for marathon training. Your ability to maintain an average HR in the mid-140s (Z2) for long runs up to 15 miles, such as your 15.15mi at 9:31/mi, is excellent and reflects strong endurance. The higher watts (e.g., 291W at 8:12/mi) on your faster efforts also show good power output when needed, aligning well with your predicted 4:17:17 marathon finish.
+### Fitness Assessment
+You're demonstrating excellent aerobic development, evidenced by your average HR trending down 9bpm over the last six runs, indicating improved efficiency at similar paces. Your recent 12.12mi at 8:53/mi (avg HR 152bpm, Z2) and 15.15mi at 9:31/mi (avg HR 148bpm, Z2) show solid endurance and the ability to maintain a controlled effort over distance. Consistently running in Z2 for your base runs is a testament to your disciplined approach.
 
-**This Week's Focus**
+### This Week's Focus
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your consistent Zone 2 heart rate across varied paces, from 8:12/mi to 9:57
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-03 14:46:13 UTC | Run ID: 33768794690*
+*Last updated: 2026-09-04 14:36:08 UTC | Run ID: 33884665386*
