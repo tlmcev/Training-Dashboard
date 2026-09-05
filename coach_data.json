@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04 14:36:08",
+  "updated_at": "2026-09-05 13:35:07",
   "current_week": 10,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -1935,60 +1935,60 @@
   ],
   "weather": [
     {
-      "date": "2026-09-04",
-      "high": 83,
-      "low": 70,
-      "precip": 0.35,
-      "windspeed": 11,
-      "code": 65
-    },
-    {
       "date": "2026-09-05",
-      "high": 79,
-      "low": 66,
+      "high": 81,
+      "low": 68,
       "precip": 0.0,
-      "windspeed": 12,
+      "windspeed": 11,
       "code": 3
     },
     {
       "date": "2026-09-06",
       "high": 76,
-      "low": 63,
-      "precip": 0.02,
-      "windspeed": 8,
+      "low": 61,
+      "precip": 0.03,
+      "windspeed": 13,
       "code": 51
     },
     {
       "date": "2026-09-07",
       "high": 81,
-      "low": 65,
+      "low": 64,
       "precip": 0.0,
       "windspeed": 10,
-      "code": 0
+      "code": 3
     },
     {
       "date": "2026-09-08",
       "high": 84,
       "low": 67,
       "precip": 0.0,
-      "windspeed": 9,
+      "windspeed": 8,
       "code": 3
     },
     {
       "date": "2026-09-09",
-      "high": 87,
+      "high": 86,
       "low": 71,
       "precip": 0.0,
-      "windspeed": 17,
+      "windspeed": 18,
       "code": 3
     },
     {
       "date": "2026-09-10",
-      "high": 79,
-      "low": 61,
-      "precip": 0.01,
-      "windspeed": 22,
-      "code": 51
+      "high": 84,
+      "low": 70,
+      "precip": 0.0,
+      "windspeed": 18,
+      "code": 3
+    },
+    {
+      "date": "2026-09-11",
+      "high": 74,
+      "low": 62,
+      "precip": 0.0,
+      "windspeed": 14,
+      "code": 3
     }
   ],
   "avg_pace_sec": 565.4,
@@ -2038,5 +2038,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for a strong Week 10 as we push towards NYC.\n\n### Fitness Assessment\nYou're demonstrating excellent aerobic development, evidenced by your average HR trending down 9bpm over the last six runs, indicating improved efficiency at similar paces. Your recent 12.12mi at 8:53/mi (avg HR 152bpm, Z2) and 15.15mi at 9:31/mi (avg HR 148bpm, Z2) show solid endurance and the ability to maintain a controlled effort over distance. Consistently running in Z2 for your base runs is a testament to your disciplined approach.\n\n### This Week's Focus\nFor your easy 4m runs (Tuesday, Thursday), target a Z2 pace (9:30-9:45/mi, HR <154bpm) for active recovery. Wednesday's 8m pace run is critical; aim for a Z3 effort (155-169bpm), targeting 8:45-9:00/mi to build speed endurance. Saturday's 17-mile long run requires a sustained Z2 effort (9:30-10:00/mi, HR <154bpm) to build endurance.\n\n### Key Priorities\n*   **Consistent Mileage Build:** Ensure you hit the prescribed mileage this week, especially the 17-mile long run, to address the recent dips in weekly volume (7.3mi and 11.3mi).\n*   **Pace Run Execution:** On Wednesday's 8m pace run, aim for a Z3 effort (155-169bpm) to build speed endurance, targeting a pace around 8:45-9:00/mi, similar to your 12.12mi PR run.\n*   **Aerobic Zone Control:** Continue to keep your easy runs (Tuesday, Thursday, Saturday) firmly in Zone 2 (124-154 bpm) to promote further aerobic adaptation and recovery, even if it means slowing down.\n\n### Watch Out For\nYour weekly mileage has fluctuated significantly, with drops to 7.3mi and 11.3mi in recent weeks. This inconsistency could hinder adaptation and increase injury risk as you approach peak mileage, so prioritize hitting the planned runs.\n\n### Upcoming Milestones\nThis Saturday's 17-mile long run will be your longest run of the training cycle so far, a significant mental and physical milestone as you build towards the marathon."
+  "advice": "Alright Tom, let's get you ready for your 17-mile long run today and set the tone for Week 10. You're 56 days out from NYC \u2013 the countdown is on!\n\n### Fitness Assessment\nYou're showing excellent aerobic adaptation, Tom, with your average HR trending down by 9bpm over the last six runs, consistently keeping 59% of your time in Z2. Your 12.12mi run at an impressive 8:53/mi pace with an average HR of 152bpm (Z2) and 271W demonstrates strong endurance and power. Furthermore, your ability to hit an 8:12/mi pace at 291W for 3.02mi highlights a good mix of speed and efficiency.\n\n### This Week's Focus\nToday's **17-mile long run** should be a controlled Z2 effort; aim for a comfortable pace around 9:30-9:50/mi, keeping your HR below 154bpm, similar to your recent 15.15mi run at 9:31/mi. For **Tuesday's and Thursday's 4-mile runs**, focus on active recovery in Z2, targeting paces around 9:40-10:00/mi with HR below 150bpm. **Wednesday's 8-mile pace run** is your opportunity for a controlled tempo effort, aiming for a Z3 HR (155-165bpm) at a pace of approximately 8:50-9:10/mi to simulate marathon effort.\n\n### Key Priorities\n*   **Long Run Discipline:** Successfully complete today's 17-mile run by focusing on consistent Z2 HR (below 154bpm) and a steady effort around your target marathon pace range.\n*   **Pace Run Execution:** For Wednesday's 8-mile pace run, actively aim for a sustained Z3 HR (155-169bpm) to build your ability to hold a faster, yet controlled, effort.\n*   **Weekly Volume Consistency:** After two weeks of significantly lower mileage (7.3mi and 11.3mi), prioritize completing all scheduled runs this week to rebuild your weekly volume and prepare for the peak training weeks ahead.\n\n### Watch Out For\nYour weekly mileage has seen significant dips in the last two weeks (7.3mi and 11.3mi) after a higher 27.3mi week. This inconsistency could impact your fitness progression, so ensure you're fueling adequately, managing sleep, and listening to your body to avoid overtraining or under-recovering as the mileage increases.\n\n### Upcoming Milestones\nThis week marks a significant milestone with your longest run of the plan so far \u2013 the 17-mile effort. Successfully completing this will be a huge confidence booster, both physically and mentally, as you build towards the final long runs before the taper."
 }
