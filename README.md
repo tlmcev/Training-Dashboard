@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for your 17-mile long run today and set the tone for Week 10. You're 56 days out from NYC – the countdown is on!
+Alright Tom, let's get you dialed in for Week 10 as you continue your strong build towards the NYC Marathon.
 
-### Fitness Assessment
-You're showing excellent aerobic adaptation, Tom, with your average HR trending down by 9bpm over the last six runs, consistently keeping 59% of your time in Z2. Your 12.12mi run at an impressive 8:53/mi pace with an average HR of 152bpm (Z2) and 271W demonstrates strong endurance and power. Furthermore, your ability to hit an 8:12/mi pace at 291W for 3.02mi highlights a good mix of speed and efficiency.
+**Fitness Assessment**
+Your aerobic development is progressing exceptionally well; we're seeing your average heart rate trend down by 9bpm over your last six runs, indicating improved efficiency at similar paces. You're consistently holding Z2 efforts (124-154 bpm) for runs up to 12 miles at paces around 9:00-9:30/mi, demonstrating a solid endurance base and good power output, such as 271W during your 12.12mi run on August 29th. Your ability to hit faster best efforts while staying mostly in Z2/low Z3 further underscores your growing fitness.
 
-### This Week's Focus
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ You're showing excellent aerobic adaptation, Tom, with your average HR trending 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-05 13:35:07 UTC | Run ID: 33969314462*
+*Last updated: 2026-09-06 13:50:05 UTC | Run ID: 34037290028*
