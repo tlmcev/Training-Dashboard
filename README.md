@@ -8,26 +8,26 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “California” -Phantom Planet | 17.42mi | 9:52/mi | 153bpm (Z2) | 2026-09-06 |
 | Run With Mr. Potts!! | 3.9mi | 9:36/mi | 137bpm (Z2) | 2026-09-04 |
 | “Only The Good Die Young” - Billy Joel | 4.24mi | 9:33/mi | 142bpm (Z2) | 2026-09-03 |
 | “Mr. Rager” - Kid Cudi | 3.15mi | 9:08/mi | 145bpm (Z2) | 2026-09-01 |
 | “American Girls” - Harry Styles | 12.12mi | 8:53/mi | 152bpm (Z2) | 2026-08-29 |
-| “I Wanna Cut To The Feeling” - Carly Rae Jepson | 15.15mi | 9:31/mi | 148bpm (Z2) | 2026-08-24 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 10 as you continue your strong build towards the NYC Marathon.
+Alright Tom, excellent work building up your endurance, let's get you primed for NYC!
+
+### Coaching Brief: Week 11 - NYC Marathon Training
 
 **Fitness Assessment**
-Your aerobic development is progressing exceptionally well; we're seeing your average heart rate trend down by 9bpm over your last six runs, indicating improved efficiency at similar paces. You're consistently holding Z2 efforts (124-154 bpm) for runs up to 12 miles at paces around 9:00-9:30/mi, demonstrating a solid endurance base and good power output, such as 271W during your 12.12mi run on August 29th. Your ability to hit faster best efforts while staying mostly in Z2/low Z3 further underscores your growing fitness.
-
-**This Week's Focus**
+You're demonstrating a strong aerobic base, consistently maintaining an average heart rate within Zone 2 across your recent runs (60% of total recorded time). Your recent 17.42-mile run at a 9:52/mi pace with an average HR of 153 bpm (Z2) shows solid endurance, and your consistent power output of 250-270W indicates good effort levels. However, your max HR frequently touches Zone 3 (e.g., 174 bpm on your long run), suggesting you're often pushing the upper limits of your easy zone.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 10 of 18**
+**Current week: 11 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ Your aerobic development is progressing exceptionally well; we're seeing your av
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-06 13:50:05 UTC | Run ID: 34037290028*
+*Last updated: 2026-09-07 16:10:39 UTC | Run ID: 34141974143*

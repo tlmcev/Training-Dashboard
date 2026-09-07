@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-09-06 13:50:05",
-  "current_week": 10,
+  "updated_at": "2026-09-07 16:10:39",
+  "current_week": 11,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 20065354548,
+      "name": "\u201cCalifornia\u201d -Phantom Planet",
+      "date": "2026-09-06",
+      "distance_miles": 17.42,
+      "moving_time_sec": 10322,
+      "pace_per_mile": "9:52",
+      "pace_seconds": 592.5,
+      "elevation_ft": 732.0,
+      "avg_hr": 153,
+      "hr_zone": "Z2",
+      "suffer_score": 257.0,
+      "max_hr": 174.0,
+      "avg_watts": 252,
+      "avg_cadence": null,
+      "fastest_mile": "9:11",
+      "fastest_5k": "29:15",
+      "pr_count": 0
+    },
     {
       "id": 20032664616,
       "name": "Run With Mr. Potts!!",
@@ -187,10 +206,10 @@
       "avg_hr": 153,
       "hr_zone": "Z2",
       "suffer_score": 38.0,
-      "max_hr": 171.0,
-      "avg_watts": 291,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "7:51",
+      "fastest_mile": null,
       "fastest_5k": null,
       "pr_count": 6
     },
@@ -382,7 +401,7 @@
       "avg_cadence": null,
       "fastest_mile": null,
       "fastest_5k": null,
-      "pr_count": 0
+      "pr_count": 1
     },
     {
       "id": 19402377170,
@@ -515,7 +534,7 @@
       "avg_cadence": null,
       "fastest_mile": null,
       "fastest_5k": null,
-      "pr_count": 1
+      "pr_count": 2
     },
     {
       "id": 19213979849,
@@ -1343,7 +1362,7 @@
     },
     {
       "week_start": "2026-08-31",
-      "miles": 11.3
+      "miles": 28.7
     }
   ],
   "ae_trend": [
@@ -1931,21 +1950,22 @@
       "dist": 3.9,
       "marathon_pred": "3:52:04",
       "marathon_sec": 13924
+    },
+    {
+      "date": "2026-09-06",
+      "name": "\u201cCalifornia\u201d -Phantom Planet",
+      "ae": 1.065,
+      "hr": 153,
+      "dist": 17.42,
+      "marathon_pred": "4:26:16",
+      "marathon_sec": 15976
     }
   ],
   "weather": [
     {
-      "date": "2026-09-06",
-      "high": 75,
-      "low": 65,
-      "precip": 0.0,
-      "windspeed": 8,
-      "code": 3
-    },
-    {
       "date": "2026-09-07",
-      "high": 79,
-      "low": 57,
+      "high": 81,
+      "low": 59,
       "precip": 0.0,
       "windspeed": 9,
       "code": 3
@@ -1953,50 +1973,58 @@
     {
       "date": "2026-09-08",
       "high": 83,
-      "low": 66,
+      "low": 61,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 7,
       "code": 3
     },
     {
       "date": "2026-09-09",
       "high": 84,
-      "low": 70,
+      "low": 66,
       "precip": 0.0,
-      "windspeed": 16,
+      "windspeed": 15,
       "code": 3
     },
     {
       "date": "2026-09-10",
-      "high": 84,
+      "high": 80,
       "low": 75,
-      "precip": 0.01,
-      "windspeed": 17,
+      "precip": 0.02,
+      "windspeed": 16,
       "code": 51
     },
     {
       "date": "2026-09-11",
-      "high": 80,
-      "low": 71,
-      "precip": 0.01,
-      "windspeed": 13,
-      "code": 51
-    },
-    {
-      "date": "2026-09-12",
-      "high": 78,
+      "high": 79,
       "low": 67,
       "precip": 0.0,
       "windspeed": 12,
-      "code": 1
+      "code": 3
+    },
+    {
+      "date": "2026-09-12",
+      "high": 76,
+      "low": 65,
+      "precip": 0.0,
+      "windspeed": 11,
+      "code": 2
+    },
+    {
+      "date": "2026-09-13",
+      "high": 78,
+      "low": 71,
+      "precip": 0.0,
+      "windspeed": 12,
+      "code": 3
     }
   ],
-  "avg_pace_sec": 565.4,
+  "avg_pace_sec": 565.8,
   "predictions": {
-    "5k": "26:47",
-    "10k": "55:51",
-    "half": "2:03:26",
-    "marathon": "4:17:22"
+    "5k": "26:49",
+    "10k": "55:54",
+    "half": "2:03:32",
+    "marathon": "4:17:33"
   },
   "pace_zones": {
     "Z1": {
@@ -2032,11 +2060,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 59,
+    "Z2": 60,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for Week 10 as you continue your strong build towards the NYC Marathon.\n\n**Fitness Assessment**\nYour aerobic development is progressing exceptionally well; we're seeing your average heart rate trend down by 9bpm over your last six runs, indicating improved efficiency at similar paces. You're consistently holding Z2 efforts (124-154 bpm) for runs up to 12 miles at paces around 9:00-9:30/mi, demonstrating a solid endurance base and good power output, such as 271W during your 12.12mi run on August 29th. Your ability to hit faster best efforts while staying mostly in Z2/low Z3 further underscores your growing fitness.\n\n**This Week's Focus**\nFor your 4-mile runs on Tuesday and Thursday, maintain a comfortable, conversational Z2 pace (124-154 bpm), likely in the 9:30-10:00/mi range, to ensure active recovery. Wednesday's 8-mile pace run is a key workout; target a marathon-specific effort around 8:50-9:10/mi, allowing your heart rate to climb into Z3 (155-169 bpm) as you sustain the pace. Your 17-mile long run on Saturday should be executed at a relaxed, steady Z2 effort, aiming for a consistent pace similar to your recent long runs, perhaps 9:30-10:00/mi.\n\n**Key Priorities**\n*   **Maintain Easy Effort:** Keep your 4-mile runs truly easy, ensuring your average heart rate stays comfortably in Z2, below 154 bpm, to maximize recovery.\n*   **Execute Pace Run:** Successfully hold your target 8:50-9:10/mi pace for the full 8 miles on Wednesday, focusing on controlled breathing and sustained effort in Z3.\n*   **Long Run Hydration & Fueling:** Given the forecasted warm and potentially drizzly conditions for Saturday, prioritize hydration and practice your fueling strategy during your 17-mile long run, maintaining a consistent Z2 heart rate.\n\n**Watch Out For**\nThis week involves a significant jump in mileage from 11.3 miles last week to 33 miles from your planned runs; pay extra attention to any new aches or pains, particularly after the 17-mile long run, to prevent overtraining or injury.\n\n**Upcoming Milestones**\nSuccessfully completing Saturday's 17-mile long run will mark your longest run of this training cycle to date, providing a substantial boost in confidence and further solidifying your endurance foundation for the marathon."
+  "advice": "Alright Tom, excellent work building up your endurance, let's get you primed for NYC!\n\n### Coaching Brief: Week 11 - NYC Marathon Training\n\n**Fitness Assessment**\nYou're demonstrating a strong aerobic base, consistently maintaining an average heart rate within Zone 2 across your recent runs (60% of total recorded time). Your recent 17.42-mile run at a 9:52/mi pace with an average HR of 153 bpm (Z2) shows solid endurance, and your consistent power output of 250-270W indicates good effort levels. However, your max HR frequently touches Zone 3 (e.g., 174 bpm on your long run), suggesting you're often pushing the upper limits of your easy zone.\n\n**This Week's Focus**\nFor your 5-mile and 8-mile runs, aim for a truly easy effort, keeping your average heart rate firmly in Zone 2 (124-154 bpm), likely around a 9:45-10:15/mi pace given the warm forecast. Your 18-mile long run on Saturday should also be a conversational pace, targeting Z2, but be mindful of the duration and potential for HR drift into low Z3 as fatigue builds, similar to your recent long runs. Focus on maintaining consistent effort and form throughout, using your power data (aiming for 240-260W) as an additional guide to avoid overexertion.\n\n**Key Priorities**\n*   **Prioritize Z2 for Easy Runs:** Ensure your average HR stays below 154 bpm for Tuesday's 5m, Wednesday's 8m, and Thursday's 5m runs, adjusting pace as needed for the warm, humid weather.\n*   **Strategic Pacing for Long Run:** For the 18-mile long run, start conservatively, aiming for a consistent Z2 effort (140-150 bpm) and a pace around 9:50-10:10/mi to manage fatigue and the significant mileage.\n*   **Active Recovery & Hydration:** Given the warm forecast (highs in the 80s) and the significant mileage jump from 28.7 miles to 36 miles this week, prioritize hydration and utilize your rest day and cross-training for optimal recovery.\n\n**Watch Out For**\nYour weekly mileage is jumping from 28.7 miles last week to a planned 36 miles this week, which is a significant 25% increase. This substantial jump, combined with consistently touching Z3 on recent \"easy\" runs (e.g., max HR 174 bpm on your 17.42mi run), puts you at increased risk of overtraining or injury if not managed carefully.\n\n**Upcoming Milestones**\nThis Saturday's 18-mile long run will be your longest scheduled run of the training cycle so far. This represents a significant mental and physical accomplishment as you continue to build the endurance needed for the NYC Marathon."
 }
