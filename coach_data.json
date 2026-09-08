@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07 16:10:39",
+  "updated_at": "2026-09-08 14:48:25",
   "current_week": 11,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -97,7 +97,7 @@
       "avg_cadence": null,
       "fastest_mile": "8:34",
       "fastest_5k": "26:55",
-      "pr_count": 14
+      "pr_count": 15
     },
     {
       "id": 19881471285,
@@ -401,7 +401,7 @@
       "avg_cadence": null,
       "fastest_mile": null,
       "fastest_5k": null,
-      "pr_count": 1
+      "pr_count": 2
     },
     {
       "id": 19402377170,
@@ -534,7 +534,7 @@
       "avg_cadence": null,
       "fastest_mile": null,
       "fastest_5k": null,
-      "pr_count": 2
+      "pr_count": 3
     },
     {
       "id": 19213979849,
@@ -1963,60 +1963,60 @@
   ],
   "weather": [
     {
-      "date": "2026-09-07",
-      "high": 81,
-      "low": 59,
-      "precip": 0.0,
-      "windspeed": 9,
-      "code": 3
-    },
-    {
       "date": "2026-09-08",
-      "high": 83,
+      "high": 84,
       "low": 61,
       "precip": 0.0,
-      "windspeed": 7,
+      "windspeed": 8,
       "code": 3
     },
     {
       "date": "2026-09-09",
-      "high": 84,
+      "high": 87,
       "low": 66,
       "precip": 0.0,
-      "windspeed": 15,
+      "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-09-10",
-      "high": 80,
-      "low": 75,
-      "precip": 0.02,
-      "windspeed": 16,
-      "code": 51
+      "high": 78,
+      "low": 72,
+      "precip": 0.11,
+      "windspeed": 15,
+      "code": 80
     },
     {
       "date": "2026-09-11",
-      "high": 79,
-      "low": 67,
+      "high": 80,
+      "low": 68,
       "precip": 0.0,
       "windspeed": 12,
       "code": 3
     },
     {
       "date": "2026-09-12",
-      "high": 76,
-      "low": 65,
+      "high": 74,
+      "low": 63,
       "precip": 0.0,
-      "windspeed": 11,
-      "code": 2
+      "windspeed": 13,
+      "code": 3
     },
     {
       "date": "2026-09-13",
-      "high": 78,
-      "low": 71,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
+      "high": 74,
+      "low": 72,
+      "precip": 0.04,
+      "windspeed": 10,
+      "code": 51
+    },
+    {
+      "date": "2026-09-14",
+      "high": 82,
+      "low": 72,
+      "precip": 0.09,
+      "windspeed": 7,
+      "code": 51
     }
   ],
   "avg_pace_sec": 565.8,
@@ -2066,5 +2066,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, excellent work building up your endurance, let's get you primed for NYC!\n\n### Coaching Brief: Week 11 - NYC Marathon Training\n\n**Fitness Assessment**\nYou're demonstrating a strong aerobic base, consistently maintaining an average heart rate within Zone 2 across your recent runs (60% of total recorded time). Your recent 17.42-mile run at a 9:52/mi pace with an average HR of 153 bpm (Z2) shows solid endurance, and your consistent power output of 250-270W indicates good effort levels. However, your max HR frequently touches Zone 3 (e.g., 174 bpm on your long run), suggesting you're often pushing the upper limits of your easy zone.\n\n**This Week's Focus**\nFor your 5-mile and 8-mile runs, aim for a truly easy effort, keeping your average heart rate firmly in Zone 2 (124-154 bpm), likely around a 9:45-10:15/mi pace given the warm forecast. Your 18-mile long run on Saturday should also be a conversational pace, targeting Z2, but be mindful of the duration and potential for HR drift into low Z3 as fatigue builds, similar to your recent long runs. Focus on maintaining consistent effort and form throughout, using your power data (aiming for 240-260W) as an additional guide to avoid overexertion.\n\n**Key Priorities**\n*   **Prioritize Z2 for Easy Runs:** Ensure your average HR stays below 154 bpm for Tuesday's 5m, Wednesday's 8m, and Thursday's 5m runs, adjusting pace as needed for the warm, humid weather.\n*   **Strategic Pacing for Long Run:** For the 18-mile long run, start conservatively, aiming for a consistent Z2 effort (140-150 bpm) and a pace around 9:50-10:10/mi to manage fatigue and the significant mileage.\n*   **Active Recovery & Hydration:** Given the warm forecast (highs in the 80s) and the significant mileage jump from 28.7 miles to 36 miles this week, prioritize hydration and utilize your rest day and cross-training for optimal recovery.\n\n**Watch Out For**\nYour weekly mileage is jumping from 28.7 miles last week to a planned 36 miles this week, which is a significant 25% increase. This substantial jump, combined with consistently touching Z3 on recent \"easy\" runs (e.g., max HR 174 bpm on your 17.42mi run), puts you at increased risk of overtraining or injury if not managed carefully.\n\n**Upcoming Milestones**\nThis Saturday's 18-mile long run will be your longest scheduled run of the training cycle so far. This represents a significant mental and physical accomplishment as you continue to build the endurance needed for the NYC Marathon."
+  "advice": "Alright Tom, let's get you ready for a strong week of training as we push towards NYC.\n\n### Coaching Brief: Week 11 \u2013 NYC Marathon Prep\n\n**Fitness Assessment**\nTom, you're demonstrating excellent aerobic development. Your recent 17.42mi long run at a controlled 9:52/mi pace with an average HR of 153 bpm (Z2) and 252W shows strong endurance and efficiency, especially considering the +732ft elevation. You're consistently performing long runs well within your target Z2, indicating a solid base for marathon performance.\n\n**This Week's Focus**\nYour easy runs (Tuesday 5m, Wednesday 8m, Thursday 5m) should target a relaxed Z2 effort, aiming for paces around 9:30-10:00/mi with average HRs below 154 bpm. For Saturday's crucial 18-mile long run, aim to replicate the controlled effort of your recent 17.42mi run, maintaining a pace of 9:45-10:15/mi while keeping your HR firmly in Z2.\n\n**Key Priorities**\n*   **Z2 Maintenance:** Ensure average HR for all runs, especially the 18-miler, stays firmly below 154 bpm, as you successfully did on your 17.42mi run.\n*   **Fueling & Hydration:** Prioritize pre- and post-run nutrition and hydration this week, particularly around the 18-mile run, to support recovery and adaptation.\n*   **Consistent Effort:** Aim for consistent power output, keeping your watts in the 250-260W range for your long run efforts to maintain steady pacing.\n\n**Watch Out For**\nBe highly aware of the forecast high temperatures (84-87F) and humidity early this week; adjust pace and hydration to keep your HR from spiking excessively into Z3, which you briefly touched (max HR 174 bpm) during your 17.42mi run.\n\n**Upcoming Milestones**\nThis Saturday's 18-mile run will be your longest training run yet, a significant physical and mental milestone as you approach the final stages of your training cycle."
 }

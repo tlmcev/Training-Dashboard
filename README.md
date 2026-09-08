@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, excellent work building up your endurance, let's get you primed for NYC!
+Alright Tom, let's get you ready for a strong week of training as we push towards NYC.
 
-### Coaching Brief: Week 11 - NYC Marathon Training
+### Coaching Brief: Week 11 – NYC Marathon Prep
 
 **Fitness Assessment**
-You're demonstrating a strong aerobic base, consistently maintaining an average heart rate within Zone 2 across your recent runs (60% of total recorded time). Your recent 17.42-mile run at a 9:52/mi pace with an average HR of 153 bpm (Z2) shows solid endurance, and your consistent power output of 250-270W indicates good effort levels. However, your max HR frequently touches Zone 3 (e.g., 174 bpm on your long run), suggesting you're often pushing the upper limits of your easy zone.
+Tom, you're demonstrating excellent aerobic development. Your recent 17.42mi long run at a controlled 9:52/mi pace with an average HR of 153 bpm (Z2) and 252W shows strong endurance and efficiency, especially considering the +732ft elevation. You're consistently performing long runs well within your target Z2, indicating a solid base for marathon performance.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ You're demonstrating a strong aerobic base, consistently maintaining an average 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-07 16:10:39 UTC | Run ID: 34141974143*
+*Last updated: 2026-09-08 14:48:25 UTC | Run ID: 34240629802*
