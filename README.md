@@ -8,20 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Love Is Strange” - Wings | 3.14mi | 8:58/mi | 140bpm (Z2) | 2026-09-10 |
 | “California” -Phantom Planet | 17.42mi | 9:52/mi | 153bpm (Z2) | 2026-09-06 |
 | Run With Mr. Potts!! | 3.9mi | 9:36/mi | 137bpm (Z2) | 2026-09-04 |
 | “Only The Good Die Young” - Billy Joel | 4.24mi | 9:33/mi | 142bpm (Z2) | 2026-09-03 |
 | “Mr. Rager” - Kid Cudi | 3.15mi | 9:08/mi | 145bpm (Z2) | 2026-09-01 |
-| “American Girls” - Harry Styles | 12.12mi | 8:53/mi | 152bpm (Z2) | 2026-08-29 |
 
 ## AI Coach Snapshot
 
-Hey Tom, great work lately! Let's get you ready for a strong Week 11.
+Alright Tom, let's get you dialed in for Week 11 of your NYC Marathon training. Today is Thursday, September 10, 2026, and you're 51 days out from race day.
 
-**Fitness Assessment**
-Tom displays strong aerobic fitness, consistently completing long runs up to 17.42 miles with an average heart rate of 153bpm (Z2) and solid power output (252W). Your recent PRs and upward mileage trend to 28.7mi last week indicate excellent progress in building endurance and maintaining a controlled effort. While your average pace of 9:25/mi is faster than your predicted marathon pace, your ability to sustain Z2 across varied distances is a positive sign of your developing aerobic base.
-
-**This Week's Focus**
+### **Fitness Assessment**
+Tom, your recent runs consistently show you operating within Zone 2, which is excellent for building your aerobic base. Your 17.42-mile run at a 9:52/mi pace with an average HR of 153bpm (Z2) demonstrates solid endurance, and your recent 3.14-mile run at 8:58/mi with a lower 140bpm (Z2) average HR and higher 268W indicates improved efficiency at a faster easy
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +49,4 @@ Tom displays strong aerobic fitness, consistently completing long runs up to 17.
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-09 14:52:11 UTC | Run ID: 34366443670*
+*Last updated: 2026-09-10 14:41:11 UTC | Run ID: 34490662196*

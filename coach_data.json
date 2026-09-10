@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-09-09 14:52:11",
+  "updated_at": "2026-09-10 14:41:11",
   "current_week": 11,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 20115986242,
+      "name": "\u201cLove Is Strange\u201d - Wings",
+      "date": "2026-09-10",
+      "distance_miles": 3.14,
+      "moving_time_sec": 1691,
+      "pace_per_mile": "8:58",
+      "pace_seconds": 538.5,
+      "elevation_ft": 138.0,
+      "avg_hr": 140,
+      "hr_zone": "Z2",
+      "suffer_score": 22.0,
+      "max_hr": 167.0,
+      "avg_watts": 268,
+      "avg_cadence": null,
+      "fastest_mile": "8:39",
+      "fastest_5k": "29:25",
+      "pr_count": 0
+    },
     {
       "id": 20065354548,
       "name": "\u201cCalifornia\u201d -Phantom Planet",
@@ -187,11 +206,11 @@
       "avg_hr": 142,
       "hr_zone": "Z2",
       "suffer_score": 33.0,
-      "max_hr": 156.0,
-      "avg_watts": 237,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "9:22",
-      "fastest_5k": "30:35",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 0
     },
     {
@@ -1363,6 +1382,10 @@
     {
       "week_start": "2026-08-31",
       "miles": 28.7
+    },
+    {
+      "week_start": "2026-09-07",
+      "miles": 3.1
     }
   ],
   "ae_trend": [
@@ -1959,72 +1982,81 @@
       "dist": 17.42,
       "marathon_pred": "4:26:16",
       "marathon_sec": 15976
+    },
+    {
+      "date": "2026-09-10",
+      "name": "\u201cLove Is Strange\u201d - Wings",
+      "ae": 1.281,
+      "hr": 140,
+      "dist": 3.14,
+      "marathon_pred": "3:41:23",
+      "marathon_sec": 13283
     }
   ],
   "weather": [
-    {
-      "date": "2026-09-09",
-      "high": 85,
-      "low": 66,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
     {
       "date": "2026-09-10",
       "high": 90,
       "low": 71,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 12,
       "code": 3
     },
     {
       "date": "2026-09-11",
-      "high": 81,
+      "high": 84,
       "low": 67,
-      "precip": 0.06,
-      "windspeed": 13,
-      "code": 55
+      "precip": 0.0,
+      "windspeed": 8,
+      "code": 3
     },
     {
       "date": "2026-09-12",
-      "high": 77,
-      "low": 67,
-      "precip": 0.0,
-      "windspeed": 14,
-      "code": 3
+      "high": 78,
+      "low": 63,
+      "precip": 0.05,
+      "windspeed": 17,
+      "code": 53
     },
     {
       "date": "2026-09-13",
-      "high": 79,
+      "high": 82,
       "low": 71,
-      "precip": 0.69,
-      "windspeed": 13,
-      "code": 95
+      "precip": 0.54,
+      "windspeed": 11,
+      "code": 81
     },
     {
       "date": "2026-09-14",
-      "high": 85,
-      "low": 71,
-      "precip": 0.0,
-      "windspeed": 11,
-      "code": 3
-    },
-    {
-      "date": "2026-09-15",
-      "high": 81,
+      "high": 82,
       "low": 74,
       "precip": 0.0,
       "windspeed": 12,
       "code": 3
+    },
+    {
+      "date": "2026-09-15",
+      "high": 75,
+      "low": 70,
+      "precip": 0.01,
+      "windspeed": 14,
+      "code": 51
+    },
+    {
+      "date": "2026-09-16",
+      "high": 85,
+      "low": 71,
+      "precip": 0.08,
+      "windspeed": 15,
+      "code": 53
     }
   ],
-  "avg_pace_sec": 565.8,
+  "avg_pace_sec": 565.4,
   "predictions": {
-    "5k": "26:49",
-    "10k": "55:54",
-    "half": "2:03:32",
-    "marathon": "4:17:33"
+    "5k": "26:47",
+    "10k": "55:51",
+    "half": "2:03:26",
+    "marathon": "4:17:22"
   },
   "pace_zones": {
     "Z1": {
@@ -2060,11 +2092,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 60,
+    "Z2": 61,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Hey Tom, great work lately! Let's get you ready for a strong Week 11.\n\n**Fitness Assessment**\nTom displays strong aerobic fitness, consistently completing long runs up to 17.42 miles with an average heart rate of 153bpm (Z2) and solid power output (252W). Your recent PRs and upward mileage trend to 28.7mi last week indicate excellent progress in building endurance and maintaining a controlled effort. While your average pace of 9:25/mi is faster than your predicted marathon pace, your ability to sustain Z2 across varied distances is a positive sign of your developing aerobic base.\n\n**This Week's Focus**\nToday's 8-mile run should target an easy Z2 effort, aiming for 9:30-10:00/mi with your HR below 154bpm, considering the 85F temperature. The 5-mile run on Thursday will be a restorative Z2 effort, keeping your HR below 154bpm and a relaxed pace around 9:45-10:15/mi. Saturday's crucial 18-mile long run requires a conversational Z2 effort, targeting an average HR below 154bpm, adjusting pace (likely 9:45-10:15/mi) for the forecasted 77F heat.\n\n**Key Priorities**\n*   **Maintain Z2 Control:** For all runs this week, prioritize keeping your average heart rate firmly in Zone 2 (124-154bpm), as demonstrated in your recent 17.42mi run (153bpm avg).\n*   **Hydration & Heat Management:** With temperatures consistently in the 80s-90s, focus on pre-hydrating and carrying fluids for all runs, especially the 18-miler, to mitigate heat stress.\n*   **Effort Over Pace:** On Saturday's 18-mile run, focus on time on feet and maintaining a consistent, comfortable effort rather than chasing a specific pace, allowing for adjustments due to heat and humidity.\n\n**Watch Out For**\nThe forecasted high heat and humidity (80s-90s F) for the entire week is a significant red flag; your perceived effort will be higher, and your average heart rate might creep into Z3 more easily, or your pace will significantly drop for the same effort.\n\n**Upcoming Milestones**\nThis Saturday marks your longest run of the training plan so far with the 18-miler, a significant mental and physical milestone as you build towards the NYC Marathon."
+  "advice": "Alright Tom, let's get you dialed in for Week 11 of your NYC Marathon training. Today is Thursday, September 10, 2026, and you're 51 days out from race day.\n\n### **Fitness Assessment**\nTom, your recent runs consistently show you operating within Zone 2, which is excellent for building your aerobic base. Your 17.42-mile run at a 9:52/mi pace with an average HR of 153bpm (Z2) demonstrates solid endurance, and your recent 3.14-mile run at 8:58/mi with a lower 140bpm (Z2) average HR and higher 268W indicates improved efficiency at a faster easy"
 }
