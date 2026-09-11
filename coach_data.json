@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10 14:41:11",
+  "updated_at": "2026-09-11 14:39:56",
   "current_week": 11,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -1995,60 +1995,60 @@
   ],
   "weather": [
     {
-      "date": "2026-09-10",
-      "high": 90,
-      "low": 71,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
-    {
       "date": "2026-09-11",
-      "high": 84,
-      "low": 67,
+      "high": 82,
+      "low": 66,
       "precip": 0.0,
-      "windspeed": 8,
+      "windspeed": 10,
       "code": 3
     },
     {
       "date": "2026-09-12",
-      "high": 78,
-      "low": 63,
-      "precip": 0.05,
-      "windspeed": 17,
-      "code": 53
+      "high": 79,
+      "low": 58,
+      "precip": 0.0,
+      "windspeed": 10,
+      "code": 3
     },
     {
       "date": "2026-09-13",
-      "high": 82,
+      "high": 83,
       "low": 71,
-      "precip": 0.54,
-      "windspeed": 11,
+      "precip": 1.03,
+      "windspeed": 12,
       "code": 81
     },
     {
       "date": "2026-09-14",
-      "high": 82,
-      "low": 74,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
+      "high": 75,
+      "low": 64,
+      "precip": 0.04,
+      "windspeed": 18,
+      "code": 53
     },
     {
       "date": "2026-09-15",
-      "high": 75,
-      "low": 70,
-      "precip": 0.01,
-      "windspeed": 14,
-      "code": 51
+      "high": 70,
+      "low": 59,
+      "precip": 0.0,
+      "windspeed": 13,
+      "code": 3
     },
     {
       "date": "2026-09-16",
-      "high": 85,
-      "low": 71,
-      "precip": 0.08,
-      "windspeed": 15,
-      "code": 53
+      "high": 72,
+      "low": 66,
+      "precip": 0.0,
+      "windspeed": 9,
+      "code": 3
+    },
+    {
+      "date": "2026-09-17",
+      "high": 76,
+      "low": 67,
+      "precip": 0.0,
+      "windspeed": 8,
+      "code": 0
     }
   ],
   "avg_pace_sec": 565.4,
@@ -2098,5 +2098,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for Week 11 of your NYC Marathon training. Today is Thursday, September 10, 2026, and you're 51 days out from race day.\n\n### **Fitness Assessment**\nTom, your recent runs consistently show you operating within Zone 2, which is excellent for building your aerobic base. Your 17.42-mile run at a 9:52/mi pace with an average HR of 153bpm (Z2) demonstrates solid endurance, and your recent 3.14-mile run at 8:58/mi with a lower 140bpm (Z2) average HR and higher 268W indicates improved efficiency at a faster easy"
+  "advice": "Hey Tom, let's get you dialed in for the NYC Marathon! We're 50 days out, and it's time to sharpen our focus.\n\n### **Fitness Assessment**\nTom, you consistently demonstrate strong aerobic control, with 61% of your recent running time in Zone 2, indicating a solid foundation. Your recent runs average around 9:00-9:50/mi at a comfortable Z2 heart rate (e.g., 153bpm for 17.42mi), suggesting good endurance capacity. While your power output is consistent (250-270W), the primary concern is the significant inconsistency in training volume.\n\n### **This Week's Focus**\nToday is your scheduled rest day, which"
 }

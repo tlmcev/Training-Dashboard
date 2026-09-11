@@ -16,10 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 11 of your NYC Marathon training. Today is Thursday, September 10, 2026, and you're 51 days out from race day.
+Hey Tom, let's get you dialed in for the NYC Marathon! We're 50 days out, and it's time to sharpen our focus.
 
 ### **Fitness Assessment**
-Tom, your recent runs consistently show you operating within Zone 2, which is excellent for building your aerobic base. Your 17.42-mile run at a 9:52/mi pace with an average HR of 153bpm (Z2) demonstrates solid endurance, and your recent 3.14-mile run at 8:58/mi with a lower 140bpm (Z2) average HR and higher 268W indicates improved efficiency at a faster easy
+Tom, you consistently demonstrate strong aerobic control, with 61% of your recent running time in Zone 2, indicating a solid foundation. Your recent runs average around 9:00-9:50/mi at a comfortable Z2 heart rate (e.g., 153bpm for 17.42mi), suggesting good endurance capacity. While your power output is consistent (250-270W), the primary concern is the significant inconsistency in training volume.
+
+### **This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -49,4 +51,4 @@ Tom, your recent runs consistently show you operating within Zone 2, which is ex
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-10 14:41:11 UTC | Run ID: 34490662196*
+*Last updated: 2026-09-11 14:39:56 UTC | Run ID: 34611457201*
