@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-09-11 14:39:56",
+  "updated_at": "2026-09-12 13:47:36",
   "current_week": 11,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 20131530430,
+      "name": "\u201cValerie\u201d -Mark Ronson, Amy Winehouse",
+      "date": "2026-09-11",
+      "distance_miles": 1.92,
+      "moving_time_sec": 1066,
+      "pace_per_mile": "9:15",
+      "pace_seconds": 555.2,
+      "elevation_ft": 74.0,
+      "avg_hr": 147,
+      "hr_zone": "Z2",
+      "suffer_score": 20.0,
+      "max_hr": 167.0,
+      "avg_watts": 260,
+      "avg_cadence": null,
+      "fastest_mile": "8:42",
+      "fastest_5k": null,
+      "pr_count": 1
+    },
     {
       "id": 20115986242,
       "name": "\u201cLove Is Strange\u201d - Wings",
@@ -187,11 +206,11 @@
       "avg_hr": 144,
       "hr_zone": "Z2",
       "suffer_score": 127.0,
-      "max_hr": 165.0,
-      "avg_watts": 246,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "9:06",
-      "fastest_5k": "30:26",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 0
     },
     {
@@ -1385,7 +1404,7 @@
     },
     {
       "week_start": "2026-09-07",
-      "miles": 3.1
+      "miles": 5.1
     }
   ],
   "ae_trend": [
@@ -1991,53 +2010,54 @@
       "dist": 3.14,
       "marathon_pred": "3:41:23",
       "marathon_sec": 13283
+    },
+    {
+      "date": "2026-09-11",
+      "name": "\u201cValerie\u201d -Mark Ronson, Amy Winehouse",
+      "ae": 1.183,
+      "hr": 147,
+      "dist": 1.92,
+      "marathon_pred": "3:59:43",
+      "marathon_sec": 14383
     }
   ],
   "weather": [
     {
-      "date": "2026-09-11",
-      "high": 82,
-      "low": 66,
-      "precip": 0.0,
-      "windspeed": 10,
-      "code": 3
-    },
-    {
       "date": "2026-09-12",
-      "high": 79,
-      "low": 58,
+      "high": 78,
+      "low": 62,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 12,
       "code": 3
     },
     {
       "date": "2026-09-13",
-      "high": 83,
-      "low": 71,
-      "precip": 1.03,
-      "windspeed": 12,
-      "code": 81
+      "high": 76,
+      "low": 67,
+      "precip": 0.29,
+      "windspeed": 9,
+      "code": 63
     },
     {
       "date": "2026-09-14",
-      "high": 75,
-      "low": 64,
-      "precip": 0.04,
-      "windspeed": 18,
+      "high": 77,
+      "low": 66,
+      "precip": 0.05,
+      "windspeed": 15,
       "code": 53
     },
     {
       "date": "2026-09-15",
-      "high": 70,
-      "low": 59,
+      "high": 72,
+      "low": 60,
       "precip": 0.0,
-      "windspeed": 13,
+      "windspeed": 12,
       "code": 3
     },
     {
       "date": "2026-09-16",
       "high": 72,
-      "low": 66,
+      "low": 65,
       "precip": 0.0,
       "windspeed": 9,
       "code": 3
@@ -2045,18 +2065,26 @@
     {
       "date": "2026-09-17",
       "high": 76,
-      "low": 67,
+      "low": 66,
       "precip": 0.0,
-      "windspeed": 8,
+      "windspeed": 12,
       "code": 0
+    },
+    {
+      "date": "2026-09-18",
+      "high": 77,
+      "low": 68,
+      "precip": 0.11,
+      "windspeed": 15,
+      "code": 53
     }
   ],
-  "avg_pace_sec": 565.4,
+  "avg_pace_sec": 565.2,
   "predictions": {
     "5k": "26:47",
     "10k": "55:51",
-    "half": "2:03:26",
-    "marathon": "4:17:22"
+    "half": "2:03:24",
+    "marathon": "4:17:18"
   },
   "pace_zones": {
     "Z1": {
@@ -2092,11 +2120,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 61,
+    "Z2": 62,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Hey Tom, let's get you dialed in for the NYC Marathon! We're 50 days out, and it's time to sharpen our focus.\n\n### **Fitness Assessment**\nTom, you consistently demonstrate strong aerobic control, with 61% of your recent running time in Zone 2, indicating a solid foundation. Your recent runs average around 9:00-9:50/mi at a comfortable Z2 heart rate (e.g., 153bpm for 17.42mi), suggesting good endurance capacity. While your power output is consistent (250-270W), the primary concern is the significant inconsistency in training volume.\n\n### **This Week's Focus**\nToday is your scheduled rest day, which"
+  "advice": "Here is your coaching brief, Tom:\n\n**Fitness Assessment**\nTom shows strong aerobic development, consistently running in Zone 2 for most of his training, including long runs of 15-17 miles at paces around 9:30-9:50/mi. His consistent wattage in the 250-270W range at these paces indicates good power output. The recent 15 PRs on his 12.12mi run and consistent Z2 heart rates suggest ongoing fitness gains and adaptation to the training load.\n\n**This Week's Focus**\nFor your 18-mile long run today, aim for an easy Zone 2 effort, keeping your heart rate between 124-154 bpm, which will likely translate to a pace in the 9:45-10:15/mi range given the warmer weather. Your 5-mile and 8-mile runs next week should also be easy Z2, targeting paces around 9:15-9:45/mi. Remember to prioritize effort over pace, especially with the recent HR trend.\n\n**Key Priorities**\n*   **Strictly manage heart rate on all runs:** Given the +5bpm HR trend, ensure your average heart rate remains firmly within Zone 2 (124-154 bpm) for all scheduled runs, even if it means significantly slowing your pace.\n*   **Prioritize recovery:** The plan includes two rest days and a cross-training day; utilize these fully to allow your body to adapt and recover from the increased training load.\n*   **Fuel and hydrate for the 18-mile long run:** This is a significant distance, so practice your race-day nutrition and hydration strategies to support your body and avoid hitting the wall.\n\n**Watch Out For**\nThe most critical red flag is your heart rate trending up by 5bpm over the last six runs, signaling potential fatigue. Pay close attention to how your body feels and don't hesitate to slow down or even take an extra rest day if you feel overly tired, even if it means adjusting the plan slightly.\n\n**Upcoming Milestones**\nThis week's 18-mile long run is a significant test of your endurance and a crucial step towards building confidence for the marathon. Successfully completing this distance will demonstrate your readiness for the longer distances ahead and is the longest run of your current plan."
 }

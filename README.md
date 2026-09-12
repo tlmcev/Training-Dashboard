@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Valerie” -Mark Ronson, Amy Winehouse | 1.92mi | 9:15/mi | 147bpm (Z2) | 2026-09-11 |
 | “Love Is Strange” - Wings | 3.14mi | 8:58/mi | 140bpm (Z2) | 2026-09-10 |
 | “California” -Phantom Planet | 17.42mi | 9:52/mi | 153bpm (Z2) | 2026-09-06 |
 | Run With Mr. Potts!! | 3.9mi | 9:36/mi | 137bpm (Z2) | 2026-09-04 |
 | “Only The Good Die Young” - Billy Joel | 4.24mi | 9:33/mi | 142bpm (Z2) | 2026-09-03 |
-| “Mr. Rager” - Kid Cudi | 3.15mi | 9:08/mi | 145bpm (Z2) | 2026-09-01 |
 
 ## AI Coach Snapshot
 
-Hey Tom, let's get you dialed in for the NYC Marathon! We're 50 days out, and it's time to sharpen our focus.
+Here is your coaching brief, Tom:
 
-### **Fitness Assessment**
-Tom, you consistently demonstrate strong aerobic control, with 61% of your recent running time in Zone 2, indicating a solid foundation. Your recent runs average around 9:00-9:50/mi at a comfortable Z2 heart rate (e.g., 153bpm for 17.42mi), suggesting good endurance capacity. While your power output is consistent (250-270W), the primary concern is the significant inconsistency in training volume.
+**Fitness Assessment**
+Tom shows strong aerobic development, consistently running in Zone 2 for most of his training, including long runs of 15-17 miles at paces around 9:30-9:50/mi. His consistent wattage in the 250-270W range at these paces indicates good power output. The recent 15 PRs on his 12.12mi run and consistent Z2 heart rates suggest ongoing fitness gains and adaptation to the training load.
 
-### **This Week's Focus**
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, you consistently demonstrate strong aerobic control, with 61% of your recen
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-11 14:39:56 UTC | Run ID: 34611457201*
+*Last updated: 2026-09-12 13:47:36 UTC | Run ID: 34697400507*
