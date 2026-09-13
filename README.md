@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Burning Down The House” - Talking Heads | 13.23mi | 10:56/mi | 153bpm (Z2) | 2026-09-12 |
 | “Valerie” -Mark Ronson, Amy Winehouse | 1.92mi | 9:15/mi | 147bpm (Z2) | 2026-09-11 |
 | “Love Is Strange” - Wings | 3.14mi | 8:58/mi | 140bpm (Z2) | 2026-09-10 |
 | “California” -Phantom Planet | 17.42mi | 9:52/mi | 153bpm (Z2) | 2026-09-06 |
 | Run With Mr. Potts!! | 3.9mi | 9:36/mi | 137bpm (Z2) | 2026-09-04 |
-| “Only The Good Die Young” - Billy Joel | 4.24mi | 9:33/mi | 142bpm (Z2) | 2026-09-03 |
 
 ## AI Coach Snapshot
 
-Here is your coaching brief, Tom:
+Alright Tom, let's get you primed for Week 11 as we continue our build to NYC!
 
 **Fitness Assessment**
-Tom shows strong aerobic development, consistently running in Zone 2 for most of his training, including long runs of 15-17 miles at paces around 9:30-9:50/mi. His consistent wattage in the 250-270W range at these paces indicates good power output. The recent 15 PRs on his 12.12mi run and consistent Z2 heart rates suggest ongoing fitness gains and adaptation to the training load.
+You're showing strong aerobic development, consistently logging runs in Zone 2 with an average HR of 140-153 bpm across your recent efforts, well within your 124-154 bpm target. Your recent 13.23-mile run at 10:56/mi with 25 PRs and consistent wattage (250-270W) demonstrates improving endurance and the ability to sustain effort over distance. This solid Z2 foundation is exactly what we need for marathon success.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom shows strong aerobic development, consistently running in Zone 2 for most of
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-12 13:47:36 UTC | Run ID: 34697400507*
+*Last updated: 2026-09-13 14:43:31 UTC | Run ID: 34763481287*
