@@ -16,18 +16,18 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you primed for Week 11 as we continue our build to NYC!
+Alright Tom, let's get you ready for a strong Week 12 as you continue your build towards the NYC Marathon!
 
-**Fitness Assessment**
-You're showing strong aerobic development, consistently logging runs in Zone 2 with an average HR of 140-153 bpm across your recent efforts, well within your 124-154 bpm target. Your recent 13.23-mile run at 10:56/mi with 25 PRs and consistent wattage (250-270W) demonstrates improving endurance and the ability to sustain effort over distance. This solid Z2 foundation is exactly what we need for marathon success.
+### Fitness Assessment
+Tom, you're demonstrating excellent aerobic development, consistently running in Zone 2 (124-154 bpm) even during long runs like your recent 13.23 miles at 10:56/mi with an average HR of 153 bpm. Your ability to maintain paces around 9:00-10:00/mi with stable watts (250-270W) and recent PRs (e.g., 25 PRs on 09-12) indicates a solid fitness base. The predicted marathon finish time of 4:17:54 at a 9:26/mi average pace is a realistic target given your current long run performance.
 
-**This Week's Focus**
+### This Week's Focus
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 11 of 18**
+**Current week: 12 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ You're showing strong aerobic development, consistently logging runs in Zone 2 w
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-13 14:43:31 UTC | Run ID: 34763481287*
+*Last updated: 2026-09-14 16:39:58 UTC | Run ID: 34869994332*
