@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for a strong Week 12 as you continue your build towards the NYC Marathon!
+Alright Tom, let's get you ready for a strong Week 12 as we push towards NYC!
 
 ### Fitness Assessment
-Tom, you're demonstrating excellent aerobic development, consistently running in Zone 2 (124-154 bpm) even during long runs like your recent 13.23 miles at 10:56/mi with an average HR of 153 bpm. Your ability to maintain paces around 9:00-10:00/mi with stable watts (250-270W) and recent PRs (e.g., 25 PRs on 09-12) indicates a solid fitness base. The predicted marathon finish time of 4:17:54 at a 9:26/mi average pace is a realistic target given your current long run performance.
+Your recent runs demonstrate solid aerobic development, consistently maintaining average heart rates in Zone 2 even as your pace varies. For example, your 12.12-mile run at 8:53/mi with an average HR of 152bpm and 271W highlights good efficiency, while your 5K best of 26:33 from August 20th shows promising speed potential. However, the wide range in long run paces (e.g., 8:53/mi to 10:56/mi for similar Z2 HRs) suggests variability in effort and conditions.
 
 ### This Week's Focus
 
@@ -51,4 +51,4 @@ Tom, you're demonstrating excellent aerobic development, consistently running in
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-14 16:39:58 UTC | Run ID: 34869994332*
+*Last updated: 2026-09-15 15:19:28 UTC | Run ID: 34987646151*
