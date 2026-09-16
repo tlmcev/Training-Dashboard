@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15 15:19:28",
+  "updated_at": "2026-09-16 15:11:38",
   "current_week": 12,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -154,7 +154,7 @@
       "avg_cadence": null,
       "fastest_mile": "8:34",
       "fastest_5k": "26:55",
-      "pr_count": 15
+      "pr_count": 16
     },
     {
       "id": 19881471285,
@@ -458,7 +458,7 @@
       "avg_cadence": null,
       "fastest_mile": null,
       "fastest_5k": null,
-      "pr_count": 2
+      "pr_count": 3
     },
     {
       "id": 19402377170,
@@ -591,7 +591,7 @@
       "avg_cadence": null,
       "fastest_mile": null,
       "fastest_5k": null,
-      "pr_count": 3
+      "pr_count": 4
     },
     {
       "id": 19213979849,
@@ -2051,60 +2051,60 @@
   ],
   "weather": [
     {
-      "date": "2026-09-15",
-      "high": 74,
-      "low": 55,
-      "precip": 0.0,
-      "windspeed": 9,
-      "code": 0
-    },
-    {
       "date": "2026-09-16",
-      "high": 79,
-      "low": 58,
+      "high": 80,
+      "low": 60,
       "precip": 0.0,
-      "windspeed": 9,
+      "windspeed": 8,
       "code": 3
     },
     {
       "date": "2026-09-17",
-      "high": 80,
-      "low": 68,
+      "high": 83,
+      "low": 67,
       "precip": 0.0,
-      "windspeed": 12,
+      "windspeed": 13,
       "code": 3
     },
     {
       "date": "2026-09-18",
       "high": 83,
-      "low": 70,
+      "low": 68,
       "precip": 0.0,
-      "windspeed": 13,
+      "windspeed": 15,
       "code": 3
     },
     {
       "date": "2026-09-19",
-      "high": 69,
-      "low": 62,
-      "precip": 0.04,
-      "windspeed": 13,
-      "code": 53
+      "high": 70,
+      "low": 61,
+      "precip": 0.0,
+      "windspeed": 12,
+      "code": 3
     },
     {
       "date": "2026-09-20",
-      "high": 71,
-      "low": 65,
-      "precip": 0.57,
-      "windspeed": 15,
-      "code": 81
+      "high": 76,
+      "low": 64,
+      "precip": 0.25,
+      "windspeed": 18,
+      "code": 80
     },
     {
       "date": "2026-09-21",
-      "high": 66,
-      "low": 60,
-      "precip": 0.06,
-      "windspeed": 12,
+      "high": 71,
+      "low": 59,
+      "precip": 0.01,
+      "windspeed": 13,
       "code": 51
+    },
+    {
+      "date": "2026-09-22",
+      "high": 66,
+      "low": 63,
+      "precip": 0.0,
+      "windspeed": 14,
+      "code": 3
     }
   ],
   "avg_pace_sec": 566.5,
@@ -2154,5 +2154,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for a strong Week 12 as we push towards NYC!\n\n### Fitness Assessment\nYour recent runs demonstrate solid aerobic development, consistently maintaining average heart rates in Zone 2 even as your pace varies. For example, your 12.12-mile run at 8:53/mi with an average HR of 152bpm and 271W highlights good efficiency, while your 5K best of 26:33 from August 20th shows promising speed potential. However, the wide range in long run paces (e.g., 8:53/mi to 10:56/mi for similar Z2 HRs) suggests variability in effort and conditions.\n\n### This Week's Focus\nFor your 5-mile easy runs on Tuesday and Thursday, target a relaxed pace of 9:45-10:15/mi, keeping your average heart rate firmly in mid-Zone 2 (135-145bpm) for active recovery. Wednesday's 8-mile pace run should challenge you to sustain a faster 8:30-8:45/mi, aiming for an average HR in Zone 3 (155-165bpm). On Saturday, approach your 13-mile long run with a steady 9:45-10:15/mi pace, maintaining an average HR of 140-150bpm to build endurance.\n\n### Key Priorities\n*   **Pace with Purpose:** Ensure your easy runs are truly easy (e.g., 9:45-10:15/mi) to promote recovery, distinct from your Z3 pace efforts (e.g., 8:30-8:45/mi).\n*   **HR Zone Discipline:** Consistently keep your average HR for easy and long runs within Zone 2 (124-154bpm), and actively target Zone 3 (155-169bpm) for Wednesday's pace workout.\n*   **Consistent Long Run Effort:** Aim for a steady, controlled effort on Saturday's 13-mile run, avoiding the significant pace fluctuations seen in recent long runs like the 10:56/mi on September 12th.\n\n### Watch Out For\nA significant drop in your weekly mileage last week, from 28.7 miles to 18.3 miles, is a red flag for consistency. Additionally, while your average HR is often in Zone 2, your maximum HR has occasionally crept into Zone 4 (e.g., 172bpm on September 12th, 174bpm on September 6th), indicating moments of over-exertion that could hinder recovery.\n\n### Upcoming Milestones\nThis week marks a crucial point in your training, featuring a significant 8-mile pace effort and a 13-mile long run, representing one of the highest mileage weeks before the taper begins. You are now just 46 days away from the NYC Marathon, so embrace these final weeks of building a strong endurance base!"
+  "advice": "Alright Tom, let's get you ready for the NYC Marathon. Today is Wednesday, September 16, 2026, and we're 45 days out from race day.\n\n**Fitness Assessment**\nTom, you're demonstrating strong aerobic development, consistently keeping your heart rate in Zone 2 (140-153 bpm) across various run lengths, including a 17.42-mile run at 153 bpm. Your power output is also consistent, generally staying within 250-274 watts, indicating efficient effort. Your recent long run paces (e.g., 9:52/mi for 17.42mi, 8:53/mi for 12.12mi) suggest good endurance for your predicted 4:17:54 marathon finish.\n\n**This Week's Focus**\nThis week features an 8-mile pace run today, which should target a Zone 3 heart rate (155-169 bpm) at a pace of approximately 9:00-9:15/mi to build speed endurance. Your 5-mile and 13-mile runs should remain in Zone 2 (124-154 bpm), maintaining an easy conversational pace around 9:45-10:15/mi to support aerobic base building.\n\n**Key Priorities**\n*   Keep all easy and long runs (5m, 13m) strictly within Zone 2 (124-154 bpm) to maximize aerobic development and avoid unnecessary fatigue.\n*   Target a sustained pace of 9:00-9:15/mi for the 8-mile pace run, ensuring your average heart rate stays firmly in Zone 3 (155-169 bpm).\n*   Prioritize active recovery on your cross-training day and ensure full rest on Monday and Friday to absorb training and prevent injury.\n\n**Watch Out For**\nBe mindful of the occasional heart rate spikes into Zone 3 and Zone 4 (e.g., 172 bpm on your 13.23-mile run) during what should be Z2 efforts. While your average HR remains good, these surges suggest moments of pushing too hard on easy days, which can hinder recovery and aerobic adaptation.\n\n**Upcoming Milestones**\nYou are now 45 days out from the NYC Marathon! This week marks the beginning of the final push before the taper, which will start in just a few weeks. Look forward to hitting your peak long run mileage in the coming weeks, a crucial step in building confidence and endurance for race day."
 }

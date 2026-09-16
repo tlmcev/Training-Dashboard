@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for a strong Week 12 as we push towards NYC!
+Alright Tom, let's get you ready for the NYC Marathon. Today is Wednesday, September 16, 2026, and we're 45 days out from race day.
 
-### Fitness Assessment
-Your recent runs demonstrate solid aerobic development, consistently maintaining average heart rates in Zone 2 even as your pace varies. For example, your 12.12-mile run at 8:53/mi with an average HR of 152bpm and 271W highlights good efficiency, while your 5K best of 26:33 from August 20th shows promising speed potential. However, the wide range in long run paces (e.g., 8:53/mi to 10:56/mi for similar Z2 HRs) suggests variability in effort and conditions.
+**Fitness Assessment**
+Tom, you're demonstrating strong aerobic development, consistently keeping your heart rate in Zone 2 (140-153 bpm) across various run lengths, including a 17.42-mile run at 153 bpm. Your power output is also consistent, generally staying within 250-274 watts, indicating efficient effort. Your recent long run paces (e.g., 9:52/mi for 17.42mi, 8:53/mi for 12.12mi) suggest good endurance for your predicted 4:17:54 marathon finish.
 
-### This Week's Focus
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Your recent runs demonstrate solid aerobic development, consistently maintaining
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-15 15:19:28 UTC | Run ID: 34987646151*
+*Last updated: 2026-09-16 15:11:38 UTC | Run ID: 35113642556*
