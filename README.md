@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for the NYC Marathon. Today is Wednesday, September 16, 2026, and we're 45 days out from race day.
+Alright Tom, let's get you ready for NYC! Today is Thursday, September 17, 2026, and we're 44 days out from race day, deep into Week 12 of your Hal Higdon Novice 2 plan.
+
+Here's your data-driven coaching brief:
 
 **Fitness Assessment**
-Tom, you're demonstrating strong aerobic development, consistently keeping your heart rate in Zone 2 (140-153 bpm) across various run lengths, including a 17.42-mile run at 153 bpm. Your power output is also consistent, generally staying within 250-274 watts, indicating efficient effort. Your recent long run paces (e.g., 9:52/mi for 17.42mi, 8:53/mi for 12.12mi) suggest good endurance for your predicted 4:17:54 marathon finish.
-
-**This Week's Focus**
+Tom consistently runs his easy and long efforts in Zone 2 (e.g., 13.23mi @ 10:56/mi with 153bpm avg HR), indicating a strong aerobic base. His recent PRs, like a 5K in 26:55 (8:34/mi) and a mile in 8:22, suggest good speed potential, aligning with a predicted marathon finish of 4:17:54 (9:49/mi). His power output (watts) is consistently in the 250-270W range, showing good muscular endurance, especially considering the significant elevation gains in many of his runs.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, you're demonstrating strong aerobic development, consistently keeping your 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-16 15:11:38 UTC | Run ID: 35113642556*
+*Last updated: 2026-09-17 15:21:02 UTC | Run ID: 35239636022*
