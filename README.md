@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for NYC! Today is Thursday, September 17, 2026, and we're 44 days out from race day, deep into Week 12 of your Hal Higdon Novice 2 plan.
+Alright Tom, let's get you set for a productive week as we continue to build towards NYC.
 
-Here's your data-driven coaching brief:
+### Fitness Assessment
+Tom, your consistent Z2 HR (63% of recent run time) across varied paces (8:44/mi to 10:56/mi) and distances (up to 17.42mi) indicates strong aerobic development and endurance. Your ability to consistently achieve PRs (e.g., 25 PRs on Sep 12) while maintaining robust power output (250-274W) demonstrates excellent and improving fitness. The significant elevation gains on your long runs (+624ft on 13.23mi) further highlight your growing strength.
 
-**Fitness Assessment**
-Tom consistently runs his easy and long efforts in Zone 2 (e.g., 13.23mi @ 10:56/mi with 153bpm avg HR), indicating a strong aerobic base. His recent PRs, like a 5K in 26:55 (8:34/mi) and a mile in 8:22, suggest good speed potential, aligning with a predicted marathon finish of 4:17:54 (9:49/mi). His power output (watts) is consistently in the 250-270W range, showing good muscular endurance, especially considering the significant elevation gains in many of his runs.
+### This Week's Focus
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom consistently runs his easy and long efforts in Zone 2 (e.g., 13.23mi @ 10:56
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-17 15:21:02 UTC | Run ID: 35239636022*
+*Last updated: 2026-09-18 14:41:03 UTC | Run ID: 35357745552*

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17 15:21:02",
+  "updated_at": "2026-09-18 14:41:03",
   "current_week": 12,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2051,59 +2051,59 @@
   ],
   "weather": [
     {
-      "date": "2026-09-17",
-      "high": 84,
-      "low": 69,
-      "precip": 0.02,
-      "windspeed": 9,
-      "code": 51
-    },
-    {
       "date": "2026-09-18",
-      "high": 80,
-      "low": 64,
-      "precip": 0.37,
-      "windspeed": 12,
-      "code": 65
+      "high": 83,
+      "low": 68,
+      "precip": 0.0,
+      "windspeed": 13,
+      "code": 3
     },
     {
       "date": "2026-09-19",
-      "high": 68,
-      "low": 56,
+      "high": 71,
+      "low": 53,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 10,
       "code": 3
     },
     {
       "date": "2026-09-20",
-      "high": 70,
-      "low": 62,
-      "precip": 0.7,
-      "windspeed": 17,
-      "code": 80
+      "high": 69,
+      "low": 60,
+      "precip": 0.51,
+      "windspeed": 14,
+      "code": 61
     },
     {
       "date": "2026-09-21",
-      "high": 72,
-      "low": 58,
-      "precip": 0.0,
+      "high": 66,
+      "low": 60,
+      "precip": 1.0,
       "windspeed": 14,
-      "code": 3
+      "code": 63
     },
     {
       "date": "2026-09-22",
-      "high": 65,
-      "low": 59,
-      "precip": 0.06,
-      "windspeed": 15,
-      "code": 51
+      "high": 60,
+      "low": 54,
+      "precip": 1.19,
+      "windspeed": 19,
+      "code": 81
     },
     {
       "date": "2026-09-23",
-      "high": 66,
-      "low": 54,
+      "high": 64,
+      "low": 55,
       "precip": 0.0,
-      "windspeed": 16,
+      "windspeed": 17,
+      "code": 3
+    },
+    {
+      "date": "2026-09-24",
+      "high": 60,
+      "low": 56,
+      "precip": 0.0,
+      "windspeed": 18,
       "code": 3
     }
   ],
@@ -2154,5 +2154,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for NYC! Today is Thursday, September 17, 2026, and we're 44 days out from race day, deep into Week 12 of your Hal Higdon Novice 2 plan.\n\nHere's your data-driven coaching brief:\n\n**Fitness Assessment**\nTom consistently runs his easy and long efforts in Zone 2 (e.g., 13.23mi @ 10:56/mi with 153bpm avg HR), indicating a strong aerobic base. His recent PRs, like a 5K in 26:55 (8:34/mi) and a mile in 8:22, suggest good speed potential, aligning with a predicted marathon finish of 4:17:54 (9:49/mi). His power output (watts) is consistently in the 250-270W range, showing good muscular endurance, especially considering the significant elevation gains in many of his runs.\n\n**This Week's Focus**\n*   **Today (Thursday): 5m run.** Target an easy Zone 2 pace around 9:30-10:00/mi, keeping HR below 154bpm, and be prepared for drizzle and warm temperatures (84F).\n*   **Saturday: 13m long run.** Aim for a relaxed Zone 2 effort, similar to his 13.23mi run at 10:56/mi with an average HR of 153bpm, staying under 154bpm, and enjoy the cooler, overcast conditions (68F).\n*   **Sunday: Cross-training.** Engage in active recovery (e.g., cycling, swimming) to support muscle repair and maintain cardiovascular fitness without impact.\n\n**Key Priorities**\n*   Continue to execute long runs and easy runs primarily in Zone 2 (below 154bpm) to build endurance and optimize fat burning.\n*   Incorporate more specific Zone 3 work (155-169bpm) during designated \"pace\" runs in future weeks, as his HR zone distribution shows only 6% in Z3.\n*   Prioritize recovery and nutrition, especially after the 13-mile long run, to prepare for the increased mileage in the coming weeks.\n\n**Watch Out For**\nDespite consistent Z2 average HRs, Tom's max HR has occasionally touched Z3 (e.g., 172 bpm on Sep 12), indicating he might be pushing slightly too hard on some easy efforts or that elevation is significantly impacting his perceived exertion.\n\n**Upcoming Milestones**\nNext week, Tom is scheduled for a 16-mile long run, which will be his longest run since his 17.42-mile effort on September 6th, providing another key test of endurance before the final taper. This will be a critical opportunity to practice race-day fueling and hydration strategies."
+  "advice": "Alright Tom, let's get you set for a productive week as we continue to build towards NYC.\n\n### Fitness Assessment\nTom, your consistent Z2 HR (63% of recent run time) across varied paces (8:44/mi to 10:56/mi) and distances (up to 17.42mi) indicates strong aerobic development and endurance. Your ability to consistently achieve PRs (e.g., 25 PRs on Sep 12) while maintaining robust power output (250-274W) demonstrates excellent and improving fitness. The significant elevation gains on your long runs (+624ft on 13.23mi) further highlight your growing strength.\n\n### This Week's Focus\nToday (Friday) is a rest day, followed by a crucial 13-mile long run on Saturday; aim for an easy Z2 pace (9:45-10:45/mi) with your HR in the lower to mid-Z2 (135-145 bpm). After Sunday's cross-training and Monday's rest, Tuesday and Thursday's 5-mile runs should be easy Z2 efforts, targeting 9:30-10:30/mi and keeping HR below 150 bpm. Wednesday's 8-mile pace run is your chance to practice marathon effort; target your Riegel predicted 9:26/mi pace, aiming for the lower end of Z3 (155-160 bpm).\n\n### Key Priorities\n*   **Optimal Long Run Execution:** On Saturday's 13-mile run, deliberately keep your average HR in the mid-Z2 range (135-145 bpm) to maximize aerobic benefits and avoid pushing too hard, especially with potential elevation.\n*   **Marathon Pace Practice:** For Wednesday's 8-mile pace run, focus on holding your target marathon pace of 9:26/mi, ensuring your HR stays within the lower end of Z3 (155-160 bpm) for race-specific conditioning.\n*   **Active Recovery & Fueling:** Utilize your rest days (Friday, Monday) and cross-training (Sunday) effectively, prioritizing nutrient-dense foods and adequate sleep to absorb training and prepare for the increased demands ahead.\n\n### Watch Out For\nYour average HR on recent long runs, such as 153 bpm on the 13.23mi and 17.42mi efforts, consistently sits at the very top of Z2. Be diligent in keeping your easy and long runs truly conversational to ensure full recovery and prevent excessive fatigue as your mileage builds towards peak weeks.\n\n### Upcoming Milestones\nYou are just two weeks away from entering the critical peak mileage phase of your training plan, where your long runs will likely extend to 18-20 miles. This will be a significant and confidence-building step towards validating your readiness for the NYC Marathon."
 }
