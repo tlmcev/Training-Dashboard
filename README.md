@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 12 as we head into the final stretch for NYC!
+Alright Tom, let's get you ready for a strong Week 12 as we build towards NYC!
 
 ### Fitness Assessment
-Tom, you're demonstrating excellent aerobic development, consistently keeping 63% of your recent runs in Zone 2, with long runs like your 13.23mi at 10:56/mi averaging 153 bpm. Your ability to recently set 25 PRs on that run, and your consistent power output around 250-270W across varied elevation, indicates improving efficiency and strength. The Riegel prediction of a 4:17:54 marathon (9:51/mi) provides a solid performance benchmark as we refine your race-day strategy.
+Tom, your consistent Z2 heart rate (e.g., 140-153 bpm) across varied paces (8:44-10:56/mi) and power outputs (250-274W) demonstrates a robust aerobic base. The numerous PRs you've achieved recently, coupled with successful longer runs up to 17.42 miles, clearly indicate your fitness is progressing well. Your ability to manage significant elevation gains while staying within Z2 further highlights your developing endurance and strength.
 
 ### This Week's Focus
 
@@ -51,4 +51,4 @@ Tom, you're demonstrating excellent aerobic development, consistently keeping 63
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-19 14:02:24 UTC | Run ID: 35447482718*
+*Last updated: 2026-09-20 14:22:24 UTC | Run ID: 35516275190*
