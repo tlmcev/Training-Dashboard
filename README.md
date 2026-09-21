@@ -16,18 +16,18 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for a strong Week 12 as we build towards NYC!
+Alright Tom, let's get you ready for the final push towards NYC! Today is Monday, September 21, 2026, and we're 40 days out from the marathon. This week is a big one, marking Week 13 of your Hal Higdon Novice 2 plan.
 
-### Fitness Assessment
-Tom, your consistent Z2 heart rate (e.g., 140-153 bpm) across varied paces (8:44-10:56/mi) and power outputs (250-274W) demonstrates a robust aerobic base. The numerous PRs you've achieved recently, coupled with successful longer runs up to 17.42 miles, clearly indicate your fitness is progressing well. Your ability to manage significant elevation gains while staying within Z2 further highlights your developing endurance and strength.
+### Coaching Brief for Tom
 
-### This Week's Focus
+**Fitness Assessment**
+Tom is demonstrating strong aerobic development, consistently running long distances like 17.42mi and 13.23mi with an average heart rate firmly in Zone 2 (153bpm). His recent runs also show impressive speed for his easy efforts, with average paces often around 9:00-9:30/mi, and bursts of sub-9:00/mi pace like the 8:53/mi mile on 9/12 and 8:22/mi on 8/20, indicating good underlying fitness and power around 250-270W. The significant number of PRs (25 on 9/12, 16 on 8/29) further validates his progress and increasing speed endurance.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 12 of 18**
+**Current week: 13 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ Tom, your consistent Z2 heart rate (e.g., 140-153 bpm) across varied paces (8:44
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-20 14:22:24 UTC | Run ID: 35516275190*
+*Last updated: 2026-09-21 16:40:50 UTC | Run ID: 35627133134*
