@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for the final push towards NYC! Today is Monday, September 21, 2026, and we're 40 days out from the marathon. This week is a big one, marking Week 13 of your Hal Higdon Novice 2 plan.
+Hey Tom, great work putting in consistent effort as we approach the NYC Marathon! Today is Week 13 of 18, and we're 39 days out from race day. Let's look at your progress and what's ahead.
 
-### Coaching Brief for Tom
+---
 
-**Fitness Assessment**
-Tom is demonstrating strong aerobic development, consistently running long distances like 17.42mi and 13.23mi with an average heart rate firmly in Zone 2 (153bpm). His recent runs also show impressive speed for his easy efforts, with average paces often around 9:00-9:30/mi, and bursts of sub-9:00/mi pace like the 8:53/mi mile on 9/12 and 8:22/mi on 8/20, indicating good underlying fitness and power around 250-270W. The significant number of PRs (25 on 9/12, 16 on 8/29) further validates his progress and increasing speed endurance.
+### **Fitness Assessment**
+Tom, you're demonstrating a strong aerobic base, consistently running in Z2 for 63% of your recent activity, with max HRs occasionally touching Z3/Z4 during harder efforts. Your average pace of 9:26/mi, supported by best efforts like a 5K at 26:33 (8:32/mi pace) and consistent power output (250-274W), indicates solid fitness for your 4:17:54 marathon goal. The significant elevation gains in your long runs, such as +732ft over 17.42mi, are building excellent strength for the varied NYC course.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom is demonstrating strong aerobic development, consistently running long dista
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-21 16:40:50 UTC | Run ID: 35627133134*
+*Last updated: 2026-09-22 15:12:38 UTC | Run ID: 35745701266*
