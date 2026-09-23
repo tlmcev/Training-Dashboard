@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, great work putting in consistent effort as we approach the NYC Marathon! Today is Week 13 of 18, and we're 39 days out from race day. Let's look at your progress and what's ahead.
+Alright Tom, let's get you ready for a crucial week as we push towards NYC.
 
----
+### Fitness Assessment
+You're demonstrating strong aerobic development, consistently completing long runs like 17.42mi @ 9:52/mi with an average HR of 153 bpm, firmly within Zone 2 (63% of recent HR data). Your power output remains solid, typically ranging from 250-270W, and the frequent PRs you've been setting (e.g., 25 PRs on 9/12) indicate excellent ongoing fitness gains.
 
-### **Fitness Assessment**
-Tom, you're demonstrating a strong aerobic base, consistently running in Z2 for 63% of your recent activity, with max HRs occasionally touching Z3/Z4 during harder efforts. Your average pace of 9:26/mi, supported by best efforts like a 5K at 26:33 (8:32/mi pace) and consistent power output (250-274W), indicates solid fitness for your 4:17:54 marathon goal. The significant elevation gains in your long runs, such as +732ft over 17.42mi, are building excellent strength for the varied NYC course.
+### This Week's Focus
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, you're demonstrating a strong aerobic base, consistently running in Z2 for 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-22 15:12:38 UTC | Run ID: 35745701266*
+*Last updated: 2026-09-23 15:12:54 UTC | Run ID: 35879869163*
