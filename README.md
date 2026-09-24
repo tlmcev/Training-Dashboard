@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Sweet Jane” -The Velvet Underground | 4.34mi | 9:24/mi | 149bpm (Z2) | 2026-09-24 |
+| Afternoon Run | 3.12mi | 9:52/mi | 140bpm (Z2) | 2026-09-22 |
 | “Burning Down The House” - Talking Heads | 13.23mi | 10:56/mi | 153bpm (Z2) | 2026-09-12 |
 | “Valerie” -Mark Ronson, Amy Winehouse | 1.92mi | 9:15/mi | 147bpm (Z2) | 2026-09-11 |
 | “Love Is Strange” - Wings | 3.14mi | 8:58/mi | 140bpm (Z2) | 2026-09-10 |
-| “California” -Phantom Planet | 17.42mi | 9:52/mi | 153bpm (Z2) | 2026-09-06 |
-| Run With Mr. Potts!! | 3.9mi | 9:36/mi | 137bpm (Z2) | 2026-09-04 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for a crucial week as we push towards NYC.
+Alright Tom, let's get you ready for the NYC Marathon! Today is Thursday, September 24, and you're 37 days out, right in Week 13 of your Hal Higdon Novice 2 plan.
 
 ### Fitness Assessment
-You're demonstrating strong aerobic development, consistently completing long runs like 17.42mi @ 9:52/mi with an average HR of 153 bpm, firmly within Zone 2 (63% of recent HR data). Your power output remains solid, typically ranging from 250-270W, and the frequent PRs you've been setting (e.g., 25 PRs on 9/12) indicate excellent ongoing fitness gains.
+You've built a solid aerobic base, consistently running in Zone 2 for 65% of your recent runs. Your 4.34-mile run yesterday at a 9:24/mi pace with an average HR of 149 bpm (Z2) demonstrates good controlled effort. Your power output is also consistent, with average watts around 250-270W, and you're capable of faster paces, as shown by your 8:55/mi best mile effort.
 
 ### This Week's Focus
 
@@ -51,4 +51,4 @@ You're demonstrating strong aerobic development, consistently completing long ru
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-23 15:12:54 UTC | Run ID: 35879869163*
+*Last updated: 2026-09-24 15:34:30 UTC | Run ID: 36021175226*

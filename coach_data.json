@@ -1,9 +1,47 @@
 {
-  "updated_at": "2026-09-23 15:12:54",
+  "updated_at": "2026-09-24 15:34:30",
   "current_week": 13,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 20311664317,
+      "name": "\u201cSweet Jane\u201d -The Velvet Underground",
+      "date": "2026-09-24",
+      "distance_miles": 4.34,
+      "moving_time_sec": 2452,
+      "pace_per_mile": "9:24",
+      "pace_seconds": 565.0,
+      "elevation_ft": 218.0,
+      "avg_hr": 149,
+      "hr_zone": "Z2",
+      "suffer_score": 52.0,
+      "max_hr": 172.0,
+      "avg_watts": 257,
+      "avg_cadence": null,
+      "fastest_mile": "8:55",
+      "fastest_5k": "28:27",
+      "pr_count": 0
+    },
+    {
+      "id": 20311664549,
+      "name": "Afternoon Run",
+      "date": "2026-09-22",
+      "distance_miles": 3.12,
+      "moving_time_sec": 1848,
+      "pace_per_mile": "9:52",
+      "pace_seconds": 592.3,
+      "elevation_ft": 159.0,
+      "avg_hr": 140,
+      "hr_zone": "Z2",
+      "suffer_score": 20.0,
+      "max_hr": 166.0,
+      "avg_watts": 244,
+      "avg_cadence": null,
+      "fastest_mile": "9:35",
+      "fastest_5k": "30:34",
+      "pr_count": 0
+    },
     {
       "id": 20146237758,
       "name": "\u201cBurning Down The House\u201d - Talking Heads",
@@ -168,11 +206,11 @@
       "avg_hr": 148,
       "hr_zone": "Z2",
       "suffer_score": 185.0,
-      "max_hr": 166.0,
-      "avg_watts": 255,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "8:52",
-      "fastest_5k": "28:08",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 1
     },
     {
@@ -187,11 +225,11 @@
       "avg_hr": 152,
       "hr_zone": "Z2",
       "suffer_score": 53.0,
-      "max_hr": 169.0,
-      "avg_watts": 274,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "8:22",
-      "fastest_5k": "26:33",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 0
     },
     {
@@ -1424,6 +1462,10 @@
     {
       "week_start": "2026-09-07",
       "miles": 18.3
+    },
+    {
+      "week_start": "2026-09-21",
+      "miles": 7.5
     }
   ],
   "ae_trend": [
@@ -2047,72 +2089,90 @@
       "dist": 13.23,
       "marathon_pred": "4:55:05",
       "marathon_sec": 17705
+    },
+    {
+      "date": "2026-09-22",
+      "name": "Afternoon Run",
+      "ae": 1.164,
+      "hr": 140,
+      "dist": 3.12,
+      "marathon_pred": "4:03:38",
+      "marathon_sec": 14618
+    },
+    {
+      "date": "2026-09-24",
+      "name": "\u201cSweet Jane\u201d -The Velvet Underground",
+      "ae": 1.147,
+      "hr": 149,
+      "dist": 4.34,
+      "marathon_pred": "4:07:14",
+      "marathon_sec": 14834
     }
   ],
   "weather": [
     {
-      "date": "2026-09-23",
-      "high": 68,
-      "low": 54,
-      "precip": 0.0,
-      "windspeed": 18,
-      "code": 3
-    },
-    {
       "date": "2026-09-24",
-      "high": 64,
-      "low": 50,
+      "high": 66,
+      "low": 52,
       "precip": 0.0,
-      "windspeed": 17,
+      "windspeed": 16,
       "code": 3
     },
     {
       "date": "2026-09-25",
-      "high": 74,
-      "low": 50,
+      "high": 71,
+      "low": 48,
       "precip": 0.0,
-      "windspeed": 18,
+      "windspeed": 20,
       "code": 3
     },
     {
       "date": "2026-09-26",
-      "high": 72,
-      "low": 57,
-      "precip": 0.13,
-      "windspeed": 18,
-      "code": 80
+      "high": 60,
+      "low": 54,
+      "precip": 4.13,
+      "windspeed": 24,
+      "code": 81
     },
     {
       "date": "2026-09-27",
       "high": 61,
-      "low": 58,
-      "precip": 0.04,
-      "windspeed": 15,
-      "code": 51
+      "low": 56,
+      "precip": 0.14,
+      "windspeed": 18,
+      "code": 55
     },
     {
       "date": "2026-09-28",
-      "high": 69,
-      "low": 59,
-      "precip": 0.02,
-      "windspeed": 12,
-      "code": 51
+      "high": 68,
+      "low": 58,
+      "precip": 0.0,
+      "windspeed": 14,
+      "code": 3
     },
     {
       "date": "2026-09-29",
-      "high": 73,
-      "low": 58,
+      "high": 68,
+      "low": 61,
       "precip": 0.0,
       "windspeed": 7,
-      "code": 1
+      "code": 3
+    },
+    {
+      "date": "2026-09-30",
+      "high": 72,
+      "low": 64,
+      "precip": 0.0,
+      "windspeed": 16,
+      "code": 3
     }
   ],
-  "avg_pace_sec": 566.5,
+  "avg_pace_sec": 566.9,
   "predictions": {
-    "5k": "26:51",
-    "10k": "55:58",
-    "half": "2:03:42",
-    "marathon": "4:17:54"
+    "5k": "26:52",
+    "10k": "56:00",
+    "half": "2:03:46",
+    "marathon": "4:18:03"
   },
   "pace_zones": {
     "Z1": {
@@ -2148,11 +2208,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 63,
+    "Z2": 65,
     "Z3": 6,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for a crucial week as we push towards NYC.\n\n### Fitness Assessment\nYou're demonstrating strong aerobic development, consistently completing long runs like 17.42mi @ 9:52/mi with an average HR of 153 bpm, firmly within Zone 2 (63% of recent HR data). Your power output remains solid, typically ranging from 250-270W, and the frequent PRs you've been setting (e.g., 25 PRs on 9/12) indicate excellent ongoing fitness gains.\n\n### This Week's Focus\n**Today (Wednesday): 5m Pace Run.** Target a pace around 9:00-9:15/mi, aiming to hold your heart rate in Zone 3 (155-169 bpm), similar to your 3.15mi @ 9:08/mi effort.\n**Thursday: 5m Run.** Keep this an easy effort, maintaining your heart rate in Zone 2 (124-154 bpm) at a comfortable pace, likely around 9:45-10:15/mi.\n**Saturday: 19m Long Run.** Focus on an easy, conversational pace, keeping your average heart rate in Z2 (124-154 bpm), similar to your 17.42mi @ 9:52/mi run, adapting to the predicted wind and potential showers.\n\n### Key Priorities\n*   **Execute Pace Run:** Today's 5-mile pace run is important for building speed endurance; aim to maintain an average heart rate in Z3 (155-169 bpm) for the bulk of the run.\n*   **Manage Long Run Effort:** For Saturday's 19-mile run, prioritize maintaining an average heart rate firmly within Zone 2 (124-154 bpm) to maximize endurance benefits without overtraining.\n*   **Hydration & Fueling:** With the significant mileage increase this week, ensure you are consistently hydrating and fueling adequately pre- and post-run to support recovery and performance.\n\n### Watch Out For\nThe jump in weekly mileage from 18.3 miles last week to a planned 34 miles this week is substantial. Pay close attention to any unusual fatigue or discomfort, especially after Saturday's 19-mile long run, to avoid overtraining as we near the taper.\n\n### Upcoming Milestones\nThis Saturday's 19-mile run is your longest scheduled distance in the Hal Higdon Novice 2 plan, serving as your final major endurance test and a huge confidence booster before you begin the final taper phase."
+  "advice": "Alright Tom, let's get you ready for the NYC Marathon! Today is Thursday, September 24, and you're 37 days out, right in Week 13 of your Hal Higdon Novice 2 plan.\n\n### Fitness Assessment\nYou've built a solid aerobic base, consistently running in Zone 2 for 65% of your recent runs. Your 4.34-mile run yesterday at a 9:24/mi pace with an average HR of 149 bpm (Z2) demonstrates good controlled effort. Your power output is also consistent, with average watts around 250-270W, and you're capable of faster paces, as shown by your 8:55/mi best mile effort.\n\n### This Week's Focus\nToday, complete the remaining portion of your 5-mile run at an easy effort, targeting a Z2 heart rate (124-154 bpm) and a pace similar to your 9:24/mi from yesterday. The critical 19-mile long run on Saturday needs to be approached conservatively, maintaining a Z2 heart rate below 154 bpm and a comfortable pace, likely in the 9:45-10:15/mi range given the forecasted showers and 24mph winds. Remember to incorporate cross-training on Sunday to aid recovery and build complementary fitness.\n\n### Key Priorities\n*   **Complete the Long Run Safely:** Prioritize finishing the 19-mile run on Saturday, even if it means a slower pace (aim for 9:45-10:15/mi) due to the challenging weather and recent low mileage.\n*   **Maintain Z2 for Easy Runs:** Ensure all easy efforts, including today's remainder and Saturday's long run, keep your average heart rate below 154 bpm to build endurance without overstressing.\n*   **Consistent Mileage:** Re-establish consistent mileage this week to prepare for the final tapering phase, aiming to hit the planned distances for today and Saturday.\n\n### Watch Out For\nThe sharp decline in weekly mileage from 28.7mi to 7.5mi in the past two weeks is a significant red flag, potentially increasing the risk of injury or overexertion when attempting the 19-mile long run on Saturday.\n\n### Upcoming Milestones\nSuccessfully completing Saturday's 19-mile long run will be a major confidence booster, marking your longest run of the training cycle and proving your readiness for the final taper towards the NYC Marathon."
 }
