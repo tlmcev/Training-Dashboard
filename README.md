@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for the NYC Marathon! Today is Thursday, September 24, and you're 37 days out, right in Week 13 of your Hal Higdon Novice 2 plan.
+Hey Tom, great work maintaining consistent effort and heart rate control in your training. Here's your brief for the coming days as you head into a critical phase of your NYC Marathon prep:
 
-### Fitness Assessment
-You've built a solid aerobic base, consistently running in Zone 2 for 65% of your recent runs. Your 4.34-mile run yesterday at a 9:24/mi pace with an average HR of 149 bpm (Z2) demonstrates good controlled effort. Your power output is also consistent, with average watts around 250-270W, and you're capable of faster paces, as shown by your 8:55/mi best mile effort.
+**Fitness Assessment**
+Tom, you've developed a solid aerobic base, consistently running in Zone 2 with average heart rates between 140-153 bpm across various distances, including your 17.42-mile run at a controlled 9:52/mi pace. Your power output is also consistent (244-271W), indicating steady effort and efficiency. This disciplined approach positions you well for your predicted 4:18:03 marathon finish.
 
-### This Week's Focus
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ You've built a solid aerobic base, consistently running in Zone 2 for 65% of you
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-24 15:34:30 UTC | Run ID: 36021175226*
+*Last updated: 2026-09-25 15:38:25 UTC | Run ID: 36155509981*

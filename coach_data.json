@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24 15:34:30",
+  "updated_at": "2026-09-25 15:38:25",
   "current_week": 13,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2111,59 +2111,59 @@
   ],
   "weather": [
     {
-      "date": "2026-09-24",
-      "high": 66,
-      "low": 52,
-      "precip": 0.0,
-      "windspeed": 16,
-      "code": 3
-    },
-    {
       "date": "2026-09-25",
-      "high": 71,
-      "low": 48,
+      "high": 73,
+      "low": 54,
       "precip": 0.0,
-      "windspeed": 20,
+      "windspeed": 18,
       "code": 3
     },
     {
       "date": "2026-09-26",
-      "high": 60,
+      "high": 62,
       "low": 54,
-      "precip": 4.13,
-      "windspeed": 24,
-      "code": 81
+      "precip": 0.3,
+      "windspeed": 19,
+      "code": 63
     },
     {
       "date": "2026-09-27",
       "high": 61,
-      "low": 56,
-      "precip": 0.14,
-      "windspeed": 18,
-      "code": 55
+      "low": 55,
+      "precip": 2.02,
+      "windspeed": 30,
+      "code": 81
     },
     {
       "date": "2026-09-28",
-      "high": 68,
-      "low": 58,
-      "precip": 0.0,
-      "windspeed": 14,
-      "code": 3
+      "high": 59,
+      "low": 57,
+      "precip": 0.99,
+      "windspeed": 20,
+      "code": 80
     },
     {
       "date": "2026-09-29",
-      "high": 68,
-      "low": 61,
-      "precip": 0.0,
-      "windspeed": 7,
-      "code": 3
+      "high": 69,
+      "low": 57,
+      "precip": 0.01,
+      "windspeed": 11,
+      "code": 51
     },
     {
       "date": "2026-09-30",
-      "high": 72,
-      "low": 64,
+      "high": 76,
+      "low": 62,
       "precip": 0.0,
-      "windspeed": 16,
+      "windspeed": 10,
+      "code": 3
+    },
+    {
+      "date": "2026-10-01",
+      "high": 80,
+      "low": 66,
+      "precip": 0.0,
+      "windspeed": 10,
       "code": 3
     }
   ],
@@ -2214,5 +2214,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for the NYC Marathon! Today is Thursday, September 24, and you're 37 days out, right in Week 13 of your Hal Higdon Novice 2 plan.\n\n### Fitness Assessment\nYou've built a solid aerobic base, consistently running in Zone 2 for 65% of your recent runs. Your 4.34-mile run yesterday at a 9:24/mi pace with an average HR of 149 bpm (Z2) demonstrates good controlled effort. Your power output is also consistent, with average watts around 250-270W, and you're capable of faster paces, as shown by your 8:55/mi best mile effort.\n\n### This Week's Focus\nToday, complete the remaining portion of your 5-mile run at an easy effort, targeting a Z2 heart rate (124-154 bpm) and a pace similar to your 9:24/mi from yesterday. The critical 19-mile long run on Saturday needs to be approached conservatively, maintaining a Z2 heart rate below 154 bpm and a comfortable pace, likely in the 9:45-10:15/mi range given the forecasted showers and 24mph winds. Remember to incorporate cross-training on Sunday to aid recovery and build complementary fitness.\n\n### Key Priorities\n*   **Complete the Long Run Safely:** Prioritize finishing the 19-mile run on Saturday, even if it means a slower pace (aim for 9:45-10:15/mi) due to the challenging weather and recent low mileage.\n*   **Maintain Z2 for Easy Runs:** Ensure all easy efforts, including today's remainder and Saturday's long run, keep your average heart rate below 154 bpm to build endurance without overstressing.\n*   **Consistent Mileage:** Re-establish consistent mileage this week to prepare for the final tapering phase, aiming to hit the planned distances for today and Saturday.\n\n### Watch Out For\nThe sharp decline in weekly mileage from 28.7mi to 7.5mi in the past two weeks is a significant red flag, potentially increasing the risk of injury or overexertion when attempting the 19-mile long run on Saturday.\n\n### Upcoming Milestones\nSuccessfully completing Saturday's 19-mile long run will be a major confidence booster, marking your longest run of the training cycle and proving your readiness for the final taper towards the NYC Marathon."
+  "advice": "Hey Tom, great work maintaining consistent effort and heart rate control in your training. Here's your brief for the coming days as you head into a critical phase of your NYC Marathon prep:\n\n**Fitness Assessment**\nTom, you've developed a solid aerobic base, consistently running in Zone 2 with average heart rates between 140-153 bpm across various distances, including your 17.42-mile run at a controlled 9:52/mi pace. Your power output is also consistent (244-271W), indicating steady effort and efficiency. This disciplined approach positions you well for your predicted 4:18:03 marathon finish.\n\n**This Week's Focus**\nToday is a planned rest day, crucial for recovery before your key 19-mile long run on Saturday. For Saturday, aim for a controlled Z2 effort, keeping your pace around 9:50-10:30/mi and heart rate between 124-154 bpm to build sustained endurance. Sunday's cross-training should focus on active recovery or strength, maintaining a low-impact approach.\n\n**Key Priorities**\n*   Prioritize completing Saturday's 19-mile long run within your Z2 heart rate (124-154 bpm) to solidify your endurance base before the taper.\n*   Ensure adequate fueling and hydration before and during the long run, especially considering the predicted rain and strong winds in NYC.\n*   Respect the upcoming rest and cross-training days to absorb the training and prevent overtraining.\n\n**Watch Out For**\nYour weekly mileage has significantly dipped in recent weeks (18.3mi, then 7.5mi), and you missed Wednesday's 5-mile pace run, completing shorter distances for Tuesday and Thursday's runs. This makes the upcoming 19-mile long run a substantial jump in volume, so be prepared for the challenge, especially with the predicted rain and strong winds.\n\n**Upcoming Milestones**\nSuccessfully completing this 19-mile long run on Saturday will be a significant milestone, marking your longest training run and the final major endurance test before you begin your official taper for the NYC Marathon in just 36 days."
 }
