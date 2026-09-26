@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, great work maintaining consistent effort and heart rate control in your training. Here's your brief for the coming days as you head into a critical phase of your NYC Marathon prep:
+Alright Tom, let's get you ready for a crucial week as we enter Week 13 of your NYC Marathon training!
 
 **Fitness Assessment**
-Tom, you've developed a solid aerobic base, consistently running in Zone 2 with average heart rates between 140-153 bpm across various distances, including your 17.42-mile run at a controlled 9:52/mi pace. Your power output is also consistent (244-271W), indicating steady effort and efficiency. This disciplined approach positions you well for your predicted 4:18:03 marathon finish.
+Tom, you demonstrate a strong aerobic base, consistently maintaining your heart rate in Zone 2 for 65% of your recent runs, with an average HR in the mid-140s bpm. Your longer runs, like the 17.42mi at 9:52/mi with an average HR of 153bpm, show good endurance efficiency, while your best efforts (e.g., mile at 8:34/mi, 5K at 26:55) with higher wattage (up to 271W) confirm you have the capacity for speed work when needed.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you've developed a solid aerobic base, consistently running in Zone 2 with 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-25 15:38:25 UTC | Run ID: 36155509981*
+*Last updated: 2026-09-26 14:47:41 UTC | Run ID: 36249708877*
