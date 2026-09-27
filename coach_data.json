@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-09-26 14:47:41",
+  "updated_at": "2026-09-27 15:25:35",
   "current_week": 13,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 20339753713,
+      "name": "Treadmill Nightmares",
+      "date": "2026-09-26",
+      "distance_miles": 5.49,
+      "moving_time_sec": 3165,
+      "pace_per_mile": "9:36",
+      "pace_seconds": 576.5,
+      "elevation_ft": 0.0,
+      "avg_hr": 155,
+      "hr_zone": "Z3",
+      "suffer_score": 87.0,
+      "max_hr": 178.0,
+      "avg_watts": null,
+      "avg_cadence": null,
+      "fastest_mile": null,
+      "fastest_5k": null,
+      "pr_count": 0
+    },
     {
       "id": 20311664317,
       "name": "\u201cSweet Jane\u201d -The Velvet Underground",
@@ -187,11 +206,11 @@
       "avg_hr": 152,
       "hr_zone": "Z2",
       "suffer_score": 159.0,
-      "max_hr": 169.0,
-      "avg_watts": 271,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "8:34",
-      "fastest_5k": "26:55",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 16
     },
     {
@@ -1465,7 +1484,7 @@
     },
     {
       "week_start": "2026-09-21",
-      "miles": 7.5
+      "miles": 12.9
     }
   ],
   "ae_trend": [
@@ -2107,72 +2126,81 @@
       "dist": 4.34,
       "marathon_pred": "4:07:14",
       "marathon_sec": 14834
+    },
+    {
+      "date": "2026-09-26",
+      "name": "Treadmill Nightmares",
+      "ae": 1.081,
+      "hr": 155,
+      "dist": 5.49,
+      "marathon_pred": "4:22:20",
+      "marathon_sec": 15740
     }
   ],
   "weather": [
     {
-      "date": "2026-09-26",
-      "high": 58,
-      "low": 55,
-      "precip": 0.36,
-      "windspeed": 20,
-      "code": 63
-    },
-    {
       "date": "2026-09-27",
       "high": 64,
       "low": 57,
-      "precip": 1.84,
-      "windspeed": 20,
-      "code": 65
+      "precip": 0.54,
+      "windspeed": 22,
+      "code": 63
     },
     {
       "date": "2026-09-28",
-      "high": 63,
+      "high": 61,
       "low": 58,
-      "precip": 0.97,
-      "windspeed": 19,
-      "code": 65
+      "precip": 0.47,
+      "windspeed": 13,
+      "code": 63
     },
     {
       "date": "2026-09-29",
       "high": 70,
       "low": 58,
       "precip": 0.0,
-      "windspeed": 8,
+      "windspeed": 6,
       "code": 3
     },
     {
       "date": "2026-09-30",
-      "high": 76,
-      "low": 63,
+      "high": 74,
+      "low": 60,
       "precip": 0.0,
-      "windspeed": 8,
+      "windspeed": 9,
       "code": 3
     },
     {
       "date": "2026-10-01",
-      "high": 78,
-      "low": 68,
+      "high": 79,
+      "low": 64,
       "precip": 0.0,
       "windspeed": 10,
       "code": 3
     },
     {
       "date": "2026-10-02",
-      "high": 77,
-      "low": 69,
-      "precip": 0.0,
-      "windspeed": 11,
-      "code": 3
+      "high": 83,
+      "low": 60,
+      "precip": 0.2,
+      "windspeed": 14,
+      "code": 80
+    },
+    {
+      "date": "2026-10-03",
+      "high": 65,
+      "low": 57,
+      "precip": 0.09,
+      "windspeed": 14,
+      "code": 53
     }
   ],
-  "avg_pace_sec": 566.9,
+  "avg_pace_sec": 567.0,
   "predictions": {
     "5k": "26:52",
-    "10k": "56:00",
-    "half": "2:03:46",
-    "marathon": "4:18:03"
+    "10k": "56:01",
+    "half": "2:03:48",
+    "marathon": "4:18:07"
   },
   "pace_zones": {
     "Z1": {
@@ -2209,10 +2237,10 @@
   "hr_distribution": {
     "Z1": 0,
     "Z2": 65,
-    "Z3": 6,
+    "Z3": 7,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for a crucial week as we enter Week 13 of your NYC Marathon training!\n\n**Fitness Assessment**\nTom, you demonstrate a strong aerobic base, consistently maintaining your heart rate in Zone 2 for 65% of your recent runs, with an average HR in the mid-140s bpm. Your longer runs, like the 17.42mi at 9:52/mi with an average HR of 153bpm, show good endurance efficiency, while your best efforts (e.g., mile at 8:34/mi, 5K at 26:55) with higher wattage (up to 271W) confirm you have the capacity for speed work when needed.\n\n**This Week's Focus**\nToday's 19-mile long run should be executed at an easy, conversational pace, targeting Zone 2 (124-154 bpm), likely in the 9:45-10:15/mi range, and be prepared for the rainy and windy conditions. The 5-mile easy runs on Tuesday and Thursday should also stay in Zone 2, aiming for a comfortable pace around 9:30-10:00/mi. Wednesday's 5-mile pace run is an opportunity to push slightly into Zone 3 (155-169 bpm), targeting a pace closer to your predicted 5K pace, perhaps around 8:50-9:10/mi.\n\n**Key Priorities**\n*   **Execution of Long Run:** Successfully complete today's 19-mile long run, maintaining a steady Z2 heart rate (124-154 bpm) and practicing nutrition/hydration strategies, especially given the forecasted rain and wind.\n*   **Pace Run Effort:** On Wednesday, aim for a sustained effort in Zone 3 (155-169 bpm) for the 5-mile pace run, pushing for a quicker pace than your easy runs without overdoing it.\n*   **Consistent Mileage Build:** Re-establish consistent weekly mileage after recent dips (7.5mi last week), ensuring you hit the planned distances to prepare for the marathon.\n\n**Watch Out For**\nThe significant drop in your weekly mileage from 18.3mi to 7.5mi in the last two weeks is a red flag; ensure you're not missing runs or under-training, especially with the 19-mile long run today.\n\n**Upcoming Milestones**\nCompleting today's 19-mile long run will be a significant confidence booster, marking your longest training run of this cycle and the peak of your long run mileage before the taper begins."
+  "advice": "Alright Tom, let's get you ready for this critical week as we approach the NYC Marathon!\n\n### Fitness Assessment\nTom, your aerobic development is strong, consistently maintaining Z2 heart rates (65% of recent runs) during your efforts, such as your 4.34mi run at 9:24/mi with an average HR of 149 bpm. Your power output is also consistent, averaging around 255W across recent runs, indicating good running economy. While your paces are generally solid, the recent significant drop in weekly mileage from 28.7mi to 12.9mi is a concern heading into the peak long run.\n\n### This Week's Focus\nThis week is crucial, featuring your longest run of the plan. For your easy 5-mile runs on Tuesday and Thursday, aim for a relaxed Z2 effort (124-154 bpm) at a pace of 9:45-10:15/mi. Wednesday's 5-mile pace run should be a comfortably hard Z3 effort (155-169 bpm), targeting 8:50-9:10/mi. Your 19-mile long run on Saturday should be a Z2 conversational pace, targeting 9:50-10:20/mi, keeping the predicted rainy and windy conditions in mind.\n\n### Key Priorities\n*   **Safely execute the 19-mile long run:** This is a significant mileage jump; prioritize proper fueling, hydration, and a conservative Z2 pace (124-154 bpm) to ensure successful completion and recovery.\n*   **Re-establish consistent weekly mileage:** After recent drops to 12.9 miles, focus on hitting the planned distances for all runs this week to build back endurance and prepare for the final taper.\n*   **Maintain Z2 for all easy and long runs:** Ensure your average heart rate stays below 154 bpm during Tuesday's, Thursday's, and Saturday's runs to maximize aerobic development and prevent excessive fatigue.\n\n### Watch Out For\nBe highly vigilant about the recent sharp decline in weekly mileage, dropping from 28.7mi to 12.9mi in just two weeks. This, combined with your 5.49mi run on 09-26 where your HR was in Z3 (155/178 bpm) at a 9:36/mi pace, suggests potential overexertion on easy days or accumulating fatigue, which could compromise your long run and overall training.\n\n### Upcoming Milestones\nThis Saturday marks a significant milestone: completing your longest run of the entire training cycle with a 19-miler. Successfully finishing this run will be a huge confidence boost and physically prepare you for the marathon, as you'll then transition into the final taper phase next week."
 }
