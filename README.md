@@ -8,26 +8,26 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “There She Goes” -The Las | 8.69mi | 9:12/mi | 155bpm (Z3) | 2026-09-27 |
 | Treadmill Nightmares | 5.49mi | 9:36/mi | 155bpm (Z3) | 2026-09-26 |
 | “Sweet Jane” -The Velvet Underground | 4.34mi | 9:24/mi | 149bpm (Z2) | 2026-09-24 |
 | Afternoon Run | 3.12mi | 9:52/mi | 140bpm (Z2) | 2026-09-22 |
 | “Burning Down The House” - Talking Heads | 13.23mi | 10:56/mi | 153bpm (Z2) | 2026-09-12 |
-| “Valerie” -Mark Ronson, Amy Winehouse | 1.92mi | 9:15/mi | 147bpm (Z2) | 2026-09-11 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for this critical week as we approach the NYC Marathon!
+Alright Tom, let's get you ready for NYC. Today marks Week 14, and we're just 33 days out, so every run counts towards building confidence for November 1st.
 
-### Fitness Assessment
-Tom, your aerobic development is strong, consistently maintaining Z2 heart rates (65% of recent runs) during your efforts, such as your 4.34mi run at 9:24/mi with an average HR of 149 bpm. Your power output is also consistent, averaging around 255W across recent runs, indicating good running economy. While your paces are generally solid, the recent significant drop in weekly mileage from 28.7mi to 12.9mi is a concern heading into the peak long run.
+**Fitness Assessment**
+Your recent runs show a solid base, with consistent paces generally between 9:12-9:52/mi and watts in the 244-277W range, indicating good power output. The fact that 65% of your recent running has been in Z2 (124-154bpm) demonstrates effective aerobic development. However, your last two runs averaged 155bpm, pushing into Z3, suggesting an elevated effort level.
 
-### This Week's Focus
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 13 of 18**
+**Current week: 14 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ Tom, your aerobic development is strong, consistently maintaining Z2 heart rates
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-27 15:25:35 UTC | Run ID: 36329492628*
+*Last updated: 2026-09-28 18:17:35 UTC | Run ID: 36464146549*

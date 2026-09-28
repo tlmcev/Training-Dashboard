@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-09-27 15:25:35",
-  "current_week": 13,
+  "updated_at": "2026-09-28 18:17:35",
+  "current_week": 14,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 20353929942,
+      "name": "\u201cThere She Goes\u201d -The Las",
+      "date": "2026-09-27",
+      "distance_miles": 8.69,
+      "moving_time_sec": 4799,
+      "pace_per_mile": "9:12",
+      "pace_seconds": 552.2,
+      "elevation_ft": 525.0,
+      "avg_hr": 155,
+      "hr_zone": "Z3",
+      "suffer_score": 134.0,
+      "max_hr": 176.0,
+      "avg_watts": 277,
+      "avg_cadence": null,
+      "fastest_mile": "8:38",
+      "fastest_5k": "28:27",
+      "pr_count": 1
+    },
     {
       "id": 20339753713,
       "name": "Treadmill Nightmares",
@@ -187,11 +206,11 @@
       "avg_hr": 145,
       "hr_zone": "Z2",
       "suffer_score": 28.0,
-      "max_hr": 167.0,
-      "avg_watts": 265,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "8:44",
-      "fastest_5k": "28:19",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 0
     },
     {
@@ -1484,7 +1503,7 @@
     },
     {
       "week_start": "2026-09-21",
-      "miles": 12.9
+      "miles": 21.6
     }
   ],
   "ae_trend": [
@@ -2135,29 +2154,30 @@
       "dist": 5.49,
       "marathon_pred": "4:22:20",
       "marathon_sec": 15740
+    },
+    {
+      "date": "2026-09-27",
+      "name": "\u201cThere She Goes\u201d -The Las",
+      "ae": 1.128,
+      "hr": 155,
+      "dist": 8.69,
+      "marathon_pred": "4:11:24",
+      "marathon_sec": 15084
     }
   ],
   "weather": [
     {
-      "date": "2026-09-27",
-      "high": 64,
-      "low": 57,
-      "precip": 0.54,
-      "windspeed": 22,
-      "code": 63
-    },
-    {
       "date": "2026-09-28",
-      "high": 61,
-      "low": 58,
-      "precip": 0.47,
-      "windspeed": 13,
+      "high": 60,
+      "low": 57,
+      "precip": 0.31,
+      "windspeed": 14,
       "code": 63
     },
     {
       "date": "2026-09-29",
-      "high": 70,
-      "low": 58,
+      "high": 67,
+      "low": 57,
       "precip": 0.0,
       "windspeed": 6,
       "code": 3
@@ -2165,7 +2185,7 @@
     {
       "date": "2026-09-30",
       "high": 74,
-      "low": 60,
+      "low": 55,
       "precip": 0.0,
       "windspeed": 9,
       "code": 3
@@ -2173,34 +2193,42 @@
     {
       "date": "2026-10-01",
       "high": 79,
-      "low": 64,
+      "low": 65,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 8,
       "code": 3
     },
     {
       "date": "2026-10-02",
-      "high": 83,
-      "low": 60,
-      "precip": 0.2,
+      "high": 86,
+      "low": 67,
+      "precip": 0.05,
       "windspeed": 14,
-      "code": 80
+      "code": 51
     },
     {
       "date": "2026-10-03",
+      "high": 71,
+      "low": 65,
+      "precip": 0.03,
+      "windspeed": 13,
+      "code": 51
+    },
+    {
+      "date": "2026-10-04",
       "high": 65,
       "low": 57,
-      "precip": 0.09,
-      "windspeed": 14,
-      "code": 53
+      "precip": 0.83,
+      "windspeed": 13,
+      "code": 63
     }
   ],
-  "avg_pace_sec": 567.0,
+  "avg_pace_sec": 566.8,
   "predictions": {
     "5k": "26:52",
-    "10k": "56:01",
-    "half": "2:03:48",
-    "marathon": "4:18:07"
+    "10k": "56:00",
+    "half": "2:03:45",
+    "marathon": "4:18:01"
   },
   "pace_zones": {
     "Z1": {
@@ -2237,10 +2265,10 @@
   "hr_distribution": {
     "Z1": 0,
     "Z2": 65,
-    "Z3": 7,
+    "Z3": 8,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for this critical week as we approach the NYC Marathon!\n\n### Fitness Assessment\nTom, your aerobic development is strong, consistently maintaining Z2 heart rates (65% of recent runs) during your efforts, such as your 4.34mi run at 9:24/mi with an average HR of 149 bpm. Your power output is also consistent, averaging around 255W across recent runs, indicating good running economy. While your paces are generally solid, the recent significant drop in weekly mileage from 28.7mi to 12.9mi is a concern heading into the peak long run.\n\n### This Week's Focus\nThis week is crucial, featuring your longest run of the plan. For your easy 5-mile runs on Tuesday and Thursday, aim for a relaxed Z2 effort (124-154 bpm) at a pace of 9:45-10:15/mi. Wednesday's 5-mile pace run should be a comfortably hard Z3 effort (155-169 bpm), targeting 8:50-9:10/mi. Your 19-mile long run on Saturday should be a Z2 conversational pace, targeting 9:50-10:20/mi, keeping the predicted rainy and windy conditions in mind.\n\n### Key Priorities\n*   **Safely execute the 19-mile long run:** This is a significant mileage jump; prioritize proper fueling, hydration, and a conservative Z2 pace (124-154 bpm) to ensure successful completion and recovery.\n*   **Re-establish consistent weekly mileage:** After recent drops to 12.9 miles, focus on hitting the planned distances for all runs this week to build back endurance and prepare for the final taper.\n*   **Maintain Z2 for all easy and long runs:** Ensure your average heart rate stays below 154 bpm during Tuesday's, Thursday's, and Saturday's runs to maximize aerobic development and prevent excessive fatigue.\n\n### Watch Out For\nBe highly vigilant about the recent sharp decline in weekly mileage, dropping from 28.7mi to 12.9mi in just two weeks. This, combined with your 5.49mi run on 09-26 where your HR was in Z3 (155/178 bpm) at a 9:36/mi pace, suggests potential overexertion on easy days or accumulating fatigue, which could compromise your long run and overall training.\n\n### Upcoming Milestones\nThis Saturday marks a significant milestone: completing your longest run of the entire training cycle with a 19-miler. Successfully finishing this run will be a huge confidence boost and physically prepare you for the marathon, as you'll then transition into the final taper phase next week."
+  "advice": "Alright Tom, let's get you ready for NYC. Today marks Week 14, and we're just 33 days out, so every run counts towards building confidence for November 1st.\n\n**Fitness Assessment**\nYour recent runs show a solid base, with consistent paces generally between 9:12-9:52/mi and watts in the 244-277W range, indicating good power output. The fact that 65% of your recent running has been in Z2 (124-154bpm) demonstrates effective aerobic development. However, your last two runs averaged 155bpm, pushing into Z3, suggesting an elevated effort level.\n\n**This Week's Focus**\nYour easy runs (Tuesday 5m, Thursday 5m) should target a comfortable, conversational pace in Z2 (124-154bpm), likely around 9:45-10:15/mi. For Wednesday's 8m run, aim for a slightly more moderate effort in Z2/low Z3 (145-158bpm) around 9:15-9:35/mi. Your Saturday 12m long run should be a steady, easy Z2 effort below 154bpm, similar to your 9:52/mi pace on your 9/6 long run.\n\n**Key Priorities**\n*   **Strict Z2 Adherence:** Actively monitor your heart rate to keep it below 154bpm during your Tuesday, Thursday, and Saturday runs to ensure proper recovery and aerobic development, especially since your last two runs averaged 155bpm.\n*   **Address Fatigue Signal:** The +6bpm HR trend over your last 6 runs is a clear fatigue signal. Prioritize sleep, nutrition, and hydration, and be prepared to dial back your pace slightly if your HR remains elevated, particularly with the warmer weather expected.\n*   **Smart Volume Increase:** This week's planned mileage of approximately 30 miles is a notable jump from last week's 21.6 miles. Listen to your body and focus on consistent effort rather than speed to comfortably complete your long run.\n\n**Watch Out For**\nThe +6bpm HR trending upward over your last 6 runs, coupled with the average HR of 155bpm (Z3) on your last two runs, indicates a significant fatigue signal. Be highly mindful of your perceived effort and ensure you're not pushing into Z3 on your easy runs this week, as this could impede recovery before your key 12-mile long run.\n\n**Upcoming Milestones**\nYour 12-mile long run on Saturday will be your longest run in almost three weeks, providing a crucial opportunity to build endurance and confidence as you approach the final tapering phase for NYC."
 }
