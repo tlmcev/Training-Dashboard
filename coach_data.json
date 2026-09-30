@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29 16:40:24",
+  "updated_at": "2026-09-30 16:32:12",
   "current_week": 14,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2167,60 +2167,60 @@
   ],
   "weather": [
     {
-      "date": "2026-09-29",
-      "high": 68,
-      "low": 59,
+      "date": "2026-09-30",
+      "high": 70,
+      "low": 61,
+      "precip": 0.0,
+      "windspeed": 6,
+      "code": 3
+    },
+    {
+      "date": "2026-10-01",
+      "high": 72,
+      "low": 62,
       "precip": 0.0,
       "windspeed": 8,
       "code": 3
     },
     {
-      "date": "2026-09-30",
-      "high": 70,
-      "low": 55,
-      "precip": 0.0,
-      "windspeed": 6,
-      "code": 45
-    },
-    {
-      "date": "2026-10-01",
-      "high": 74,
-      "low": 62,
-      "precip": 0.0,
-      "windspeed": 7,
-      "code": 3
-    },
-    {
       "date": "2026-10-02",
-      "high": 84,
-      "low": 66,
-      "precip": 0.07,
-      "windspeed": 14,
-      "code": 53
+      "high": 82,
+      "low": 64,
+      "precip": 0.24,
+      "windspeed": 13,
+      "code": 81
     },
     {
       "date": "2026-10-03",
-      "high": 72,
-      "low": 63,
-      "precip": 0.0,
-      "windspeed": 15,
-      "code": 3
+      "high": 70,
+      "low": 60,
+      "precip": 0.02,
+      "windspeed": 13,
+      "code": 53
     },
     {
       "date": "2026-10-04",
-      "high": 64,
-      "low": 56,
-      "precip": 0.58,
+      "high": 66,
+      "low": 58,
+      "precip": 0.0,
       "windspeed": 11,
-      "code": 61
+      "code": 3
     },
     {
       "date": "2026-10-05",
-      "high": 66,
+      "high": 71,
       "low": 53,
-      "precip": 0.01,
-      "windspeed": 18,
-      "code": 51
+      "precip": 0.0,
+      "windspeed": 19,
+      "code": 3
+    },
+    {
+      "date": "2026-10-06",
+      "high": 58,
+      "low": 47,
+      "precip": 0.0,
+      "windspeed": 17,
+      "code": 0
     }
   ],
   "avg_pace_sec": 566.8,
@@ -2270,5 +2270,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for Week 14. Today is Tuesday, September 29, 2026, and the NYC Marathon is just 32 days away. We're entering the final push before the taper, so focus and execution are key.\n\n### **Fitness Assessment**\nTom, your recent runs demonstrate a solid aerobic base, with 65% of your recent HR data in Zone 2 and consistent power output around 250-280W. You're still hitting impressive best efforts, like your 8:38 mile on September 27th, indicating continued fitness development. Your average pace for longer efforts tends to settle around 9:50-10:00/mi, aligning well with your predicted marathon pace of 9:52/mi for a 4:18:01 finish.\n\n### **This Week's Focus**\nAll your scheduled runs this week\u2014Tuesday 5m, Wednesday 8m, Thursday 5m, and Saturday's 12m long run\u2014are foundational easy efforts. Aim to keep your pace in the 9:45-10:15/mi range, strictly maintaining your average heart rate in Zone 2, below 154bpm. The 12-mile long run on Saturday will be a crucial opportunity to practice sustained Z2 effort and test your fueling strategy.\n\n### **Key Priorities**\n*   **HR Discipline:** Strictly maintain Zone 2 heart rate for all runs, ensuring your average HR stays below 154bpm to manage fatigue and build aerobic capacity.\n*   **Pacing Consistency:** Focus on a steady, even effort, especially for the 12-mile long run, aiming for consistent splits around 9:50-10:20/mi.\n*   **Recovery:** Prioritize sleep and nutrition, as your weekly mileage is increasing to roughly 30 miles (plus cross-training) compared to recent weeks, which could compound the existing fatigue signal.\n\n### **Watch Out For**\nYour heart rate has been trending up by 6bpm over your last six runs, with recent average HRs (e.g., 155bpm on 9/27 and 9/26) consistently creeping into Zone 3. This is a significant fatigue signal indicating you're working harder for the same pace; be vigilant and adjust your pace to keep your HR in Z2, even if it means slowing down more than planned.\n\n### **Upcoming Milestones**\nThis week features your second-to-last double-digit long run before the NYC Marathon, a crucial 12-mile effort on Saturday. Successfully completing this run will put you in an excellent mental and physical position as you officially begin your taper next week, with the marathon just 32 days away."
+  "advice": "Alright Tom, let's get you ready for NYC. We're 31 days out, moving into Week 14, which means your biggest mileage weeks are upon us.\n\n**Fitness Assessment**\nTom demonstrates a solid aerobic base, spending 65% of his recent run time in Z2, supporting his predicted 4:18 marathon. He's also showing good speed development with mile best efforts like 8:38 and 28:27 for 5K, often supported by higher watts (e.g., 277W). However, the 8% of Z3 time and recent PRs suggest you've been pushing, which might contribute to the concerning HR trend.\n\n**This Week's Focus**\nFor your 8-mile run today and 5-mile run tomorrow, target an easy Z2 pace (9:30-10:00/mi), keeping your average HR below 154bpm, especially with the warm, humid conditions (70-72F). Your 12-mile long run on Saturday should be a relaxed Z2 effort, aiming for 9:45-10:30/mi, focusing on sustained endurance rather than speed.\n\n**Key Priorities**\n*   **HR Management:** Actively manage your heart rate, aiming to keep all easy runs firmly within Z2 (124-154 bpm) to address the recent +6bpm upward trend in HR.\n*   **Consistent Pacing:** Focus on maintaining consistent, conversational paces (9:30-10:30/mi) for all runs, allowing for adjustments due to the forecasted warm and potentially rainy weather.\n*   **Recovery Focus:** Prioritize rest days and quality sleep, as this week's 30 miles is a significant mileage increase from last week's 21.6 miles.\n\n**Watch Out For**\nYour recent data shows a concerning trend of HR trending UP +6bpm over the last 6 runs, signaling accumulating fatigue that needs immediate attention. If your HR continues to be elevated for a given effort, don't hesitate to slow down or even take an extra rest day.\n\n**Upcoming Milestones**\nThis week's 12-mile long run on Saturday marks your final significant long run before the marathon taper truly kicks in, offering a crucial mental and physical benchmark."
 }

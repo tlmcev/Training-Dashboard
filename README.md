@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 14. Today is Tuesday, September 29, 2026, and the NYC Marathon is just 32 days away. We're entering the final push before the taper, so focus and execution are key.
+Alright Tom, let's get you ready for NYC. We're 31 days out, moving into Week 14, which means your biggest mileage weeks are upon us.
 
-### **Fitness Assessment**
-Tom, your recent runs demonstrate a solid aerobic base, with 65% of your recent HR data in Zone 2 and consistent power output around 250-280W. You're still hitting impressive best efforts, like your 8:38 mile on September 27th, indicating continued fitness development. Your average pace for longer efforts tends to settle around 9:50-10:00/mi, aligning well with your predicted marathon pace of 9:52/mi for a 4:18:01 finish.
+**Fitness Assessment**
+Tom demonstrates a solid aerobic base, spending 65% of his recent run time in Z2, supporting his predicted 4:18 marathon. He's also showing good speed development with mile best efforts like 8:38 and 28:27 for 5K, often supported by higher watts (e.g., 277W). However, the 8% of Z3 time and recent PRs suggest you've been pushing, which might contribute to the concerning HR trend.
 
-### **This Week's Focus**
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent runs demonstrate a solid aerobic base, with 65% of your recent 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-29 16:40:24 UTC | Run ID: 36599410471*
+*Last updated: 2026-09-30 16:32:12 UTC | Run ID: 36744905399*
