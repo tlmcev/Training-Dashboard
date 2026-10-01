@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30 16:32:12",
+  "updated_at": "2026-10-01 17:10:18",
   "current_week": 14,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2167,59 +2167,59 @@
   ],
   "weather": [
     {
-      "date": "2026-09-30",
-      "high": 70,
-      "low": 61,
-      "precip": 0.0,
-      "windspeed": 6,
-      "code": 3
-    },
-    {
       "date": "2026-10-01",
-      "high": 72,
-      "low": 62,
+      "high": 74,
+      "low": 63,
       "precip": 0.0,
-      "windspeed": 8,
+      "windspeed": 7,
       "code": 3
     },
     {
       "date": "2026-10-02",
       "high": 82,
-      "low": 64,
-      "precip": 0.24,
-      "windspeed": 13,
-      "code": 81
+      "low": 63,
+      "precip": 0.3,
+      "windspeed": 16,
+      "code": 65
     },
     {
       "date": "2026-10-03",
-      "high": 70,
-      "low": 60,
-      "precip": 0.02,
-      "windspeed": 13,
-      "code": 53
-    },
-    {
-      "date": "2026-10-04",
-      "high": 66,
-      "low": 58,
+      "high": 72,
+      "low": 56,
       "precip": 0.0,
       "windspeed": 11,
       "code": 3
     },
     {
+      "date": "2026-10-04",
+      "high": 67,
+      "low": 60,
+      "precip": 0.03,
+      "windspeed": 12,
+      "code": 53
+    },
+    {
       "date": "2026-10-05",
-      "high": 71,
-      "low": 53,
+      "high": 70,
+      "low": 54,
       "precip": 0.0,
-      "windspeed": 19,
-      "code": 3
+      "windspeed": 18,
+      "code": 51
     },
     {
       "date": "2026-10-06",
-      "high": 58,
-      "low": 47,
+      "high": 61,
+      "low": 46,
       "precip": 0.0,
-      "windspeed": 17,
+      "windspeed": 15,
+      "code": 0
+    },
+    {
+      "date": "2026-10-07",
+      "high": 66,
+      "low": 49,
+      "precip": 0.0,
+      "windspeed": 10,
       "code": 0
     }
   ],
@@ -2270,5 +2270,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for NYC. We're 31 days out, moving into Week 14, which means your biggest mileage weeks are upon us.\n\n**Fitness Assessment**\nTom demonstrates a solid aerobic base, spending 65% of his recent run time in Z2, supporting his predicted 4:18 marathon. He's also showing good speed development with mile best efforts like 8:38 and 28:27 for 5K, often supported by higher watts (e.g., 277W). However, the 8% of Z3 time and recent PRs suggest you've been pushing, which might contribute to the concerning HR trend.\n\n**This Week's Focus**\nFor your 8-mile run today and 5-mile run tomorrow, target an easy Z2 pace (9:30-10:00/mi), keeping your average HR below 154bpm, especially with the warm, humid conditions (70-72F). Your 12-mile long run on Saturday should be a relaxed Z2 effort, aiming for 9:45-10:30/mi, focusing on sustained endurance rather than speed.\n\n**Key Priorities**\n*   **HR Management:** Actively manage your heart rate, aiming to keep all easy runs firmly within Z2 (124-154 bpm) to address the recent +6bpm upward trend in HR.\n*   **Consistent Pacing:** Focus on maintaining consistent, conversational paces (9:30-10:30/mi) for all runs, allowing for adjustments due to the forecasted warm and potentially rainy weather.\n*   **Recovery Focus:** Prioritize rest days and quality sleep, as this week's 30 miles is a significant mileage increase from last week's 21.6 miles.\n\n**Watch Out For**\nYour recent data shows a concerning trend of HR trending UP +6bpm over the last 6 runs, signaling accumulating fatigue that needs immediate attention. If your HR continues to be elevated for a given effort, don't hesitate to slow down or even take an extra rest day.\n\n**Upcoming Milestones**\nThis week's 12-mile long run on Saturday marks your final significant long run before the marathon taper truly kicks in, offering a crucial mental and physical benchmark."
+  "advice": "Alright Tom, let's get you dialed in for the final push to NYC.\n\n**Fitness Assessment**\nTom, you're consistently putting in solid work, with recent runs showing average paces between 9:12-9:52/mi and power outputs in the 244-277W range, indicating a robust aerobic base. However, your heart rate has shown a concerning +6bpm upward trend over the last six runs, frequently pushing into Zone 3 (155-169bpm) during what should be steady efforts, suggesting accumulating fatigue. Despite this, you've achieved recent PRs, including a 5K best of 27:54 on 9/12, demonstrating your capacity for faster efforts when fresh.\n\n**This Week's Focus**\nToday's 5-mile run and Saturday's 12-mile long run should be strictly easy efforts, targeting Zone 2 HR (<154 bpm) at a controlled pace, likely in the 9:30-10:00/mi range. The goal is to maintain aerobic development without adding further stress, especially considering the observed HR trend and upcoming rainy weather. Your cross-training on Sunday should also be low-impact and focused on active recovery to aid muscle repair.\n\n**Key Priorities**\n*   **Strict Z2 Adherence:** Keep all runs, especially the 12-mile long run on Saturday, strictly within Zone 2 (<154 bpm) to actively counter the upward HR trend and promote recovery.\n*   **Active Recovery:** Prioritize active recovery on your Sunday cross-training to aid muscle repair and reduce overall systemic stress, preparing your body for the upcoming taper.\n*   **Hydration & Environment:** Pay close attention to hydration and electrolyte intake, especially with the fluctuating temperatures (72-82F) and upcoming rainy/drizzle weather, to support optimal physiological function and minimize additional stress.\n\n**Watch Out For**\nThe most significant red flag is the +6bpm upward trend in your HR over the last six runs, frequently seeing you hit Z3 (155-169 bpm) even in what should be easier efforts. This is a clear signal of accumulating fatigue and potential overtraining, which needs immediate attention.\n\n**Upcoming Milestones**\nYou are now exactly 30 days out from the NYC Marathon on November 1st, marking the official start of your final four-week taper phase. Saturday's 12-mile run is your last double-digit long run before the race, a significant mental and physical milestone."
 }

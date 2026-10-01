@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for NYC. We're 31 days out, moving into Week 14, which means your biggest mileage weeks are upon us.
+Alright Tom, let's get you dialed in for the final push to NYC.
 
 **Fitness Assessment**
-Tom demonstrates a solid aerobic base, spending 65% of his recent run time in Z2, supporting his predicted 4:18 marathon. He's also showing good speed development with mile best efforts like 8:38 and 28:27 for 5K, often supported by higher watts (e.g., 277W). However, the 8% of Z3 time and recent PRs suggest you've been pushing, which might contribute to the concerning HR trend.
+Tom, you're consistently putting in solid work, with recent runs showing average paces between 9:12-9:52/mi and power outputs in the 244-277W range, indicating a robust aerobic base. However, your heart rate has shown a concerning +6bpm upward trend over the last six runs, frequently pushing into Zone 3 (155-169bpm) during what should be steady efforts, suggesting accumulating fatigue. Despite this, you've achieved recent PRs, including a 5K best of 27:54 on 9/12, demonstrating your capacity for faster efforts when fresh.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom demonstrates a solid aerobic base, spending 65% of his recent run time in Z2
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-09-30 16:32:12 UTC | Run ID: 36744905399*
+*Last updated: 2026-10-01 17:10:18 UTC | Run ID: 36897395338*
