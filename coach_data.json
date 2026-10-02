@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01 17:10:18",
+  "updated_at": "2026-10-02 16:23:52",
   "current_week": 14,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2167,60 +2167,60 @@
   ],
   "weather": [
     {
-      "date": "2026-10-01",
-      "high": 74,
-      "low": 63,
-      "precip": 0.0,
-      "windspeed": 7,
-      "code": 3
-    },
-    {
       "date": "2026-10-02",
-      "high": 82,
-      "low": 63,
-      "precip": 0.3,
-      "windspeed": 16,
+      "high": 84,
+      "low": 65,
+      "precip": 1.26,
+      "windspeed": 14,
       "code": 65
     },
     {
       "date": "2026-10-03",
-      "high": 72,
+      "high": 69,
       "low": 56,
-      "precip": 0.0,
-      "windspeed": 11,
-      "code": 3
+      "precip": 0.02,
+      "windspeed": 10,
+      "code": 51
     },
     {
       "date": "2026-10-04",
       "high": 67,
-      "low": 60,
-      "precip": 0.03,
-      "windspeed": 12,
-      "code": 53
+      "low": 53,
+      "precip": 0.18,
+      "windspeed": 15,
+      "code": 63
     },
     {
       "date": "2026-10-05",
-      "high": 70,
-      "low": 54,
-      "precip": 0.0,
-      "windspeed": 18,
-      "code": 51
+      "high": 72,
+      "low": 57,
+      "precip": 0.08,
+      "windspeed": 20,
+      "code": 53
     },
     {
       "date": "2026-10-06",
       "high": 61,
-      "low": 46,
+      "low": 49,
       "precip": 0.0,
-      "windspeed": 15,
+      "windspeed": 14,
       "code": 0
     },
     {
       "date": "2026-10-07",
-      "high": 66,
+      "high": 65,
       "low": 49,
       "precip": 0.0,
       "windspeed": 10,
       "code": 0
+    },
+    {
+      "date": "2026-10-08",
+      "high": 72,
+      "low": 54,
+      "precip": 0.0,
+      "windspeed": 11,
+      "code": 2
     }
   ],
   "avg_pace_sec": 566.8,
@@ -2270,5 +2270,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for the final push to NYC.\n\n**Fitness Assessment**\nTom, you're consistently putting in solid work, with recent runs showing average paces between 9:12-9:52/mi and power outputs in the 244-277W range, indicating a robust aerobic base. However, your heart rate has shown a concerning +6bpm upward trend over the last six runs, frequently pushing into Zone 3 (155-169bpm) during what should be steady efforts, suggesting accumulating fatigue. Despite this, you've achieved recent PRs, including a 5K best of 27:54 on 9/12, demonstrating your capacity for faster efforts when fresh.\n\n**This Week's Focus**\nToday's 5-mile run and Saturday's 12-mile long run should be strictly easy efforts, targeting Zone 2 HR (<154 bpm) at a controlled pace, likely in the 9:30-10:00/mi range. The goal is to maintain aerobic development without adding further stress, especially considering the observed HR trend and upcoming rainy weather. Your cross-training on Sunday should also be low-impact and focused on active recovery to aid muscle repair.\n\n**Key Priorities**\n*   **Strict Z2 Adherence:** Keep all runs, especially the 12-mile long run on Saturday, strictly within Zone 2 (<154 bpm) to actively counter the upward HR trend and promote recovery.\n*   **Active Recovery:** Prioritize active recovery on your Sunday cross-training to aid muscle repair and reduce overall systemic stress, preparing your body for the upcoming taper.\n*   **Hydration & Environment:** Pay close attention to hydration and electrolyte intake, especially with the fluctuating temperatures (72-82F) and upcoming rainy/drizzle weather, to support optimal physiological function and minimize additional stress.\n\n**Watch Out For**\nThe most significant red flag is the +6bpm upward trend in your HR over the last six runs, frequently seeing you hit Z3 (155-169 bpm) even in what should be easier efforts. This is a clear signal of accumulating fatigue and potential overtraining, which needs immediate attention.\n\n**Upcoming Milestones**\nYou are now exactly 30 days out from the NYC Marathon on November 1st, marking the official start of your final four-week taper phase. Saturday's 12-mile run is your last double-digit long run before the race, a significant mental and physical milestone."
+  "advice": "Alright Tom, let's get you dialed in for the final push towards the NYC Marathon. Today is Friday, October 2nd, and we have 29 days until race day.\n\n### **Fitness Assessment**\nTom, you've built a solid aerobic foundation, evidenced by your 17.42mi run at a 9:52/mi pace with an average HR of 153bpm (Z2). Your consistent power output, generally ranging from 244-277W, suggests good running economy, and your 4:18:01 predicted marathon time reflects this endurance. However, recent runs like your 8.69mi at 9:12/mi with an average HR of 155bpm (Z3) indicate you're working harder for similar paces than previously.\n\n### **This Week's Focus**\nToday is a planned rest day, which is well-timed. For your 12-mile run on Saturday, the primary goal is an easy, conversational effort, aiming for an average heart rate strictly within Zone 2 (124-154 bpm) and a pace around your 9:50-10:00/mi long run range. Your Sunday cross-training should be light, active recovery to aid muscle repair and keep the blood flowing, avoiding any high-intensity efforts.\n\n### **Key Priorities**\n*   **Strict Zone 2 Adherence:** On Saturday's 12-mile run, ensure your average heart rate remains below 154 bpm, prioritizing recovery and aerobic efficiency over pace, especially with the predicted rain and wind.\n*   **Address Fatigue Signal:** Actively prioritize rest and recovery this weekend; your average heart rate has trended up by a concerning 6bpm over your last six runs, signaling potential over-reaching.\n*   **Pre-Run Fueling & Hydration:** With the upcoming warm, rainy, and windy conditions (84F/65F, 14mph wind today, similar for Saturday), focus on optimal pre-run hydration and electrolyte intake to manage body temperature and performance.\n\n### **Watch Out For**\nThe most significant red flag is the +6bpm upward trend in your average heart rate over the last six runs, with recent average HRs frequently entering Zone 3. This is a clear indicator of accumulating fatigue and potential overtraining, which could compromise your taper and race day performance if not addressed immediately.\n\n### **Upcoming Milestones**\nThis Saturday's 12-mile run is your final substantial long run before the official taper begins, marking a crucial transition in your training cycle. Embrace this milestone as a final confidence builder, knowing you've put in the work, and get ready to sharpen for the NYC Marathon on November 1st."
 }

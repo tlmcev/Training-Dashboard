@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for the final push to NYC.
+Alright Tom, let's get you dialed in for the final push towards the NYC Marathon. Today is Friday, October 2nd, and we have 29 days until race day.
 
-**Fitness Assessment**
-Tom, you're consistently putting in solid work, with recent runs showing average paces between 9:12-9:52/mi and power outputs in the 244-277W range, indicating a robust aerobic base. However, your heart rate has shown a concerning +6bpm upward trend over the last six runs, frequently pushing into Zone 3 (155-169bpm) during what should be steady efforts, suggesting accumulating fatigue. Despite this, you've achieved recent PRs, including a 5K best of 27:54 on 9/12, demonstrating your capacity for faster efforts when fresh.
+### **Fitness Assessment**
+Tom, you've built a solid aerobic foundation, evidenced by your 17.42mi run at a 9:52/mi pace with an average HR of 153bpm (Z2). Your consistent power output, generally ranging from 244-277W, suggests good running economy, and your 4:18:01 predicted marathon time reflects this endurance. However, recent runs like your 8.69mi at 9:12/mi with an average HR of 155bpm (Z3) indicate you're working harder for similar paces than previously.
 
-**This Week's Focus**
+### **This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, you're consistently putting in solid work, with recent runs showing average
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-01 17:10:18 UTC | Run ID: 36897395338*
+*Last updated: 2026-10-02 16:23:52 UTC | Run ID: 37033636428*
