@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Rich Girl” -Hall and Oates | 16.51mi | 9:47/mi | 152bpm (Z2) | 2026-10-03 |
 | “There She Goes” -The Las | 8.69mi | 9:12/mi | 155bpm (Z3) | 2026-09-27 |
 | Treadmill Nightmares | 5.49mi | 9:36/mi | 155bpm (Z3) | 2026-09-26 |
 | “Sweet Jane” -The Velvet Underground | 4.34mi | 9:24/mi | 149bpm (Z2) | 2026-09-24 |
 | Afternoon Run | 3.12mi | 9:52/mi | 140bpm (Z2) | 2026-09-22 |
-| “Burning Down The House” - Talking Heads | 13.23mi | 10:56/mi | 153bpm (Z2) | 2026-09-12 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for this critical week as we approach NYC.
+Alright Tom, let's get you ready for NYC! Today marks Week 14, and we're entering a crucial phase.
 
 **Fitness Assessment**
-Your recent runs show a solid aerobic base, with the majority of your efforts in Zone 2, which is excellent for marathon preparation. You're consistently running paces in the 9:12-9:52/mi range, even with significant elevation gains like the +525ft on your 8.69mi run. While you're still hitting PRs in shorter segments, the trend of your average heart rate moving into Zone 3 on recent runs suggests your body is working harder for similar efforts, indicating potential fatigue or a need to re-evaluate easy pace.
+Tom, you've demonstrated solid aerobic endurance, consistently completing long runs up to 17.42 miles (2026-09-06) at a 9:52/mi pace with an average HR of 153bpm (Z2). Your consistent wattage of 250-270W during these efforts shows good power output and efficiency. However, recent runs like the 8.69mi @ 9:12/mi (155bpm, Z3) suggest an increasing effort level to maintain pace.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Your recent runs show a solid aerobic base, with the majority of your efforts in
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-03 14:58:31 UTC | Run ID: 37131557058*
+*Last updated: 2026-10-04 15:31:51 UTC | Run ID: 37213341857*

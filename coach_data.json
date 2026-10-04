@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-10-03 14:58:31",
+  "updated_at": "2026-10-04 15:31:51",
   "current_week": 14,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 20434881779,
+      "name": "\u201cRich Girl\u201d -Hall and Oates",
+      "date": "2026-10-03",
+      "distance_miles": 16.51,
+      "moving_time_sec": 9705,
+      "pace_per_mile": "9:47",
+      "pace_seconds": 587.8,
+      "elevation_ft": 1025.0,
+      "avg_hr": 152,
+      "hr_zone": "Z2",
+      "suffer_score": 239.0,
+      "max_hr": 172.0,
+      "avg_watts": 251,
+      "avg_cadence": null,
+      "fastest_mile": "9:16",
+      "fastest_5k": "29:28",
+      "pr_count": 0
+    },
     {
       "id": 20353929942,
       "name": "\u201cThere She Goes\u201d -The Las",
@@ -187,11 +206,11 @@
       "avg_hr": 142,
       "hr_zone": "Z2",
       "suffer_score": 34.0,
-      "max_hr": 163.0,
-      "avg_watts": 259,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "9:02",
-      "fastest_5k": "29:20",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 0
     },
     {
@@ -1504,6 +1523,10 @@
     {
       "week_start": "2026-09-21",
       "miles": 21.6
+    },
+    {
+      "week_start": "2026-09-28",
+      "miles": 16.5
     }
   ],
   "ae_trend": [
@@ -2163,29 +2186,30 @@
       "dist": 8.69,
       "marathon_pred": "4:11:24",
       "marathon_sec": 15084
+    },
+    {
+      "date": "2026-10-03",
+      "name": "\u201cRich Girl\u201d -Hall and Oates",
+      "ae": 1.081,
+      "hr": 152,
+      "dist": 16.51,
+      "marathon_pred": "4:22:20",
+      "marathon_sec": 15740
     }
   ],
   "weather": [
     {
-      "date": "2026-10-03",
-      "high": 72,
-      "low": 58,
+      "date": "2026-10-04",
+      "high": 63,
+      "low": 56,
       "precip": 0.0,
-      "windspeed": 13,
+      "windspeed": 10,
       "code": 3
     },
     {
-      "date": "2026-10-04",
-      "high": 60,
-      "low": 55,
-      "precip": 0.04,
-      "windspeed": 9,
-      "code": 53
-    },
-    {
       "date": "2026-10-05",
-      "high": 71,
-      "low": 53,
+      "high": 66,
+      "low": 49,
       "precip": 0.0,
       "windspeed": 18,
       "code": 3
@@ -2193,42 +2217,50 @@
     {
       "date": "2026-10-06",
       "high": 64,
-      "low": 51,
+      "low": 42,
       "precip": 0.0,
-      "windspeed": 12,
+      "windspeed": 11,
       "code": 0
     },
     {
       "date": "2026-10-07",
-      "high": 69,
-      "low": 55,
+      "high": 71,
+      "low": 54,
       "precip": 0.0,
-      "windspeed": 12,
-      "code": 0
+      "windspeed": 13,
+      "code": 3
     },
     {
       "date": "2026-10-08",
-      "high": 74,
-      "low": 58,
+      "high": 77,
+      "low": 60,
       "precip": 0.0,
-      "windspeed": 12,
+      "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-10-09",
-      "high": 73,
-      "low": 61,
+      "high": 69,
+      "low": 56,
       "precip": 0.0,
-      "windspeed": 13,
+      "windspeed": 12,
+      "code": 3
+    },
+    {
+      "date": "2026-10-10",
+      "high": 68,
+      "low": 58,
+      "precip": 0.0,
+      "windspeed": 12,
       "code": 3
     }
   ],
-  "avg_pace_sec": 566.8,
+  "avg_pace_sec": 567.1,
   "predictions": {
     "5k": "26:52",
-    "10k": "56:00",
-    "half": "2:03:45",
-    "marathon": "4:18:01"
+    "10k": "56:02",
+    "half": "2:03:49",
+    "marathon": "4:18:09"
   },
   "pace_zones": {
     "Z1": {
@@ -2264,11 +2296,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 65,
+    "Z2": 66,
     "Z3": 8,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for this critical week as we approach NYC.\n\n**Fitness Assessment**\nYour recent runs show a solid aerobic base, with the majority of your efforts in Zone 2, which is excellent for marathon preparation. You're consistently running paces in the 9:12-9:52/mi range, even with significant elevation gains like the +525ft on your 8.69mi run. While you're still hitting PRs in shorter segments, the trend of your average heart rate moving into Zone 3 on recent runs suggests your body is working harder for similar efforts, indicating potential fatigue or a need to re-evaluate easy pace.\n\n**This Week's Focus**\nThis week is crucial for maintaining endurance while managing fatigue. Your Tuesday, Wednesday, and Thursday runs (5m, 8m, 5m) should be easy efforts, targeting Zone 2 (124-154 bpm), aiming for a relaxed pace around 9:45-10:15/mi. For your 12-mile long run on Saturday, maintain a steady Z2 effort, perhaps slightly slower than your weekday runs, to build endurance without overstressing your system.\n\n**Key Priorities**\n*   **Strict Z2 Adherence:** For all easy runs (Tuesday, Wednesday, Thursday, Saturday), ensure your average heart rate stays firmly within Zone 2 (124-154 bpm). If your pace needs to slow down to achieve this, that's perfectly fine.\n*   **Listen to Your Body:** Given the upward HR trend, prioritize recovery and adjust pace downward if you feel fatigued, especially on your 12-mile long run.\n*   **Fuel and Hydrate:** With the marathon four weeks away, focus on consistent nutrition and hydration to support recovery and energy stores for these longer efforts.\n\n**Watch Out For**\nThe most significant red flag is your average heart rate trending up by 6 bpm over your last six runs, with recent runs like \"There She Goes\" averaging 155 bpm (Z3) despite seemingly moderate paces. This is a clear fatigue signal; pushing through this could lead to overtraining or injury, so prioritize rest and lower intensity.\n\n**Upcoming Milestones**\nThis week's 12-mile long run on Saturday is a crucial step towards the NYC Marathon, representing a key endurance builder before the final taper truly begins. You are now officially less than one month out from race day, which is a fantastic mental milestone."
+  "advice": "Alright Tom, let's get you ready for NYC! Today marks Week 14, and we're entering a crucial phase.\n\n**Fitness Assessment**\nTom, you've demonstrated solid aerobic endurance, consistently completing long runs up to 17.42 miles (2026-09-06) at a 9:52/mi pace with an average HR of 153bpm (Z2). Your consistent wattage of 250-270W during these efforts shows good power output and efficiency. However, recent runs like the 8.69mi @ 9:12/mi (155bpm, Z3) suggest an increasing effort level to maintain pace.\n\n**This Week's Focus**\nFor your 5-mile and 8-mile runs, prioritize easy Z2 efforts, targeting a pace of 9:45-10:00/mi and keeping your average HR strictly below 154bpm. Your 12-mile long run on Saturday should also be a comfortable Z2 effort, aiming for 9:45-10:15/mi to build endurance without overstressing. Remember to fully embrace your rest days on Monday and Friday, and use Sunday for low-impact cross-training.\n\n**Key Priorities**\n*   **Maintain Z2 for all runs:** Strictly adhere to an average HR below 154bpm for all scheduled runs this week, especially the 12-mile long run, to ensure proper recovery and aerobic development.\n*   **Prioritize recovery:** Given the \"HR trending UP +7bpm\" flag, ensure adequate sleep, nutrition, and hydration, and respect the rest days.\n*   **Consistent easy pacing:** Target an easy pace of 9:45-10:00/mi for your weekday runs and 9:45-10:15/mi for your long run on Saturday, focusing on effort rather than speed.\n\n**Watch Out For**\nThe \"HR trending UP +7bpm over last 6 runs\" is a significant fatigue signal. If your heart rate remains elevated (e.g., consistently hitting 155bpm+ for a 9:45/mi pace), consider adjusting your pace or duration to prevent overtraining as you approach the marathon.\n\n**Upcoming Milestones**\nThis Saturday's 12-mile run is your final significant long run before the NYC Marathon. Successfully completing it while maintaining Z2 HR will be a crucial confidence boost as you transition into the final taper phase."
 }
