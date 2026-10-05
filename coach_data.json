@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-04 15:31:51",
-  "current_week": 14,
+  "updated_at": "2026-10-05 19:30:45",
+  "current_week": 15,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
@@ -2199,60 +2199,60 @@
   ],
   "weather": [
     {
-      "date": "2026-10-04",
-      "high": 63,
-      "low": 56,
-      "precip": 0.0,
-      "windspeed": 10,
-      "code": 3
-    },
-    {
       "date": "2026-10-05",
-      "high": 66,
-      "low": 49,
+      "high": 70,
+      "low": 53,
       "precip": 0.0,
-      "windspeed": 18,
+      "windspeed": 19,
       "code": 3
     },
     {
       "date": "2026-10-06",
-      "high": 64,
-      "low": 42,
+      "high": 61,
+      "low": 43,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 12,
       "code": 0
     },
     {
       "date": "2026-10-07",
-      "high": 71,
-      "low": 54,
+      "high": 69,
+      "low": 44,
       "precip": 0.0,
-      "windspeed": 13,
-      "code": 3
+      "windspeed": 14,
+      "code": 0
     },
     {
       "date": "2026-10-08",
       "high": 77,
-      "low": 60,
+      "low": 59,
       "precip": 0.0,
       "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-10-09",
-      "high": 69,
-      "low": 56,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
-    {
-      "date": "2026-10-10",
       "high": 68,
       "low": 58,
       "precip": 0.0,
-      "windspeed": 12,
+      "windspeed": 13,
+      "code": 0
+    },
+    {
+      "date": "2026-10-10",
+      "high": 69,
+      "low": 57,
+      "precip": 0.0,
+      "windspeed": 9,
       "code": 3
+    },
+    {
+      "date": "2026-10-11",
+      "high": 66,
+      "low": 60,
+      "precip": 0.25,
+      "windspeed": 12,
+      "code": 55
     }
   ],
   "avg_pace_sec": 567.1,
@@ -2302,5 +2302,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for NYC! Today marks Week 14, and we're entering a crucial phase.\n\n**Fitness Assessment**\nTom, you've demonstrated solid aerobic endurance, consistently completing long runs up to 17.42 miles (2026-09-06) at a 9:52/mi pace with an average HR of 153bpm (Z2). Your consistent wattage of 250-270W during these efforts shows good power output and efficiency. However, recent runs like the 8.69mi @ 9:12/mi (155bpm, Z3) suggest an increasing effort level to maintain pace.\n\n**This Week's Focus**\nFor your 5-mile and 8-mile runs, prioritize easy Z2 efforts, targeting a pace of 9:45-10:00/mi and keeping your average HR strictly below 154bpm. Your 12-mile long run on Saturday should also be a comfortable Z2 effort, aiming for 9:45-10:15/mi to build endurance without overstressing. Remember to fully embrace your rest days on Monday and Friday, and use Sunday for low-impact cross-training.\n\n**Key Priorities**\n*   **Maintain Z2 for all runs:** Strictly adhere to an average HR below 154bpm for all scheduled runs this week, especially the 12-mile long run, to ensure proper recovery and aerobic development.\n*   **Prioritize recovery:** Given the \"HR trending UP +7bpm\" flag, ensure adequate sleep, nutrition, and hydration, and respect the rest days.\n*   **Consistent easy pacing:** Target an easy pace of 9:45-10:00/mi for your weekday runs and 9:45-10:15/mi for your long run on Saturday, focusing on effort rather than speed.\n\n**Watch Out For**\nThe \"HR trending UP +7bpm over last 6 runs\" is a significant fatigue signal. If your heart rate remains elevated (e.g., consistently hitting 155bpm+ for a 9:45/mi pace), consider adjusting your pace or duration to prevent overtraining as you approach the marathon.\n\n**Upcoming Milestones**\nThis Saturday's 12-mile run is your final significant long run before the NYC Marathon. Successfully completing it while maintaining Z2 HR will be a crucial confidence boost as you transition into the final taper phase."
+  "advice": "Alright Tom, let's get you ready for NYC. This is a critical week as we approach the taper.\n\n**Fitness Assessment**\nTom, you've developed a strong aerobic base, consistently running long efforts like your 16.51mi run at 9:47/mi with a solid 251W, predominantly in Z2 (152 bpm). Your ability to push into Z3 (155 bpm) for efforts like your 8.69mi at 9:12/mi shows good versatility and readiness for marathon pace. Your predicted marathon time of 4:18:09 (9:50/mi) aligns well with your sustained efforts and indicates a realistic target.\n\n**This Week's Focus**\nThis week includes two 5-mile easy runs (Tuesday & Thursday) and a 5-mile pace run (Wednesday). Your peak 20-mile long run on Saturday is crucial, followed by cross-training on Sunday, with rest days on Monday and Friday. For easy runs, target a Z2 pace of 9:40-10:00/mi, keeping your heart rate below 154 bpm; for the pace run, aim for a controlled Z3 effort at 9:00-9:15/mi, with HR between 155-169 bpm.\n\n**Key Priorities**\n*   **Prioritize Recovery:** With the +7bpm HR trend and the upcoming 20-mile long run, ensure adequate rest and nutrition, especially on Monday and Friday.\n*   **Execute the 20-Miler Smartly:** Maintain Z2 heart rate (below 154 bpm) for the majority of Saturday's 20-mile run, targeting a controlled pace around 9:40-10:00/mi to simulate marathon effort without over-exertion.\n*   **Manage Pace Run Effort:** For Wednesday's 5m pace run, aim for a Z3 heart rate (155-169 bpm) and a pace of 9:00-9:15/mi, but be mindful of the fatigue signal and don't push too hard.\n\n**Watch Out For**\nThe reported \"+7bpm HR trending UP over last 6 runs\" is a significant fatigue signal that needs your attention. Pay close attention to your body's feedback, especially during Tuesday's and Thursday's easy runs, and be prepared to adjust pace or cut runs short if needed to prevent overtraining.\n\n**Upcoming Milestones**\nThis Saturday's 20-mile run is your final and most crucial long run before the marathon, providing a significant confidence boost and a final test of your fueling and hydration strategy."
 }

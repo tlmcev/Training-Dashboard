@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for NYC! Today marks Week 14, and we're entering a crucial phase.
+Alright Tom, let's get you ready for NYC. This is a critical week as we approach the taper.
 
 **Fitness Assessment**
-Tom, you've demonstrated solid aerobic endurance, consistently completing long runs up to 17.42 miles (2026-09-06) at a 9:52/mi pace with an average HR of 153bpm (Z2). Your consistent wattage of 250-270W during these efforts shows good power output and efficiency. However, recent runs like the 8.69mi @ 9:12/mi (155bpm, Z3) suggest an increasing effort level to maintain pace.
+Tom, you've developed a strong aerobic base, consistently running long efforts like your 16.51mi run at 9:47/mi with a solid 251W, predominantly in Z2 (152 bpm). Your ability to push into Z3 (155 bpm) for efforts like your 8.69mi at 9:12/mi shows good versatility and readiness for marathon pace. Your predicted marathon time of 4:18:09 (9:50/mi) aligns well with your sustained efforts and indicates a realistic target.
 
 **This Week's Focus**
 
@@ -27,7 +27,7 @@ Tom, you've demonstrated solid aerobic endurance, consistently completing long r
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 14 of 18**
+**Current week: 15 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ Tom, you've demonstrated solid aerobic endurance, consistently completing long r
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-04 15:31:51 UTC | Run ID: 37213341857*
+*Last updated: 2026-10-05 19:30:45 UTC | Run ID: 37363229858*
