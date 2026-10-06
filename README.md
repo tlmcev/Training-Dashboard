@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for NYC. This is a critical week as we approach the taper.
+Alright Tom, let's dial in for this crucial week as we approach the NYC Marathon. You're entering the peak of your training, and the data shows a strong foundation, but also some signals to heed.
 
 **Fitness Assessment**
-Tom, you've developed a strong aerobic base, consistently running long efforts like your 16.51mi run at 9:47/mi with a solid 251W, predominantly in Z2 (152 bpm). Your ability to push into Z3 (155 bpm) for efforts like your 8.69mi at 9:12/mi shows good versatility and readiness for marathon pace. Your predicted marathon time of 4:18:09 (9:50/mi) aligns well with your sustained efforts and indicates a realistic target.
+Tom, your recent runs demonstrate solid aerobic development, with long efforts like your 16.51mi run at 9:47/mi consistently in Zone 2 (152 bpm, 251W). You also show the ability to push into Zone 3 for faster efforts, such as your 8.69mi run at 9:12/mi with an average HR of 155 bpm and 277W, indicating good speed endurance. This consistent Z2 work is excellent for building your marathon engine.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you've developed a strong aerobic base, consistently running long efforts l
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-05 19:30:45 UTC | Run ID: 37363229858*
+*Last updated: 2026-10-06 16:58:58 UTC | Run ID: 37499871274*
