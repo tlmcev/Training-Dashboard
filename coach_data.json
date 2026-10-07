@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06 16:58:58",
+  "updated_at": "2026-10-07 17:35:48",
   "current_week": 15,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2199,60 +2199,60 @@
   ],
   "weather": [
     {
-      "date": "2026-10-06",
-      "high": 63,
-      "low": 46,
-      "precip": 0.0,
-      "windspeed": 14,
-      "code": 0
-    },
-    {
       "date": "2026-10-07",
-      "high": 66,
-      "low": 43,
+      "high": 67,
+      "low": 45,
       "precip": 0.0,
-      "windspeed": 12,
+      "windspeed": 11,
       "code": 0
     },
     {
       "date": "2026-10-08",
-      "high": 76,
-      "low": 55,
+      "high": 77,
+      "low": 54,
       "precip": 0.0,
-      "windspeed": 12,
+      "windspeed": 15,
       "code": 2
     },
     {
       "date": "2026-10-09",
-      "high": 69,
-      "low": 58,
+      "high": 70,
+      "low": 50,
       "precip": 0.0,
       "windspeed": 13,
-      "code": 0
-    },
-    {
-      "date": "2026-10-10",
-      "high": 64,
-      "low": 55,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 0
-    },
-    {
-      "date": "2026-10-11",
-      "high": 71,
-      "low": 58,
-      "precip": 0.0,
-      "windspeed": 12,
       "code": 3
     },
     {
-      "date": "2026-10-12",
-      "high": 65,
+      "date": "2026-10-10",
+      "high": 63,
+      "low": 56,
+      "precip": 0.0,
+      "windspeed": 10,
+      "code": 3
+    },
+    {
+      "date": "2026-10-11",
+      "high": 63,
       "low": 60,
-      "precip": 1.11,
+      "precip": 1.09,
       "windspeed": 12,
-      "code": 80
+      "code": 81
+    },
+    {
+      "date": "2026-10-12",
+      "high": 74,
+      "low": 61,
+      "precip": 0.01,
+      "windspeed": 13,
+      "code": 51
+    },
+    {
+      "date": "2026-10-13",
+      "high": 74,
+      "low": 63,
+      "precip": 0.18,
+      "windspeed": 14,
+      "code": 55
     }
   ],
   "avg_pace_sec": 567.1,
@@ -2302,5 +2302,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's dial in for this crucial week as we approach the NYC Marathon. You're entering the peak of your training, and the data shows a strong foundation, but also some signals to heed.\n\n**Fitness Assessment**\nTom, your recent runs demonstrate solid aerobic development, with long efforts like your 16.51mi run at 9:47/mi consistently in Zone 2 (152 bpm, 251W). You also show the ability to push into Zone 3 for faster efforts, such as your 8.69mi run at 9:12/mi with an average HR of 155 bpm and 277W, indicating good speed endurance. This consistent Z2 work is excellent for building your marathon engine.\n\n**This Week's Focus**\nFor your **Tuesday and Thursday 5m runs**, target an easy, conversational pace around 9:45-10:00/mi, keeping your heart rate strictly in Zone 2 (124-154 bpm) to promote recovery. On **Wednesday for your 5m pace run**, aim for a controlled effort at your goal marathon pace, approximately 9:50-9:55/mi, which should keep your heart rate in the upper end of Zone 2 or low Zone 3 (148-158 bpm). Finally, for your **Saturday 20m long run**, maintain a steady, easy pace around 9:55-10:15/mi, ensuring your heart rate stays firmly in Zone 2 (124-154 bpm) throughout.\n\n**Key Priorities**\n*   **Prioritize Recovery:** Your HR has trended up +7bpm over the last 6 runs, a clear fatigue signal. Ensure all easy runs stay strictly below 154 bpm, even if it means slowing your pace to facilitate recovery.\n*   **Long Run Fueling Practice:** For your 20-mile long run on Saturday, meticulously plan and practice your hydration and nutrition strategy, mirroring what you intend to do on race day to prevent hitting the wall.\n*   **Consistent Pacing:** Use the 20-mile long run to practice disciplined, even pacing (9:55-10:15/mi) within Zone 2 to build mental fortitude and ensure you finish strong, simulating race-day conditions.\n\n**Watch Out For**\nThe \"HR trending UP +7bpm over last 6 runs\" is a significant red flag for accumulated fatigue. Monitor your morning resting heart rate and perceived exertion closely; if your easy runs consistently push into Z3 (above 154 bpm) this week, consider shortening a run or taking an extra rest day.\n\n**Upcoming Milestones**\nThis Saturday's 20-mile long run is your peak training effort and a huge mental and physical milestone, confirming your readiness for the marathon distance. Nailing this run will provide immense confidence as you head into the final taper."
+  "advice": "Alright Tom, let's get you dialed in for Week 15 as you approach the NYC Marathon!\n\n**Fitness Assessment**\nTom, you're demonstrating solid aerobic development, consistently holding Zone 2 heart rates (152-153 bpm) during long efforts like your 16.51mi run on Oct 3rd at a 9:47/mi pace. Your power output, averaging 250-270W, indicates good running economy across varied paces. While you show capability for faster efforts (e.g., 8:38/mi best mile), the recent +7 bpm upward trend in HR suggests accumulated fatigue, which we need to monitor closely.\n\n**This Week's Focus**\nToday's 5-mile pace run should target your predicted marathon pace of 9:27/mi, aiming for 9:15-9:25/mi with a heart rate in Zone 3 (155-169 bpm) to simulate race effort. Your 5-mile easy run on Thursday and Saturday's critical 20-mile long run should both be executed at an easy, conversational pace of 9:45-10:00/mi, keeping your heart rate firmly in Zone 2 (below 154 bpm).\n\n**Key Priorities**\n*   Maintain heart rates strictly below 154 bpm (Zone 2) for all easy and long runs, particularly Saturday's 20-miler, to manage accumulated fatigue and promote recovery.\n*   Execute Wednesday's 5-mile pace run around 9:15-9:25/mi, ensuring your heart rate stays within Zone 3 (155-169 bpm) to simulate race effort without overexertion.\n*   Prioritize hydration and nutrition throughout the week, as this is your final peak long run before the critical tapering phase for the NYC Marathon begins.\n\n**Watch Out For**\nYour heart rate has trended up by +7 bpm over the last six runs, signaling significant accumulated fatigue. Pay close attention to your perceived effort and be willing to slow down on easy runs if your heart rate climbs out of Zone 2, especially with the 20-mile long run approaching.\n\n**Upcoming Milestones**\nThis Saturday marks a huge accomplishment with your 20-mile long run, the longest of your training cycle, which will build immense confidence for race day. Successfully completing this run will also signal the official beginning of your well-deserved taper as you transition into the final weeks before the NYC Marathon."
 }

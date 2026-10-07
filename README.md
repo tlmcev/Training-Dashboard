@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's dial in for this crucial week as we approach the NYC Marathon. You're entering the peak of your training, and the data shows a strong foundation, but also some signals to heed.
+Alright Tom, let's get you dialed in for Week 15 as you approach the NYC Marathon!
 
 **Fitness Assessment**
-Tom, your recent runs demonstrate solid aerobic development, with long efforts like your 16.51mi run at 9:47/mi consistently in Zone 2 (152 bpm, 251W). You also show the ability to push into Zone 3 for faster efforts, such as your 8.69mi run at 9:12/mi with an average HR of 155 bpm and 277W, indicating good speed endurance. This consistent Z2 work is excellent for building your marathon engine.
+Tom, you're demonstrating solid aerobic development, consistently holding Zone 2 heart rates (152-153 bpm) during long efforts like your 16.51mi run on Oct 3rd at a 9:47/mi pace. Your power output, averaging 250-270W, indicates good running economy across varied paces. While you show capability for faster efforts (e.g., 8:38/mi best mile), the recent +7 bpm upward trend in HR suggests accumulated fatigue, which we need to monitor closely.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent runs demonstrate solid aerobic development, with long efforts l
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-06 16:58:58 UTC | Run ID: 37499871274*
+*Last updated: 2026-10-07 17:35:48 UTC | Run ID: 37660191446*
