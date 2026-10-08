@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-10-07 17:35:48",
+  "updated_at": "2026-10-08 17:37:49",
   "current_week": 15,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 20495826569,
+      "name": "\u201cMaggie Mae\u201d -Rod Stewart",
+      "date": "2026-10-07",
+      "distance_miles": 4.4,
+      "moving_time_sec": 2538,
+      "pace_per_mile": "9:36",
+      "pace_seconds": 576.8,
+      "elevation_ft": 231.0,
+      "avg_hr": 152,
+      "hr_zone": "Z2",
+      "suffer_score": 62.0,
+      "max_hr": 166.0,
+      "avg_watts": 252,
+      "avg_cadence": null,
+      "fastest_mile": "8:37",
+      "fastest_5k": "28:40",
+      "pr_count": 0
+    },
     {
       "id": 20434881779,
       "name": "\u201cRich Girl\u201d -Hall and Oates",
@@ -187,11 +206,11 @@
       "avg_hr": 137,
       "hr_zone": "Z2",
       "suffer_score": 20.0,
-      "max_hr": 157.0,
-      "avg_watts": 253,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "9:16",
-      "fastest_5k": "29:23",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 0
     },
     {
@@ -1527,6 +1546,10 @@
     {
       "week_start": "2026-09-28",
       "miles": 16.5
+    },
+    {
+      "week_start": "2026-10-05",
+      "miles": 4.4
     }
   ],
   "ae_trend": [
@@ -2195,72 +2218,81 @@
       "dist": 16.51,
       "marathon_pred": "4:22:20",
       "marathon_sec": 15740
+    },
+    {
+      "date": "2026-10-07",
+      "name": "\u201cMaggie Mae\u201d -Rod Stewart",
+      "ae": 1.101,
+      "hr": 152,
+      "dist": 4.4,
+      "marathon_pred": "4:17:34",
+      "marathon_sec": 15454
     }
   ],
   "weather": [
     {
-      "date": "2026-10-07",
-      "high": 67,
-      "low": 45,
-      "precip": 0.0,
-      "windspeed": 11,
-      "code": 0
-    },
-    {
       "date": "2026-10-08",
-      "high": 77,
-      "low": 54,
+      "high": 76,
+      "low": 56,
       "precip": 0.0,
-      "windspeed": 15,
-      "code": 2
+      "windspeed": 16,
+      "code": 3
     },
     {
       "date": "2026-10-09",
       "high": 70,
-      "low": 50,
+      "low": 49,
       "precip": 0.0,
-      "windspeed": 13,
+      "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-10-10",
-      "high": 63,
-      "low": 56,
+      "high": 68,
+      "low": 50,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 7,
       "code": 3
     },
     {
       "date": "2026-10-11",
-      "high": 63,
+      "high": 65,
       "low": 60,
-      "precip": 1.09,
-      "windspeed": 12,
-      "code": 81
+      "precip": 1.0,
+      "windspeed": 17,
+      "code": 82
     },
     {
       "date": "2026-10-12",
-      "high": 74,
-      "low": 61,
-      "precip": 0.01,
-      "windspeed": 13,
-      "code": 51
+      "high": 68,
+      "low": 60,
+      "precip": 0.08,
+      "windspeed": 12,
+      "code": 61
     },
     {
       "date": "2026-10-13",
-      "high": 74,
-      "low": 63,
-      "precip": 0.18,
-      "windspeed": 14,
-      "code": 55
+      "high": 75,
+      "low": 60,
+      "precip": 0.14,
+      "windspeed": 17,
+      "code": 53
+    },
+    {
+      "date": "2026-10-14",
+      "high": 64,
+      "low": 50,
+      "precip": 0.0,
+      "windspeed": 18,
+      "code": 1
     }
   ],
-  "avg_pace_sec": 567.1,
+  "avg_pace_sec": 567.2,
   "predictions": {
-    "5k": "26:52",
+    "5k": "26:53",
     "10k": "56:02",
-    "half": "2:03:49",
-    "marathon": "4:18:09"
+    "half": "2:03:51",
+    "marathon": "4:18:13"
   },
   "pace_zones": {
     "Z1": {
@@ -2296,11 +2328,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 66,
+    "Z2": 67,
     "Z3": 8,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for Week 15 as you approach the NYC Marathon!\n\n**Fitness Assessment**\nTom, you're demonstrating solid aerobic development, consistently holding Zone 2 heart rates (152-153 bpm) during long efforts like your 16.51mi run on Oct 3rd at a 9:47/mi pace. Your power output, averaging 250-270W, indicates good running economy across varied paces. While you show capability for faster efforts (e.g., 8:38/mi best mile), the recent +7 bpm upward trend in HR suggests accumulated fatigue, which we need to monitor closely.\n\n**This Week's Focus**\nToday's 5-mile pace run should target your predicted marathon pace of 9:27/mi, aiming for 9:15-9:25/mi with a heart rate in Zone 3 (155-169 bpm) to simulate race effort. Your 5-mile easy run on Thursday and Saturday's critical 20-mile long run should both be executed at an easy, conversational pace of 9:45-10:00/mi, keeping your heart rate firmly in Zone 2 (below 154 bpm).\n\n**Key Priorities**\n*   Maintain heart rates strictly below 154 bpm (Zone 2) for all easy and long runs, particularly Saturday's 20-miler, to manage accumulated fatigue and promote recovery.\n*   Execute Wednesday's 5-mile pace run around 9:15-9:25/mi, ensuring your heart rate stays within Zone 3 (155-169 bpm) to simulate race effort without overexertion.\n*   Prioritize hydration and nutrition throughout the week, as this is your final peak long run before the critical tapering phase for the NYC Marathon begins.\n\n**Watch Out For**\nYour heart rate has trended up by +7 bpm over the last six runs, signaling significant accumulated fatigue. Pay close attention to your perceived effort and be willing to slow down on easy runs if your heart rate climbs out of Zone 2, especially with the 20-mile long run approaching.\n\n**Upcoming Milestones**\nThis Saturday marks a huge accomplishment with your 20-mile long run, the longest of your training cycle, which will build immense confidence for race day. Successfully completing this run will also signal the official beginning of your well-deserved taper as you transition into the final weeks before the NYC Marathon."
+  "advice": "Alright Tom, let's get you dialed in for the final push towards NYC. Today is Thursday, October 8th, and we're 23 days out from the marathon. This is Week 15 of 18, a crucial peak week with your longest run.\n\n### **Fitness Assessment**\nTom demonstrates a solid aerobic base, consistently maintaining Zone 2 heart rates (avg 152-153 bpm) during his long runs at paces around 9:47-9:52/mi. His average watts typically range from 250-270W, indicating consistent effort levels. While his recent 8.69mi run at 9:12/mi pushed into Zone 3 (155 bpm), his overall HR distribution shows strong Z2 development (67%).\n\n### **This Week's Focus**\nFor your 5-mile run today (Thursday) and your 20-mile long run on Saturday, target an easy Zone 2 effort, keeping your heart rate between 124-154 bpm. This translates to a comfortable conversational pace, likely in the 9:30-10:00/mi range based on your recent long runs like the 16.51mi at 9:47/mi. The goal for these runs is to build endurance and recover effectively.\n\n### **Key Priorities**\n*   **HR Zone Adherence**: Ensure all easy runs (Thursday and Saturday's long run) stay firmly within Zone 2 (124-154 bpm). Your recent 4.4mi run at 9:36/mi with an average HR of 152 bpm is a good example of this target.\n*   **Long Run Execution**: Aim for a consistent pace around 9:45-10:00/mi for your 20-mile run on Saturday, mirroring your successful 16.51mi run at 9:47/mi. This will build confidence and simulate marathon effort.\n*   **Taper Transition**: This is the last big week before the taper. Focus on recovery and nutrition to absorb the training and prepare for reduced volume.\n\n### **Watch Out For**\nYour weekly mileage has seen a significant drop in the last two weeks (16.5mi and 4.4mi), which is unusually low for this critical phase of marathon training. This sharp reduction in volume could impact your preparedness for the upcoming 20-mile long run and the marathon itself, so be extra diligent with the remaining prescribed runs.\n\n### **Upcoming Milestones**\nSuccessfully completing your 20-mile long run this Saturday will be a major confidence booster and marks the peak of your training before the taper fully kicks in. This crucial run is your final big test, preparing both your body and mind for the NYC Marathon in just over three weeks."
 }

@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Maggie Mae” -Rod Stewart | 4.4mi | 9:36/mi | 152bpm (Z2) | 2026-10-07 |
 | “Rich Girl” -Hall and Oates | 16.51mi | 9:47/mi | 152bpm (Z2) | 2026-10-03 |
 | “There She Goes” -The Las | 8.69mi | 9:12/mi | 155bpm (Z3) | 2026-09-27 |
 | Treadmill Nightmares | 5.49mi | 9:36/mi | 155bpm (Z3) | 2026-09-26 |
 | “Sweet Jane” -The Velvet Underground | 4.34mi | 9:24/mi | 149bpm (Z2) | 2026-09-24 |
-| Afternoon Run | 3.12mi | 9:52/mi | 140bpm (Z2) | 2026-09-22 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for Week 15 as you approach the NYC Marathon!
+Alright Tom, let's get you dialed in for the final push towards NYC. Today is Thursday, October 8th, and we're 23 days out from the marathon. This is Week 15 of 18, a crucial peak week with your longest run.
 
-**Fitness Assessment**
-Tom, you're demonstrating solid aerobic development, consistently holding Zone 2 heart rates (152-153 bpm) during long efforts like your 16.51mi run on Oct 3rd at a 9:47/mi pace. Your power output, averaging 250-270W, indicates good running economy across varied paces. While you show capability for faster efforts (e.g., 8:38/mi best mile), the recent +7 bpm upward trend in HR suggests accumulated fatigue, which we need to monitor closely.
+### **Fitness Assessment**
+Tom demonstrates a solid aerobic base, consistently maintaining Zone 2 heart rates (avg 152-153 bpm) during his long runs at paces around 9:47-9:52/mi. His average watts typically range from 250-270W, indicating consistent effort levels. While his recent 8.69mi run at 9:12/mi pushed into Zone 3 (155 bpm), his overall HR distribution shows strong Z2 development (67%).
 
-**This Week's Focus**
+### **This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, you're demonstrating solid aerobic development, consistently holding Zone 2
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-07 17:35:48 UTC | Run ID: 37660191446*
+*Last updated: 2026-10-08 17:37:49 UTC | Run ID: 37818036088*
