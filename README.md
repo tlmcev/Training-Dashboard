@@ -16,12 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for the final push towards NYC. Today is Thursday, October 8th, and we're 23 days out from the marathon. This is Week 15 of 18, a crucial peak week with your longest run.
+Alright Tom, let's get you ready for that NYC Marathon! Today is Friday, October 9, 2026, and you're 22 days out. This is Week 15, a pivotal week in your Hal Higdon Novice 2 plan.
 
-### **Fitness Assessment**
-Tom demonstrates a solid aerobic base, consistently maintaining Zone 2 heart rates (avg 152-153 bpm) during his long runs at paces around 9:47-9:52/mi. His average watts typically range from 250-270W, indicating consistent effort levels. While his recent 8.69mi run at 9:12/mi pushed into Zone 3 (155 bpm), his overall HR distribution shows strong Z2 development (67%).
-
-### **This Week's Focus**
+### Fitness Assessment
+Tom's aerobic fitness appears well-developed, with recent long runs like the 16.51mi at 9:47/mi consistently keeping his average HR in Z2 (152bpm) and watts around 251W. He demonstrates the ability to shift into Z3 for pace efforts, as seen in his 8.69mi run at 9:12/mi with an average HR of 155bpm and 27
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +49,4 @@ Tom demonstrates a solid aerobic base, consistently maintaining Zone 2 heart rat
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-08 17:37:49 UTC | Run ID: 37818036088*
+*Last updated: 2026-10-09 17:13:51 UTC | Run ID: 37964766655*
