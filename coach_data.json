@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09 17:13:51",
+  "updated_at": "2026-10-10 15:58:21",
   "current_week": 15,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2231,60 +2231,60 @@
   ],
   "weather": [
     {
-      "date": "2026-10-09",
-      "high": 73,
-      "low": 52,
-      "precip": 0.0,
-      "windspeed": 14,
-      "code": 3
-    },
-    {
       "date": "2026-10-10",
-      "high": 70,
-      "low": 49,
+      "high": 71,
+      "low": 53,
       "precip": 0.0,
-      "windspeed": 7,
+      "windspeed": 10,
       "code": 3
     },
     {
       "date": "2026-10-11",
-      "high": 63,
-      "low": 49,
-      "precip": 0.94,
+      "high": 66,
+      "low": 53,
+      "precip": 0.91,
       "windspeed": 16,
-      "code": 81
+      "code": 63
     },
     {
       "date": "2026-10-12",
       "high": 72,
-      "low": 59,
-      "precip": 0.06,
-      "windspeed": 14,
-      "code": 53
+      "low": 58,
+      "precip": 0.18,
+      "windspeed": 12,
+      "code": 63
     },
     {
       "date": "2026-10-13",
-      "high": 76,
-      "low": 60,
-      "precip": 0.04,
+      "high": 67,
+      "low": 61,
+      "precip": 0.0,
       "windspeed": 14,
-      "code": 53
+      "code": 3
     },
     {
       "date": "2026-10-14",
-      "high": 68,
-      "low": 53,
-      "precip": 0.0,
-      "windspeed": 19,
+      "high": 76,
+      "low": 60,
+      "precip": 0.02,
+      "windspeed": 18,
       "code": 51
     },
     {
       "date": "2026-10-15",
-      "high": 59,
-      "low": 50,
+      "high": 64,
+      "low": 54,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 15,
       "code": 3
+    },
+    {
+      "date": "2026-10-16",
+      "high": 66,
+      "low": 56,
+      "precip": 0.57,
+      "windspeed": 19,
+      "code": 63
     }
   ],
   "avg_pace_sec": 567.2,
@@ -2334,5 +2334,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for that NYC Marathon! Today is Friday, October 9, 2026, and you're 22 days out. This is Week 15, a pivotal week in your Hal Higdon Novice 2 plan.\n\n### Fitness Assessment\nTom's aerobic fitness appears well-developed, with recent long runs like the 16.51mi at 9:47/mi consistently keeping his average HR in Z2 (152bpm) and watts around 251W. He demonstrates the ability to shift into Z3 for pace efforts, as seen in his 8.69mi run at 9:12/mi with an average HR of 155bpm and 27"
+  "advice": "Here is your coaching brief for Tom:\n\n**Fitness Assessment**\nTom demonstrates solid aerobic development, maintaining an average HR in Z2 (124-154 bpm) for 67% of his recent running time, even on long runs like his 16.51mi @ 9:47/mi. His consistent power output (e.g., 252W for 17.42mi) indicates good running economy. He has shown ability to run at Z3 (155-169 bpm) for pace work, as seen in his 8.69mi @ 9:12/mi.\n\n**This Week's Focus**\nToday's 20-mile long run should target an easy, conversational Z2 pace, aiming for 9:45-10:15/mi, keeping HR below 154bpm. For Wednesday's 5-mile pace run, aim for a Z3 effort around 9:00-9:15/mi, with HR between 155-169bpm. The other 5-mile runs should be easy Z2, similar to the long run pace.\n\n**Key Priorities**\n*   **Prioritize recovery:** Given the very low mileage last week (4.4mi) and the impending 20-mile run, focus on adequate sleep, nutrition, and hydration to support this demanding week.\n*   **Execute the 20-mile run cautiously:** Start slowly, stay hydrated, and be prepared to adjust pace if fatigue sets in, remembering it's a key confidence builder.\n*   **Maintain Z2 for easy runs:** Ensure your 5-mile runs on Tuesday and Thursday remain truly easy, keeping your average HR below 154bpm to maximize recovery and aerobic benefits.\n\n**Watch Out For**\nThe significant drop in mileage last week to just 4.4 miles, following a 16.5-mile week, is a red flag. This substantial decrease in volume right before a 20-mile long run could increase injury risk or make the long run feel unusually difficult.\n\n**Upcoming Milestones**\nThis week features your longest training run of the entire plan \u2013 a 20-mile long run! Successfully completing this will be a huge confidence booster and the final major physical hurdle before the tapering phase begins."
 }

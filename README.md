@@ -16,10 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for that NYC Marathon! Today is Friday, October 9, 2026, and you're 22 days out. This is Week 15, a pivotal week in your Hal Higdon Novice 2 plan.
+Here is your coaching brief for Tom:
 
-### Fitness Assessment
-Tom's aerobic fitness appears well-developed, with recent long runs like the 16.51mi at 9:47/mi consistently keeping his average HR in Z2 (152bpm) and watts around 251W. He demonstrates the ability to shift into Z3 for pace efforts, as seen in his 8.69mi run at 9:12/mi with an average HR of 155bpm and 27
+**Fitness Assessment**
+Tom demonstrates solid aerobic development, maintaining an average HR in Z2 (124-154 bpm) for 67% of his recent running time, even on long runs like his 16.51mi @ 9:47/mi. His consistent power output (e.g., 252W for 17.42mi) indicates good running economy. He has shown ability to run at Z3 (155-169 bpm) for pace work, as seen in his 8.69mi @ 9:12/mi.
+
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -49,4 +51,4 @@ Tom's aerobic fitness appears well-developed, with recent long runs like the 16.
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-09 17:13:51 UTC | Run ID: 37964766655*
+*Last updated: 2026-10-10 15:58:21 UTC | Run ID: 38065746296*
