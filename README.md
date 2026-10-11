@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief for Tom:
+Alright Tom, let's get you dialed in for a crucial week as we approach the NYC Marathon!
 
-**Fitness Assessment**
-Tom demonstrates solid aerobic development, maintaining an average HR in Z2 (124-154 bpm) for 67% of his recent running time, even on long runs like his 16.51mi @ 9:47/mi. His consistent power output (e.g., 252W for 17.42mi) indicates good running economy. He has shown ability to run at Z3 (155-169 bpm) for pace work, as seen in his 8.69mi @ 9:12/mi.
+### Fitness Assessment
+Tom, you've demonstrated solid aerobic development, consistently maintaining an average heart rate of 152-153 bpm (Zone 2) during long runs up to 17 miles, indicating excellent endurance. Your power output is stable around 250-270W, correlating with paces like 9:12/mi at 277W in low Zone 3 (155 bpm), which suggests good running economy. While your weekly mileage significantly dropped to 4.4 miles last week, your ability to handle substantial elevation, such as +1025ft on your 16.51-mile run, bodes well for the NYC course.
 
-**This Week's Focus**
+### This Week's Focus
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom demonstrates solid aerobic development, maintaining an average HR in Z2 (124
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-10 15:58:21 UTC | Run ID: 38065746296*
+*Last updated: 2026-10-11 16:26:42 UTC | Run ID: 38155476831*
