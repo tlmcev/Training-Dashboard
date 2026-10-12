@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for a crucial week as we approach the NYC Marathon!
+Alright Tom, let's get you dialed in for the final push towards the NYC Marathon. Today is Monday, October 12th, and we're just 19 days out from race day. This is a critical week as we enter the deeper stages of the taper.
 
 ### Fitness Assessment
-Tom, you've demonstrated solid aerobic development, consistently maintaining an average heart rate of 152-153 bpm (Zone 2) during long runs up to 17 miles, indicating excellent endurance. Your power output is stable around 250-270W, correlating with paces like 9:12/mi at 277W in low Zone 3 (155 bpm), which suggests good running economy. While your weekly mileage significantly dropped to 4.4 miles last week, your ability to handle substantial elevation, such as +1025ft on your 16.51-mile run, bodes well for the NYC course.
+Tom, you're demonstrating solid aerobic development, consistently running long distances like your 16.51mi run at a 9:47/mi pace with an average HR of 152 bpm (Z2) and 251W. Your ability to push into Z3 for shorter efforts, seen in the 8.69mi run at 9:12/mi with an average HR of 155 bpm, indicates good versatility. The overall HR distribution (67% Z2, 8% Z3) is ideal for marathon training, showing a strong aerobic foundation.
 
 ### This Week's Focus
 
@@ -27,7 +27,7 @@ Tom, you've demonstrated solid aerobic development, consistently maintaining an 
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 15 of 18**
+**Current week: 16 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ Tom, you've demonstrated solid aerobic development, consistently maintaining an 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-11 16:26:42 UTC | Run ID: 38155476831*
+*Last updated: 2026-10-12 20:01:58 UTC | Run ID: 38301543608*
