@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for the final push towards NYC. Today is Tuesday, October 13, 2026, and we're just 18 days out from the marathon. This week marks Week 16 of your 18-week Hal Higdon Novice 2 plan, a crucial point as we transition into the final taper.
+Alright Tom, let's get you ready for New York City! Today is Wednesday, October 14, and we're 17 days out from the NYC Marathon. This is Week 16 of your Hal Higdon Novice 2 plan, a crucial phase as we transition into the final taper.
 
 ### Fitness Assessment
-Tom, you're demonstrating solid aerobic development, consistently maintaining Zone 2 HR (124-154 bpm) for extended periods. Your recent 16.51mi run at 9:47/mi with an average HR of 152 bpm (Z2) and 17.42mi run at 9:52/mi with 153 bpm (Z2) highlight excellent endurance at a controlled effort. While your average watts (240-270W) show consistent output, your ability to push into Zone 3, like your 8.69mi at 9:12/mi (155bpm avg), indicates good range when needed.
+Tom, you've developed a solid aerobic base, consistently running your long efforts like the 16.51mi run at a comfortable 9:47/mi pace with an average HR of 152bpm (Z2). Your ability to hold a 9:12/mi pace for 8.69mi with an average HR of 155bpm (Z3) demonstrates good versatility and the capacity for higher intensity when needed. Your power output is also consistent, hovering around 250-260W for Z2 efforts, which is a great indicator of your running economy.
 
 ### This Week's Focus
 
@@ -51,4 +51,4 @@ Tom, you're demonstrating solid aerobic development, consistently maintaining Zo
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-13 17:50:09 UTC | Run ID: 38441843231*
+*Last updated: 2026-10-14 15:35:37 UTC | Run ID: 38590673732*

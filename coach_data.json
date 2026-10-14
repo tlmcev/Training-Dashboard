@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13 17:50:09",
+  "updated_at": "2026-10-14 15:35:37",
   "current_week": 16,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2231,59 +2231,59 @@
   ],
   "weather": [
     {
-      "date": "2026-10-13",
-      "high": 70,
-      "low": 57,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
-    {
       "date": "2026-10-14",
       "high": 80,
-      "low": 59,
+      "low": 62,
       "precip": 0.0,
       "windspeed": 12,
       "code": 3
     },
     {
       "date": "2026-10-15",
-      "high": 67,
-      "low": 53,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
+      "high": 64,
+      "low": 51,
+      "precip": 0.03,
+      "windspeed": 10,
+      "code": 53
     },
     {
       "date": "2026-10-16",
-      "high": 73,
-      "low": 59,
-      "precip": 0.73,
-      "windspeed": 19,
-      "code": 82
+      "high": 70,
+      "low": 56,
+      "precip": 0.63,
+      "windspeed": 16,
+      "code": 80
     },
     {
       "date": "2026-10-17",
-      "high": 59,
-      "low": 46,
-      "precip": 0.01,
-      "windspeed": 24,
-      "code": 51
+      "high": 65,
+      "low": 45,
+      "precip": 0.14,
+      "windspeed": 22,
+      "code": 80
     },
     {
       "date": "2026-10-18",
       "high": 61,
       "low": 45,
       "precip": 0.0,
-      "windspeed": 13,
-      "code": 0
+      "windspeed": 11,
+      "code": 1
     },
     {
       "date": "2026-10-19",
-      "high": 65,
-      "low": 51,
+      "high": 66,
+      "low": 50,
       "precip": 0.0,
       "windspeed": 12,
+      "code": 2
+    },
+    {
+      "date": "2026-10-20",
+      "high": 69,
+      "low": 54,
+      "precip": 0.0,
+      "windspeed": 8,
       "code": 3
     }
   ],
@@ -2334,5 +2334,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for the final push towards NYC. Today is Tuesday, October 13, 2026, and we're just 18 days out from the marathon. This week marks Week 16 of your 18-week Hal Higdon Novice 2 plan, a crucial point as we transition into the final taper.\n\n### Fitness Assessment\nTom, you're demonstrating solid aerobic development, consistently maintaining Zone 2 HR (124-154 bpm) for extended periods. Your recent 16.51mi run at 9:47/mi with an average HR of 152 bpm (Z2) and 17.42mi run at 9:52/mi with 153 bpm (Z2) highlight excellent endurance at a controlled effort. While your average watts (240-270W) show consistent output, your ability to push into Zone 3, like your 8.69mi at 9:12/mi (155bpm avg), indicates good range when needed.\n\n### This Week's Focus\nThis week is about maintaining fitness and preparing for the taper.\n*   **Today (Tuesday, 5m run)**: Easy effort, target HR 140-150 bpm (mid-Z2), aiming for a relaxed pace around 9:45-10:00/mi.\n*   **Wednesday (4m pace)**: Focus on sustained tempo, target HR 158-165 bpm (mid-Z3), aiming for a pace of 8:45-9:00/mi, similar to your recent best mile and 5K efforts.\n*   **Thursday (5m run)**: Easy effort, target HR 140-150 bpm (mid-Z2), maintaining a conversational pace around 9:45-10:00/mi.\n*   **Saturday (12m long run)**: Steady Z2 effort, target HR 145-154 bpm, aiming for a consistent long run pace of 9:40-10:00/mi, similar to your previous long runs.\n*   **Sunday (Cross-training)**: Active recovery, keeping intensity low to support recovery.\n\n### Key Priorities\n*   **Prioritize Z2 for easy/long runs**: Ensure your average heart rate remains below 154bpm on Tuesday, Thursday, and Saturday to maximize aerobic benefit and promote recovery.\n*   **Execute Wednesday's pace run**: Aim to sustain a Z3 heart rate (155-169bpm) for the majority of the 4-mile pace run to build confidence and reinforce race-specific effort.\n*   **Focus on Recovery**: With the marathon just over two weeks away, consistent sleep, hydration, and nutrient-dense foods are paramount to support your body's recovery and readiness.\n\n### Watch Out For\nYour weekly mileage trend shows a significant drop last week to just 4.4mi, after previous drops from 21.6mi to 16.5mi. It's crucial that you complete this week's planned runs, especially the 12-mile long run, to stay on track with your taper and avoid any unnecessary stress from missed training.\n\n### Upcoming Milestones\nThis Saturday's 12-mile run is your final significant long run before the NYC Marathon, a crucial mental and physical benchmark for entering the final taper with confidence."
+  "advice": "Alright Tom, let's get you ready for New York City! Today is Wednesday, October 14, and we're 17 days out from the NYC Marathon. This is Week 16 of your Hal Higdon Novice 2 plan, a crucial phase as we transition into the final taper.\n\n### Fitness Assessment\nTom, you've developed a solid aerobic base, consistently running your long efforts like the 16.51mi run at a comfortable 9:47/mi pace with an average HR of 152bpm (Z2). Your ability to hold a 9:12/mi pace for 8.69mi with an average HR of 155bpm (Z3) demonstrates good versatility and the capacity for higher intensity when needed. Your power output is also consistent, hovering around 250-260W for Z2 efforts, which is a great indicator of your running economy.\n\n### This Week's Focus\nThis week, focus on hitting the prescribed paces and heart rate zones as we enter the tapering phase. Your 4-mile pace run today should target a Z3 heart rate, aiming for a pace around 9:00-9:15/mi. For your 5-mile and 12-mile runs, maintain a comfortable Z2 effort, keeping your heart rate between 124-154 bpm at paces of 9:30-10:15/mi to maximize recovery.\n\n### Key Priorities\n*   **Adherence to Tapering:** Your weekly mileage significantly dropped last week (from 21.6mi to 4.4mi), which is not ideal for the start of a taper. Ensure you complete all prescribed runs this week to maintain fitness and build confidence into the final two weeks.\n*   **Maintain Z2 for Easy/Long Runs:** Continue to keep your average heart rate below 154 bpm for all easy and long runs (5m, 12m) to maximize aerobic benefits and aid recovery. Your 16.51mi run at 152bpm is a perfect example to emulate.\n*   **Execute Pace Run with Purpose:** For today's 4-mile pace run, aim to sustain a Z3 heart rate (155-169 bpm) to sharpen your race-day readiness, recalling your 8:37/mile best effort.\n\n### Watch Out For\nThe significant drop in weekly mileage from 21.6mi (week of 9/21) to 4.4mi (week of 10/05) is a red flag. While tapering involves reduced volume, such a drastic reduction could be due to missed runs rather than planned taper, potentially impacting your readiness and confidence.\n\n### Upcoming Milestones\nThe 12-mile long run on Saturday will be your second-to-last significant long run before the marathon, serving as a key confidence builder as you transition fully into the final two weeks of tapering."
 }
