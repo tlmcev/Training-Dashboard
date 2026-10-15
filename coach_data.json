@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-10-14 15:35:37",
+  "updated_at": "2026-10-15 15:23:14",
   "current_week": 16,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 20594962684,
+      "name": "\u201cMoney Talks\u201d -AC/DC",
+      "date": "2026-10-15",
+      "distance_miles": 3.3,
+      "moving_time_sec": 1834,
+      "pace_per_mile": "9:15",
+      "pace_seconds": 555.8,
+      "elevation_ft": 152.0,
+      "avg_hr": 145,
+      "hr_zone": "Z2",
+      "suffer_score": 31.0,
+      "max_hr": 166.0,
+      "avg_watts": 260,
+      "avg_cadence": null,
+      "fastest_mile": "8:46",
+      "fastest_5k": "29:20",
+      "pr_count": 0
+    },
     {
       "id": 20495826569,
       "name": "\u201cMaggie Mae\u201d -Rod Stewart",
@@ -187,11 +206,11 @@
       "avg_hr": 153,
       "hr_zone": "Z2",
       "suffer_score": 257.0,
-      "max_hr": 174.0,
-      "avg_watts": 252,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "9:11",
-      "fastest_5k": "29:15",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 0
     },
     {
@@ -1550,6 +1569,10 @@
     {
       "week_start": "2026-10-05",
       "miles": 4.4
+    },
+    {
+      "week_start": "2026-10-12",
+      "miles": 3.3
     }
   ],
   "ae_trend": [
@@ -2227,72 +2250,81 @@
       "dist": 4.4,
       "marathon_pred": "4:17:34",
       "marathon_sec": 15454
+    },
+    {
+      "date": "2026-10-15",
+      "name": "\u201cMoney Talks\u201d -AC/DC",
+      "ae": 1.198,
+      "hr": 145,
+      "dist": 3.3,
+      "marathon_pred": "3:56:43",
+      "marathon_sec": 14203
     }
   ],
   "weather": [
     {
-      "date": "2026-10-14",
-      "high": 80,
-      "low": 62,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
-    {
       "date": "2026-10-15",
-      "high": 64,
-      "low": 51,
-      "precip": 0.03,
-      "windspeed": 10,
-      "code": 53
-    },
-    {
-      "date": "2026-10-16",
-      "high": 70,
-      "low": 56,
-      "precip": 0.63,
-      "windspeed": 16,
-      "code": 80
-    },
-    {
-      "date": "2026-10-17",
-      "high": 65,
-      "low": 45,
-      "precip": 0.14,
-      "windspeed": 22,
-      "code": 80
-    },
-    {
-      "date": "2026-10-18",
-      "high": 61,
-      "low": 45,
-      "precip": 0.0,
-      "windspeed": 11,
-      "code": 1
-    },
-    {
-      "date": "2026-10-19",
-      "high": 66,
-      "low": 50,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 2
-    },
-    {
-      "date": "2026-10-20",
       "high": 69,
       "low": 54,
       "precip": 0.0,
-      "windspeed": 8,
+      "windspeed": 12,
+      "code": 3
+    },
+    {
+      "date": "2026-10-16",
+      "high": 72,
+      "low": 54,
+      "precip": 0.22,
+      "windspeed": 13,
+      "code": 63
+    },
+    {
+      "date": "2026-10-17",
+      "high": 63,
+      "low": 44,
+      "precip": 0.01,
+      "windspeed": 21,
+      "code": 3
+    },
+    {
+      "date": "2026-10-18",
+      "high": 60,
+      "low": 43,
+      "precip": 0.0,
+      "windspeed": 11,
+      "code": 0
+    },
+    {
+      "date": "2026-10-19",
+      "high": 64,
+      "low": 49,
+      "precip": 0.0,
+      "windspeed": 9,
+      "code": 0
+    },
+    {
+      "date": "2026-10-20",
+      "high": 68,
+      "low": 53,
+      "precip": 0.0,
+      "windspeed": 7,
+      "code": 3
+    },
+    {
+      "date": "2026-10-21",
+      "high": 66,
+      "low": 55,
+      "precip": 0.0,
+      "windspeed": 11,
       "code": 3
     }
   ],
-  "avg_pace_sec": 567.2,
+  "avg_pace_sec": 567.1,
   "predictions": {
-    "5k": "26:53",
+    "5k": "26:52",
     "10k": "56:02",
-    "half": "2:03:51",
-    "marathon": "4:18:13"
+    "half": "2:03:49",
+    "marathon": "4:18:08"
   },
   "pace_zones": {
     "Z1": {
@@ -2328,11 +2360,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 67,
+    "Z2": 68,
     "Z3": 8,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for New York City! Today is Wednesday, October 14, and we're 17 days out from the NYC Marathon. This is Week 16 of your Hal Higdon Novice 2 plan, a crucial phase as we transition into the final taper.\n\n### Fitness Assessment\nTom, you've developed a solid aerobic base, consistently running your long efforts like the 16.51mi run at a comfortable 9:47/mi pace with an average HR of 152bpm (Z2). Your ability to hold a 9:12/mi pace for 8.69mi with an average HR of 155bpm (Z3) demonstrates good versatility and the capacity for higher intensity when needed. Your power output is also consistent, hovering around 250-260W for Z2 efforts, which is a great indicator of your running economy.\n\n### This Week's Focus\nThis week, focus on hitting the prescribed paces and heart rate zones as we enter the tapering phase. Your 4-mile pace run today should target a Z3 heart rate, aiming for a pace around 9:00-9:15/mi. For your 5-mile and 12-mile runs, maintain a comfortable Z2 effort, keeping your heart rate between 124-154 bpm at paces of 9:30-10:15/mi to maximize recovery.\n\n### Key Priorities\n*   **Adherence to Tapering:** Your weekly mileage significantly dropped last week (from 21.6mi to 4.4mi), which is not ideal for the start of a taper. Ensure you complete all prescribed runs this week to maintain fitness and build confidence into the final two weeks.\n*   **Maintain Z2 for Easy/Long Runs:** Continue to keep your average heart rate below 154 bpm for all easy and long runs (5m, 12m) to maximize aerobic benefits and aid recovery. Your 16.51mi run at 152bpm is a perfect example to emulate.\n*   **Execute Pace Run with Purpose:** For today's 4-mile pace run, aim to sustain a Z3 heart rate (155-169 bpm) to sharpen your race-day readiness, recalling your 8:37/mile best effort.\n\n### Watch Out For\nThe significant drop in weekly mileage from 21.6mi (week of 9/21) to 4.4mi (week of 10/05) is a red flag. While tapering involves reduced volume, such a drastic reduction could be due to missed runs rather than planned taper, potentially impacting your readiness and confidence.\n\n### Upcoming Milestones\nThe 12-mile long run on Saturday will be your second-to-last significant long run before the marathon, serving as a key confidence builder as you transition fully into the final two weeks of tapering."
+  "advice": "Here is your coaching brief for Tom:\n\n**Fitness Assessment**\nTom displays good aerobic fitness, consistently running in Zone 2 (124-154 bpm) with an average HR of 145-152 bpm, even for longer efforts like his 16.51-mile run at 9:47/mi. His average power output of 250-270W at paces around 9:15-9:50/mi indicates solid running economy. While his best 5K effort (28:27) is slightly slower than predicted, his long run performance aligns well with a projected marathon time around 4:18.\n\n**This Week's Focus**\nGiven you completed a 3."
 }

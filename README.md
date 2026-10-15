@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Money Talks” -AC/DC | 3.3mi | 9:15/mi | 145bpm (Z2) | 2026-10-15 |
 | “Maggie Mae” -Rod Stewart | 4.4mi | 9:36/mi | 152bpm (Z2) | 2026-10-07 |
 | “Rich Girl” -Hall and Oates | 16.51mi | 9:47/mi | 152bpm (Z2) | 2026-10-03 |
 | “There She Goes” -The Las | 8.69mi | 9:12/mi | 155bpm (Z3) | 2026-09-27 |
 | Treadmill Nightmares | 5.49mi | 9:36/mi | 155bpm (Z3) | 2026-09-26 |
-| “Sweet Jane” -The Velvet Underground | 4.34mi | 9:24/mi | 149bpm (Z2) | 2026-09-24 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for New York City! Today is Wednesday, October 14, and we're 17 days out from the NYC Marathon. This is Week 16 of your Hal Higdon Novice 2 plan, a crucial phase as we transition into the final taper.
+Here is your coaching brief for Tom:
 
-### Fitness Assessment
-Tom, you've developed a solid aerobic base, consistently running your long efforts like the 16.51mi run at a comfortable 9:47/mi pace with an average HR of 152bpm (Z2). Your ability to hold a 9:12/mi pace for 8.69mi with an average HR of 155bpm (Z3) demonstrates good versatility and the capacity for higher intensity when needed. Your power output is also consistent, hovering around 250-260W for Z2 efforts, which is a great indicator of your running economy.
+**Fitness Assessment**
+Tom displays good aerobic fitness, consistently running in Zone 2 (124-154 bpm) with an average HR of 145-152 bpm, even for longer efforts like his 16.51-mile run at 9:47/mi. His average power output of 250-270W at paces around 9:15-9:50/mi indicates solid running economy. While his best 5K effort (28:27) is slightly slower than predicted, his long run performance aligns well with a projected marathon time around 4:18.
 
-### This Week's Focus
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, you've developed a solid aerobic base, consistently running your long effor
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-14 15:35:37 UTC | Run ID: 38590673732*
+*Last updated: 2026-10-15 15:23:14 UTC | Run ID: 38759828114*
