@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15 15:23:14",
+  "updated_at": "2026-10-16 15:03:08",
   "current_week": 16,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2263,59 +2263,59 @@
   ],
   "weather": [
     {
-      "date": "2026-10-15",
-      "high": 69,
-      "low": 54,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
-    {
       "date": "2026-10-16",
-      "high": 72,
-      "low": 54,
-      "precip": 0.22,
-      "windspeed": 13,
-      "code": 63
+      "high": 71,
+      "low": 57,
+      "precip": 0.42,
+      "windspeed": 15,
+      "code": 65
     },
     {
       "date": "2026-10-17",
-      "high": 63,
-      "low": 44,
-      "precip": 0.01,
-      "windspeed": 21,
+      "high": 60,
+      "low": 35,
+      "precip": 0.0,
+      "windspeed": 19,
       "code": 3
     },
     {
       "date": "2026-10-18",
-      "high": 60,
-      "low": 43,
+      "high": 57,
+      "low": 33,
       "precip": 0.0,
-      "windspeed": 11,
-      "code": 0
-    },
-    {
-      "date": "2026-10-19",
-      "high": 64,
-      "low": 49,
-      "precip": 0.0,
-      "windspeed": 9,
-      "code": 0
-    },
-    {
-      "date": "2026-10-20",
-      "high": 68,
-      "low": 53,
-      "precip": 0.0,
-      "windspeed": 7,
+      "windspeed": 15,
       "code": 3
     },
     {
-      "date": "2026-10-21",
+      "date": "2026-10-19",
+      "high": 54,
+      "low": 46,
+      "precip": 0.58,
+      "windspeed": 19,
+      "code": 63
+    },
+    {
+      "date": "2026-10-20",
       "high": 66,
-      "low": 55,
+      "low": 51,
+      "precip": 0.01,
+      "windspeed": 17,
+      "code": 51
+    },
+    {
+      "date": "2026-10-21",
+      "high": 59,
+      "low": 48,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 15,
+      "code": 0
+    },
+    {
+      "date": "2026-10-22",
+      "high": 55,
+      "low": 48,
+      "precip": 0.0,
+      "windspeed": 12,
       "code": 3
     }
   ],
@@ -2366,5 +2366,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here is your coaching brief for Tom:\n\n**Fitness Assessment**\nTom displays good aerobic fitness, consistently running in Zone 2 (124-154 bpm) with an average HR of 145-152 bpm, even for longer efforts like his 16.51-mile run at 9:47/mi. His average power output of 250-270W at paces around 9:15-9:50/mi indicates solid running economy. While his best 5K effort (28:27) is slightly slower than predicted, his long run performance aligns well with a projected marathon time around 4:18.\n\n**This Week's Focus**\nGiven you completed a 3."
+  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nTom, your recent data shows consistent aerobic development, with 68% of your runs in Zone 2, indicating a solid endurance base. Your long runs, like the 16.51mi at 9:47/mi, demonstrate good stamina, while your \"best mile\" efforts around 8:37-8:55/mi show you can push the pace when needed. Your average wattage of 250-270W across varying run types points to consistent power output.\n\n**This Week's Focus**\nFor the remainder of this week, your key run is Saturday's 12-mile long run, which should be a comfortable, conversational effort. Aim"
 }

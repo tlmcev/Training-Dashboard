@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief for Tom:
+Here's your coaching brief, Tom:
 
 **Fitness Assessment**
-Tom displays good aerobic fitness, consistently running in Zone 2 (124-154 bpm) with an average HR of 145-152 bpm, even for longer efforts like his 16.51-mile run at 9:47/mi. His average power output of 250-270W at paces around 9:15-9:50/mi indicates solid running economy. While his best 5K effort (28:27) is slightly slower than predicted, his long run performance aligns well with a projected marathon time around 4:18.
+Tom, your recent data shows consistent aerobic development, with 68% of your runs in Zone 2, indicating a solid endurance base. Your long runs, like the 16.51mi at 9:47/mi, demonstrate good stamina, while your "best mile" efforts around 8:37-8:55/mi show you can push the pace when needed. Your average wattage of 250-270W across varying run types points to consistent power output.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom displays good aerobic fitness, consistently running in Zone 2 (124-154 bpm) 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-15 15:23:14 UTC | Run ID: 38759828114*
+*Last updated: 2026-10-16 15:03:08 UTC | Run ID: 38920742703*
