@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16 15:03:08",
+  "updated_at": "2026-10-17 13:58:47",
   "current_week": 16,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2263,60 +2263,60 @@
   ],
   "weather": [
     {
-      "date": "2026-10-16",
-      "high": 71,
-      "low": 57,
-      "precip": 0.42,
-      "windspeed": 15,
-      "code": 65
-    },
-    {
       "date": "2026-10-17",
-      "high": 60,
-      "low": 35,
-      "precip": 0.0,
-      "windspeed": 19,
-      "code": 3
-    },
-    {
-      "date": "2026-10-18",
-      "high": 57,
-      "low": 33,
-      "precip": 0.0,
-      "windspeed": 15,
-      "code": 3
-    },
-    {
-      "date": "2026-10-19",
-      "high": 54,
-      "low": 46,
-      "precip": 0.58,
-      "windspeed": 19,
-      "code": 63
-    },
-    {
-      "date": "2026-10-20",
-      "high": 66,
-      "low": 51,
-      "precip": 0.01,
+      "high": 63,
+      "low": 40,
+      "precip": 0.02,
       "windspeed": 17,
       "code": 51
     },
     {
-      "date": "2026-10-21",
-      "high": 59,
-      "low": 48,
+      "date": "2026-10-18",
+      "high": 58,
+      "low": 36,
       "precip": 0.0,
-      "windspeed": 15,
+      "windspeed": 7,
       "code": 0
     },
     {
-      "date": "2026-10-22",
-      "high": 55,
+      "date": "2026-10-19",
+      "high": 63,
+      "low": 40,
+      "precip": 0.0,
+      "windspeed": 15,
+      "code": 3
+    },
+    {
+      "date": "2026-10-20",
+      "high": 66,
+      "low": 54,
+      "precip": 0.0,
+      "windspeed": 16,
+      "code": 3
+    },
+    {
+      "date": "2026-10-21",
+      "high": 63,
       "low": 48,
       "precip": 0.0,
-      "windspeed": 12,
+      "windspeed": 14,
       "code": 3
+    },
+    {
+      "date": "2026-10-22",
+      "high": 64,
+      "low": 47,
+      "precip": 0.0,
+      "windspeed": 12,
+      "code": 0
+    },
+    {
+      "date": "2026-10-23",
+      "high": 62,
+      "low": 50,
+      "precip": 0.0,
+      "windspeed": 15,
+      "code": 0
     }
   ],
   "avg_pace_sec": 567.1,
@@ -2366,5 +2366,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here's your coaching brief, Tom:\n\n**Fitness Assessment**\nTom, your recent data shows consistent aerobic development, with 68% of your runs in Zone 2, indicating a solid endurance base. Your long runs, like the 16.51mi at 9:47/mi, demonstrate good stamina, while your \"best mile\" efforts around 8:37-8:55/mi show you can push the pace when needed. Your average wattage of 250-270W across varying run types points to consistent power output.\n\n**This Week's Focus**\nFor the remainder of this week, your key run is Saturday's 12-mile long run, which should be a comfortable, conversational effort. Aim"
+  "advice": "Alright Tom, let's get you dialed in for the final push to the NYC Marathon!\n\n### Fitness Assessment\nYou've built a solid aerobic foundation, with 68% of your recent runs consistently in Zone 2. Your Z2 efforts, often around 9:15-9:50/mi at 240-260W, demonstrate good endurance, even during your 16.51-mile run on Oct 3rd at 9:47/mi with an average HR of 152bpm. This consistent performance in Z2 suggests your body is well-adapted to marathon-relevant intensities, aligning with your predicted 4:18:08 finish.\n\n### This Week's Focus\nToday's 12-mile run is your last significant long effort before race day. Focus on maintaining a comfortable Zone 2 effort (124-154 bpm), targeting a pace similar to your 16.51mi run at 9:47/mi. On Sunday, engage in active recovery with cross-training, keeping your heart rate in Zone 2 to promote blood flow and aid recovery without additional impact.\n\n### Key Priorities\n*   **Execute Today's 12-mile Run Smartly:** This is a key confidence builder. Aim for a Z2 effort (124-154 bpm), targeting a comfortable pace around 9:40-9:50/mi, similar to your 16.51mi effort.\n*   **Embrace the Taper:** With only two weeks left, prioritize recovery, sleep, and nutrition. The coming week will see reduced mileage, so listen to your body and avoid any strenuous efforts beyond the plan.\n*   **Maintain Z2 Consistency:** Keep any remaining easy runs in your Z2 range (124-154 bpm). Your recent runs show good control, with paces generally between 9:15-9:50/mi for Z2 efforts.\n\n### Watch Out For\nYour weekly mileage has dropped significantly in the last two weeks (from 16.5mi to 4.4mi, then 3.3mi), which is a much sharper reduction than a typical marathon taper. Ensure this wasn't due to missed runs or excessive fatigue, as it could impact your readiness for today's 12-mile run and overall marathon fitness.\n\n### Upcoming Milestones\nThe NYC Marathon on November 1, 2026, is just 14 days away! This week marks your final long run (12 miles today), followed by the final taper week, bringing you to the starting line prepared and rested."
 }

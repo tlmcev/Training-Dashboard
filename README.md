@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Here's your coaching brief, Tom:
+Alright Tom, let's get you dialed in for the final push to the NYC Marathon!
 
-**Fitness Assessment**
-Tom, your recent data shows consistent aerobic development, with 68% of your runs in Zone 2, indicating a solid endurance base. Your long runs, like the 16.51mi at 9:47/mi, demonstrate good stamina, while your "best mile" efforts around 8:37-8:55/mi show you can push the pace when needed. Your average wattage of 250-270W across varying run types points to consistent power output.
+### Fitness Assessment
+You've built a solid aerobic foundation, with 68% of your recent runs consistently in Zone 2. Your Z2 efforts, often around 9:15-9:50/mi at 240-260W, demonstrate good endurance, even during your 16.51-mile run on Oct 3rd at 9:47/mi with an average HR of 152bpm. This consistent performance in Z2 suggests your body is well-adapted to marathon-relevant intensities, aligning with your predicted 4:18:08 finish.
 
-**This Week's Focus**
+### This Week's Focus
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent data shows consistent aerobic development, with 68% of your run
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-16 15:03:08 UTC | Run ID: 38920742703*
+*Last updated: 2026-10-17 13:58:47 UTC | Run ID: 39038776774*
