@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “Let’s Go Crazy” - Prince | 13.57mi | 9:39/mi | 151bpm (Z2) | 2026-10-17 |
 | “Money Talks” -AC/DC | 3.3mi | 9:15/mi | 145bpm (Z2) | 2026-10-15 |
 | “Maggie Mae” -Rod Stewart | 4.4mi | 9:36/mi | 152bpm (Z2) | 2026-10-07 |
 | “Rich Girl” -Hall and Oates | 16.51mi | 9:47/mi | 152bpm (Z2) | 2026-10-03 |
 | “There She Goes” -The Las | 8.69mi | 9:12/mi | 155bpm (Z3) | 2026-09-27 |
-| Treadmill Nightmares | 5.49mi | 9:36/mi | 155bpm (Z3) | 2026-09-26 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for the final push to the NYC Marathon!
+Alright Tom, let's get you dialed in for the final push to NYC! You're in a great spot, and this week is all about smart execution as we enter the taper.
 
 ### Fitness Assessment
-You've built a solid aerobic foundation, with 68% of your recent runs consistently in Zone 2. Your Z2 efforts, often around 9:15-9:50/mi at 240-260W, demonstrate good endurance, even during your 16.51-mile run on Oct 3rd at 9:47/mi with an average HR of 152bpm. This consistent performance in Z2 suggests your body is well-adapted to marathon-relevant intensities, aligning with your predicted 4:18:08 finish.
+Tom, your consistent easy efforts in the 9:15-9:52/mi range, often achieving strong 'best mile' efforts around 8:37-9:16/mi, coupled with an average HR predominantly in Zone 2 (e.g., 151 bpm for your 13.57mi run on 10/17), indicates a well-developed aerobic base. Your stable wattage output around 250-260W across varying paces further supports good running economy and readiness for the marathon.
 
 ### This Week's Focus
 
@@ -51,4 +51,4 @@ You've built a solid aerobic foundation, with 68% of your recent runs consistent
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-17 13:58:47 UTC | Run ID: 39038776774*
+*Last updated: 2026-10-18 14:11:00 UTC | Run ID: 39134829072*
