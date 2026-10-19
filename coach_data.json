@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-18 14:11:00",
-  "current_week": 16,
+  "updated_at": "2026-10-19 17:13:31",
+  "current_week": 17,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
@@ -2291,60 +2291,60 @@
   ],
   "weather": [
     {
-      "date": "2026-10-18",
-      "high": 59,
-      "low": 38,
+      "date": "2026-10-19",
+      "high": 63,
+      "low": 42,
       "precip": 0.0,
-      "windspeed": 8,
+      "windspeed": 10,
       "code": 0
     },
     {
-      "date": "2026-10-19",
-      "high": 60,
-      "low": 39,
+      "date": "2026-10-20",
+      "high": 67,
+      "low": 42,
       "precip": 0.0,
-      "windspeed": 13,
+      "windspeed": 15,
       "code": 3
     },
     {
-      "date": "2026-10-20",
-      "high": 66,
+      "date": "2026-10-21",
+      "high": 61,
       "low": 46,
       "precip": 0.0,
       "windspeed": 14,
       "code": 3
     },
     {
-      "date": "2026-10-21",
-      "high": 63,
-      "low": 49,
+      "date": "2026-10-22",
+      "high": 64,
+      "low": 48,
       "precip": 0.0,
       "windspeed": 15,
-      "code": 0
-    },
-    {
-      "date": "2026-10-22",
-      "high": 67,
-      "low": 49,
-      "precip": 0.0,
-      "windspeed": 10,
-      "code": 0
+      "code": 3
     },
     {
       "date": "2026-10-23",
-      "high": 57,
-      "low": 47,
+      "high": 60,
+      "low": 49,
       "precip": 0.0,
-      "windspeed": 14,
-      "code": 0
+      "windspeed": 13,
+      "code": 3
     },
     {
       "date": "2026-10-24",
-      "high": 55,
-      "low": 44,
+      "high": 58,
+      "low": 48,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 9,
       "code": 3
+    },
+    {
+      "date": "2026-10-25",
+      "high": 61,
+      "low": 48,
+      "precip": 0.0,
+      "windspeed": 9,
+      "code": 0
     }
   ],
   "avg_pace_sec": 567.2,
@@ -2394,5 +2394,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for the final push to NYC! You're in a great spot, and this week is all about smart execution as we enter the taper.\n\n### Fitness Assessment\nTom, your consistent easy efforts in the 9:15-9:52/mi range, often achieving strong 'best mile' efforts around 8:37-9:16/mi, coupled with an average HR predominantly in Zone 2 (e.g., 151 bpm for your 13.57mi run on 10/17), indicates a well-developed aerobic base. Your stable wattage output around 250-260W across varying paces further supports good running economy and readiness for the marathon.\n\n### This Week's Focus\nThis week marks the beginning of your taper, so the focus shifts to maintaining fitness while reducing fatigue. Your easy runs (Tuesday, Thursday, Saturday) should target a comfortable Zone 2 heart rate (124-154 bpm) at paces around 9:30-9:50/mi, similar to your recent 13.57mi run at 9:39/mi. For Wednesday's 4-mile pace run, aim for a controlled Zone 3 effort (155-169 bpm), pushing closer to your recent best mile efforts around 8:40-9:00/mi.\n\n### Key Priorities\n*   **Maintain Zone 2 for Easy Runs:** Ensure your easy runs on Tuesday, Thursday, and Saturday stay firmly within Zone 2 (124-154 bpm), as seen in your 10/17 run with an average HR of 151 bpm, to maximize recovery.\n*   **Controlled Pace Effort:** For Wednesday's 4-mile pace run, aim to hit a sustained Zone 3 heart rate (155-169 bpm) without overdoing it, perhaps targeting a pace around your 8:40-9:00/mi recent best efforts.\n*   **Prioritize Recovery:** With the marathon just 13 days away, fully embrace the rest days on Monday and Friday, and make your Sunday cross-training a truly low-impact recovery session.\n\n### Watch Out For\nBe mindful of heart rate creep during easy runs; while your average HR is often Z2, some efforts like \"There She Goes\" (2026-09-27) showed an average HR of 155 bpm (Z3), so ensure all easy runs stay below 154 bpm to maximize taper benefits.\n\n### Upcoming Milestones\nSaturday's 12-mile run is your final significant long effort, serving as a crucial mental and physical checkpoint before the NYC Marathon."
+  "advice": "Here is your coaching brief for Tom:\n\n**Fitness Assessment**\nTom demonstrates a strong aerobic base, with 69% of his recent runs falling within Zone 2 (124-154 bpm) at an average pace of 9:27/mi and consistent power output of 250-270W. His ability to handle significant elevation, such as +1025ft over 16.51 miles, indicates good strength and endurance for the marathon course. Recent best efforts, including a 5K in 28:27 (9:09/mi), show he can maintain a solid pace when needed.\n\n**This Week's Focus**\nThis week is crucial for tapering, designed to maintain fitness while maximizing recovery. Your 4m, 3m, and 4m runs should be very easy, targeting a relaxed Zone 2 effort (124-154 bpm) at a comfortable pace around 9:45-10:00/mi. The 8m run on Saturday will be your final longer effort; approach it as a comfortable Z2 run, perhaps including a few short bursts at your target marathon pace (around 9:30/mi) to keep the legs fresh.\n\n**Key Priorities**\n*   **Prioritize Recovery:** Ensure all runs are truly easy and focused on recovery. Aim for an average HR strictly within Zone 2 (124-154 bpm) to maximize freshness for race day.\n*   **Listen to Your Body:** If any planned run feels like too much, shorten it or convert it to a walk. The primary goal is to arrive at the starting line feeling rested and ready, not fatigued.\n*   **Fuel and Hydrate Smart:** Begin consistently fueling with carbohydrates and staying well-hydrated throughout the week, mimicking your race-day nutrition strategies.\n\n**Watch Out For**\nBe mindful of your average heart rate occasionally creeping into Zone 3, as seen in your 10-17 run where the max HR hit 165 bpm (Z3) during a Z2 effort. During this crucial taper, ensure your average HR remains comfortably within Zone 2 to avoid any unnecessary stress and maximize recovery.\n\n**Upcoming Milestones**\nThis Saturday's 8-mile run marks your final significant long effort before the NYC Marathon, serving as a key mental and physical checkpoint in your taper. After this, all that's left is a few very short, easy runs and cross-training before you toe the line on November 1st."
 }

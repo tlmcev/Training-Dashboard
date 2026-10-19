@@ -16,18 +16,18 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for the final push to NYC! You're in a great spot, and this week is all about smart execution as we enter the taper.
+Here is your coaching brief for Tom:
 
-### Fitness Assessment
-Tom, your consistent easy efforts in the 9:15-9:52/mi range, often achieving strong 'best mile' efforts around 8:37-9:16/mi, coupled with an average HR predominantly in Zone 2 (e.g., 151 bpm for your 13.57mi run on 10/17), indicates a well-developed aerobic base. Your stable wattage output around 250-260W across varying paces further supports good running economy and readiness for the marathon.
+**Fitness Assessment**
+Tom demonstrates a strong aerobic base, with 69% of his recent runs falling within Zone 2 (124-154 bpm) at an average pace of 9:27/mi and consistent power output of 250-270W. His ability to handle significant elevation, such as +1025ft over 16.51 miles, indicates good strength and endurance for the marathon course. Recent best efforts, including a 5K in 28:27 (9:09/mi), show he can maintain a solid pace when needed.
 
-### This Week's Focus
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 16 of 18**
+**Current week: 17 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ Tom, your consistent easy efforts in the 9:15-9:52/mi range, often achieving str
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-18 14:11:00 UTC | Run ID: 39134829072*
+*Last updated: 2026-10-19 17:13:31 UTC | Run ID: 39292255679*
