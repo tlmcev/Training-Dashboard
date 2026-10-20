@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief for Tom:
+Alright Tom, today is Tuesday, October 20, 2026, and we are 11 days out from the NYC Marathon! We're deep into the taper phase, so the focus shifts significantly.
 
 **Fitness Assessment**
-Tom demonstrates a strong aerobic base, with 69% of his recent runs falling within Zone 2 (124-154 bpm) at an average pace of 9:27/mi and consistent power output of 250-270W. His ability to handle significant elevation, such as +1025ft over 16.51 miles, indicates good strength and endurance for the marathon course. Recent best efforts, including a 5K in 28:27 (9:09/mi), show he can maintain a solid pace when needed.
+Tom, your recent long runs, such as the 13.57mi on 10/17 at 9:39/mi with an average HR of 151 bpm (Z2) and 250W, demonstrate a solid aerobic base. You consistently maintain Z2 heart rates (69% of recent runs) even during longer efforts, showing good endurance development. Your ability to hit sub-9:00/mi best efforts within Z2 runs, like the 8:46 mile on 10/15, suggests strong underlying fitness for your marathon goal.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom demonstrates a strong aerobic base, with 69% of his recent runs falling with
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-19 17:13:31 UTC | Run ID: 39292255679*
+*Last updated: 2026-10-20 15:25:21 UTC | Run ID: 39448212298*
