@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20 15:25:21",
+  "updated_at": "2026-10-21 15:42:40",
   "current_week": 17,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2291,60 +2291,60 @@
   ],
   "weather": [
     {
-      "date": "2026-10-20",
-      "high": 68,
-      "low": 46,
-      "precip": 0.0,
-      "windspeed": 15,
-      "code": 0
-    },
-    {
       "date": "2026-10-21",
-      "high": 62,
-      "low": 45,
+      "high": 64,
+      "low": 48,
       "precip": 0.0,
-      "windspeed": 15,
+      "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-10-22",
-      "high": 66,
+      "high": 65,
       "low": 42,
       "precip": 0.0,
-      "windspeed": 16,
+      "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-10-23",
-      "high": 60,
-      "low": 47,
+      "high": 59,
+      "low": 42,
       "precip": 0.0,
-      "windspeed": 15,
-      "code": 2
+      "windspeed": 11,
+      "code": 3
     },
     {
       "date": "2026-10-24",
-      "high": 62,
+      "high": 58,
       "low": 49,
       "precip": 0.0,
-      "windspeed": 7,
-      "code": 2
+      "windspeed": 8,
+      "code": 3
     },
     {
       "date": "2026-10-25",
-      "high": 64,
+      "high": 63,
       "low": 50,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 8,
       "code": 0
     },
     {
       "date": "2026-10-26",
-      "high": 67,
-      "low": 52,
+      "high": 69,
+      "low": 51,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 13,
       "code": 3
+    },
+    {
+      "date": "2026-10-27",
+      "high": 59,
+      "low": 51,
+      "precip": 0.0,
+      "windspeed": 12,
+      "code": 2
     }
   ],
   "avg_pace_sec": 567.2,
@@ -2394,5 +2394,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, today is Tuesday, October 20, 2026, and we are 11 days out from the NYC Marathon! We're deep into the taper phase, so the focus shifts significantly.\n\n**Fitness Assessment**\nTom, your recent long runs, such as the 13.57mi on 10/17 at 9:39/mi with an average HR of 151 bpm (Z2) and 250W, demonstrate a solid aerobic base. You consistently maintain Z2 heart rates (69% of recent runs) even during longer efforts, showing good endurance development. Your ability to hit sub-9:00/mi best efforts within Z2 runs, like the 8:46 mile on 10/15, suggests strong underlying fitness for your marathon goal.\n\n**This Week's Focus**\nThis week focuses on maintaining fitness while tapering, with all runs intended to be easy and conversational. For your 4-mile (Tue & Thu) and 3-mile (Wed) runs, target a comfortable Z2 heart rate (124-154 bpm) at a pace around 9:30-9:45/mi, similar to your 10/17 long run. Your 8-mile Saturday run should also be at this controlled Z2 effort to ensure fresh legs for the marathon.\n\n**Key Priorities**\n*   Prioritize recovery by keeping all runs strictly within Z2, ensuring your average heart rate stays below 154 bpm, as observed in your 10/17 long run.\n*   Resist the urge to push the pace; aim for a comfortable 9:30-9:45/mi for all runs, allowing your body to absorb training and prepare for race day.\n*   Focus on consistent sleep and hydration, which are crucial for optimal recovery during this final taper phase.\n\n**Watch Out For**\nBe mindful of your heart rate creeping into Z3 (above 154 bpm), as seen in your 9/27 run where your average HR was 155 bpm. During taper, even short runs should feel easy and conversational, so avoid pushing the pace or effort that elevates your HR beyond Z2.\n\n**Upcoming Milestones**\nYour next major milestone is the NYC Marathon on November 1st, just 11 days away! This week's 8-mile run on Saturday serves as your final significant training run before the big day, signaling the successful completion of your training block."
+  "advice": "Alright Tom, here's your brief as we head into the final stretch before NYC!\n\n**Fitness Assessment**\nYour recent long runs, like the 13.57mi @ 9:39/mi on October 17th with an average HR of 151bpm (Z2), demonstrate a strong and consistent aerobic base. Maintaining an average pace of 9:27/mi with 69% of your recent runs in Z2 indicates excellent endurance development. Your power output around 250-260W at these comfortable paces suggests good running economy, setting you up well for the marathon.\n\n**This Week's Focus**\nToday's 3m run and Thursday's 4m run should be effortless, targeting a relaxed Z2 heart rate (124-154bpm) at a comfortable pace around 9:30-10:00/mi. Saturday's 8m run, your final longer effort before race day, should also be at an easy Z2 effort, focusing purely on maintaining rhythm and feeling good, perhaps 9:45-10:15/mi. Sunday's cross-training should remain light and restorative, staying within Z1-Z2.\n\n**Key Priorities**\n*   **Maintain Z2 HR:** For all runs this week, keep your average heart rate at or below 154bpm to maximize recovery and avoid any unnecessary physiological stress.\n*   **Prioritize Rest & Nutrition:** Beyond the scheduled rest days, focus on getting ample sleep and consuming nutrient-dense foods to fully replenish glycogen stores and support final preparation.\n*   **Listen to Your Body:** Any signs of fatigue or minor aches should prompt you to adjust your plan; it's better to under-do it this week than push too hard.\n\n**Watch Out For**\nWhile your 10/17 run was a great PR, your max HR hit 165bpm (Z3), and on 10/03, it reached 172bpm (Z4). During this critical taper week, ensure all runs are truly easy and avoid any efforts that push your heart rate into Z3 or higher.\n\n**Upcoming Milestones**\nYour next major milestone is the NYC Marathon on November 1st, just 10 days away! This week is all about arriving at the starting line feeling fresh, confident, and ready to execute your race plan."
 }

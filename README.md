@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, today is Tuesday, October 20, 2026, and we are 11 days out from the NYC Marathon! We're deep into the taper phase, so the focus shifts significantly.
+Alright Tom, here's your brief as we head into the final stretch before NYC!
 
 **Fitness Assessment**
-Tom, your recent long runs, such as the 13.57mi on 10/17 at 9:39/mi with an average HR of 151 bpm (Z2) and 250W, demonstrate a solid aerobic base. You consistently maintain Z2 heart rates (69% of recent runs) even during longer efforts, showing good endurance development. Your ability to hit sub-9:00/mi best efforts within Z2 runs, like the 8:46 mile on 10/15, suggests strong underlying fitness for your marathon goal.
+Your recent long runs, like the 13.57mi @ 9:39/mi on October 17th with an average HR of 151bpm (Z2), demonstrate a strong and consistent aerobic base. Maintaining an average pace of 9:27/mi with 69% of your recent runs in Z2 indicates excellent endurance development. Your power output around 250-260W at these comfortable paces suggests good running economy, setting you up well for the marathon.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent long runs, such as the 13.57mi on 10/17 at 9:39/mi with an aver
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-20 15:25:21 UTC | Run ID: 39448212298*
+*Last updated: 2026-10-21 15:42:40 UTC | Run ID: 39628132026*
