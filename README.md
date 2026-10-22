@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, here's your brief as we head into the final stretch before NYC!
+Alright Tom, let's get you ready for the NYC Marathon! We're in the final stretch, and this week is all about smart tapering.
 
 **Fitness Assessment**
-Your recent long runs, like the 13.57mi @ 9:39/mi on October 17th with an average HR of 151bpm (Z2), demonstrate a strong and consistent aerobic base. Maintaining an average pace of 9:27/mi with 69% of your recent runs in Z2 indicates excellent endurance development. Your power output around 250-260W at these comfortable paces suggests good running economy, setting you up well for the marathon.
+Tom, you've developed an excellent aerobic base, consistently maintaining Zone 2 heart rates (69% of recent runs) with an average pace around 9:30-9:40/mi. Your power output is strong and consistent, typically in the 250-260W range, even on challenging runs with significant elevation gain like your 13.57mi run (+812ft) at 9:39/mi. This consistent performance indicates a well-conditioned engine, ready for the demands of the marathon.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Your recent long runs, like the 13.57mi @ 9:39/mi on October 17th with an averag
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-21 15:42:40 UTC | Run ID: 39628132026*
+*Last updated: 2026-10-22 15:42:26 UTC | Run ID: 39807318214*
