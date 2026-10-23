@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| Morning Run | 3.13mi | 9:07/mi | 147bpm (Z2) | 2026-10-23 |
+| Afternoon Run | 3.14mi | 9:06/mi | 147bpm (Z2) | 2026-10-20 |
 | “Let’s Go Crazy” - Prince | 13.57mi | 9:39/mi | 151bpm (Z2) | 2026-10-17 |
 | “Money Talks” -AC/DC | 3.3mi | 9:15/mi | 145bpm (Z2) | 2026-10-15 |
 | “Maggie Mae” -Rod Stewart | 4.4mi | 9:36/mi | 152bpm (Z2) | 2026-10-07 |
-| “Rich Girl” -Hall and Oates | 16.51mi | 9:47/mi | 152bpm (Z2) | 2026-10-03 |
-| “There She Goes” -The Las | 8.69mi | 9:12/mi | 155bpm (Z3) | 2026-09-27 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for the NYC Marathon! We're in the final stretch, and this week is all about smart tapering.
+Alright Tom, we're in the final stretch! Today is Friday, October 23, 2026, and the NYC Marathon is just 8 days away. You're entering Week 17 of 18, the crucial taper phase.
 
 **Fitness Assessment**
-Tom, you've developed an excellent aerobic base, consistently maintaining Zone 2 heart rates (69% of recent runs) with an average pace around 9:30-9:40/mi. Your power output is strong and consistent, typically in the 250-260W range, even on challenging runs with significant elevation gain like your 13.57mi run (+812ft) at 9:39/mi. This consistent performance indicates a well-conditioned engine, ready for the demands of the marathon.
+Tom, your recent runs demonstrate excellent aerobic development, consistently maintaining Zone 2 heart rates. For instance, your 3.13mi run on October 23 at 9:07/mi with an average HR of 147 bpm (Z2) shows you can hold a strong, comfortable pace. Even your longer 13.57mi effort on October 17 at 9:39/mi stayed within Z2 (151 bpm), indicating solid endurance that aligns well with your predicted 4:17:59 marathon time.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, you've developed an excellent aerobic base, consistently maintaining Zone 2
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-22 15:42:26 UTC | Run ID: 39807318214*
+*Last updated: 2026-10-23 15:30:40 UTC | Run ID: 39978869602*

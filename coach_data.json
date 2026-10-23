@@ -1,9 +1,47 @@
 {
-  "updated_at": "2026-10-22 15:42:26",
+  "updated_at": "2026-10-23 15:30:40",
   "current_week": 17,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 20701237801,
+      "name": "Morning Run",
+      "date": "2026-10-23",
+      "distance_miles": 3.13,
+      "moving_time_sec": 1714,
+      "pace_per_mile": "9:07",
+      "pace_seconds": 547.6,
+      "elevation_ft": 149.0,
+      "avg_hr": 147,
+      "hr_zone": "Z2",
+      "suffer_score": 34.0,
+      "max_hr": 169.0,
+      "avg_watts": 262,
+      "avg_cadence": null,
+      "fastest_mile": "8:39",
+      "fastest_5k": "28:58",
+      "pr_count": 0
+    },
+    {
+      "id": 20701237790,
+      "name": "Afternoon Run",
+      "date": "2026-10-20",
+      "distance_miles": 3.14,
+      "moving_time_sec": 1716,
+      "pace_per_mile": "9:06",
+      "pace_seconds": 546.5,
+      "elevation_ft": 156.0,
+      "avg_hr": 147,
+      "hr_zone": "Z2",
+      "suffer_score": 33.0,
+      "max_hr": 172.0,
+      "avg_watts": 265,
+      "avg_cadence": null,
+      "fastest_mile": "8:43",
+      "fastest_5k": "28:26",
+      "pr_count": 0
+    },
     {
       "id": 20624004220,
       "name": "\u201cLet\u2019s Go Crazy\u201d - Prince",
@@ -168,11 +206,11 @@
       "avg_hr": 153,
       "hr_zone": "Z2",
       "suffer_score": 194.0,
-      "max_hr": 172.0,
-      "avg_watts": 250,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "8:53",
-      "fastest_5k": "27:54",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 25
     },
     {
@@ -187,10 +225,10 @@
       "avg_hr": 147,
       "hr_zone": "Z2",
       "suffer_score": 20.0,
-      "max_hr": 167.0,
-      "avg_watts": 260,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "8:42",
+      "fastest_mile": null,
       "fastest_5k": null,
       "pr_count": 1
     },
@@ -1592,6 +1630,10 @@
     {
       "week_start": "2026-10-12",
       "miles": 16.9
+    },
+    {
+      "week_start": "2026-10-19",
+      "miles": 6.3
     }
   ],
   "ae_trend": [
@@ -2287,72 +2329,90 @@
       "dist": 13.57,
       "marathon_pred": "4:16:52",
       "marathon_sec": 15412
+    },
+    {
+      "date": "2026-10-20",
+      "name": "Afternoon Run",
+      "ae": 1.202,
+      "hr": 147,
+      "dist": 3.14,
+      "marathon_pred": "3:55:56",
+      "marathon_sec": 14156
+    },
+    {
+      "date": "2026-10-23",
+      "name": "Morning Run",
+      "ae": 1.2,
+      "hr": 147,
+      "dist": 3.13,
+      "marathon_pred": "3:56:19",
+      "marathon_sec": 14179
     }
   ],
   "weather": [
     {
-      "date": "2026-10-22",
-      "high": 65,
-      "low": 45,
-      "precip": 0.0,
-      "windspeed": 15,
-      "code": 0
-    },
-    {
       "date": "2026-10-23",
-      "high": 56,
-      "low": 41,
+      "high": 60,
+      "low": 44,
       "precip": 0.0,
-      "windspeed": 13,
-      "code": 3
+      "windspeed": 12,
+      "code": 2
     },
     {
       "date": "2026-10-24",
-      "high": 59,
+      "high": 60,
       "low": 38,
       "precip": 0.0,
-      "windspeed": 8,
+      "windspeed": 7,
       "code": 3
     },
     {
       "date": "2026-10-25",
-      "high": 64,
-      "low": 51,
+      "high": 65,
+      "low": 42,
       "precip": 0.0,
-      "windspeed": 8,
-      "code": 2
+      "windspeed": 7,
+      "code": 0
     },
     {
       "date": "2026-10-26",
-      "high": 70,
-      "low": 51,
+      "high": 68,
+      "low": 52,
       "precip": 0.0,
-      "windspeed": 10,
-      "code": 1
+      "windspeed": 7,
+      "code": 0
     },
     {
       "date": "2026-10-27",
-      "high": 60,
-      "low": 51,
+      "high": 64,
+      "low": 55,
       "precip": 0.0,
-      "windspeed": 13,
-      "code": 3
+      "windspeed": 12,
+      "code": 2
     },
     {
       "date": "2026-10-28",
-      "high": 56,
-      "low": 48,
+      "high": 57,
+      "low": 54,
       "precip": 0.0,
-      "windspeed": 12,
+      "windspeed": 8,
+      "code": 3
+    },
+    {
+      "date": "2026-10-29",
+      "high": 60,
+      "low": 55,
+      "precip": 0.0,
+      "windspeed": 11,
       "code": 3
     }
   ],
-  "avg_pace_sec": 567.2,
+  "avg_pace_sec": 566.7,
   "predictions": {
-    "5k": "26:53",
-    "10k": "56:03",
-    "half": "2:03:51",
-    "marathon": "4:18:13"
+    "5k": "26:51",
+    "10k": "55:59",
+    "half": "2:03:44",
+    "marathon": "4:17:59"
   },
   "pace_zones": {
     "Z1": {
@@ -2388,11 +2448,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 69,
+    "Z2": 71,
     "Z3": 8,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for the NYC Marathon! We're in the final stretch, and this week is all about smart tapering.\n\n**Fitness Assessment**\nTom, you've developed an excellent aerobic base, consistently maintaining Zone 2 heart rates (69% of recent runs) with an average pace around 9:30-9:40/mi. Your power output is strong and consistent, typically in the 250-260W range, even on challenging runs with significant elevation gain like your 13.57mi run (+812ft) at 9:39/mi. This consistent performance indicates a well-conditioned engine, ready for the demands of the marathon.\n\n**This Week's Focus**\nToday's 4-mile run and Saturday's 8-mile run should be executed as easy, conversational efforts, targeting your Z2 heart rate (124-154 bpm). Aim for a relaxed pace in the 9:30-10:00/mi range, similar to your recent easy long runs, focusing purely on recovery and maintaining rhythm. The goal is to feel fresh and energized, not to push any limits as we enter the final taper.\n\n**Key Priorities**\n*   Maintain all runs firmly in Zone 2 (124-154 bpm) to ensure full recovery and energy conservation for race day.\n*   Prioritize sleep and nutrition, hydrating well and consuming nutrient-dense foods to support muscle repair and glycogen stores.\n*   Mentally rehearse race day strategy, visualizing a strong, consistent effort at your target marathon pace of approximately 9:27/mi.\n\n**Watch Out For**\nBe mindful of the temptation to push pace or distance during these final taper runs, especially given your recent PR on the 13.57mi run on October 17th. Any efforts straying into Zone 3 (above 154 bpm) for extended periods or pushing beyond the prescribed distances could compromise your recovery and leave you fatigued for race day.\n\n**Upcoming Milestones**\nThe biggest milestone is just 9 days away: crossing the starting line of the NYC Marathon on November 1st, fully rested and ready to execute your race plan. This week is all about sharpening the axe, so you can enjoy the culmination of all your hard work."
+  "advice": "Alright Tom, we're in the final stretch! Today is Friday, October 23, 2026, and the NYC Marathon is just 8 days away. You're entering Week 17 of 18, the crucial taper phase.\n\n**Fitness Assessment**\nTom, your recent runs demonstrate excellent aerobic development, consistently maintaining Zone 2 heart rates. For instance, your 3.13mi run on October 23 at 9:07/mi with an average HR of 147 bpm (Z2) shows you can hold a strong, comfortable pace. Even your longer 13.57mi effort on October 17 at 9:39/mi stayed within Z2 (151 bpm), indicating solid endurance that aligns well with your predicted 4:17:59 marathon time.\n\n**This Week's Focus**\nToday (Friday) is a scheduled rest day, so prioritize relaxation. For Saturday's 8-mile run, focus on an easy Zone 2 effort; aim for a comfortable pace around 9:00-9:30/mi, keeping your average heart rate below 154 bpm, similar to your recent 147 bpm easy runs. Sunday is cross-training, which should be light and restorative, preparing your body for the final taper week.\n\n**Key Priorities**\n*   **Maintain Easy Effort:** For Saturday's 8-mile run, strictly adhere to Zone 2, keeping your average heart rate below 154 bpm to ensure recovery and prevent fatigue.\n*   **Prioritize Recovery:** With the marathon just over a week away, ensure your rest day is truly restful and your cross-training is low-impact to keep your legs fresh.\n*   **Consistent Hydration & Nutrition:** Focus on topping off your glycogen stores and staying well-hydrated throughout the weekend, as this is critical for optimal race-day performance.\n\n**Watch Out For**\nWhile most of your recent runs are perfectly in Z2, your 8.69mi run on September 27 showed an average HR of 155 bpm, touching Z3. It's crucial not to push into this higher intensity during Saturday's 8-mile run; the goal now is to maintain fitness and freshness, not to challenge yourself.\n\n**Upcoming Milestones**\nThe most significant milestone is the NYC Marathon on November 1st, now just 8 days away. This week's training, culminating with Saturday's 8-mile run, marks the final significant effort before you toe the line in Staten Island."
 }
