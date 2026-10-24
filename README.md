@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “New York Groove” - Ace Frehley | 6.92mi | 9:23/mi | 144bpm (Z2) | 2026-10-24 |
 | Morning Run | 3.13mi | 9:07/mi | 147bpm (Z2) | 2026-10-23 |
 | Afternoon Run | 3.14mi | 9:06/mi | 147bpm (Z2) | 2026-10-20 |
 | “Let’s Go Crazy” - Prince | 13.57mi | 9:39/mi | 151bpm (Z2) | 2026-10-17 |
 | “Money Talks” -AC/DC | 3.3mi | 9:15/mi | 145bpm (Z2) | 2026-10-15 |
-| “Maggie Mae” -Rod Stewart | 4.4mi | 9:36/mi | 152bpm (Z2) | 2026-10-07 |
 
 ## AI Coach Snapshot
 
-Alright Tom, we're in the final stretch! Today is Friday, October 23, 2026, and the NYC Marathon is just 8 days away. You're entering Week 17 of 18, the crucial taper phase.
+Alright Tom, let's get you dialed in for race day. You're in a fantastic position, and this final week is all about sharpening and recovery.
 
 **Fitness Assessment**
-Tom, your recent runs demonstrate excellent aerobic development, consistently maintaining Zone 2 heart rates. For instance, your 3.13mi run on October 23 at 9:07/mi with an average HR of 147 bpm (Z2) shows you can hold a strong, comfortable pace. Even your longer 13.57mi effort on October 17 at 9:39/mi stayed within Z2 (151 bpm), indicating solid endurance that aligns well with your predicted 4:17:59 marathon time.
+Tom demonstrates a strong aerobic base with 72% of recent runs in Z2, consistently maintaining average heart rates between 144-152 bpm. His ability to hold 9:06-9:23/mi paces for shorter efforts at 260+ watts, along with earning 9 PRs on October 24th, indicates excellent fitness and efficiency heading into race week. The regular elevation gains in your training further confirm your strength and readiness for the NYC course.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent runs demonstrate excellent aerobic development, consistently ma
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-23 15:30:40 UTC | Run ID: 39978869602*
+*Last updated: 2026-10-24 14:09:23 UTC | Run ID: 40101225856*
