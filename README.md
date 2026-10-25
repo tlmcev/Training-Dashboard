@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for race day. You're in a fantastic position, and this final week is all about sharpening and recovery.
+Alright Tom, let's get you dialed in for NYC! This is it – the final week before race day. Your training has been excellent, and we're just fine-tuning now.
 
 **Fitness Assessment**
-Tom demonstrates a strong aerobic base with 72% of recent runs in Z2, consistently maintaining average heart rates between 144-152 bpm. His ability to hold 9:06-9:23/mi paces for shorter efforts at 260+ watts, along with earning 9 PRs on October 24th, indicates excellent fitness and efficiency heading into race week. The regular elevation gains in your training further confirm your strength and readiness for the NYC course.
+Tom maintains a comfortable Z2 pace in the 9:00-9:40/mi range, as seen in his recent 6.92mi run at 9:23/mi (Z2 HR 144bpm), confirming strong aerobic endurance. His consistent Z2 heart rates (avg 144-152 bpm) across varying distances, even with significant elevation, demonstrate excellent aerobic development and efficiency, supported by sustained watts (250-265W) at these efforts. You are well-conditioned and in strong form heading into the final taper, consistently hitting Z2 targets while maintaining good pace and power.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom demonstrates a strong aerobic base with 72% of recent runs in Z2, consistent
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-24 14:09:23 UTC | Run ID: 40101225856*
+*Last updated: 2026-10-25 14:38:44 UTC | Run ID: 40203192950*
