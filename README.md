@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you dialed in for NYC! This is it – the final week before race day. Your training has been excellent, and we're just fine-tuning now.
+Here is your coaching brief for the week, Tom:
 
 **Fitness Assessment**
-Tom maintains a comfortable Z2 pace in the 9:00-9:40/mi range, as seen in his recent 6.92mi run at 9:23/mi (Z2 HR 144bpm), confirming strong aerobic endurance. His consistent Z2 heart rates (avg 144-152 bpm) across varying distances, even with significant elevation, demonstrate excellent aerobic development and efficiency, supported by sustained watts (250-265W) at these efforts. You are well-conditioned and in strong form heading into the final taper, consistently hitting Z2 targets while maintaining good pace and power.
+Tom, your recent runs demonstrate excellent aerobic development, consistently maintaining a Z2 heart rate (avg 144-147 bpm) even at paces faster than your predicted marathon goal (e.g., 9:07-9:23/mi). Your power output (261-265W) is strong and consistent for these efforts, indicating good running economy. The near-total Z2 distribution (72% Z2, 8% Z3, with Z3 only in September) confirms your ability to run efficiently at an endurance pace.
 
 **This Week's Focus**
 
@@ -27,7 +27,7 @@ Tom maintains a comfortable Z2 pace in the 9:00-9:40/mi range, as seen in his re
 
 ## Hal Higdon Novice 2 Schedule
 
-**Current week: 17 of 18**
+**Current week: 18 of 18**
 
 | Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -51,4 +51,4 @@ Tom maintains a comfortable Z2 pace in the 9:00-9:40/mi range, as seen in his re
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-25 14:38:44 UTC | Run ID: 40203192950*
+*Last updated: 2026-10-26 17:02:34 UTC | Run ID: 40364854831*

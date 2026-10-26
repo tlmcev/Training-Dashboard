@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-25 14:38:44",
-  "current_week": 17,
+  "updated_at": "2026-10-26 17:02:34",
+  "current_week": 18,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
@@ -2379,59 +2379,59 @@
   ],
   "weather": [
     {
-      "date": "2026-10-25",
-      "high": 66,
-      "low": 39,
-      "precip": 0.0,
-      "windspeed": 7,
-      "code": 1
-    },
-    {
       "date": "2026-10-26",
       "high": 71,
-      "low": 43,
+      "low": 44,
       "precip": 0.0,
       "windspeed": 9,
       "code": 0
     },
     {
       "date": "2026-10-27",
-      "high": 60,
-      "low": 48,
+      "high": 59,
+      "low": 43,
       "precip": 0.0,
       "windspeed": 10,
-      "code": 0
+      "code": 3
     },
     {
       "date": "2026-10-28",
-      "high": 56,
-      "low": 47,
+      "high": 58,
+      "low": 39,
       "precip": 0.0,
-      "windspeed": 9,
+      "windspeed": 8,
       "code": 3
     },
     {
       "date": "2026-10-29",
-      "high": 65,
-      "low": 52,
+      "high": 68,
+      "low": 55,
       "precip": 0.0,
-      "windspeed": 9,
-      "code": 0
+      "windspeed": 10,
+      "code": 3
     },
     {
       "date": "2026-10-30",
-      "high": 73,
-      "low": 56,
+      "high": 72,
+      "low": 57,
       "precip": 0.0,
-      "windspeed": 10,
-      "code": 2
+      "windspeed": 14,
+      "code": 3
     },
     {
       "date": "2026-10-31",
-      "high": 65,
-      "low": 58,
+      "high": 60,
+      "low": 52,
       "precip": 0.0,
-      "windspeed": 7,
+      "windspeed": 10,
+      "code": 3
+    },
+    {
+      "date": "2026-11-01",
+      "high": 60,
+      "low": 56,
+      "precip": 0.0,
+      "windspeed": 11,
       "code": 3
     }
   ],
@@ -2482,5 +2482,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you dialed in for NYC! This is it \u2013 the final week before race day. Your training has been excellent, and we're just fine-tuning now.\n\n**Fitness Assessment**\nTom maintains a comfortable Z2 pace in the 9:00-9:40/mi range, as seen in his recent 6.92mi run at 9:23/mi (Z2 HR 144bpm), confirming strong aerobic endurance. His consistent Z2 heart rates (avg 144-152 bpm) across varying distances, even with significant elevation, demonstrate excellent aerobic development and efficiency, supported by sustained watts (250-265W) at these efforts. You are well-conditioned and in strong form heading into the final taper, consistently hitting Z2 targets while maintaining good pace and power.\n\n**This Week's Focus**\nThis is a critical taper week; the focus is on maintaining feel and freshness without accumulating fatigue. For your runs on Tuesday, Wednesday, Thursday, and Saturday, aim for an easy pace of 9:15-9:45/mi, keeping your heart rate firmly in Z2 (124-154 bpm) for recovery. Ensure complete rest on Monday and Friday, and use Sunday's cross-training for active recovery in Z1 or low Z2.\n\n**Key Priorities**\n*   **Maintain Z2 Focus:** Ensure all runs this week, including the 8-mile tune-up, remain firmly in Z2 (avg HR 124-154 bpm) to promote recovery and avoid any pre-race fatigue. Your recent 6.92mi run at 9:23/mi with 144bpm (Z2) is a perfect example.\n*   **Prioritize Rest:** Adhere strictly to the rest days on Monday and Friday to maximize muscle repair and energy storage for race day. This is non-negotiable for peak performance.\n*   **Hydration & Nutrition:** Intensify focus on consistent hydration and carbohydrate intake throughout the week, starting today, to fully glycogen load for the marathon.\n\n**Watch Out For**\nBe mindful of your max HR during runs; while your average HR is solid Z2, your max HR has frequently touched Z3 (e.g., 172 bpm on Oct 24, Oct 20, Oct 3). Ensure you're not inadvertently pushing too hard on these short taper runs, which could hinder recovery.\n\n**Upcoming Milestones**\nThe most significant milestone is the NYC Marathon on November 1st, where you'll get to put all your hard work to the test and achieve your goal."
+  "advice": "Here is your coaching brief for the week, Tom:\n\n**Fitness Assessment**\nTom, your recent runs demonstrate excellent aerobic development, consistently maintaining a Z2 heart rate (avg 144-147 bpm) even at paces faster than your predicted marathon goal (e.g., 9:07-9:23/mi). Your power output (261-265W) is strong and consistent for these efforts, indicating good running economy. The near-total Z2 distribution (72% Z2, 8% Z3, with Z3 only in September) confirms your ability to run efficiently at an endurance pace.\n\n**This Week's Focus**\nThis week is all about active recovery and staying fresh for race day. Your Tuesday 3-mile run and Wednesday/Saturday 2-mile runs should be extremely easy, targeting a conversational Z2 pace, ideally around 9:30-10:00/mi or slower, ensuring your HR stays well below 154 bpm. The primary goal is to stimulate blood flow without adding any fatigue, preparing your body for the NYC Marathon on Sunday.\n\n**Key Priorities**\n*   **Strict Z2 for Taper Runs:** Ensure all short runs this week keep your heart rate comfortably in Zone 2, ideally below 145 bpm, to maximize recovery and avoid any last-minute fatigue.\n*   **Prioritize Rest:** Adhere strictly to the planned rest days (Monday, Thursday, Friday) to allow your body to fully recover and supercompensate for the upcoming race.\n*   **Hydration & Nutrition:** Focus on consistent hydration and smart carbohydrate loading throughout the week to top off glycogen stores without overeating.\n\n**Watch Out For**\nBe mindful of pushing the pace during your short runs; your recent runs at 9:07-9:23/mi (e.g., 3.13mi @ 9:07/mi on Oct 23rd) are excellent for fitness, but this week, prioritize recovery over pace to avoid any unnecessary strain. Additionally, observe the increasing temperatures expected towards the end of the week in NYC (e.g., 72F on Oct 30th) and adjust your short runs accordingly to stay cool.\n\n**Upcoming Milestones**\nThe most significant milestone is the NYC Marathon on Sunday, November 1st, 2026, where you'll aim to execute your race plan and achieve your goal. Successfully navigating this final taper week is also a crucial milestone, ensuring you arrive at the starting line feeling fresh and confident."
 }
