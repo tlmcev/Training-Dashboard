@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26 17:02:34",
+  "updated_at": "2026-10-27 16:05:14",
   "current_week": 18,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2379,60 +2379,60 @@
   ],
   "weather": [
     {
-      "date": "2026-10-26",
-      "high": 71,
-      "low": 44,
-      "precip": 0.0,
-      "windspeed": 9,
-      "code": 0
-    },
-    {
       "date": "2026-10-27",
-      "high": 59,
-      "low": 43,
+      "high": 62,
+      "low": 46,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 12,
       "code": 3
     },
     {
       "date": "2026-10-28",
-      "high": 58,
-      "low": 39,
+      "high": 62,
+      "low": 42,
       "precip": 0.0,
       "windspeed": 8,
       "code": 3
     },
     {
       "date": "2026-10-29",
-      "high": 68,
-      "low": 55,
+      "high": 67,
+      "low": 45,
       "precip": 0.0,
-      "windspeed": 10,
-      "code": 3
+      "windspeed": 9,
+      "code": 45
     },
     {
       "date": "2026-10-30",
-      "high": 72,
-      "low": 57,
+      "high": 71,
+      "low": 54,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 16,
       "code": 3
     },
     {
       "date": "2026-10-31",
       "high": 60,
-      "low": 52,
+      "low": 49,
       "precip": 0.0,
       "windspeed": 10,
       "code": 3
     },
     {
       "date": "2026-11-01",
-      "high": 60,
-      "low": 56,
+      "high": 61,
+      "low": 53,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 10,
       "code": 3
+    },
+    {
+      "date": "2026-11-02",
+      "high": 61,
+      "low": 57,
+      "precip": 0.06,
+      "windspeed": 12,
+      "code": 51
     }
   ],
   "avg_pace_sec": 566.7,
@@ -2482,5 +2482,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here is your coaching brief for the week, Tom:\n\n**Fitness Assessment**\nTom, your recent runs demonstrate excellent aerobic development, consistently maintaining a Z2 heart rate (avg 144-147 bpm) even at paces faster than your predicted marathon goal (e.g., 9:07-9:23/mi). Your power output (261-265W) is strong and consistent for these efforts, indicating good running economy. The near-total Z2 distribution (72% Z2, 8% Z3, with Z3 only in September) confirms your ability to run efficiently at an endurance pace.\n\n**This Week's Focus**\nThis week is all about active recovery and staying fresh for race day. Your Tuesday 3-mile run and Wednesday/Saturday 2-mile runs should be extremely easy, targeting a conversational Z2 pace, ideally around 9:30-10:00/mi or slower, ensuring your HR stays well below 154 bpm. The primary goal is to stimulate blood flow without adding any fatigue, preparing your body for the NYC Marathon on Sunday.\n\n**Key Priorities**\n*   **Strict Z2 for Taper Runs:** Ensure all short runs this week keep your heart rate comfortably in Zone 2, ideally below 145 bpm, to maximize recovery and avoid any last-minute fatigue.\n*   **Prioritize Rest:** Adhere strictly to the planned rest days (Monday, Thursday, Friday) to allow your body to fully recover and supercompensate for the upcoming race.\n*   **Hydration & Nutrition:** Focus on consistent hydration and smart carbohydrate loading throughout the week to top off glycogen stores without overeating.\n\n**Watch Out For**\nBe mindful of pushing the pace during your short runs; your recent runs at 9:07-9:23/mi (e.g., 3.13mi @ 9:07/mi on Oct 23rd) are excellent for fitness, but this week, prioritize recovery over pace to avoid any unnecessary strain. Additionally, observe the increasing temperatures expected towards the end of the week in NYC (e.g., 72F on Oct 30th) and adjust your short runs accordingly to stay cool.\n\n**Upcoming Milestones**\nThe most significant milestone is the NYC Marathon on Sunday, November 1st, 2026, where you'll aim to execute your race plan and achieve your goal. Successfully navigating this final taper week is also a crucial milestone, ensuring you arrive at the starting line feeling fresh and confident."
+  "advice": "Alright Tom, let's get you ready for the NYC Marathon! We're in the final stretch, and your training data looks excellent.\n\n**Fitness Assessment**\nTom, your recent runs demonstrate strong aerobic development, consistently maintaining an average heart rate in Zone 2 (144-152 bpm) at paces ranging from 9:06-9:47/mi. The nine PRs achieved on October 24, including an 8:51 mile and 28:00 5K, confirm current fitness gains and excellent readiness for the marathon. Your consistent power output of 250-265W for these Z2 efforts further indicates efficient running economy.\n\n**This Week's Focus**\nThis week's runs are short and serve as final tune-ups to keep your legs moving without fatigue. For your 3-mile run today (Tuesday), target an easy pace around 9:15-9:30/mi, keeping your average heart rate firmly in Zone 2 (135-145 bpm). The 2-mile runs on Wednesday and Saturday should be even lighter, maintaining a relaxed pace and ensuring your HR stays comfortably within Zone 2 to promote recovery and freshness for race day.\n\n**Key Priorities**\n*   **Maintain Z2 Focus:** Ensure all remaining runs, especially the 3-mile today, keep your average HR below 145 bpm to prioritize recovery and avoid any pre-race fatigue.\n*   **Respect the Taper:** Stick strictly to the prescribed short distances of 3m, 2m, and 2m this week; resist the urge to add any extra mileage, even if you feel energetic.\n*   **Hydration & Nutrition:** Focus diligently on consistent hydration and smart carbohydrate loading over the next four days to top off glycogen stores, which is crucial for Sunday's performance.\n\n**Watch Out For**\nA specific red flag to monitor is the tendency for occasional higher maximum heart rates (e.g., 172 bpm on Oct 24 and Oct 20), which can briefly touch Zone 4. While average HR remains in Z2, ensure these short, easy runs do not inadvertently turn into harder efforts that could compromise final recovery.\n\n**Upcoming Milestones**\nThe most significant milestone is crossing the starting line of the NYC Marathon this Sunday, November 1, 2026, a culmination of 18 weeks of dedicated training. This is a moment to celebrate your commitment and enjoy the experience you've worked so hard for."
 }

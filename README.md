@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here is your coaching brief for the week, Tom:
+Alright Tom, let's get you ready for the NYC Marathon! We're in the final stretch, and your training data looks excellent.
 
 **Fitness Assessment**
-Tom, your recent runs demonstrate excellent aerobic development, consistently maintaining a Z2 heart rate (avg 144-147 bpm) even at paces faster than your predicted marathon goal (e.g., 9:07-9:23/mi). Your power output (261-265W) is strong and consistent for these efforts, indicating good running economy. The near-total Z2 distribution (72% Z2, 8% Z3, with Z3 only in September) confirms your ability to run efficiently at an endurance pace.
+Tom, your recent runs demonstrate strong aerobic development, consistently maintaining an average heart rate in Zone 2 (144-152 bpm) at paces ranging from 9:06-9:47/mi. The nine PRs achieved on October 24, including an 8:51 mile and 28:00 5K, confirm current fitness gains and excellent readiness for the marathon. Your consistent power output of 250-265W for these Z2 efforts further indicates efficient running economy.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent runs demonstrate excellent aerobic development, consistently ma
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-26 17:02:34 UTC | Run ID: 40364854831*
+*Last updated: 2026-10-27 16:05:14 UTC | Run ID: 40537396245*
