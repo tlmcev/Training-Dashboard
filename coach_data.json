@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-10-27 16:05:14",
+  "updated_at": "2026-10-28 16:51:50",
   "current_week": 18,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 20757659643,
+      "name": "NYC Marathon Shakeout \ud83e\udd1d NYT Graphics",
+      "date": "2026-10-27",
+      "distance_miles": 1.81,
+      "moving_time_sec": 1261,
+      "pace_per_mile": "11:36",
+      "pace_seconds": 696.7,
+      "elevation_ft": 117.0,
+      "avg_hr": 128,
+      "hr_zone": "Z2",
+      "suffer_score": 5.0,
+      "max_hr": 138.0,
+      "avg_watts": 82,
+      "avg_cadence": null,
+      "fastest_mile": "11:20",
+      "fastest_5k": null,
+      "pr_count": 0
+    },
     {
       "id": 20713203109,
       "name": "\u201cNew York Groove\u201d - Ace Frehley",
@@ -187,11 +206,11 @@
       "avg_hr": 149,
       "hr_zone": "Z2",
       "suffer_score": 52.0,
-      "max_hr": 172.0,
-      "avg_watts": 257,
+      "max_hr": null,
+      "avg_watts": null,
       "avg_cadence": null,
-      "fastest_mile": "8:55",
-      "fastest_5k": "28:27",
+      "fastest_mile": null,
+      "fastest_5k": null,
       "pr_count": 0
     },
     {
@@ -1653,6 +1672,10 @@
     {
       "week_start": "2026-10-19",
       "miles": 13.2
+    },
+    {
+      "week_start": "2026-10-26",
+      "miles": 1.8
     }
   ],
   "ae_trend": [
@@ -2375,21 +2398,22 @@
       "dist": 6.92,
       "marathon_pred": "3:58:06",
       "marathon_sec": 14286
+    },
+    {
+      "date": "2026-10-27",
+      "name": "NYC Marathon Shakeout \ud83e\udd1d NYT Graphics",
+      "ae": 1.083,
+      "hr": 128,
+      "dist": 1.81,
+      "marathon_pred": "4:21:51",
+      "marathon_sec": 15711
     }
   ],
   "weather": [
     {
-      "date": "2026-10-27",
-      "high": 62,
-      "low": 46,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
-    {
       "date": "2026-10-28",
       "high": 62,
-      "low": 42,
+      "low": 44,
       "precip": 0.0,
       "windspeed": 8,
       "code": 3
@@ -2397,25 +2421,25 @@
     {
       "date": "2026-10-29",
       "high": 67,
-      "low": 45,
+      "low": 43,
       "precip": 0.0,
-      "windspeed": 9,
+      "windspeed": 10,
       "code": 45
     },
     {
       "date": "2026-10-30",
-      "high": 71,
-      "low": 54,
+      "high": 69,
+      "low": 53,
       "precip": 0.0,
-      "windspeed": 16,
+      "windspeed": 18,
       "code": 3
     },
     {
       "date": "2026-10-31",
-      "high": 60,
-      "low": 49,
+      "high": 59,
+      "low": 48,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 11,
       "code": 3
     },
     {
@@ -2428,19 +2452,27 @@
     },
     {
       "date": "2026-11-02",
-      "high": 61,
-      "low": 57,
-      "precip": 0.06,
-      "windspeed": 12,
+      "high": 60,
+      "low": 55,
+      "precip": 0.0,
+      "windspeed": 7,
+      "code": 3
+    },
+    {
+      "date": "2026-11-03",
+      "high": 60,
+      "low": 54,
+      "precip": 0.04,
+      "windspeed": 14,
       "code": 51
     }
   ],
-  "avg_pace_sec": 566.7,
+  "avg_pace_sec": 568.3,
   "predictions": {
-    "5k": "26:51",
-    "10k": "55:59",
-    "half": "2:03:44",
-    "marathon": "4:17:58"
+    "5k": "26:56",
+    "10k": "56:09",
+    "half": "2:04:05",
+    "marathon": "4:18:41"
   },
   "pace_zones": {
     "Z1": {
@@ -2476,11 +2508,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 72,
+    "Z2": 73,
     "Z3": 8,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you ready for the NYC Marathon! We're in the final stretch, and your training data looks excellent.\n\n**Fitness Assessment**\nTom, your recent runs demonstrate strong aerobic development, consistently maintaining an average heart rate in Zone 2 (144-152 bpm) at paces ranging from 9:06-9:47/mi. The nine PRs achieved on October 24, including an 8:51 mile and 28:00 5K, confirm current fitness gains and excellent readiness for the marathon. Your consistent power output of 250-265W for these Z2 efforts further indicates efficient running economy.\n\n**This Week's Focus**\nThis week's runs are short and serve as final tune-ups to keep your legs moving without fatigue. For your 3-mile run today (Tuesday), target an easy pace around 9:15-9:30/mi, keeping your average heart rate firmly in Zone 2 (135-145 bpm). The 2-mile runs on Wednesday and Saturday should be even lighter, maintaining a relaxed pace and ensuring your HR stays comfortably within Zone 2 to promote recovery and freshness for race day.\n\n**Key Priorities**\n*   **Maintain Z2 Focus:** Ensure all remaining runs, especially the 3-mile today, keep your average HR below 145 bpm to prioritize recovery and avoid any pre-race fatigue.\n*   **Respect the Taper:** Stick strictly to the prescribed short distances of 3m, 2m, and 2m this week; resist the urge to add any extra mileage, even if you feel energetic.\n*   **Hydration & Nutrition:** Focus diligently on consistent hydration and smart carbohydrate loading over the next four days to top off glycogen stores, which is crucial for Sunday's performance.\n\n**Watch Out For**\nA specific red flag to monitor is the tendency for occasional higher maximum heart rates (e.g., 172 bpm on Oct 24 and Oct 20), which can briefly touch Zone 4. While average HR remains in Z2, ensure these short, easy runs do not inadvertently turn into harder efforts that could compromise final recovery.\n\n**Upcoming Milestones**\nThe most significant milestone is crossing the starting line of the NYC Marathon this Sunday, November 1, 2026, a culmination of 18 weeks of dedicated training. This is a moment to celebrate your commitment and enjoy the experience you've worked so hard for."
+  "advice": "Alright Tom, today is Wednesday, October 28, 2026. The NYC Marathon is just three days away! You've done the hard work, now it's all about fine-tuning and arriving at the start line feeling fresh and confident.\n\n**Fitness Assessment**\nTom, your recent runs demonstrate excellent aerobic development, with your average HR trending down by 8bpm over the last six runs while maintaining strong paces. Your runs consistently show an average HR in Zone 2 (73% distribution), indicating a very well-developed aerobic base, and paces ranging from 9:06-9:23/mi for shorter efforts and 9:39-9:47/mi for your longer runs (13-16 miles) highlight your readiness. Your recent shakeout at 11:36/mi with an average HR of 128bpm (Z2) shows you can dial it back effectively.\n\n**This Week's Focus**\nToday, the Hal Higdon plan calls for a 2-mile run, which should be executed at a very easy, conversational pace, targeting Zone 2 (124-154 bpm) and a pace slower than 11:00/mi. Similarly, Saturday's 2-mile run should be a relaxed shakeout, focusing purely on maintaining blood flow and preventing stiffness, not pushing pace or effort. The goal for these final runs is to keep your legs moving gently without introducing any fatigue.\n\n**Key Priorities**\n*   **Prioritize rest and nutrition:** Ensure you are getting ample sleep and consuming carbohydrate-rich meals to top off your glycogen stores for Sunday.\n*   **Maintain Zone 2 for remaining runs:** Keep your average HR below 154 bpm for today's 2-mile run and Saturday's 2-mile run, aiming for paces slower than your 10/27 shakeout pace.\n*   **Visualize race day:** Mentally rehearse the course, aid station strategies, and your planned marathon pace (around 9:47/mi from your 16.51mi run) to build confidence and reduce pre-race anxiety.\n\n**Watch Out For**\nWhile your overall HR trend is positive, some recent runs (10/24, 10/20, 10/03) show max HR hitting Zone 4 (172 bpm), indicating occasional higher efforts. In these final taper days, ensure all runs are truly easy and conversational, avoiding any surges that might unnecessarily tax your system or delay recovery.\n\n**Upcoming Milestones**\nYour biggest milestone is just three days away: toeing the line at the NYC Marathon on November 1st, ready to put all your hard work into action. Based on your recent long runs and Riegel's prediction, a finish time around 4:18:41 is well within reach if you execute your race plan effectively and enjoy the incredible experience."
 }

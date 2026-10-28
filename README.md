@@ -8,18 +8,18 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| NYC Marathon Shakeout 🤝 NYT Graphics | 1.81mi | 11:36/mi | 128bpm (Z2) | 2026-10-27 |
 | “New York Groove” - Ace Frehley | 6.92mi | 9:23/mi | 144bpm (Z2) | 2026-10-24 |
 | Morning Run | 3.13mi | 9:07/mi | 147bpm (Z2) | 2026-10-23 |
 | Afternoon Run | 3.14mi | 9:06/mi | 147bpm (Z2) | 2026-10-20 |
 | “Let’s Go Crazy” - Prince | 13.57mi | 9:39/mi | 151bpm (Z2) | 2026-10-17 |
-| “Money Talks” -AC/DC | 3.3mi | 9:15/mi | 145bpm (Z2) | 2026-10-15 |
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you ready for the NYC Marathon! We're in the final stretch, and your training data looks excellent.
+Alright Tom, today is Wednesday, October 28, 2026. The NYC Marathon is just three days away! You've done the hard work, now it's all about fine-tuning and arriving at the start line feeling fresh and confident.
 
 **Fitness Assessment**
-Tom, your recent runs demonstrate strong aerobic development, consistently maintaining an average heart rate in Zone 2 (144-152 bpm) at paces ranging from 9:06-9:47/mi. The nine PRs achieved on October 24, including an 8:51 mile and 28:00 5K, confirm current fitness gains and excellent readiness for the marathon. Your consistent power output of 250-265W for these Z2 efforts further indicates efficient running economy.
+Tom, your recent runs demonstrate excellent aerobic development, with your average HR trending down by 8bpm over the last six runs while maintaining strong paces. Your runs consistently show an average HR in Zone 2 (73% distribution), indicating a very well-developed aerobic base, and paces ranging from 9:06-9:23/mi for shorter efforts and 9:39-9:47/mi for your longer runs (13-16 miles) highlight your readiness. Your recent shakeout at 11:36/mi with an average HR of 128bpm (Z2) shows you can dial it back effectively.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your recent runs demonstrate strong aerobic development, consistently maint
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-27 16:05:14 UTC | Run ID: 40537396245*
+*Last updated: 2026-10-28 16:51:50 UTC | Run ID: 40730112400*
