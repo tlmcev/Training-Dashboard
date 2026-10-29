@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, today is Wednesday, October 28, 2026. The NYC Marathon is just three days away! You've done the hard work, now it's all about fine-tuning and arriving at the start line feeling fresh and confident.
+Alright Tom, this is it! We're at the final push, and you've done an incredible job getting here. Let's look at where you stand and what's next for the biggest race of your life.
 
-**Fitness Assessment**
-Tom, your recent runs demonstrate excellent aerobic development, with your average HR trending down by 8bpm over the last six runs while maintaining strong paces. Your runs consistently show an average HR in Zone 2 (73% distribution), indicating a very well-developed aerobic base, and paces ranging from 9:06-9:23/mi for shorter efforts and 9:39-9:47/mi for your longer runs (13-16 miles) highlight your readiness. Your recent shakeout at 11:36/mi with an average HR of 128bpm (Z2) shows you can dial it back effectively.
+### Fitness Assessment
+Your recent data shows excellent aerobic development, with your average HR trending down 8bpm over the last 6 runs, consistently staying within Zone 2 for 73% of your recent running time. Long runs, like your 16.51mi at 9:47/mi with an average HR of 152bpm (Z2) on October 3rd, demonstrate strong endurance and efficient energy usage. Your consistent 260+W power output on shorter runs, combined with a predicted marathon time of 4:18:41 (9:28/mi pace), confirms you've built a solid fitness base ready for race day.
 
-**This Week's Focus**
+### This Week's Focus
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Tom, your recent runs demonstrate excellent aerobic development, with your avera
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-28 16:51:50 UTC | Run ID: 40730112400*
+*Last updated: 2026-10-29 17:09:46 UTC | Run ID: 40918618426*
