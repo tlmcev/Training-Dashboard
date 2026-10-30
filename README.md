@@ -8,20 +8,20 @@
 
 | Workout | Distance | Pace | HR | Date |
 | :--- | :--- | :--- | :--- | :--- |
+| “New York State of Mind” -Billy Joel | 1.77mi | 10:14/mi | 142bpm (Z2) | 2026-10-30 |
 | NYC Marathon Shakeout 🤝 NYT Graphics | 1.81mi | 11:36/mi | 128bpm (Z2) | 2026-10-27 |
 | “New York Groove” - Ace Frehley | 6.92mi | 9:23/mi | 144bpm (Z2) | 2026-10-24 |
 | Morning Run | 3.13mi | 9:07/mi | 147bpm (Z2) | 2026-10-23 |
 | Afternoon Run | 3.14mi | 9:06/mi | 147bpm (Z2) | 2026-10-20 |
-| “Let’s Go Crazy” - Prince | 13.57mi | 9:39/mi | 151bpm (Z2) | 2026-10-17 |
 
 ## AI Coach Snapshot
 
-Alright Tom, this is it! We're at the final push, and you've done an incredible job getting here. Let's look at where you stand and what's next for the biggest race of your life.
+Alright Tom, this is it! We're at the finish line of your training, just days away from the NYC Marathon. Let's make sure these final hours are perfect.
 
-### Fitness Assessment
-Your recent data shows excellent aerobic development, with your average HR trending down 8bpm over the last 6 runs, consistently staying within Zone 2 for 73% of your recent running time. Long runs, like your 16.51mi at 9:47/mi with an average HR of 152bpm (Z2) on October 3rd, demonstrate strong endurance and efficient energy usage. Your consistent 260+W power output on shorter runs, combined with a predicted marathon time of 4:18:41 (9:28/mi pace), confirms you've built a solid fitness base ready for race day.
+**Fitness Assessment**
+Tom, your recent training demonstrates excellent aerobic adaptation, with your HR trending down 10bpm over the last six runs, maintaining 74% of your effort in Zone 2. Your consistent Z2 efforts, such as the 6.92mi at 9:23/mi (144bpm) and 13.57mi at 9:39/mi (151bpm), showcase a solid endurance base. Your recent 1.77mi @ 10:14/mi with 142bpm on October 30th confirms you're easing into the final taper effectively.
 
-### This Week's Focus
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Your recent data shows excellent aerobic development, with your average HR trend
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-29 17:09:46 UTC | Run ID: 40918618426*
+*Last updated: 2026-10-30 16:50:35 UTC | Run ID: 41093511650*

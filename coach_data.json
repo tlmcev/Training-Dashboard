@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-10-29 17:09:46",
+  "updated_at": "2026-10-30 16:50:35",
   "current_week": 18,
   "phase": "training",
   "days_to_plan_start": 0,
   "activities": [
+    {
+      "id": 20791293451,
+      "name": "\u201cNew York State of Mind\u201d -Billy Joel",
+      "date": "2026-10-30",
+      "distance_miles": 1.77,
+      "moving_time_sec": 1088,
+      "pace_per_mile": "10:14",
+      "pace_seconds": 614.7,
+      "elevation_ft": 57.0,
+      "avg_hr": 142,
+      "hr_zone": "Z2",
+      "suffer_score": 16.0,
+      "max_hr": 159.0,
+      "avg_watts": 232,
+      "avg_cadence": null,
+      "fastest_mile": "10:06",
+      "fastest_5k": null,
+      "pr_count": 0
+    },
     {
       "id": 20757659643,
       "name": "NYC Marathon Shakeout \ud83e\udd1d NYT Graphics",
@@ -187,7 +206,7 @@
       "avg_hr": 155,
       "hr_zone": "Z3",
       "suffer_score": 87.0,
-      "max_hr": 178.0,
+      "max_hr": null,
       "avg_watts": null,
       "avg_cadence": null,
       "fastest_mile": null,
@@ -1675,7 +1694,7 @@
     },
     {
       "week_start": "2026-10-26",
-      "miles": 1.8
+      "miles": 3.6
     }
   ],
   "ae_trend": [
@@ -2407,37 +2426,38 @@
       "dist": 1.81,
       "marathon_pred": "4:21:51",
       "marathon_sec": 15711
+    },
+    {
+      "date": "2026-10-30",
+      "name": "\u201cNew York State of Mind\u201d -Billy Joel",
+      "ae": 1.106,
+      "hr": 142,
+      "dist": 1.77,
+      "marathon_pred": "4:16:24",
+      "marathon_sec": 15384
     }
   ],
   "weather": [
     {
-      "date": "2026-10-29",
-      "high": 67,
-      "low": 49,
-      "precip": 0.0,
-      "windspeed": 11,
-      "code": 3
-    },
-    {
       "date": "2026-10-30",
-      "high": 65,
-      "low": 46,
+      "high": 72,
+      "low": 48,
       "precip": 0.0,
-      "windspeed": 16,
-      "code": 1
+      "windspeed": 15,
+      "code": 0
     },
     {
       "date": "2026-10-31",
-      "high": 58,
+      "high": 57,
       "low": 41,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 9,
       "code": 3
     },
     {
       "date": "2026-11-01",
-      "high": 59,
-      "low": 50,
+      "high": 58,
+      "low": 37,
       "precip": 0.0,
       "windspeed": 6,
       "code": 3
@@ -2447,32 +2467,40 @@
       "high": 65,
       "low": 52,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 9,
       "code": 3
     },
     {
       "date": "2026-11-03",
-      "high": 66,
-      "low": 55,
+      "high": 65,
+      "low": 54,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 8,
       "code": 3
     },
     {
       "date": "2026-11-04",
-      "high": 59,
+      "high": 65,
       "low": 56,
       "precip": 0.0,
-      "windspeed": 13,
+      "windspeed": 12,
       "code": 3
+    },
+    {
+      "date": "2026-11-05",
+      "high": 67,
+      "low": 61,
+      "precip": 0.51,
+      "windspeed": 17,
+      "code": 80
     }
   ],
-  "avg_pace_sec": 568.3,
+  "avg_pace_sec": 568.9,
   "predictions": {
-    "5k": "26:56",
-    "10k": "56:09",
-    "half": "2:04:05",
-    "marathon": "4:18:41"
+    "5k": "26:57",
+    "10k": "56:12",
+    "half": "2:04:12",
+    "marathon": "4:18:57"
   },
   "pace_zones": {
     "Z1": {
@@ -2508,11 +2536,11 @@
   },
   "hr_distribution": {
     "Z1": 0,
-    "Z2": 73,
+    "Z2": 74,
     "Z3": 8,
     "Z4": 0,
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, this is it! We're at the final push, and you've done an incredible job getting here. Let's look at where you stand and what's next for the biggest race of your life.\n\n### Fitness Assessment\nYour recent data shows excellent aerobic development, with your average HR trending down 8bpm over the last 6 runs, consistently staying within Zone 2 for 73% of your recent running time. Long runs, like your 16.51mi at 9:47/mi with an average HR of 152bpm (Z2) on October 3rd, demonstrate strong endurance and efficient energy usage. Your consistent 260+W power output on shorter runs, combined with a predicted marathon time of 4:18:41 (9:28/mi pace), confirms you've built a solid fitness base ready for race day.\n\n### This Week's Focus\nToday is a planned rest day, so focus on relaxation. For your final 2-mile shakeout run on Saturday, target an easy, relaxed pace around 10:00-11:00/mi, keeping your heart rate comfortably in Zone 2 (below 154bpm) and watts around 200-220W. This run is purely to keep the legs moving and confirm hydration, not to push pace or effort.\n\n### Key Priorities\n*   **Maintain Rest & Recovery:** Prioritize absolute rest today and tomorrow (Friday) to ensure maximum freshness for Sunday. Avoid any strenuous activity or prolonged standing.\n*   **Optimal Hydration & Nutrition:** Focus on consistent hydration and well-balanced, familiar carbohydrate-rich meals over the next two days to top off glycogen stores without upsetting your stomach.\n*   **Race Day Logistics:** Finalize all race day plans, including transportation to the starting line, gear, and meeting points, to minimize stress and conserve mental energy.\n\n### Watch Out For\nBe mindful of overthinking or second-guessing your taper; the significant drop in mileage to 1.8mi this week (from 13.2mi two weeks prior) is intentional to maximize recovery. Trust the process and avoid the urge to \"test\" your fitness with any additional runs.\n\n### Upcoming Milestones\nThe ultimate milestone is the NYC Marathon on Sunday, November 1st, where you're predicted to finish around 4:18:41. Look forward to running in excellent race day weather with an overcast sky, high 59F, and a gentle 6mph wind, conditions highly conducive to a strong performance."
+  "advice": "Alright Tom, this is it! We're at the finish line of your training, just days away from the NYC Marathon. Let's make sure these final hours are perfect.\n\n**Fitness Assessment**\nTom, your recent training demonstrates excellent aerobic adaptation, with your HR trending down 10bpm over the last six runs, maintaining 74% of your effort in Zone 2. Your consistent Z2 efforts, such as the 6.92mi at 9:23/mi (144bpm) and 13.57mi at 9:39/mi (151bpm), showcase a solid endurance base. Your recent 1.77mi @ 10:14/mi with 142bpm on October 30th confirms you're easing into the final taper effectively.\n\n**This Week's Focus**\nToday, Friday, was a scheduled rest day, but your light 1.77mi run at 10:14/mi (142bpm) served as an excellent active recovery. Tomorrow's 2-mile run should be an extremely easy shakeout, targeting a conversational pace in Zone 1/2 (below 154bpm) to maintain blood flow without any exertion. The ultimate focus is on Sunday's marathon, where your predicted pace of 9:52/mi (4:18:57) will guide your effort.\n\n**Key Priorities**\n*   **Optimal Fueling:** Intensify carbohydrate loading and consistent hydration over the next 36 hours to ensure your glycogen stores are fully topped off for Sunday.\n*   **Maximum Rest:** Prioritize sleep tonight and tomorrow night, aiming for 8-9 hours to maximize physical recovery and mental sharpness.\n*   **Race Day Logistics:** Finalize all race day plans, including gear, transportation, and nutrition strategy, to minimize stress and unexpected issues.\n\n**Watch Out For**\nBe vigilant about not pushing the pace during tomorrow's 2-mile shakeout run; resist the urge to test your legs, keeping your HR strictly in Zone 1/2 (below 154bpm). Also, with Sunday's forecast showing a low of 37F at the start, ensure you have appropriate throwaway layers to stay warm before the gun.\n\n**Upcoming Milestones**\nThe biggest milestone is just around the corner: crossing the starting line of the NYC Marathon on Sunday, November 1st, and embarking on the culmination of 18 weeks of dedicated training. This is your moment to enjoy the journey, soak in the atmosphere, and celebrate your incredible accomplishment."
 }
