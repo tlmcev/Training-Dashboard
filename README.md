@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright, Tom, the big day is almost here! Today is about final preparation and mental readiness. Let's get you dialed in for a fantastic NYC Marathon experience tomorrow.
+Alright Tom, today is the day! All the hard work, consistent training, and smart tapering have led you to the starting line of the NYC Marathon. Let's get you ready.
 
 **Fitness Assessment**
-Tom, your consistent Z2 heart rate (74% of recent runs) and a remarkable 10bpm downward trend in HR over the last six runs demonstrate excellent aerobic adaptation and peak fitness heading into the marathon. Your ability to maintain Z2 at paces around 9:06-9:47/mi on recent runs, even during your 16.51mi long run at 9:47/mi, confirms a strong and well-developed endurance base.
+Your HR trending down 10bpm over the last 6 runs, consistently in Z2 (e.g., 1.77mi @ 10:14/mi at 142bpm on Oct 30), indicates excellent aerobic adaptation and prime readiness for endurance. The recent PRs like your 5K in 28:00 on Oct 24, combined with a predicted marathon time of 4:18:57, confirm you've built a strong fitness base and are well-prepared. Your body is primed for this challenge.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your consistent Z2 heart rate (74% of recent runs) and a remarkable 10bpm d
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-10-31 15:54:05 UTC | Run ID: 41217034350*
+*Last updated: 2026-11-01 16:56:06 UTC | Run ID: 41328833974*
