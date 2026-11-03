@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02 20:33:12",
+  "updated_at": "2026-11-03 18:07:38",
   "current_week": 18,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -59,7 +59,7 @@
       "avg_cadence": null,
       "fastest_mile": "8:51",
       "fastest_5k": "28:00",
-      "pr_count": 9
+      "pr_count": 10
     },
     {
       "id": 20701237801,
@@ -2439,48 +2439,40 @@
   ],
   "weather": [
     {
-      "date": "2026-11-02",
-      "high": 68,
-      "low": 45,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
-    {
       "date": "2026-11-03",
       "high": 69,
-      "low": 47,
+      "low": 50,
       "precip": 0.0,
-      "windspeed": 10,
+      "windspeed": 8,
       "code": 3
     },
     {
       "date": "2026-11-04",
-      "high": 66,
-      "low": 52,
+      "high": 71,
+      "low": 51,
       "precip": 0.0,
-      "windspeed": 11,
-      "code": 45
+      "windspeed": 10,
+      "code": 3
     },
     {
       "date": "2026-11-05",
-      "high": 65,
-      "low": 59,
-      "precip": 0.01,
+      "high": 66,
+      "low": 56,
+      "precip": 0.11,
       "windspeed": 10,
-      "code": 51
+      "code": 53
     },
     {
       "date": "2026-11-06",
-      "high": 69,
-      "low": 62,
-      "precip": 0.03,
-      "windspeed": 7,
-      "code": 51
+      "high": 63,
+      "low": 58,
+      "precip": 1.01,
+      "windspeed": 9,
+      "code": 81
     },
     {
       "date": "2026-11-07",
-      "high": 63,
+      "high": 58,
       "low": 49,
       "precip": 0.0,
       "windspeed": 15,
@@ -2489,9 +2481,17 @@
     {
       "date": "2026-11-08",
       "high": 56,
-      "low": 47,
+      "low": 48,
       "precip": 0.0,
-      "windspeed": 9,
+      "windspeed": 19,
+      "code": 3
+    },
+    {
+      "date": "2026-11-09",
+      "high": 55,
+      "low": 49,
+      "precip": 0.0,
+      "windspeed": 17,
       "code": 3
     }
   ],
@@ -2542,5 +2542,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, excellent work getting through the training cycle and completing the NYC Marathon yesterday! Today marks a new phase: full recovery.\n\n**Fitness Assessment**\nYou enter this post-marathon period with strong aerobic fitness, evidenced by your HR trending down 10bpm over the last 6 runs, indicating excellent aerobic adaptation. Your long runs, like the 16.51mi at 9:47/mi with an average Z2 HR of 152bpm, combined with consistent Z2 efforts (74% of recent runs), showcase solid endurance development. Your predicted marathon time of 4:18:57 (9:52/mi pace) suggests you were well-prepared to tackle the distance.\n\n**This Week's Focus**\nGiven that the NYC Marathon was yesterday, Sunday, November 1st, this week is entirely dedicated to recovery. Today (Monday) is a scheduled rest day, which is perfectly aligned with immediate post-marathon needs. For the remaining short runs (Tuesday 3m, Wednesday 2m, Saturday 2m), focus purely on very gentle active recovery to promote blood flow, keeping pace extremely easy and effort minimal.\n\n**Key Priorities**\n*   **Prioritize Full Recovery:** Focus on rest, hydration, nutrient-dense foods, and gentle movement to aid muscle repair and reduce soreness after the marathon.\n*   **Listen to Your Body:** The scheduled short runs should be entirely optional and dictated by how your body feels; if you're experiencing significant soreness, prioritize additional rest.\n*   **Celebrate Your Achievement:** Take time to reflect on the incredible accomplishment of completing the NYC Marathon, regardless of your finish time.\n\n**Watch Out For**\nA key red flag is pushing through any lingering fatigue or pain on the scheduled recovery runs this week. Your body needs significant time to rebuild after a marathon, so avoid any temptation to test your limits or try to maintain pre-marathon paces.\n\n**Upcoming Milestones**\nYour immediate milestone is a full and healthy recovery from the NYC Marathon. Following that, you can look forward to a period of active rest and reflection before planning your next running adventures and goals."
+  "advice": "Alright Tom, fantastic job completing the NYC Marathon on Sunday! Today is Tuesday, November 3rd, and this week is all about active recovery. Let's get you recovered and ready to celebrate your accomplishment.\n\n**Fitness Assessment**\nTom, your aerobic development leading into the marathon was excellent, with your HR trending down 10bpm over the last six runs, consistently maintaining Zone 2 (128-147bpm) during your taper. Your pre-marathon shakeout runs, like the 1.77mi @ 10:14/mi with an average HR of 142bpm (Z2), indicate you arrived at the start line well-rested and efficient. Your consistent sub-10:00/mi paces in Z2 for longer efforts and strong Riegel prediction of 4:18:57 suggest a solid performance.\n\n**This Week's Focus**\nCongratulations on conquering the NYC Marathon! This week is entirely dedicated to gentle active recovery as per the Hal Higdon plan. Your 3-mile run today (Tuesday) and 2-mile runs on Wednesday and Saturday should be exceptionally easy, focusing on promoting blood flow and aiding muscle repair, not on effort or pace.\n\n**Key Priorities**\n*   **Gentle Recovery Runs:** Keep your prescribed runs today, Wednesday, and Saturday at an extremely relaxed pace, well within Zone 1 or very low Zone 2 (below 154bpm) to encourage healing without adding stress.\n*   **Listen to Your Body:** Pay close attention to any lingering soreness or fatigue from the marathon; if a planned run feels like too much, opt for rest or a shorter, even slower walk.\n*   **Hydration & Nutrition:** Continue to focus on replenishing fluids and nutrient stores to support muscle repair and overall recovery from Sunday's demanding race.\n\n**Watch Out For**\nBe mindful of the unseasonably warm weather (High 69-71F) for your recovery runs this week; even light effort can feel harder in these conditions. Additionally, please disregard the \"Marathon\" listed for Sunday in the generic plan, as your big race was already completed this past Sunday.\n\n**Upcoming Milestones**\nThe immediate milestone is a successful, full recovery from your incredible achievement at the NYC Marathon. Soon, we'll debrief your race performance and begin discussing future running goals, but for now, enjoy the accomplishment!"
 }
