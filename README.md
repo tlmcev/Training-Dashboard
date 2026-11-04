@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, fantastic job completing the NYC Marathon on Sunday! Today is Tuesday, November 3rd, and this week is all about active recovery. Let's get you recovered and ready to celebrate your accomplishment.
+Hey Tom, fantastic job on tackling the NYC Marathon this past Sunday! That's a huge accomplishment, and now it's all about smart recovery.
 
 **Fitness Assessment**
-Tom, your aerobic development leading into the marathon was excellent, with your HR trending down 10bpm over the last six runs, consistently maintaining Zone 2 (128-147bpm) during your taper. Your pre-marathon shakeout runs, like the 1.77mi @ 10:14/mi with an average HR of 142bpm (Z2), indicate you arrived at the start line well-rested and efficient. Your consistent sub-10:00/mi paces in Z2 for longer efforts and strong Riegel prediction of 4:18:57 suggest a solid performance.
+Tom, your pre-marathon taper was executed beautifully. Your recent runs, like the 1.77mi on Oct 30 at 10:14/mi and 1.81mi on Oct 27 at 11:36/mi, show a deliberate reduction in intensity, with HR consistently in Z2 (128-142bpm) and watts appropriately lower (82-232W). Your HR trending down by 10bpm over the last six runs confirms excellent aerobic adaptation and readiness for race day.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your aerobic development leading into the marathon was excellent, with your
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-11-03 18:07:38 UTC | Run ID: 41690756861*
+*Last updated: 2026-11-04 18:19:08 UTC | Run ID: 41885932240*
