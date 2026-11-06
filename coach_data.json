@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 18:22:03",
+  "updated_at": "2026-11-06 17:43:43",
   "current_week": 18,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2439,60 +2439,60 @@
   ],
   "weather": [
     {
-      "date": "2026-11-05",
-      "high": 74,
-      "low": 61,
-      "precip": 2.34,
-      "windspeed": 14,
-      "code": 65
-    },
-    {
       "date": "2026-11-06",
-      "high": 66,
-      "low": 57,
-      "precip": 0.09,
-      "windspeed": 9,
+      "high": 69,
+      "low": 61,
+      "precip": 0.2,
+      "windspeed": 7,
       "code": 61
     },
     {
       "date": "2026-11-07",
-      "high": 60,
-      "low": 48,
+      "high": 61,
+      "low": 45,
       "precip": 0.0,
-      "windspeed": 17,
-      "code": 45
+      "windspeed": 12,
+      "code": 3
     },
     {
       "date": "2026-11-08",
       "high": 59,
-      "low": 48,
+      "low": 45,
       "precip": 0.0,
-      "windspeed": 18,
+      "windspeed": 16,
       "code": 3
     },
     {
       "date": "2026-11-09",
-      "high": 56,
-      "low": 48,
+      "high": 58,
+      "low": 50,
       "precip": 0.0,
-      "windspeed": 20,
+      "windspeed": 16,
       "code": 3
     },
     {
       "date": "2026-11-10",
-      "high": 63,
-      "low": 47,
+      "high": 64,
+      "low": 49,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 16,
       "code": 3
     },
     {
       "date": "2026-11-11",
-      "high": 62,
-      "low": 51,
+      "high": 57,
+      "low": 48,
+      "precip": 0.01,
+      "windspeed": 12,
+      "code": 51
+    },
+    {
+      "date": "2026-11-12",
+      "high": 50,
+      "low": 42,
       "precip": 0.0,
-      "windspeed": 10,
-      "code": 2
+      "windspeed": 11,
+      "code": 3
     }
   ],
   "avg_pace_sec": 568.9,
@@ -2542,5 +2542,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Hey Tom,\n\nFirst off, huge congratulations on completing the NYC Marathon on Sunday! That's an incredible achievement, and we're all incredibly proud of you.\n\n**Fitness Assessment**\nYour pre-marathon data showed excellent aerobic development, with 74% of your recent runs comfortably in Zone 2 and your heart rate trending down by 10bpm over the last six runs, indicating superb aerobic adaptation. Your consistent Z2 efforts at paces around 9:30/mi during your taper runs, like the 1.77mi on Oct 30 at 10:14/mi with HR 142bpm (Z2), demonstrated you were well-prepared for your predicted 4:18:57 marathon target.\n\n**This Week's Focus**\nCongratulations again on conquering New York! This week's focus is entirely on recovery and gentle movement. As per the original plan, today (Thursday) and tomorrow (Friday) are scheduled rest days, which is perfect for allowing your body to begin the recovery process. For Saturday's planned 2-mile run, keep it extremely easy, focusing on blood flow and light movement, well within Zone 2 (below 154bpm).\n\n**Key Priorities**\n*   **Prioritize Active Recovery:** Engage in gentle movement like walking or light cycling if you feel up to it, focusing on aiding blood flow and muscle repair without adding stress.\n*   **Nutrient Replenishment & Hydration:** Focus on consuming nutrient-dense foods and staying well-hydrated to support your body's significant recovery demands post-marathon.\n*   **Listen to Your Body:** Pay close attention to any lingering soreness or fatigue; adjust your activity levels accordingly, prioritizing rest above all else.\n\n**Watch Out For**\nAvoid any temptation to push the pace or distance during any movement this week; your body has just completed a monumental effort. Any lingering pain or unusual fatigue should be a clear signal for more rest, not more running.\n\n**Upcoming Milestones**\nYour immediate milestone is to enjoy guilt-free rest and wholeheartedly celebrate your fantastic achievement of completing the NYC Marathon! We'll connect next week for a proper post-marathon debrief and to discuss future running goals."
+  "advice": "Alright Tom, coach here. Let's get you squared away for recovery after crushing the NYC Marathon.\n\nFirst, a huge congratulations on completing the NYC Marathon on November 1st! That's an incredible achievement. The plan provided was for your final taper week leading into the race, so our focus now shifts entirely to well-deserved recovery.\n\n**Fitness Assessment**\nYour pre-marathon fitness looked excellent, setting you up well for race day. Your runs consistently stayed within Zone 2 (e.g., 1.77mi @ 10:14/mi with an average HR of 142bpm on Oct 30th), demonstrating a strong aerobic base. The 10bpm downward trend in your HR over the last six runs indicated fantastic aerobic adaptation, and your steady watts (e.g., 261W for your 6.92mi @ 9:23/mi on Oct 24th) showed good power output. Your predicted marathon time of 4:18:57, based on your average pace of 9:28/mi, was a solid target.\n\n**This Week's Focus**\nThe Hal Higdon Novice 2 plan was for your taper leading into the marathon. As the NYC Marathon on November 1st is now complete, this week's focus shifts entirely to active recovery. Today, Friday, November 6th, is a scheduled rest day, which is perfect. For Saturday, November 7th (originally a 2-mile run), and Sunday, November 8th (originally \"Marathon\"), prioritize gentle movement like walking for 20-30 minutes if you feel up to it, keeping your heart rate well within Z1 (<124 bpm) or low Z2.\n\n**Key Priorities**\n*   **Full Recovery:** Prioritize rest, sleep, and nutrient-rich foods to help your body repair and refuel after the marathon.\n*   **Gentle Movement:** If you choose to move, keep it extremely light and easy \u2013 think slow walking. Listen to your body and stop if you feel any discomfort.\n*   **Hydration:** Continue to hydrate diligently, especially with the warmer, rainy weather (High 69F) expected today.\n\n**Watch Out For**\nBe mindful of any persistent aches, pains, or unusual fatigue from the marathon. While some soreness is normal, any sharp pain or discomfort that doesn't improve with rest should be taken seriously, indicating you might be pushing too hard too soon.\n\n**Upcoming Milestones**\nEnjoy the satisfaction of being a marathoner! Your next milestone will be to reflect on your NYC Marathon experience, celebrate your achievement, and then gradually reintroduce light activity in the coming weeks as you plan your next running adventures."
 }
