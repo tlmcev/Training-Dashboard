@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, coach here. Let's get you squared away for recovery after crushing the NYC Marathon.
-
-First, a huge congratulations on completing the NYC Marathon on November 1st! That's an incredible achievement. The plan provided was for your final taper week leading into the race, so our focus now shifts entirely to well-deserved recovery.
+Hey Tom, fantastic job tackling the NYC Marathon last Sunday! It's great to connect as you begin your post-race recovery.
 
 **Fitness Assessment**
-Your pre-marathon fitness looked excellent, setting you up well for race day. Your runs consistently stayed within Zone 2 (e.g., 1.77mi @ 10:14/mi with an average HR of 142bpm on Oct 30th), demonstrating a strong aerobic base. The 10bpm downward trend in your HR over the last six runs indicated fantastic aerobic adaptation, and your steady watts (e.g., 261W for your 6.92mi @ 9:23/mi on Oct 24th) showed good power output. Your predicted marathon time of 4:18:57, based on your average pace of 9:28/mi, was a solid target.
+You entered race week in excellent aerobic condition, evidenced by a consistent 10bpm downward trend in your heart rate over your last 6 runs, signaling strong aerobic adaptation. Your disciplined taper was evident in your easy efforts, like the 1.77mi at 10:14/mi (HR 142 bpm) on October 30th and 1.81mi at 11:36/mi (HR 128 bpm) on October 27th, both well within your Z2 target. This controlled approach set you up perfectly for a strong marathon performance.
+
+**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Your pre-marathon fitness looked excellent, setting you up well for race day. Yo
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-11-06 17:43:43 UTC | Run ID: 42264257880*
+*Last updated: 2026-11-07 16:40:00 UTC | Run ID: 42392420730*
