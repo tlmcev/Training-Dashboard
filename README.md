@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, fantastic job tackling the NYC Marathon last Sunday! It's great to connect as you begin your post-race recovery.
+Hey Tom, fantastic job on tackling the NYC Marathon! Today is Sunday, November 8th, which means your big race was last Sunday, November 1st. Congratulations on a huge accomplishment! Now, let's shift our focus entirely to smart recovery.
 
 **Fitness Assessment**
-You entered race week in excellent aerobic condition, evidenced by a consistent 10bpm downward trend in your heart rate over your last 6 runs, signaling strong aerobic adaptation. Your disciplined taper was evident in your easy efforts, like the 1.77mi at 10:14/mi (HR 142 bpm) on October 30th and 1.81mi at 11:36/mi (HR 128 bpm) on October 27th, both well within your Z2 target. This controlled approach set you up perfectly for a strong marathon performance.
+Leading into the marathon, you showed excellent aerobic development. Your heart rate consistently stayed in Zone 2, and the 10bpm downward trend in HR over your last six runs (e.g., 142bpm on Oct 30 vs. 152bpm on Oct 7) is a strong indicator of successful aerobic adaptation and readiness. Your consistent watts (e.g., 261W for 6.92mi at 9:23/mi) and steady paces (average 9:28/mi) provided a solid foundation for your marathon effort.
 
-**
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ You entered race week in excellent aerobic condition, evidenced by a consistent 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-11-07 16:40:00 UTC | Run ID: 42392420730*
+*Last updated: 2026-11-08 16:48:51 UTC | Run ID: 42501774036*

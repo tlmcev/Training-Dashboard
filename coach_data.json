@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07 16:40:00",
+  "updated_at": "2026-11-08 16:48:51",
   "current_week": 18,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2439,60 +2439,60 @@
   ],
   "weather": [
     {
-      "date": "2026-11-07",
-      "high": 60,
-      "low": 45,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
-    },
-    {
       "date": "2026-11-08",
-      "high": 57,
-      "low": 44,
+      "high": 61,
+      "low": 47,
       "precip": 0.0,
       "windspeed": 12,
       "code": 3
     },
     {
       "date": "2026-11-09",
-      "high": 57,
+      "high": 55,
       "low": 43,
       "precip": 0.0,
-      "windspeed": 20,
+      "windspeed": 19,
       "code": 3
     },
     {
       "date": "2026-11-10",
       "high": 61,
-      "low": 48,
+      "low": 42,
       "precip": 0.0,
       "windspeed": 16,
       "code": 3
     },
     {
       "date": "2026-11-11",
-      "high": 63,
-      "low": 53,
+      "high": 61,
+      "low": 50,
       "precip": 0.0,
       "windspeed": 7,
       "code": 3
     },
     {
       "date": "2026-11-12",
-      "high": 58,
-      "low": 50,
-      "precip": 0.0,
-      "windspeed": 12,
-      "code": 3
+      "high": 59,
+      "low": 53,
+      "precip": 0.74,
+      "windspeed": 20,
+      "code": 81
     },
     {
       "date": "2026-11-13",
-      "high": 50,
+      "high": 56,
       "low": 44,
-      "precip": 0.37,
-      "windspeed": 21,
-      "code": 61
+      "precip": 1.61,
+      "windspeed": 17,
+      "code": 82
+    },
+    {
+      "date": "2026-11-14",
+      "high": 46,
+      "low": 40,
+      "precip": 0.32,
+      "windspeed": 16,
+      "code": 85
     }
   ],
   "avg_pace_sec": 568.9,
@@ -2542,5 +2542,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Hey Tom, fantastic job tackling the NYC Marathon last Sunday! It's great to connect as you begin your post-race recovery.\n\n**Fitness Assessment**\nYou entered race week in excellent aerobic condition, evidenced by a consistent 10bpm downward trend in your heart rate over your last 6 runs, signaling strong aerobic adaptation. Your disciplined taper was evident in your easy efforts, like the 1.77mi at 10:14/mi (HR 142 bpm) on October 30th and 1.81mi at 11:36/mi (HR 128 bpm) on October 27th, both well within your Z2 target. This controlled approach set you up perfectly for a strong marathon performance.\n\n**"
+  "advice": "Hey Tom, fantastic job on tackling the NYC Marathon! Today is Sunday, November 8th, which means your big race was last Sunday, November 1st. Congratulations on a huge accomplishment! Now, let's shift our focus entirely to smart recovery.\n\n**Fitness Assessment**\nLeading into the marathon, you showed excellent aerobic development. Your heart rate consistently stayed in Zone 2, and the 10bpm downward trend in HR over your last six runs (e.g., 142bpm on Oct 30 vs. 152bpm on Oct 7) is a strong indicator of successful aerobic adaptation and readiness. Your consistent watts (e.g., 261W for 6.92mi at 9:23/mi) and steady paces (average 9:28/mi) provided a solid foundation for your marathon effort.\n\n**This Week's Focus**\nTom, the provided plan was for your taper week leading up to the marathon. For this current week (November 2nd-8th), your absolute priority is full recovery. Forget about specific mileage targets; instead, focus on rest, hydration, and nutrient-dense meals to support your body's repair process and replenish glycogen.\n\n**Key Priorities**\nPrioritize active recovery through gentle movement like short walks (15-30 minutes) if your body feels ready, or opt for complete rest if needed. Crucially, listen intently to your body, recognizing that any discomfort signals the need for more rest. Focus on consistent hydration and nutrient-dense foods to support muscle repair and replenish energy stores.\n\n**Watch Out For**\nBe mindful of the temptation to jump back into running too soon or too intensely. Pushing yourself before full recovery can significantly increase the risk of injury, such as tendonitis or stress fractures, and lead to mental burnout. Avoid any runs that feel strenuous or elevate your heart rate beyond a very easy conversational pace for at least another week.\n\n**Upcoming Milestones**\nYour immediate milestone is full physical and mental recovery from the marathon. Once you feel completely refreshed and your body signals it's ready, we can look forward to discussing your next running goals and building a new training plan together."
 }
