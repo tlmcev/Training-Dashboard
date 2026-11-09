@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, fantastic job on tackling the NYC Marathon! Today is Sunday, November 8th, which means your big race was last Sunday, November 1st. Congratulations on a huge accomplishment! Now, let's shift our focus entirely to smart recovery.
+Alright Tom, first and foremost, a massive congratulations! The NYC Marathon was on November 1st, which means you've already conquered the five boroughs. Today is Monday, November 9th, so you're already 9 days post-marathon. Let's shift our focus entirely to celebrating your incredible achievement and ensuring a smart, healthy recovery.
 
 **Fitness Assessment**
-Leading into the marathon, you showed excellent aerobic development. Your heart rate consistently stayed in Zone 2, and the 10bpm downward trend in HR over your last six runs (e.g., 142bpm on Oct 30 vs. 152bpm on Oct 7) is a strong indicator of successful aerobic adaptation and readiness. Your consistent watts (e.g., 261W for 6.92mi at 9:23/mi) and steady paces (average 9:28/mi) provided a solid foundation for your marathon effort.
+Your taper leading into the marathon was executed beautifully. The 10bpm downward trend in HR over your last 6 runs, culminating in a very low 128bpm average for your shakeout run on 10-27, indicates superb aerobic adaptation and readiness. Your consistent average paces around 9:06-9:23/mi for your final longer taper runs (e.g., 6.92mi @ 9:23/mi on 10-24) with average Z2 HR (144bpm) and strong 260W power output demonstrated excellent fitness for your predicted 4:18:57 marathon.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Leading into the marathon, you showed excellent aerobic development. Your heart 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-11-08 16:48:51 UTC | Run ID: 42501774036*
+*Last updated: 2026-11-09 21:10:02 UTC | Run ID: 42699871704*
