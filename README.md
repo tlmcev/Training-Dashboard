@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you squared away. Today is Tuesday, November 10th, and the NYC Marathon was on November 1st. Congratulations on tackling that incredible challenge! Now, our focus shifts entirely to smart recovery.
+Alright Tom, fantastic work completing the NYC Marathon! Today is Wednesday, November 11th, and you're 11 days post-race, officially in full recovery mode. Let's look at your progress and what's next.
 
 **Fitness Assessment**
-Tom, your pre-marathon fitness was outstanding, demonstrating excellent aerobic development with 74% of your recent runs in Zone 2 and your HR trending down 10bpm over the last six runs. Your consistent paces (e.g., 9:23/mi on a 6.92mi run with 261W) and recent PRs on October 24th show you were in peak condition, well-prepared for your estimated 4:18:57 marathon finish.
+Your recent long runs, like the 13.57mi at 9:39/mi and 16.51mi at 9:47/mi, demonstrated strong endurance with average heart rates comfortably in Z2 (151-152bpm), indicating excellent aerobic base development for the marathon. The impressive 10bpm drop in HR over your last six runs (74% Z2, 8% Z3 overall) confirms superb aerobic adaptation and efficiency heading into race day, with typical Z2 watts around 250-265W.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom, your pre-marathon fitness was outstanding, demonstrating excellent aerobic 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-11-10 18:20:33 UTC | Run ID: 42874179061*
+*Last updated: 2026-11-11 18:10:22 UTC | Run ID: 43075169246*
