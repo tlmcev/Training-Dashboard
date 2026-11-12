@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, fantastic work completing the NYC Marathon! Today is Wednesday, November 11th, and you're 11 days post-race, officially in full recovery mode. Let's look at your progress and what's next.
+Here's your data-driven coaching brief for Tom, focusing on post-marathon recovery:
 
 **Fitness Assessment**
-Your recent long runs, like the 13.57mi at 9:39/mi and 16.51mi at 9:47/mi, demonstrated strong endurance with average heart rates comfortably in Z2 (151-152bpm), indicating excellent aerobic base development for the marathon. The impressive 10bpm drop in HR over your last six runs (74% Z2, 8% Z3 overall) confirms superb aerobic adaptation and efficiency heading into race day, with typical Z2 watts around 250-265W.
+Tom's recent training showed excellent aerobic adaptation, with HR trending down 10bpm over the last six runs, keeping 74% of his activity firmly in Zone 2. His consistent power output (e.g., 261W on his 6.92mi run on Oct 24) at a comfortable Z2 heart rate indicates strong endurance development leading into the marathon. His paces, averaging around 9:28/mi for predicted marathon time, were well-supported by his physiological data.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Your recent long runs, like the 13.57mi at 9:39/mi and 16.51mi at 9:47/mi, demon
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-11-11 18:10:22 UTC | Run ID: 43075169246*
+*Last updated: 2026-11-12 18:38:08 UTC | Run ID: 43281863937*
