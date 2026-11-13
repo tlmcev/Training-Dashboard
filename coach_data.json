@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 18:38:08",
+  "updated_at": "2026-11-13 18:14:39",
   "current_week": 18,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2439,49 +2439,41 @@
   ],
   "weather": [
     {
-      "date": "2026-11-12",
-      "high": 60,
-      "low": 48,
-      "precip": 0.83,
-      "windspeed": 16,
-      "code": 65
-    },
-    {
       "date": "2026-11-13",
       "high": 48,
       "low": 37,
-      "precip": 0.55,
-      "windspeed": 15,
-      "code": 63
+      "precip": 0.16,
+      "windspeed": 14,
+      "code": 71
     },
     {
       "date": "2026-11-14",
-      "high": 44,
-      "low": 36,
+      "high": 43,
+      "low": 34,
       "precip": 0.0,
-      "windspeed": 17,
+      "windspeed": 13,
       "code": 3
     },
     {
       "date": "2026-11-15",
-      "high": 47,
-      "low": 41,
+      "high": 49,
+      "low": 37,
       "precip": 0.0,
-      "windspeed": 15,
+      "windspeed": 16,
       "code": 3
     },
     {
       "date": "2026-11-16",
-      "high": 51,
-      "low": 39,
+      "high": 52,
+      "low": 41,
       "precip": 0.0,
-      "windspeed": 11,
+      "windspeed": 12,
       "code": 0
     },
     {
       "date": "2026-11-17",
-      "high": 54,
-      "low": 40,
+      "high": 55,
+      "low": 41,
       "precip": 0.0,
       "windspeed": 8,
       "code": 0
@@ -2493,6 +2485,14 @@
       "precip": 0.0,
       "windspeed": 7,
       "code": 1
+    },
+    {
+      "date": "2026-11-19",
+      "high": 58,
+      "low": 47,
+      "precip": 0.0,
+      "windspeed": 9,
+      "code": 3
     }
   ],
   "avg_pace_sec": 568.9,
@@ -2542,5 +2542,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Here's your data-driven coaching brief for Tom, focusing on post-marathon recovery:\n\n**Fitness Assessment**\nTom's recent training showed excellent aerobic adaptation, with HR trending down 10bpm over the last six runs, keeping 74% of his activity firmly in Zone 2. His consistent power output (e.g., 261W on his 6.92mi run on Oct 24) at a comfortable Z2 heart rate indicates strong endurance development leading into the marathon. His paces, averaging around 9:28/mi for predicted marathon time, were well-supported by his physiological data.\n\n**This Week's Focus**\nGiven that the NYC Marathon was on November 1st, your focus this week is entirely on recovery and gentle movement. The provided Hal Higdon plan was for your taper week *before* the marathon, so we're now shifting to post-race recuperation. Prioritize rest, nourishing your body, and very light activity if you feel up to it, such as walking or easy cycling.\n\n**Key Priorities**\n*   **Active Recovery:** Engage in very light, non-impact activities like walking or swimming for short durations, only if your body feels ready.\n*   **Nutritional Support:** Focus on replenishing glycogen stores and consuming protein for muscle repair to aid in recovery.\n*   **Listen to Your Body:** Pay close attention to any aches, pains, or signs of fatigue, and prioritize sleep and rest above all else.\n\n**Watch Out For**\nBe mindful of the urge to jump back into hard training too soon; pushing too quickly post-marathon can lead to injury or burnout. Your body needs adequate time to repair and rebuild after the significant stress of 26.2 miles.\n\n**Upcoming Milestones**\nYour first major milestone is a full and complete recovery from your marathon effort. After a week or two of active recovery, we can then look forward to a gentle return to easy running, perhaps starting with short, relaxed Z2 efforts."
+  "advice": "Alright Tom, let's talk. Today is Friday, November 13, 2026, which means the NYC Marathon on November 1st is 13 days behind us. This brief will focus on your post-marathon recovery and reflection, using the excellent data you provided from your build-up.\n\n**Fitness Assessment**\nYour pre-marathon training indicated excellent aerobic development, with your HR trending down 10bpm over the last six runs, suggesting strong adaptation. You consistently maintained Z2 heart rates (124-154 bpm) during long efforts like your 16.51mi run at 9:47/mi and 13.57mi at 9:39/mi, demonstrating solid endurance. Your average training pace of 9:28/mi and predicted marathon time of 4:18:57 indicated you were well-prepared to tackle NYC, and your consistent power output around 250-260W showed stable effort.\n\n**This Week's Focus**\nToday is Friday, November 13th, meaning the NYC Marathon on November 1st is 13 days behind us. Your primary focus this week is complete physical and mental recovery. Forget the provided plan for the marathon week; instead, prioritize rest, gentle movement like short walks if pain-free, and nourishing your body.\n\n**Key Priorities**\n*   **Full Recovery:** Ensure adequate sleep and prioritize nutrient-dense meals to aid muscle repair and replenish glycogen stores.\n*   **Listen to Your Body:** Pay close attention to any lingering aches or fatigue; only engage in light activity when completely pain-free.\n*   **Reflect and Recharge:** Take time to process your marathon experience and mentally detach from structured training before considering future goals.\n\n**Watch Out For**\nBe mindful of post-marathon fatigue or \"blues\"; it's common to feel a dip in motivation or energy after such a significant accomplishment. Avoid the temptation to jump back into hard training too soon, as your body is still rebuilding from the immense effort of the marathon.\n\n**Upcoming Milestones**\nYour first completely pain-free, easy-paced run, whenever your body signals it's ready. This will be a celebratory step towards your next running adventure."
 }

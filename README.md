@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Here's your data-driven coaching brief for Tom, focusing on post-marathon recovery:
+Alright Tom, let's talk. Today is Friday, November 13, 2026, which means the NYC Marathon on November 1st is 13 days behind us. This brief will focus on your post-marathon recovery and reflection, using the excellent data you provided from your build-up.
 
 **Fitness Assessment**
-Tom's recent training showed excellent aerobic adaptation, with HR trending down 10bpm over the last six runs, keeping 74% of his activity firmly in Zone 2. His consistent power output (e.g., 261W on his 6.92mi run on Oct 24) at a comfortable Z2 heart rate indicates strong endurance development leading into the marathon. His paces, averaging around 9:28/mi for predicted marathon time, were well-supported by his physiological data.
+Your pre-marathon training indicated excellent aerobic development, with your HR trending down 10bpm over the last six runs, suggesting strong adaptation. You consistently maintained Z2 heart rates (124-154 bpm) during long efforts like your 16.51mi run at 9:47/mi and 13.57mi at 9:39/mi, demonstrating solid endurance. Your average training pace of 9:28/mi and predicted marathon time of 4:18:57 indicated you were well-prepared to tackle NYC, and your consistent power output around 250-260W showed stable effort.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ Tom's recent training showed excellent aerobic adaptation, with HR trending down
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-11-12 18:38:08 UTC | Run ID: 43281863937*
+*Last updated: 2026-11-13 18:14:39 UTC | Run ID: 43480690459*
