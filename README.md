@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you set up.
-
-Given today is Saturday, November 14, 2026, and your NYC Marathon goal was November 1, 2026, it appears you are 13 days post-marathon. Therefore, the provided "Week 18 of 18" Hal Higdon plan is a pre-marathon taper and is no longer applicable; this brief will focus on your current post-marathon recovery phase.
+Alright Tom, let's get you set up. First and foremost, congratulations on completing the NYC Marathon on November 1st! You put in the work, and now it's time to focus on recovery. The training plan provided was for the week *leading up to* the marathon, so we're shifting our focus entirely to post-race recovery.
 
 **Fitness Assessment**
-You entered your marathon taper in excellent aerobic condition, with your heart rate trending down by 10bpm over your last six runs, indicating strong aerobic adaptation. Your longer runs, like 13.57mi @ 9:39/mi with an average HR of 151bpm (Z2) and 250W, showed consistent endurance for your predicted 4:18:57 marathon finish. Your last recorded run on October 30th also showed a comfortable Z2 effort at 10:14/mi.
+You demonstrated excellent aerobic development leading into the NYC Marathon, with your HR trending down 10bpm over the last six runs and maintaining 74% of your recent efforts in Zone 2. Your consistent Z2 running, averaging around a 9:30/mi pace with 250-260W, prepared you well, aligning with a predicted marathon finish time of approximately 4:18:57. The well-executed taper, dropping from 13.2mi to 3.6mi in the final weeks, was crucial for race day readiness.
+
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ You entered your marathon taper in excellent aerobic condition, with your heart 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-11-14 16:46:26 UTC | Run ID: 43617404990*
+*Last updated: 2026-11-15 17:28:48 UTC | Run ID: 43741312904*
