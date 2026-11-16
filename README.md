@@ -16,10 +16,10 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you set up. First and foremost, congratulations on completing the NYC Marathon on November 1st! You put in the work, and now it's time to focus on recovery. The training plan provided was for the week *leading up to* the marathon, so we're shifting our focus entirely to post-race recovery.
+Alright Tom, let's get you set up for the coming days.
 
 **Fitness Assessment**
-You demonstrated excellent aerobic development leading into the NYC Marathon, with your HR trending down 10bpm over the last six runs and maintaining 74% of your recent efforts in Zone 2. Your consistent Z2 running, averaging around a 9:30/mi pace with 250-260W, prepared you well, aligning with a predicted marathon finish time of approximately 4:18:57. The well-executed taper, dropping from 13.2mi to 3.6mi in the final weeks, was crucial for race day readiness.
+Your fitness leading into the NYC Marathon on November 1st was excellent, marked by strong aerobic adaptation. Your recent runs, like the 3.14mi at 9:06/mi on Oct 20 (265W, HR 147bpm Z2), demonstrated consistent Z2 performance and efficient power output. The notable 10bpm drop in average HR over your last six runs confirms superb aerobic development during your taper.
 
 **This Week's Focus**
 
@@ -51,4 +51,4 @@ You demonstrated excellent aerobic development leading into the NYC Marathon, wi
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-11-15 17:28:48 UTC | Run ID: 43741312904*
+*Last updated: 2026-11-16 20:42:56 UTC | Run ID: 43952602445*
