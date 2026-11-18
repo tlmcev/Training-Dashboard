@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17 19:27:42",
+  "updated_at": "2026-11-18 19:09:53",
   "current_week": 18,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2439,35 +2439,27 @@
   ],
   "weather": [
     {
-      "date": "2026-11-17",
-      "high": 59,
-      "low": 38,
+      "date": "2026-11-18",
+      "high": 64,
+      "low": 41,
+      "precip": 0.0,
+      "windspeed": 6,
+      "code": 0
+    },
+    {
+      "date": "2026-11-19",
+      "high": 62,
+      "low": 39,
       "precip": 0.0,
       "windspeed": 8,
       "code": 0
     },
     {
-      "date": "2026-11-18",
-      "high": 63,
-      "low": 39,
-      "precip": 0.0,
-      "windspeed": 9,
-      "code": 3
-    },
-    {
-      "date": "2026-11-19",
-      "high": 62,
-      "low": 40,
-      "precip": 0.0,
-      "windspeed": 6,
-      "code": 3
-    },
-    {
       "date": "2026-11-20",
-      "high": 63,
-      "low": 51,
+      "high": 64,
+      "low": 42,
       "precip": 0.0,
-      "windspeed": 7,
+      "windspeed": 8,
       "code": 3
     },
     {
@@ -2475,24 +2467,32 @@
       "high": 58,
       "low": 50,
       "precip": 0.0,
-      "windspeed": 8,
+      "windspeed": 7,
       "code": 3
     },
     {
       "date": "2026-11-22",
-      "high": 57,
+      "high": 61,
       "low": 53,
-      "precip": 0.02,
-      "windspeed": 13,
-      "code": 51
+      "precip": 1.41,
+      "windspeed": 16,
+      "code": 81
     },
     {
       "date": "2026-11-23",
-      "high": 61,
-      "low": 54,
-      "precip": 0.17,
-      "windspeed": 12,
-      "code": 53
+      "high": 60,
+      "low": 43,
+      "precip": 0.43,
+      "windspeed": 16,
+      "code": 80
+    },
+    {
+      "date": "2026-11-24",
+      "high": 43,
+      "low": 33,
+      "precip": 0.0,
+      "windspeed": 16,
+      "code": 3
     }
   ],
   "avg_pace_sec": 568.9,
@@ -2542,5 +2542,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, congratulations on successfully completing the NYC Marathon on November 1st! That's an incredible achievement, and you should be immensely proud. Today marks 16 days since your race, so this week is all about continued recovery and gentle reintroduction to movement.\n\n### Fitness Assessment\nYour pre-marathon training showcased excellent aerobic development, with 74% of your recent runs comfortably in Zone 2 (124-154 bpm) and your average heart rate trending down by 10bpm over the last six runs, indicating great efficiency. Consistent long run paces around 9:30-9:45/mi at a comfortable Z2 HR, like your 16.51mi at 9:47/mi with 152bpm, suggest you were well-prepared to hit your predicted marathon finish time of 4:18:57.\n\n### This Week's Focus\nAs the NYC Marathon is now behind you, this week's focus is on active recovery and listening intently to your body, rather than adhering to the original training plan. If you feel up to it, engage in very short, easy walks or optional slow jogs of 1-2 miles at a significantly slower pace (e.g., 11:30-12:00/mi) and a very low Zone 2 heart rate (below 140bpm). Prioritize complete physical and mental recovery from your marathon effort.\n\n### Key Priorities\n*   **Prioritize Full Recovery:** Engage in active rest, such as gentle walking, stretching, or cross-training, for the majority of the week to aid muscle repair and reduce inflammation.\n*   **Gentle Reintroduction:** If you choose to run, keep it extremely short (1-2 miles) and very easy, targeting a conversational pace with a heart rate in the lower end of Z2 (e.g., 125-135bpm).\n*   **Reflect and Enjoy:** Take time to celebrate your incredible marathon accomplishment and process the experience without any pressure to perform.\n\n### Watch Out For\nGiven you're 16 days post-marathon, the primary concern is pushing yourself back into structured training too quickly; avoid any temptation to increase mileage or intensity beyond very gentle recovery efforts this week to prevent injury or burnout.\n\n### Upcoming Milestones\nYour immediate milestone is to fully recover and reflect on your incredible accomplishment at the NYC Marathon. Looking ahead, you can start planning your next running adventures, perhaps a fun 5K or a local charity run in the coming months, once your body is fully rejuvenated."
+  "advice": "Hey Tom, great job on tackling the NYC Marathon! It's fantastic to see your consistent dedication. Let's get you recovered and ready for your next adventures.\n\n**Fitness Assessment**\nYour recent training showed excellent preparation for the marathon. Your long runs, like the 16.51mi at 9:47/mi, consistently fell into your Z2 HR, aligning well with your predicted marathon pace of 9:28/mi. Most impressively, your heart rate data showed a fantastic aerobic adaptation, trending down 10bpm over your last 6 runs, indicating increased efficiency and fitness going into race day. Your power output consistently in the 230-270W range for Z2 runs further confirms a strong and steady aerobic engine.\n\n**This Week's Focus**\nTom, the training plan provided for \"this week\" (Week 18) is designed for the final taper *before* a marathon. As the NYC Marathon was on November 1st, you are now 17 days post-race. Your primary focus this week should be active recovery and listening intently to your body; any activity should be very light, short, and entirely pain-free.\n\n**Key Priorities**\n*   **Prioritize Recovery**: Continue to prioritize rest, quality sleep, and nutrient-dense foods to aid tissue repair and energy replenishment after your marathon effort.\n*   **Gentle Movement**: If you feel up to it, incorporate very short (1-2 mile), extremely easy walks or slow jogs, keeping your heart rate well within Z2 (e.g., below 140bpm), to promote blood flow without stress.\n*   **Listen to Your Body**: Pay close attention to any lingering soreness, fatigue, or unusual aches; if anything feels off, opt for complete rest.\n\n**Watch Out For**\nBe mindful of the \"post-marathon blues\" or the temptation to jump back into intense training too soon, which could lead to injury or burnout.\n\n**Upcoming Milestones**\nYour next key milestone is a complete physical and mental recovery from the NYC Marathon, allowing you to return to consistent, healthy training in the coming weeks. Use this time to reflect on your incredible achievement and consider what your next running goals might be."
 }
