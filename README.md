@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, great job on tackling the NYC Marathon! It's fantastic to see your consistent dedication. Let's get you recovered and ready for your next adventures.
+Alright Tom, let's get you back on track.
+
+First, a quick clarification: the NYC Marathon was on November 1st, meaning today, November 19th, you are 19 days post-marathon. The training plan provided is for the week *leading up to* the marathon, so we'll need to adjust our focus entirely to post-marathon recovery. It's great to reconnect with you!
 
 **Fitness Assessment**
-Your recent training showed excellent preparation for the marathon. Your long runs, like the 16.51mi at 9:47/mi, consistently fell into your Z2 HR, aligning well with your predicted marathon pace of 9:28/mi. Most impressively, your heart rate data showed a fantastic aerobic adaptation, trending down 10bpm over your last 6 runs, indicating increased efficiency and fitness going into race day. Your power output consistently in the 230-270W range for Z2 runs further confirms a strong and steady aerobic engine.
-
-**This Week's Focus**
+Leading into the NYC Marathon, you demonstrated excellent aerobic adaptation and efficiency, with average HR for Z2 runs consistently in the 140s bpm (e.g., 16.51mi @ 9:47/mi with 152bpm avg HR). Your consistent power output (250-265W) at these lower heart rates, along with a positive trend of HR decreasing by 10bpm over your last six recorded runs, indicated strong pre-marathon fitness. However, there is no data logged since October 30th, making it impossible to assess your current fitness or recovery status 19 days post-marathon.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Your recent training showed excellent preparation for the marathon. Your long ru
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-11-18 19:09:53 UTC | Run ID: 44377537232*
+*Last updated: 2026-11-19 19:13:21 UTC | Run ID: 44596041692*

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18 19:09:53",
+  "updated_at": "2026-11-19 19:13:21",
   "current_week": 18,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2439,59 +2439,59 @@
   ],
   "weather": [
     {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "high": 64,
-      "low": 41,
+      "low": 43,
       "precip": 0.0,
       "windspeed": 6,
-      "code": 0
-    },
-    {
-      "date": "2026-11-19",
-      "high": 62,
-      "low": 39,
-      "precip": 0.0,
-      "windspeed": 8,
-      "code": 0
+      "code": 3
     },
     {
       "date": "2026-11-20",
-      "high": 64,
-      "low": 42,
+      "high": 67,
+      "low": 41,
       "precip": 0.0,
-      "windspeed": 8,
+      "windspeed": 6,
       "code": 3
     },
     {
       "date": "2026-11-21",
-      "high": 58,
-      "low": 50,
+      "high": 57,
+      "low": 41,
       "precip": 0.0,
-      "windspeed": 7,
+      "windspeed": 6,
       "code": 3
     },
     {
       "date": "2026-11-22",
       "high": 61,
-      "low": 53,
-      "precip": 1.41,
-      "windspeed": 16,
+      "low": 52,
+      "precip": 0.85,
+      "windspeed": 20,
       "code": 81
     },
     {
       "date": "2026-11-23",
-      "high": 60,
-      "low": 43,
-      "precip": 0.43,
-      "windspeed": 16,
-      "code": 80
+      "high": 62,
+      "low": 45,
+      "precip": 0.23,
+      "windspeed": 18,
+      "code": 81
     },
     {
       "date": "2026-11-24",
-      "high": 43,
-      "low": 33,
+      "high": 46,
+      "low": 36,
       "precip": 0.0,
-      "windspeed": 16,
+      "windspeed": 18,
+      "code": 2
+    },
+    {
+      "date": "2026-11-25",
+      "high": 42,
+      "low": 34,
+      "precip": 0.0,
+      "windspeed": 11,
       "code": 3
     }
   ],
@@ -2542,5 +2542,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Hey Tom, great job on tackling the NYC Marathon! It's fantastic to see your consistent dedication. Let's get you recovered and ready for your next adventures.\n\n**Fitness Assessment**\nYour recent training showed excellent preparation for the marathon. Your long runs, like the 16.51mi at 9:47/mi, consistently fell into your Z2 HR, aligning well with your predicted marathon pace of 9:28/mi. Most impressively, your heart rate data showed a fantastic aerobic adaptation, trending down 10bpm over your last 6 runs, indicating increased efficiency and fitness going into race day. Your power output consistently in the 230-270W range for Z2 runs further confirms a strong and steady aerobic engine.\n\n**This Week's Focus**\nTom, the training plan provided for \"this week\" (Week 18) is designed for the final taper *before* a marathon. As the NYC Marathon was on November 1st, you are now 17 days post-race. Your primary focus this week should be active recovery and listening intently to your body; any activity should be very light, short, and entirely pain-free.\n\n**Key Priorities**\n*   **Prioritize Recovery**: Continue to prioritize rest, quality sleep, and nutrient-dense foods to aid tissue repair and energy replenishment after your marathon effort.\n*   **Gentle Movement**: If you feel up to it, incorporate very short (1-2 mile), extremely easy walks or slow jogs, keeping your heart rate well within Z2 (e.g., below 140bpm), to promote blood flow without stress.\n*   **Listen to Your Body**: Pay close attention to any lingering soreness, fatigue, or unusual aches; if anything feels off, opt for complete rest.\n\n**Watch Out For**\nBe mindful of the \"post-marathon blues\" or the temptation to jump back into intense training too soon, which could lead to injury or burnout.\n\n**Upcoming Milestones**\nYour next key milestone is a complete physical and mental recovery from the NYC Marathon, allowing you to return to consistent, healthy training in the coming weeks. Use this time to reflect on your incredible achievement and consider what your next running goals might be."
+  "advice": "Alright Tom, let's get you back on track.\n\nFirst, a quick clarification: the NYC Marathon was on November 1st, meaning today, November 19th, you are 19 days post-marathon. The training plan provided is for the week *leading up to* the marathon, so we'll need to adjust our focus entirely to post-marathon recovery. It's great to reconnect with you!\n\n**Fitness Assessment**\nLeading into the NYC Marathon, you demonstrated excellent aerobic adaptation and efficiency, with average HR for Z2 runs consistently in the 140s bpm (e.g., 16.51mi @ 9:47/mi with 152bpm avg HR). Your consistent power output (250-265W) at these lower heart rates, along with a positive trend of HR decreasing by 10bpm over your last six recorded runs, indicated strong pre-marathon fitness. However, there is no data logged since October 30th, making it impossible to assess your current fitness or recovery status 19 days post-marathon.\n\n**This Week's Focus**\nGiven today is Thursday, November 19th, and the NYC Marathon has already taken place, the provided training plan is no longer applicable. Your focus this week is entirely on active recovery and a gentle, mindful return to movement. We will prioritize listening to your body and ensuring complete recovery before considering any structured running.\n\n**Key Priorities**\n*   **Prioritize Recovery:** Avoid any strenuous activity. Any movement should be low-impact and feel completely comfortable, such as short walks (20-30 minutes).\n*   **Body Scan:** Pay close attention to any lingering soreness, fatigue, or potential niggles from the marathon before attempting any runs.\n*   **Gentle Reintroduction:** If you feel ready, aim for 1-2 very short, easy jogs (1-2 miles at a conversational pace, keeping HR in Z2 <154bpm) later this week, but only if your body feels completely recovered.\n\n**Watch Out For**\nBe cautious of the urge to jump back into running too quickly, especially after a 19-day break from logged activity. Pushing your body before it's fully recovered from the marathon can significantly increase the risk of injury or lead to mental burnout.\n\n**Upcoming Milestones**\nYour immediate milestone is to successfully complete a very short, easy, and entirely pain-free walk or jog sometime this week, if your body feels ready. This will be the first step in building a new post-marathon base and setting you up for future training."
 }
