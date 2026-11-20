@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Alright Tom, let's get you back on track.
+Alright Tom, let's get you set up for the week ahead. First, a huge congratulations on completing the NYC Marathon on November 1st! That's a fantastic accomplishment, and we're now 19 days post-race.
 
-First, a quick clarification: the NYC Marathon was on November 1st, meaning today, November 19th, you are 19 days post-marathon. The training plan provided is for the week *leading up to* the marathon, so we'll need to adjust our focus entirely to post-marathon recovery. It's great to reconnect with you!
+Here's your coaching brief for this week:
 
 **Fitness Assessment**
-Leading into the NYC Marathon, you demonstrated excellent aerobic adaptation and efficiency, with average HR for Z2 runs consistently in the 140s bpm (e.g., 16.51mi @ 9:47/mi with 152bpm avg HR). Your consistent power output (250-265W) at these lower heart rates, along with a positive trend of HR decreasing by 10bpm over your last six recorded runs, indicated strong pre-marathon fitness. However, there is no data logged since October 30th, making it impossible to assess your current fitness or recovery status 19 days post-marathon.
+Tom, you entered the NYC Marathon in excellent form, demonstrating strong aerobic development. Your average heart rates consistently stayed in Z2 (128-152 bpm) even on longer runs like the 16.51mi at 9:47/mi, while maintaining powerful watts around 250-265W for your consistent efforts. The significant 10bpm decrease in average HR over your last six runs (e.g., from 152 bpm on 10/07 to 142 bpm on 10/30) was a textbook example of successful tapering and peak aerobic adaptation, indicating you were primed for race day.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Leading into the NYC Marathon, you demonstrated excellent aerobic adaptation and
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-11-19 19:13:21 UTC | Run ID: 44596041692*
+*Last updated: 2026-11-20 18:53:40 UTC | Run ID: 44797020685*
