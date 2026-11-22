@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Tom, fantastic job completing the NYC Marathon on November 1st! As today is November 21st, you are now well into your post-marathon recovery phase, and the provided Hal Higdon 'Week 18' plan (which includes a marathon on Sunday) is no longer applicable. Our focus shifts entirely to smart recovery and reflection.
+Alright Tom, let's get you set up. First off, a huge congratulations on tackling the NYC Marathon! Today is Sunday, November 22, 2026, which means the marathon was 22 days ago on November 1st. The Hal Higdon plan you've provided is for the week *of* the marathon, so we'll pivot our focus to effective post-marathon recovery and getting you back into a sustainable routine.
 
 ---
 
 **Fitness Assessment**
-Based on your consistent training leading up to NYC, your aerobic fitness was excellent. Your HR trending down 10bpm over your last 6 runs (74% in Z2) and sustained wattage in the 250-270W range during long runs like the 16.51mi at 9:47/mi indicated strong aerobic adaptation. This preparation likely set you up well for your predicted 4:18:57 marathon time.
+You went into the marathon in excellent aerobic shape, showing a fantastic "HR trending DOWN 10bpm over last 6 runs," indicating strong adaptation and efficiency. Your long runs, like 16.51mi @ 9:47/mi and 13.57mi @ 9:39/mi, were executed predominantly in Z2 (74% of recent runs), building a robust endurance base. Consistent watts in the 230-260W range for these efforts further highlight your sustained power output at easy paces.
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ Based on your consistent training leading up to NYC, your aerobic fitness was ex
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-11-21 17:48:47 UTC | Run ID: 44932064224*
+*Last updated: 2026-11-22 18:06:54 UTC | Run ID: 45053195684*

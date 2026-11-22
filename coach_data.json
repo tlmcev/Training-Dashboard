@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 17:48:47",
+  "updated_at": "2026-11-22 18:06:54",
   "current_week": 18,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2439,60 +2439,60 @@
   ],
   "weather": [
     {
-      "date": "2026-11-21",
-      "high": 66,
-      "low": 46,
+      "date": "2026-11-22",
+      "high": 65,
+      "low": 54,
       "precip": 0.0,
       "windspeed": 8,
-      "code": 3
-    },
-    {
-      "date": "2026-11-22",
-      "high": 64,
-      "low": 47,
-      "precip": 3.1,
-      "windspeed": 11,
-      "code": 65
+      "code": 45
     },
     {
       "date": "2026-11-23",
-      "high": 62,
-      "low": 46,
-      "precip": 0.07,
-      "windspeed": 15,
-      "code": 61
-    },
-    {
-      "date": "2026-11-24",
-      "high": 47,
-      "low": 39,
+      "high": 66,
+      "low": 41,
       "precip": 0.0,
       "windspeed": 14,
       "code": 3
     },
     {
-      "date": "2026-11-25",
-      "high": 44,
-      "low": 36,
+      "date": "2026-11-24",
+      "high": 46,
+      "low": 38,
       "precip": 0.0,
-      "windspeed": 12,
+      "windspeed": 17,
+      "code": 3
+    },
+    {
+      "date": "2026-11-25",
+      "high": 48,
+      "low": 37,
+      "precip": 0.0,
+      "windspeed": 14,
       "code": 3
     },
     {
       "date": "2026-11-26",
-      "high": 54,
-      "low": 42,
-      "precip": 1.1,
-      "windspeed": 27,
+      "high": 56,
+      "low": 45,
+      "precip": 1.01,
+      "windspeed": 31,
       "code": 63
     },
     {
       "date": "2026-11-27",
       "high": 55,
-      "low": 46,
-      "precip": 0.15,
-      "windspeed": 27,
-      "code": 51
+      "low": 47,
+      "precip": 0.36,
+      "windspeed": 20,
+      "code": 63
+    },
+    {
+      "date": "2026-11-28",
+      "high": 54,
+      "low": 45,
+      "precip": 0.0,
+      "windspeed": 18,
+      "code": 3
     }
   ],
   "avg_pace_sec": 568.9,
@@ -2542,5 +2542,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Tom, fantastic job completing the NYC Marathon on November 1st! As today is November 21st, you are now well into your post-marathon recovery phase, and the provided Hal Higdon 'Week 18' plan (which includes a marathon on Sunday) is no longer applicable. Our focus shifts entirely to smart recovery and reflection.\n\n---\n\n**Fitness Assessment**\nBased on your consistent training leading up to NYC, your aerobic fitness was excellent. Your HR trending down 10bpm over your last 6 runs (74% in Z2) and sustained wattage in the 250-270W range during long runs like the 16.51mi at 9:47/mi indicated strong aerobic adaptation. This preparation likely set you up well for your predicted 4:18:57 marathon time.\n\n**This Week's Focus**\nGiven the NYC Marathon was on November 1st, this week (November 17-23) is crucial for recovery, not peak training. The Hal Higdon \"Week 18\" schedule is no longer relevant; instead, prioritize rest, gentle movement, and listening to your body. Consider short, easy walks (1-2 miles) at a conversational pace if you feel up to it, keeping your heart rate firmly in Z1 or low Z2 (<140 bpm).\n\n**Key Priorities**\n*   **Full Recovery:** Dedicate this period to complete physical and mental recovery. This means prioritizing sleep, nutrition, and hydration above all else, with no pressure for structured runs.\n*   **Gentle Movement:** If you feel good, incorporate very light, low-impact activities like walking or stretching to aid blood flow and reduce stiffness, ensuring your HR stays well below your Z2 threshold.\n*   **Listen to Your Body:** Pay close attention to any lingering soreness, fatigue, or unusual aches from the marathon. If anything feels off, choose additional rest over activity.\n\n**Watch Out For**\nBe mindful of the temptation to push too hard too soon, or conversely, experience post-marathon blues. Your body needs adequate time to repair and rebuild after the significant demands of the NYC Marathon.\n\n**Upcoming Milestones**\nUse this time to reflect on your incredible accomplishment at the NYC Marathon and celebrate your hard work. Soon, we can begin discussing new running goals for 2027, perhaps a spring half marathon or another fall race."
+  "advice": "Alright Tom, let's get you set up. First off, a huge congratulations on tackling the NYC Marathon! Today is Sunday, November 22, 2026, which means the marathon was 22 days ago on November 1st. The Hal Higdon plan you've provided is for the week *of* the marathon, so we'll pivot our focus to effective post-marathon recovery and getting you back into a sustainable routine.\n\n---\n\n**Fitness Assessment**\nYou went into the marathon in excellent aerobic shape, showing a fantastic \"HR trending DOWN 10bpm over last 6 runs,\" indicating strong adaptation and efficiency. Your long runs, like 16.51mi @ 9:47/mi and 13.57mi @ 9:39/mi, were executed predominantly in Z2 (74% of recent runs), building a robust endurance base. Consistent watts in the 230-260W range for these efforts further highlight your sustained power output at easy paces.\n\n**This Week's Focus**\nGiven the marathon was 22 days ago, the Hal Higdon plan is now obsolete. This week is about gentle re-entry into running and active recovery. We'll aim for 2-3 very easy, short runs (e.g., 2-3 miles) focusing purely on feeling good and moving your body, rather than hitting any specific paces or distances. Consider incorporating light cross-training like cycling or swimming if you feel up to it, especially with the upcoming windy and rainy weather.\n\n**Key Priorities**\n*   **Listen to your body:** Prioritize how you feel above all else; if any aches or pains arise, stop or switch to non-impact activities.\n*   **Maintain Z2 for runs:** Any running you do should be at a very easy, conversational pace, keeping your HR firmly in Z2 (124-154 bpm) to continue aerobic development without stress.\n*   **Focus on enjoyment:** Reconnect with the joy of running without the pressure of training, taking advantage of your strong fitness base.\n\n**Watch Out For**\nThe biggest red flag post-marathon is pushing too hard too soon, which can lead to injury or mental burnout. Avoid any structured speed work, long runs, or intense efforts this week; your body is still rebuilding and adapting from the marathon effort.\n\n**Upcoming Milestones**\nTake time to truly celebrate and reflect on the immense accomplishment of completing the NYC Marathon! Once you're fully recovered and feeling refreshed, we can discuss setting new running goals for the winter and spring, whether that's a new distance, a PR attempt, or simply maintaining your excellent fitness."
 }
