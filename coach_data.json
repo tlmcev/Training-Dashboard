@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22 18:06:54",
+  "updated_at": "2026-11-23 22:17:18",
   "current_week": 18,
   "phase": "training",
   "days_to_plan_start": 0,
@@ -2439,59 +2439,59 @@
   ],
   "weather": [
     {
-      "date": "2026-11-22",
-      "high": 65,
-      "low": 54,
-      "precip": 0.0,
-      "windspeed": 8,
-      "code": 45
-    },
-    {
       "date": "2026-11-23",
-      "high": 66,
-      "low": 41,
+      "high": 70,
+      "low": 48,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 13,
       "code": 3
     },
     {
       "date": "2026-11-24",
-      "high": 46,
-      "low": 38,
+      "high": 48,
+      "low": 31,
       "precip": 0.0,
-      "windspeed": 17,
+      "windspeed": 15,
       "code": 3
     },
     {
       "date": "2026-11-25",
-      "high": 48,
-      "low": 37,
+      "high": 47,
+      "low": 30,
       "precip": 0.0,
-      "windspeed": 14,
+      "windspeed": 15,
       "code": 3
     },
     {
       "date": "2026-11-26",
-      "high": 56,
-      "low": 45,
-      "precip": 1.01,
-      "windspeed": 31,
-      "code": 63
+      "high": 55,
+      "low": 46,
+      "precip": 1.78,
+      "windspeed": 32,
+      "code": 82
     },
     {
       "date": "2026-11-27",
       "high": 55,
-      "low": 47,
-      "precip": 0.36,
+      "low": 44,
+      "precip": 0.03,
       "windspeed": 20,
-      "code": 63
+      "code": 51
     },
     {
       "date": "2026-11-28",
       "high": 54,
       "low": 45,
+      "precip": 0.04,
+      "windspeed": 17,
+      "code": 51
+    },
+    {
+      "date": "2026-11-29",
+      "high": 54,
+      "low": 45,
       "precip": 0.0,
-      "windspeed": 18,
+      "windspeed": 14,
       "code": 3
     }
   ],
@@ -2542,5 +2542,5 @@
     "Z5": 0
   },
   "max_hr": 190,
-  "advice": "Alright Tom, let's get you set up. First off, a huge congratulations on tackling the NYC Marathon! Today is Sunday, November 22, 2026, which means the marathon was 22 days ago on November 1st. The Hal Higdon plan you've provided is for the week *of* the marathon, so we'll pivot our focus to effective post-marathon recovery and getting you back into a sustainable routine.\n\n---\n\n**Fitness Assessment**\nYou went into the marathon in excellent aerobic shape, showing a fantastic \"HR trending DOWN 10bpm over last 6 runs,\" indicating strong adaptation and efficiency. Your long runs, like 16.51mi @ 9:47/mi and 13.57mi @ 9:39/mi, were executed predominantly in Z2 (74% of recent runs), building a robust endurance base. Consistent watts in the 230-260W range for these efforts further highlight your sustained power output at easy paces.\n\n**This Week's Focus**\nGiven the marathon was 22 days ago, the Hal Higdon plan is now obsolete. This week is about gentle re-entry into running and active recovery. We'll aim for 2-3 very easy, short runs (e.g., 2-3 miles) focusing purely on feeling good and moving your body, rather than hitting any specific paces or distances. Consider incorporating light cross-training like cycling or swimming if you feel up to it, especially with the upcoming windy and rainy weather.\n\n**Key Priorities**\n*   **Listen to your body:** Prioritize how you feel above all else; if any aches or pains arise, stop or switch to non-impact activities.\n*   **Maintain Z2 for runs:** Any running you do should be at a very easy, conversational pace, keeping your HR firmly in Z2 (124-154 bpm) to continue aerobic development without stress.\n*   **Focus on enjoyment:** Reconnect with the joy of running without the pressure of training, taking advantage of your strong fitness base.\n\n**Watch Out For**\nThe biggest red flag post-marathon is pushing too hard too soon, which can lead to injury or mental burnout. Avoid any structured speed work, long runs, or intense efforts this week; your body is still rebuilding and adapting from the marathon effort.\n\n**Upcoming Milestones**\nTake time to truly celebrate and reflect on the immense accomplishment of completing the NYC Marathon! Once you're fully recovered and feeling refreshed, we can discuss setting new running goals for the winter and spring, whether that's a new distance, a PR attempt, or simply maintaining your excellent fitness."
+  "advice": "Hey Tom, fantastic job on completing the NYC Marathon! Let's get you recovered and reflect on your incredible achievement.\n\n**Fitness Assessment**\nTom, your recent runs leading into the NYC Marathon demonstrated excellent aerobic fitness, consistently holding Z2 heart rates (e.g., 144-147 bpm) at strong paces (9:06-9:23/mi) with robust power (261-265W). The impressive 10bpm HR trend reduction over your last six runs and a dominant 74% Z2 distribution highlight superior aerobic adaptation and peak readiness for race day. Your 10 PRs on October 24th further underscore your top-tier conditioning.\n\n**This Week's Focus**\nGiven the NYC Marathon was on November 1st, this week's focus is entirely on deep recovery and active rest, not the provided pre-marathon training plan. Your body is still rebuilding from the monumental effort 23 days ago, so prioritize gentle movement like walking or light cycling. Listen intently to any lingering fatigue or soreness, allowing your body to fully reset.\n\n**Key Priorities**\n*   Continue to prioritize rest and gentle cross-training over structured running to ensure full physical and mental recovery from the marathon.\n*   Focus on nutrient-dense meals and consistent hydration to support muscle repair and replenish depleted energy stores.\n*   Begin to reflect on your marathon experience, noting what went well and areas for future improvement, but without pressure to plan your next race immediately.\n\n**Watch Out For**\nBe vigilant for any persistent aches, pains, or unusual fatigue that could signal delayed onset muscle soreness or potential injury from the marathon effort. Avoid any high-impact activities or intense runs until your body feels completely recovered.\n\n**Upcoming Milestones**\nYour immediate milestone is the successful completion of the NYC Marathon! We will soon schedule a debrief to celebrate your achievement, analyze your race data, and discuss your goals for the next training cycle."
 }
