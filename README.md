@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, fantastic job on tackling the NYC Marathon on November 1st! That was a huge accomplishment, and congratulations on completing your goal.
+Hey Tom, great work making it through the NYC Marathon! Today is November 25th, so we're well into the post-marathon recovery phase. Let's look at your recent data and what's next.
 
-It's Tuesday, November 24th, which means we're now 24 days post-marathon. While the "Week 18" Hal Higdon plan was your final taper leading up to race day, this week is all about smart recovery and gently easing back into movement.
+**Fitness Assessment**
+You showed excellent aerobic development leading into the marathon, with your average HR trending down 10bpm over your last six runs, indicating improved efficiency. Your consistent Z2 average HR on long runs like the 13.57mi @ 9:39/mi on Oct 17th (avg 151bpm) and 16.51mi @ 9:47/mi on Oct 3rd (avg 152bpm) suggests a strong endurance base. The pre-marathon taper was also well executed, with very easy shakeout runs of 1.77mi @ 10:14/mi and 1.81mi @ 11:36/mi in the final days.
 
----
-
+**This Week's Focus**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ It's Tuesday, November 24th, which means we're now 24 days post-marathon. While 
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-11-24 20:55:13 UTC | Run ID: 45485700694*
+*Last updated: 2026-11-25 20:16:58 UTC | Run ID: 45693434616*
