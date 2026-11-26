@@ -16,12 +16,12 @@
 
 ## AI Coach Snapshot
 
-Hey Tom, great work making it through the NYC Marathon! Today is November 25th, so we're well into the post-marathon recovery phase. Let's look at your recent data and what's next.
+Alright Tom, let's take a look at where you're at. It's November 26, and the NYC Marathon was on November 1st, so congratulations on completing your goal! We're now 25 days post-marathon, and your training plan for "Week 18 of 18" was for the week *leading up to* the marathon.
 
 **Fitness Assessment**
-You showed excellent aerobic development leading into the marathon, with your average HR trending down 10bpm over your last six runs, indicating improved efficiency. Your consistent Z2 average HR on long runs like the 13.57mi @ 9:39/mi on Oct 17th (avg 151bpm) and 16.51mi @ 9:47/mi on Oct 3rd (avg 152bpm) suggests a strong endurance base. The pre-marathon taper was also well executed, with very easy shakeout runs of 1.77mi @ 10:14/mi and 1.81mi @ 11:36/mi in the final days.
+Your training leading into the NYC Marathon was excellent, showing strong aerobic development. Your HR trended down by 10bpm over the last six runs, indicating superb adaptation and readiness, with most efforts comfortably in Z2 (74% of recent runs). Long runs like 16.51mi @ 9:47/mi and 13.57mi @ 9:39/mi demonstrated consistent endurance at a well-controlled effort.
 
-**This Week's Focus**
+**This Week's Focus (November 26 - December 2)**
 
 *[Read full coaching advice →](./latest_advice.txt)*
 
@@ -51,4 +51,4 @@ You showed excellent aerobic development leading into the marathon, with your av
 | 18 | Rest | 3m run | 2m run | Rest | Rest | 2m run | **NYC Marathon** |
 
 ---
-*Last updated: 2026-11-25 20:16:58 UTC | Run ID: 45693434616*
+*Last updated: 2026-11-26 19:54:18 UTC | Run ID: 45887075484*
